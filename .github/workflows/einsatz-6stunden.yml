@@ -28,7 +28,10 @@ jobs:
         run: |
           curl --etag-save ./data/json_6stunden.etag \
             --etag-compare ./data/json_6stunden.etag \
-            https://cf-intranet.ooelfv.at/webext2/rss/json_6stunden.txt | jq -S > ./data/json_6stunden.json
+            https://cf-intranet.ooelfv.at/webext2/rss/json_6stunden.txt -o ./data/json_6stunden.json
+          mv ./data/json_6stunden.json ./data/json_6stunden.json.tmp
+          cat ./data/json_6stunden.json.tmp | jq -S > ./data/json_6stunden.json
+          rm ./data/json_6stunden.json.tmp
 
       # Runs a set of commands using the runners shell
       - name: Commit and push if changed
