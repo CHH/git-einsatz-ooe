@@ -1,17 +1,15 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: "Download Einsätze (6 Stunden)"
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  schedule:
+    - cron: '12 */6 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,11 +24,18 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Download data
+        run: |
+          curl --etag-save ./data/json_6stunden.etag \
+            --etag-compare ./data/json_6stunden.etag \
+            https://cf-intranet.ooelfv.at/webext2/rss/json_6stunden.txt | jq -S > ./data/json_6stunden.json
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Commit and push if changed
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config user.name "GitHub Actions"
+          git config user.email "bot@hochstrasser.io"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
