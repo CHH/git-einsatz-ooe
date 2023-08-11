@@ -1,0 +1,52 @@
+# This is a basic workflow to help you get started with Actions
+
+name: "Download Einsätze NÖ (Laufend)"
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.15'
+
+      - name: Install pup
+        run: |
+          go get github.com/ericchiang/pup
+
+      # Runs a single command using the runners shell
+      - name: Download data
+        run: |
+          curl --etag-save ./data/noe/einsatz_aktuell.etag \
+            --etag-compare ./data/noe/einsatz_aktuell.etag \
+            https://www.feuerwehr-krems.at/codepages/wastl/wastlmain/Land_EinsatzAktuell.asp -o ./data/noe/einsatz_aktuell.html
+          pup -f ./data/noe/einsatz_aktuell.html 'table tr json{}' | jq -S '. | map(.children | map(.text)[1:])' > ./data/noe/einsatz_aktuell.json
+          rm ./data/noe/einsatz_aktuell.html
+
+      # Runs a set of commands using the runners shell
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "bot@hochstrasser.io"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
