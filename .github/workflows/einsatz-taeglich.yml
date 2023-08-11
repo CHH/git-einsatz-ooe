@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: "Download Einsätze (6 Stunden)"
+name: "Download Einsätze (aktueller Tag)"
 
 # Controls when the workflow will run
 on:
@@ -9,7 +9,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron: '12 */6 * * *'
+    - cron: '12 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,12 +26,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Download data
         run: |
-          curl --etag-save ./data/json_6stunden.etag \
-            --etag-compare ./data/json_6stunden.etag \
-            https://cf-intranet.ooelfv.at/webext2/rss/json_6stunden.txt -o ./data/json_6stunden.json
-          mv ./data/json_6stunden.json ./data/json_6stunden.json.tmp
-          cat ./data/json_6stunden.json.tmp | jq -S > ./data/json_6stunden.json
-          rm ./data/json_6stunden.json.tmp
+          curl --etag-save ./data/json_taeglich.etag \
+            --etag-compare ./data/json_taeglich.etag \
+            https://cf-intranet.ooelfv.at/webext2/rss/json_taeglich.txt -o ./data/json_taeglich.json
+          mv ./data/json_taeglich.json ./data/json_taeglich.json.tmp
+          cat ./data/json_taeglich.json.tmp | jq -S > ./data/json_taeglich.json
+          rm ./data/json_taeglich.json.tmp
 
       # Runs a set of commands using the runners shell
       - name: Commit and push if changed
