@@ -1,6 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": {
+    "0": {
+      "einsatz": {
+        "adresse": {
+          "default": "BAUERNFELDSTRAßE 27",
+          "earea": "NEUHOFEN AN DER KREMS",
+          "ecompl": "KRUIß ERICH",
+          "efeanme": "BAUERNFELDSTRAßE",
+          "emun": "NEUHOFEN AN DER KREMS",
+          "estnum": "27"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - NEUHOFEN AN DER KREMS",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "406307": {
+            "feuerwehr": "FF Neuhofen an der Krems"
+          },
+          "406313": {
+            "feuerwehr": "FF Weissenberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Neuhofen an der Krems",
+            "fwnr": "406307"
+          },
+          "1": {
+            "fwname": "FF Weissenberg",
+            "fwnr": "406313"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801165",
+        "startzeit": "Sat, 12 Aug 2023 10:24:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.141562,
+          "lng": 14.23978
+        }
+      }
+    }
+  },
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
