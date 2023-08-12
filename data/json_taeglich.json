@@ -1,8 +1,62 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 10,
   "einsaetze": {
     "0": {
+      "einsatz": {
+        "adresse": {
+          "default": "FABRIKSTRAßE 20",
+          "earea": "",
+          "ecompl": "00000-61160-1",
+          "efeanme": "FABRIKSTRAßE",
+          "emun": "TRAUN",
+          "estnum": "20"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - TRAUN",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "FF Traun"
+          },
+          "406263": {
+            "feuerwehr": "BTF Dr. Franz Feurstein Ges.m.b.H"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Traun",
+            "fwnr": "406222"
+          },
+          "1": {
+            "fwname": "BTF Dr. Franz Feurstein Ges.m.b.H",
+            "fwnr": "406263"
+          }
+        },
+        "inzeit": "Sat, 12 Aug 2023 07:12:58 +0200",
+        "num1": "E230801150",
+        "startzeit": "Sat, 12 Aug 2023 06:44:29 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.219025,
+          "lng": 14.244033
+        }
+      }
+    },
+    "1": {
       "einsatz": {
         "adresse": {
           "default": "MÖRSCHWANG",
@@ -49,7 +103,7 @@
         }
       }
     },
-    "1": {
+    "2": {
       "einsatz": {
         "adresse": {
           "default": "STEIERMÄRKER STRAßE 49",
@@ -96,7 +150,7 @@
         }
       }
     },
-    "2": {
+    "3": {
       "einsatz": {
         "adresse": {
           "default": "A9 FAHRTR. VORALPENK",
@@ -150,7 +204,7 @@
         }
       }
     },
-    "3": {
+    "4": {
       "einsatz": {
         "adresse": {
           "default": "FISCHHUBWEG 16",
@@ -204,7 +258,7 @@
         }
       }
     },
-    "4": {
+    "5": {
       "einsatz": {
         "adresse": {
           "default": "MATZING ",
@@ -251,7 +305,7 @@
         }
       }
     },
-    "5": {
+    "6": {
       "einsatz": {
         "adresse": {
           "default": "HÖRSCHING",
@@ -299,7 +353,7 @@
       }
     }
   },
-  "pubDate": "Sat, 12 Aug 2023 06:19:05 +0200",
+  "pubDate": "Sat, 12 Aug 2023 07:18:05 +0200",
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
