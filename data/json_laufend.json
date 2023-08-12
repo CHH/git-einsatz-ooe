@@ -1,8 +1,62 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": {
     "0": {
+      "einsatz": {
+        "adresse": {
+          "default": "ENZENKIRCHEN",
+          "earea": "",
+          "ecompl": "UNGERNBERG",
+          "efeanme": "",
+          "emun": "ENZENKIRCHEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ENZENKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410206": {
+            "feuerwehr": "FF Enzenkirchen"
+          },
+          "410210": {
+            "feuerwehr": "FF Matzing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Enzenkirchen",
+            "fwnr": "410206"
+          },
+          "1": {
+            "fwname": "FF Matzing",
+            "fwnr": "410210"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801181",
+        "startzeit": "Sat, 12 Aug 2023 13:52:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.397369,
+          "lng": 13.667983
+        }
+      }
+    },
+    "1": {
       "einsatz": {
         "adresse": {
           "default": "PEISKAM 6",
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": 47.96694,
           "lng": 13.795609
-        }
-      }
-    },
-    "1": {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. MARIENKIRCHEN BEI SCHÄRDING",
-          "earea": "",
-          "ecompl": "B149 SUBENER STRAßE KM 7.2 HÖHE ANDIESEN",
-          "efeanme": "",
-          "emun": "ST. MARIENKIRCHEN BEI SCHÄRDING",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - ST. MARIENKIRCHEN BEI SCHÄRDING",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410320": {
-            "feuerwehr": "FF St. Marienkirchen bei Schärding"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Marienkirchen bei Schärding",
-            "fwnr": "410320"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801172",
-        "startzeit": "Sat, 12 Aug 2023 11:55:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.394223,
-          "lng": 13.428289
         }
       }
     }
