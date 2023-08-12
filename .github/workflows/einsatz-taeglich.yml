@@ -23,6 +23,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - uses: actions/cache@v3
+        with:
+          path: |
+            data/json_taeglich.etag
+          key: ${{ runner.os }}-json-taeglich-etag
+
       # Runs a single command using the runners shell
       - name: Download data
         run: |
