@@ -1,13 +1,60 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": {
     "0": {
       "einsatz": {
         "adresse": {
+          "default": "ESTERNBERG",
+          "earea": "",
+          "ecompl": "B130 NIBELUNGENSTRAßE KM 43.6 HÖHE HÜTT",
+          "efeanme": "",
+          "emun": "ESTERNBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ESTERNBERG",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410113": {
+            "feuerwehr": "FF Pyrawang"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pyrawang",
+            "fwnr": "410113"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801204",
+        "startzeit": "Sat, 12 Aug 2023 17:30:38 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.553609,
+          "lng": 13.624818
+        }
+      }
+    },
+    "1": {
+      "einsatz": {
+        "adresse": {
           "default": "BERG IM ATTERGAU",
           "earea": "",
-          "ecompl": "FW HIPPING",
+          "ecompl": "L540 ATTERGAUSTRAßE KM 3.820 HÖHE WALSBERG",
           "efeanme": "",
           "emun": "BERG IM ATTERGAU",
           "estnum": ""
@@ -44,12 +91,12 @@
         "startzeit": "Sat, 12 Aug 2023 17:26:00 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 47.95105,
-          "lng": 13.46614
+          "lat": 47.962125,
+          "lng": 13.468825
         }
       }
     },
-    "1": {
+    "2": {
       "einsatz": {
         "adresse": {
           "default": "HAIDER STRAßE 38",
@@ -96,7 +143,7 @@
         }
       }
     },
-    "2": {
+    "3": {
       "einsatz": {
         "adresse": {
           "default": "WEIßKIRCHEN AN DER TRAUN",
@@ -140,107 +187,6 @@
         "wgs84": {
           "lat": 48.177657,
           "lng": 14.155989
-        }
-      }
-    },
-    "3": {
-      "einsatz": {
-        "adresse": {
-          "default": "HADERSDORF 8",
-          "earea": "HADERSDORF",
-          "ecompl": "",
-          "efeanme": "HADERSDORF",
-          "emun": "ALBERNDORF IN DER RIEDMARK",
-          "estnum": "8"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - ALBERNDORF IN DER RIEDMARK",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412311": {
-            "feuerwehr": "FF Pröselsdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Pröselsdorf",
-            "fwnr": "412311"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801192",
-        "startzeit": "Sat, 12 Aug 2023 15:21:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.421544,
-          "lng": 14.425838
-        }
-      }
-    },
-    "4": {
-      "einsatz": {
-        "adresse": {
-          "default": "KIRCHBERG BEI MATTIGHOFEN",
-          "earea": "",
-          "ecompl": "EGLSEE",
-          "efeanme": "",
-          "emun": "KIRCHBERG BEI MATTIGHOFEN",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - KIRCHBERG BEI MATTIGHOFEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BG",
-          "text": "BRANDEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "400203": {
-            "feuerwehr": "FF Feldkirchen bei Mattighofen"
-          },
-          "400221": {
-            "feuerwehr": "FF Siegertshaft-Kirchberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Feldkirchen bei Mattighofen",
-            "fwnr": "400203"
-          },
-          "1": {
-            "fwname": "FF Siegertshaft-Kirchberg",
-            "fwnr": "400221"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801186",
-        "startzeit": "Sat, 12 Aug 2023 14:31:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.036857,
-          "lng": 13.076031
         }
       }
     }
