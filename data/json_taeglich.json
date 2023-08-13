@@ -1,72 +1,248 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 44,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 50,
   "einsaetze": {
     "0": {
       "einsatz": {
         "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
+          "default": "BRANDSTÄTTERSTRAßE 6",
+          "earea": "ASCHACH AN DER DONAU",
+          "ecompl": "00000-11002-1",
+          "efeanme": "BRANDSTÄTTERSTRAßE",
+          "emun": "ASCHACH AN DER DONAU",
+          "estnum": "6"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 1,
+          "text": "Eferding"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "GM - ",
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - ASCHACH AN DER DONAU",
         "einsatzsubtyp": {
-          "id": "BOOTSB-ÖWR",
-          "text": "BOOTSBERGUNG"
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
         },
         "einsatztyp": {
-          "id": "ÖWR",
-          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
         },
         "feuerwehren": {
-          "OWR41892010": {
-            "feuerwehr": "ÖWR TRAUNKIRCHEN"
+          "401102": {
+            "feuerwehr": "FF Aschach an der Donau"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "ÖWR TRAUNKIRCHEN",
-            "fwnr": "OWR41892010"
+            "fwname": "FF Aschach an der Donau",
+            "fwnr": "401102"
           }
         },
         "inzeit": "",
-        "num1": "E230801290",
-        "startzeit": "Sun, 13 Aug 2023 20:11:39 +0200",
+        "num1": "E230801297",
+        "startzeit": "Sun, 13 Aug 2023 21:00:32 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 47.875119,
-          "lng": 13.779452
+          "lat": 48.361026,
+          "lng": 14.021709
         }
       }
     },
     "1": {
       "einsatz": {
         "adresse": {
-          "default": "BADSTRAßE 6",
-          "earea": "NATTERNBACH",
-          "ecompl": "FREIBAD FREIBAD NATTERNBACH",
-          "efeanme": "BADSTRAßE",
-          "emun": "NATTERNBACH",
-          "estnum": "6"
+          "default": "BAHNHOFSTRAßE 1",
+          "earea": "VORCHDORF",
+          "ecompl": "",
+          "efeanme": "BAHNHOFSTRAßE",
+          "emun": "VORCHDORF",
+          "estnum": "1"
         },
         "alarmstufe": "2",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - VORCHDORF",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403210": {
+            "feuerwehr": "FF Kirchham"
+          },
+          "403212": {
+            "feuerwehr": "FF Lederau"
+          },
+          "403223": {
+            "feuerwehr": "FF Schart"
+          },
+          "403226": {
+            "feuerwehr": "FF Vorchdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kirchham",
+            "fwnr": "403210"
+          },
+          "1": {
+            "fwname": "FF Lederau",
+            "fwnr": "403212"
+          },
+          "2": {
+            "fwname": "FF Schart",
+            "fwnr": "403223"
+          },
+          "3": {
+            "fwname": "FF Vorchdorf",
+            "fwnr": "403226"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 21:13:39 +0200",
+        "num1": "E230801294",
+        "startzeit": "Sun, 13 Aug 2023 20:42:57 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.002632,
+          "lng": 13.921771
+        }
+      }
+    },
+    "10": {
+      "einsatz": {
+        "adresse": {
+          "default": "ENSFELD 3",
+          "earea": "ENSFELD",
+          "ecompl": "",
+          "efeanme": "ENSFELD",
+          "emun": "ST. AGATHA",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
         "bezirk": {
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - ST. AGATHA",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-BG",
+          "text": "BRANDEINSATZ"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "401107": {
+            "feuerwehr": "FF Haibach ob der Donau"
+          },
+          "404317": {
+            "feuerwehr": "FF St. Agatha / GR"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Haibach ob der Donau",
+            "fwnr": "401107"
+          },
+          "1": {
+            "fwname": "FF St. Agatha / GR",
+            "fwnr": "404317"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 16:24:15 +0200",
+        "num1": "E230801258",
+        "startzeit": "Sun, 13 Aug 2023 14:35:27 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.374313,
+          "lng": 13.868856
+        }
+      }
+    },
+    "11": {
+      "einsatz": {
+        "adresse": {
+          "default": "KRIEGWALD 42",
+          "earea": "KRIEGWALD",
+          "ecompl": "",
+          "efeanme": "KRIEGWALD",
+          "emun": "JULBACH",
+          "estnum": "42"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RO - JULBACH",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409102": {
+            "feuerwehr": "FF Hinterschiffl"
+          },
+          "409103": {
+            "feuerwehr": "FF Julbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hinterschiffl",
+            "fwnr": "409102"
+          },
+          "1": {
+            "fwname": "FF Julbach",
+            "fwnr": "409103"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 15:22:03 +0200",
+        "num1": "E230801256",
+        "startzeit": "Sun, 13 Aug 2023 14:31:59 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.667344,
+          "lng": 13.821584
+        }
+      }
+    },
+    "12": {
+      "einsatz": {
+        "adresse": {
+          "default": "KOPFING IM INNKREIS",
+          "earea": "",
+          "ecompl": "BRÜNDL",
+          "efeanme": "",
+          "emun": "KOPFING IM INNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
         "einsatzart": "TEE",
-        "einsatzort": "GR - NATTERNBACH",
+        "einsatzort": "SD - KOPFING IM INNKREIS",
         "einsatzsubtyp": {
           "id": "SONSTIGE-TK",
           "text": "TECHNISCHER EINSATZ KLEIN"
@@ -76,41 +252,27 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "404311": {
-            "feuerwehr": "FF Natternbach"
-          },
-          "404312": {
-            "feuerwehr": "FF Neukirchen am Walde"
-          },
-          "404321": {
-            "feuerwehr": "FF Tal"
+          "410104": {
+            "feuerwehr": "FF Engertsberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Natternbach",
-            "fwnr": "404311"
-          },
-          "1": {
-            "fwname": "FF Neukirchen am Walde",
-            "fwnr": "404312"
-          },
-          "2": {
-            "fwname": "FF Tal",
-            "fwnr": "404321"
+            "fwname": "FF Engertsberg",
+            "fwnr": "410104"
           }
         },
-        "inzeit": "Sun, 13 Aug 2023 20:00:52 +0200",
-        "num1": "E230801280",
-        "startzeit": "Sun, 13 Aug 2023 18:36:19 +0200",
+        "inzeit": "Sun, 13 Aug 2023 15:01:55 +0200",
+        "num1": "E230801254",
+        "startzeit": "Sun, 13 Aug 2023 14:10:45 +0200",
         "status": "abgeschlossen",
         "wgs84": {
-          "lat": 48.399685,
-          "lng": 13.745038
+          "lat": 48.424666,
+          "lng": 13.672416
         }
       }
     },
-    "10": {
+    "13": {
       "einsatz": {
         "adresse": {
           "default": "MATTIGHOFEN",
@@ -157,7 +319,7 @@
         }
       }
     },
-    "11": {
+    "14": {
       "einsatz": {
         "adresse": {
           "default": "FRITZ-RUBEY-STRAßE 10",
@@ -204,7 +366,7 @@
         }
       }
     },
-    "12": {
+    "15": {
       "einsatz": {
         "adresse": {
           "default": "A9 RICHTUNG GRAZ KM ",
@@ -251,7 +413,7 @@
         }
       }
     },
-    "13": {
+    "16": {
       "einsatz": {
         "adresse": {
           "default": "ORT IM INNKREIS",
@@ -298,7 +460,7 @@
         }
       }
     },
-    "14": {
+    "17": {
       "einsatz": {
         "adresse": {
           "default": "BRUNNENWEG 4",
@@ -345,7 +507,7 @@
         }
       }
     },
-    "15": {
+    "18": {
       "einsatz": {
         "adresse": {
           "default": "ROSENAU 42",
@@ -392,7 +554,7 @@
         }
       }
     },
-    "16": {
+    "19": {
       "einsatz": {
         "adresse": {
           "default": "HINTERSTODER",
@@ -446,7 +608,54 @@
         }
       }
     },
-    "17": {
+    "2": {
+      "einsatz": {
+        "adresse": {
+          "default": "A1 RICHTUNG WIEN KM ",
+          "earea": "",
+          "ecompl": "A1 RICHTUNG WIEN KM 223.702 - 216.606 AUFFAHRT REGAU",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413421": {
+            "feuerwehr": "FF Rutzenmoos"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rutzenmoos",
+            "fwnr": "413421"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801292",
+        "startzeit": "Sun, 13 Aug 2023 20:41:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.955992,
+          "lng": 13.7323
+        }
+      }
+    },
+    "20": {
       "einsatz": {
         "adresse": {
           "default": "GEWERBEPARK 13",
@@ -493,7 +702,7 @@
         }
       }
     },
-    "18": {
+    "21": {
       "einsatz": {
         "adresse": {
           "default": "HASLAU 56",
@@ -547,7 +756,7 @@
         }
       }
     },
-    "19": {
+    "22": {
       "einsatz": {
         "adresse": {
           "default": "STEYR",
@@ -608,7 +817,115 @@
         }
       }
     },
-    "2": {
+    "3": {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - ",
+        "einsatzsubtyp": {
+          "id": "BOOTSB-ÖWR",
+          "text": "BOOTSBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "ÖWR",
+          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+        },
+        "feuerwehren": {
+          "OWR41892010": {
+            "feuerwehr": "ÖWR TRAUNKIRCHEN"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR TRAUNKIRCHEN",
+            "fwnr": "OWR41892010"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 20:57:16 +0200",
+        "num1": "E230801290",
+        "startzeit": "Sun, 13 Aug 2023 20:11:39 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.875119,
+          "lng": 13.779452
+        }
+      }
+    },
+    "4": {
+      "einsatz": {
+        "adresse": {
+          "default": "BADSTRAßE 6",
+          "earea": "NATTERNBACH",
+          "ecompl": "FREIBAD FREIBAD NATTERNBACH",
+          "efeanme": "BADSTRAßE",
+          "emun": "NATTERNBACH",
+          "estnum": "6"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - NATTERNBACH",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404311": {
+            "feuerwehr": "FF Natternbach"
+          },
+          "404312": {
+            "feuerwehr": "FF Neukirchen am Walde"
+          },
+          "404321": {
+            "feuerwehr": "FF Tal"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Natternbach",
+            "fwnr": "404311"
+          },
+          "1": {
+            "fwname": "FF Neukirchen am Walde",
+            "fwnr": "404312"
+          },
+          "2": {
+            "fwname": "FF Tal",
+            "fwnr": "404321"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 20:00:52 +0200",
+        "num1": "E230801280",
+        "startzeit": "Sun, 13 Aug 2023 18:36:19 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.399685,
+          "lng": 13.745038
+        }
+      }
+    },
+    "5": {
       "einsatz": {
         "adresse": {
           "default": "HÖRSCHING",
@@ -666,17 +983,17 @@
             "fwnr": "OWR41892017"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 13 Aug 2023 20:18:25 +0200",
         "num1": "E230801278",
         "startzeit": "Sun, 13 Aug 2023 18:26:10 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.201104,
           "lng": 14.174602
         }
       }
     },
-    "3": {
+    "6": {
       "einsatz": {
         "adresse": {
           "default": "OBERE AU 6",
@@ -723,7 +1040,7 @@
         }
       }
     },
-    "4": {
+    "7": {
       "einsatz": {
         "adresse": {
           "default": "SCHERLEITENSTRAßE 27",
@@ -770,7 +1087,7 @@
         }
       }
     },
-    "5": {
+    "8": {
       "einsatz": {
         "adresse": {
           "default": "WELSER STRAßE 20",
@@ -831,7 +1148,7 @@
         }
       }
     },
-    "6": {
+    "9": {
       "einsatz": {
         "adresse": {
           "default": "KEPLING 8",
@@ -952,161 +1269,6 @@
         "wgs84": {
           "lat": 48.463162,
           "lng": 14.171592
-        }
-      }
-    },
-    "7": {
-      "einsatz": {
-        "adresse": {
-          "default": "ENSFELD 3",
-          "earea": "ENSFELD",
-          "ecompl": "",
-          "efeanme": "ENSFELD",
-          "emun": "ST. AGATHA",
-          "estnum": "3"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - ST. AGATHA",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BG",
-          "text": "BRANDEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "401107": {
-            "feuerwehr": "FF Haibach ob der Donau"
-          },
-          "404317": {
-            "feuerwehr": "FF St. Agatha / GR"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haibach ob der Donau",
-            "fwnr": "401107"
-          },
-          "1": {
-            "fwname": "FF St. Agatha / GR",
-            "fwnr": "404317"
-          }
-        },
-        "inzeit": "Sun, 13 Aug 2023 16:24:15 +0200",
-        "num1": "E230801258",
-        "startzeit": "Sun, 13 Aug 2023 14:35:27 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": 48.374313,
-          "lng": 13.868856
-        }
-      }
-    },
-    "8": {
-      "einsatz": {
-        "adresse": {
-          "default": "KRIEGWALD 42",
-          "earea": "KRIEGWALD",
-          "ecompl": "",
-          "efeanme": "KRIEGWALD",
-          "emun": "JULBACH",
-          "estnum": "42"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "RO - JULBACH",
-        "einsatzsubtyp": {
-          "id": "TUEROE-TK",
-          "text": "TÜRÖFFNUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409102": {
-            "feuerwehr": "FF Hinterschiffl"
-          },
-          "409103": {
-            "feuerwehr": "FF Julbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hinterschiffl",
-            "fwnr": "409102"
-          },
-          "1": {
-            "fwname": "FF Julbach",
-            "fwnr": "409103"
-          }
-        },
-        "inzeit": "Sun, 13 Aug 2023 15:22:03 +0200",
-        "num1": "E230801256",
-        "startzeit": "Sun, 13 Aug 2023 14:31:59 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": 48.667344,
-          "lng": 13.821584
-        }
-      }
-    },
-    "9": {
-      "einsatz": {
-        "adresse": {
-          "default": "KOPFING IM INNKREIS",
-          "earea": "",
-          "ecompl": "BRÜNDL",
-          "efeanme": "",
-          "emun": "KOPFING IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - KOPFING IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410104": {
-            "feuerwehr": "FF Engertsberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Engertsberg",
-            "fwnr": "410104"
-          }
-        },
-        "inzeit": "Sun, 13 Aug 2023 15:01:55 +0200",
-        "num1": "E230801254",
-        "startzeit": "Sun, 13 Aug 2023 14:10:45 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": 48.424666,
-          "lng": 13.672416
         }
       }
     }
