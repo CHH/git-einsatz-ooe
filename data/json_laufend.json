@@ -1,6 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": {
+    "0": {
+      "einsatz": {
+        "adresse": {
+          "default": "HINTERSTODER",
+          "earea": "",
+          "ecompl": "FREIZEITPARK",
+          "efeanme": "",
+          "emun": "HINTERSTODER",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - HINTERSTODER",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "FF Hinterstoder"
+          },
+          "405404": {
+            "feuerwehr": "FF Vorderstoder"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hinterstoder",
+            "fwnr": "405401"
+          },
+          "1": {
+            "fwname": "FF Vorderstoder",
+            "fwnr": "405404"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801235",
+        "startzeit": "Sun, 13 Aug 2023 08:24:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.701987,
+          "lng": 14.158018
+        }
+      }
+    }
+  },
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
