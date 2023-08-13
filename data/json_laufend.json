@@ -1,23 +1,23 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 17,
   "einsaetze": {
     "0": {
       "einsatz": {
         "adresse": {
-          "default": "KEPLING 9",
+          "default": "KEPLING 8",
           "earea": "KEPLING",
           "ecompl": "",
           "efeanme": "KEPLING",
           "emun": "ST. VEIT IM MÜHLKREIS",
-          "estnum": "9"
+          "estnum": "8"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "3",
         "bezirk": {
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 12,
         "einsatzart": "BRAND",
         "einsatzort": "RO - ST. VEIT IM MÜHLKREIS",
         "einsatzsubtyp": {
@@ -29,11 +29,38 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "409301": {
+            "feuerwehr": "FF Altenfelden"
+          },
+          "409309": {
+            "feuerwehr": "FF Niederwaldkirchen"
+          },
+          "409313": {
+            "feuerwehr": "FF St. Johann am Wimberg"
+          },
+          "409315": {
+            "feuerwehr": "FF St. Peter am Wimberg"
+          },
           "409317": {
             "feuerwehr": "FF St. Veit im Mühlkreis"
           },
+          "409402": {
+            "feuerwehr": "FF Ahorn"
+          },
+          "409408": {
+            "feuerwehr": "FF Helfenberg"
+          },
+          "412123": {
+            "feuerwehr": "FF Waldschlag"
+          },
+          "412124": {
+            "feuerwehr": "FF Waxenberg"
+          },
           "412208": {
             "feuerwehr": "FF Herzogsdorf"
+          },
+          "412216": {
+            "feuerwehr": "FF Neudorf"
           },
           "412217": {
             "feuerwehr": "FF Neusserling"
@@ -41,16 +68,52 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Altenfelden",
+            "fwnr": "409301"
+          },
+          "1": {
+            "fwname": "FF Niederwaldkirchen",
+            "fwnr": "409309"
+          },
+          "10": {
+            "fwname": "FF Neudorf",
+            "fwnr": "412216"
+          },
+          "11": {
+            "fwname": "FF Neusserling",
+            "fwnr": "412217"
+          },
+          "2": {
+            "fwname": "FF St. Johann am Wimberg",
+            "fwnr": "409313"
+          },
+          "3": {
+            "fwname": "FF St. Peter am Wimberg",
+            "fwnr": "409315"
+          },
+          "4": {
             "fwname": "FF St. Veit im Mühlkreis",
             "fwnr": "409317"
           },
-          "1": {
+          "5": {
+            "fwname": "FF Ahorn",
+            "fwnr": "409402"
+          },
+          "6": {
+            "fwname": "FF Helfenberg",
+            "fwnr": "409408"
+          },
+          "7": {
+            "fwname": "FF Waldschlag",
+            "fwnr": "412123"
+          },
+          "8": {
+            "fwname": "FF Waxenberg",
+            "fwnr": "412124"
+          },
+          "9": {
             "fwname": "FF Herzogsdorf",
             "fwnr": "412208"
-          },
-          "2": {
-            "fwname": "FF Neusserling",
-            "fwnr": "412217"
           }
         },
         "inzeit": "",
@@ -58,8 +121,8 @@
         "startzeit": "Sun, 13 Aug 2023 14:40:10 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.458516,
-          "lng": 14.171137
+          "lat": 48.463162,
+          "lng": 14.171592
         }
       }
     },
