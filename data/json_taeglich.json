@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 36,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 43,
   "einsaetze": {
     "0": {
       "einsatz": {
         "adresse": {
-          "default": "OBERE AU 6",
-          "earea": "NIEDERNEUKIRCHEN",
-          "ecompl": "",
-          "efeanme": "OBERE AU",
-          "emun": "NIEDERNEUKIRCHEN",
+          "default": "BADSTRAßE 6",
+          "earea": "NATTERNBACH",
+          "ecompl": "FREIBAD FREIBAD NATTERNBACH",
+          "efeanme": "BADSTRAßE",
+          "emun": "NATTERNBACH",
           "estnum": "6"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 4,
+          "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
-        "einsatzort": "LL - NIEDERNEUKIRCHEN",
+        "einsatzort": "GR - NATTERNBACH",
         "einsatzsubtyp": {
           "id": "SONSTIGE-TK",
           "text": "TECHNISCHER EINSATZ KLEIN"
@@ -29,35 +29,117 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "406107": {
-            "feuerwehr": "FF Niederneukirchen"
+          "404311": {
+            "feuerwehr": "FF Natternbach"
+          },
+          "404312": {
+            "feuerwehr": "FF Neukirchen am Walde"
+          },
+          "404321": {
+            "feuerwehr": "FF Tal"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Niederneukirchen",
-            "fwnr": "406107"
+            "fwname": "FF Natternbach",
+            "fwnr": "404311"
+          },
+          "1": {
+            "fwname": "FF Neukirchen am Walde",
+            "fwnr": "404312"
+          },
+          "2": {
+            "fwname": "FF Tal",
+            "fwnr": "404321"
           }
         },
         "inzeit": "",
-        "num1": "E230801274",
-        "startzeit": "Sun, 13 Aug 2023 18:08:28 +0200",
+        "num1": "E230801280",
+        "startzeit": "Sun, 13 Aug 2023 18:36:19 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.158942,
-          "lng": 14.3534
+          "lat": 48.399685,
+          "lng": 13.745038
         }
       }
     },
     "1": {
       "einsatz": {
         "adresse": {
-          "default": "SCHERLEITENSTRAßE 27",
-          "earea": "HAUSMANNING",
+          "default": "HÖRSCHING",
+          "earea": "",
+          "ecompl": "RUTZINGERSEE GEWÄSSER",
+          "efeanme": "",
+          "emun": "HÖRSCHING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - HÖRSCHING",
+        "einsatzsubtyp": {
+          "id": "TAUCH-TG",
+          "text": "TAUCHEINSATZ"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "406219": {
+            "feuerwehr": "FF Rutzing"
+          },
+          "406222": {
+            "feuerwehr": "FF Traun"
+          },
+          "414215": {
+            "feuerwehr": "FF Marchtrenk"
+          },
+          "OWR41892017": {
+            "feuerwehr": "ÖWR TAUCHER"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rutzing",
+            "fwnr": "406219"
+          },
+          "1": {
+            "fwname": "FF Traun",
+            "fwnr": "406222"
+          },
+          "2": {
+            "fwname": "FF Marchtrenk",
+            "fwnr": "414215"
+          },
+          "3": {
+            "fwname": "ÖWR TAUCHER",
+            "fwnr": "OWR41892017"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801278",
+        "startzeit": "Sun, 13 Aug 2023 18:26:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.201104,
+          "lng": 14.174602
+        }
+      }
+    },
+    "10": {
+      "einsatz": {
+        "adresse": {
+          "default": "FRITZ-RUBEY-STRAßE 10",
+          "earea": "MICHELDORF",
           "ecompl": "",
-          "efeanme": "SCHERLEITENSTRAßE",
-          "emun": "SCHLIERBACH",
-          "estnum": "27"
+          "efeanme": "FRITZ-RUBEY-STRAßE",
+          "emun": "MICHELDORF IN OBERÖSTERREICH",
+          "estnum": "10"
         },
         "alarmstufe": 1,
         "bezirk": {
@@ -66,37 +148,84 @@
         },
         "cntfeuerwehren": 1,
         "einsatzart": "BRAND",
-        "einsatzort": "KI - SCHLIERBACH",
+        "einsatzort": "KI - MICHELDORF IN OBERÖSTERREICH",
         "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
         },
         "einsatztyp": {
           "id": "BK",
           "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "405213": {
-            "feuerwehr": "FF Schlierbach"
+          "405208": {
+            "feuerwehr": "FF Micheldorf in Oberösterreich"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Schlierbach",
-            "fwnr": "405213"
+            "fwname": "FF Micheldorf in Oberösterreich",
+            "fwnr": "405208"
           }
         },
-        "inzeit": "",
-        "num1": "E230801269",
-        "startzeit": "Sun, 13 Aug 2023 17:42:52 +0200",
-        "status": "offen",
+        "inzeit": "Sun, 13 Aug 2023 12:22:44 +0200",
+        "num1": "E230801248",
+        "startzeit": "Sun, 13 Aug 2023 11:49:28 +0200",
+        "status": "abgeschlossen",
         "wgs84": {
-          "lat": 47.915058,
-          "lng": 14.129003
+          "lat": 47.888082,
+          "lng": 14.130944
         }
       }
     },
-    "10": {
+    "11": {
+      "einsatz": {
+        "adresse": {
+          "default": "A9 RICHTUNG GRAZ KM ",
+          "earea": "",
+          "ecompl": "A9 RICHTUNG GRAZ KM 37.4 - 37.7 TUNNEL KRENNGRABEN",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - ",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405402": {
+            "feuerwehr": "FF St. Pankraz"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Pankraz",
+            "fwnr": "405402"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 14:27:39 +0200",
+        "num1": "E230801246",
+        "startzeit": "Sun, 13 Aug 2023 11:41:13 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.766571,
+          "lng": 14.189331
+        }
+      }
+    },
+    "12": {
       "einsatz": {
         "adresse": {
           "default": "ORT IM INNKREIS",
@@ -143,7 +272,7 @@
         }
       }
     },
-    "11": {
+    "13": {
       "einsatz": {
         "adresse": {
           "default": "BRUNNENWEG 4",
@@ -190,7 +319,7 @@
         }
       }
     },
-    "12": {
+    "14": {
       "einsatz": {
         "adresse": {
           "default": "ROSENAU 42",
@@ -237,7 +366,7 @@
         }
       }
     },
-    "13": {
+    "15": {
       "einsatz": {
         "adresse": {
           "default": "HINTERSTODER",
@@ -291,7 +420,7 @@
         }
       }
     },
-    "14": {
+    "16": {
       "einsatz": {
         "adresse": {
           "default": "GEWERBEPARK 13",
@@ -338,7 +467,7 @@
         }
       }
     },
-    "15": {
+    "17": {
       "einsatz": {
         "adresse": {
           "default": "HASLAU 56",
@@ -392,7 +521,7 @@
         }
       }
     },
-    "16": {
+    "18": {
       "einsatz": {
         "adresse": {
           "default": "STEYR",
@@ -456,6 +585,100 @@
     "2": {
       "einsatz": {
         "adresse": {
+          "default": "OBERE AU 6",
+          "earea": "NIEDERNEUKIRCHEN",
+          "ecompl": "",
+          "efeanme": "OBERE AU",
+          "emun": "NIEDERNEUKIRCHEN",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - NIEDERNEUKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406107": {
+            "feuerwehr": "FF Niederneukirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Niederneukirchen",
+            "fwnr": "406107"
+          }
+        },
+        "inzeit": "Sun, 13 Aug 2023 18:33:46 +0200",
+        "num1": "E230801274",
+        "startzeit": "Sun, 13 Aug 2023 18:08:28 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.158942,
+          "lng": 14.3534
+        }
+      }
+    },
+    "3": {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHERLEITENSTRAßE 27",
+          "earea": "HAUSMANNING",
+          "ecompl": "",
+          "efeanme": "SCHERLEITENSTRAßE",
+          "emun": "SCHLIERBACH",
+          "estnum": "27"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - SCHLIERBACH",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405213": {
+            "feuerwehr": "FF Schlierbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schlierbach",
+            "fwnr": "405213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801269",
+        "startzeit": "Sun, 13 Aug 2023 17:42:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.915058,
+          "lng": 14.129003
+        }
+      }
+    },
+    "4": {
+      "einsatz": {
+        "adresse": {
           "default": "WELSER STRAßE 20",
           "earea": "HAAG",
           "ecompl": "",
@@ -504,17 +727,17 @@
             "fwnr": "406218"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 13 Aug 2023 19:03:13 +0200",
         "num1": "E230801266",
         "startzeit": "Sun, 13 Aug 2023 16:30:38 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.272495,
           "lng": 14.269962
         }
       }
     },
-    "3": {
+    "5": {
       "einsatz": {
         "adresse": {
           "default": "KEPLING 8",
@@ -628,17 +851,17 @@
             "fwnr": "412208"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 13 Aug 2023 18:42:43 +0200",
         "num1": "E230801260",
         "startzeit": "Sun, 13 Aug 2023 14:40:10 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.463162,
           "lng": 14.171592
         }
       }
     },
-    "4": {
+    "6": {
       "einsatz": {
         "adresse": {
           "default": "ENSFELD 3",
@@ -692,7 +915,7 @@
         }
       }
     },
-    "5": {
+    "7": {
       "einsatz": {
         "adresse": {
           "default": "KRIEGWALD 42",
@@ -746,7 +969,7 @@
         }
       }
     },
-    "6": {
+    "8": {
       "einsatz": {
         "adresse": {
           "default": "KOPFING IM INNKREIS",
@@ -793,7 +1016,7 @@
         }
       }
     },
-    "7": {
+    "9": {
       "einsatz": {
         "adresse": {
           "default": "MATTIGHOFEN",
@@ -837,100 +1060,6 @@
         "wgs84": {
           "lat": 48.110864,
           "lng": 13.142583
-        }
-      }
-    },
-    "8": {
-      "einsatz": {
-        "adresse": {
-          "default": "FRITZ-RUBEY-STRAßE 10",
-          "earea": "MICHELDORF",
-          "ecompl": "",
-          "efeanme": "FRITZ-RUBEY-STRAßE",
-          "emun": "MICHELDORF IN OBERÖSTERREICH",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - MICHELDORF IN OBERÖSTERREICH",
-        "einsatzsubtyp": {
-          "id": "ABFALL-BK",
-          "text": "BRAND ABFALL, CONTAINER"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405208": {
-            "feuerwehr": "FF Micheldorf in Oberösterreich"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Micheldorf in Oberösterreich",
-            "fwnr": "405208"
-          }
-        },
-        "inzeit": "Sun, 13 Aug 2023 12:22:44 +0200",
-        "num1": "E230801248",
-        "startzeit": "Sun, 13 Aug 2023 11:49:28 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": 47.888082,
-          "lng": 14.130944
-        }
-      }
-    },
-    "9": {
-      "einsatz": {
-        "adresse": {
-          "default": "A9 RICHTUNG GRAZ KM ",
-          "earea": "",
-          "ecompl": "A9 RICHTUNG GRAZ KM 37.4 - 37.7 TUNNEL KRENNGRABEN",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - ",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405402": {
-            "feuerwehr": "FF St. Pankraz"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Pankraz",
-            "fwnr": "405402"
-          }
-        },
-        "inzeit": "Sun, 13 Aug 2023 14:27:39 +0200",
-        "num1": "E230801246",
-        "startzeit": "Sun, 13 Aug 2023 11:41:13 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": 47.766571,
-          "lng": 14.189331
         }
       }
     }
