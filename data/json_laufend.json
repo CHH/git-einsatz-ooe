@@ -1,7 +1,75 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHLOßHOLZWEG 14",
+          "earea": "ALTMÜNSTER",
+          "ecompl": "",
+          "efeanme": "SCHLOßHOLZWEG",
+          "emun": "ALTMÜNSTER",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - ALTMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "FF Altmünster"
+          },
+          "403205": {
+            "feuerwehr": "FF Eben- und Nachdemsee"
+          },
+          "403214": {
+            "feuerwehr": "FF Neukirchen"
+          },
+          "403219": {
+            "feuerwehr": "FF Reindlmühl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altmünster",
+            "fwnr": "403201"
+          },
+          "1": {
+            "fwname": "FF Eben- und Nachdemsee",
+            "fwnr": "403205"
+          },
+          "2": {
+            "fwname": "FF Neukirchen",
+            "fwnr": "403214"
+          },
+          "3": {
+            "fwname": "FF Reindlmühl",
+            "fwnr": "403219"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801372",
+        "startzeit": "Mon, 14 Aug 2023 14:02:37 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.893081,
+          "lng": 13.764075
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +114,6 @@
         "wgs84": {
           "lat": 48.233832,
           "lng": 14.853153
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "L. ENGEL-STRAßE 1",
-          "earea": "SCHWERTBERG",
-          "ecompl": "00000-71007-1",
-          "efeanme": "L. ENGEL-STRAßE",
-          "emun": "SCHWERTBERG",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - SCHWERTBERG",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "407216": {
-            "feuerwehr": "FF Schwertberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Schwertberg",
-            "fwnr": "407216"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801368",
-        "startzeit": "Mon, 14 Aug 2023 13:20:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.270588,
-          "lng": 14.581479
         }
       }
     }
