@@ -6,15 +6,15 @@ const { site, frontmatter } = useData()
 </script>
 
 <template>
-  <header class="m-6 sticky top-3">
-    <nav class="flex bg-white bg-opacity-50 p-3 rounded-xl shadow-lg backdrop-blur-lg ">
-      <h1 class="mr-3 font-bold">
+  <header class="sticky top-0 z-50 flex p-3 bg-gray-100 bg-opacity-50 backdrop-blur-lg">
+    <nav class="flex p-3">
+      <h1 class="mr-6 font-bold">
         <a href="/index.html">{{ site.title }}</a>
       </h1>
 
       <ul class="flex space-x-3">
-        <li><a href="/ooe.html">OÖ</a></li>
-        <li><a href="/noe.html">NÖ</a></li>
+        <li><a href="/index.html">Aktuelle Einsätze</a></li>
+        <li><a href="/ooe-tag.html">Tagesrückblick</a></li>
       </ul>
     </nav>
   </header>
