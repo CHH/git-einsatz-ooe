@@ -6,12 +6,11 @@ title: "Einsätze OÖ Laufend"
 import { data } from './einsaetze.data.js'
 </script>
 
-<ul>
+<ul class="space-y-3 max-w-4xl mx-auto p-6">
     <li
         v-for="({ einsatz }) in data.ooe.current"
         :key="einsatz.num1"
     >
-        <div>{{ einsatz }}</div>
-        <h2>{{ einsatz.einsatztyp.text }}</h2>
+        <EinsatzItem :einsatz="einsatz" />
     </li>
 </ul>

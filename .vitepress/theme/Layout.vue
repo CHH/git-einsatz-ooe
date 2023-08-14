@@ -7,13 +7,13 @@ const { site, frontmatter } = useData()
 
 <template>
   <header class="sticky top-0 z-50 flex p-3 bg-gray-100 bg-opacity-50 backdrop-blur-lg">
-    <nav class="flex p-3">
+    <nav class="flex py-2 px-3">
       <h1 class="mr-6 font-bold">
         <a href="/index.html">{{ site.title }}</a>
       </h1>
 
       <ul class="flex space-x-3">
-        <li><a href="/index.html">Aktuelle Einsätze</a></li>
+        <li><a href="/index.html">Aktuell im Einsatz</a></li>
         <li><a href="/ooe-tag.html">Tagesrückblick</a></li>
       </ul>
     </nav>
