@@ -1,98 +1,58 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 1,
   "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "DESSELBRUNN",
-          "earea": "",
-          "ecompl": "FW SICKING",
-          "efeanme": "",
-          "emun": "DESSELBRUNN",
-          "estnum": ""
+          "default": "BRANDSTATT 30",
+          "earea": "BRANDSTATT",
+          "ecompl": "",
+          "efeanme": "BRANDSTATT",
+          "emun": "ZELL AM MOOS",
+          "estnum": "30"
         },
         "alarmstufe": 1,
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - DESSELBRUNN",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - ZELL AM MOOS",
         "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
+          "id": "SONSTIGE-BG",
+          "text": "BRANDEINSATZ"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
-          "413316": {
-            "feuerwehr": "FF Sicking"
+          "413204": {
+            "feuerwehr": "FF Haslau"
+          },
+          "413215": {
+            "feuerwehr": "FF Zell am Moos"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Sicking",
-            "fwnr": "413316"
+            "fwname": "FF Haslau",
+            "fwnr": "413204"
+          },
+          "1": {
+            "fwname": "FF Zell am Moos",
+            "fwnr": "413215"
           }
         },
         "inzeit": "",
-        "num1": "E230801383",
-        "startzeit": "Mon, 14 Aug 2023 15:29:43 +0200",
+        "num1": "E230801385",
+        "startzeit": "Mon, 14 Aug 2023 16:41:24 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.00048,
-          "lng": 13.74351
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GRILLENBACHWEG 2",
-          "earea": "UFER",
-          "ecompl": "",
-          "efeanme": "GRILLENBACHWEG",
-          "emun": "MAUTHAUSEN",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - MAUTHAUSEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407210": {
-            "feuerwehr": "FF Mauthausen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Mauthausen",
-            "fwnr": "407210"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801381",
-        "startzeit": "Mon, 14 Aug 2023 15:08:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.247182,
-          "lng": 14.505829
+          "lat": 47.903239,
+          "lng": 13.32853
         }
       }
     }
