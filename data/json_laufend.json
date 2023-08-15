@@ -1,16 +1,16 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 16,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "ESPLANADE 20",
-          "earea": "GMUNDEN",
+          "default": "EBEN 22",
+          "earea": "EBEN",
           "ecompl": "",
-          "efeanme": "ESPLANADE",
-          "emun": "GMUNDEN",
-          "estnum": "20"
+          "efeanme": "EBEN",
+          "emun": "ALTMÜNSTER",
+          "estnum": "22"
         },
         "alarmstufe": 1,
         "bezirk": {
@@ -19,7 +19,7 @@
         },
         "cntfeuerwehren": 1,
         "einsatzart": "UNWETTER",
-        "einsatzort": "GM - GMUNDEN",
+        "einsatzort": "GM - ALTMÜNSTER",
         "einsatzsubtyp": {
           "id": "UEBERFL-TK",
           "text": "ÜBERFLUTUNG"
@@ -29,23 +29,70 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
+          "403205": {
+            "feuerwehr": "FF Eben- und Nachdemsee"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
+            "fwname": "FF Eben- und Nachdemsee",
+            "fwnr": "403205"
           }
         },
         "inzeit": "",
-        "num1": "E230801574",
-        "startzeit": "Tue, 15 Aug 2023 20:49:44 +0200",
+        "num1": "E230801578",
+        "startzeit": "Tue, 15 Aug 2023 20:52:48 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 47.915322,
-          "lng": 13.792393
+          "lat": 47.877314,
+          "lng": 13.764994
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERWEIS 401",
+          "earea": "OBERWEIS",
+          "ecompl": "OBJEKT MIT BMA",
+          "efeanme": "OBERWEIS",
+          "emun": "GSCHWANDT",
+          "estnum": "401"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "GM - GSCHWANDT",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403209": {
+            "feuerwehr": "FF Gschwandt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gschwandt",
+            "fwnr": "403209"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801576",
+        "startzeit": "Tue, 15 Aug 2023 20:52:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.948223,
+          "lng": 13.816564
         }
       }
     },
