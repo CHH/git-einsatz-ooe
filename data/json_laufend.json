@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GRÜNWEG 5",
+          "earea": "BRUNNWIES",
+          "ecompl": "",
+          "efeanme": "GRÜNWEG",
+          "emun": "BRUNNENTHAL",
+          "estnum": "5"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - BRUNNENTHAL",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410302": {
+            "feuerwehr": "FF Brunnenthal"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Brunnenthal",
+            "fwnr": "410302"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801458",
+        "startzeit": "Tue, 15 Aug 2023 10:22:56 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.461202,
+          "lng": 13.444918
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 47.736753,
           "lng": 13.454261
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHLOSSSTRAßE 2",
-          "earea": "DUTTENDORF",
-          "ecompl": "",
-          "efeanme": "SCHLOSSSTRAßE",
-          "emun": "HOCHBURG-ACH",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - HOCHBURG-ACH",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400401": {
-            "feuerwehr": "FF Ach an der Salzach"
-          },
-          "400408": {
-            "feuerwehr": "FF Hochburg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ach an der Salzach",
-            "fwnr": "400401"
-          },
-          "1": {
-            "fwname": "FF Hochburg",
-            "fwnr": "400408"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801446",
-        "startzeit": "Tue, 15 Aug 2023 09:21:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.163267,
-          "lng": 12.850241
         }
       }
     }
