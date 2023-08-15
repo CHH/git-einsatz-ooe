@@ -1,7 +1,599 @@
 {
-  "cnt_einsaetze": 35,
-  "cnt_feuerwehren": 39,
+  "cnt_einsaetze": 47,
+  "cnt_feuerwehren": 54,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KAPELLENWEG 49",
+          "earea": "NEUKIRCHEN",
+          "ecompl": "",
+          "efeanme": "KAPELLENWEG",
+          "emun": "ALTMÜNSTER",
+          "estnum": "49"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - ALTMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "FF Altmünster"
+          },
+          "403205": {
+            "feuerwehr": "FF Eben- und Nachdemsee"
+          },
+          "403214": {
+            "feuerwehr": "FF Neukirchen"
+          },
+          "403219": {
+            "feuerwehr": "FF Reindlmühl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altmünster",
+            "fwnr": "403201"
+          },
+          "1": {
+            "fwname": "FF Eben- und Nachdemsee",
+            "fwnr": "403205"
+          },
+          "2": {
+            "fwname": "FF Neukirchen",
+            "fwnr": "403214"
+          },
+          "3": {
+            "fwname": "FF Reindlmühl",
+            "fwnr": "403219"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801565",
+        "startzeit": "Tue, 15 Aug 2023 20:11:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.873385,
+          "lng": 13.719718
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALEXENAU 10",
+          "earea": "ALEXENAU",
+          "ecompl": "",
+          "efeanme": "ALEXENAU",
+          "emun": "WEYREGG AM ATTERSEE",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - WEYREGG AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413525": {
+            "feuerwehr": "FF Weyregg am Attersee"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Weyregg am Attersee",
+            "fwnr": "413525"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801563",
+        "startzeit": "Tue, 15 Aug 2023 20:03:09 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.880174,
+          "lng": 13.570693
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - ",
+        "einsatzsubtyp": {
+          "id": "BOOTSB-ÖWR",
+          "text": "BOOTSBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "ÖWR",
+          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+        },
+        "feuerwehren": {
+          "OWR41892007": {
+            "feuerwehr": "ÖWR GMUNDEN"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR GMUNDEN",
+            "fwnr": "OWR41892007"
+          }
+        },
+        "inzeit": "Tue, 15 Aug 2023 20:11:38 +0200",
+        "num1": "E230801561",
+        "startzeit": "Tue, 15 Aug 2023 20:02:44 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.90992,
+          "lng": 13.797714
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BACH 87",
+          "earea": "BACH",
+          "ecompl": "5050400-4S",
+          "efeanme": "BACH",
+          "emun": "WEYREGG AM ATTERSEE",
+          "estnum": "87"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - WEYREGG AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "ALFEUER-DI",
+          "text": "SIRENENPROGRAMM FEUER VON FW AUSGELÖST"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "413504": {
+            "feuerwehr": "FF Bach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bach",
+            "fwnr": "413504"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801557",
+        "startzeit": "Tue, 15 Aug 2023 19:59:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.892906,
+          "lng": 13.601177
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ROITHER STRAßE 24",
+          "earea": "ROITH",
+          "ecompl": "3611501-1",
+          "efeanme": "ROITHER STRAßE",
+          "emun": "EBENSEE AM TRAUNSEE",
+          "estnum": "24"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - EBENSEE AM TRAUNSEE",
+        "einsatzsubtyp": {
+          "id": "BMT-DI",
+          "text": "BRANDMELDETASTE GEDRÜCKT"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "403115": {
+            "feuerwehr": "FF Roith / GM"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Roith / GM",
+            "fwnr": "403115"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801555",
+        "startzeit": "Tue, 15 Aug 2023 19:57:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.791903,
+          "lng": 13.756917
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - ",
+        "einsatzsubtyp": {
+          "id": "BOOTSB-ÖWR",
+          "text": "BOOTSBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "ÖWR",
+          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+        },
+        "feuerwehren": {
+          "OWR41892015": {
+            "feuerwehr": "ÖWR LITZLBERG"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR LITZLBERG",
+            "fwnr": "OWR41892015"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801553",
+        "startzeit": "Tue, 15 Aug 2023 19:53:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.94911,
+          "lng": 13.58127
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LEHENWEG 18",
+          "earea": "STEINBACH AM ATTERSEE",
+          "ecompl": "",
+          "efeanme": "LEHENWEG",
+          "emun": "STEINBACH AM ATTERSEE",
+          "estnum": "18"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - STEINBACH AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413521": {
+            "feuerwehr": "FF Steinbach am Attersee"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Steinbach am Attersee",
+            "fwnr": "413521"
+          }
+        },
+        "inzeit": "Tue, 15 Aug 2023 20:08:25 +0200",
+        "num1": "E230801550",
+        "startzeit": "Tue, 15 Aug 2023 19:45:36 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.82865,
+          "lng": 13.551318
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - ",
+        "einsatzsubtyp": {
+          "id": "BOOTSB-ÖWR",
+          "text": "BOOTSBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "ÖWR",
+          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+        },
+        "feuerwehren": {
+          "OWR41892013": {
+            "feuerwehr": "ÖWR UNTERACH"
+          },
+          "OWR41892014": {
+            "feuerwehr": "ÖWR WEYREGG"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR UNTERACH",
+            "fwnr": "OWR41892013"
+          },
+          "1": {
+            "fwname": "ÖWR WEYREGG",
+            "fwnr": "OWR41892014"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801545",
+        "startzeit": "Tue, 15 Aug 2023 19:38:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.899848,
+          "lng": 13.563634
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALEXENAU",
+          "earea": "ALEXENAU",
+          "ecompl": "B152 SEELEITENSTRAßE",
+          "efeanme": "",
+          "emun": "WEYREGG AM ATTERSEE",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - WEYREGG AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413525": {
+            "feuerwehr": "FF Weyregg am Attersee"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Weyregg am Attersee",
+            "fwnr": "413525"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801538",
+        "startzeit": "Tue, 15 Aug 2023 19:30:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.873826,
+          "lng": 13.567607
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "UNTERACH AM ATTERSEE",
+          "earea": "",
+          "ecompl": "B151 ATTERSEESTRAßE KM 26.0 HÖHE SALZKAMMERGUTWEG",
+          "efeanme": "",
+          "emun": "UNTERACH AM ATTERSEE",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - UNTERACH AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413202": {
+            "feuerwehr": "FF Buchenort"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Buchenort",
+            "fwnr": "413202"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801536",
+        "startzeit": "Tue, 15 Aug 2023 19:27:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.828869,
+          "lng": 13.517415
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RINDBACHSTRAßE 150",
+          "earea": "RINDBACH",
+          "ecompl": "",
+          "efeanme": "RINDBACHSTRAßE",
+          "emun": "EBENSEE AM TRAUNSEE",
+          "estnum": "150"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "GM - EBENSEE AM TRAUNSEE",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403114": {
+            "feuerwehr": "FF Rindbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rindbach",
+            "fwnr": "403114"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801534",
+        "startzeit": "Tue, 15 Aug 2023 19:26:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.803283,
+          "lng": 13.800184
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. FLORIAN AM INN",
+          "earea": "",
+          "ecompl": "KM 59.0 HÖHE B137 INNVIERTLER STRAßE",
+          "efeanme": "",
+          "emun": "ST. FLORIAN AM INN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ST. FLORIAN AM INN",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410319": {
+            "feuerwehr": "FF St. Florian am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Florian am Inn",
+            "fwnr": "410319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801532",
+        "startzeit": "Tue, 15 Aug 2023 19:25:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.427016,
+          "lng": 13.46615
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +651,12 @@
           "emun": "HÖHNHART",
           "estnum": "6"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "UNWETTER",
         "einsatzort": "BR - HÖHNHART",
         "einsatzsubtyp": {
@@ -76,14 +668,28 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "400303": {
+            "feuerwehr": "FF Außerleiten"
+          },
           "400307": {
             "feuerwehr": "FF Höhnhart"
+          },
+          "400318": {
+            "feuerwehr": "FF Thannstraß"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Außerleiten",
+            "fwnr": "400303"
+          },
+          "1": {
             "fwname": "FF Höhnhart",
             "fwnr": "400307"
+          },
+          "2": {
+            "fwname": "FF Thannstraß",
+            "fwnr": "400318"
           }
         },
         "inzeit": "",
@@ -133,10 +739,10 @@
             "fwnr": "405208"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 19:32:24 +0200",
         "num1": "E230801524",
         "startzeit": "Tue, 15 Aug 2023 19:01:34 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.883484,
           "lng": 14.126951
@@ -180,10 +786,10 @@
             "fwnr": "406216"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 19:37:13 +0200",
         "num1": "E230801521",
         "startzeit": "Tue, 15 Aug 2023 18:58:18 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.236671,
           "lng": 14.237393
@@ -288,10 +894,10 @@
             "fwnr": "403117"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 19:50:01 +0200",
         "num1": "E230801517",
         "startzeit": "Tue, 15 Aug 2023 18:53:30 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.623658,
           "lng": 13.632822
@@ -335,10 +941,10 @@
             "fwnr": "413212"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 20:09:12 +0200",
         "num1": "E230801515",
         "startzeit": "Tue, 15 Aug 2023 18:52:23 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.798028,
           "lng": 13.397626
@@ -382,10 +988,10 @@
             "fwnr": "400203"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 19:57:51 +0200",
         "num1": "E230801513",
         "startzeit": "Tue, 15 Aug 2023 18:49:42 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.054718,
           "lng": 13.061731
@@ -476,10 +1082,10 @@
             "fwnr": "403118"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 15 Aug 2023 19:45:04 +0200",
         "num1": "E230801509",
         "startzeit": "Tue, 15 Aug 2023 18:40:34 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.728492,
           "lng": 13.472417
