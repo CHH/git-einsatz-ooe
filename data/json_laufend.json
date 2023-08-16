@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "ST. ULRICH BEI STEYR",
-          "earea": "",
-          "ecompl": "L1343 GRABENHOFER STRAßE KM 3.4 HÖHE ULRICHSTRAßE",
-          "efeanme": "",
-          "emun": "ST. ULRICH BEI STEYR",
-          "estnum": ""
+          "default": "GEWERBEALLEE 15",
+          "earea": "STEYREGG",
+          "ecompl": "00000-123153-1",
+          "efeanme": "GEWERBEALLEE",
+          "emun": "STEYREGG",
+          "estnum": "15"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
+          "id": 12,
+          "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - ST. ULRICH BEI STEYR",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - STEYREGG",
         "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
         },
         "feuerwehren": {
-          "411212": {
-            "feuerwehr": "FF St. Ulrich bei Steyr"
+          "412308": {
+            "feuerwehr": "FF Lachstatt"
+          },
+          "412314": {
+            "feuerwehr": "FF Steyregg"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF St. Ulrich bei Steyr",
-            "fwnr": "411212"
+            "fwname": "FF Lachstatt",
+            "fwnr": "412308"
+          },
+          "1": {
+            "fwname": "FF Steyregg",
+            "fwnr": "412314"
           }
         },
         "inzeit": "",
-        "num1": "E230801717",
-        "startzeit": "Wed, 16 Aug 2023 16:14:10 +0200",
+        "num1": "E230801731",
+        "startzeit": "Wed, 16 Aug 2023 18:18:22 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.015816,
-          "lng": 14.450856
+          "lat": 48.28325,
+          "lng": 14.369636
         }
       }
     }
