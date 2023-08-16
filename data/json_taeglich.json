@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PLESCHING 27",
+          "earea": "PLESCHING",
+          "ecompl": "",
+          "efeanme": "PLESCHING",
+          "emun": "STEYREGG",
+          "estnum": "27"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "UU - STEYREGG",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412314": {
+            "feuerwehr": "FF Steyregg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Steyregg",
+            "fwnr": "412314"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801661",
+        "startzeit": "Wed, 16 Aug 2023 05:13:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.318544,
+          "lng": 14.3391
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "406307"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 16 Aug 2023 04:24:37 +0200",
         "num1": "E230801659",
         "startzeit": "Wed, 16 Aug 2023 03:08:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.137615,
           "lng": 14.236103
@@ -93,168 +140,6 @@
         "wgs84": {
           "lat": 47.88716,
           "lng": 14.133673
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "BRAUNAU AM INN",
-          "earea": "",
-          "ecompl": "KM 35.4 HÖHE B148 ALTHEIMER STRAßE",
-          "efeanme": "",
-          "emun": "BRAUNAU AM INN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - BRAUNAU AM INN",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "FF Braunau am Inn"
-          },
-          "400109": {
-            "feuerwehr": "FF Ranshofen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Braunau am Inn",
-            "fwnr": "400102"
-          },
-          "1": {
-            "fwname": "FF Ranshofen",
-            "fwnr": "400109"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801654",
-        "startzeit": "Tue, 15 Aug 2023 23:39:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.241654,
-          "lng": 13.02365
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STEINBACH AM ZIEHBERG",
-          "earea": "",
-          "ecompl": "L553 ZIEHBERGSTRAßE KM 13.8 HÖHE STEINBACHSTRAßE",
-          "efeanme": "",
-          "emun": "STEINBACH AM ZIEHBERG",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "KI - STEINBACH AM ZIEHBERG",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405211": {
-            "feuerwehr": "FF Pettenbach"
-          },
-          "405214": {
-            "feuerwehr": "FF Steinbach am Ziehberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Pettenbach",
-            "fwnr": "405211"
-          },
-          "1": {
-            "fwname": "FF Steinbach am Ziehberg",
-            "fwnr": "405214"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801617",
-        "startzeit": "Tue, 15 Aug 2023 21:25:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.913982,
-          "lng": 13.992055
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STEINBACHSTRAßE 26",
-          "earea": "STEINBACH AM ZIEHBERG",
-          "ecompl": "",
-          "efeanme": "STEINBACHSTRAßE",
-          "emun": "STEINBACH AM ZIEHBERG",
-          "estnum": "26"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "KI - STEINBACH AM ZIEHBERG",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405214": {
-            "feuerwehr": "FF Steinbach am Ziehberg"
-          },
-          "405215": {
-            "feuerwehr": "FF Steinfelden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Steinbach am Ziehberg",
-            "fwnr": "405214"
-          },
-          "1": {
-            "fwname": "FF Steinfelden",
-            "fwnr": "405215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801603",
-        "startzeit": "Tue, 15 Aug 2023 21:19:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.911825,
-          "lng": 13.995089
         }
       }
     },
