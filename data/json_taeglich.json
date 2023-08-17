@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "UNTERTHALHAM STRAßE 2",
-          "earea": "UNTERTHALHAM",
-          "ecompl": "00000-31031-2",
-          "efeanme": "UNTERTHALHAM STRAßE",
-          "emun": "OHLSDORF",
-          "estnum": "2"
+          "default": "SCHUMANNSTRAßE 20",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "SCHUMANNSTRAßE",
+          "emun": "STEYR",
+          "estnum": "20"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 15,
+          "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - OHLSDORF",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - STEYR",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "403216": {
-            "feuerwehr": "FF Ohlsdorf"
+          "41510105": {
+            "feuerwehr": "FW Löschzug 5 Münichholz"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Ohlsdorf",
-            "fwnr": "403216"
+            "fwname": "FW Löschzug 5 Münichholz",
+            "fwnr": "41510105"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
           }
         },
-        "inzeit": "",
-        "num1": "E230801758",
-        "startzeit": "Wed, 16 Aug 2023 23:44:29 +0200",
-        "status": "offen",
+        "inzeit": "Thu, 17 Aug 2023 02:22:27 +0200",
+        "num1": "E230801761",
+        "startzeit": "Thu, 17 Aug 2023 02:01:18 +0200",
+        "status": "abgeschlossen",
         "wgs84": {
-          "lat": 47.950331,
-          "lng": 13.80495
+          "lat": 48.058456,
+          "lng": 14.446394
         }
       }
     }
