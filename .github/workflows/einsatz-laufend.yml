@@ -34,7 +34,7 @@ jobs:
         run: |
           curl --etag-save ./data/json_laufend.etag \
             --etag-compare ./data/json_laufend.etag \
-            https://cf-intranet.ooelfv.at/webext2/rss/json_laufend.txt -o ./data/json_laufend.json
+            https://cf-intranet.ooelfv.at/webext2/rss/json_laufend.txt -o ./data/json_laufend.json || true
           mv ./data/json_laufend.json ./data/json_laufend.json.tmp
           cat ./data/json_laufend.json.tmp | jq -S '.einsaetze = (.einsaetze | to_entries | map(.value) | sort_by(.value.einsatz.startzeit)) | del(.pubDate)' > ./data/json_laufend.json
           rm ./data/json_laufend.json.tmp
