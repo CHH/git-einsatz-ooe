@@ -1,25 +1,25 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "PEILSTEIN IM MÜHLVIERTEL",
-          "earea": "",
-          "ecompl": "FW PEILSTEIN IM MÜHLKREIS",
-          "efeanme": "",
-          "emun": "PEILSTEIN IM MÜHLVIERTEL",
-          "estnum": ""
+          "default": "STIERBERG 6",
+          "earea": "STIERBERG",
+          "ecompl": "",
+          "efeanme": "STIERBERG",
+          "emun": "PEILSTEIN IM MüHLVIERTEL",
+          "estnum": "6"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 9,
         "einsatzart": "BRAND",
-        "einsatzort": "RO - PEILSTEIN IM MÜHLVIERTEL",
+        "einsatzort": "RO - PEILSTEIN IM MüHLVIERTEL",
         "einsatzsubtyp": {
           "id": "HAUS-BG",
           "text": "BRAND WOHNHAUS"
@@ -29,8 +29,17 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "409102": {
+            "feuerwehr": "FF Hinterschiffl"
+          },
           "409103": {
             "feuerwehr": "FF Julbach"
+          },
+          "409105": {
+            "feuerwehr": "FF Ödenkirchen"
+          },
+          "409407": {
+            "feuerwehr": "FF Haslach an der Mühl"
           },
           "409410": {
             "feuerwehr": "FF Kirchbach"
@@ -38,26 +47,52 @@
           "409413": {
             "feuerwehr": "FF Nebelberg"
           },
+          "409415": {
+            "feuerwehr": "FF Oepping"
+          },
           "409416": {
             "feuerwehr": "FF Peilstein im Mühlkreis"
+          },
+          "409419": {
+            "feuerwehr": "FF Rohrbach im Mühlkreis"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Hinterschiffl",
+            "fwnr": "409102"
+          },
+          "1": {
             "fwname": "FF Julbach",
             "fwnr": "409103"
           },
-          "1": {
+          "2": {
+            "fwname": "FF Ödenkirchen",
+            "fwnr": "409105"
+          },
+          "3": {
+            "fwname": "FF Haslach an der Mühl",
+            "fwnr": "409407"
+          },
+          "4": {
             "fwname": "FF Kirchbach",
             "fwnr": "409410"
           },
-          "2": {
+          "5": {
             "fwname": "FF Nebelberg",
             "fwnr": "409413"
           },
-          "3": {
+          "6": {
+            "fwname": "FF Oepping",
+            "fwnr": "409415"
+          },
+          "7": {
             "fwname": "FF Peilstein im Mühlkreis",
             "fwnr": "409416"
+          },
+          "8": {
+            "fwname": "FF Rohrbach im Mühlkreis",
+            "fwnr": "409419"
           }
         },
         "inzeit": "",
@@ -65,8 +100,8 @@
         "startzeit": "Thu, 17 Aug 2023 12:24:19 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.61773,
-          "lng": 13.89428
+          "lat": 48.618031,
+          "lng": 13.90556
         }
       }
     },
