@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - ",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "FF Kefermarkt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kefermarkt",
+            "fwnr": "402109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801800",
+        "startzeit": "Thu, 17 Aug 2023 12:36:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.454288,
+          "lng": 14.481819
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -290,60 +337,6 @@
         "wgs84": {
           "lat": 48.213412,
           "lng": 14.282856
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHLOßHOLZWEG 7",
-          "earea": "PUCHENAU",
-          "ecompl": "",
-          "efeanme": "SCHLOßHOLZWEG",
-          "emun": "PUCHENAU",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "UU - PUCHENAU",
-        "einsatzsubtyp": {
-          "id": "HAUS-BG",
-          "text": "BRAND WOHNHAUS"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "412218": {
-            "feuerwehr": "FF Ottensheim"
-          },
-          "412219": {
-            "feuerwehr": "FF Puchenau"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ottensheim",
-            "fwnr": "412218"
-          },
-          "1": {
-            "fwname": "FF Puchenau",
-            "fwnr": "412219"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801783",
-        "startzeit": "Thu, 17 Aug 2023 10:38:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.313376,
-          "lng": 14.22391
         }
       }
     }
