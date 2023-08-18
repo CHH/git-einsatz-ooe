@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
     {
       "einsatz": {
@@ -100,53 +100,6 @@
         "wgs84": {
           "lat": 48.406249,
           "lng": 13.891892
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "JOSEF MOHR-STRAßE 7",
-          "earea": "HASELBACH",
-          "ecompl": "",
-          "efeanme": "JOSEF MOHR-STRAßE",
-          "emun": "BRAUNAU AM INN",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - BRAUNAU AM INN",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400105": {
-            "feuerwehr": "FF Haselbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haselbach",
-            "fwnr": "400105"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801915",
-        "startzeit": "Fri, 18 Aug 2023 14:52:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.252369,
-          "lng": 13.060839
         }
       }
     },
@@ -259,7 +212,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 7,
         "einsatzart": "TEE",
         "einsatzort": "GM - ",
         "einsatzsubtyp": {
@@ -271,6 +224,9 @@
           "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "403101": {
+            "feuerwehr": "FF Bad Goisern"
+          },
           "403116": {
             "feuerwehr": "FF Rußbach"
           },
@@ -279,6 +235,9 @@
           },
           "4183": {
             "feuerwehr": "TAUCHER"
+          },
+          "54101057": {
+            "feuerwehr": "EFU 03 AB GMUNDEN"
           },
           "54101130": {
             "feuerwehr": "BF SALZBURG"
@@ -289,22 +248,30 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Bad Goisern",
+            "fwnr": "403101"
+          },
+          "1": {
             "fwname": "FF Rußbach",
             "fwnr": "403116"
           },
-          "1": {
+          "2": {
             "fwname": "FF St. Wolfgang",
             "fwnr": "403118"
           },
-          "2": {
+          "3": {
             "fwname": "TAUCHER",
             "fwnr": "4183"
           },
-          "3": {
+          "4": {
             "fwname": "ÖWR TAUCHER",
             "fwnr": "OWR41892017"
           },
-          "4": {
+          "5": {
+            "fwname": "EFU 03 AB GMUNDEN",
+            "fwnr": "54101057"
+          },
+          "6": {
             "fwname": "BF SALZBURG",
             "fwnr": "54101130"
           }
