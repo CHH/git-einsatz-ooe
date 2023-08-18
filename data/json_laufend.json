@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. GEORGEN AN DER GUSEN",
+          "earea": "ST. GEORGEN AN DER GUSEN",
+          "ecompl": "SPAR",
+          "efeanme": "",
+          "emun": "ST. GEORGEN AN DER GUSEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - ST. GEORGEN AN DER GUSEN",
+        "einsatzsubtyp": {
+          "id": "1-TELEFON",
+          "text": "KLEINALARM"
+        },
+        "einsatztyp": {
+          "id": "ALKLEIN",
+          "text": "KLEINALARM FEUERWEHREINSATZ (AL-MITTEL REDUZIERT)"
+        },
+        "feuerwehren": {
+          "407217": {
+            "feuerwehr": "FF St. Georgen an der Gusen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Georgen an der Gusen",
+            "fwnr": "407217"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230801926",
+        "startzeit": "Fri, 18 Aug 2023 16:03:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.26561,
+          "lng": 14.452743
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -153,53 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "PREGELSTRAßE 6",
-          "earea": "ST. DIONYSEN",
-          "ecompl": "",
-          "efeanme": "PREGELSTRAßE",
-          "emun": "TRAUN",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - TRAUN",
-        "einsatzsubtyp": {
-          "id": "WASSER-TK",
-          "text": "WASSERSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "FF Traun"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Traun",
-            "fwnr": "406222"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801913",
-        "startzeit": "Fri, 18 Aug 2023 14:44:28 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.22716,
-          "lng": 14.249134
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "MAUTHAUSEN",
           "earea": "",
           "ecompl": "KM 221.0 HÖHE B3 DONAUSTRAßE",
@@ -330,74 +330,6 @@
         "wgs84": {
           "lat": 47.738315,
           "lng": 13.44438
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "PERSON",
-        "einsatzort": "UU - ",
-        "einsatzsubtyp": {
-          "id": "PERSON-TG",
-          "text": "PERSONENRETTUNG"
-        },
-        "einsatztyp": {
-          "id": "TEE",
-          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "406223": {
-            "feuerwehr": "FF Wilhering"
-          },
-          "412127": {
-            "feuerwehr": "FF Zwettl an der Rodl"
-          },
-          "412218": {
-            "feuerwehr": "FF Ottensheim"
-          },
-          "412219": {
-            "feuerwehr": "FF Puchenau"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Wilhering",
-            "fwnr": "406223"
-          },
-          "1": {
-            "fwname": "FF Zwettl an der Rodl",
-            "fwnr": "412127"
-          },
-          "2": {
-            "fwname": "FF Ottensheim",
-            "fwnr": "412218"
-          },
-          "3": {
-            "fwname": "FF Puchenau",
-            "fwnr": "412219"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230801906",
-        "startzeit": "Fri, 18 Aug 2023 14:30:40 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.308568,
-          "lng": 14.231052
         }
       }
     },
