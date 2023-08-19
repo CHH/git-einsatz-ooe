@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "EDT AM STöMERBERG 2",
+          "earea": "EDT AM STöMERBERG",
+          "ecompl": "00000-41082-1",
+          "efeanme": "EDT AM STöMERBERG",
+          "emun": "GASPOLTSHOFEN",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - GASPOLTSHOFEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "404204": {
+            "feuerwehr": "FF Gaspoltshofen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gaspoltshofen",
+            "fwnr": "404204"
+          }
+        },
+        "inzeit": "Sat, 19 Aug 2023 08:02:24 +0200",
+        "num1": "E230801974",
+        "startzeit": "Sat, 19 Aug 2023 07:25:26 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.136974,
+          "lng": 13.745461
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "KI - KREMSMüNSTER",
         "einsatzsubtyp": {
@@ -76,6 +123,9 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
+          },
           "405303": {
             "feuerwehr": "FF Irndorf"
           },
@@ -84,20 +134,38 @@
           },
           "405305": {
             "feuerwehr": "FF Krühub"
+          },
+          "405309": {
+            "feuerwehr": "FF Wartberg an der Krems"
+          },
+          "411104": {
+            "feuerwehr": "FF Rohr im Kremstal"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
+          },
+          "1": {
             "fwname": "FF Irndorf",
             "fwnr": "405303"
           },
-          "1": {
+          "2": {
             "fwname": "FF Kremsmünster",
             "fwnr": "405304"
           },
-          "2": {
+          "3": {
             "fwname": "FF Krühub",
             "fwnr": "405305"
+          },
+          "4": {
+            "fwname": "FF Wartberg an der Krems",
+            "fwnr": "405309"
+          },
+          "5": {
+            "fwname": "FF Rohr im Kremstal",
+            "fwnr": "411104"
           }
         },
         "inzeit": "",
