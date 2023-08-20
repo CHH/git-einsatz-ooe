@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 14,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TERNBERG",
+          "earea": "",
+          "ecompl": "HERNDLECKSTRAßE",
+          "efeanme": "",
+          "emun": "TERNBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SE - TERNBERG",
+        "einsatzsubtyp": {
+          "id": "PERSON-TG",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "411314": {
+            "feuerwehr": "FF Schweinsegg-Zehetner"
+          },
+          "411316": {
+            "feuerwehr": "FF Ternberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schweinsegg-Zehetner",
+            "fwnr": "411314"
+          },
+          "1": {
+            "fwname": "FF Ternberg",
+            "fwnr": "411316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802100",
+        "startzeit": "Sun, 20 Aug 2023 15:03:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.933472,
+          "lng": 14.330754
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,88 +100,6 @@
         "wgs84": {
           "lat": 47.804078,
           "lng": 13.489996
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "MICHELDORF IN OBERÖSTERREICH ",
-          "earea": "",
-          "ecompl": "00000-51046-5",
-          "efeanme": "MICHELDORF IN OBERÖSTERREICH",
-          "emun": "MICHELDORF-IN-OBERÖSTERREICH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 6,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - MICHELDORF-IN-OBERÖSTERREICH",
-        "einsatzsubtyp": {
-          "id": "BMA6-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "405204": {
-            "feuerwehr": "FF Inzersdorf im Kremstal"
-          },
-          "405205": {
-            "feuerwehr": "FF Kirchdorf an der Krems"
-          },
-          "405206": {
-            "feuerwehr": "FF Lauterbach"
-          },
-          "405208": {
-            "feuerwehr": "FF Micheldorf in Oberösterreich"
-          },
-          "405213": {
-            "feuerwehr": "FF Schlierbach"
-          },
-          "405226": {
-            "feuerwehr": "FF Klaus an der Pyhrnbahn"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Inzersdorf im Kremstal",
-            "fwnr": "405204"
-          },
-          "1": {
-            "fwname": "FF Kirchdorf an der Krems",
-            "fwnr": "405205"
-          },
-          "2": {
-            "fwname": "FF Lauterbach",
-            "fwnr": "405206"
-          },
-          "3": {
-            "fwname": "FF Micheldorf in Oberösterreich",
-            "fwnr": "405208"
-          },
-          "4": {
-            "fwname": "FF Schlierbach",
-            "fwnr": "405213"
-          },
-          "5": {
-            "fwname": "FF Klaus an der Pyhrnbahn",
-            "fwnr": "405226"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802095",
-        "startzeit": "Sun, 20 Aug 2023 13:42:20 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.877207,
-          "lng": 14.133692
         }
       }
     },
