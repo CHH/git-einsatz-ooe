@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 5,
+  "cnt_einsaetze": 4,
   "cnt_feuerwehren": 7,
   "einsaetze": [
     {
@@ -113,19 +113,19 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "BAHNHOFSTRAßE 10",
-          "earea": "KREMSDORF",
-          "ecompl": "",
-          "efeanme": "BAHNHOFSTRAßE",
+          "default": "ANSFELDEN",
+          "earea": "",
+          "ecompl": "FW ANSFELDEN",
+          "efeanme": "",
           "emun": "ANSFELDEN",
-          "estnum": "10"
+          "estnum": ""
         },
         "alarmstufe": 1,
         "bezirk": {
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "LL - ANSFELDEN",
         "einsatzsubtyp": {
@@ -137,12 +137,19 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "406201": {
+            "feuerwehr": "FF Ansfelden"
+          },
           "406213": {
             "feuerwehr": "FF Nettingsdorf"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ansfelden",
+            "fwnr": "406201"
+          },
+          "1": {
             "fwname": "FF Nettingsdorf",
             "fwnr": "406213"
           }
@@ -152,8 +159,8 @@
         "startzeit": "Mon, 21 Aug 2023 08:25:44 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.189626,
-          "lng": 14.258085
+          "lat": 48.20972,
+          "lng": 14.28807
         }
       }
     },
@@ -201,53 +208,6 @@
         "wgs84": {
           "lat": 48.006438,
           "lng": 13.663519
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LASBERG",
-          "earea": "LASBERG",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "LASBERG",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - LASBERG",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402112": {
-            "feuerwehr": "FF Lasberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Lasberg",
-            "fwnr": "402112"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802164",
-        "startzeit": "Mon, 21 Aug 2023 07:43:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.473943,
-          "lng": 14.520276
         }
       }
     }
