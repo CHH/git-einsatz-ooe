@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AM TEICHFELD 6",
+          "earea": "SARLEINSBACH",
+          "ecompl": "00000-91005-1",
+          "efeanme": "AM TEICHFELD",
+          "emun": "SARLEINSBACH",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - SARLEINSBACH",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "409420": {
+            "feuerwehr": "FF Sarleinsbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Sarleinsbach",
+            "fwnr": "409420"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802194",
+        "startzeit": "Mon, 21 Aug 2023 11:25:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.548302,
+          "lng": 13.892838
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.082926,
           "lng": 14.428742
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ANSFELDEN",
-          "earea": "",
-          "ecompl": "FW ANSFELDEN",
-          "efeanme": "",
-          "emun": "ANSFELDEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - ANSFELDEN",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406201": {
-            "feuerwehr": "FF Ansfelden"
-          },
-          "406213": {
-            "feuerwehr": "FF Nettingsdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ansfelden",
-            "fwnr": "406201"
-          },
-          "1": {
-            "fwname": "FF Nettingsdorf",
-            "fwnr": "406213"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802172",
-        "startzeit": "Mon, 21 Aug 2023 08:25:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.20972,
-          "lng": 14.28807
         }
       }
     }
