@@ -36,7 +36,7 @@ jobs:
             --etag-compare ./data/json_taeglich.etag \
             https://cf-intranet.ooelfv.at/webext2/rss/json_taeglich.txt -o ./data/json_taeglich.json || true
           mv ./data/json_taeglich.json ./data/json_taeglich.json.tmp
-          cat ./data/json_taeglich.json.tmp | jq -S '.einsaetze = (.einsaetze | to_entries | map(.value) | sort_by(.value.einsatz.startzeit)) | del(.pubDate)' > ./data/json_taeglich.json
+          cat ./data/json_taeglich.json.tmp | jq -S '.einsaetze = (.einsaetze//{} | to_entries | map(.value) | sort_by(.value.einsatz.startzeit)) | del(.pubDate)' > ./data/json_taeglich.json
           rm ./data/json_taeglich.json.tmp
 
       # Runs a set of commands using the runners shell
