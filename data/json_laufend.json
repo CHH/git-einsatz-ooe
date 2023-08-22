@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WEINBEERLGASSE 8",
+          "earea": "PETTENBACH",
+          "ecompl": "",
+          "efeanme": "WEINBEERLGASSE",
+          "emun": "PETTENBACH",
+          "estnum": "8"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - PETTENBACH",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405211": {
+            "feuerwehr": "FF Pettenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pettenbach",
+            "fwnr": "405211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802385",
+        "startzeit": "Tue, 22 Aug 2023 21:37:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.961823,
+          "lng": 14.018995
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
