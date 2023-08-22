@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ORT IM INNKREIS ",
+          "earea": "ORT IM INNKREIS",
+          "ecompl": "STEMPFER",
+          "efeanme": "ORT IM INNKREIS",
+          "emun": "ORT IM INNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - ORT IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408313": {
+            "feuerwehr": "FF Ort im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ort im Innkreis",
+            "fwnr": "408313"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802335",
+        "startzeit": "Tue, 22 Aug 2023 13:44:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.31736,
+          "lng": 13.431327
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.273441,
           "lng": 14.574174
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GEWERBEPARK WEST 1",
-          "earea": "VöCKLAMARKT",
-          "ecompl": "00000-131159-1",
-          "efeanme": "GEWERBEPARK WEST",
-          "emun": "VöCKLAMARKT",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - VöCKLAMARKT",
-        "einsatzsubtyp": {
-          "id": "BMA3-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "413130": {
-            "feuerwehr": "FF Redl"
-          },
-          "413142": {
-            "feuerwehr": "FF Vöcklamarkt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Redl",
-            "fwnr": "413130"
-          },
-          "1": {
-            "fwname": "FF Vöcklamarkt",
-            "fwnr": "413142"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802329",
-        "startzeit": "Tue, 22 Aug 2023 12:46:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.999111,
-          "lng": 13.48139
         }
       }
     },
