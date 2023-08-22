@@ -1,51 +1,65 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "LEOPOLD-WERNDL-STRAßE 1",
-          "earea": "JUDENDORF",
-          "ecompl": "00000-111049-1",
-          "efeanme": "LEOPOLD-WERNDL-STRAßE",
-          "emun": "WOLFERN",
-          "estnum": "1"
+          "default": "OBERGUGGEN",
+          "earea": "OBERGUGGEN",
+          "ecompl": "B156 LAMPRECHTSHAUSENER STRAßE",
+          "efeanme": "",
+          "emun": "HANDENBERG",
+          "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - WOLFERN",
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - HANDENBERG",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "411218": {
-            "feuerwehr": "FF Wolfern"
+          "400104": {
+            "feuerwehr": "FF Handenberg"
+          },
+          "400108": {
+            "feuerwehr": "FF Neukirchen an der Enknach"
+          },
+          "400110": {
+            "feuerwehr": "FF St. Georgen am Fillmannsbach"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Wolfern",
-            "fwnr": "411218"
+            "fwname": "FF Handenberg",
+            "fwnr": "400104"
+          },
+          "1": {
+            "fwname": "FF Neukirchen an der Enknach",
+            "fwnr": "400108"
+          },
+          "2": {
+            "fwname": "FF St. Georgen am Fillmannsbach",
+            "fwnr": "400110"
           }
         },
         "inzeit": "",
-        "num1": "E230802283",
-        "startzeit": "Tue, 22 Aug 2023 01:41:21 +0200",
+        "num1": "E230802285",
+        "startzeit": "Tue, 22 Aug 2023 03:18:50 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.076886,
-          "lng": 14.377182
+          "lat": 48.148989,
+          "lng": 13.031027
         }
       }
     }
