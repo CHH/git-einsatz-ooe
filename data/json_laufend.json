@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "LL - ",
         "einsatzsubtyp": {
@@ -31,12 +31,19 @@
         "feuerwehren": {
           "406201": {
             "feuerwehr": "FF Ansfelden"
+          },
+          "406310": {
+            "feuerwehr": "FF Pucking-Hasenufer"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Ansfelden",
             "fwnr": "406201"
+          },
+          "1": {
+            "fwname": "FF Pucking-Hasenufer",
+            "fwnr": "406310"
           }
         },
         "inzeit": "",
@@ -147,60 +154,6 @@
         "wgs84": {
           "lat": 48.168592,
           "lng": 14.12485
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "OBERNDORF 14",
-          "earea": "OBERNDORF",
-          "ecompl": "",
-          "efeanme": "OBERNDORF",
-          "emun": "PEUERBACH",
-          "estnum": "14"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - PEUERBACH",
-        "einsatzsubtyp": {
-          "id": "FLURBR-BK",
-          "text": "BRAND BAUM, FLUR, BÖSCHUNG"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404304": {
-            "feuerwehr": "FF Bruck-Waasen"
-          },
-          "404314": {
-            "feuerwehr": "FF Oberndorf / GR"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bruck-Waasen",
-            "fwnr": "404304"
-          },
-          "1": {
-            "fwname": "FF Oberndorf / GR",
-            "fwnr": "404314"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802419",
-        "startzeit": "Wed, 23 Aug 2023 07:32:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.300697,
-          "lng": 13.744978
         }
       }
     },
