@@ -1,23 +1,23 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "REITNERHOLZSTRAßE 15",
+          "default": "RIEMERWEG 2",
           "earea": "UNTERWALD",
           "ecompl": "",
-          "efeanme": "REITNERHOLZSTRAßE",
+          "efeanme": "RIEMERWEG",
           "emun": "ST. ULRICH BEI STEYR",
-          "estnum": "15"
+          "estnum": "2"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 7,
         "einsatzart": "BRAND",
         "einsatzort": "SE - ST. ULRICH BEI STEYR",
         "einsatzsubtyp": {
@@ -32,11 +32,23 @@
           "411203": {
             "feuerwehr": "FF Ebersegg"
           },
+          "411204": {
+            "feuerwehr": "FF Garsten"
+          },
           "411206": {
             "feuerwehr": "FF Kleinraming"
           },
           "411212": {
             "feuerwehr": "FF St. Ulrich bei Steyr"
+          },
+          "411315": {
+            "feuerwehr": "FF Sulzbach / SE"
+          },
+          "53010601": {
+            "feuerwehr": "BEHAMBERG (NÖ)"
+          },
+          "53020701": {
+            "feuerwehr": "WACHTBERG (NÖ)"
           }
         },
         "feuerwehrenarray": {
@@ -45,12 +57,28 @@
             "fwnr": "411203"
           },
           "1": {
+            "fwname": "FF Garsten",
+            "fwnr": "411204"
+          },
+          "2": {
             "fwname": "FF Kleinraming",
             "fwnr": "411206"
           },
-          "2": {
+          "3": {
             "fwname": "FF St. Ulrich bei Steyr",
             "fwnr": "411212"
+          },
+          "4": {
+            "fwname": "FF Sulzbach / SE",
+            "fwnr": "411315"
+          },
+          "5": {
+            "fwname": "BEHAMBERG (NÖ)",
+            "fwnr": "53010601"
+          },
+          "6": {
+            "fwname": "WACHTBERG (NÖ)",
+            "fwnr": "53020701"
           }
         },
         "inzeit": "",
@@ -58,8 +86,8 @@
         "startzeit": "Wed, 23 Aug 2023 06:50:10 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.00862,
-          "lng": 14.476642
+          "lat": 48.007987,
+          "lng": 14.477873
         }
       }
     },
