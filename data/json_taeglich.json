@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KARL-KöTTL-STRAßE 35",
+          "earea": "LAMBACH",
+          "ecompl": "",
+          "efeanme": "KARL-KöTTL-STRAßE",
+          "emun": "LAMBACH",
+          "estnum": "35"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - LAMBACH",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "FF Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lambach",
+            "fwnr": "414111"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802509",
+        "startzeit": "Thu, 24 Aug 2023 06:03:40 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.092075,
+          "lng": 13.871171
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": "410110"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 24 Aug 2023 05:44:33 +0200",
         "num1": "E230802507",
         "startzeit": "Thu, 24 Aug 2023 05:13:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.432758,
           "lng": 13.673978
