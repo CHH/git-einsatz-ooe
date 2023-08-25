@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AUROLZMÜNSTER",
+          "earea": "AUROLZMÜNSTER",
+          "ecompl": "L510 WEILBACHER STRAßE",
+          "efeanme": "",
+          "emun": "AUROLZMÜNSTER",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - AUROLZMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408105": {
+            "feuerwehr": "FF Aurolzmünster"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aurolzmünster",
+            "fwnr": "408105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803105",
+        "startzeit": "Fri, 25 Aug 2023 15:58:29 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.248856,
+          "lng": 13.450836
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": 47.940138,
           "lng": 13.577196
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HÖRSCHINGER STRAßE 1",
-          "earea": "TRINDORF",
-          "ecompl": "00000-61180-1",
-          "efeanme": "HÖRSCHINGER STRAßE",
-          "emun": "OFTERING",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - OFTERING",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406206": {
-            "feuerwehr": "FF Freiling"
-          },
-          "406215": {
-            "feuerwehr": "FF Oftering"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Freiling",
-            "fwnr": "406206"
-          },
-          "1": {
-            "fwname": "FF Oftering",
-            "fwnr": "406215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803096",
-        "startzeit": "Fri, 25 Aug 2023 14:57:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.227336,
-          "lng": 14.160987
         }
       }
     }
