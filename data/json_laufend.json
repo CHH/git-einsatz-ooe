@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 35,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 33,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OSTERMIETHING",
+          "earea": "",
+          "ecompl": "FW ERNSTING",
+          "efeanme": "",
+          "emun": "OSTERMIETHING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "BR - OSTERMIETHING",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400403": {
+            "feuerwehr": "FF Ernsting"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ernsting",
+            "fwnr": "400403"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803023",
+        "startzeit": "Fri, 25 Aug 2023 08:16:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.05177,
+          "lng": 12.8541
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +234,6 @@
         "wgs84": {
           "lat": 47.863272,
           "lng": 13.348197
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WOLKETSEDT",
-          "earea": "WOLKETSEDT",
-          "ecompl": "L1120 PETERSKIRCHENER STRAßE",
-          "efeanme": "",
-          "emun": "PETERSKIRCHEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RI - PETERSKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408232": {
-            "feuerwehr": "FF Peterskirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Peterskirchen",
-            "fwnr": "408232"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803013",
-        "startzeit": "Fri, 25 Aug 2023 07:52:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.233762,
-          "lng": 13.543164
         }
       }
     },
@@ -426,100 +426,6 @@
         "wgs84": {
           "lat": 48.258826,
           "lng": 14.255721
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SONNENWEG 1",
-          "earea": "HOF",
-          "ecompl": "",
-          "efeanme": "SONNENWEG",
-          "emun": "TIEFGRABEN",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - TIEFGRABEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413205": {
-            "feuerwehr": "FF Hof / VB"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hof / VB",
-            "fwnr": "413205"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802999",
-        "startzeit": "Fri, 25 Aug 2023 07:40:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.869359,
-          "lng": 13.319369
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GERLING",
-          "earea": "GERLING",
-          "ecompl": "B127 ROHRBACHER STRAßE",
-          "efeanme": "",
-          "emun": "ST. MARTIN IM MÜHLKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - ST. MARTIN IM MÜHLKREIS",
-        "einsatzsubtyp": {
-          "id": "PKW-BK",
-          "text": "BRAND KFZ"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409314": {
-            "feuerwehr": "FF St. Martin im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Martin im Mühlkreis",
-            "fwnr": "409314"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802997",
-        "startzeit": "Fri, 25 Aug 2023 07:39:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.398263,
-          "lng": 14.075115
         }
       }
     },
