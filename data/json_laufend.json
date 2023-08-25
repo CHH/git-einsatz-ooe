@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 36,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 34,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MüHLBACHSTRAßE 35",
+          "earea": "MüHLBACH",
+          "ecompl": "",
+          "efeanme": "MüHLBACHSTRAßE",
+          "emun": "GARSTEN",
+          "estnum": "35"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SE - GARSTEN",
+        "einsatzsubtyp": {
+          "id": "TIER-TK",
+          "text": "TIERRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411210": {
+            "feuerwehr": "FF Oberdambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Oberdambach",
+            "fwnr": "411210"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230802991",
+        "startzeit": "Fri, 25 Aug 2023 07:23:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.973199,
+          "lng": 14.393495
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -281,53 +328,6 @@
         "wgs84": {
           "lat": 47.908603,
           "lng": 13.811453
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NETTINGSDORFER STRAßE 40",
-          "earea": "NETTINGSDORF",
-          "ecompl": "00000-63237-1",
-          "efeanme": "NETTINGSDORFER STRAßE",
-          "emun": "ANSFELDEN",
-          "estnum": "40"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - ANSFELDEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406261": {
-            "feuerwehr": "BTF Nettingsdorfer Papierfabrik AG Co Kg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "BTF Nettingsdorfer Papierfabrik AG Co Kg",
-            "fwnr": "406261"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802977",
-        "startzeit": "Fri, 25 Aug 2023 07:03:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.184193,
-          "lng": 14.260022
         }
       }
     },
@@ -624,100 +624,6 @@
         "wgs84": {
           "lat": 47.911925,
           "lng": 13.807327
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KIRCHBERG BEI MATTIGHOFEN",
-          "earea": "KIRCHBERG BEI MATTIGHOFEN",
-          "ecompl": "SAULDORF",
-          "efeanme": "",
-          "emun": "KIRCHBERG BEI MATTIGHOFEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "BR - KIRCHBERG BEI MATTIGHOFEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400221": {
-            "feuerwehr": "FF Siegertshaft-Kirchberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Siegertshaft-Kirchberg",
-            "fwnr": "400221"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802947",
-        "startzeit": "Fri, 25 Aug 2023 06:04:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.035445,
-          "lng": 13.096145
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "OSTERMIETHING",
-          "earea": "",
-          "ecompl": "L501 WEILHARTSTRAßE KM 32.0 HÖHE WEILHARTSTRAßE",
-          "efeanme": "",
-          "emun": "OSTERMIETHING",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "BR - OSTERMIETHING",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400411": {
-            "feuerwehr": "FF Ostermiething"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ostermiething",
-            "fwnr": "400411"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230802941",
-        "startzeit": "Fri, 25 Aug 2023 05:54:20 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.052869,
-          "lng": 12.832015
         }
       }
     },
