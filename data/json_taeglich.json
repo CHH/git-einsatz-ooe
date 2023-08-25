@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 228,
-  "cnt_feuerwehren": 199,
+  "cnt_einsaetze": 229,
+  "cnt_feuerwehren": 201,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WAIDHOLZ 46",
+          "earea": "OBERWALLSEE",
+          "ecompl": "",
+          "efeanme": "WAIDHOLZ",
+          "emun": "FELDKIRCHEN AN DER DONAU",
+          "estnum": "46"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - FELDKIRCHEN AN DER DONAU",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412211": {
+            "feuerwehr": "FF Lacken"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lacken",
+            "fwnr": "412211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803133",
+        "startzeit": "Fri, 25 Aug 2023 19:43:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.377734,
+          "lng": 14.081982
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "OWR41892013"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 25 Aug 2023 19:43:02 +0200",
         "num1": "E230803126",
         "startzeit": "Fri, 25 Aug 2023 19:04:22 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.840464,
           "lng": 13.540279
@@ -158,7 +205,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SE - ASCHACH AN DER STEYR",
         "einsatzsubtyp": {
@@ -170,20 +217,27 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "411201": {
+            "feuerwehr": "FF Aschach an der Steyr"
+          },
           "41510106": {
             "feuerwehr": "FW Technischer Zug Steyr"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Aschach an der Steyr",
+            "fwnr": "411201"
+          },
+          "1": {
             "fwname": "FW Technischer Zug Steyr",
             "fwnr": "41510106"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 25 Aug 2023 20:05:52 +0200",
         "num1": "E230803113",
         "startzeit": "Fri, 25 Aug 2023 17:43:15 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.020236,
           "lng": 14.320858
