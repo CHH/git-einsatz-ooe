@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 231,
-  "cnt_feuerwehren": 206,
+  "cnt_einsaetze": 234,
+  "cnt_feuerwehren": 211,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STADTPLATZ 19",
+          "earea": "ALTHEIM",
+          "ecompl": "",
+          "efeanme": "STADTPLATZ",
+          "emun": "ALTHEIM",
+          "estnum": "19"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - ALTHEIM",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400301": {
+            "feuerwehr": "FF Altheim"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altheim",
+            "fwnr": "400301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803147",
+        "startzeit": "Fri, 25 Aug 2023 22:25:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.249279,
+          "lng": 13.231151
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "A8 FAHRTR. SUBEN NAC",
+          "earea": "",
+          "ecompl": "A8 FAHRTR. SUBEN NACH AUFFAHRT RIED-INNKREIS BEI KM 55",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - ",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408121": {
+            "feuerwehr": "FF Tumeltsham"
+          },
+          "408122": {
+            "feuerwehr": "FF Walchshausen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Tumeltsham",
+            "fwnr": "408121"
+          },
+          "1": {
+            "fwname": "FF Walchshausen",
+            "fwnr": "408122"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803145",
+        "startzeit": "Fri, 25 Aug 2023 22:11:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.260086,
+          "lng": 13.509885
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ROHRBACH IN OBERÖSTERREICH",
+          "earea": "ROHRBACH IN OBERÖSTERREICH",
+          "ecompl": "HANRIEDERSTRAßE",
+          "efeanme": "",
+          "emun": "ROHRBACH-BERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - ROHRBACH-BERG",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409419": {
+            "feuerwehr": "FF Rohrbach im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rohrbach im Mühlkreis",
+            "fwnr": "409419"
+          }
+        },
+        "inzeit": "Fri, 25 Aug 2023 22:09:30 +0200",
+        "num1": "E230803142",
+        "startzeit": "Fri, 25 Aug 2023 21:46:40 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.570915,
+          "lng": 13.98711
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +187,10 @@
             "fwnr": "412204"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 25 Aug 2023 21:53:09 +0200",
         "num1": "E230803139",
         "startzeit": "Fri, 25 Aug 2023 21:09:51 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.348218,
           "lng": 14.057209
@@ -64,7 +212,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "UU - ALTENBERG BEI LINZ",
         "einsatzsubtyp": {
@@ -76,6 +224,9 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "412218": {
+            "feuerwehr": "FF Ottensheim"
+          },
           "412302": {
             "feuerwehr": "FF Altenberg bei Linz"
           },
@@ -91,18 +242,22 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ottensheim",
+            "fwnr": "412218"
+          },
+          "1": {
             "fwname": "FF Altenberg bei Linz",
             "fwnr": "412302"
           },
-          "1": {
+          "2": {
             "fwname": "FF Gallneukirchen",
             "fwnr": "412303"
           },
-          "2": {
+          "3": {
             "fwname": "FF Oberbairing",
             "fwnr": "412310"
           },
-          "3": {
+          "4": {
             "fwname": "FF Veitsdorf",
             "fwnr": "412316"
           }
