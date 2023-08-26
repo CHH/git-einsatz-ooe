@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 65,
-  "cnt_feuerwehren": 64,
+  "cnt_einsaetze": 57,
+  "cnt_feuerwehren": 61,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHENKENFELDEN",
+          "earea": "",
+          "ecompl": "B38 BÖHMERWALDSTRAßE KM 116.0 HÖHE VORDERKÖNIGSCHLAG",
+          "efeanme": "",
+          "emun": "SCHENKENFELDEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - SCHENKENFELDEN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412109": {
+            "feuerwehr": "FF Königschlag"
+          },
+          "412117": {
+            "feuerwehr": "FF Schenkenfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Königschlag",
+            "fwnr": "412109"
+          },
+          "1": {
+            "fwname": "FF Schenkenfelden",
+            "fwnr": "412117"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804186",
+        "startzeit": "Sat, 26 Aug 2023 22:30:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.518679,
+          "lng": 14.359518
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -348,53 +402,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "RIED IM INNKREIS",
-          "earea": "",
-          "ecompl": "KM 26.8 HÖHE B141 RIEDER STRAßE",
-          "efeanme": "",
-          "emun": "RIED IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804149",
-        "startzeit": "Sat, 26 Aug 2023 21:09:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.208406,
-          "lng": 13.46574
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "TAUFKIRCHEN AN DER PRAM",
           "earea": "",
           "ecompl": "KM 52.6 HÖHE B137 INNVIERTLER STRAßE",
@@ -436,53 +443,6 @@
         "wgs84": {
           "lat": 48.386614,
           "lng": 13.519521
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KIRCHBERG-THENING",
-          "earea": "",
-          "ecompl": "GASTHAUS SCHOBER AM AICHBERG",
-          "efeanme": "",
-          "emun": "KIRCHBERG-THENING",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "LL - KIRCHBERG-THENING",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406202": {
-            "feuerwehr": "FF Axberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Axberg",
-            "fwnr": "406202"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804116",
-        "startzeit": "Sat, 26 Aug 2023 20:54:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.25691,
-          "lng": 14.099771
         }
       }
     },
@@ -745,100 +705,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "PRAMHOF 70",
-          "earea": "PRAMHOF",
-          "ecompl": "",
-          "efeanme": "PRAMHOF",
-          "emun": "ST. FLORIAN AM INN",
-          "estnum": "70"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - ST. FLORIAN AM INN",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410319": {
-            "feuerwehr": "FF St. Florian am Inn"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Florian am Inn",
-            "fwnr": "410319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804022",
-        "startzeit": "Sat, 26 Aug 2023 20:32:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.438827,
-          "lng": 13.474132
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AIGERDING 2",
-          "earea": "AIGERDING",
-          "ecompl": "",
-          "efeanme": "AIGERDING",
-          "emun": "ST. FLORIAN AM INN",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - ST. FLORIAN AM INN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410319": {
-            "feuerwehr": "FF St. Florian am Inn"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Florian am Inn",
-            "fwnr": "410319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803997",
-        "startzeit": "Sat, 26 Aug 2023 20:28:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.445481,
-          "lng": 13.450042
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "SCHARDENBERG",
           "earea": "",
           "ecompl": "BACH",
@@ -1021,107 +887,6 @@
         "wgs84": {
           "lat": 48.469647,
           "lng": 13.453898
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GAMPERN",
-          "earea": "",
-          "ecompl": "ZEILINGER BERG",
-          "efeanme": "",
-          "emun": "GAMPERN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - GAMPERN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413407": {
-            "feuerwehr": "FF Baumgarting"
-          },
-          "413408": {
-            "feuerwehr": "FF Gampern"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Baumgarting",
-            "fwnr": "413407"
-          },
-          "1": {
-            "fwname": "FF Gampern",
-            "fwnr": "413408"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803975",
-        "startzeit": "Sat, 26 Aug 2023 20:20:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.012021,
-          "lng": 13.531704
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AIGERDING 7",
-          "earea": "AIGERDING",
-          "ecompl": "",
-          "efeanme": "AIGERDING",
-          "emun": "ST. FLORIAN AM INN",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - ST. FLORIAN AM INN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410319": {
-            "feuerwehr": "FF St. Florian am Inn"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Florian am Inn",
-            "fwnr": "410319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803965",
-        "startzeit": "Sat, 26 Aug 2023 20:15:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.444519,
-          "lng": 13.446333
         }
       }
     },
@@ -1762,53 +1527,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "KLAFFER AM HOCHFICHT",
-          "earea": "",
-          "ecompl": "FW KLAFFER",
-          "efeanme": "",
-          "emun": "KLAFFER AM HOCHFICHT",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - KLAFFER AM HOCHFICHT",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409104": {
-            "feuerwehr": "FF Klaffer"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Klaffer",
-            "fwnr": "409104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803828",
-        "startzeit": "Sat, 26 Aug 2023 19:50:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.69509,
-          "lng": 13.87989
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "WERNSTEIN AM INN",
           "earea": "WERNSTEIN AM INN",
           "ecompl": "L1147 WERNSTEINER STRAßE",
@@ -1850,53 +1568,6 @@
         "wgs84": {
           "lat": 48.502603,
           "lng": 13.453743
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LOHNHARTINGER STRAßE 1",
-          "earea": "DöRNBACH",
-          "ecompl": "",
-          "efeanme": "LOHNHARTINGER STRAßE",
-          "emun": "WILHERING",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "LL - WILHERING",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406223": {
-            "feuerwehr": "FF Wilhering"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Wilhering",
-            "fwnr": "406223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803815",
-        "startzeit": "Sat, 26 Aug 2023 19:48:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.279016,
-          "lng": 14.200281
         }
       }
     },
@@ -2273,53 +1944,6 @@
         "wgs84": {
           "lat": 48.439911,
           "lng": 13.458031
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KLAFFER AM HOCHFICHT",
-          "earea": "",
-          "ecompl": "FW KLAFFER",
-          "efeanme": "",
-          "emun": "KLAFFER AM HOCHFICHT",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - KLAFFER AM HOCHFICHT",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409104": {
-            "feuerwehr": "FF Klaffer"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Klaffer",
-            "fwnr": "409104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803655",
-        "startzeit": "Sat, 26 Aug 2023 19:20:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.69509,
-          "lng": 13.87989
         }
       }
     },
