@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NEUSCHöNAUER HAUPTSTRAßE 2",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "NEUSCHöNAUER HAUPTSTRAßE",
+          "emun": "STEYR",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510101": {
+            "feuerwehr": "FW Löschzug 1 Innere Stadt"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Löschzug 1 Innere Stadt",
+            "fwnr": "41510101"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803168",
+        "startzeit": "Sat, 26 Aug 2023 08:20:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.033044,
+          "lng": 14.416959
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "412302"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 26 Aug 2023 08:24:46 +0200",
         "num1": "E230803165",
         "startzeit": "Sat, 26 Aug 2023 08:01:34 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.36351,
           "lng": 14.339709
