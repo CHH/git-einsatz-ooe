@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WEINZIERLER STRAßE 9",
+          "earea": "BURGFRIED",
+          "ecompl": "",
+          "efeanme": "WEINZIERLER STRAßE",
+          "emun": "BAD LEONFELDEN",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - BAD LEONFELDEN",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412103": {
+            "feuerwehr": "FF Bad Leonfelden"
+          },
+          "412105": {
+            "feuerwehr": "FF Dietrichschlag"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Leonfelden",
+            "fwnr": "412103"
+          },
+          "1": {
+            "fwname": "FF Dietrichschlag",
+            "fwnr": "412105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230803196",
+        "startzeit": "Sat, 26 Aug 2023 12:32:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.522534,
+          "lng": 14.298975
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
