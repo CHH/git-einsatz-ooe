@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PFAFFSTÄTT 128",
+          "earea": "PFAFFSTÄTT",
+          "ecompl": "00000-1020-1",
+          "efeanme": "PFAFFSTÄTT",
+          "emun": "PFAFFSTÄTT",
+          "estnum": "128"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - PFAFFSTÄTT",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "400216": {
+            "feuerwehr": "FF Pfaffstätt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pfaffstätt",
+            "fwnr": "400216"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804308",
+        "startzeit": "Sun, 27 Aug 2023 12:00:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.074866,
+          "lng": 13.142197
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -382,60 +429,6 @@
         "wgs84": {
           "lat": 48.21,
           "lng": 13.43
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "TUMELTSHAM",
-          "earea": "",
-          "ecompl": "B141 RIEDER STRAßE KM G 0.8 HÖHE UNTERFÜHRUNG B141A",
-          "efeanme": "",
-          "emun": "TUMELTSHAM",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - TUMELTSHAM",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408110": {
-            "feuerwehr": "FF Eschlried"
-          },
-          "408121": {
-            "feuerwehr": "FF Tumeltsham"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Eschlried",
-            "fwnr": "408110"
-          },
-          "1": {
-            "fwname": "FF Tumeltsham",
-            "fwnr": "408121"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804266",
-        "startzeit": "Sun, 27 Aug 2023 08:30:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.218593,
-          "lng": 13.495152
         }
       }
     },
