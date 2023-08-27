@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STOCKET 1",
+          "earea": "STOCKET",
+          "ecompl": "",
+          "efeanme": "STOCKET",
+          "emun": "ST. FLORIAN AM INN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "SD - ST. FLORIAN AM INN",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410319": {
+            "feuerwehr": "FF St. Florian am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Florian am Inn",
+            "fwnr": "410319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804301",
+        "startzeit": "Sun, 27 Aug 2023 10:56:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.440943,
+          "lng": 13.463826
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": 48.064766,
           "lng": 14.19421
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LEOPOLDSHOFSTATT 47",
-          "earea": "LEOPOLDSHOFSTATT",
-          "ecompl": "",
-          "efeanme": "LEOPOLDSHOFSTATT",
-          "emun": "EBERSCHWANG",
-          "estnum": "47"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RI - EBERSCHWANG",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408214": {
-            "feuerwehr": "FF Leopoldshofstatt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Leopoldshofstatt",
-            "fwnr": "408214"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804291",
-        "startzeit": "Sun, 27 Aug 2023 09:15:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.145279,
-          "lng": 13.572792
         }
       }
     },
@@ -328,100 +328,6 @@
         "wgs84": {
           "lat": 48.22984,
           "lng": 13.49959
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "RIED IM INNKREIS",
-          "earea": "",
-          "ecompl": "FW RIED IM INNKREIS",
-          "efeanme": "",
-          "emun": "RIED IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804275",
-        "startzeit": "Sun, 27 Aug 2023 08:57:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.21018,
-          "lng": 13.48247
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HOHENZELL",
-          "earea": "",
-          "ecompl": "FW EMPRECHTING",
-          "efeanme": "",
-          "emun": "HOHENZELL",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - HOHENZELL",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408205": {
-            "feuerwehr": "FF Emprechting"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Emprechting",
-            "fwnr": "408205"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804272",
-        "startzeit": "Sun, 27 Aug 2023 08:47:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.2121,
-          "lng": 13.52608
         }
       }
     },
