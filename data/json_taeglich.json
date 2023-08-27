@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 29,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ÖLKAM ",
+          "earea": "",
+          "ecompl": "ÖLKAM",
+          "efeanme": "ÖLKAM",
+          "emun": "MARKT-ST.-FLORIAN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - MARKT-ST.-FLORIAN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406109": {
+            "feuerwehr": "FF Rohrbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rohrbach",
+            "fwnr": "406109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804211",
+        "startzeit": "Sun, 27 Aug 2023 02:11:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.224957,
+          "lng": 14.358018
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HEILIGENBERG",
+          "earea": "",
+          "ecompl": "L1214 SCHAUNBERGER STRAßE KM 2.4 HÖHE SÜSSENBACH",
+          "efeanme": "",
+          "emun": "HEILIGENBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - HEILIGENBERG",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404307": {
+            "feuerwehr": "FF Heiligenberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Heiligenberg",
+            "fwnr": "404307"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804208",
+        "startzeit": "Sun, 27 Aug 2023 01:16:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.352381,
+          "lng": 13.844014
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +187,6 @@
         "wgs84": {
           "lat": 48.296065,
           "lng": 14.35082
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ESTERNBERG",
-          "earea": "",
-          "ecompl": "FREIBAD ESTERNBERG",
-          "efeanme": "",
-          "emun": "ESTERNBERG",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - ESTERNBERG",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "": {
-            "feuerwehr": ""
-          },
-          "410106": {
-            "feuerwehr": "FF Esternberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Esternberg",
-            "fwnr": "410106"
-          },
-          "1": {
-            "fwname": "",
-            "fwnr": ""
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804170",
-        "startzeit": "Sat, 26 Aug 2023 21:38:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.537654,
-          "lng": 13.579471
         }
       }
     },
@@ -1016,88 +1056,6 @@
         "wgs84": {
           "lat": 48.471872,
           "lng": 13.471679
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FRANKING",
-          "earea": "",
-          "ecompl": "HOLZÖSTERSEE",
-          "efeanme": "",
-          "emun": "FRANKING",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 6,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - FRANKING",
-        "einsatzsubtyp": {
-          "id": "TAUCH-TG",
-          "text": "TAUCHEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "TEE",
-          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "400111": {
-            "feuerwehr": "FF St. Peter am Hart"
-          },
-          "400404": {
-            "feuerwehr": "FF Franking"
-          },
-          "413429": {
-            "feuerwehr": "FF Vöcklabruck"
-          },
-          "4184": {
-            "feuerwehr": "TAUCHER"
-          },
-          "54101130": {
-            "feuerwehr": "BF SALZBURG"
-          },
-          "OWR41892017": {
-            "feuerwehr": "ÖWR TAUCHER"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Peter am Hart",
-            "fwnr": "400111"
-          },
-          "1": {
-            "fwname": "FF Franking",
-            "fwnr": "400404"
-          },
-          "2": {
-            "fwname": "FF Vöcklabruck",
-            "fwnr": "413429"
-          },
-          "3": {
-            "fwname": "TAUCHER",
-            "fwnr": "4184"
-          },
-          "4": {
-            "fwname": "ÖWR TAUCHER",
-            "fwnr": "OWR41892017"
-          },
-          "5": {
-            "fwname": "BF SALZBURG",
-            "fwnr": "54101130"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230803253",
-        "startzeit": "Sat, 26 Aug 2023 18:08:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.05831,
-          "lng": 12.900711
         }
       }
     },
