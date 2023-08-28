@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GUMPERDING 17",
+          "earea": "GUMPERDING",
+          "ecompl": "",
+          "efeanme": "GUMPERDING",
+          "emun": "PERWANG AM GRABENSEE",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "BR - PERWANG AM GRABENSEE",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400215": {
+            "feuerwehr": "FF Perwang"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Perwang",
+            "fwnr": "400215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804460",
+        "startzeit": "Mon, 28 Aug 2023 14:22:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.03061,
+          "lng": 13.056546
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,53 +100,6 @@
         "wgs84": {
           "lat": 48.389416,
           "lng": 13.51666
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "VÖCKLABRUCK",
-          "earea": "",
-          "ecompl": "AM POSCHENHOF",
-          "efeanme": "",
-          "emun": "VÖCKLABRUCK",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - VÖCKLABRUCK",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "FF Vöcklabruck"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Vöcklabruck",
-            "fwnr": "413429"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804452",
-        "startzeit": "Mon, 28 Aug 2023 13:59:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.020076,
-          "lng": 13.643834
         }
       }
     },
@@ -544,114 +544,6 @@
         "wgs84": {
           "lat": 48.125862,
           "lng": 13.006635
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHALCHEN 3",
-          "earea": "SCHALCHEN",
-          "ecompl": "",
-          "efeanme": "SCHALCHEN",
-          "emun": "TREUBACH",
-          "estnum": "3"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - TREUBACH",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400312": {
-            "feuerwehr": "FF Pfendhub"
-          },
-          "400319": {
-            "feuerwehr": "FF Treubach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Pfendhub",
-            "fwnr": "400312"
-          },
-          "1": {
-            "fwname": "FF Treubach",
-            "fwnr": "400319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804413",
-        "startzeit": "Mon, 28 Aug 2023 11:34:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.205305,
-          "lng": 13.217165
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ZINNGIEßING 4",
-          "earea": "ZINNGIEßING",
-          "ecompl": "",
-          "efeanme": "ZINNGIEßING",
-          "emun": "ENGERWITZDORF",
-          "estnum": "4"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - ENGERWITZDORF",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412103": {
-            "feuerwehr": "FF Bad Leonfelden"
-          },
-          "412315": {
-            "feuerwehr": "FF Treffling"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bad Leonfelden",
-            "fwnr": "412103"
-          },
-          "1": {
-            "fwname": "FF Treffling",
-            "fwnr": "412315"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804400",
-        "startzeit": "Mon, 28 Aug 2023 10:17:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.347502,
-          "lng": 14.358787
         }
       }
     }
