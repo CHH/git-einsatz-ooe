@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ROTTENBACH",
+          "earea": "",
+          "ecompl": "B141 RIEDER STRAßE KM 6.410 HÖHE INNERNSEE",
+          "efeanme": "",
+          "emun": "ROTTENBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - ROTTENBACH",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404212": {
+            "feuerwehr": "FF Rottenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rottenbach",
+            "fwnr": "404212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804369",
+        "startzeit": "Mon, 28 Aug 2023 06:17:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.216504,
+          "lng": 13.692021
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "THERMENPLATZ 1",
+          "earea": "GEINBERG",
+          "ecompl": "00000-0829-2",
+          "efeanme": "THERMENPLATZ",
+          "emun": "GEINBERG",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - GEINBERG",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "408302": {
+            "feuerwehr": "FF Geinberg"
+          },
+          "408308": {
+            "feuerwehr": "FF Moosham"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Geinberg",
+            "fwnr": "408302"
+          },
+          "1": {
+            "fwname": "FF Moosham",
+            "fwnr": "408308"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804367",
+        "startzeit": "Mon, 28 Aug 2023 06:16:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.262292,
+          "lng": 13.297483
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
