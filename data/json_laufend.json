@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 8,
+  "cnt_einsaetze": 7,
   "cnt_feuerwehren": 10,
   "einsaetze": [
     {
@@ -64,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - GRÜNBACH",
         "einsatzsubtyp": {
@@ -76,12 +76,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "402402": {
+            "feuerwehr": "FF Grünbach"
+          },
           "402416": {
             "feuerwehr": "FF Rauchenödt"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Grünbach",
+            "fwnr": "402402"
+          },
+          "1": {
             "fwname": "FF Rauchenödt",
             "fwnr": "402416"
           }
@@ -241,53 +248,6 @@
         "wgs84": {
           "lat": 48.382982,
           "lng": 14.068186
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WEYREGG AM ATTERSEE",
-          "earea": "",
-          "ecompl": "B152 SEELEITENSTRAßE OÖ KM 10.2 HÖHE SEELEITENSTRAßE",
-          "efeanme": "",
-          "emun": "WEYREGG AM ATTERSEE",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - WEYREGG AM ATTERSEE",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413525": {
-            "feuerwehr": "FF Weyregg am Attersee"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Weyregg am Attersee",
-            "fwnr": "413525"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804731",
-        "startzeit": "Tue, 29 Aug 2023 18:08:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.867258,
-          "lng": 13.565311
         }
       }
     },
