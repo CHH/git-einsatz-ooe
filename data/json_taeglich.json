@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALKOVEN",
+          "earea": "",
+          "ecompl": "FW ALKOVEN",
+          "efeanme": "",
+          "emun": "ALKOVEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - ALKOVEN",
+        "einsatzsubtyp": {
+          "id": "2-ALARMMITTEL",
+          "text": "KLEINALARM"
+        },
+        "einsatztyp": {
+          "id": "ALKLEIN",
+          "text": "KLEINALARM FEUERWEHREINSATZ (AL-MITTEL REDUZIERT)"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "FF Alkoven"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Alkoven",
+            "fwnr": "401101"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804656",
+        "startzeit": "Tue, 29 Aug 2023 07:00:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.28761,
+          "lng": 14.11017
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +133,10 @@
             "fwnr": "400415"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 29 Aug 2023 06:31:00 +0200",
         "num1": "E230804652",
         "startzeit": "Tue, 29 Aug 2023 05:01:58 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.026391,
           "lng": 12.860634
@@ -335,60 +382,6 @@
         "wgs84": {
           "lat": 48.447976,
           "lng": 13.443089
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. FLORIAN AM INN",
-          "earea": "",
-          "ecompl": "FW ST. FLORIAN AM INN",
-          "efeanme": "",
-          "emun": "ST. FLORIAN AM INN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - ST. FLORIAN AM INN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410309": {
-            "feuerwehr": "FF Höcking"
-          },
-          "410319": {
-            "feuerwehr": "FF St. Florian am Inn"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Höcking",
-            "fwnr": "410309"
-          },
-          "1": {
-            "fwname": "FF St. Florian am Inn",
-            "fwnr": "410319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804578",
-        "startzeit": "Mon, 28 Aug 2023 19:32:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.44218,
-          "lng": 13.44351
         }
       }
     },
