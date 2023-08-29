@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAUERSTRAßE 10",
+          "earea": "KALTENBACH",
+          "ecompl": "",
+          "efeanme": "BAUERSTRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804750",
+        "startzeit": "Tue, 29 Aug 2023 19:22:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.710717,
+          "lng": 13.614819
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "FR - GRÜNBACH",
         "einsatzsubtyp": {
@@ -79,6 +126,9 @@
           "402402": {
             "feuerwehr": "FF Grünbach"
           },
+          "402403": {
+            "feuerwehr": "FF Gugu-Schönberg"
+          },
           "402416": {
             "feuerwehr": "FF Rauchenödt"
           }
@@ -89,6 +139,10 @@
             "fwnr": "402402"
           },
           "1": {
+            "fwname": "FF Gugu-Schönberg",
+            "fwnr": "402403"
+          },
+          "2": {
             "fwname": "FF Rauchenödt",
             "fwnr": "402416"
           }
