@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "REITLINGBERG 19",
+          "earea": "REITLINGBERG",
+          "ecompl": "",
+          "efeanme": "REITLINGBERG",
+          "emun": "WARTBERG OB DER AIST",
+          "estnum": "19"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - WARTBERG OB DER AIST",
+        "einsatzsubtyp": {
+          "id": "TRAFO-BK",
+          "text": "BRAND ELEKTRISCHE ANLAGEN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402213": {
+            "feuerwehr": "FF Wartberg ob der Aist"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Wartberg ob der Aist",
+            "fwnr": "402213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804673",
+        "startzeit": "Tue, 29 Aug 2023 08:45:40 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.331975,
+          "lng": 14.47649
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,60 +147,6 @@
         "wgs84": {
           "lat": 47.996785,
           "lng": 13.588301
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SAXEN",
-          "earea": "",
-          "ecompl": "FW SAXEN",
-          "efeanme": "",
-          "emun": "SAXEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - SAXEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407108": {
-            "feuerwehr": "FF Reitberg"
-          },
-          "407110": {
-            "feuerwehr": "FF Saxen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Reitberg",
-            "fwnr": "407108"
-          },
-          "1": {
-            "fwname": "FF Saxen",
-            "fwnr": "407110"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804641",
-        "startzeit": "Tue, 29 Aug 2023 02:29:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.20656,
-          "lng": 14.79236
         }
       }
     },
