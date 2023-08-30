@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 22,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHULSTRAßE 14",
+          "earea": "WOLFERN",
+          "ecompl": "00000-111063-1",
+          "efeanme": "SCHULSTRAßE",
+          "emun": "WOLFERN",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - WOLFERN",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "411207": {
+            "feuerwehr": "FF Losensteinleiten"
+          },
+          "411218": {
+            "feuerwehr": "FF Wolfern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Losensteinleiten",
+            "fwnr": "411207"
+          },
+          "1": {
+            "fwname": "FF Wolfern",
+            "fwnr": "411218"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804874",
+        "startzeit": "Wed, 30 Aug 2023 18:01:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.080191,
+          "lng": 14.374508
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": "412220"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 30 Aug 2023 17:43:56 +0200",
         "num1": "E230804867",
         "startzeit": "Wed, 30 Aug 2023 16:58:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.370214,
           "lng": 14.144165
