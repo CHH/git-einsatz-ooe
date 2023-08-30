@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RODLSTRAßE 36",
+          "earea": "ROTTENEGG",
+          "ecompl": "",
+          "efeanme": "RODLSTRAßE",
+          "emun": "ST. GOTTHARD IM MüHLKREIS",
+          "estnum": "36"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - ST. GOTTHARD IM MüHLKREIS",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412203": {
+            "feuerwehr": "FF Eschelberg"
+          },
+          "412220": {
+            "feuerwehr": "FF Rottenegg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Eschelberg",
+            "fwnr": "412203"
+          },
+          "1": {
+            "fwname": "FF Rottenegg",
+            "fwnr": "412220"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230804867",
+        "startzeit": "Wed, 30 Aug 2023 16:58:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.370214,
+          "lng": 14.144165
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
