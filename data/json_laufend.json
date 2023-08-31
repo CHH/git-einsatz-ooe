@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 1,
   "cnt_feuerwehren": 2,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - ",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "403101": {
+            "feuerwehr": "FF Bad Goisern"
+          },
           "403108": {
             "feuerwehr": "FF Lasern"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Bad Goisern",
+            "fwnr": "403101"
+          },
+          "1": {
             "fwname": "FF Lasern",
             "fwnr": "403108"
           }
@@ -46,53 +53,6 @@
         "wgs84": {
           "lat": 47.635775,
           "lng": 13.639501
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. AEGIDI",
-          "earea": "",
-          "ecompl": "B136 SAUWALDSTRAßE KM 23.4 HÖHE HACKENDORF",
-          "efeanme": "",
-          "emun": "ST. AEGIDI",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - ST. AEGIDI",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410107": {
-            "feuerwehr": "FF Hackendorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hackendorf",
-            "fwnr": "410107"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804934",
-        "startzeit": "Thu, 31 Aug 2023 13:05:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.467493,
-          "lng": 13.70312
         }
       }
     }
