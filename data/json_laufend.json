@@ -1,23 +1,23 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
           "default": "HÖRSCHING",
           "earea": "",
-          "ecompl": "RUTZINGER SEE",
+          "ecompl": "FW RUTZING",
           "efeanme": "",
           "emun": "HÖRSCHING",
           "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "LL - HÖRSCHING",
         "einsatzsubtyp": {
@@ -32,6 +32,12 @@
           "406202": {
             "feuerwehr": "FF Axberg"
           },
+          "406203": {
+            "feuerwehr": "FF Breitbrunn"
+          },
+          "406209": {
+            "feuerwehr": "FF Hörsching"
+          },
           "406219": {
             "feuerwehr": "FF Rutzing"
           }
@@ -42,6 +48,14 @@
             "fwnr": "406202"
           },
           "1": {
+            "fwname": "FF Breitbrunn",
+            "fwnr": "406203"
+          },
+          "2": {
+            "fwname": "FF Hörsching",
+            "fwnr": "406209"
+          },
+          "3": {
             "fwname": "FF Rutzing",
             "fwnr": "406219"
           }
@@ -51,8 +65,8 @@
         "startzeit": "Thu, 31 Aug 2023 21:27:33 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.201146,
-          "lng": 14.174535
+          "lat": 48.2057,
+          "lng": 14.18682
         }
       }
     }
