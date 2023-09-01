@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KELLERGASSE 3",
+          "earea": "RIED IM INNKREIS",
+          "ecompl": "",
+          "efeanme": "KELLERGASSE",
+          "emun": "RIED IM INNKREIS",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "TUEROE-DI",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900003",
+        "startzeit": "Fri, 01 Sep 2023 01:58:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.210063,
+          "lng": 13.490799
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,74 +93,6 @@
         "wgs84": {
           "lat": 48.355374,
           "lng": 14.521468
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HÖRSCHING",
-          "earea": "",
-          "ecompl": "FW RUTZING",
-          "efeanme": "",
-          "emun": "HÖRSCHING",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - HÖRSCHING",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406202": {
-            "feuerwehr": "FF Axberg"
-          },
-          "406203": {
-            "feuerwehr": "FF Breitbrunn"
-          },
-          "406209": {
-            "feuerwehr": "FF Hörsching"
-          },
-          "406219": {
-            "feuerwehr": "FF Rutzing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Axberg",
-            "fwnr": "406202"
-          },
-          "1": {
-            "fwname": "FF Breitbrunn",
-            "fwnr": "406203"
-          },
-          "2": {
-            "fwname": "FF Hörsching",
-            "fwnr": "406209"
-          },
-          "3": {
-            "fwname": "FF Rutzing",
-            "fwnr": "406219"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230804987",
-        "startzeit": "Thu, 31 Aug 2023 21:27:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.2057,
-          "lng": 14.18682
         }
       }
     }
