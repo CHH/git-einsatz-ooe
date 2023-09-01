@@ -5,6 +5,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - ",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400322": {
+            "feuerwehr": "FF Weng im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Weng im Innkreis",
+            "fwnr": "400322"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900042",
+        "startzeit": "Fri, 01 Sep 2023 11:53:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.256011,
+          "lng": 13.21244
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "ANDORF",
           "earea": "ANDORF",
           "ecompl": "UNIMARKT ANDORF",
@@ -154,53 +201,6 @@
         "wgs84": {
           "lat": 48.152187,
           "lng": 14.029017
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SPITZLEITHEN 2",
-          "earea": "VORCHDORF",
-          "ecompl": "",
-          "efeanme": "SPITZLEITHEN",
-          "emun": "VORCHDORF",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - VORCHDORF",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403226": {
-            "feuerwehr": "FF Vorchdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Vorchdorf",
-            "fwnr": "403226"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230900030",
-        "startzeit": "Fri, 01 Sep 2023 10:03:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.985678,
-          "lng": 13.902354
         }
       }
     }
