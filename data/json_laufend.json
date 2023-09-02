@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "EDENRAD 17",
+          "earea": "EDENRAD",
+          "ecompl": "",
+          "efeanme": "EDENRAD",
+          "emun": "EGGERDING",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - EGGERDING",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410310": {
+            "feuerwehr": "FF Hof / SD"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hof / SD",
+            "fwnr": "410310"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900248",
+        "startzeit": "Sat, 02 Sep 2023 23:32:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.362897,
+          "lng": 13.481525
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
