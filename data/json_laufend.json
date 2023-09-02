@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "EF - ",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "401107": {
+            "feuerwehr": "FF Haibach ob der Donau"
+          },
           "401113": {
             "feuerwehr": "FF Öd in Bergen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Haibach ob der Donau",
+            "fwnr": "401107"
+          },
+          "1": {
             "fwname": "FF Öd in Bergen",
             "fwnr": "401113"
           }
@@ -93,60 +100,6 @@
         "wgs84": {
           "lat": 48.231405,
           "lng": 13.831164
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ANDORF",
-          "earea": "",
-          "ecompl": "OBERNDORF",
-          "efeanme": "",
-          "emun": "ANDORF",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - ANDORF",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410202": {
-            "feuerwehr": "FF Andorf"
-          },
-          "410321": {
-            "feuerwehr": "FF Schärding"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Andorf",
-            "fwnr": "410202"
-          },
-          "1": {
-            "fwname": "FF Schärding",
-            "fwnr": "410321"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230900178",
-        "startzeit": "Sat, 02 Sep 2023 13:09:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.377047,
-          "lng": 13.608227
         }
       }
     }
