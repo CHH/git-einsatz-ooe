@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LANGWIESERSTRAßE 88",
+          "earea": "LANGWIES",
+          "ecompl": "",
+          "efeanme": "LANGWIESERSTRAßE",
+          "emun": "EBENSEE AM TRAUNSEE",
+          "estnum": "88"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - EBENSEE AM TRAUNSEE",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403107": {
+            "feuerwehr": "FF Langwies"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Langwies",
+            "fwnr": "403107"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900172",
+        "startzeit": "Sat, 02 Sep 2023 12:49:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.771254,
+          "lng": 13.723053
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
