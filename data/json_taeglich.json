@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ERDMANNSDORF 43",
+          "earea": "ERDMANNSDORF",
+          "ecompl": "",
+          "efeanme": "ERDMANNSDORF",
+          "emun": "GUTAU",
+          "estnum": "43"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - GUTAU",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402203": {
+            "feuerwehr": "FF Erdmannsdorf"
+          },
+          "402204": {
+            "feuerwehr": "FF Gutau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Erdmannsdorf",
+            "fwnr": "402203"
+          },
+          "1": {
+            "fwname": "FF Gutau",
+            "fwnr": "402204"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900125",
+        "startzeit": "Sat, 02 Sep 2023 03:16:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.44728,
+          "lng": 14.605346
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
