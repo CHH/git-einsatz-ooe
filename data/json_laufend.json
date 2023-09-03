@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
@@ -59,6 +59,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "BAHNHOFSTRAßE 11",
+          "earea": "WINDISCHGARSTEN",
+          "ecompl": "",
+          "efeanme": "BAHNHOFSTRAßE",
+          "emun": "WINDISCHGARSTEN",
+          "estnum": "11"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - WINDISCHGARSTEN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405405": {
+            "feuerwehr": "FF Windischgarsten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Windischgarsten",
+            "fwnr": "405405"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900333",
+        "startzeit": "Sun, 03 Sep 2023 22:45:36 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.720301,
+          "lng": 14.328449
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "DüRNBACHSTRAßE 8",
           "earea": "TERNBERG",
           "ecompl": "",
@@ -71,7 +118,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SE - TERNBERG",
         "einsatzsubtyp": {
@@ -85,12 +132,19 @@
         "feuerwehren": {
           "411313": {
             "feuerwehr": "FF Schattleiten"
+          },
+          "411316": {
+            "feuerwehr": "FF Ternberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Schattleiten",
             "fwnr": "411313"
+          },
+          "1": {
+            "fwname": "FF Ternberg",
+            "fwnr": "411316"
           }
         },
         "inzeit": "",
