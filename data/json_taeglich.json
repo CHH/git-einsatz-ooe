@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RIEDER STRAßE 18",
+          "earea": "ANTIESENHOFEN",
+          "ecompl": "",
+          "efeanme": "RIEDER STRAßE",
+          "emun": "ANTIESENHOFEN",
+          "estnum": "18"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - ANTIESENHOFEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408301": {
+            "feuerwehr": "FF Antiesenhofen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Antiesenhofen",
+            "fwnr": "408301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900388",
+        "startzeit": "Mon, 04 Sep 2023 10:47:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.346859,
+          "lng": 13.400889
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MINING",
+          "earea": "",
+          "ecompl": "FW MINING",
+          "efeanme": "",
+          "emun": "MINING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - MINING",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400106": {
+            "feuerwehr": "FF Mining"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mining",
+            "fwnr": "400106"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900386",
+        "startzeit": "Mon, 04 Sep 2023 10:32:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.27596,
+          "lng": 13.15904
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +133,10 @@
             "fwnr": "403226"
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 04 Sep 2023 11:02:26 +0200",
         "num1": "E230900383",
         "startzeit": "Mon, 04 Sep 2023 10:00:29 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.010766,
           "lng": 13.926353
