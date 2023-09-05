@@ -49,16 +49,25 @@ jobs:
       - name: Download OOE Laufend
         run: |
           ./scripts/ooe-laufend.sh
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "OOE/Laufend: ${timestamp}" || exit 0
         continue-on-error: true
 
       - name: Download NOE Laufend
         run: |
           ./scripts/noe-laufend.sh
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "NOE/Laufend: ${timestamp}" || exit 0
         continue-on-error: true
 
       - name: Download NOE Feuerwehren
         run: |
           ./scripts/noe-feuerwehren.sh
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "NOE/Feuerwehren: ${timestamp}" || exit 0
         continue-on-error: true
 
       - name: Push changes
