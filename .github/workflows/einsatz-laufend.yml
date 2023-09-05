@@ -26,29 +26,41 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: |
-            data/json_laufend.etag
-          key: ${{ runner.os }}-json-laufend-etag
+            downloads/pup
+            downloads/ooe_laufend.etag
+            downloads/noe_laufend.etag
+            downloads/noe_feuerwehren.etag
+          key: ${{ runner.os }}-laufend
 
-      # Runs a single command using the runners shell
-      - name: Download data
+      - name: Install pup
         run: |
-          curl --fail --etag-save ./data/json_laufend.etag \
-            --etag-compare ./data/json_laufend.etag \
-            https://cf-intranet.ooelfv.at/webext2/rss/json_laufend.txt -o ./data/json_laufend.json
-        continue-on-error: true
+          echo "$(pwd)/downloads" >> $GITHUB_PATH
+          test -f ./downloads/pup && exit 0
+          mkdir ./downloads
+          curl -L https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_linux_amd64.zip -o ./downloads/pup.zip
+          unzip downloads/pup.zip -d ./downloads
+          chmod a+x ./downloads/pup
 
-      - name: Process data with jq
-        run: |
-          mv ./data/json_laufend.json ./data/json_laufend.json.tmp
-          cat ./data/json_laufend.json.tmp | jq -S '.einsaetze = (.einsaetze//{} | to_entries | map(.value) | sort_by(.value.einsatz.startzeit)) | del(.pubDate)' > ./data/json_laufend.json
-          rm ./data/json_laufend.json.tmp
-
-      # Runs a set of commands using the runners shell
-      - name: Commit and push if changed
+      - name: Setup git user
         run: |
           git config user.name "GitHub Actions"
           git config user.email "bot@hochstrasser.io"
-          git add -A
-          timestamp=$(date -u)
-          git commit -m "OOE/Laufend: ${timestamp}" || exit 0
+
+      - name: Download OOE Laufend
+        run: |
+          ./scripts/ooe-laufend.sh
+        continue-on-error: true
+
+      - name: Download NOE Laufend
+        run: |
+          ./scripts/noe-laufend.sh
+        continue-on-error: true
+
+      - name: Download NOE Feuerwehren
+        run: |
+          ./scripts/noe-feuerwehren.sh
+        continue-on-error: true
+
+      - name: Push changes
+        run: |
           git push
