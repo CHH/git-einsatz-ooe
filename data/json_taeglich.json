@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KASERNSTRAßE 4",
+          "earea": "RIED IM INNKREIS",
+          "ecompl": "00000-08149-2",
+          "efeanme": "KASERNSTRAßE",
+          "emun": "RIED IM INNKREIS",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "Tue, 05 Sep 2023 03:16:43 +0200",
+        "num1": "E230900465",
+        "startzeit": "Tue, 05 Sep 2023 02:37:47 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.215383,
+          "lng": 13.477652
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD GOISERN AM HALLSTÄTTERSEE",
+          "earea": "",
+          "ecompl": "B145 SALZKAMMERGUTSTRAßE KM 76.0 HÖHE PÖTSCHEN",
+          "efeanme": "",
+          "emun": "BAD GOISERN AM HALLSTÄTTERSEE",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD GOISERN AM HALLSTÄTTERSEE",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403117": {
+            "feuerwehr": "FF St. Agatha / GM"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Agatha / GM",
+            "fwnr": "403117"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900463",
+        "startzeit": "Tue, 05 Sep 2023 02:36:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.629248,
+          "lng": 13.691444
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
