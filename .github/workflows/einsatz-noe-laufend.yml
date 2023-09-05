@@ -9,7 +9,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron: '21 * * * *'
+    - cron: '*/10 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -43,9 +43,11 @@ jobs:
         run: |
           curl --etag-save ./data/noe/einsatz_aktuell.etag \
             --etag-compare ./data/noe/einsatz_aktuell.etag \
-            https://www.feuerwehr-krems.at/codepages/wastl/wastlmain/Land_EinsatzAktuell.asp -o ./data/noe/einsatz_aktuell.html
-          pup -f ./data/noe/einsatz_aktuell.html 'table tr json{}' | jq -S '. | map(.children | map(.text)[1:])' > ./data/noe/einsatz_aktuell.json
-          rm ./data/noe/einsatz_aktuell.html
+            https://www.feuerwehr-krems.at/codepages/wastl/wastlmain/Land_EinsatzAktuell.asp -o ./downloads/einsatz_aktuell_noe.html
+
+      - name: Convert from HTML to JSON
+        run: |
+          pup -f ./downloads/einsatz_aktuell_noe.html 'table tr json{}' | jq -S '. | map(.children | map(.text)[1:])' > ./data/noe/einsatz_aktuell.json
 
       # Runs a set of commands using the runners shell
       - name: Commit and push if changed
