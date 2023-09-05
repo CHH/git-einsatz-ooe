@@ -41,6 +41,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Download data
         run: |
+          mkdir ./downloads
           curl --etag-save ./data/noe/einsatz_aktuell.etag \
             --etag-compare ./data/noe/einsatz_aktuell.etag \
             https://www.feuerwehr-krems.at/codepages/wastl/wastlmain/Land_EinsatzAktuell.asp -o ./downloads/einsatz_aktuell_noe.html
