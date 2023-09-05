@@ -11,6 +11,8 @@ on:
   schedule:
     - cron: '*/10 * * * *'
 
+
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -27,28 +29,27 @@ jobs:
         with:
           path: |
             data/noe/einsatz_aktuell.etag
-          key: ${{ runner.os }}-einsatz-aktuell-etag
-
-      - name: Set up Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: '1.17'
+            downloads/pup
+          key: ${{ runner.os }}-einsatz-noe-laufend
 
       - name: Install pup
         run: |
-          go get github.com/ericchiang/pup
+          test -f ./downloads/pup && exit 0
+          mkdir ./downloads
+          curl -L https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_linux_amd64.zip -o ./downloads/pup.zip
+          unzip downloads/pup.zip -d ./downloads
+          chmod a+x ./downloads/pup
 
       # Runs a single command using the runners shell
       - name: Download data
         run: |
-          mkdir ./downloads
           curl --etag-save ./data/noe/einsatz_aktuell.etag \
             --etag-compare ./data/noe/einsatz_aktuell.etag \
             https://www.feuerwehr-krems.at/codepages/wastl/wastlmain/Land_EinsatzAktuell.asp -o ./downloads/einsatz_aktuell_noe.html
 
       - name: Convert from HTML to JSON
         run: |
-          pup -f ./downloads/einsatz_aktuell_noe.html 'table tr json{}' | jq -S '. | map(.children | map(.text)[1:])' > ./data/noe/einsatz_aktuell.json
+          ./downloads/pup -f ./downloads/einsatz_aktuell_noe.html 'table tr json{}' | jq -S '. | map(.children | map(.text)[1:])' > ./data/noe/einsatz_aktuell.json
 
       # Runs a set of commands using the runners shell
       - name: Commit and push if changed
