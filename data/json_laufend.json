@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FREILINGER STRAßE 42",
+          "earea": "UNTERHART",
+          "ecompl": "00000-141008-1",
+          "efeanme": "FREILINGER STRAßE",
+          "emun": "MARCHTRENK",
+          "estnum": "42"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - MARCHTRENK",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "FF Kappern"
+          },
+          "414215": {
+            "feuerwehr": "FF Marchtrenk"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kappern",
+            "fwnr": "414212"
+          },
+          "1": {
+            "fwname": "FF Marchtrenk",
+            "fwnr": "414215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900611",
+        "startzeit": "Wed, 06 Sep 2023 15:17:19 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.194063,
+          "lng": 14.08976
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -248,53 +302,6 @@
         "wgs84": {
           "lat": 48.359997,
           "lng": 14.501926
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "EGGELSBERG",
-          "earea": "",
-          "ecompl": "B156 LAMPRECHTSHAUSENER STRAßE KM 40.8 HÖHE OBERHAUNSBERG",
-          "efeanme": "",
-          "emun": "EGGELSBERG",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - EGGELSBERG",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400402": {
-            "feuerwehr": "FF Eggelsberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Eggelsberg",
-            "fwnr": "400402"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230900592",
-        "startzeit": "Wed, 06 Sep 2023 13:55:03 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.098038,
-          "lng": 12.990643
         }
       }
     }
