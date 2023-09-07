@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ZELL AM MOOS",
+          "earea": "",
+          "ecompl": "KM 11.4 HÖHE B154 MONDSEESTRAßE",
+          "efeanme": "",
+          "emun": "ZELL AM MOOS",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - ZELL AM MOOS",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413203": {
+            "feuerwehr": "FF Guggenberg"
+          },
+          "413204": {
+            "feuerwehr": "FF Haslau"
+          },
+          "413215": {
+            "feuerwehr": "FF Zell am Moos"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Guggenberg",
+            "fwnr": "413203"
+          },
+          "1": {
+            "fwname": "FF Haslau",
+            "fwnr": "413204"
+          },
+          "2": {
+            "fwname": "FF Zell am Moos",
+            "fwnr": "413215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900728",
+        "startzeit": "Thu, 07 Sep 2023 13:25:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.900119,
+          "lng": 13.318835
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
