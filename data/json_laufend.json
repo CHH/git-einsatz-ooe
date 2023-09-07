@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "WARTBERG AN DER KREMS",
           "estnum": "32"
         },
-        "alarmstufe": "2",
+        "alarmstufe": "3",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 12,
+        "cntfeuerwehren": 17,
         "einsatzart": "BRAND",
         "einsatzort": "KI - WARTBERG AN DER KREMS",
         "einsatzsubtyp": {
@@ -29,6 +29,15 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "405204": {
+            "feuerwehr": "FF Inzersdorf im Kremstal"
+          },
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
+          },
+          "405207": {
+            "feuerwehr": "FF Magdalenaberg"
+          },
           "405209": {
             "feuerwehr": "FF Nußbach"
           },
@@ -44,8 +53,14 @@
           "405301": {
             "feuerwehr": "FF Ehrnsdorf"
           },
+          "405302": {
+            "feuerwehr": "FF Großendorf"
+          },
           "405304": {
             "feuerwehr": "FF Kremsmünster"
+          },
+          "405306": {
+            "feuerwehr": "FF Ried im Traunkreis"
           },
           "405307": {
             "feuerwehr": "FF Strienzing"
@@ -65,52 +80,72 @@
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Nußbach",
-            "fwnr": "405209"
+            "fwname": "FF Inzersdorf im Kremstal",
+            "fwnr": "405204"
           },
           "1": {
-            "fwname": "FF Pettenbach",
-            "fwnr": "405211"
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
           },
           "10": {
+            "fwname": "FF Ried im Traunkreis",
+            "fwnr": "405306"
+          },
+          "11": {
+            "fwname": "FF Strienzing",
+            "fwnr": "405307"
+          },
+          "12": {
+            "fwname": "FF Voitsdorf",
+            "fwnr": "405308"
+          },
+          "13": {
+            "fwname": "FF Wartberg an der Krems",
+            "fwnr": "405309"
+          },
+          "14": {
+            "fwname": "FF Zenndorf",
+            "fwnr": "405310"
+          },
+          "15": {
             "fwname": "FF Nußbach",
             "fwnr": "405209"
           },
-          "11": {
+          "16": {
             "fwname": "FF Wels",
             "fwnr": "416101"
           },
           "2": {
+            "fwname": "FF Magdalenaberg",
+            "fwnr": "405207"
+          },
+          "3": {
+            "fwname": "FF Nußbach",
+            "fwnr": "405209"
+          },
+          "4": {
+            "fwname": "FF Pettenbach",
+            "fwnr": "405211"
+          },
+          "5": {
             "fwname": "FF Pratsdorf-Hammersdorf",
             "fwnr": "405212"
           },
-          "3": {
+          "6": {
             "fwname": "FF Schlierbach",
             "fwnr": "405213"
           },
-          "4": {
+          "7": {
             "fwname": "FF Ehrnsdorf",
             "fwnr": "405301"
           },
-          "5": {
-            "fwname": "FF Kremsmünster",
-            "fwnr": "405304"
-          },
-          "6": {
-            "fwname": "FF Strienzing",
-            "fwnr": "405307"
-          },
-          "7": {
-            "fwname": "FF Voitsdorf",
-            "fwnr": "405308"
-          },
           "8": {
-            "fwname": "FF Wartberg an der Krems",
-            "fwnr": "405309"
+            "fwname": "FF Großendorf",
+            "fwnr": "405302"
           },
           "9": {
-            "fwname": "FF Zenndorf",
-            "fwnr": "405310"
+            "fwname": "FF Kremsmünster",
+            "fwnr": "405304"
           }
         },
         "inzeit": "",
@@ -120,53 +155,6 @@
         "wgs84": {
           "lat": 47.989162,
           "lng": 14.093458
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HAUPTPLATZ 7",
-          "earea": "BAD HALL",
-          "ecompl": "",
-          "efeanme": "HAUPTPLATZ",
-          "emun": "BAD HALL",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "SE - BAD HALL",
-        "einsatzsubtyp": {
-          "id": "LIFT-TK",
-          "text": "EINGESCHLOSSENE PERSON IN LIFT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "411102": {
-            "feuerwehr": "FF Bad Hall"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bad Hall",
-            "fwnr": "411102"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230900741",
-        "startzeit": "Thu, 07 Sep 2023 15:21:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.035034,
-          "lng": 14.20877
         }
       }
     }
