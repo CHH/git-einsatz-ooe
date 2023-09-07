@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "UTTENDORF",
+          "earea": "UTTENDORF",
+          "ecompl": "SPORTPLATZSTRAßE",
+          "efeanme": "",
+          "emun": "HELPFAU-UTTENDORF",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - HELPFAU-UTTENDORF",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "FF Uttendorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Uttendorf",
+            "fwnr": "400320"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900709",
+        "startzeit": "Thu, 07 Sep 2023 09:53:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.163916,
+          "lng": 13.119991
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
