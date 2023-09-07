@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 52,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 54,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SPANFELD 29",
+          "earea": "SPANFELD",
+          "ecompl": "",
+          "efeanme": "SPANFELD",
+          "emun": "HELFENBERG",
+          "estnum": "29"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RO - HELFENBERG",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409408": {
+            "feuerwehr": "FF Helfenberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Helfenberg",
+            "fwnr": "409408"
+          }
+        },
+        "inzeit": "Thu, 07 Sep 2023 20:14:09 +0200",
+        "num1": "E230900790",
+        "startzeit": "Thu, 07 Sep 2023 19:49:13 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.54885,
+          "lng": 14.141088
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "411310"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 07 Sep 2023 20:10:14 +0200",
         "num1": "E230900782",
         "startzeit": "Thu, 07 Sep 2023 18:45:52 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.92356,
           "lng": 14.53374
@@ -64,7 +111,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "GM - BAD ISCHL",
         "einsatzsubtyp": {
@@ -76,6 +123,9 @@
           "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "": {
+            "feuerwehr": ""
+          },
           "403102": {
             "feuerwehr": "FF Bad Ischl"
           },
@@ -98,6 +148,10 @@
           "2": {
             "fwname": "FW Ahorn",
             "fwnr": "40310201"
+          },
+          "3": {
+            "fwname": "",
+            "fwnr": ""
           }
         },
         "inzeit": "",
@@ -201,10 +255,10 @@
             "fwnr": "407308"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 07 Sep 2023 20:16:40 +0200",
         "num1": "E230900770",
         "startzeit": "Thu, 07 Sep 2023 17:53:21 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.177659,
           "lng": 14.706885
