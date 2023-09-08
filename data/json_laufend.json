@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "NATTERNBACH",
-          "earea": "",
-          "ecompl": "HÖRMATING",
-          "efeanme": "",
-          "emun": "NATTERNBACH",
-          "estnum": ""
+          "default": "BERGGASSE 7",
+          "earea": "STRAßHAM",
+          "ecompl": "",
+          "efeanme": "BERGGASSE",
+          "emun": "ALKOVEN",
+          "estnum": "7"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 1,
+          "text": "Eferding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - NATTERNBACH",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - ALKOVEN",
         "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
-          "404311": {
-            "feuerwehr": "FF Natternbach"
+          "401101": {
+            "feuerwehr": "FF Alkoven"
+          },
+          "401114": {
+            "feuerwehr": "FF Polsing"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Natternbach",
-            "fwnr": "404311"
+            "fwname": "FF Alkoven",
+            "fwnr": "401101"
+          },
+          "1": {
+            "fwname": "FF Polsing",
+            "fwnr": "401114"
           }
         },
         "inzeit": "",
-        "num1": "E230900875",
-        "startzeit": "Fri, 08 Sep 2023 18:19:35 +0200",
+        "num1": "E230900889",
+        "startzeit": "Fri, 08 Sep 2023 20:15:46 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.385307,
-          "lng": 13.760947
+          "lat": 48.286128,
+          "lng": 14.147684
         }
       }
     }
