@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 24,
-  "cnt_feuerwehren": 30,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BERGGASSE 7",
+          "earea": "STRAßHAM",
+          "ecompl": "",
+          "efeanme": "BERGGASSE",
+          "emun": "ALKOVEN",
+          "estnum": "7"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - ALKOVEN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "FF Alkoven"
+          },
+          "401114": {
+            "feuerwehr": "FF Polsing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Alkoven",
+            "fwnr": "401101"
+          },
+          "1": {
+            "fwname": "FF Polsing",
+            "fwnr": "401114"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230900889",
+        "startzeit": "Fri, 08 Sep 2023 20:15:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.286128,
+          "lng": 14.147684
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "410106"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 08 Sep 2023 19:32:54 +0200",
         "num1": "E230900878",
         "startzeit": "Fri, 08 Sep 2023 18:47:46 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.54193,
           "lng": 13.58094
