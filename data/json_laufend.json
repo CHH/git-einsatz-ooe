@@ -1,36 +1,45 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "HINTERSTEINING 1",
-          "earea": "HINTERSTEINING",
-          "ecompl": "",
-          "efeanme": "HINTERSTEINING",
+          "default": "VORDERSTEINING 5",
+          "earea": "VORDERSTEINING",
+          "ecompl": "BIOENERGIE PREUNER GMBH",
+          "efeanme": "VORDERSTEINING",
           "emun": "FRANKENBURG AM HAUSRUCK",
-          "estnum": "1"
+          "estnum": "5"
         },
         "alarmstufe": 1,
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "VB - FRANKENBURG AM HAUSRUCK",
         "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
+          "id": "GEWERBE-BG",
+          "text": "BRAND GEWERBE, INDUSTRIE"
         },
         "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "413104": {
+            "feuerwehr": "FF Badstuben"
+          },
           "413110": {
             "feuerwehr": "FF Frankenburg am Hausruck"
+          },
+          "413124": {
+            "feuerwehr": "FF Pehigen"
+          },
+          "413134": {
+            "feuerwehr": "FF Riegl"
           },
           "413139": {
             "feuerwehr": "FF Steining"
@@ -38,10 +47,22 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Badstuben",
+            "fwnr": "413104"
+          },
+          "1": {
             "fwname": "FF Frankenburg am Hausruck",
             "fwnr": "413110"
           },
-          "1": {
+          "2": {
+            "fwname": "FF Pehigen",
+            "fwnr": "413124"
+          },
+          "3": {
+            "fwname": "FF Riegl",
+            "fwnr": "413134"
+          },
+          "4": {
             "fwname": "FF Steining",
             "fwnr": "413139"
           }
@@ -51,8 +72,8 @@
         "startzeit": "Sun, 10 Sep 2023 00:11:56 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.096188,
-          "lng": 13.487093
+          "lat": 48.09128,
+          "lng": 13.488344
         }
       }
     }
