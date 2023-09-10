@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "EBERSEGG 11",
+          "earea": "EBERSEGG",
+          "ecompl": "",
+          "efeanme": "EBERSEGG",
+          "emun": "ST. ULRICH BEI STEYR",
+          "estnum": "11"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SE - ST. ULRICH BEI STEYR",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411203": {
+            "feuerwehr": "FF Ebersegg"
+          },
+          "411206": {
+            "feuerwehr": "FF Kleinraming"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ebersegg",
+            "fwnr": "411203"
+          },
+          "1": {
+            "fwname": "FF Kleinraming",
+            "fwnr": "411206"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901106",
+        "startzeit": "Sun, 10 Sep 2023 19:46:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.981773,
+          "lng": 14.523439
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
