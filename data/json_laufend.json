@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KLAUS AN DER PYHRNBAHN",
+          "earea": "",
+          "ecompl": "LAIKENSTRAßE",
+          "efeanme": "",
+          "emun": "KLAUS AN DER PYHRNBAHN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - KLAUS AN DER PYHRNBAHN",
+        "einsatzsubtyp": {
+          "id": "FLURBR-BK",
+          "text": "BRAND BAUM, FLUR, BÖSCHUNG"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405216": {
+            "feuerwehr": "FF Steyrling"
+          },
+          "405226": {
+            "feuerwehr": "FF Klaus an der Pyhrnbahn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Steyrling",
+            "fwnr": "405216"
+          },
+          "1": {
+            "fwname": "FF Klaus an der Pyhrnbahn",
+            "fwnr": "405226"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901122",
+        "startzeit": "Sun, 10 Sep 2023 22:50:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.848253,
+          "lng": 14.155565
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
