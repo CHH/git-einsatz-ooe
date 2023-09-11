@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KEFERMARKT",
+          "earea": "",
+          "ecompl": "00000-21057-7",
+          "efeanme": "",
+          "emun": "KEFERMARKT",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - KEFERMARKT",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "FF Kefermarkt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kefermarkt",
+            "fwnr": "402109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901170",
+        "startzeit": "Mon, 11 Sep 2023 09:58:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.441147,
+          "lng": 14.541723
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.283924,
           "lng": 14.363369
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ALTMÜNSTER",
-          "earea": "",
-          "ecompl": "L1299 REINDLMÜHLSTRAßE KM 2.4 HÖHE AUF DER EDT",
-          "efeanme": "",
-          "emun": "ALTMÜNSTER",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - ALTMÜNSTER",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "FF Altmünster"
-          },
-          "403219": {
-            "feuerwehr": "FF Reindlmühl"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altmünster",
-            "fwnr": "403201"
-          },
-          "1": {
-            "fwname": "FF Reindlmühl",
-            "fwnr": "403219"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901143",
-        "startzeit": "Mon, 11 Sep 2023 07:12:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.894227,
-          "lng": 13.738852
         }
       }
     }
