@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD ISCHL",
+          "earea": "",
+          "ecompl": "SÄGEWERKGASSE",
+          "efeanme": "",
+          "emun": "BAD ISCHL",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403112": {
+            "feuerwehr": "FF Pfandl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pfandl",
+            "fwnr": "403112"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901266",
+        "startzeit": "Tue, 12 Sep 2023 09:12:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.719285,
+          "lng": 13.581204
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +187,6 @@
         "wgs84": {
           "lat": 48.206565,
           "lng": 13.478196
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHWARZENBACH ",
-          "earea": "",
-          "ecompl": "ALTSTOFFSAMMELZENTRUM ST. WOLFGANG",
-          "efeanme": "SCHWARZENBACH",
-          "emun": "ST.WOLFGANG I.S.",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - ST.WOLFGANG I.S.",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403118": {
-            "feuerwehr": "FF St. Wolfgang"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Wolfgang",
-            "fwnr": "403118"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901258",
-        "startzeit": "Tue, 12 Sep 2023 07:52:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.725392,
-          "lng": 13.49546
         }
       }
     }
