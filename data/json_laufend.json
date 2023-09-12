@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "JOSEPH HAYDN-STRAßE 25",
+          "earea": "HASELBACH",
+          "ecompl": "",
+          "efeanme": "JOSEPH HAYDN-STRAßE",
+          "emun": "BRAUNAU AM INN",
+          "estnum": "25"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - BRAUNAU AM INN",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "FF Braunau am Inn"
+          },
+          "400105": {
+            "feuerwehr": "FF Haselbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Braunau am Inn",
+            "fwnr": "400102"
+          },
+          "1": {
+            "fwname": "FF Haselbach",
+            "fwnr": "400105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901297",
+        "startzeit": "Tue, 12 Sep 2023 14:38:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.251155,
+          "lng": 13.060417
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": 48.222918,
           "lng": 14.39777
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ANTON-LUMPI-STRAßE 6",
-          "earea": "VÖCKLABRUCK",
-          "ecompl": "5042900-4S",
-          "efeanme": "ANTON-LUMPI-STRAßE",
-          "emun": "VÖCKLABRUCK",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "VB - VÖCKLABRUCK",
-        "einsatzsubtyp": {
-          "id": "ALFEUER-DI",
-          "text": "SIRENENPROGRAMM FEUER VON FW AUSGELÖST"
-        },
-        "einsatztyp": {
-          "id": "DISP",
-          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "FF Vöcklabruck"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Vöcklabruck",
-            "fwnr": "413429"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901290",
-        "startzeit": "Tue, 12 Sep 2023 14:06:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.006438,
-          "lng": 13.663519
         }
       }
     }
