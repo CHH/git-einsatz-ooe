@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. GEORGEN BEI GRIESKIRCHEN",
+          "earea": "",
+          "ecompl": "STOCKWIES",
+          "efeanme": "",
+          "emun": "ST. GEORGEN BEI GRIESKIRCHEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - ST. GEORGEN BEI GRIESKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404127": {
+            "feuerwehr": "FF Tolleterau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Tolleterau",
+            "fwnr": "404127"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901338",
+        "startzeit": "Wed, 13 Sep 2023 02:37:56 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.24032,
+          "lng": 13.780513
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
