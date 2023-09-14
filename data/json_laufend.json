@@ -1,7 +1,76 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SIERNING",
+          "earea": "",
+          "ecompl": "KM 42.4 HÖHE B122 VORALPENSTRAßE",
+          "efeanme": "",
+          "emun": "SIERNING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - SIERNING",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411205": {
+            "feuerwehr": "FF Hilbern"
+          },
+          "411209": {
+            "feuerwehr": "FF Neuzeug-Sierninghofen"
+          },
+          "411211": {
+            "feuerwehr": "FF Pichlern"
+          },
+          "411217": {
+            "feuerwehr": "FF Sierning"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hilbern",
+            "fwnr": "411205"
+          },
+          "1": {
+            "fwname": "FF Neuzeug-Sierninghofen",
+            "fwnr": "411209"
+          },
+          "2": {
+            "fwname": "FF Pichlern",
+            "fwnr": "411211"
+          },
+          "3": {
+            "fwname": "FF Sierning",
+            "fwnr": "411217"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901514",
+        "startzeit": "Thu, 14 Sep 2023 17:55:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.035512,
+          "lng": 14.303848
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
