@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "GEINBERG",
           "estnum": "22"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "RI - GEINBERG",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "400301": {
+            "feuerwehr": "FF Altheim"
+          },
           "408302": {
             "feuerwehr": "FF Geinberg"
           },
@@ -38,10 +41,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Altheim",
+            "fwnr": "400301"
+          },
+          "1": {
             "fwname": "FF Geinberg",
             "fwnr": "408302"
           },
-          "1": {
+          "2": {
             "fwname": "FF Moosham",
             "fwnr": "408308"
           }
