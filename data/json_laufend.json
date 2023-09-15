@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ASING 19",
+          "earea": "ASING",
+          "ecompl": "",
+          "efeanme": "ASING",
+          "emun": "STEEGEN",
+          "estnum": "19"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - STEEGEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404310": {
+            "feuerwehr": "FF Langenpeuerbach"
+          },
+          "404313": {
+            "feuerwehr": "FF Obererleinsbach"
+          },
+          "404319": {
+            "feuerwehr": "FF Steegen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Langenpeuerbach",
+            "fwnr": "404310"
+          },
+          "1": {
+            "fwname": "FF Obererleinsbach",
+            "fwnr": "404313"
+          },
+          "2": {
+            "fwname": "FF Steegen",
+            "fwnr": "404319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901585",
+        "startzeit": "Fri, 15 Sep 2023 08:56:56 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.348715,
+          "lng": 13.756866
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
