@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DIETACH",
+          "earea": "",
+          "ecompl": "KM 16.4 HÖHE B309 STEYRER STRAßE",
+          "efeanme": "",
+          "emun": "DIETACH",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "SE - DIETACH",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411202": {
+            "feuerwehr": "FF Dietach"
+          },
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Dietach",
+            "fwnr": "411202"
+          },
+          "1": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "2": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901683",
+        "startzeit": "Fri, 15 Sep 2023 23:50:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.080197,
+          "lng": 14.422529
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
