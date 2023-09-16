@@ -1,7 +1,116 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GOSAUSEESTRAßE 15",
+          "earea": "GOSAU",
+          "ecompl": "00000-31153-1",
+          "efeanme": "GOSAUSEESTRAßE",
+          "emun": "GOSAU",
+          "estnum": "15"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - GOSAU",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "403104": {
+            "feuerwehr": "FF Gosau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gosau",
+            "fwnr": "403104"
+          }
+        },
+        "inzeit": "Sun, 17 Sep 2023 01:11:38 +0200",
+        "num1": "E230901785",
+        "startzeit": "Sun, 17 Sep 2023 00:35:01 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.581493,
+          "lng": 13.534115
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FREIZEITPARK 4",
+          "earea": "LEONSTEIN",
+          "ecompl": "",
+          "efeanme": "FREIZEITPARK",
+          "emun": "GRüNBURG",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - GRüNBURG",
+        "einsatzsubtyp": {
+          "id": "PERSON-TG",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "405104": {
+            "feuerwehr": "FF Leonstein"
+          },
+          "405303": {
+            "feuerwehr": "FF Irndorf"
+          },
+          "411316": {
+            "feuerwehr": "FF Ternberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Leonstein",
+            "fwnr": "405104"
+          },
+          "1": {
+            "fwname": "FF Irndorf",
+            "fwnr": "405303"
+          },
+          "2": {
+            "fwname": "FF Ternberg",
+            "fwnr": "411316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901783",
+        "startzeit": "Sun, 17 Sep 2023 00:25:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.904045,
+          "lng": 14.237825
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
