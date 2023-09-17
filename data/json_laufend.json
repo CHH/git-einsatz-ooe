@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LEONDING",
+          "earea": "",
+          "ecompl": "KM 4.6 HÖHE B129 EFERDINGER STRAßE",
+          "efeanme": "",
+          "emun": "LEONDING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406212": {
+            "feuerwehr": "FF Leonding"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Leonding",
+            "fwnr": "406212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901837",
+        "startzeit": "Sun, 17 Sep 2023 18:25:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.306535,
+          "lng": 14.233669
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,100 +93,6 @@
         "wgs84": {
           "lat": 47.879129,
           "lng": 13.806169
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WALLSEERSTRAßE 6",
-          "earea": "OTTENSHEIM",
-          "ecompl": "",
-          "efeanme": "WALLSEERSTRAßE",
-          "emun": "OTTENSHEIM",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - OTTENSHEIM",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412218": {
-            "feuerwehr": "FF Ottensheim"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ottensheim",
-            "fwnr": "412218"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901832",
-        "startzeit": "Sun, 17 Sep 2023 17:34:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.334962,
-          "lng": 14.172652
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "OBEREINWALD 10",
-          "earea": "OBEREINWALD",
-          "ecompl": "",
-          "efeanme": "OBEREINWALD",
-          "emun": "UNGENACH",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - UNGENACH",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413428": {
-            "feuerwehr": "FF Ungenach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ungenach",
-            "fwnr": "413428"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901830",
-        "startzeit": "Sun, 17 Sep 2023 16:52:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.038272,
-          "lng": 13.636688
         }
       }
     },
@@ -194,81 +147,6 @@
         "wgs84": {
           "lat": 47.74361,
           "lng": 13.948078
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": "3",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - ",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408203": {
-            "feuerwehr": "FF Eberschwang"
-          },
-          "408204": {
-            "feuerwehr": "FF Eichetsham"
-          },
-          "408208": {
-            "feuerwehr": "FF Hausruck"
-          },
-          "408210": {
-            "feuerwehr": "FF Hohenzell"
-          },
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Eberschwang",
-            "fwnr": "408203"
-          },
-          "1": {
-            "fwname": "FF Eichetsham",
-            "fwnr": "408204"
-          },
-          "2": {
-            "fwname": "FF Hausruck",
-            "fwnr": "408208"
-          },
-          "3": {
-            "fwname": "FF Hohenzell",
-            "fwnr": "408210"
-          },
-          "4": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230901821",
-        "startzeit": "Sun, 17 Sep 2023 15:33:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.129013,
-          "lng": 13.56983
         }
       }
     }
