@@ -1,13 +1,13 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "A1 RICHTUNG WIEN BER",
+          "default": "A1 FAHRTR. WIEN NACH",
           "earea": "",
-          "ecompl": "A1 RICHTUNG WIEN BEREICH 234.4-223.7 NACH AUFFAHRT SEEWALCHEN",
+          "ecompl": "A1 FAHRTR. WIEN NACH AUFFAHRT REGAU BEI KM 221",
           "efeanme": "",
           "emun": "",
           "estnum": ""
@@ -17,7 +17,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "VB - ",
         "einsatzsubtyp": {
@@ -29,6 +29,12 @@
           "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "403227": {
+            "feuerwehr": "FF Wiesen"
+          },
+          "413421": {
+            "feuerwehr": "FF Rutzenmoos"
+          },
           "413519": {
             "feuerwehr": "FF Schörfling am Attersee"
           },
@@ -38,10 +44,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Wiesen",
+            "fwnr": "403227"
+          },
+          "1": {
+            "fwname": "FF Rutzenmoos",
+            "fwnr": "413421"
+          },
+          "2": {
             "fwname": "FF Schörfling am Attersee",
             "fwnr": "413519"
           },
-          "1": {
+          "3": {
             "fwname": "FF Seewalchen am Attersee",
             "fwnr": "413520"
           }
@@ -51,8 +65,8 @@
         "startzeit": "Sun, 17 Sep 2023 12:42:26 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 47.954051,
-          "lng": 13.596286
+          "lat": 47.966699,
+          "lng": 13.761821
         }
       }
     },
