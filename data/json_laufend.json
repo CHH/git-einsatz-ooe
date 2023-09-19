@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHOPPERPLATZ 16",
+          "earea": "SOMMERBERG",
+          "ecompl": "00000-11030-1",
+          "efeanme": "SCHOPPERPLATZ",
+          "emun": "ASCHACH AN DER DONAU",
+          "estnum": "16"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - ASCHACH AN DER DONAU",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "FF Aschach an der Donau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aschach an der Donau",
+            "fwnr": "401102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230901955",
+        "startzeit": "Tue, 19 Sep 2023 03:55:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.384206,
+          "lng": 14.020497
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
