@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KATZING",
+          "earea": "KATZING",
+          "ecompl": "L1390 KÜRNBERGSTRAßE",
+          "efeanme": "",
+          "emun": "WILHERING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - WILHERING",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406205": {
+            "feuerwehr": "FF Edramsberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Edramsberg",
+            "fwnr": "406205"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902036",
+        "startzeit": "Tue, 19 Sep 2023 19:28:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.295074,
+          "lng": 14.19386
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +93,6 @@
         "wgs84": {
           "lat": 48.266109,
           "lng": 13.431114
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WEIERFING 68",
-          "earea": "WEIERFING",
-          "ecompl": "00000-0878-2",
-          "efeanme": "WEIERFING",
-          "emun": "AUROLZMüNSTER",
-          "estnum": "68"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "RI - AUROLZMüNSTER",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "408105": {
-            "feuerwehr": "FF Aurolzmünster"
-          },
-          "408111": {
-            "feuerwehr": "FF Forchtenau"
-          },
-          "408123": {
-            "feuerwehr": "FF Weierfing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Aurolzmünster",
-            "fwnr": "408105"
-          },
-          "1": {
-            "fwname": "FF Forchtenau",
-            "fwnr": "408111"
-          },
-          "2": {
-            "fwname": "FF Weierfing",
-            "fwnr": "408123"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902031",
-        "startzeit": "Tue, 19 Sep 2023 18:55:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.234758,
-          "lng": 13.466195
         }
       }
     },
