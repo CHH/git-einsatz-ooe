@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,7 +64,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "SE - GARSTEN",
         "einsatzsubtyp": {
@@ -78,12 +78,26 @@
         "feuerwehren": {
           "411204": {
             "feuerwehr": "FF Garsten"
+          },
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Garsten",
             "fwnr": "411204"
+          },
+          "1": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "2": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
           }
         },
         "inzeit": "",
@@ -154,18 +168,18 @@
       "einsatz": {
         "adresse": {
           "default": "PERG",
-          "earea": "",
-          "ecompl": "FW PERG",
+          "earea": "PERG",
+          "ecompl": "L1424 PERGER STRAßE",
           "efeanme": "",
           "emun": "PERG",
           "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "PE - PERG",
         "einsatzsubtyp": {
@@ -177,14 +191,28 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "407301": {
+            "feuerwehr": "FF Allerheiligen-Lebing"
+          },
           "407312": {
             "feuerwehr": "FF Perg"
+          },
+          "407313": {
+            "feuerwehr": "FF Pergkirchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Allerheiligen-Lebing",
+            "fwnr": "407301"
+          },
+          "1": {
             "fwname": "FF Perg",
             "fwnr": "407312"
+          },
+          "2": {
+            "fwname": "FF Pergkirchen",
+            "fwnr": "407313"
           }
         },
         "inzeit": "",
@@ -192,8 +220,8 @@
         "startzeit": "Wed, 20 Sep 2023 14:58:01 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.24763,
-          "lng": 14.618516
+          "lat": 48.246354,
+          "lng": 14.628771
         }
       }
     },
@@ -241,53 +269,6 @@
         "wgs84": {
           "lat": 47.812136,
           "lng": 13.506814
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HINZENBACH",
-          "earea": "",
-          "ecompl": "KM 26.737 HÖHE B129 STECKBAUER",
-          "efeanme": "",
-          "emun": "HINZENBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - HINZENBACH",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401111": {
-            "feuerwehr": "FF Hinzenbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hinzenbach",
-            "fwnr": "401111"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902128",
-        "startzeit": "Wed, 20 Sep 2023 14:53:03 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.306179,
-          "lng": 14.002195
         }
       }
     }
