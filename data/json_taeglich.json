@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SICKINGERSTRAßE 18",
+          "earea": "SCHöRFLING",
+          "ecompl": "",
+          "efeanme": "SICKINGERSTRAßE",
+          "emun": "SCHöRFLING AM ATTERSEE",
+          "estnum": "18"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - SCHöRFLING AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413519": {
+            "feuerwehr": "FF Schörfling am Attersee"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schörfling am Attersee",
+            "fwnr": "413519"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902180",
+        "startzeit": "Thu, 21 Sep 2023 06:59:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.944327,
+          "lng": 13.607975
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RINGSTRAßE 20",
+          "earea": "BRAUNAU AM INN",
+          "ecompl": "",
+          "efeanme": "RINGSTRAßE",
+          "emun": "BRAUNAU AM INN",
+          "estnum": "20"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - BRAUNAU AM INN",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "FF Braunau am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Braunau am Inn",
+            "fwnr": "400102"
+          }
+        },
+        "inzeit": "Thu, 21 Sep 2023 07:08:01 +0200",
+        "num1": "E230902178",
+        "startzeit": "Thu, 21 Sep 2023 06:28:33 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.258265,
+          "lng": 13.038774
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
