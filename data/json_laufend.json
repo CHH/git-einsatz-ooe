@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GREINERSTRAßE 70",
+          "earea": "KREMSMÜNSTER",
+          "ecompl": "00000-51081-1",
+          "efeanme": "GREINERSTRAßE",
+          "emun": "KREMSMÜNSTER",
+          "estnum": "70"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - KREMSMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "405304": {
+            "feuerwehr": "FF Kremsmünster"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kremsmünster",
+            "fwnr": "405304"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902232",
+        "startzeit": "Thu, 21 Sep 2023 15:28:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.037776,
+          "lng": 14.120505
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.351743,
           "lng": 14.51906
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GOLDENBERG 30",
-          "earea": "GOLDENBERG",
-          "ecompl": "00000-11012-1",
-          "efeanme": "GOLDENBERG",
-          "emun": "PUPPING",
-          "estnum": "30"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "EF - PUPPING",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "401103": {
-            "feuerwehr": "FF Eferding"
-          },
-          "401116": {
-            "feuerwehr": "FF Pupping"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Eferding",
-            "fwnr": "401103"
-          },
-          "1": {
-            "fwname": "FF Pupping",
-            "fwnr": "401116"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902225",
-        "startzeit": "Thu, 21 Sep 2023 14:50:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.30236,
-          "lng": 14.03084
         }
       }
     },
