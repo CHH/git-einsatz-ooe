@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 20,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PIEBERSCHLAG 11",
+          "earea": "PIEBERSCHLAG",
+          "ecompl": "",
+          "efeanme": "PIEBERSCHLAG",
+          "emun": "WINDHAAG BEI FREISTADT",
+          "estnum": "11"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - WINDHAAG BEI FREISTADT",
+        "einsatzsubtyp": {
+          "id": "FLURBR-BK",
+          "text": "BRAND BAUM, FLUR, BÖSCHUNG"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402413": {
+            "feuerwehr": "FF Prendt-Elmberg"
+          },
+          "402422": {
+            "feuerwehr": "FF Windhaag bei Freistadt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Prendt-Elmberg",
+            "fwnr": "402413"
+          },
+          "1": {
+            "fwname": "FF Windhaag bei Freistadt",
+            "fwnr": "402422"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902245",
+        "startzeit": "Thu, 21 Sep 2023 18:32:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.588678,
+          "lng": 14.544331
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +140,10 @@
             "fwnr": "405208"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 21 Sep 2023 18:32:10 +0200",
         "num1": "E230902239",
         "startzeit": "Thu, 21 Sep 2023 17:38:34 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.897523,
           "lng": 14.145261
