@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - ",
+        "einsatzsubtyp": {
+          "id": "PERSON-ÖWR",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "ÖWR",
+          "text": "ÖWR-EINSATZ WASSERRETTUNG"
+        },
+        "feuerwehren": {
+          "OWR41892005": {
+            "feuerwehr": "ÖWR HALLSTATT-BAD GOISERN"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR HALLSTATT-BAD GOISERN",
+            "fwnr": "OWR41892005"
+          }
+        },
+        "inzeit": "Thu, 21 Sep 2023 12:58:22 +0200",
+        "num1": "E230902215",
+        "startzeit": "Thu, 21 Sep 2023 12:42:17 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.554303,
+          "lng": 13.662123
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RADEGUNDERSTRAßE 12",
+          "earea": "HOLZGASSEN",
+          "ecompl": "",
+          "efeanme": "RADEGUNDERSTRAßE",
+          "emun": "HOCHBURG-ACH",
+          "estnum": "12"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - HOCHBURG-ACH",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400401": {
+            "feuerwehr": "FF Ach an der Salzach"
+          },
+          "400408": {
+            "feuerwehr": "FF Hochburg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ach an der Salzach",
+            "fwnr": "400401"
+          },
+          "1": {
+            "fwname": "FF Hochburg",
+            "fwnr": "400408"
+          }
+        },
+        "inzeit": "Thu, 21 Sep 2023 12:56:54 +0200",
+        "num1": "E230902213",
+        "startzeit": "Thu, 21 Sep 2023 12:26:20 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.140028,
+          "lng": 12.813196
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +140,10 @@
             "fwnr": "406207"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 21 Sep 2023 12:46:44 +0200",
         "num1": "E230902210",
         "startzeit": "Thu, 21 Sep 2023 11:49:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.220285,
           "lng": 14.279306
