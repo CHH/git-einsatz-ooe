@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TRAGWEIN",
+          "earea": "",
+          "ecompl": "B124 KÖNIGSWIESENER STRAßE KM 8.0 HÖHE MISTLBERG",
+          "efeanme": "",
+          "emun": "TRAGWEIN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - TRAGWEIN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402207": {
+            "feuerwehr": "FF Mistlberg / FR"
+          },
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mistlberg / FR",
+            "fwnr": "402207"
+          },
+          "1": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902207",
+        "startzeit": "Thu, 21 Sep 2023 11:13:49 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.333752,
+          "lng": 14.573186
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -133,10 +187,10 @@
             "fwnr": "404208"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 21 Sep 2023 10:31:51 +0200",
         "num1": "E230902189",
         "startzeit": "Thu, 21 Sep 2023 07:32:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.219857,
           "lng": 13.616895
