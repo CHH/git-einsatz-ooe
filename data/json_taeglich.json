@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAHNHOFPLATZ 5",
+          "earea": "BAD HALL",
+          "ecompl": "",
+          "efeanme": "BAHNHOFPLATZ",
+          "emun": "BAD HALL",
+          "estnum": "5"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SE - BAD HALL",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411102": {
+            "feuerwehr": "FF Bad Hall"
+          },
+          "411103": {
+            "feuerwehr": "FF Pfarrkirchen bei Bad Hall"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Hall",
+            "fwnr": "411102"
+          },
+          "1": {
+            "fwname": "FF Pfarrkirchen bei Bad Hall",
+            "fwnr": "411103"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902304",
+        "startzeit": "Fri, 22 Sep 2023 10:55:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.037287,
+          "lng": 14.210215
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "OWR41892010"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 22 Sep 2023 10:59:03 +0200",
         "num1": "E230902300",
         "startzeit": "Fri, 22 Sep 2023 09:47:18 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.846492,
           "lng": 13.793681
