@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 34,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 40,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ESPLANADE 20",
+          "earea": "GMUNDEN",
+          "ecompl": "",
+          "efeanme": "ESPLANADE",
+          "emun": "GMUNDEN",
+          "estnum": "20"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - GMUNDEN",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "FF Gmunden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gmunden",
+            "fwnr": "403207"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902544",
+        "startzeit": "Sun, 24 Sep 2023 20:15:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.915322,
+          "lng": 13.792393
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KIRCHBERG BEI MATTIGHOFEN",
+          "earea": "",
+          "ecompl": "ENTHAMERKREUZUNG",
+          "efeanme": "",
+          "emun": "KIRCHBERG BEI MATTIGHOFEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - KIRCHBERG BEI MATTIGHOFEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400221": {
+            "feuerwehr": "FF Siegertshaft-Kirchberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Siegertshaft-Kirchberg",
+            "fwnr": "400221"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902542",
+        "startzeit": "Sun, 24 Sep 2023 19:35:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.03569,
+          "lng": 13.11126
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MAIRECK 21",
+          "earea": "MAIRECK",
+          "ecompl": "",
+          "efeanme": "MAIRECK",
+          "emun": "WALDZELL",
+          "estnum": "21"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - WALDZELL",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408215": {
+            "feuerwehr": "FF Lohnsburg"
+          },
+          "408222": {
+            "feuerwehr": "FF Pramet"
+          },
+          "408228": {
+            "feuerwehr": "FF Voglhaid"
+          },
+          "408229": {
+            "feuerwehr": "FF Waldzell"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lohnsburg",
+            "fwnr": "408215"
+          },
+          "1": {
+            "fwname": "FF Pramet",
+            "fwnr": "408222"
+          },
+          "2": {
+            "fwname": "FF Voglhaid",
+            "fwnr": "408228"
+          },
+          "3": {
+            "fwname": "FF Waldzell",
+            "fwnr": "408229"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902539",
+        "startzeit": "Sun, 24 Sep 2023 19:32:17 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.116389,
+          "lng": 13.446839
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +201,10 @@
             "fwnr": "409419"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 24 Sep 2023 19:47:28 +0200",
         "num1": "E230902533",
         "startzeit": "Sun, 24 Sep 2023 19:12:13 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.572908,
           "lng": 13.990418
@@ -187,10 +349,10 @@
             "fwnr": "404324"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 24 Sep 2023 19:33:19 +0200",
         "num1": "E230902525",
         "startzeit": "Sun, 24 Sep 2023 18:25:00 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.328876,
           "lng": 13.856032
