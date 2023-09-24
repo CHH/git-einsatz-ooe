@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "EIGENHEIMSTRAßE 10",
-          "earea": "DOPPL",
-          "ecompl": "",
-          "efeanme": "EIGENHEIMSTRAßE",
-          "emun": "LEONDING",
-          "estnum": "10"
+          "default": "GüNTER-FRONIUS-STRAßE 1",
+          "earea": "THALHEIM BEI WELS",
+          "ecompl": "00000-143361-1",
+          "efeanme": "GüNTER-FRONIUS-STRAßE",
+          "emun": "THALHEIM BEI WELS",
+          "estnum": "1"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 14,
+          "text": "Wels-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - LEONDING",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - THALHEIM BEI WELS",
         "einsatzsubtyp": {
-          "id": "WASSER-TK",
-          "text": "WASSERSCHADEN"
+          "id": "BMA-BG",
+          "text": "BRANDMELDEALARM"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
-          "406208": {
-            "feuerwehr": "FF Hart / LL"
+          "414223": {
+            "feuerwehr": "FF Thalheim bei Wels"
+          },
+          "414226": {
+            "feuerwehr": "FF Am Thalbach"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Hart / LL",
-            "fwnr": "406208"
+            "fwname": "FF Thalheim bei Wels",
+            "fwnr": "414223"
+          },
+          "1": {
+            "fwname": "FF Am Thalbach",
+            "fwnr": "414226"
           }
         },
         "inzeit": "",
-        "num1": "E230902555",
-        "startzeit": "Sun, 24 Sep 2023 23:51:38 +0200",
+        "num1": "E230902557",
+        "startzeit": "Mon, 25 Sep 2023 00:36:46 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.245199,
-          "lng": 14.255768
+          "lat": 48.1561,
+          "lng": 14.048691
         }
       }
     }
