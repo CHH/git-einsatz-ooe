@@ -5,6 +5,60 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "LINZER STRAßE 17",
+          "earea": "BAD SCHALLERBACH",
+          "ecompl": "00000-41072-1",
+          "efeanme": "LINZER STRAßE",
+          "emun": "BAD SCHALLERBACH",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - BAD SCHALLERBACH",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "FF Bad Schallerbach"
+          },
+          "404104": {
+            "feuerwehr": "FF Grieskirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Schallerbach",
+            "fwnr": "404101"
+          },
+          "1": {
+            "fwname": "FF Grieskirchen",
+            "fwnr": "404104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902483",
+        "startzeit": "Sun, 24 Sep 2023 06:10:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.2287,
+          "lng": 13.925948
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": null,
           "earea": "",
           "ecompl": "",
@@ -60,60 +114,6 @@
         "wgs84": {
           "lat": 48.587683,
           "lng": 14.179061
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FABRIKSTRAßE 20",
-          "earea": "",
-          "ecompl": "00000-61160-1",
-          "efeanme": "FABRIKSTRAßE",
-          "emun": "TRAUN",
-          "estnum": "20"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - TRAUN",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "FF Traun"
-          },
-          "406263": {
-            "feuerwehr": "BTF Dr. Franz Feurstein Ges.m.b.H"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Traun",
-            "fwnr": "406222"
-          },
-          "1": {
-            "fwname": "BTF Dr. Franz Feurstein Ges.m.b.H",
-            "fwnr": "406263"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902474",
-        "startzeit": "Sun, 24 Sep 2023 02:00:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.219025,
-          "lng": 14.244033
         }
       }
     }
