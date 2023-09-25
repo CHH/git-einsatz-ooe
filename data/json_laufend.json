@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MARKT 18",
+          "earea": "SCHENKENFELDEN",
+          "ecompl": "00000-121013-1",
+          "efeanme": "MARKT",
+          "emun": "SCHENKENFELDEN",
+          "estnum": "18"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - SCHENKENFELDEN",
+        "einsatzsubtyp": {
+          "id": "BMA-BG",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "402107": {
+            "feuerwehr": "FF Hirschbach im Mühlkreis"
+          },
+          "412117": {
+            "feuerwehr": "FF Schenkenfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hirschbach im Mühlkreis",
+            "fwnr": "402107"
+          },
+          "1": {
+            "fwname": "FF Schenkenfelden",
+            "fwnr": "412117"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902589",
+        "startzeit": "Mon, 25 Sep 2023 11:22:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.502474,
+          "lng": 14.360399
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
