@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AN DER TRAUN 1",
+          "earea": "LAMBACH",
+          "ecompl": "00000-141089-1",
+          "efeanme": "AN DER TRAUN",
+          "emun": "LAMBACH",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - LAMBACH",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "FF Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lambach",
+            "fwnr": "414111"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902599",
+        "startzeit": "Mon, 25 Sep 2023 12:19:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.088219,
+          "lng": 13.881362
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410318": {
+            "feuerwehr": "FF Reikersham"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Reikersham",
+            "fwnr": "410318"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902597",
+        "startzeit": "Mon, 25 Sep 2023 12:16:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.506185,
+          "lng": 13.546497
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
