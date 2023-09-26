@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STIFTSPLATZ 1",
+          "earea": "SPITAL AM PYHRN",
+          "ecompl": "00000-51084-1",
+          "efeanme": "STIFTSPLATZ",
+          "emun": "SPITAL AM PYHRN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - SPITAL AM PYHRN",
+        "einsatzsubtyp": {
+          "id": "SCHULE-BG",
+          "text": "BRAND GEBÄUDE MENSCHENANSAMMLUNG"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "405403": {
+            "feuerwehr": "FF Spital am Pyhrn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Spital am Pyhrn",
+            "fwnr": "405403"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902641",
+        "startzeit": "Tue, 26 Sep 2023 07:16:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.664618,
+          "lng": 14.338761
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
