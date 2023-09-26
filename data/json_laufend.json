@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WEIDENHOLZ ",
+          "earea": "WAIZENKIRCHEN",
+          "ecompl": "TANKSTELLE LEHNER",
+          "efeanme": "WEIDENHOLZ",
+          "emun": "WAIZENKIRCHEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - WAIZENKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404324": {
+            "feuerwehr": "FF Waizenkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Waizenkirchen",
+            "fwnr": "404324"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902726",
+        "startzeit": "Tue, 26 Sep 2023 22:36:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.333637,
+          "lng": 13.85184
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
