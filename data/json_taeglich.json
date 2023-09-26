@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KORNSPITZSTRAßE 1",
+          "earea": "ASTEN",
+          "ecompl": "00000-61119-1",
+          "efeanme": "KORNSPITZSTRAßE",
+          "emun": "ASTEN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ASTEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406101": {
+            "feuerwehr": "FF Asten"
+          },
+          "406105": {
+            "feuerwehr": "FF Raffelstetten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Asten",
+            "fwnr": "406101"
+          },
+          "1": {
+            "fwname": "FF Raffelstetten",
+            "fwnr": "406105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902647",
+        "startzeit": "Tue, 26 Sep 2023 08:07:40 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.216534,
+          "lng": 14.409988
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -21,12 +75,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "KI - SPITAL AM PYHRN",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "SCHULE-BG",
+          "text": "BRAND GEBÄUDE MENSCHENANSAMMLUNG"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
           "405403": {
@@ -39,10 +93,10 @@
             "fwnr": "405403"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 26 Sep 2023 08:19:59 +0200",
         "num1": "E230902641",
         "startzeit": "Tue, 26 Sep 2023 07:16:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.664618,
           "lng": 14.338761
