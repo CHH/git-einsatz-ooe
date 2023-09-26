@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRIEDBURG",
+          "earea": "FRIEDBURG",
+          "ecompl": "GEMEINDEAMT LENGAU",
+          "efeanme": "",
+          "emun": "LENGAU",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - LENGAU",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400205": {
+            "feuerwehr": "FF Markt Friedburg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Markt Friedburg",
+            "fwnr": "400205"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902651",
+        "startzeit": "Tue, 26 Sep 2023 09:32:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.016497,
+          "lng": 13.248671
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
