@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SENGSSCHMIEDSTRAßE 4",
+          "earea": "KIRCHDORF AN DER KREMS",
+          "ecompl": "",
+          "efeanme": "SENGSSCHMIEDSTRAßE",
+          "emun": "KIRCHDORF AN DER KREMS",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - KIRCHDORF AN DER KREMS",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902668",
+        "startzeit": "Tue, 26 Sep 2023 11:15:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.906875,
+          "lng": 14.121376
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": 48.646267,
           "lng": 13.971714
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AUSEESTRAßE 2",
-          "earea": "IPFDORF",
-          "ecompl": "00000-174032-16",
-          "efeanme": "AUSEESTRAßE",
-          "emun": "ASTEN",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - ASTEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406101": {
-            "feuerwehr": "FF Asten"
-          },
-          "406105": {
-            "feuerwehr": "FF Raffelstetten"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Asten",
-            "fwnr": "406101"
-          },
-          "1": {
-            "fwname": "FF Raffelstetten",
-            "fwnr": "406105"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902659",
-        "startzeit": "Tue, 26 Sep 2023 10:53:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.235053,
-          "lng": 14.417426
         }
       }
     }
