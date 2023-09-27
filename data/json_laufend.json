@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHUßSTATT 8",
+          "earea": "SCHUßSTATT",
+          "ecompl": "",
+          "efeanme": "SCHUßSTATT",
+          "emun": "LAMBACH",
+          "estnum": "8"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - LAMBACH",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "FF Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lambach",
+            "fwnr": "414111"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902788",
+        "startzeit": "Wed, 27 Sep 2023 13:27:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.099971,
+          "lng": 13.87368
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,26 +205,47 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "LL - HÖRSCHING",
         "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
+          "id": "SONSTIGE-TG",
+          "text": "TECHNISCHER EINSATZ"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
           "406202": {
             "feuerwehr": "FF Axberg"
+          },
+          "406203": {
+            "feuerwehr": "FF Breitbrunn"
+          },
+          "406209": {
+            "feuerwehr": "FF Hörsching"
+          },
+          "406219": {
+            "feuerwehr": "FF Rutzing"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Axberg",
             "fwnr": "406202"
+          },
+          "1": {
+            "fwname": "FF Breitbrunn",
+            "fwnr": "406203"
+          },
+          "2": {
+            "fwname": "FF Hörsching",
+            "fwnr": "406209"
+          },
+          "3": {
+            "fwname": "FF Rutzing",
+            "fwnr": "406219"
           }
         },
         "inzeit": "",
