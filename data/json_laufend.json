@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HINTERBERG 10",
+          "earea": "HINTERBERG",
+          "ecompl": "",
+          "efeanme": "HINTERBERG",
+          "emun": "UNTERWEIßENBACH",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - UNTERWEIßENBACH",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402319": {
+            "feuerwehr": "FF Unterweißenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Unterweißenbach",
+            "fwnr": "402319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902918",
+        "startzeit": "Thu, 28 Sep 2023 18:12:53 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.428036,
+          "lng": 14.79285
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
