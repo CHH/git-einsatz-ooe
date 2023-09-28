@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OHLSDORF",
+          "earea": "",
+          "ecompl": "KM 3.8 HÖHE L1263 DESSELBRUNNER STRAßE",
+          "efeanme": "",
+          "emun": "OHLSDORF",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - OHLSDORF",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403202": {
+            "feuerwehr": "FF Aurachkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aurachkirchen",
+            "fwnr": "403202"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902947",
+        "startzeit": "Thu, 28 Sep 2023 21:40:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.982007,
+          "lng": 13.74531
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,67 +241,6 @@
         "wgs84": {
           "lat": 47.837691,
           "lng": 13.399816
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KIRCHSTETTEN 17",
-          "earea": "KIRCHSTETTEN",
-          "ecompl": "",
-          "efeanme": "KIRCHSTETTEN",
-          "emun": "MITTERKIRCHEN IM MACHLAND",
-          "estnum": "17"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - MITTERKIRCHEN IM MACHLAND",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407306": {
-            "feuerwehr": "FF Hütting"
-          },
-          "407307": {
-            "feuerwehr": "FF Langacker"
-          },
-          "407308": {
-            "feuerwehr": "FF Mitterkirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hütting",
-            "fwnr": "407306"
-          },
-          "1": {
-            "fwname": "FF Langacker",
-            "fwnr": "407307"
-          },
-          "2": {
-            "fwname": "FF Mitterkirchen",
-            "fwnr": "407308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902936",
-        "startzeit": "Thu, 28 Sep 2023 20:12:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.206017,
-          "lng": 14.717666
         }
       }
     }
