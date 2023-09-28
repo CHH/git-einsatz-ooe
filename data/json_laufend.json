@@ -1,58 +1,65 @@
 {
-  "cnt_einsaetze": 3,
+  "cnt_einsaetze": 2,
   "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "GEWERBEALLEE 15",
-          "earea": "STEYREGG",
-          "ecompl": "00000-123153-1",
-          "efeanme": "GEWERBEALLEE",
-          "emun": "STEYREGG",
-          "estnum": "15"
+          "default": "KIRCHSTETTEN 17",
+          "earea": "KIRCHSTETTEN",
+          "ecompl": "",
+          "efeanme": "KIRCHSTETTEN",
+          "emun": "MITTERKIRCHEN IM MACHLAND",
+          "estnum": "17"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 7,
+          "text": "Perg"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "UU - STEYREGG",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - MITTERKIRCHEN IM MACHLAND",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "412308": {
-            "feuerwehr": "FF Lachstatt"
+          "407306": {
+            "feuerwehr": "FF Hütting"
           },
-          "412314": {
-            "feuerwehr": "FF Steyregg"
+          "407307": {
+            "feuerwehr": "FF Langacker"
+          },
+          "407308": {
+            "feuerwehr": "FF Mitterkirchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Lachstatt",
-            "fwnr": "412308"
+            "fwname": "FF Hütting",
+            "fwnr": "407306"
           },
           "1": {
-            "fwname": "FF Steyregg",
-            "fwnr": "412314"
+            "fwname": "FF Langacker",
+            "fwnr": "407307"
+          },
+          "2": {
+            "fwname": "FF Mitterkirchen",
+            "fwnr": "407308"
           }
         },
         "inzeit": "",
-        "num1": "E230902933",
-        "startzeit": "Thu, 28 Sep 2023 19:47:13 +0200",
+        "num1": "E230902936",
+        "startzeit": "Thu, 28 Sep 2023 20:12:04 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.28325,
-          "lng": 14.369636
+          "lat": 48.206017,
+          "lng": 14.717666
         }
       }
     },
@@ -100,53 +107,6 @@
         "wgs84": {
           "lat": 48.208815,
           "lng": 14.206435
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHNELLING 15",
-          "earea": "SCHNELLING",
-          "ecompl": "",
-          "efeanme": "SCHNELLING",
-          "emun": "STEINERKIRCHEN AN DER TRAUN",
-          "estnum": "15"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - STEINERKIRCHEN AN DER TRAUN",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414115": {
-            "feuerwehr": "FF Reuharting"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Reuharting",
-            "fwnr": "414115"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230902923",
-        "startzeit": "Thu, 28 Sep 2023 18:45:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.042871,
-          "lng": 13.945198
         }
       }
     }
