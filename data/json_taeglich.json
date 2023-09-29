@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HOHE-LINDE-STRAßE 4",
+          "earea": "WALDNEUKIRCHEN",
+          "ecompl": "",
+          "efeanme": "HOHE-LINDE-STRAßE",
+          "emun": "WALDNEUKIRCHEN",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - WALDNEUKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "FF St. Nikola"
+          },
+          "411106": {
+            "feuerwehr": "FF Steinersdorf"
+          },
+          "411107": {
+            "feuerwehr": "FF Waldneukirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Nikola",
+            "fwnr": "411105"
+          },
+          "1": {
+            "fwname": "FF Steinersdorf",
+            "fwnr": "411106"
+          },
+          "2": {
+            "fwname": "FF Waldneukirchen",
+            "fwnr": "411107"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230902959",
+        "startzeit": "Fri, 29 Sep 2023 01:20:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.986724,
+          "lng": 14.267502
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
