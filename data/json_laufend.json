@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NEUMARKT IM MÜHLKREIS",
+          "earea": "",
+          "ecompl": "FW NEUMARKT IM MÜHLKREIS",
+          "efeanme": "",
+          "emun": "NEUMARKT IM MÜHLKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - NEUMARKT IM MÜHLKREIS",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402121": {
+            "feuerwehr": "FF Neumarkt im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Neumarkt im Mühlkreis",
+            "fwnr": "402121"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230903039",
+        "startzeit": "Fri, 29 Sep 2023 16:30:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.42882,
+          "lng": 14.48334
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,64 +93,6 @@
         "wgs84": {
           "lat": 48.418697,
           "lng": 14.346384
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "OBERWANG 61",
-          "earea": "OBERWANG",
-          "ecompl": "",
-          "efeanme": "OBERWANG",
-          "emun": "OBERWANG",
-          "estnum": "61"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - OBERWANG",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413209": {
-            "feuerwehr": "FF Oberaschau"
-          },
-          "413211": {
-            "feuerwehr": "FF Oberwang"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Oberaschau",
-            "fwnr": "413209"
-          },
-          "1": {
-            "fwname": "FF Oberwang",
-            "fwnr": "413211"
-          },
-          "2": {
-            "fwname": "FF Oberwang",
-            "fwnr": "413211"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230903032",
-        "startzeit": "Fri, 29 Sep 2023 15:48:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.869788,
-          "lng": 13.432037
         }
       }
     },
