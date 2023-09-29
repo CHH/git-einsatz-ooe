@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MüHLBACHTAL 16",
+          "earea": "TRAUNKIRCHEN",
+          "ecompl": "",
+          "efeanme": "MüHLBACHTAL",
+          "emun": "TRAUNKIRCHEN",
+          "estnum": "16"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - TRAUNKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403224": {
+            "feuerwehr": "FF Traunkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Traunkirchen",
+            "fwnr": "403224"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230903006",
+        "startzeit": "Fri, 29 Sep 2023 12:53:38 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.855279,
+          "lng": 13.73805
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
