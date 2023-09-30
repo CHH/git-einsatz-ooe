@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AGERSIEDLUNG 5",
+          "earea": "SCHWANENSTADT",
+          "ecompl": "",
+          "efeanme": "AGERSIEDLUNG",
+          "emun": "SCHWANENSTADT",
+          "estnum": "5"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - SCHWANENSTADT",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "FF Schwanenstadt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schwanenstadt",
+            "fwnr": "413315"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230903144",
+        "startzeit": "Sat, 30 Sep 2023 15:29:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.045025,
+          "lng": 13.777851
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
