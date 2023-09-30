@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "POSTSTRAßE 2",
+          "earea": "ALLHAMING",
+          "ecompl": "00000-65262-1",
+          "efeanme": "POSTSTRAßE",
+          "emun": "ALLHAMING",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ALLHAMING",
+        "einsatzsubtyp": {
+          "id": "BMA3-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406302": {
+            "feuerwehr": "FF Allhaming"
+          },
+          "406307": {
+            "feuerwehr": "FF Neuhofen an der Krems"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Allhaming",
+            "fwnr": "406302"
+          },
+          "1": {
+            "fwname": "FF Neuhofen an der Krems",
+            "fwnr": "406307"
+          }
+        },
+        "inzeit": "",
+        "num1": "E230903133",
+        "startzeit": "Sat, 30 Sep 2023 12:55:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.151998,
+          "lng": 14.158062
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,114 +147,6 @@
         "wgs84": {
           "lat": 47.987283,
           "lng": 13.814012
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "PRIEHETSBERG 7",
-          "earea": "PRIEHETSBERG",
-          "ecompl": "",
-          "efeanme": "PRIEHETSBERG",
-          "emun": "MüNZBACH",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - MüNZBACH",
-        "einsatzsubtyp": {
-          "id": "HAUS-BG",
-          "text": "BRAND WOHNHAUS"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "407309": {
-            "feuerwehr": "FF Münzbach"
-          },
-          "407311": {
-            "feuerwehr": "FF Obernstraß"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Münzbach",
-            "fwnr": "407309"
-          },
-          "1": {
-            "fwname": "FF Obernstraß",
-            "fwnr": "407311"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230903121",
-        "startzeit": "Sat, 30 Sep 2023 11:14:19 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.249871,
-          "lng": 14.690916
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "MÜNZBACH",
-          "earea": "",
-          "ecompl": "FW MÜNZBACH",
-          "efeanme": "",
-          "emun": "MÜNZBACH",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - MÜNZBACH",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407309": {
-            "feuerwehr": "FF Münzbach"
-          },
-          "407311": {
-            "feuerwehr": "FF Obernstraß"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Münzbach",
-            "fwnr": "407309"
-          },
-          "1": {
-            "fwname": "FF Obernstraß",
-            "fwnr": "407311"
-          }
-        },
-        "inzeit": "",
-        "num1": "E230903110",
-        "startzeit": "Sat, 30 Sep 2023 10:35:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.266,
-          "lng": 14.71231
         }
       }
     }
