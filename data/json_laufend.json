@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LINZER STRAßE 7",
+          "earea": "WILHERING",
+          "ecompl": "",
+          "efeanme": "LINZER STRAßE",
+          "emun": "WILHERING",
+          "estnum": "7"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - WILHERING",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406223": {
+            "feuerwehr": "FF Wilhering"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Wilhering",
+            "fwnr": "406223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000060",
+        "startzeit": "Sun, 01 Oct 2023 18:41:28 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.321805,
+          "lng": 14.19599
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +93,6 @@
         "wgs84": {
           "lat": 48.243927,
           "lng": 14.236486
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GEWERBEPARK 1",
-          "earea": "NIEDERKAPPEL",
-          "ecompl": "00000-91029-1",
-          "efeanme": "GEWERBEPARK",
-          "emun": "NIEDERKAPPEL",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - NIEDERKAPPEL",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "409205": {
-            "feuerwehr": "FF Lembach im Mühlkreis"
-          },
-          "409208": {
-            "feuerwehr": "FF Niederkappel"
-          },
-          "409211": {
-            "feuerwehr": "FF Ollerndorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Lembach im Mühlkreis",
-            "fwnr": "409205"
-          },
-          "1": {
-            "fwname": "FF Niederkappel",
-            "fwnr": "409208"
-          },
-          "2": {
-            "fwname": "FF Ollerndorf",
-            "fwnr": "409211"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000052",
-        "startzeit": "Sun, 01 Oct 2023 17:26:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.483427,
-          "lng": 13.872734
         }
       }
     }
