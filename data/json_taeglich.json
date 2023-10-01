@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BERGMANN-PLATZ 1",
+          "earea": "ST. MARTIN",
+          "ecompl": "00000-61253-1",
+          "efeanme": "BERGMANN-PLATZ",
+          "emun": "TRAUN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - TRAUN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "FF Traun"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Traun",
+            "fwnr": "406222"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000012",
+        "startzeit": "Sun, 01 Oct 2023 10:59:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.244215,
+          "lng": 14.267792
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,26 +64,40 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "RI - KIRCHDORF AM INN",
         "einsatzsubtyp": {
-          "id": "OEL-DI",
+          "id": "OELSPUR-TK",
           "text": "ÖLSPUR, ÖLAUSTRITT"
         },
         "einsatztyp": {
-          "id": "DISP",
-          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          },
           "408304": {
             "feuerwehr": "FF Katzenberg"
+          },
+          "42060801": {
+            "feuerwehr": "BWST-RIED"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          },
+          "1": {
             "fwname": "FF Katzenberg",
             "fwnr": "408304"
+          },
+          "2": {
+            "fwname": "BWST-RIED",
+            "fwnr": "42060801"
           }
         },
         "inzeit": "",
