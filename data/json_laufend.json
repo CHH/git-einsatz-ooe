@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRANKING 65",
+          "earea": "FRANKING",
+          "ecompl": "SCHÖSSWENDER MÖBEL GESELLSCHAFT M.B.H.",
+          "efeanme": "FRANKING",
+          "emun": "FRANKING",
+          "estnum": "65"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - FRANKING",
+        "einsatzsubtyp": {
+          "id": "GEWERBE-BG",
+          "text": "BRAND GEWERBE, INDUSTRIE"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "400404": {
+            "feuerwehr": "FF Franking"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Franking",
+            "fwnr": "400404"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000144",
+        "startzeit": "Mon, 02 Oct 2023 17:37:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.047774,
+          "lng": 12.917254
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.210664,
           "lng": 14.213623
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "A9 FAHRTR. GRAZ NACH",
-          "earea": "",
-          "ecompl": "A9 FAHRTR. GRAZ NACH AUFFAHRT RIED-TRAUNKREIS BEI KM 7",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - ",
-        "einsatzsubtyp": {
-          "id": "PKW-BK",
-          "text": "BRAND KFZ"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405204": {
-            "feuerwehr": "FF Inzersdorf im Kremstal"
-          },
-          "405308": {
-            "feuerwehr": "FF Voitsdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Inzersdorf im Kremstal",
-            "fwnr": "405204"
-          },
-          "1": {
-            "fwname": "FF Voitsdorf",
-            "fwnr": "405308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000136",
-        "startzeit": "Mon, 02 Oct 2023 16:06:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.006028,
-          "lng": 14.074537
         }
       }
     },
