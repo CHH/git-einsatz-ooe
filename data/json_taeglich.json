@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 18,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LINZER STRAßE 12",
+          "earea": "BAD LEONFELDEN",
+          "ecompl": "",
+          "efeanme": "LINZER STRAßE",
+          "emun": "BAD LEONFELDEN",
+          "estnum": "12"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "UU - BAD LEONFELDEN",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412103": {
+            "feuerwehr": "FF Bad Leonfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Leonfelden",
+            "fwnr": "412103"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000413",
+        "startzeit": "Thu, 05 Oct 2023 01:12:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.52124,
+          "lng": 14.295695
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -188,60 +235,6 @@
         "wgs84": {
           "lat": 47.969624,
           "lng": 14.125857
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FINKERLEITENSTRAßE 6",
-          "earea": "ROITH",
-          "ecompl": "",
-          "efeanme": "FINKERLEITENSTRAßE",
-          "emun": "EBENSEE AM TRAUNSEE",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - EBENSEE AM TRAUNSEE",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "FF Ebensee"
-          },
-          "403115": {
-            "feuerwehr": "FF Roith / GM"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ebensee",
-            "fwnr": "403103"
-          },
-          "1": {
-            "fwname": "FF Roith / GM",
-            "fwnr": "403115"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000400",
-        "startzeit": "Wed, 04 Oct 2023 21:57:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.788017,
-          "lng": 13.763866
         }
       }
     }
