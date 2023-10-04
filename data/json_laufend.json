@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "BR - MUNDERFING",
         "einsatzsubtyp": {
@@ -32,8 +32,14 @@
           "400201": {
             "feuerwehr": "FF Achenlohe"
           },
+          "400205": {
+            "feuerwehr": "FF Markt Friedburg"
+          },
           "400213": {
             "feuerwehr": "FF Munderfing"
+          },
+          "400308": {
+            "feuerwehr": "FF Mauerkirchen"
           }
         },
         "feuerwehrenarray": {
@@ -42,8 +48,16 @@
             "fwnr": "400201"
           },
           "1": {
+            "fwname": "FF Markt Friedburg",
+            "fwnr": "400205"
+          },
+          "2": {
             "fwname": "FF Munderfing",
             "fwnr": "400213"
+          },
+          "3": {
+            "fwname": "FF Mauerkirchen",
+            "fwnr": "400308"
           }
         },
         "inzeit": "",
@@ -255,67 +269,6 @@
         "wgs84": {
           "lat": 48.298258,
           "lng": 14.016827
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "REINTAL 5",
-          "earea": "REINTAL",
-          "ecompl": "00000-08254-1",
-          "efeanme": "REINTAL",
-          "emun": "LAMBRECHTEN",
-          "estnum": "5"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "RI - LAMBRECHTEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "408306": {
-            "feuerwehr": "FF Kromberg"
-          },
-          "408307": {
-            "feuerwehr": "FF Lambrechten"
-          },
-          "408326": {
-            "feuerwehr": "FF Winkl"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kromberg",
-            "fwnr": "408306"
-          },
-          "1": {
-            "fwname": "FF Lambrechten",
-            "fwnr": "408307"
-          },
-          "2": {
-            "fwname": "FF Winkl",
-            "fwnr": "408326"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000294",
-        "startzeit": "Wed, 04 Oct 2023 08:34:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.305628,
-          "lng": 13.473525
         }
       }
     }
