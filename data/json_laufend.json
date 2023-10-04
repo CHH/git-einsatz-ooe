@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHMIEDSTRAßE 11",
+          "earea": "MOLLN",
+          "ecompl": "",
+          "efeanme": "SCHMIEDSTRAßE",
+          "emun": "MOLLN",
+          "estnum": "11"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - MOLLN",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405105": {
+            "feuerwehr": "FF Molln"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Molln",
+            "fwnr": "405105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000374",
+        "startzeit": "Wed, 04 Oct 2023 16:58:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.882293,
+          "lng": 14.263203
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -71,7 +118,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GR - STEEGEN",
         "einsatzsubtyp": {
@@ -83,12 +130,26 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "404310": {
+            "feuerwehr": "FF Langenpeuerbach"
+          },
+          "404313": {
+            "feuerwehr": "FF Obererleinsbach"
+          },
           "404319": {
             "feuerwehr": "FF Steegen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Langenpeuerbach",
+            "fwnr": "404310"
+          },
+          "1": {
+            "fwname": "FF Obererleinsbach",
+            "fwnr": "404313"
+          },
+          "2": {
             "fwname": "FF Steegen",
             "fwnr": "404319"
           }
@@ -262,74 +323,6 @@
         "wgs84": {
           "lat": 48.363877,
           "lng": 13.56143
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ACHENLOHE",
-          "earea": "ACHENLOHE",
-          "ecompl": "ACHENLOHE",
-          "efeanme": "",
-          "emun": "MUNDERFING",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - MUNDERFING",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400201": {
-            "feuerwehr": "FF Achenlohe"
-          },
-          "400205": {
-            "feuerwehr": "FF Markt Friedburg"
-          },
-          "400213": {
-            "feuerwehr": "FF Munderfing"
-          },
-          "400308": {
-            "feuerwehr": "FF Mauerkirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Achenlohe",
-            "fwnr": "400201"
-          },
-          "1": {
-            "fwname": "FF Markt Friedburg",
-            "fwnr": "400205"
-          },
-          "2": {
-            "fwname": "FF Munderfing",
-            "fwnr": "400213"
-          },
-          "3": {
-            "fwname": "FF Mauerkirchen",
-            "fwnr": "400308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000308",
-        "startzeit": "Wed, 04 Oct 2023 09:54:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.046965,
-          "lng": 13.199622
         }
       }
     }
