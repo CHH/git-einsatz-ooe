@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STEEGEN ",
+          "earea": "",
+          "ecompl": "STEEGEN",
+          "efeanme": "STEEGEN",
+          "emun": "STEEGEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - STEEGEN",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404319": {
+            "feuerwehr": "FF Steegen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Steegen",
+            "fwnr": "404319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000368",
+        "startzeit": "Wed, 04 Oct 2023 16:36:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.339516,
+          "lng": 13.764008
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +106,12 @@
           "emun": "",
           "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - ",
         "einsatzsubtyp": {
@@ -78,12 +125,26 @@
         "feuerwehren": {
           "403101": {
             "feuerwehr": "FF Bad Goisern"
+          },
+          "403117": {
+            "feuerwehr": "FF St. Agatha / GM"
+          },
+          "OWR41892005": {
+            "feuerwehr": "ÖWR HALLSTATT-BAD GOISERN"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Bad Goisern",
             "fwnr": "403101"
+          },
+          "1": {
+            "fwname": "FF St. Agatha / GM",
+            "fwnr": "403117"
+          },
+          "2": {
+            "fwname": "ÖWR HALLSTATT-BAD GOISERN",
+            "fwnr": "OWR41892005"
           }
         },
         "inzeit": "",
