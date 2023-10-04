@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MUNDERFING",
+          "earea": "",
+          "ecompl": "B147 BRAUNAUER STRAßE KM 9.6 HÖHE LICHTENECK",
+          "efeanme": "",
+          "emun": "MUNDERFING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - MUNDERFING",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400201": {
+            "feuerwehr": "FF Achenlohe"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Achenlohe",
+            "fwnr": "400201"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000384",
+        "startzeit": "Wed, 04 Oct 2023 18:07:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.048145,
+          "lng": 13.205648
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -168,67 +215,6 @@
         "wgs84": {
           "lat": 48.339516,
           "lng": 13.764008
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - ",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403101": {
-            "feuerwehr": "FF Bad Goisern"
-          },
-          "403117": {
-            "feuerwehr": "FF St. Agatha / GM"
-          },
-          "OWR41892005": {
-            "feuerwehr": "ÖWR HALLSTATT-BAD GOISERN"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bad Goisern",
-            "fwnr": "403101"
-          },
-          "1": {
-            "fwname": "FF St. Agatha / GM",
-            "fwnr": "403117"
-          },
-          "2": {
-            "fwname": "ÖWR HALLSTATT-BAD GOISERN",
-            "fwnr": "OWR41892005"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231000363",
-        "startzeit": "Wed, 04 Oct 2023 16:24:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.589227,
-          "lng": 13.665324
         }
       }
     }
