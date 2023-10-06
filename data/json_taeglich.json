@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 38,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 41,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - ",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412308": {
+            "feuerwehr": "FF Lachstatt"
+          },
+          "412314": {
+            "feuerwehr": "FF Steyregg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lachstatt",
+            "fwnr": "412308"
+          },
+          "1": {
+            "fwname": "FF Steyregg",
+            "fwnr": "412314"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000580",
+        "startzeit": "Fri, 06 Oct 2023 17:43:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.321569,
+          "lng": 14.337767
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RABENBERGER WEG 32",
+          "earea": "RIED IM INNKREIS",
+          "ecompl": "",
+          "efeanme": "RABENBERGER WEG",
+          "emun": "RIED IM INNKREIS",
+          "estnum": "32"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000579",
+        "startzeit": "Fri, 06 Oct 2023 17:43:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.215125,
+          "lng": 13.499015
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -154,10 +255,10 @@
             "fwnr": ""
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Oct 2023 18:08:36 +0200",
         "num1": "E231000562",
         "startzeit": "Fri, 06 Oct 2023 15:37:35 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.988564,
           "lng": 13.825315
