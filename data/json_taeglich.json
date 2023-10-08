@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 21,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "JAKITSCHGASSE 14",
+          "earea": "ST. GEORGEN IM ATTERGAU",
+          "ecompl": "00000-131028-1",
+          "efeanme": "JAKITSCHGASSE",
+          "emun": "ST. GEORGEN IM ATTERGAU",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - ST. GEORGEN IM ATTERGAU",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "413518": {
+            "feuerwehr": "FF St. Georgen im Attergau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Georgen im Attergau",
+            "fwnr": "413518"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000719",
+        "startzeit": "Sun, 08 Oct 2023 08:00:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.933535,
+          "lng": 13.494037
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "BR - HELPFAU-UTTENDORF",
         "einsatzsubtyp": {
@@ -31,6 +78,9 @@
         "feuerwehren": {
           "400102": {
             "feuerwehr": "FF Braunau am Inn"
+          },
+          "400213": {
+            "feuerwehr": "FF Munderfing"
           },
           "400304": {
             "feuerwehr": "FF Burgkirchen"
@@ -51,18 +101,22 @@
             "fwnr": "400102"
           },
           "1": {
+            "fwname": "FF Munderfing",
+            "fwnr": "400213"
+          },
+          "2": {
             "fwname": "FF Burgkirchen",
             "fwnr": "400304"
           },
-          "2": {
+          "3": {
             "fwname": "FF Mauerkirchen",
             "fwnr": "400308"
           },
-          "3": {
+          "4": {
             "fwname": "FF Reith",
             "fwnr": "400314"
           },
-          "4": {
+          "5": {
             "fwname": "FF Uttendorf",
             "fwnr": "400320"
           }
