@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WOLFGANGER STRAßE 35",
+          "earea": "HAIDEN",
+          "ecompl": "",
+          "efeanme": "WOLFGANGER STRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "35"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403112": {
+            "feuerwehr": "FF Pfandl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pfandl",
+            "fwnr": "403112"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000824",
+        "startzeit": "Mon, 09 Oct 2023 14:03:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.722113,
+          "lng": 13.574629
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
