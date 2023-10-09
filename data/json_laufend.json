@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WILLERSDORF 9",
+          "earea": "WILLERSDORF",
+          "ecompl": "",
+          "efeanme": "WILLERSDORF",
+          "emun": "WAIZENKIRCHEN",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - WAIZENKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404322": {
+            "feuerwehr": "FF Unterheuberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Unterheuberg",
+            "fwnr": "404322"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000776",
+        "startzeit": "Mon, 09 Oct 2023 06:05:29 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.325302,
+          "lng": 13.828544
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
