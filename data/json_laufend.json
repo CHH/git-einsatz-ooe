@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WEIERFING 68",
+          "earea": "WEIERFING",
+          "ecompl": "00000-0878-5",
+          "efeanme": "WEIERFING",
+          "emun": "AUROLZMüNSTER",
+          "estnum": "68"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - AUROLZMüNSTER",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "408105": {
+            "feuerwehr": "FF Aurolzmünster"
+          },
+          "408111": {
+            "feuerwehr": "FF Forchtenau"
+          },
+          "408123": {
+            "feuerwehr": "FF Weierfing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aurolzmünster",
+            "fwnr": "408105"
+          },
+          "1": {
+            "fwname": "FF Forchtenau",
+            "fwnr": "408111"
+          },
+          "2": {
+            "fwname": "FF Weierfing",
+            "fwnr": "408123"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231000925",
+        "startzeit": "Wed, 11 Oct 2023 01:58:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.234758,
+          "lng": 13.466195
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
