@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,24 +17,31 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "PE - MAUTHAUSEN",
         "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "GEWERBE-BG",
+          "text": "BRAND GEWERBE, INDUSTRIE"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "407204": {
+            "feuerwehr": "FF Haid / PE"
+          },
           "407210": {
             "feuerwehr": "FF Mauthausen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Haid / PE",
+            "fwnr": "407204"
+          },
+          "1": {
             "fwname": "FF Mauthausen",
             "fwnr": "407210"
           }
