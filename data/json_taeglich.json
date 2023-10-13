@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GRÜNBACHTALSTRAßE ",
+          "earea": "",
+          "ecompl": "GRÜNBACHBRÜCKE 1 L 1249",
+          "efeanme": "GRÜNBACHTALSTRAßE",
+          "emun": "GUNSKIRCHEN",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - GUNSKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414205": {
+            "feuerwehr": "FF Fernreith"
+          },
+          "414209": {
+            "feuerwehr": "FF Gunskirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Fernreith",
+            "fwnr": "414205"
+          },
+          "1": {
+            "fwname": "FF Gunskirchen",
+            "fwnr": "414209"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001246",
+        "startzeit": "Sat, 14 Oct 2023 01:09:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.136152,
+          "lng": 13.90818
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
