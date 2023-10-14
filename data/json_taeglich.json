@@ -1,14 +1,68 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "GRÜNBACHTALSTRAßE ",
+          "default": "STELZEN 17",
+          "earea": "STELZEN",
+          "ecompl": "",
+          "efeanme": "STELZEN",
+          "emun": "LOHNSBURG AM KOBERNAUßERWALD",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - LOHNSBURG AM KOBERNAUßERWALD",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408111": {
+            "feuerwehr": "FF Forchtenau"
+          },
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Forchtenau",
+            "fwnr": "408111"
+          },
+          "1": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001251",
+        "startzeit": "Sat, 14 Oct 2023 01:18:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.07748,
+          "lng": 13.342178
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GUNSKIRCHEN",
           "earea": "",
-          "ecompl": "GRÜNBACHBRÜCKE 1 L 1249",
-          "efeanme": "GRÜNBACHTALSTRAßE",
+          "ecompl": "L1249 GRÜNBACHTALSTRAßE KM 6.6 HÖHE KAPPLING",
+          "efeanme": "",
           "emun": "GUNSKIRCHEN",
           "estnum": ""
         },
@@ -17,7 +71,7 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "WL - GUNSKIRCHEN",
         "einsatzsubtyp": {
@@ -29,6 +83,9 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "414113": {
+            "feuerwehr": "FF Offenhausen"
+          },
           "414205": {
             "feuerwehr": "FF Fernreith"
           },
@@ -38,10 +95,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Offenhausen",
+            "fwnr": "414113"
+          },
+          "1": {
             "fwname": "FF Fernreith",
             "fwnr": "414205"
           },
-          "1": {
+          "2": {
             "fwname": "FF Gunskirchen",
             "fwnr": "414209"
           }
@@ -51,8 +112,8 @@
         "startzeit": "Sat, 14 Oct 2023 01:09:10 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.136152,
-          "lng": 13.90818
+          "lat": 48.151631,
+          "lng": 13.889604
         }
       }
     }
