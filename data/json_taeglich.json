@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STEYR",
+          "earea": "",
+          "ecompl": "ST. ANNA WEHR",
+          "efeanme": "",
+          "emun": "STEYR",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001422",
+        "startzeit": "Sun, 15 Oct 2023 14:20:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.042193,
+          "lng": 14.400214
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": "403219"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 15 Oct 2023 15:03:08 +0200",
         "num1": "E231001420",
         "startzeit": "Sun, 15 Oct 2023 13:54:59 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.907211,
           "lng": 13.743473
