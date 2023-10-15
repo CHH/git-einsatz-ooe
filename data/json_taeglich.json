@@ -1,15 +1,116 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "BURGKIRCHEN",
-          "earea": "",
-          "ecompl": "B147 BRAUNAUER STRAßE KM 28.0 HÖHE ALBRECHTSBERG",
+          "default": "BAHNHOFSTRAßE 1",
+          "earea": "BAD ISCHL",
+          "ecompl": "00000-31037-1",
+          "efeanme": "BAHNHOFSTRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          },
+          "403112": {
+            "feuerwehr": "FF Pfandl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FF Pfandl",
+            "fwnr": "403112"
+          }
+        },
+        "inzeit": "Sun, 15 Oct 2023 21:03:39 +0200",
+        "num1": "E231001446",
+        "startzeit": "Sun, 15 Oct 2023 20:27:33 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.712189,
+          "lng": 13.62513
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRANKING",
+          "earea": "FRANKING",
+          "ecompl": "",
           "efeanme": "",
-          "emun": "BURGKIRCHEN",
+          "emun": "FRANKING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - FRANKING",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400404": {
+            "feuerwehr": "FF Franking"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Franking",
+            "fwnr": "400404"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001444",
+        "startzeit": "Sun, 15 Oct 2023 20:18:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.068103,
+          "lng": 12.90126
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HELPFAU-UTTENDORF",
+          "earea": "",
+          "ecompl": "B147 BRAUNAUER STRAßE KM 25.8 HÖHE STEINBRUCH",
+          "efeanme": "",
+          "emun": "HELPFAU-UTTENDORF",
           "estnum": ""
         },
         "alarmstufe": "2",
@@ -19,7 +120,7 @@
         },
         "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
-        "einsatzort": "BR - BURGKIRCHEN",
+        "einsatzort": "BR - HELPFAU-UTTENDORF",
         "einsatzsubtyp": {
           "id": "VUBERGE-VU",
           "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
@@ -51,8 +152,8 @@
         "startzeit": "Sun, 15 Oct 2023 20:14:40 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": 48.188397,
-          "lng": 13.107962
+          "lat": 48.169752,
+          "lng": 13.114426
         }
       }
     },
@@ -154,10 +255,10 @@
             "fwnr": "OWR41892015"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 15 Oct 2023 21:03:38 +0200",
         "num1": "E231001432",
         "startzeit": "Sun, 15 Oct 2023 19:17:52 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.942591,
           "lng": 13.591254
