@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,29 +12,43 @@
           "emun": "ST. WILLIBALD",
           "estnum": "34"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
         "einsatzort": "SD - ST. WILLIBALD",
         "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
         },
         "einsatztyp": {
           "id": "VU",
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "410210": {
+            "feuerwehr": "FF Matzing"
+          },
+          "410214": {
+            "feuerwehr": "FF Raab"
+          },
           "410216": {
             "feuerwehr": "FF St. Willibald"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Matzing",
+            "fwnr": "410210"
+          },
+          "1": {
+            "fwname": "FF Raab",
+            "fwnr": "410214"
+          },
+          "2": {
             "fwname": "FF St. Willibald",
             "fwnr": "410216"
           }
