@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,31 +12,38 @@
           "emun": "MATTIGHOFEN",
           "estnum": "1"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "BR - MATTIGHOFEN",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
+          "id": "BMA-BG",
           "text": "BRANDMELDEALARM"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
           "400212": {
             "feuerwehr": "FF Mattighofen"
+          },
+          "400219": {
+            "feuerwehr": "FF Schalchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Mattighofen",
             "fwnr": "400212"
+          },
+          "1": {
+            "fwname": "FF Schalchen",
+            "fwnr": "400219"
           }
         },
         "inzeit": "",
