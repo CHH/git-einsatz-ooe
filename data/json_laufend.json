@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. JOHANN AM WALDE",
+          "earea": "",
+          "ecompl": "L1061 FRAUSCHERECKSTRAßE KM 10.0 HÖHE FRAUSCHERECK",
+          "efeanme": "",
+          "emun": "ST. JOHANN AM WALDE",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - ST. JOHANN AM WALDE",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400204": {
+            "feuerwehr": "FF Frauschereck"
+          },
+          "400218": {
+            "feuerwehr": "FF St. Johann am Walde"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Frauschereck",
+            "fwnr": "400204"
+          },
+          "1": {
+            "fwname": "FF St. Johann am Walde",
+            "fwnr": "400218"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001556",
+        "startzeit": "Tue, 17 Oct 2023 06:34:02 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.103847,
+          "lng": 13.308882
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +113,12 @@
           "emun": "OBERNBERG AM INN",
           "estnum": "25"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 8,
         "einsatzart": "BRAND",
         "einsatzort": "RI - OBERNBERG AM INN",
         "einsatzsubtyp": {
@@ -76,14 +130,63 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "408304": {
+            "feuerwehr": "FF Katzenberg"
+          },
+          "408309": {
+            "feuerwehr": "FF Mörschwang"
+          },
+          "408311": {
+            "feuerwehr": "FF Münsteuer"
+          },
           "408312": {
             "feuerwehr": "FF Obernberg am Inn"
+          },
+          "408315": {
+            "feuerwehr": "FF Reichersberg"
+          },
+          "408316": {
+            "feuerwehr": "FF St. Georgen bei Obernberg am Inn"
+          },
+          "408324": {
+            "feuerwehr": "FF Weilbach"
+          },
+          "53070201": {
+            "feuerwehr": "EGGLFING (BRD)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Katzenberg",
+            "fwnr": "408304"
+          },
+          "1": {
+            "fwname": "FF Mörschwang",
+            "fwnr": "408309"
+          },
+          "2": {
+            "fwname": "FF Münsteuer",
+            "fwnr": "408311"
+          },
+          "3": {
             "fwname": "FF Obernberg am Inn",
             "fwnr": "408312"
+          },
+          "4": {
+            "fwname": "FF Reichersberg",
+            "fwnr": "408315"
+          },
+          "5": {
+            "fwname": "FF St. Georgen bei Obernberg am Inn",
+            "fwnr": "408316"
+          },
+          "6": {
+            "fwname": "FF Weilbach",
+            "fwnr": "408324"
+          },
+          "7": {
+            "fwname": "EGGLFING (BRD)",
+            "fwnr": "53070201"
           }
         },
         "inzeit": "",
