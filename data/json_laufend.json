@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERNBERG AM INN",
+          "earea": "",
+          "ecompl": "THERESE RIGGLE STRAßE",
+          "efeanme": "",
+          "emun": "OBERNBERG AM INN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - OBERNBERG AM INN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-BG",
+          "text": "BRANDEINSATZ"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "408312": {
+            "feuerwehr": "FF Obernberg am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Obernberg am Inn",
+            "fwnr": "408312"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001552",
+        "startzeit": "Tue, 17 Oct 2023 06:22:36 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.319498,
+          "lng": 13.334599
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
