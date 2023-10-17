@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "AISTERSHEIM",
           "estnum": "99"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "GR - AISTERSHEIM",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "404110": {
+            "feuerwehr": "FF Meggenhofen"
+          },
           "404202": {
             "feuerwehr": "FF Aistersheim"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Meggenhofen",
+            "fwnr": "404110"
+          },
+          "1": {
             "fwname": "FF Aistersheim",
             "fwnr": "404202"
           }
