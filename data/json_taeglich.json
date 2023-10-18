@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WILHERING",
+          "earea": "",
+          "ecompl": "KM 7.6 HÖHE L1388 RUFLINGER STRAßE",
+          "efeanme": "",
+          "emun": "WILHERING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - WILHERING",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406223": {
+            "feuerwehr": "FF Wilhering"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Wilhering",
+            "fwnr": "406223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001647",
+        "startzeit": "Wed, 18 Oct 2023 02:13:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.272788,
+          "lng": 14.18693
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
