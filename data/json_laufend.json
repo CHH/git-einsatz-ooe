@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RITZLING 9",
+          "earea": "RITZLING",
+          "ecompl": "",
+          "efeanme": "RITZLING",
+          "emun": "ATZBACH",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - ATZBACH",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413301": {
+            "feuerwehr": "FF Atzbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Atzbach",
+            "fwnr": "413301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001996",
+        "startzeit": "Fri, 20 Oct 2023 22:09:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.067614,
+          "lng": 13.704768
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
