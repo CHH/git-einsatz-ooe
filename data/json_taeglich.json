@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AUROLZMÜNSTER",
+          "earea": "",
+          "ecompl": "KIKA",
+          "efeanme": "",
+          "emun": "AUROLZMÜNSTER",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - AUROLZMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408123": {
+            "feuerwehr": "FF Weierfing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Weierfing",
+            "fwnr": "408123"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001883",
+        "startzeit": "Fri, 20 Oct 2023 06:06:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.225678,
+          "lng": 13.47573
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "400323"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Oct 2023 05:50:45 +0200",
         "num1": "E231001880",
         "startzeit": "Fri, 20 Oct 2023 04:50:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.191715,
           "lng": 13.336019
