@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - LICHTENBERG",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "412207": {
+            "feuerwehr": "FF Gramastetten"
+          },
           "412309": {
             "feuerwehr": "FF Lichtenberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Gramastetten",
+            "fwnr": "412207"
+          },
+          "1": {
             "fwname": "FF Lichtenberg",
             "fwnr": "412309"
           }
@@ -46,60 +53,6 @@
         "wgs84": {
           "lat": 48.360967,
           "lng": 14.257143
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FELDGASSE 5",
-          "earea": "WARTBERG AN DER KREMS",
-          "ecompl": "",
-          "efeanme": "FELDGASSE",
-          "emun": "WARTBERG AN DER KREMS",
-          "estnum": "5"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - WARTBERG AN DER KREMS",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405307": {
-            "feuerwehr": "FF Strienzing"
-          },
-          "405309": {
-            "feuerwehr": "FF Wartberg an der Krems"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Strienzing",
-            "fwnr": "405307"
-          },
-          "1": {
-            "fwname": "FF Wartberg an der Krems",
-            "fwnr": "405309"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231001887",
-        "startzeit": "Fri, 20 Oct 2023 07:12:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.993346,
-          "lng": 14.115361
         }
       }
     }
