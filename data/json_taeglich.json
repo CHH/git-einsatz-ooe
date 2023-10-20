@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RIEDAUER STRAßE 6",
+          "earea": "RIED IM INNKREIS",
+          "ecompl": "",
+          "efeanme": "RIEDAUER STRAßE",
+          "emun": "RIED IM INNKREIS",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "TUEROE-DI",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231001894",
+        "startzeit": "Fri, 20 Oct 2023 08:03:33 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.212884,
+          "lng": 13.492946
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - LICHTENBERG",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "412207": {
+            "feuerwehr": "FF Gramastetten"
+          },
           "412309": {
             "feuerwehr": "FF Lichtenberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Gramastetten",
+            "fwnr": "412207"
+          },
+          "1": {
             "fwname": "FF Lichtenberg",
             "fwnr": "412309"
           }
@@ -93,10 +147,10 @@
             "fwnr": "405309"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Oct 2023 07:34:01 +0200",
         "num1": "E231001887",
         "startzeit": "Fri, 20 Oct 2023 07:12:13 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.993346,
           "lng": 14.115361
@@ -140,10 +194,10 @@
             "fwnr": "406102"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Oct 2023 07:25:42 +0200",
         "num1": "E231001885",
         "startzeit": "Fri, 20 Oct 2023 07:05:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.21607,
           "lng": 14.470434
