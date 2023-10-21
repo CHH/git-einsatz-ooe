@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RIED IM TRAUNKREIS",
+          "earea": "RIED IM TRAUNKREIS",
+          "ecompl": "SPORTSTRAßE",
+          "efeanme": "",
+          "emun": "RIED IM TRAUNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - RIED IM TRAUNKREIS",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405306": {
+            "feuerwehr": "FF Ried im Traunkreis"
+          },
+          "405310": {
+            "feuerwehr": "FF Zenndorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Traunkreis",
+            "fwnr": "405306"
+          },
+          "1": {
+            "fwname": "FF Zenndorf",
+            "fwnr": "405310"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002003",
+        "startzeit": "Sat, 21 Oct 2023 05:05:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.024822,
+          "lng": 14.079511
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
