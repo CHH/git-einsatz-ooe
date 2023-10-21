@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "A7 FAHRTR. FREISTADT",
+          "earea": "",
+          "ecompl": "A7 FAHRTR. FREISTADT NACH AUFFAHRT ENGERWITZDORF BEI RASTPLATZ DENK",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - ",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412313": {
+            "feuerwehr": "FF Schweinbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schweinbach",
+            "fwnr": "412313"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002106",
+        "startzeit": "Sat, 21 Oct 2023 23:47:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.347011,
+          "lng": 14.454284
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,60 +147,6 @@
         "wgs84": {
           "lat": 48.425237,
           "lng": 14.052967
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "TROJERWEG 12",
-          "earea": "ROSENAU AM HENGSTPAß",
-          "ecompl": "",
-          "efeanme": "TROJERWEG",
-          "emun": "ROSENAU AM HENGSTPAß",
-          "estnum": "12"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - ROSENAU AM HENGSTPAß",
-        "einsatzsubtyp": {
-          "id": "KAMIN-BK",
-          "text": "BRAND KAMIN"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405405": {
-            "feuerwehr": "FF Windischgarsten"
-          },
-          "405406": {
-            "feuerwehr": "FF Rosenau am Hengstpaß"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Windischgarsten",
-            "fwnr": "405405"
-          },
-          "1": {
-            "fwname": "FF Rosenau am Hengstpaß",
-            "fwnr": "405406"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002099",
-        "startzeit": "Sat, 21 Oct 2023 22:11:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.722013,
-          "lng": 14.346126
         }
       }
     },
