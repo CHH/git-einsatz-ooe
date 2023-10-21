@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 5,
+  "cnt_einsaetze": 4,
   "cnt_feuerwehren": 5,
   "einsaetze": [
     {
@@ -158,7 +158,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "BR - OSTERMIETHING",
         "einsatzsubtyp": {
@@ -172,12 +172,19 @@
         "feuerwehren": {
           "400403": {
             "feuerwehr": "FF Ernsting"
+          },
+          "400411": {
+            "feuerwehr": "FF Ostermiething"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Ernsting",
             "fwnr": "400403"
+          },
+          "1": {
+            "fwname": "FF Ostermiething",
+            "fwnr": "400411"
           }
         },
         "inzeit": "",
@@ -187,53 +194,6 @@
         "wgs84": {
           "lat": 48.053472,
           "lng": 12.84291
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "BAHNHOFSTRAßE 10",
-          "earea": "GRIESKIRCHEN",
-          "ecompl": "",
-          "efeanme": "BAHNHOFSTRAßE",
-          "emun": "GRIESKIRCHEN",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - GRIESKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "FF Grieskirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Grieskirchen",
-            "fwnr": "404104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002007",
-        "startzeit": "Sat, 21 Oct 2023 07:20:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.23271,
-          "lng": 13.837368
         }
       }
     }
