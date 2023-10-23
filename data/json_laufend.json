@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MARCHTRENK",
+          "earea": "",
+          "ecompl": "KM 16.2 HÖHE L1227 PASCHINGER STRAßE",
+          "efeanme": "",
+          "emun": "MARCHTRENK",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - MARCHTRENK",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414215": {
+            "feuerwehr": "FF Marchtrenk"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Marchtrenk",
+            "fwnr": "414215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002203",
+        "startzeit": "Mon, 23 Oct 2023 16:02:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.203067,
+          "lng": 14.107353
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -107,60 +154,6 @@
         "wgs84": {
           "lat": 47.995438,
           "lng": 13.695327
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FELDKIRCHEN AN DER DONAU",
-          "earea": "",
-          "ecompl": "B131 ASCHACHER STRAßE KM 10.0 HÖHE ASCHACHER STRAßE",
-          "efeanme": "",
-          "emun": "FELDKIRCHEN AN DER DONAU",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "UU - FELDKIRCHEN AN DER DONAU",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412212": {
-            "feuerwehr": "FF Landshaag"
-          },
-          "412215": {
-            "feuerwehr": "FF Bad Mühllacken"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Landshaag",
-            "fwnr": "412212"
-          },
-          "1": {
-            "fwname": "FF Bad Mühllacken",
-            "fwnr": "412215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002197",
-        "startzeit": "Mon, 23 Oct 2023 15:13:19 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.357546,
-          "lng": 14.055894
         }
       }
     }
