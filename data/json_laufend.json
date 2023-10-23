@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHMIEDLEHEN 3",
+          "earea": "SCHLIERBACH",
+          "ecompl": "",
+          "efeanme": "SCHMIEDLEHEN",
+          "emun": "SCHLIERBACH",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - SCHLIERBACH",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405213": {
+            "feuerwehr": "FF Schlierbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schlierbach",
+            "fwnr": "405213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002210",
+        "startzeit": "Mon, 23 Oct 2023 17:26:48 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.933797,
+          "lng": 14.11969
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +93,6 @@
         "wgs84": {
           "lat": 48.224662,
           "lng": 14.394885
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AUBACHWEG 2",
-          "earea": "ST. MARTIN IM MüHLKREIS",
-          "ecompl": "",
-          "efeanme": "AUBACHWEG",
-          "emun": "ST. MARTIN IM MüHLKREIS",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - ST. MARTIN IM MüHLKREIS",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BG",
-          "text": "BRANDEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "409308": {
-            "feuerwehr": "FF Neuhaus-Untermühl"
-          },
-          "409312": {
-            "feuerwehr": "FF Plöcking"
-          },
-          "409314": {
-            "feuerwehr": "FF St. Martin im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Neuhaus-Untermühl",
-            "fwnr": "409308"
-          },
-          "1": {
-            "fwname": "FF Plöcking",
-            "fwnr": "409312"
-          },
-          "2": {
-            "fwname": "FF St. Martin im Mühlkreis",
-            "fwnr": "409314"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002201",
-        "startzeit": "Mon, 23 Oct 2023 15:48:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.420055,
-          "lng": 14.039967
         }
       }
     }
