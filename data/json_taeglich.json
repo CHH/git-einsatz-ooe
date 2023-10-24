@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GEWERBEPARK WEST 1",
+          "earea": "VöCKLAMARKT",
+          "ecompl": "00000-131159-1",
+          "efeanme": "GEWERBEPARK WEST",
+          "emun": "VöCKLAMARKT",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - VöCKLAMARKT",
+        "einsatzsubtyp": {
+          "id": "BMA3-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "413130": {
+            "feuerwehr": "FF Redl"
+          },
+          "413142": {
+            "feuerwehr": "FF Vöcklamarkt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Redl",
+            "fwnr": "413130"
+          },
+          "1": {
+            "fwname": "FF Vöcklamarkt",
+            "fwnr": "413142"
+          }
+        },
+        "inzeit": "Tue, 24 Oct 2023 09:10:58 +0200",
+        "num1": "E231002249",
+        "startzeit": "Tue, 24 Oct 2023 08:19:57 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.999111,
+          "lng": 13.48139
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "409309"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 24 Oct 2023 09:14:07 +0200",
         "num1": "E231002247",
         "startzeit": "Tue, 24 Oct 2023 08:17:12 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.444853,
           "lng": 14.050477
