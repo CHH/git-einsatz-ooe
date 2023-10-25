@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KIRCHENGASSE 2",
+          "earea": "BAD GOISERN",
+          "ecompl": "",
+          "efeanme": "KIRCHENGASSE",
+          "emun": "BAD GOISERN AM HALLSTäTTERSEE",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - BAD GOISERN AM HALLSTäTTERSEE",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403101": {
+            "feuerwehr": "FF Bad Goisern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Goisern",
+            "fwnr": "403101"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002304",
+        "startzeit": "Wed, 25 Oct 2023 07:49:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.64217,
+          "lng": 13.617151
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,100 +100,6 @@
         "wgs84": {
           "lat": 47.975863,
           "lng": 13.996317
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "L. ENGEL-STRAßE 1",
-          "earea": "SCHWERTBERG",
-          "ecompl": "00000-71007-1",
-          "efeanme": "L. ENGEL-STRAßE",
-          "emun": "SCHWERTBERG",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - SCHWERTBERG",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "407216": {
-            "feuerwehr": "FF Schwertberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Schwertberg",
-            "fwnr": "407216"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002293",
-        "startzeit": "Wed, 25 Oct 2023 07:08:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.270588,
-          "lng": 14.581479
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "JOSEF DANGL-STRAßE 6",
-          "earea": "GMUNDEN",
-          "ecompl": "",
-          "efeanme": "JOSEF DANGL-STRAßE",
-          "emun": "GMUNDEN",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - GMUNDEN",
-        "einsatzsubtyp": {
-          "id": "WASSER-TK",
-          "text": "WASSERSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002291",
-        "startzeit": "Wed, 25 Oct 2023 06:10:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.91735,
-          "lng": 13.79218
         }
       }
     }
