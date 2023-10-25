@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413310": {
+            "feuerwehr": "FF Pühret"
+          },
+          "413313": {
+            "feuerwehr": "FF Rutzenham"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pühret",
+            "fwnr": "413310"
+          },
+          "1": {
+            "fwname": "FF Rutzenham",
+            "fwnr": "413313"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002367",
+        "startzeit": "Wed, 25 Oct 2023 15:37:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.0362,
+          "lng": 13.698777
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WEITERSFELDEN",
+          "earea": "",
+          "ecompl": "WETERSFELDEN",
+          "efeanme": "",
+          "emun": "WEITERSFELDEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - WEITERSFELDEN",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402320": {
+            "feuerwehr": "FF Weitersfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Weitersfelden",
+            "fwnr": "402320"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002365",
+        "startzeit": "Wed, 25 Oct 2023 15:36:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.476122,
+          "lng": 14.725589
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
