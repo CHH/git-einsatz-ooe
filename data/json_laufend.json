@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WALDBURG",
+          "earea": "",
+          "ecompl": "B38 BÖHMERWALDSTRAßE KM 106.2 HÖHE ST. PETER",
+          "efeanme": "",
+          "emun": "WALDBURG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - WALDBURG",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402136": {
+            "feuerwehr": "FF Waldburg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Waldburg",
+            "fwnr": "402136"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002398",
+        "startzeit": "Wed, 25 Oct 2023 20:50:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.499031,
+          "lng": 14.47171
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
