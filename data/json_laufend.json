@@ -1,7 +1,144 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 8,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAUPTSTRAßE 15",
+          "earea": "OTTNANG",
+          "ecompl": "",
+          "efeanme": "HAUPTSTRAßE",
+          "emun": "OTTNANG AM HAUSRUCK",
+          "estnum": "15"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - OTTNANG AM HAUSRUCK",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413305": {
+            "feuerwehr": "FF Manning"
+          },
+          "413307": {
+            "feuerwehr": "FF Ottnang am Hausruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Manning",
+            "fwnr": "413305"
+          },
+          "1": {
+            "fwname": "FF Ottnang am Hausruck",
+            "fwnr": "413307"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002560",
+        "startzeit": "Fri, 27 Oct 2023 22:53:29 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.096184,
+          "lng": 13.661549
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FABRIKSPLATZ 1",
+          "earea": "LAAKIRCHEN",
+          "ecompl": "",
+          "efeanme": "FABRIKSPLATZ",
+          "emun": "LAAKIRCHEN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 6,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - LAAKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "GEWERBE-BG",
+          "text": "BRAND GEWERBE, INDUSTRIE"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403204": {
+            "feuerwehr": "FF Diethaming"
+          },
+          "403211": {
+            "feuerwehr": "FF Laakirchen"
+          },
+          "403213": {
+            "feuerwehr": "FF Lindach"
+          },
+          "403215": {
+            "feuerwehr": "FF Oberweis"
+          },
+          "403218": {
+            "feuerwehr": "FF Rahstorf"
+          },
+          "403226": {
+            "feuerwehr": "FF Vorchdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Diethaming",
+            "fwnr": "403204"
+          },
+          "1": {
+            "fwname": "FF Laakirchen",
+            "fwnr": "403211"
+          },
+          "2": {
+            "fwname": "FF Lindach",
+            "fwnr": "403213"
+          },
+          "3": {
+            "fwname": "FF Oberweis",
+            "fwnr": "403215"
+          },
+          "4": {
+            "fwname": "FF Rahstorf",
+            "fwnr": "403218"
+          },
+          "5": {
+            "fwname": "FF Vorchdorf",
+            "fwnr": "403226"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002489",
+        "startzeit": "Fri, 27 Oct 2023 08:38:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.991274,
+          "lng": 13.799121
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
