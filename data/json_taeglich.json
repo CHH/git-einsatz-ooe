@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NIEDERNDORF 1",
+          "earea": "NIEDERNDORF",
+          "ecompl": "",
+          "efeanme": "NIEDERNDORF",
+          "emun": "SCHöNAU IM MüHLKREIS",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - SCHöNAU IM MüHLKREIS",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402311": {
+            "feuerwehr": "FF Oberndorf / FR"
+          },
+          "402316": {
+            "feuerwehr": "FF Schönau im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Oberndorf / FR",
+            "fwnr": "402311"
+          },
+          "1": {
+            "fwname": "FF Schönau im Mühlkreis",
+            "fwnr": "402316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002647",
+        "startzeit": "Sun, 29 Oct 2023 01:37:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.424436,
+          "lng": 14.727776
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "407207"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 29 Oct 2023 02:15:03 +0100",
         "num1": "E231002645",
         "startzeit": "Sun, 29 Oct 2023 01:09:32 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.247438,
           "lng": 14.491134
@@ -86,10 +140,10 @@
             "fwnr": "406201"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 29 Oct 2023 01:54:58 +0200",
         "num1": "E231002643",
         "startzeit": "Sun, 29 Oct 2023 00:05:57 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.209095,
           "lng": 14.251309
