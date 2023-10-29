@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALKERSDORF 44",
+          "earea": "ALKERSDORF",
+          "ecompl": "",
+          "efeanme": "ALKERSDORF",
+          "emun": "ST. GEORGEN IM ATTERGAU",
+          "estnum": "44"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ST. GEORGEN IM ATTERGAU",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413502": {
+            "feuerwehr": "FF Alkersdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Alkersdorf",
+            "fwnr": "413502"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002685",
+        "startzeit": "Sun, 29 Oct 2023 10:32:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.932767,
+          "lng": 13.508524
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
