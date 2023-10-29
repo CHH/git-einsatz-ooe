@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TIMELKAM",
+          "earea": "",
+          "ecompl": "KM 250.4 HÖHE B1 WIENER STRAßE",
+          "efeanme": "",
+          "emun": "TIMELKAM",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - TIMELKAM",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413427": {
+            "feuerwehr": "FF Timelkam"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Timelkam",
+            "fwnr": "413427"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002669",
+        "startzeit": "Sun, 29 Oct 2023 06:13:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.998087,
+          "lng": 13.588568
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +93,6 @@
         "wgs84": {
           "lat": 48.21032,
           "lng": 14.47776
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - ",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408304": {
-            "feuerwehr": "FF Katzenberg"
-          },
-          "408305": {
-            "feuerwehr": "FF Kirchdorf am Inn"
-          },
-          "408308": {
-            "feuerwehr": "FF Moosham"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Katzenberg",
-            "fwnr": "408304"
-          },
-          "1": {
-            "fwname": "FF Kirchdorf am Inn",
-            "fwnr": "408305"
-          },
-          "2": {
-            "fwname": "FF Moosham",
-            "fwnr": "408308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231002656",
-        "startzeit": "Sun, 29 Oct 2023 03:42:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.28678,
-          "lng": 13.291171
         }
       }
     },
