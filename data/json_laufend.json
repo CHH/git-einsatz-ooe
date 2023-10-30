@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SALZBURGER STRAßE 79",
+          "earea": "OBERSTRAß",
+          "ecompl": "",
+          "efeanme": "SALZBURGER STRAßE",
+          "emun": "ATTNANG-PUCHHEIM",
+          "estnum": "79"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ATTNANG-PUCHHEIM",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413417": {
+            "feuerwehr": "FF Puchheim"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Puchheim",
+            "fwnr": "413417"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002741",
+        "startzeit": "Mon, 30 Oct 2023 08:27:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.00574,
+          "lng": 13.712082
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
