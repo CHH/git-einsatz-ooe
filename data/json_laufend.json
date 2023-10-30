@@ -1,7 +1,76 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. PIUS 1",
+          "earea": "ST. PIUS",
+          "ecompl": "00000-41017-1",
+          "efeanme": "ST. PIUS",
+          "emun": "STEEGEN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - STEEGEN",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "404310": {
+            "feuerwehr": "FF Langenpeuerbach"
+          },
+          "404313": {
+            "feuerwehr": "FF Obererleinsbach"
+          },
+          "404315": {
+            "feuerwehr": "FF Peuerbach"
+          },
+          "404319": {
+            "feuerwehr": "FF Steegen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Langenpeuerbach",
+            "fwnr": "404310"
+          },
+          "1": {
+            "fwname": "FF Obererleinsbach",
+            "fwnr": "404313"
+          },
+          "2": {
+            "fwname": "FF Peuerbach",
+            "fwnr": "404315"
+          },
+          "3": {
+            "fwname": "FF Steegen",
+            "fwnr": "404319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002734",
+        "startzeit": "Mon, 30 Oct 2023 07:48:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.342117,
+          "lng": 13.764955
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
