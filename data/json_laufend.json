@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAHNHOFSTRAßE 26",
+          "earea": "ASCHACH AN DER DONAU",
+          "ecompl": "(TANKSTELLE)",
+          "efeanme": "BAHNHOFSTRAßE",
+          "emun": "ASCHACH AN DER DONAU",
+          "estnum": "26"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "EF - ASCHACH AN DER DONAU",
+        "einsatzsubtyp": {
+          "id": "PERSON-TG",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "FF Aschach an der Donau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aschach an der Donau",
+            "fwnr": "401102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231002820",
+        "startzeit": "Tue, 31 Oct 2023 07:51:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.363566,
+          "lng": 14.013145
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
