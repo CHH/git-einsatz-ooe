@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ACHORT 14",
+          "earea": "ST. LORENZ",
+          "ecompl": "",
+          "efeanme": "ACHORT",
+          "emun": "ST. LORENZ",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ST. LORENZ",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TG",
+          "text": "TECHNISCHER EINSATZ"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "413212": {
+            "feuerwehr": "FF St. Lorenz"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Lorenz",
+            "fwnr": "413212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100003",
+        "startzeit": "Wed, 01 Nov 2023 04:16:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.827099,
+          "lng": 13.359149
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
