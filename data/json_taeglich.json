@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GüNTER-FRONIUS-STRAßE 1",
+          "earea": "THALHEIM BEI WELS",
+          "ecompl": "00000-143361-1",
+          "efeanme": "GüNTER-FRONIUS-STRAßE",
+          "emun": "THALHEIM BEI WELS",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - THALHEIM BEI WELS",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414223": {
+            "feuerwehr": "FF Thalheim bei Wels"
+          },
+          "414226": {
+            "feuerwehr": "FF Am Thalbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Thalheim bei Wels",
+            "fwnr": "414223"
+          },
+          "1": {
+            "fwname": "FF Am Thalbach",
+            "fwnr": "414226"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100069",
+        "startzeit": "Thu, 02 Nov 2023 07:55:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.1561,
+          "lng": 14.048691
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +147,10 @@
             "fwnr": "404128"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 02 Nov 2023 08:09:55 +0100",
         "num1": "E231100060",
         "startzeit": "Thu, 02 Nov 2023 06:11:49 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.245629,
           "lng": 13.815481
