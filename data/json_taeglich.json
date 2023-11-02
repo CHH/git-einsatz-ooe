@@ -1,7 +1,156 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NETTINGSDORFER STRAßE 40",
+          "earea": "NETTINGSDORF",
+          "ecompl": "00000-63237-2",
+          "efeanme": "NETTINGSDORFER STRAßE",
+          "emun": "ANSFELDEN",
+          "estnum": "40"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ANSFELDEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406261": {
+            "feuerwehr": "BTF Nettingsdorfer Papierfabrik AG Co Kg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "BTF Nettingsdorfer Papierfabrik AG Co Kg",
+            "fwnr": "406261"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100062",
+        "startzeit": "Thu, 02 Nov 2023 06:12:48 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.184193,
+          "lng": 14.260022
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KROISBACH 12",
+          "earea": "KROISBACH",
+          "ecompl": "",
+          "efeanme": "KROISBACH",
+          "emun": "TOLLET",
+          "estnum": "12"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - TOLLET",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404114": {
+            "feuerwehr": "FF Oberwödling"
+          },
+          "404128": {
+            "feuerwehr": "FF Unterstetten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Oberwödling",
+            "fwnr": "404114"
+          },
+          "1": {
+            "fwname": "FF Unterstetten",
+            "fwnr": "404128"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100060",
+        "startzeit": "Thu, 02 Nov 2023 06:11:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.245629,
+          "lng": 13.815481
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ANZING 36",
+          "earea": "ANZING",
+          "ecompl": "",
+          "efeanme": "ANZING",
+          "emun": "ST. MARTIN IM MüHLKREIS",
+          "estnum": "36"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "RO - ST. MARTIN IM MüHLKREIS",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409314": {
+            "feuerwehr": "FF St. Martin im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Martin im Mühlkreis",
+            "fwnr": "409314"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100058",
+        "startzeit": "Thu, 02 Nov 2023 05:36:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.402234,
+          "lng": 14.068451
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
