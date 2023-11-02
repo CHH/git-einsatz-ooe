@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PARZHAM 2",
+          "earea": "PARZHAM",
+          "ecompl": "",
+          "efeanme": "PARZHAM",
+          "emun": "WAIZENKIRCHEN",
+          "estnum": "2"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - WAIZENKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404320": {
+            "feuerwehr": "FF Stillfüssing"
+          },
+          "404324": {
+            "feuerwehr": "FF Waizenkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Stillfüssing",
+            "fwnr": "404320"
+          },
+          "1": {
+            "fwname": "FF Waizenkirchen",
+            "fwnr": "404324"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100088",
+        "startzeit": "Thu, 02 Nov 2023 14:40:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.329209,
+          "lng": 13.84387
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
