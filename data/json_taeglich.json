@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STEYR",
+          "earea": "",
+          "ecompl": "INFANGSTRAßE",
+          "efeanme": "",
+          "emun": "STEYR",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100071",
+        "startzeit": "Thu, 02 Nov 2023 08:56:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.063911,
+          "lng": 14.4256
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": "414226"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 02 Nov 2023 08:47:12 +0100",
         "num1": "E231100069",
         "startzeit": "Thu, 02 Nov 2023 07:55:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.1561,
           "lng": 14.048691
