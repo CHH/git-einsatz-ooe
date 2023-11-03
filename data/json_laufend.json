@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MARCHTRENKER STRAßE 59",
+          "earea": "OBERPERWEND",
+          "ecompl": "",
+          "efeanme": "MARCHTRENKER STRAßE",
+          "emun": "BUCHKIRCHEN",
+          "estnum": "59"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - BUCHKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "PERSON-TG",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "FF Alkoven"
+          },
+          "414203": {
+            "feuerwehr": "FF Buchkirchen"
+          },
+          "414216": {
+            "feuerwehr": "FF Mistelbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Alkoven",
+            "fwnr": "401101"
+          },
+          "1": {
+            "fwname": "FF Buchkirchen",
+            "fwnr": "414203"
+          },
+          "2": {
+            "fwname": "FF Mistelbach",
+            "fwnr": "414216"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100160",
+        "startzeit": "Fri, 03 Nov 2023 09:17:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.204236,
+          "lng": 14.079625
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
