@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HASENRATHSTRAßE 37",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "HASENRATHSTRAßE",
+          "emun": "STEYR",
+          "estnum": "37"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "41510103": {
+            "feuerwehr": "FW Löschzug 3 Gleink"
+          },
+          "41510105": {
+            "feuerwehr": "FW Löschzug 5 Münichholz"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Löschzug 3 Gleink",
+            "fwnr": "41510103"
+          },
+          "1": {
+            "fwname": "FW Löschzug 5 Münichholz",
+            "fwnr": "41510105"
+          },
+          "2": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100280",
+        "startzeit": "Sat, 04 Nov 2023 17:47:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.068496,
+          "lng": 14.409733
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +154,10 @@
             "fwnr": "414107"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 04 Nov 2023 17:32:08 +0100",
         "num1": "E231100273",
         "startzeit": "Sat, 04 Nov 2023 16:25:53 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.101249,
           "lng": 13.900181
