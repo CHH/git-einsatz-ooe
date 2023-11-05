@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TRAUN",
+          "earea": "TRAUN",
+          "ecompl": "LINZERSTRAßE",
+          "efeanme": "",
+          "emun": "TRAUN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - TRAUN",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "FF Traun"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Traun",
+            "fwnr": "406222"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100320",
+        "startzeit": "Sun, 05 Nov 2023 08:19:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.224014,
+          "lng": 14.2366
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
