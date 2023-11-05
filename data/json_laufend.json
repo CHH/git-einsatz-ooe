@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HACKSTOCK",
+          "earea": "HACKSTOCK",
+          "ecompl": "HACKSTOCK",
+          "efeanme": "",
+          "emun": "UNTERWEIßENBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - UNTERWEIßENBACH",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402301": {
+            "feuerwehr": "FF Hackstock"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hackstock",
+            "fwnr": "402301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100303",
+        "startzeit": "Sun, 05 Nov 2023 01:25:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.477039,
+          "lng": 14.8136
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
