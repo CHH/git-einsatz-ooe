@@ -1,7 +1,149 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "VÖCKLABRUCK",
+          "earea": "",
+          "ecompl": "B1 WIENER STRAßE KM 243.6 HÖHE LINZER STRAßE",
+          "efeanme": "",
+          "emun": "VÖCKLABRUCK",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - VÖCKLABRUCK",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "FF Vöcklabruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Vöcklabruck",
+            "fwnr": "413429"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100307",
+        "startzeit": "Sun, 05 Nov 2023 02:24:20 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.005983,
+          "lng": 13.676464
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LINZER STRAßE 6",
+          "earea": "KöNIGSWIESEN",
+          "ecompl": "",
+          "efeanme": "LINZER STRAßE",
+          "emun": "KöNIGSWIESEN",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - KöNIGSWIESEN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402305": {
+            "feuerwehr": "FF Königswiesen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Königswiesen",
+            "fwnr": "402305"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100305",
+        "startzeit": "Sun, 05 Nov 2023 02:21:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.406377,
+          "lng": 14.838791
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HACKSTOCK",
+          "earea": "HACKSTOCK",
+          "ecompl": "HACKSTOCK",
+          "efeanme": "",
+          "emun": "UNTERWEIßENBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - UNTERWEIßENBACH",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402301": {
+            "feuerwehr": "FF Hackstock"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hackstock",
+            "fwnr": "402301"
+          }
+        },
+        "inzeit": "Sun, 05 Nov 2023 02:26:51 +0100",
+        "num1": "E231100303",
+        "startzeit": "Sun, 05 Nov 2023 01:25:31 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.477039,
+          "lng": 14.8136
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
