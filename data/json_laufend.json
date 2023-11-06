@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TERNBERG",
+          "earea": "TERNBERG",
+          "ecompl": "KIRCHENPLATZ",
+          "efeanme": "",
+          "emun": "TERNBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - TERNBERG",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-BK",
+          "text": "BRANDEINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411314": {
+            "feuerwehr": "FF Schweinsegg-Zehetner"
+          },
+          "411316": {
+            "feuerwehr": "FF Ternberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schweinsegg-Zehetner",
+            "fwnr": "411314"
+          },
+          "1": {
+            "fwname": "FF Ternberg",
+            "fwnr": "411316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100439",
+        "startzeit": "Mon, 06 Nov 2023 18:01:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.945776,
+          "lng": 14.35656
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
