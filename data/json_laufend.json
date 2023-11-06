@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD KREUZEN 106",
+          "earea": "BAD KREUZEN",
+          "ecompl": "00000-71038-1",
+          "efeanme": "BAD KREUZEN",
+          "emun": "BAD KREUZEN",
+          "estnum": "106"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - BAD KREUZEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "407101": {
+            "feuerwehr": "FF Bad Kreuzen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Kreuzen",
+            "fwnr": "407101"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100456",
+        "startzeit": "Mon, 06 Nov 2023 22:12:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.268903,
+          "lng": 14.807452
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
