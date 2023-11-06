@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DIERSBACH",
+          "earea": "",
+          "ecompl": "L1127 KALLINGER STRAßE KM 4.0 HÖHE KALLING",
+          "efeanme": "",
+          "emun": "DIERSBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - DIERSBACH",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410204": {
+            "feuerwehr": "FF Diersbach"
+          },
+          "410212": {
+            "feuerwehr": "FF Oberedt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Diersbach",
+            "fwnr": "410204"
+          },
+          "1": {
+            "fwname": "FF Oberedt",
+            "fwnr": "410212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100375",
+        "startzeit": "Mon, 06 Nov 2023 01:09:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.405069,
+          "lng": 13.56437
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
