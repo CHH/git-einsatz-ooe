@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALTENFELDEN",
+          "earea": "",
+          "ecompl": "KREISVERKEHR B127 ALTENFELDEN",
+          "efeanme": "",
+          "emun": "ALTENFELDEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RO - ALTENFELDEN",
+        "einsatzsubtyp": {
+          "id": "OEL-DI",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "409301": {
+            "feuerwehr": "FF Altenfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altenfelden",
+            "fwnr": "409301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100384",
+        "startzeit": "Mon, 06 Nov 2023 07:07:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.496547,
+          "lng": 13.970017
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
