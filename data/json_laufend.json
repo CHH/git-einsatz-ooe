@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RASDORF 1",
+          "earea": "RASDORF",
+          "ecompl": "",
+          "efeanme": "RASDORF",
+          "emun": "KOPFING IM INNKREIS",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - KOPFING IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BG",
+          "text": "BRAND LANDWIRTSCHAFTLICHES OBJEKT"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "410104": {
+            "feuerwehr": "FF Engertsberg"
+          },
+          "410110": {
+            "feuerwehr": "FF Kopfing im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Engertsberg",
+            "fwnr": "410104"
+          },
+          "1": {
+            "fwname": "FF Kopfing im Innkreis",
+            "fwnr": "410110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100458",
+        "startzeit": "Mon, 06 Nov 2023 22:50:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.432828,
+          "lng": 13.66897
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
