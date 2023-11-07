@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WARTBERG AN DER KREMS",
+          "earea": "",
+          "ecompl": "L554 SCHLIERBACHER STRAßE KM 5.2 HÖHE DIEPERSDORF",
+          "efeanme": "",
+          "emun": "WARTBERG AN DER KREMS",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - WARTBERG AN DER KREMS",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405304": {
+            "feuerwehr": "FF Kremsmünster"
+          },
+          "405309": {
+            "feuerwehr": "FF Wartberg an der Krems"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kremsmünster",
+            "fwnr": "405304"
+          },
+          "1": {
+            "fwname": "FF Wartberg an der Krems",
+            "fwnr": "405309"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100493",
+        "startzeit": "Tue, 07 Nov 2023 12:15:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.005341,
+          "lng": 14.121109
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "414223"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 07 Nov 2023 11:44:25 +0100",
         "num1": "E231100490",
         "startzeit": "Tue, 07 Nov 2023 11:06:14 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.142941,
           "lng": 14.033202
