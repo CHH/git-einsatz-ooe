@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ATTERSEESTRAßE ",
+          "earea": "LENZING",
+          "ecompl": "GASTHOF LEIMER",
+          "efeanme": "ATTERSEESTRAßE",
+          "emun": "LENZING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - LENZING",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413411": {
+            "feuerwehr": "FF Lenzing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lenzing",
+            "fwnr": "413411"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100517",
+        "startzeit": "Tue, 07 Nov 2023 15:56:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.976279,
+          "lng": 13.609959
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
