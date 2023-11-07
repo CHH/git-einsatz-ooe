@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PRAMBACHKIRCHEN",
+          "earea": "",
+          "ecompl": "GRÜBEN",
+          "efeanme": "",
+          "emun": "PRAMBACHKIRCHEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - PRAMBACHKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-BG",
+          "text": "BRANDEINSATZ"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "401106": {
+            "feuerwehr": "FF Gallsbach-Dachsberg"
+          },
+          "401111": {
+            "feuerwehr": "FF Hinzenbach"
+          },
+          "401115": {
+            "feuerwehr": "FF Prambachkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gallsbach-Dachsberg",
+            "fwnr": "401106"
+          },
+          "1": {
+            "fwname": "FF Hinzenbach",
+            "fwnr": "401111"
+          },
+          "2": {
+            "fwname": "FF Prambachkirchen",
+            "fwnr": "401115"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100464",
+        "startzeit": "Tue, 07 Nov 2023 02:04:43 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.306641,
+          "lng": 13.945765
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
