@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "UNTERFREUNDORF 88",
+          "earea": "UNTERFREUNDORF",
+          "ecompl": "",
+          "efeanme": "UNTERFREUNDORF",
+          "emun": "ST. MARIENKIRCHEN AN DER POLSENZ",
+          "estnum": "88"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "EF - ST. MARIENKIRCHEN AN DER POLSENZ",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401117": {
+            "feuerwehr": "FF St. Marienkirchen a.d.P."
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Marienkirchen a.d.P.",
+            "fwnr": "401117"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100509",
+        "startzeit": "Tue, 07 Nov 2023 13:37:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.255948,
+          "lng": 13.955974
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,114 +147,6 @@
         "wgs84": {
           "lat": 48.143222,
           "lng": 13.463121
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HELPFAU 2",
-          "earea": "HELPFAU",
-          "ecompl": "",
-          "efeanme": "HELPFAU",
-          "emun": "HELPFAU-UTTENDORF",
-          "estnum": "2"
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - HELPFAU-UTTENDORF",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400308": {
-            "feuerwehr": "FF Mauerkirchen"
-          },
-          "400320": {
-            "feuerwehr": "FF Uttendorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Mauerkirchen",
-            "fwnr": "400308"
-          },
-          "1": {
-            "fwname": "FF Uttendorf",
-            "fwnr": "400320"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231100498",
-        "startzeit": "Tue, 07 Nov 2023 12:24:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.157745,
-          "lng": 13.127887
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WARTBERG AN DER KREMS",
-          "earea": "",
-          "ecompl": "L554 SCHLIERBACHER STRAßE KM 5.2 HÖHE DIEPERSDORF",
-          "efeanme": "",
-          "emun": "WARTBERG AN DER KREMS",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "KI - WARTBERG AN DER KREMS",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "405304": {
-            "feuerwehr": "FF Kremsmünster"
-          },
-          "405309": {
-            "feuerwehr": "FF Wartberg an der Krems"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kremsmünster",
-            "fwnr": "405304"
-          },
-          "1": {
-            "fwname": "FF Wartberg an der Krems",
-            "fwnr": "405309"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231100493",
-        "startzeit": "Tue, 07 Nov 2023 12:15:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.005341,
-          "lng": 14.121109
         }
       }
     }
