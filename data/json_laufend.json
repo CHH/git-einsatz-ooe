@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BODENDORF 155",
+          "earea": "BODENDORF",
+          "ecompl": "",
+          "efeanme": "BODENDORF",
+          "emun": "KATSDORF",
+          "estnum": "155"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - KATSDORF",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "407206": {
+            "feuerwehr": "FF Katsdorf"
+          },
+          "407209": {
+            "feuerwehr": "FF Lungitz"
+          },
+          "407215": {
+            "feuerwehr": "FF Ruhstetten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Katsdorf",
+            "fwnr": "407206"
+          },
+          "1": {
+            "fwname": "FF Lungitz",
+            "fwnr": "407209"
+          },
+          "2": {
+            "fwname": "FF Ruhstetten",
+            "fwnr": "407215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100606",
+        "startzeit": "Wed, 08 Nov 2023 16:44:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.327228,
+          "lng": 14.486938
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
