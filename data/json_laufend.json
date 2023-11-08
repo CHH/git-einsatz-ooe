@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - ",
         "einsatzsubtyp": {
@@ -29,14 +29,28 @@
           "text": "ÖWR-EINSATZ WASSERRETTUNG"
         },
         "feuerwehren": {
+          "OWR41892006": {
+            "feuerwehr": "ÖWR EBENSEE"
+          },
           "OWR41892007": {
             "feuerwehr": "ÖWR GMUNDEN"
+          },
+          "OWR41892010": {
+            "feuerwehr": "ÖWR TRAUNKIRCHEN"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "ÖWR EBENSEE",
+            "fwnr": "OWR41892006"
+          },
+          "1": {
             "fwname": "ÖWR GMUNDEN",
             "fwnr": "OWR41892007"
+          },
+          "2": {
+            "fwname": "ÖWR TRAUNKIRCHEN",
+            "fwnr": "OWR41892010"
           }
         },
         "inzeit": "",
@@ -64,7 +78,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "UU - VORDERWEIßENBACH",
         "einsatzsubtyp": {
@@ -76,6 +90,9 @@
           "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
+          "409315": {
+            "feuerwehr": "FF St. Peter am Wimberg"
+          },
           "412102": {
             "feuerwehr": "FF Amesschlag/L."
           },
@@ -94,22 +111,26 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF St. Peter am Wimberg",
+            "fwnr": "409315"
+          },
+          "1": {
             "fwname": "FF Amesschlag/L.",
             "fwnr": "412102"
           },
-          "1": {
+          "2": {
             "fwname": "FF Bernhardschlag",
             "fwnr": "412104"
           },
-          "2": {
+          "3": {
             "fwname": "FF Vorderweißenbach",
             "fwnr": "412122"
           },
-          "3": {
+          "4": {
             "fwname": "FF Piberschlag",
             "fwnr": "412128"
           },
-          "4": {
+          "5": {
             "fwname": "FF Schönegg",
             "fwnr": "412129"
           }
