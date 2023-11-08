@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 34,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 37,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MöRSCHWANG 60",
+          "earea": "MöRSCHWANG",
+          "ecompl": "",
+          "efeanme": "MöRSCHWANG",
+          "emun": "MöRSCHWANG",
+          "estnum": "60"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - MöRSCHWANG",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408309": {
+            "feuerwehr": "FF Mörschwang"
+          },
+          "408316": {
+            "feuerwehr": "FF St. Georgen bei Obernberg am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mörschwang",
+            "fwnr": "408309"
+          },
+          "1": {
+            "fwname": "FF St. Georgen bei Obernberg am Inn",
+            "fwnr": "408316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100625",
+        "startzeit": "Wed, 08 Nov 2023 19:01:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.302734,
+          "lng": 13.362854
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RIED IM INNKREIS",
+          "earea": "",
+          "ecompl": "JET TANKSTELLE RIED IM INNKREIS",
+          "efeanme": "",
+          "emun": "RIED IM INNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "OEL-DI",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100622",
+        "startzeit": "Wed, 08 Nov 2023 18:46:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.198979,
+          "lng": 13.473463
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SESAMSTRAßE 12",
+          "earea": "LANGSTRAß",
+          "ecompl": "",
+          "efeanme": "SESAMSTRAßE",
+          "emun": "NEUHOFEN IM INNKREIS",
+          "estnum": "12"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - NEUHOFEN IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408216": {
+            "feuerwehr": "FF Neuhofen im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Neuhofen im Innkreis",
+            "fwnr": "408216"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100620",
+        "startzeit": "Wed, 08 Nov 2023 18:44:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.197386,
+          "lng": 13.471199
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +194,10 @@
             "fwnr": "401119"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 Nov 2023 18:36:56 +0100",
         "num1": "E231100610",
         "startzeit": "Wed, 08 Nov 2023 17:29:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.278027,
           "lng": 14.020783
