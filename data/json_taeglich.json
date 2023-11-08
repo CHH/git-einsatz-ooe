@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KIRCHMAYRGUT STRAßE 19",
+          "earea": "HöRSCHING",
+          "ecompl": "",
+          "efeanme": "KIRCHMAYRGUT STRAßE",
+          "emun": "HöRSCHING",
+          "estnum": "19"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - HöRSCHING",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "406203": {
+            "feuerwehr": "FF Breitbrunn"
+          },
+          "406209": {
+            "feuerwehr": "FF Hörsching"
+          },
+          "406219": {
+            "feuerwehr": "FF Rutzing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Breitbrunn",
+            "fwnr": "406203"
+          },
+          "1": {
+            "fwname": "FF Hörsching",
+            "fwnr": "406209"
+          },
+          "2": {
+            "fwname": "FF Rutzing",
+            "fwnr": "406219"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100541",
+        "startzeit": "Wed, 08 Nov 2023 05:26:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.223729,
+          "lng": 14.174738
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
