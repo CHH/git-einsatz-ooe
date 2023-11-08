@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ANTON-LUMPI-STRAßE 6",
+          "earea": "VÖCKLABRUCK",
+          "ecompl": "5042900-4S",
+          "efeanme": "ANTON-LUMPI-STRAßE",
+          "emun": "VÖCKLABRUCK",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - VÖCKLABRUCK",
+        "einsatzsubtyp": {
+          "id": "ALFEUER-DI",
+          "text": "SIRENENPROGRAMM FEUER VON FW AUSGELÖST"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "FF Vöcklabruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Vöcklabruck",
+            "fwnr": "413429"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100548",
+        "startzeit": "Wed, 08 Nov 2023 08:11:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.006438,
+          "lng": 13.663519
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "413403"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 Nov 2023 07:56:19 +0100",
         "num1": "E231100543",
         "startzeit": "Wed, 08 Nov 2023 07:08:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.095392,
           "lng": 13.570508
