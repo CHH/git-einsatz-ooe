@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NETTINGSDORFER STRAßE 40",
+          "earea": "NETTINGSDORF",
+          "ecompl": "00000-63237-1",
+          "efeanme": "NETTINGSDORFER STRAßE",
+          "emun": "ANSFELDEN",
+          "estnum": "40"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ANSFELDEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406261": {
+            "feuerwehr": "BTF Nettingsdorfer Papierfabrik AG Co Kg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "BTF Nettingsdorfer Papierfabrik AG Co Kg",
+            "fwnr": "406261"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100655",
+        "startzeit": "Thu, 09 Nov 2023 04:02:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.184193,
+          "lng": 14.260022
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "403101"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 09 Nov 2023 03:48:07 +0100",
         "num1": "E231100653",
         "startzeit": "Thu, 09 Nov 2023 02:52:17 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.651092,
           "lng": 13.619377
@@ -93,67 +140,6 @@
         "wgs84": {
           "lat": 47.865301,
           "lng": 13.329456
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "TILLYSBURG 18",
-          "earea": "TILLYSBURG",
-          "ecompl": "",
-          "efeanme": "TILLYSBURG",
-          "emun": "ST. FLORIAN",
-          "estnum": "18"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - ST. FLORIAN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BG",
-          "text": "BRANDEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "406108": {
-            "feuerwehr": "FF Bruck-Hausleiten"
-          },
-          "406109": {
-            "feuerwehr": "FF Rohrbach"
-          },
-          "406110": {
-            "feuerwehr": "FF St. Florian-Markt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bruck-Hausleiten",
-            "fwnr": "406108"
-          },
-          "1": {
-            "fwname": "FF Rohrbach",
-            "fwnr": "406109"
-          },
-          "2": {
-            "fwname": "FF St. Florian-Markt",
-            "fwnr": "406110"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231100645",
-        "startzeit": "Wed, 08 Nov 2023 23:45:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.195458,
-          "lng": 14.423567
         }
       }
     }
