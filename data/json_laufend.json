@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALLERHEILIGEN IM MÜHLKREIS",
+          "earea": "",
+          "ecompl": "L572 NAARNTALSTRAßE KM 8.6 HÖHE ALLERHEILIGEN IM MÜHLKREIS",
+          "efeanme": "",
+          "emun": "ALLERHEILIGEN IM MÜHLKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - ALLERHEILIGEN IM MÜHLKREIS",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "FF Bad Zell"
+          },
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          },
+          "407301": {
+            "feuerwehr": "FF Allerheiligen-Lebing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Zell",
+            "fwnr": "402201"
+          },
+          "1": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          },
+          "2": {
+            "fwname": "FF Allerheiligen-Lebing",
+            "fwnr": "407301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100897",
+        "startzeit": "Sat, 11 Nov 2023 21:43:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.308152,
+          "lng": 14.673935
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
