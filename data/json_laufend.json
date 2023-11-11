@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,12 +64,12 @@
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "RO - ST. MARTIN IM MüHLKREIS",
         "einsatzsubtyp": {
-          "id": "HAUS-BG",
-          "text": "BRAND WOHNHAUS"
+          "id": "LANDWIRT-BG",
+          "text": "BRAND LANDWIRTSCHAFTLICHES OBJEKT"
         },
         "einsatztyp": {
           "id": "BRAND",
@@ -84,6 +84,12 @@
           },
           "409314": {
             "feuerwehr": "FF St. Martin im Mühlkreis"
+          },
+          "409315": {
+            "feuerwehr": "FF St. Peter am Wimberg"
+          },
+          "409419": {
+            "feuerwehr": "FF Rohrbach im Mühlkreis"
           }
         },
         "feuerwehrenarray": {
@@ -98,6 +104,14 @@
           "2": {
             "fwname": "FF St. Martin im Mühlkreis",
             "fwnr": "409314"
+          },
+          "3": {
+            "fwname": "FF St. Peter am Wimberg",
+            "fwnr": "409315"
+          },
+          "4": {
+            "fwname": "FF Rohrbach im Mühlkreis",
+            "fwnr": "409419"
           }
         },
         "inzeit": "",
@@ -107,53 +121,6 @@
         "wgs84": {
           "lat": 48.424862,
           "lng": 14.046737
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LUNGITZ ",
-          "earea": "LUNGITZ",
-          "ecompl": "BAHNHOF LUNGITZ",
-          "efeanme": "LUNGITZ",
-          "emun": "KATSDORF",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - KATSDORF",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BK",
-          "text": "BRANDEINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407209": {
-            "feuerwehr": "FF Lungitz"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Lungitz",
-            "fwnr": "407209"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231100871",
-        "startzeit": "Sat, 11 Nov 2023 16:16:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.288874,
-          "lng": 14.478314
         }
       }
     },
