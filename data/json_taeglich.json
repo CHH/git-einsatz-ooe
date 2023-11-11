@@ -1,7 +1,76 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RAMSAUER STRAßE 60",
+          "earea": "RAMSAU",
+          "ecompl": "",
+          "efeanme": "RAMSAUER STRAßE",
+          "emun": "MOLLN",
+          "estnum": "60"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - MOLLN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "405101": {
+            "feuerwehr": "FF Breitenau"
+          },
+          "405102": {
+            "feuerwehr": "FF Frauenstein"
+          },
+          "405105": {
+            "feuerwehr": "FF Molln"
+          },
+          "405108": {
+            "feuerwehr": "FF Ramsau / KI"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Breitenau",
+            "fwnr": "405101"
+          },
+          "1": {
+            "fwname": "FF Frauenstein",
+            "fwnr": "405102"
+          },
+          "2": {
+            "fwname": "FF Molln",
+            "fwnr": "405105"
+          },
+          "3": {
+            "fwname": "FF Ramsau / KI",
+            "fwnr": "405108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231100815",
+        "startzeit": "Sat, 11 Nov 2023 05:13:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.844132,
+          "lng": 14.19436
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
