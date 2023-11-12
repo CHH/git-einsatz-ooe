@@ -1,15 +1,15 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "ST.LORENZ",
+          "default": null,
           "earea": "",
-          "ecompl": "KINDERGARTEN ST. LORENZ",
+          "ecompl": "",
           "efeanme": "",
-          "emun": "ST.LORENZ",
+          "emun": "",
           "estnum": ""
         },
         "alarmstufe": 1,
@@ -17,35 +17,42 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - ST.LORENZ",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ",
         "einsatzsubtyp": {
-          "id": "LIFT-TK",
-          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+          "id": "TAUCH-TG",
+          "text": "TAUCHEINSATZ"
         },
         "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
         },
         "feuerwehren": {
-          "413212": {
-            "feuerwehr": "FF St. Lorenz"
+          "413513": {
+            "feuerwehr": "FF Nußdorf am Attersee"
+          },
+          "OWR41892012": {
+            "feuerwehr": "ÖWR NUßDORF"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF St. Lorenz",
-            "fwnr": "413212"
+            "fwname": "FF Nußdorf am Attersee",
+            "fwnr": "413513"
+          },
+          "1": {
+            "fwname": "ÖWR NUßDORF",
+            "fwnr": "OWR41892012"
           }
         },
         "inzeit": "",
-        "num1": "E231100933",
-        "startzeit": "Sun, 12 Nov 2023 13:22:46 +0100",
+        "num1": "E231100936",
+        "startzeit": "Sun, 12 Nov 2023 13:57:49 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.845536,
-          "lng": 13.336775
+          "lat": 47.880068,
+          "lng": 13.532104
         }
       }
     }
