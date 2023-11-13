@@ -1,7 +1,89 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PRATSDORFSTRAßE 2",
+          "earea": "PETTENBACH",
+          "ecompl": "",
+          "efeanme": "PRATSDORFSTRAßE",
+          "emun": "PETTENBACH",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 6,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - PETTENBACH",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "405202": {
+            "feuerwehr": "FF Eggenstein"
+          },
+          "405203": {
+            "feuerwehr": "FF Gundendorf"
+          },
+          "405207": {
+            "feuerwehr": "FF Magdalenaberg"
+          },
+          "405211": {
+            "feuerwehr": "FF Pettenbach"
+          },
+          "405212": {
+            "feuerwehr": "FF Pratsdorf-Hammersdorf"
+          },
+          "405215": {
+            "feuerwehr": "FF Steinfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Eggenstein",
+            "fwnr": "405202"
+          },
+          "1": {
+            "fwname": "FF Gundendorf",
+            "fwnr": "405203"
+          },
+          "2": {
+            "fwname": "FF Magdalenaberg",
+            "fwnr": "405207"
+          },
+          "3": {
+            "fwname": "FF Pettenbach",
+            "fwnr": "405211"
+          },
+          "4": {
+            "fwname": "FF Pratsdorf-Hammersdorf",
+            "fwnr": "405212"
+          },
+          "5": {
+            "fwname": "FF Steinfelden",
+            "fwnr": "405215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101092",
+        "startzeit": "Mon, 13 Nov 2023 20:47:07 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.959253,
+          "lng": 14.017038
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -107,53 +189,6 @@
         "wgs84": {
           "lat": 48.105807,
           "lng": 13.825249
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GRÜNBACH",
-          "earea": "GRÜNBACH",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "GRÜNBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - GRÜNBACH",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402402": {
-            "feuerwehr": "FF Grünbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Grünbach",
-            "fwnr": "402402"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101086",
-        "startzeit": "Mon, 13 Nov 2023 19:59:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.522664,
-          "lng": 14.535166
         }
       }
     },
