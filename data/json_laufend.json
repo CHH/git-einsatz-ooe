@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NEUKIRCHEN AN DER VÖCKLA",
+          "earea": "",
+          "ecompl": "L1271 JOCHLINGER STRAßE KM 3.6 HÖHE JOCHLING",
+          "efeanme": "",
+          "emun": "NEUKIRCHEN AN DER VÖCKLA",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - NEUKIRCHEN AN DER VÖCKLA",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413430": {
+            "feuerwehr": "FF Wegleiten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Wegleiten",
+            "fwnr": "413430"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101095",
+        "startzeit": "Mon, 13 Nov 2023 21:10:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.021974,
+          "lng": 13.575329
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -81,114 +128,6 @@
         "wgs84": {
           "lat": 47.959253,
           "lng": 14.017038
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "PRIMITSTRAßE 4",
-          "earea": "NEUZEUG",
-          "ecompl": "00000-111042-1",
-          "efeanme": "PRIMITSTRAßE",
-          "emun": "SIERNING",
-          "estnum": "4"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - SIERNING",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "411211": {
-            "feuerwehr": "FF Pichlern"
-          },
-          "411217": {
-            "feuerwehr": "FF Sierning"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Pichlern",
-            "fwnr": "411211"
-          },
-          "1": {
-            "fwname": "FF Sierning",
-            "fwnr": "411217"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101090",
-        "startzeit": "Mon, 13 Nov 2023 20:35:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.008586,
-          "lng": 14.302551
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NEUKIRCHEN BEI LAMBACH",
-          "earea": "",
-          "ecompl": "L520 GASPOLTSHOFENER STRAßE KM 2.4 HÖHE STROHAM",
-          "efeanme": "",
-          "emun": "NEUKIRCHEN BEI LAMBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "WL - NEUKIRCHEN BEI LAMBACH",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414111": {
-            "feuerwehr": "FF Lambach"
-          },
-          "414112": {
-            "feuerwehr": "FF Neukirchen bei Lambach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Lambach",
-            "fwnr": "414111"
-          },
-          "1": {
-            "fwname": "FF Neukirchen bei Lambach",
-            "fwnr": "414112"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101088",
-        "startzeit": "Mon, 13 Nov 2023 20:00:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.105807,
-          "lng": 13.825249
         }
       }
     },
@@ -290,67 +229,6 @@
         "wgs84": {
           "lat": 48.251286,
           "lng": 14.244732
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "RAINBACH IM MÜHLKREIS",
-          "earea": "",
-          "ecompl": "B310 MÜHLVIERTLER STRAßE KM 43.2 HÖHE APFOLTERN",
-          "efeanme": "",
-          "emun": "RAINBACH IM MÜHLKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - RAINBACH IM MÜHLKREIS",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "": {
-            "feuerwehr": ""
-          },
-          "402103": {
-            "feuerwehr": "FF Freistadt"
-          },
-          "402415": {
-            "feuerwehr": "FF Rainbach im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Freistadt",
-            "fwnr": "402103"
-          },
-          "1": {
-            "fwname": "FF Rainbach im Mühlkreis",
-            "fwnr": "402415"
-          },
-          "2": {
-            "fwname": "",
-            "fwnr": ""
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101046",
-        "startzeit": "Mon, 13 Nov 2023 15:18:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.545458,
-          "lng": 14.486437
         }
       }
     }
