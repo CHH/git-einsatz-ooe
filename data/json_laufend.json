@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DESSELBRUNN",
+          "earea": "",
+          "ecompl": "FW WINDERN",
+          "efeanme": "",
+          "emun": "DESSELBRUNN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - DESSELBRUNN",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413317": {
+            "feuerwehr": "FF Windern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Windern",
+            "fwnr": "413317"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101160",
+        "startzeit": "Tue, 14 Nov 2023 11:00:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.02553,
+          "lng": 13.79078
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "MATTIGHOFEN",
-          "earea": "",
-          "ecompl": "L503 OBERINNVIERTLER STRAßE KM 36.4 HÖHE MOOSSTRAßE",
-          "efeanme": "",
-          "emun": "MATTIGHOFEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - MATTIGHOFEN",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400212": {
-            "feuerwehr": "FF Mattighofen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Mattighofen",
-            "fwnr": "400212"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101136",
-        "startzeit": "Tue, 14 Nov 2023 10:19:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.099078,
-          "lng": 13.129479
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "MAUTHAUSEN",
           "earea": "",
           "ecompl": "FW MAUTHAUSEN",
@@ -140,67 +140,6 @@
         "wgs84": {
           "lat": 48.24563,
           "lng": 14.50292
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KREUTERER STRAßE 9",
-          "earea": "JAINZEN",
-          "ecompl": "",
-          "efeanme": "KREUTERER STRAßE",
-          "emun": "BAD ISCHL",
-          "estnum": "9"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - BAD ISCHL",
-        "einsatzsubtyp": {
-          "id": "HAUS-BG",
-          "text": "BRAND WOHNHAUS"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "FF Bad Ischl"
-          },
-          "403106": {
-            "feuerwehr": "FF Jainzen"
-          },
-          "403112": {
-            "feuerwehr": "FF Pfandl"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bad Ischl",
-            "fwnr": "403102"
-          },
-          "1": {
-            "fwname": "FF Jainzen",
-            "fwnr": "403106"
-          },
-          "2": {
-            "fwname": "FF Pfandl",
-            "fwnr": "403112"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101125",
-        "startzeit": "Tue, 14 Nov 2023 09:24:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.720739,
-          "lng": 13.607682
         }
       }
     }
