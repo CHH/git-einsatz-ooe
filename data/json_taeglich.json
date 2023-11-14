@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERDORF 27",
+          "earea": "OBERDORF",
+          "ecompl": "",
+          "efeanme": "OBERDORF",
+          "emun": "METTMACH",
+          "estnum": "27"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - METTMACH",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408112": {
+            "feuerwehr": "FF Großweiffendorf"
+          },
+          "408116": {
+            "feuerwehr": "FF Mettmach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Großweiffendorf",
+            "fwnr": "408112"
+          },
+          "1": {
+            "fwname": "FF Mettmach",
+            "fwnr": "408116"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101173",
+        "startzeit": "Tue, 14 Nov 2023 13:38:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.155845,
+          "lng": 13.344222
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,10 +107,10 @@
             "fwnr": "402211"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 14 Nov 2023 13:27:36 +0100",
         "num1": "E231101167",
         "startzeit": "Tue, 14 Nov 2023 12:41:28 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.327105,
           "lng": 14.622855
