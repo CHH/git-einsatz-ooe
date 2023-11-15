@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 29,
+  "cnt_einsaetze": 28,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAUPTSTRAßE 12",
+          "earea": "ANDORF",
+          "ecompl": "",
+          "efeanme": "HAUPTSTRAßE",
+          "emun": "ANDORF",
+          "estnum": "12"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - ANDORF",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410202": {
+            "feuerwehr": "FF Andorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Andorf",
+            "fwnr": "410202"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101311",
+        "startzeit": "Wed, 15 Nov 2023 19:23:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.371841,
+          "lng": 13.578701
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": "414215"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 15 Nov 2023 19:58:06 +0100",
         "num1": "E231101306",
         "startzeit": "Wed, 15 Nov 2023 19:05:44 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.190051,
           "lng": 14.091387
