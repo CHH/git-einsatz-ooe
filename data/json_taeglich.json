@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "CUMBERLANDPARK 6",
+          "earea": "GMUNDEN",
+          "ecompl": "",
+          "efeanme": "CUMBERLANDPARK",
+          "emun": "GMUNDEN",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - GMUNDEN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "FF Gmunden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gmunden",
+            "fwnr": "403207"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101294",
+        "startzeit": "Wed, 15 Nov 2023 16:43:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.928974,
+          "lng": 13.805435
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "400102"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 15 Nov 2023 16:40:14 +0100",
         "num1": "E231101292",
         "startzeit": "Wed, 15 Nov 2023 15:58:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.25022,
           "lng": 13.044511
