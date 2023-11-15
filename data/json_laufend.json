@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BERGSTRAßE 53",
+          "earea": "GRüNBACH",
+          "ecompl": "",
+          "efeanme": "BERGSTRAßE",
+          "emun": "GRüNBACH",
+          "estnum": "53"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "FR - GRüNBACH",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402402": {
+            "feuerwehr": "FF Grünbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Grünbach",
+            "fwnr": "402402"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101213",
+        "startzeit": "Wed, 15 Nov 2023 04:43:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.542975,
+          "lng": 14.546097
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
