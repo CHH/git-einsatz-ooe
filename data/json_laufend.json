@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OTTNANG AM HAUSRUCK",
+          "earea": "",
+          "ecompl": "L1262 PETTENFIRSTER STRAßE KM 2.4 HÖHE STOCKEDT",
+          "efeanme": "",
+          "emun": "OTTNANG AM HAUSRUCK",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - OTTNANG AM HAUSRUCK",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413309": {
+            "feuerwehr": "FF Plötzenedt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Plötzenedt",
+            "fwnr": "413309"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101391",
+        "startzeit": "Fri, 17 Nov 2023 00:32:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.086363,
+          "lng": 13.615905
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": 48.401774,
           "lng": 13.425534
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WALDING",
-          "earea": "",
-          "ecompl": "B131 ASCHACHER STRAßE KM 3.6 HÖHE PÖSTING",
-          "efeanme": "",
-          "emun": "WALDING",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "UU - WALDING",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412209": {
-            "feuerwehr": "FF Höflein"
-          },
-          "412221": {
-            "feuerwehr": "FF Walding"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Höflein",
-            "fwnr": "412209"
-          },
-          "1": {
-            "fwname": "FF Walding",
-            "fwnr": "412221"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101385",
-        "startzeit": "Thu, 16 Nov 2023 23:17:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.336511,
-          "lng": 14.124857
         }
       }
     }
