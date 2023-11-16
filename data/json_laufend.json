@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KREMSMÜNSTER",
+          "earea": "",
+          "ecompl": "FW KREMSMÜNSTER",
+          "efeanme": "",
+          "emun": "KREMSMÜNSTER",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - KREMSMÜNSTER",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405304": {
+            "feuerwehr": "FF Kremsmünster"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kremsmünster",
+            "fwnr": "405304"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101339",
+        "startzeit": "Thu, 16 Nov 2023 09:47:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.05457,
+          "lng": 14.13249
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
