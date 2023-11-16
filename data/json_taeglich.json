@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LINDACH 30",
+          "earea": "LINDACH",
+          "ecompl": "",
+          "efeanme": "LINDACH",
+          "emun": "HOCHBURG-ACH",
+          "estnum": "30"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - HOCHBURG-ACH",
+        "einsatzsubtyp": {
+          "id": "PKW-BK",
+          "text": "BRAND KFZ"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400401": {
+            "feuerwehr": "FF Ach an der Salzach"
+          },
+          "400408": {
+            "feuerwehr": "FF Hochburg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ach an der Salzach",
+            "fwnr": "400401"
+          },
+          "1": {
+            "fwname": "FF Hochburg",
+            "fwnr": "400408"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101334",
+        "startzeit": "Thu, 16 Nov 2023 08:02:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.141853,
+          "lng": 12.859239
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "411102"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 16 Nov 2023 07:40:20 +0100",
         "num1": "E231101323",
         "startzeit": "Thu, 16 Nov 2023 07:08:44 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.031368,
           "lng": 14.225417
