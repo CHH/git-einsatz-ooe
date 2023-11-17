@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
@@ -160,12 +160,12 @@
           "emun": "ALTMüNSTER",
           "estnum": "3"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - ALTMüNSTER",
         "einsatzsubtyp": {
@@ -179,12 +179,26 @@
         "feuerwehren": {
           "403201": {
             "feuerwehr": "FF Altmünster"
+          },
+          "403205": {
+            "feuerwehr": "FF Eben- und Nachdemsee"
+          },
+          "403207": {
+            "feuerwehr": "FF Gmunden"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Altmünster",
             "fwnr": "403201"
+          },
+          "1": {
+            "fwname": "FF Eben- und Nachdemsee",
+            "fwnr": "403205"
+          },
+          "2": {
+            "fwname": "FF Gmunden",
+            "fwnr": "403207"
           }
         },
         "inzeit": "",
