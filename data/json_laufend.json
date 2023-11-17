@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GEWERBEPARK 3",
+          "earea": "KOTH",
+          "ecompl": "",
+          "efeanme": "GEWERBEPARK",
+          "emun": "HERZOGSDORF",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - HERZOGSDORF",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412208": {
+            "feuerwehr": "FF Herzogsdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Herzogsdorf",
+            "fwnr": "412208"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101428",
+        "startzeit": "Fri, 17 Nov 2023 09:21:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.440734,
+          "lng": 14.118372
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -302,67 +349,6 @@
         "wgs84": {
           "lat": 47.90072,
           "lng": 13.76805
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STEEGEN 49",
-          "earea": "STEEGEN",
-          "ecompl": "",
-          "efeanme": "STEEGEN",
-          "emun": "STEEGEN",
-          "estnum": "49"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - STEEGEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404310": {
-            "feuerwehr": "FF Langenpeuerbach"
-          },
-          "404313": {
-            "feuerwehr": "FF Obererleinsbach"
-          },
-          "404319": {
-            "feuerwehr": "FF Steegen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Langenpeuerbach",
-            "fwnr": "404310"
-          },
-          "1": {
-            "fwname": "FF Obererleinsbach",
-            "fwnr": "404313"
-          },
-          "2": {
-            "fwname": "FF Steegen",
-            "fwnr": "404319"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231101403",
-        "startzeit": "Fri, 17 Nov 2023 06:23:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.337296,
-          "lng": 13.765224
         }
       }
     }
