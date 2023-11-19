@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. LEONHARD BEI FREISTADT",
+          "earea": "",
+          "ecompl": "L1472 GUTAUER STRAßE KM 17.8 HÖHE HERZOGREITH",
+          "efeanme": "",
+          "emun": "ST. LEONHARD BEI FREISTADT",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - ST. LEONHARD BEI FREISTADT",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402315": {
+            "feuerwehr": "FF St. Leonhard bei Freistadt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Leonhard bei Freistadt",
+            "fwnr": "402315"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101583",
+        "startzeit": "Sun, 19 Nov 2023 01:11:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.44553,
+          "lng": 14.653367
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "JOSEF-GARTNER-STRAßE 6",
+          "earea": "KROPFING",
+          "ecompl": "",
+          "efeanme": "JOSEF-GARTNER-STRAßE",
+          "emun": "EDT BEI LAMBACH",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - EDT BEI LAMBACH",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414107": {
+            "feuerwehr": "FF Edt-Winkling"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Edt-Winkling",
+            "fwnr": "414107"
+          }
+        },
+        "inzeit": "Sun, 19 Nov 2023 01:01:42 +0100",
+        "num1": "E231101581",
+        "startzeit": "Sun, 19 Nov 2023 00:24:39 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.095053,
+          "lng": 13.896593
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
