@@ -1,7 +1,233 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 15,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ZELLER STRAßE 44",
+          "earea": "TRAGWEIN",
+          "ecompl": "",
+          "efeanme": "ZELLER STRAßE",
+          "emun": "TRAGWEIN",
+          "estnum": "44"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - TRAGWEIN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "402206": {
+            "feuerwehr": "FF Hinterberg"
+          },
+          "402207": {
+            "feuerwehr": "FF Mistlberg / FR"
+          },
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hinterberg",
+            "fwnr": "402206"
+          },
+          "1": {
+            "fwname": "FF Mistlberg / FR",
+            "fwnr": "402207"
+          },
+          "2": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101779",
+        "startzeit": "Tue, 21 Nov 2023 08:39:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.334765,
+          "lng": 14.63267
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STELZEN ",
+          "earea": "",
+          "ecompl": "STELZEN",
+          "efeanme": "STELZEN",
+          "emun": "LOHNSBURG-AM-KOBERNAUßERWALD",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - LOHNSBURG-AM-KOBERNAUßERWALD",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408212": {
+            "feuerwehr": "FF Kobernaußen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kobernaußen",
+            "fwnr": "408212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101777",
+        "startzeit": "Tue, 21 Nov 2023 08:37:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.112043,
+          "lng": 13.364809
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "INNERNSCHLAG 32",
+          "earea": "INNERNSCHLAG",
+          "ecompl": "",
+          "efeanme": "INNERNSCHLAG",
+          "emun": "ZWETTL AN DER RODL",
+          "estnum": "32"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 11,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - ZWETTL AN DER RODL",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "402103": {
+            "feuerwehr": "FF Freistadt"
+          },
+          "412101": {
+            "feuerwehr": "FF Amesschlag/O."
+          },
+          "412103": {
+            "feuerwehr": "FF Bad Leonfelden"
+          },
+          "412105": {
+            "feuerwehr": "FF Dietrichschlag"
+          },
+          "412106": {
+            "feuerwehr": "FF Dreiegg-Glashütten"
+          },
+          "412111": {
+            "feuerwehr": "FF Langzwettl"
+          },
+          "412113": {
+            "feuerwehr": "FF Oberneukirchen"
+          },
+          "412118": {
+            "feuerwehr": "FF Sonnberg im Mühlkreis"
+          },
+          "412127": {
+            "feuerwehr": "FF Zwettl an der Rodl"
+          },
+          "412303": {
+            "feuerwehr": "FF Gallneukirchen"
+          },
+          "412304": {
+            "feuerwehr": "FF Hellmonsödt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Freistadt",
+            "fwnr": "402103"
+          },
+          "1": {
+            "fwname": "FF Amesschlag/O.",
+            "fwnr": "412101"
+          },
+          "10": {
+            "fwname": "FF Hellmonsödt",
+            "fwnr": "412304"
+          },
+          "2": {
+            "fwname": "FF Bad Leonfelden",
+            "fwnr": "412103"
+          },
+          "3": {
+            "fwname": "FF Dietrichschlag",
+            "fwnr": "412105"
+          },
+          "4": {
+            "fwname": "FF Dreiegg-Glashütten",
+            "fwnr": "412106"
+          },
+          "5": {
+            "fwname": "FF Langzwettl",
+            "fwnr": "412111"
+          },
+          "6": {
+            "fwname": "FF Oberneukirchen",
+            "fwnr": "412113"
+          },
+          "7": {
+            "fwname": "FF Sonnberg im Mühlkreis",
+            "fwnr": "412118"
+          },
+          "8": {
+            "fwname": "FF Zwettl an der Rodl",
+            "fwnr": "412127"
+          },
+          "9": {
+            "fwname": "FF Gallneukirchen",
+            "fwnr": "412303"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101773",
+        "startzeit": "Tue, 21 Nov 2023 08:35:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.449231,
+          "lng": 14.248548
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
