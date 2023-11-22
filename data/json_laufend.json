@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHöFERHOF 7",
+          "earea": "SCHöFERHOF",
+          "ecompl": "",
+          "efeanme": "SCHöFERHOF",
+          "emun": "GUTAU",
+          "estnum": "7"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - GUTAU",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402204": {
+            "feuerwehr": "FF Gutau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gutau",
+            "fwnr": "402204"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231101946",
+        "startzeit": "Wed, 22 Nov 2023 15:53:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.427378,
+          "lng": 14.573719
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
