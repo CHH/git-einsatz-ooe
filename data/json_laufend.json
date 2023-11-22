@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "ALTENBERG BEI LINZ",
           "estnum": "101"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - ALTENBERG BEI LINZ",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "412302": {
+            "feuerwehr": "FF Altenberg bei Linz"
+          },
           "412310": {
             "feuerwehr": "FF Oberbairing"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Altenberg bei Linz",
+            "fwnr": "412302"
+          },
+          "1": {
             "fwname": "FF Oberbairing",
             "fwnr": "412310"
           }
