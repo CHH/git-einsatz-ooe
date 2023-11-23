@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ANDREAS-HOFER-STRAßE 16",
+          "earea": "SCHäRDING VORSTADT",
+          "ecompl": "",
+          "efeanme": "ANDREAS-HOFER-STRAßE",
+          "emun": "SCHäRDING",
+          "estnum": "16"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - SCHäRDING",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "FF Schärding"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schärding",
+            "fwnr": "410321"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102033",
+        "startzeit": "Thu, 23 Nov 2023 11:50:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.447775,
+          "lng": 13.445469
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,114 +93,6 @@
         "wgs84": {
           "lat": 48.051247,
           "lng": 14.131768
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STEYRSTRAßE 31",
-          "earea": "WALDNEUKIRCHEN",
-          "ecompl": "00000-111022-1",
-          "efeanme": "STEYRSTRAßE",
-          "emun": "WALDNEUKIRCHEN",
-          "estnum": "31"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - WALDNEUKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "411105": {
-            "feuerwehr": "FF St. Nikola"
-          },
-          "411106": {
-            "feuerwehr": "FF Steinersdorf"
-          },
-          "411107": {
-            "feuerwehr": "FF Waldneukirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Nikola",
-            "fwnr": "411105"
-          },
-          "1": {
-            "fwname": "FF Steinersdorf",
-            "fwnr": "411106"
-          },
-          "2": {
-            "fwname": "FF Waldneukirchen",
-            "fwnr": "411107"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102025",
-        "startzeit": "Thu, 23 Nov 2023 11:08:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.983602,
-          "lng": 14.272733
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "IM GSPERR 12",
-          "earea": "GMUNDEN",
-          "ecompl": "",
-          "efeanme": "IM GSPERR",
-          "emun": "GMUNDEN",
-          "estnum": "12"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - GMUNDEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BG",
-          "text": "BRANDEINSATZ"
-        },
-        "einsatztyp": {
-          "id": "BRAND",
-          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102023",
-        "startzeit": "Thu, 23 Nov 2023 11:02:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.913129,
-          "lng": 13.809769
         }
       }
     }
