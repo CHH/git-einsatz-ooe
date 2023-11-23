@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KORNSPITZSTRAßE 1",
+          "earea": "ASTEN",
+          "ecompl": "00000-61119-1",
+          "efeanme": "KORNSPITZSTRAßE",
+          "emun": "ASTEN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ASTEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406101": {
+            "feuerwehr": "FF Asten"
+          },
+          "406105": {
+            "feuerwehr": "FF Raffelstetten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Asten",
+            "fwnr": "406101"
+          },
+          "1": {
+            "fwname": "FF Raffelstetten",
+            "fwnr": "406105"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102044",
+        "startzeit": "Thu, 23 Nov 2023 14:15:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.216534,
+          "lng": 14.409988
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "407107"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 23 Nov 2023 13:33:59 +0100",
         "num1": "E231102039",
         "startzeit": "Thu, 23 Nov 2023 13:03:44 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.32413,
           "lng": 14.81844
