@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 3,
+  "cnt_einsaetze": 2,
   "cnt_feuerwehren": 6,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "SD - RIEDAU",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          },
           "410215": {
             "feuerwehr": "FF Riedau"
           },
@@ -41,14 +44,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          },
+          "1": {
             "fwname": "FF Riedau",
             "fwnr": "410215"
           },
-          "1": {
+          "2": {
             "fwname": "FF Zell an der Pram",
             "fwnr": "410220"
           },
-          "2": {
+          "3": {
             "fwname": "BTF Leitz GmbH & Co KG Riedau",
             "fwnr": "410261"
           }
@@ -60,53 +67,6 @@
         "wgs84": {
           "lat": 48.307405,
           "lng": 13.636048
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ALTENRIED 2",
-          "earea": "ALTENRIED",
-          "ecompl": "",
-          "efeanme": "ALTENRIED",
-          "emun": "AUROLZMüNSTER",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - AUROLZMüNSTER",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408123": {
-            "feuerwehr": "FF Weierfing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Weierfing",
-            "fwnr": "408123"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102060",
-        "startzeit": "Thu, 23 Nov 2023 17:19:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.223235,
-          "lng": 13.472859
         }
       }
     },
