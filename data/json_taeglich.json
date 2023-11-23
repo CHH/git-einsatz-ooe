@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 27,
+  "cnt_feuerwehren": 36,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WILHELM ANGER-STRAßE 21",
+          "earea": "ST. DIONYSEN",
+          "ecompl": "",
+          "efeanme": "WILHELM ANGER-STRAßE",
+          "emun": "TRAUN",
+          "estnum": "21"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - TRAUN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406202": {
+            "feuerwehr": "FF Axberg"
+          },
+          "406222": {
+            "feuerwehr": "FF Traun"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Axberg",
+            "fwnr": "406202"
+          },
+          "1": {
+            "fwname": "FF Traun",
+            "fwnr": "406222"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102083",
+        "startzeit": "Thu, 23 Nov 2023 20:46:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.231683,
+          "lng": 14.252886
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PASCHINGER STRAßE 48",
+          "earea": "LEONDING",
+          "ecompl": "",
+          "efeanme": "PASCHINGER STRAßE",
+          "emun": "LEONDING",
+          "estnum": "48"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "FF Hart / LL"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hart / LL",
+            "fwnr": "406208"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102081",
+        "startzeit": "Thu, 23 Nov 2023 20:34:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.27384,
+          "lng": 14.254308
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +118,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "SD - RIEDAU",
         "einsatzsubtyp": {
@@ -29,6 +130,9 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          },
           "410215": {
             "feuerwehr": "FF Riedau"
           },
@@ -41,14 +145,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          },
+          "1": {
             "fwname": "FF Riedau",
             "fwnr": "410215"
           },
-          "1": {
+          "2": {
             "fwname": "FF Zell an der Pram",
             "fwnr": "410220"
           },
-          "2": {
+          "3": {
             "fwname": "BTF Leitz GmbH & Co KG Riedau",
             "fwnr": "410261"
           }
@@ -100,10 +208,10 @@
             "fwnr": "400212"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 23 Nov 2023 20:15:55 +0100",
         "num1": "E231102075",
         "startzeit": "Thu, 23 Nov 2023 19:45:32 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.103878,
           "lng": 13.148941
@@ -349,10 +457,10 @@
             "fwnr": "408123"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 23 Nov 2023 20:23:53 +0100",
         "num1": "E231102060",
         "startzeit": "Thu, 23 Nov 2023 17:19:04 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.223235,
           "lng": 13.472859
