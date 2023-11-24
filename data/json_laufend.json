@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
     {
       "einsatz": {
@@ -228,12 +228,12 @@
           "emun": "MICHELDORF IN OBERöSTERREICH",
           "estnum": "3"
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "KI - MICHELDORF IN OBERöSTERREICH",
         "einsatzsubtyp": {
@@ -245,12 +245,19 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
+          },
           "405208": {
             "feuerwehr": "FF Micheldorf in Oberösterreich"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
+          },
+          "1": {
             "fwname": "FF Micheldorf in Oberösterreich",
             "fwnr": "405208"
           }
@@ -262,60 +269,6 @@
         "wgs84": {
           "lat": 47.868509,
           "lng": 14.137027
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GEWERBESTRAßE 11",
-          "earea": "SIERNING",
-          "ecompl": "",
-          "efeanme": "GEWERBESTRAßE",
-          "emun": "SIERNING",
-          "estnum": "11"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - SIERNING",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "411209": {
-            "feuerwehr": "FF Neuzeug-Sierninghofen"
-          },
-          "411217": {
-            "feuerwehr": "FF Sierning"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Neuzeug-Sierninghofen",
-            "fwnr": "411209"
-          },
-          "1": {
-            "fwname": "FF Sierning",
-            "fwnr": "411217"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102152",
-        "startzeit": "Fri, 24 Nov 2023 11:20:52 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.036178,
-          "lng": 14.314305
         }
       }
     },
