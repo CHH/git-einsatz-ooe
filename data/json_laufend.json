@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "REDTENBACHERGASSE 3",
+          "earea": "STEYR",
+          "ecompl": "(EINSATZZENTRALE/RETTUNGSDIENST)",
+          "efeanme": "REDTENBACHERGASSE",
+          "emun": "STEYR",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "OELSPUR-TK",
+          "text": "ÖLSPUR, ÖLAUSTRITT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102179",
+        "startzeit": "Fri, 24 Nov 2023 13:29:07 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.038024,
+          "lng": 14.413159
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,67 +113,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "HAMMERSCHMIEDBERG 12",
-          "earea": "STEYR",
-          "ecompl": "",
-          "efeanme": "HAMMERSCHMIEDBERG",
-          "emun": "STEYR",
-          "estnum": "12"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - STEYR",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "41510102": {
-            "feuerwehr": "FW Löschzug 2 Steyrdorf"
-          },
-          "41510104": {
-            "feuerwehr": "FW Löschzug 4 Christkindl"
-          },
-          "41510108": {
-            "feuerwehr": "FW Kommando Steyr"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FW Löschzug 2 Steyrdorf",
-            "fwnr": "41510102"
-          },
-          "1": {
-            "fwname": "FW Löschzug 4 Christkindl",
-            "fwnr": "41510104"
-          },
-          "2": {
-            "fwname": "FW Kommando Steyr",
-            "fwnr": "41510108"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102168",
-        "startzeit": "Fri, 24 Nov 2023 12:12:32 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.043782,
-          "lng": 14.403541
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "EISBACH 3",
           "earea": "EISBACH",
           "ecompl": "",
@@ -168,53 +161,6 @@
         "wgs84": {
           "lat": 47.868509,
           "lng": 14.137027
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AM SCHLOßWALD 2",
-          "earea": "ALTMüNSTER",
-          "ecompl": "",
-          "efeanme": "AM SCHLOßWALD",
-          "emun": "ALTMüNSTER",
-          "estnum": "2"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - ALTMüNSTER",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "FF Altmünster"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altmünster",
-            "fwnr": "403201"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102148",
-        "startzeit": "Fri, 24 Nov 2023 10:33:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.892516,
-          "lng": 13.76572
         }
       }
     }
