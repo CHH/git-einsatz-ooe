@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 30,
-  "cnt_feuerwehren": 35,
+  "cnt_einsaetze": 31,
+  "cnt_feuerwehren": 37,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NUßDORF AM ATTERSEE",
+          "earea": "",
+          "ecompl": "FW NUßDORF AM ATTERSEE",
+          "efeanme": "",
+          "emun": "NUßDORF AM ATTERSEE",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - NUßDORF AM ATTERSEE",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413513": {
+            "feuerwehr": "FF Nußdorf am Attersee"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Nußdorf am Attersee",
+            "fwnr": "413513"
+          }
+        },
+        "inzeit": "Sat, 25 Nov 2023 13:16:07 +0100",
+        "num1": "E231102326",
+        "startzeit": "Sat, 25 Nov 2023 13:06:59 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 47.88403,
+          "lng": 13.52252
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +140,10 @@
             "fwnr": "413316"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 25 Nov 2023 12:52:49 +0100",
         "num1": "E231102320",
         "startzeit": "Sat, 25 Nov 2023 12:02:39 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.987976,
           "lng": 13.745315
@@ -106,11 +153,11 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "GRÜNAU IM ALMTAL",
+          "default": null,
           "earea": "",
-          "ecompl": "SONNWÄRTSKOGEL",
+          "ecompl": "",
           "efeanme": "",
-          "emun": "GRÜNAU IM ALMTAL",
+          "emun": "",
           "estnum": ""
         },
         "alarmstufe": 1,
@@ -118,9 +165,9 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "GM - GRÜNAU IM ALMTAL",
+        "einsatzort": "GM - ",
         "einsatzsubtyp": {
           "id": "SONSTIGE-TG",
           "text": "TECHNISCHER EINSATZ"
@@ -132,12 +179,19 @@
         "feuerwehren": {
           "403208": {
             "feuerwehr": "FF Grünau im Almtal"
+          },
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Grünau im Almtal",
             "fwnr": "403208"
+          },
+          "1": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
           }
         },
         "inzeit": "",
@@ -145,8 +199,8 @@
         "startzeit": "Sat, 25 Nov 2023 12:00:12 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.825614,
-          "lng": 13.968194
+          "lat": 47.818354,
+          "lng": 13.980817
         }
       }
     },
