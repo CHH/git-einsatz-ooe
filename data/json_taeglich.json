@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 25,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRANZ-SEBEK-STRAßE 4",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "FRANZ-SEBEK-STRAßE",
+          "emun": "STEYR",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102306",
+        "startzeit": "Sat, 25 Nov 2023 09:58:07 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.05248,
+          "lng": 14.439937
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -208,10 +262,10 @@
             "fwnr": "405405"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 25 Nov 2023 10:13:26 +0100",
         "num1": "E231102290",
         "startzeit": "Sat, 25 Nov 2023 08:10:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.715642,
           "lng": 14.295966
