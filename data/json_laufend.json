@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MUNDERFINGERSTRAßE 1",
+          "earea": "PFAFFSTäTT",
+          "ecompl": "",
+          "efeanme": "MUNDERFINGERSTRAßE",
+          "emun": "PFAFFSTäTT",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - PFAFFSTäTT",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400216": {
+            "feuerwehr": "FF Pfaffstätt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pfaffstätt",
+            "fwnr": "400216"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102470",
+        "startzeit": "Sun, 26 Nov 2023 13:13:35 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.077501,
+          "lng": 13.145845
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,107 +147,6 @@
         "wgs84": {
           "lat": 48.446258,
           "lng": 13.660417
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KIRCHENPLATZ ",
-          "earea": "GMUNDEN",
-          "ecompl": "STADTPFARRKIRCHE GMUNDEN",
-          "efeanme": "KIRCHENPLATZ",
-          "emun": "GMUNDEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - GMUNDEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-BK",
-          "text": "BRANDEINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102460",
-        "startzeit": "Sun, 26 Nov 2023 11:52:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.919629,
-          "lng": 13.799421
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "A25 RICHTUNG LINZ BE",
-          "earea": "",
-          "ecompl": "A25 RICHTUNG LINZ BEREICH 11.7-08.3 NACH AUFFAHRT WELS-OST",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - ",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "FF Kappern"
-          },
-          "414215": {
-            "feuerwehr": "FF Marchtrenk"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kappern",
-            "fwnr": "414212"
-          },
-          "1": {
-            "fwname": "FF Marchtrenk",
-            "fwnr": "414215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102455",
-        "startzeit": "Sun, 26 Nov 2023 10:57:17 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.187754,
-          "lng": 14.085832
         }
       }
     }
