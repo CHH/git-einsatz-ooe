@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LEITENBERGERSTRAßE 18",
+          "earea": "STEINBRUCH",
+          "ecompl": "",
+          "efeanme": "LEITENBERGERSTRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "18"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          },
+          "403112": {
+            "feuerwehr": "FF Pfandl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FF Pfandl",
+            "fwnr": "403112"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102483",
+        "startzeit": "Sun, 26 Nov 2023 18:36:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.715073,
+          "lng": 13.61385
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "402209"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 26 Nov 2023 19:09:56 +0100",
         "num1": "E231102479",
         "startzeit": "Sun, 26 Nov 2023 18:00:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.363294,
           "lng": 14.531864
