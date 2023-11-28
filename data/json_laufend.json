@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD ISCHL",
+          "earea": "",
+          "ecompl": "B153 WEIßENBACHER STRAßE KM 7.0 HÖHE WEIßENBACHTALSTRAßE",
+          "efeanme": "",
+          "emun": "BAD ISCHL",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403110": {
+            "feuerwehr": "FF Mitterweißenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mitterweißenbach",
+            "fwnr": "403110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102714",
+        "startzeit": "Tue, 28 Nov 2023 17:16:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.776676,
+          "lng": 13.612874
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LEONDINGER STRAßE ",
+          "earea": "LEONDING",
+          "ecompl": "GRUABN-CENTER",
+          "efeanme": "LEONDINGER STRAßE",
+          "emun": "LEONDING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406212": {
+            "feuerwehr": "FF Leonding"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Leonding",
+            "fwnr": "406212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102712",
+        "startzeit": "Tue, 28 Nov 2023 17:15:58 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.286478,
+          "lng": 14.254279
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +158,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - WARTBERG OB DER AIST",
         "einsatzsubtyp": {
@@ -76,12 +170,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          },
           "402213": {
             "feuerwehr": "FF Wartberg ob der Aist"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          },
+          "1": {
             "fwname": "FF Wartberg ob der Aist",
             "fwnr": "402213"
           }
@@ -140,53 +241,6 @@
         "wgs84": {
           "lat": 48.073195,
           "lng": 13.78932
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FRONIUS STRAßE 5",
-          "earea": "UNTERHART",
-          "ecompl": "00000-141623-3",
-          "efeanme": "FRONIUS STRAßE",
-          "emun": "SATTLEDT",
-          "estnum": "5"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - SATTLEDT",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "414218": {
-            "feuerwehr": "FF Sattledt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Sattledt",
-            "fwnr": "414218"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102704",
-        "startzeit": "Tue, 28 Nov 2023 16:55:01 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.08723,
-          "lng": 14.051498
         }
       }
     },
@@ -335,100 +389,6 @@
         "wgs84": {
           "lat": 48.310533,
           "lng": 14.233589
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WAGNLEITHNERSTRAßE 27",
-          "earea": "GRIESKIRCHEN",
-          "ecompl": "00000-41013-1",
-          "efeanme": "WAGNLEITHNERSTRAßE",
-          "emun": "GRIESKIRCHEN",
-          "estnum": "27"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - GRIESKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "FF Grieskirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Grieskirchen",
-            "fwnr": "404104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102694",
-        "startzeit": "Tue, 28 Nov 2023 16:29:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.237948,
-          "lng": 13.821044
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "THALHAM 80",
-          "earea": "THALHAM",
-          "ecompl": "",
-          "efeanme": "THALHAM",
-          "emun": "ST. GEORGEN IM ATTERGAU",
-          "estnum": "80"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - ST. GEORGEN IM ATTERGAU",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413212": {
-            "feuerwehr": "FF St. Lorenz"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Lorenz",
-            "fwnr": "413212"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102682",
-        "startzeit": "Tue, 28 Nov 2023 14:53:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.928046,
-          "lng": 13.473284
         }
       }
     }
