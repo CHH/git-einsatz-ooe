@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 8,
+  "cnt_einsaetze": 9,
   "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "BAD ISCHL",
+          "default": "SCHENKENFELDEN",
           "earea": "",
-          "ecompl": "B153 WEIßENBACHER STRAßE KM 7.0 HÖHE WEIßENBACHTALSTRAßE",
+          "ecompl": "B38 BÖHMERWALDSTRAßE KM 116.4 HÖHE VORDERKÖNIGSCHLAG",
           "efeanme": "",
-          "emun": "BAD ISCHL",
+          "emun": "SCHENKENFELDEN",
           "estnum": ""
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 12,
+          "text": "Urfahr-Umgebung"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "TEE",
-        "einsatzort": "GM - BAD ISCHL",
+        "einsatzort": "UU - SCHENKENFELDEN",
         "einsatzsubtyp": {
           "id": "KFZ-TK",
           "text": "FAHRZEUGBERGUNG"
@@ -29,23 +29,117 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "403110": {
-            "feuerwehr": "FF Mitterweißenbach"
+          "412117": {
+            "feuerwehr": "FF Schenkenfelden"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Mitterweißenbach",
-            "fwnr": "403110"
+            "fwname": "FF Schenkenfelden",
+            "fwnr": "412117"
           }
         },
         "inzeit": "",
-        "num1": "E231102714",
-        "startzeit": "Tue, 28 Nov 2023 17:16:52 +0100",
+        "num1": "E231102724",
+        "startzeit": "Tue, 28 Nov 2023 17:37:44 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.776676,
-          "lng": 13.612874
+          "lat": 48.520038,
+          "lng": 14.354728
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - ",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413205": {
+            "feuerwehr": "FF Hof / VB"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hof / VB",
+            "fwnr": "413205"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102722",
+        "startzeit": "Tue, 28 Nov 2023 17:35:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.846919,
+          "lng": 13.32906
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NEUKIRCHEN BEI LAMBACH",
+          "earea": "",
+          "ecompl": "WILLING",
+          "efeanme": "",
+          "emun": "NEUKIRCHEN BEI LAMBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "WL - NEUKIRCHEN BEI LAMBACH",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414112": {
+            "feuerwehr": "FF Neukirchen bei Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Neukirchen bei Lambach",
+            "fwnr": "414112"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231102719",
+        "startzeit": "Tue, 28 Nov 2023 17:31:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.111411,
+          "lng": 13.812336
         }
       }
     },
@@ -288,60 +382,6 @@
         "wgs84": {
           "lat": 48.44388,
           "lng": 14.68138
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SANDL",
-          "earea": "",
-          "ecompl": "B38 BÖHMERWALDSTRAßE KM 83.4 HÖHE SCHÖNBERG",
-          "efeanme": "",
-          "emun": "SANDL",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - SANDL",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402403": {
-            "feuerwehr": "FF Gugu-Schönberg"
-          },
-          "402417": {
-            "feuerwehr": "FF Sandl"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gugu-Schönberg",
-            "fwnr": "402403"
-          },
-          "1": {
-            "fwname": "FF Sandl",
-            "fwnr": "402417"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102698",
-        "startzeit": "Tue, 28 Nov 2023 16:36:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.561884,
-          "lng": 14.722234
         }
       }
     },
