@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 15,
   "einsaetze": [
     {
@@ -64,7 +64,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GR - PEUERBACH",
         "einsatzsubtyp": {
@@ -76,6 +76,9 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "404115": {
+            "feuerwehr": "FF Pötting"
+          },
           "404304": {
             "feuerwehr": "FF Bruck-Waasen"
           },
@@ -85,10 +88,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Pötting",
+            "fwnr": "404115"
+          },
+          "1": {
             "fwname": "FF Bruck-Waasen",
             "fwnr": "404304"
           },
-          "1": {
+          "2": {
             "fwname": "FF Peuerbach",
             "fwnr": "404315"
           }
@@ -100,53 +107,6 @@
         "wgs84": {
           "lat": 48.344729,
           "lng": 13.769836
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "BERG IM ATTERGAU",
-          "earea": "",
-          "ecompl": "L540 ATTERGAUSTRAßE KM 4.6 HÖHE WALSBERG",
-          "efeanme": "",
-          "emun": "BERG IM ATTERGAU",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - BERG IM ATTERGAU",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413508": {
-            "feuerwehr": "FF Hipping"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hipping",
-            "fwnr": "413508"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231102809",
-        "startzeit": "Wed, 29 Nov 2023 08:10:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.955489,
-          "lng": 13.468942
         }
       }
     },
