@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. GEORGEN AM FILLMANNSBACH",
+          "earea": "",
+          "ecompl": "FW ST. GEORGEN AM FILLMANNSBACH",
+          "efeanme": "",
+          "emun": "ST. GEORGEN AM FILLMANNSBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - ST. GEORGEN AM FILLMANNSBACH",
+        "einsatzsubtyp": {
+          "id": "KFZ-DI",
+          "text": "BERGUNG"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "400110": {
+            "feuerwehr": "FF St. Georgen am Fillmannsbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Georgen am Fillmannsbach",
+            "fwnr": "400110"
+          }
+        },
+        "inzeit": "Wed, 29 Nov 2023 10:16:23 +0100",
+        "num1": "E231102830",
+        "startzeit": "Wed, 29 Nov 2023 10:04:13 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.12688,
+          "lng": 13.0179
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "402213"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 29 Nov 2023 10:05:32 +0100",
         "num1": "E231102820",
         "startzeit": "Wed, 29 Nov 2023 09:16:05 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.355852,
           "lng": 14.517951
@@ -64,7 +111,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GR - PEUERBACH",
         "einsatzsubtyp": {
@@ -76,6 +123,9 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "404115": {
+            "feuerwehr": "FF Pötting"
+          },
           "404304": {
             "feuerwehr": "FF Bruck-Waasen"
           },
@@ -85,10 +135,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Pötting",
+            "fwnr": "404115"
+          },
+          "1": {
             "fwname": "FF Bruck-Waasen",
             "fwnr": "404304"
           },
-          "1": {
+          "2": {
             "fwname": "FF Peuerbach",
             "fwnr": "404315"
           }
@@ -140,10 +194,10 @@
             "fwnr": "413508"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 29 Nov 2023 09:25:36 +0100",
         "num1": "E231102809",
         "startzeit": "Wed, 29 Nov 2023 08:10:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.955489,
           "lng": 13.468942
