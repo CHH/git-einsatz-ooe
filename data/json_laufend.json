@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 28,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410114": {
+            "feuerwehr": "FF Rain"
+          },
+          "410118": {
+            "feuerwehr": "FF Vichtenstein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rain",
+            "fwnr": "410114"
+          },
+          "1": {
+            "fwname": "FF Vichtenstein",
+            "fwnr": "410118"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200340",
+        "startzeit": "Fri, 01 Dec 2023 19:26:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.50816,
+          "lng": 13.653458
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +194,6 @@
         "wgs84": {
           "lat": 48.37927,
           "lng": 14.122847
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "MEHRNBACH",
-          "earea": "",
-          "ecompl": "FW OBERHOLZ",
-          "efeanme": "",
-          "emun": "MEHRNBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - MEHRNBACH",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408118": {
-            "feuerwehr": "FF Oberholz"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Oberholz",
-            "fwnr": "408118"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200331",
-        "startzeit": "Fri, 01 Dec 2023 19:07:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.182669,
-          "lng": 13.433302
         }
       }
     },
@@ -489,100 +496,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "GMUNDEN",
-          "earea": "GMUNDEN",
-          "ecompl": "GMUNDEN",
-          "efeanme": "",
-          "emun": "GMUNDEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - GMUNDEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200297",
-        "startzeit": "Fri, 01 Dec 2023 18:31:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.926461,
-          "lng": 13.819534
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LUFTENBERG AN DER DONAU",
-          "earea": "",
-          "ecompl": "KM 229.2 HÖHE B3 DONAUSTRAßE",
-          "efeanme": "",
-          "emun": "LUFTENBERG AN DER DONAU",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - LUFTENBERG AN DER DONAU",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407208": {
-            "feuerwehr": "FF Luftenberg an der Donau"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Luftenberg an der Donau",
-            "fwnr": "407208"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200295",
-        "startzeit": "Fri, 01 Dec 2023 18:31:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.259076,
-          "lng": 14.412999
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "VORDERSCHLAGEN 19",
           "earea": "VORDERSCHLAGEN",
           "ecompl": "",
@@ -779,53 +692,6 @@
         "wgs84": {
           "lat": 48.268607,
           "lng": 14.697323
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ALTENBERG BEI LINZ",
-          "earea": "",
-          "ecompl": "L1501 ALTENBERGER STRAßE KM 4.4 HÖHE ALTENBERGER STRAßE",
-          "efeanme": "",
-          "emun": "ALTENBERG BEI LINZ",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - ALTENBERG BEI LINZ",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412302": {
-            "feuerwehr": "FF Altenberg bei Linz"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altenberg bei Linz",
-            "fwnr": "412302"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200273",
-        "startzeit": "Fri, 01 Dec 2023 18:07:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.360852,
-          "lng": 14.334373
         }
       }
     },
@@ -1129,53 +995,6 @@
         "wgs84": {
           "lat": 48.282845,
           "lng": 13.282841
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WELFENSTRAßE 20",
-          "earea": "GMUNDEN",
-          "ecompl": "",
-          "efeanme": "WELFENSTRAßE",
-          "emun": "GMUNDEN",
-          "estnum": "20"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - GMUNDEN",
-        "einsatzsubtyp": {
-          "id": "TRAFO-BK",
-          "text": "BRAND ELEKTRISCHE ANLAGEN"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "FF Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gmunden",
-            "fwnr": "403207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200214",
-        "startzeit": "Fri, 01 Dec 2023 17:14:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.934003,
-          "lng": 13.804968
         }
       }
     },
