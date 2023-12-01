@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GEWERBEPARK OST 10",
+          "earea": "MüHLDORF",
+          "ecompl": "",
+          "efeanme": "GEWERBEPARK OST",
+          "emun": "FELDKIRCHEN AN DER DONAU",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - FELDKIRCHEN AN DER DONAU",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412204": {
+            "feuerwehr": "FF Feldkirchen an der Donau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Feldkirchen an der Donau",
+            "fwnr": "412204"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200068",
+        "startzeit": "Fri, 01 Dec 2023 09:55:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.348242,
+          "lng": 14.063669
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -200,60 +247,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "FELDKIRCHEN AN DER DONAU",
-          "earea": "",
-          "ecompl": "L1507 LANDSHAAGER STRAßE KM 1.4 HÖHE ST. MARTINER STRAßE",
-          "efeanme": "",
-          "emun": "FELDKIRCHEN AN DER DONAU",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - FELDKIRCHEN AN DER DONAU",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412212": {
-            "feuerwehr": "FF Landshaag"
-          },
-          "412215": {
-            "feuerwehr": "FF Bad Mühllacken"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Landshaag",
-            "fwnr": "412212"
-          },
-          "1": {
-            "fwname": "FF Bad Mühllacken",
-            "fwnr": "412215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200049",
-        "startzeit": "Fri, 01 Dec 2023 08:08:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.370921,
-          "lng": 14.042931
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "ANDORF",
           "earea": "",
           "ecompl": "KM 47.8 HÖHE B137 INNVIERTLER STRAßE",
@@ -309,60 +302,6 @@
         "wgs84": {
           "lat": 48.353327,
           "lng": 13.556153
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HERZOGSDORF",
-          "earea": "",
-          "ecompl": "L581 HANSBERGSTRAßE KM 22.6 HÖHE STAMERING",
-          "efeanme": "",
-          "emun": "HERZOGSDORF",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - HERZOGSDORF",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412208": {
-            "feuerwehr": "FF Herzogsdorf"
-          },
-          "412216": {
-            "feuerwehr": "FF Neudorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Herzogsdorf",
-            "fwnr": "412208"
-          },
-          "1": {
-            "fwname": "FF Neudorf",
-            "fwnr": "412216"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200033",
-        "startzeit": "Fri, 01 Dec 2023 07:26:45 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.443916,
-          "lng": 14.158043
         }
       }
     }
