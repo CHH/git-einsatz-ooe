@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 42,
-  "cnt_feuerwehren": 48,
+  "cnt_einsaetze": 40,
+  "cnt_feuerwehren": 47,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ATZBACH",
+          "earea": "",
+          "ecompl": "L1259 ATZBACHER STRAßE KM 2.6 HÖHE HAUPTSTRAßE",
+          "efeanme": "",
+          "emun": "ATZBACH",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - ATZBACH",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413301": {
+            "feuerwehr": "FF Atzbach"
+          },
+          "413318": {
+            "feuerwehr": "FF Wolfsegg am Hausruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Atzbach",
+            "fwnr": "413301"
+          },
+          "1": {
+            "fwname": "FF Wolfsegg am Hausruck",
+            "fwnr": "413318"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200304",
+        "startzeit": "Fri, 01 Dec 2023 18:42:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.086963,
+          "lng": 13.698641
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,7 +66,7 @@
           "emun": "NEUKIRCHEN AN DER ENKNACH",
           "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
@@ -212,7 +266,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - AMPFLWANG IM HAUSRUCKWALD",
         "einsatzsubtyp": {
@@ -224,12 +278,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "413403": {
+            "feuerwehr": "FF Ampflwang im Hausruckwald"
+          },
           "413422": {
             "feuerwehr": "FF Schlagen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Ampflwang im Hausruckwald",
+            "fwnr": "413403"
+          },
+          "1": {
             "fwname": "FF Schlagen",
             "fwnr": "413422"
           }
@@ -1053,100 +1114,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "ALTENFELDEN",
-          "earea": "",
-          "ecompl": "L585 OBERMÜHLERSTRAßE KM 6.6 HÖHE STARZ",
-          "efeanme": "",
-          "emun": "ALTENFELDEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - ALTENFELDEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409301": {
-            "feuerwehr": "FF Altenfelden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altenfelden",
-            "fwnr": "409301"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200252",
-        "startzeit": "Fri, 01 Dec 2023 17:53:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.469476,
-          "lng": 13.925453
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "REITH",
-          "earea": "REITH",
-          "ecompl": "LIMESSTRAßE",
-          "efeanme": "",
-          "emun": "LEONDING",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - LEONDING",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406208": {
-            "feuerwehr": "FF Hart / LL"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hart / LL",
-            "fwnr": "406208"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200246",
-        "startzeit": "Fri, 01 Dec 2023 17:46:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.26624,
-          "lng": 14.251134
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "ST. FLORIAN",
           "earea": "",
           "ecompl": "FW ROHRBACH",
@@ -1592,60 +1559,6 @@
         "wgs84": {
           "lat": 47.934003,
           "lng": 13.804968
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HAIBACH OB DER DONAU",
-          "earea": "",
-          "ecompl": "FW HAIBACH OB DER DONAU",
-          "efeanme": "",
-          "emun": "HAIBACH OB DER DONAU",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - HAIBACH OB DER DONAU",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401107": {
-            "feuerwehr": "FF Haibach ob der Donau"
-          },
-          "410307": {
-            "feuerwehr": "FF Haibach bei Schärding"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haibach ob der Donau",
-            "fwnr": "401107"
-          },
-          "1": {
-            "fwname": "FF Haibach bei Schärding",
-            "fwnr": "410307"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200212",
-        "startzeit": "Fri, 01 Dec 2023 17:13:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.4121,
-          "lng": 13.91752
         }
       }
     },
