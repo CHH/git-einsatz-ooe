@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD ZELL",
+          "earea": "BAD ZELL",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "BAD ZELL",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - BAD ZELL",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "FF Bad Zell"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Zell",
+            "fwnr": "402201"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200152",
+        "startzeit": "Fri, 01 Dec 2023 16:03:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.324782,
+          "lng": 14.691649
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ASCHACHER-BUNDESSTRAßE ",
+          "earea": "FREUDENSTEIN",
+          "ecompl": "4921400-4S",
+          "efeanme": "ASCHACHER-BUNDESSTRAßE",
+          "emun": "FELDKIRCHEN-AN-DER-DONAU",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "UU - FELDKIRCHEN-AN-DER-DONAU",
+        "einsatzsubtyp": {
+          "id": "ALFEUER-DI",
+          "text": "SIRENENPROGRAMM FEUER VON FW AUSGELÖST"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "412214": {
+            "feuerwehr": "FF Mühldorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mühldorf",
+            "fwnr": "412214"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200150",
+        "startzeit": "Fri, 01 Dec 2023 16:01:10 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.346356,
+          "lng": 14.07225
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -309,100 +403,6 @@
         "wgs84": {
           "lat": 47.84793,
           "lng": 13.585647
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "MARCHTRENKER STRAßE 1",
-          "earea": "OBERHOCHERENZ",
-          "ecompl": "",
-          "efeanme": "MARCHTRENKER STRAßE",
-          "emun": "BUCHKIRCHEN",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - BUCHKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "OELSPUR-TK",
-          "text": "ÖLSPUR, ÖLAUSTRITT"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414203": {
-            "feuerwehr": "FF Buchkirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Buchkirchen",
-            "fwnr": "414203"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200131",
-        "startzeit": "Fri, 01 Dec 2023 14:31:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.226365,
-          "lng": 14.033611
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HAUPTPLATZ 12",
-          "earea": "RIED IM INNKREIS",
-          "ecompl": "OBJEKT MIT BMA",
-          "efeanme": "HAUPTPLATZ",
-          "emun": "RIED IM INNKREIS",
-          "estnum": "12"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200098",
-        "startzeit": "Fri, 01 Dec 2023 11:59:57 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.21015,
-          "lng": 13.488176
         }
       }
     }
