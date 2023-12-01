@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD HALLER STRAßE 44",
+          "earea": "ROHR IM KREMSTAL",
+          "ecompl": "00000-51076-1",
+          "efeanme": "BAD HALLER STRAßE",
+          "emun": "ROHR IM KREMSTAL",
+          "estnum": "44"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - ROHR IM KREMSTAL",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "405304": {
+            "feuerwehr": "FF Kremsmünster"
+          },
+          "411104": {
+            "feuerwehr": "FF Rohr im Kremstal"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kremsmünster",
+            "fwnr": "405304"
+          },
+          "1": {
+            "fwname": "FF Rohr im Kremstal",
+            "fwnr": "411104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200007",
+        "startzeit": "Fri, 01 Dec 2023 02:12:10 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.052911,
+          "lng": 14.151889
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "409416"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 01 Dec 2023 02:23:42 +0100",
         "num1": "E231200005",
         "startzeit": "Fri, 01 Dec 2023 01:22:39 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.593083,
           "lng": 13.909498
@@ -86,10 +140,10 @@
             "fwnr": "412305"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 01 Dec 2023 02:05:26 +0100",
         "num1": "E231200003",
         "startzeit": "Fri, 01 Dec 2023 01:15:14 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.391859,
           "lng": 14.285471
@@ -133,10 +187,10 @@
             "fwnr": "412304"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 01 Dec 2023 01:37:43 +0100",
         "num1": "E231200001",
         "startzeit": "Fri, 01 Dec 2023 00:19:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.413799,
           "lng": 14.345796
