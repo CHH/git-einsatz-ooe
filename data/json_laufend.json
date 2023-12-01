@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OEPPING",
+          "earea": "",
+          "ecompl": "B38 BÖHMERWALDSTRAßE KM 159.2 HÖHE BERLESREITH",
+          "efeanme": "",
+          "emun": "OEPPING",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RO - OEPPING",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409415": {
+            "feuerwehr": "FF Oepping"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Oepping",
+            "fwnr": "409415"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231200086",
+        "startzeit": "Fri, 01 Dec 2023 11:20:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.602803,
+          "lng": 13.939081
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -241,67 +288,6 @@
         "wgs84": {
           "lat": 48.149993,
           "lng": 12.81324
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ANDORF",
-          "earea": "",
-          "ecompl": "KM 47.8 HÖHE B137 INNVIERTLER STRAßE",
-          "efeanme": "",
-          "emun": "ANDORF",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "SD - ANDORF",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410202": {
-            "feuerwehr": "FF Andorf"
-          },
-          "410209": {
-            "feuerwehr": "FF Linden"
-          },
-          "410213": {
-            "feuerwehr": "FF Pimpfing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Andorf",
-            "fwnr": "410202"
-          },
-          "1": {
-            "fwname": "FF Linden",
-            "fwnr": "410209"
-          },
-          "2": {
-            "fwname": "FF Pimpfing",
-            "fwnr": "410213"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231200045",
-        "startzeit": "Fri, 01 Dec 2023 08:05:29 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.353327,
-          "lng": 13.556153
         }
       }
     }
