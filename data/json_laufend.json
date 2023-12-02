@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRANZ-KURZ-STRAßE 6",
+          "earea": "ANSFELDEN",
+          "ecompl": "00000-63076-1",
+          "efeanme": "FRANZ-KURZ-STRAßE",
+          "emun": "ANSFELDEN",
+          "estnum": "6"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ANSFELDEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "FF Ansfelden"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ansfelden",
+            "fwnr": "406201"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203166",
+        "startzeit": "Sun, 03 Dec 2023 00:22:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.208884,
+          "lng": 14.291956
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -200,53 +247,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "HARGELSBERG",
-          "earea": "",
-          "ecompl": "L1352 ANGERSBERGER STRAßE KM 3.0 HÖHE ANGERSBERG",
-          "efeanme": "",
-          "emun": "HARGELSBERG",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - HARGELSBERG",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406103": {
-            "feuerwehr": "FF Hargelsberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hargelsberg",
-            "fwnr": "406103"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203148",
-        "startzeit": "Sat, 02 Dec 2023 23:18:25 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.128476,
-          "lng": 14.422061
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "NATTERNBACH",
           "earea": "",
           "ecompl": "FW TAL",
@@ -295,60 +295,6 @@
         "wgs84": {
           "lat": 48.43314,
           "lng": 13.72157
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NEUMARKT IM MÜHLKREIS",
-          "earea": "",
-          "ecompl": "L1467 ALBERNDORFER STRAßE KM 12.4 HÖHE TROSSELSDORF",
-          "efeanme": "",
-          "emun": "NEUMARKT IM MÜHLKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - NEUMARKT IM MÜHLKREIS",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402121": {
-            "feuerwehr": "FF Neumarkt im Mühlkreis"
-          },
-          "402134": {
-            "feuerwehr": "FF Trosselsdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Neumarkt im Mühlkreis",
-            "fwnr": "402121"
-          },
-          "1": {
-            "fwname": "FF Trosselsdorf",
-            "fwnr": "402134"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203138",
-        "startzeit": "Sat, 02 Dec 2023 22:53:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.422813,
-          "lng": 14.468447
         }
       }
     },
