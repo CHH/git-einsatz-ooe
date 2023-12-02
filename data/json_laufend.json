@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "POXLEITENSTRAßE 3",
+          "earea": "MAISDORF",
+          "ecompl": "",
+          "efeanme": "POXLEITENSTRAßE",
+          "emun": "SCHLIERBACH",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - SCHLIERBACH",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405213": {
+            "feuerwehr": "FF Schlierbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schlierbach",
+            "fwnr": "405213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203117",
+        "startzeit": "Sat, 02 Dec 2023 21:48:11 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.959267,
+          "lng": 14.077733
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -299,7 +346,7 @@
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 10,
+        "cntfeuerwehren": 11,
         "einsatzart": "BRAND",
         "einsatzort": "RO - SCHWARZENBERG AM BöHMERWALD",
         "einsatzsubtyp": {
@@ -329,6 +376,9 @@
           "409109": {
             "feuerwehr": "FF Ulrichsberg"
           },
+          "409315": {
+            "feuerwehr": "FF St. Peter am Wimberg"
+          },
           "409419": {
             "feuerwehr": "FF Rohrbach im Mühlkreis"
           },
@@ -351,6 +401,10 @@
             "fwname": "FF Julbach",
             "fwnr": "409103"
           },
+          "10": {
+            "fwname": "NEUREICHENAU (BRD)",
+            "fwnr": "53080501"
+          },
           "2": {
             "fwname": "FF Klaffer",
             "fwnr": "409104"
@@ -368,20 +422,20 @@
             "fwnr": "409109"
           },
           "6": {
+            "fwname": "FF St. Peter am Wimberg",
+            "fwnr": "409315"
+          },
+          "7": {
             "fwname": "FF Rohrbach im Mühlkreis",
             "fwnr": "409419"
           },
-          "7": {
+          "8": {
             "fwname": "KLAFFERSTRAß (BRD)",
             "fwnr": "53070901"
           },
-          "8": {
+          "9": {
             "fwname": "LACKENHÄUSER (BRD)",
             "fwnr": "53080101"
-          },
-          "9": {
-            "fwname": "NEUREICHENAU (BRD)",
-            "fwnr": "53080501"
           }
         },
         "inzeit": "",
