@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 26,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "VB - ZELL AM MOOS",
         "einsatzsubtyp": {
@@ -32,6 +32,9 @@
           "413204": {
             "feuerwehr": "FF Haslau"
           },
+          "413210": {
+            "feuerwehr": "FF Oberhofen am Irrsee"
+          },
           "413215": {
             "feuerwehr": "FF Zell am Moos"
           }
@@ -42,6 +45,10 @@
             "fwnr": "413204"
           },
           "1": {
+            "fwname": "FF Oberhofen am Irrsee",
+            "fwnr": "413210"
+          },
+          "2": {
             "fwname": "FF Zell am Moos",
             "fwnr": "413215"
           }
@@ -600,53 +607,6 @@
         "wgs84": {
           "lat": 48.198422,
           "lng": 13.242088
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HIRSCHBACH IM MÜHLKREIS",
-          "earea": "",
-          "ecompl": "FW HIRSCHBACH IM MÜHLKREIS",
-          "efeanme": "",
-          "emun": "HIRSCHBACH IM MÜHLKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - HIRSCHBACH IM MÜHLKREIS",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402107": {
-            "feuerwehr": "FF Hirschbach im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hirschbach im Mühlkreis",
-            "fwnr": "402107"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203060",
-        "startzeit": "Sat, 02 Dec 2023 20:12:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.48512,
-          "lng": 14.41034
         }
       }
     },
