@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DR. IGNAZ SEMMELWEIS-STRAßE 2",
+          "earea": "LANGHOLZFELD",
+          "ecompl": "",
+          "efeanme": "DR. IGNAZ SEMMELWEIS-STRAßE",
+          "emun": "PASCHING",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - PASCHING",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406216": {
+            "feuerwehr": "FF Pasching"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pasching",
+            "fwnr": "406216"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203438",
+        "startzeit": "Sun, 03 Dec 2023 14:57:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.241132,
+          "lng": 14.243539
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": 48.247699,
           "lng": 14.630559
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HöHENSTRAßE 28",
-          "earea": "WALLERN AN DER TRATTNACH",
-          "ecompl": "",
-          "efeanme": "HöHENSTRAßE",
-          "emun": "WALLERN AN DER TRATTNACH",
-          "estnum": "28"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "GR - WALLERN AN DER TRATTNACH",
-        "einsatzsubtyp": {
-          "id": "TUEROE-TK",
-          "text": "TÜRÖFFNUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404129": {
-            "feuerwehr": "FF Wallern an der Trattnach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Wallern an der Trattnach",
-            "fwnr": "404129"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203433",
-        "startzeit": "Sun, 03 Dec 2023 14:39:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.232259,
-          "lng": 13.940357
         }
       }
     },
@@ -240,107 +240,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "ADOLF-JAROSCH-STRAßE 9",
-          "earea": "HöRSCHING",
-          "ecompl": "",
-          "efeanme": "ADOLF-JAROSCH-STRAßE",
-          "emun": "HöRSCHING",
-          "estnum": "9"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - HöRSCHING",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406209": {
-            "feuerwehr": "FF Hörsching"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hörsching",
-            "fwnr": "406209"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203422",
-        "startzeit": "Sun, 03 Dec 2023 14:03:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.229025,
-          "lng": 14.175687
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHöNEBEN 10",
-          "earea": "SCHöNEBEN",
-          "ecompl": "00000-91034-1",
-          "efeanme": "SCHöNEBEN",
-          "emun": "ULRICHSBERG",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - ULRICHSBERG",
-        "einsatzsubtyp": {
-          "id": "BMA2-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "409105": {
-            "feuerwehr": "FF Ödenkirchen"
-          },
-          "409109": {
-            "feuerwehr": "FF Ulrichsberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ödenkirchen",
-            "fwnr": "409105"
-          },
-          "1": {
-            "fwname": "FF Ulrichsberg",
-            "fwnr": "409109"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203420",
-        "startzeit": "Sun, 03 Dec 2023 13:57:09 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.705342,
-          "lng": 13.946908
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "UNTERLOCHEN 4",
           "earea": "UNTERLOCHEN",
           "ecompl": "3322700-4S",
@@ -476,53 +375,6 @@
         "wgs84": {
           "lat": 48.149967,
           "lng": 13.31524
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SARLEINSBACH",
-          "earea": "",
-          "ecompl": "FW SPRINZENSTEIN",
-          "efeanme": "",
-          "emun": "SARLEINSBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - SARLEINSBACH",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409423": {
-            "feuerwehr": "FF Sprinzenstein"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Sprinzenstein",
-            "fwnr": "409423"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203290",
-        "startzeit": "Sun, 03 Dec 2023 08:24:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.5514,
-          "lng": 13.95555
         }
       }
     }
