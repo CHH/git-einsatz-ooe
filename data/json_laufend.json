@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "INNBACHSTRAßE 3",
+          "earea": "GSTOCKET",
+          "ecompl": "",
+          "efeanme": "INNBACHSTRAßE",
+          "emun": "ALKOVEN",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - ALKOVEN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "FF Alkoven"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Alkoven",
+            "fwnr": "401101"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203493",
+        "startzeit": "Mon, 04 Dec 2023 01:04:00 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.302515,
+          "lng": 14.079691
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,107 +93,6 @@
         "wgs84": {
           "lat": 48.089899,
           "lng": 14.073137
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "FLORIANIWEG 4",
-          "earea": "UTZENAICH",
-          "ecompl": "",
-          "efeanme": "FLORIANIWEG",
-          "emun": "UTZENAICH",
-          "estnum": "4"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "RI - UTZENAICH",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408319": {
-            "feuerwehr": "FF Stelzham"
-          },
-          "408323": {
-            "feuerwehr": "FF Utzenaich"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Stelzham",
-            "fwnr": "408319"
-          },
-          "1": {
-            "fwname": "FF Utzenaich",
-            "fwnr": "408323"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203487",
-        "startzeit": "Mon, 04 Dec 2023 00:23:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.276747,
-          "lng": 13.465447
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "RODLTALSTRAßE 27",
-          "earea": "GRAMASTETTEN",
-          "ecompl": "",
-          "efeanme": "RODLTALSTRAßE",
-          "emun": "GRAMASTETTEN",
-          "estnum": "27"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - GRAMASTETTEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412207": {
-            "feuerwehr": "FF Gramastetten"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gramastetten",
-            "fwnr": "412207"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203483",
-        "startzeit": "Sun, 03 Dec 2023 23:39:56 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.384422,
-          "lng": 14.194851
         }
       }
     }
