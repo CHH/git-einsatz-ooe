@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MISTLBERG 100",
+          "earea": "MISTLBERG",
+          "ecompl": "00000-21038-1",
+          "efeanme": "MISTLBERG",
+          "emun": "TRAGWEIN",
+          "estnum": "100"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - TRAGWEIN",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "402207": {
+            "feuerwehr": "FF Mistlberg / FR"
+          },
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mistlberg / FR",
+            "fwnr": "402207"
+          },
+          "1": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203588",
+        "startzeit": "Mon, 04 Dec 2023 10:32:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.333145,
+          "lng": 14.574145
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,107 +147,6 @@
         "wgs84": {
           "lat": 48.20514,
           "lng": 14.476342
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STEINWäNDWEG 3",
-          "earea": "STEYR",
-          "ecompl": "",
-          "efeanme": "STEINWäNDWEG",
-          "emun": "STEYR",
-          "estnum": "3"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - STEYR",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "41510102": {
-            "feuerwehr": "FW Löschzug 2 Steyrdorf"
-          },
-          "41510108": {
-            "feuerwehr": "FW Kommando Steyr"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FW Löschzug 2 Steyrdorf",
-            "fwnr": "41510102"
-          },
-          "1": {
-            "fwname": "FW Kommando Steyr",
-            "fwnr": "41510108"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203580",
-        "startzeit": "Mon, 04 Dec 2023 10:08:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.050137,
-          "lng": 14.426345
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NETTINGSDORFER STRAßE 40",
-          "earea": "NETTINGSDORF",
-          "ecompl": "00000-63237-1",
-          "efeanme": "NETTINGSDORFER STRAßE",
-          "emun": "ANSFELDEN",
-          "estnum": "40"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - ANSFELDEN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406261": {
-            "feuerwehr": "BTF Nettingsdorfer Papierfabrik AG Co Kg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "BTF Nettingsdorfer Papierfabrik AG Co Kg",
-            "fwnr": "406261"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203577",
-        "startzeit": "Mon, 04 Dec 2023 10:03:42 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.184193,
-          "lng": 14.260022
         }
       }
     },
