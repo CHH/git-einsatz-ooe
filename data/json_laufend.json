@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TRAGWEIN",
+          "earea": "TRAGWEIN",
+          "ecompl": "GÜTERWEG HAFERZEILE",
+          "efeanme": "",
+          "emun": "TRAGWEIN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - TRAGWEIN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "402206": {
+            "feuerwehr": "FF Hinterberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hinterberg",
+            "fwnr": "402206"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203528",
+        "startzeit": "Mon, 04 Dec 2023 07:17:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.372722,
+          "lng": 14.601706
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -200,53 +247,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "IM GSTADT 1",
-          "earea": "BREITENAU",
-          "ecompl": "00000-51026-1",
-          "efeanme": "IM GSTADT",
-          "emun": "MOLLN",
-          "estnum": "1"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - MOLLN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "405105": {
-            "feuerwehr": "FF Molln"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Molln",
-            "fwnr": "405105"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203518",
-        "startzeit": "Mon, 04 Dec 2023 06:48:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.895225,
-          "lng": 14.261089
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "HAGER-MALER STRAßE 4",
           "earea": "ANTIESENHOFEN",
           "ecompl": "",
@@ -335,100 +335,6 @@
         "wgs84": {
           "lat": 48.026572,
           "lng": 12.845196
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "AUßERTREFFLING",
-          "earea": "AUßERTREFFLING",
-          "ecompl": "GASTHAUS GANGLWIRT",
-          "efeanme": "",
-          "emun": "ENGERWITZDORF",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - ENGERWITZDORF",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412315": {
-            "feuerwehr": "FF Treffling"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Treffling",
-            "fwnr": "412315"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203510",
-        "startzeit": "Mon, 04 Dec 2023 06:15:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.328404,
-          "lng": 14.350093
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "STELZHAMERSTRAßE 15",
-          "earea": "TIMELKAM",
-          "ecompl": "",
-          "efeanme": "STELZHAMERSTRAßE",
-          "emun": "TIMELKAM",
-          "estnum": "15"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - TIMELKAM",
-        "einsatzsubtyp": {
-          "id": "WASSER-TK",
-          "text": "WASSERSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413427": {
-            "feuerwehr": "FF Timelkam"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Timelkam",
-            "fwnr": "413427"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203506",
-        "startzeit": "Mon, 04 Dec 2023 06:07:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.00209,
-          "lng": 13.617752
         }
       }
     }
