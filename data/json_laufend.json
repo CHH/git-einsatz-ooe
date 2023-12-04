@@ -1,25 +1,119 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "ATTERSEESTRAßE 21",
-          "earea": "LENZING",
+          "default": "GEWERBEPARK 1",
+          "earea": "REICHENTHAL",
+          "ecompl": "00000-121052-1",
+          "efeanme": "GEWERBEPARK",
+          "emun": "REICHENTHAL",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - REICHENTHAL",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "412116": {
+            "feuerwehr": "FF Reichenthal"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Reichenthal",
+            "fwnr": "412116"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203655",
+        "startzeit": "Mon, 04 Dec 2023 20:04:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.535351,
+          "lng": 14.373241
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AM RÖMERFELD 5",
+          "earea": "ENNS",
+          "ecompl": "00000-61072-1",
+          "efeanme": "AM RÖMERFELD",
+          "emun": "ENNS",
+          "estnum": "5"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ENNS",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "FF Enns"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Enns",
+            "fwnr": "406102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203652",
+        "startzeit": "Mon, 04 Dec 2023 20:00:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.216157,
+          "lng": 14.462301
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ATTERSEESTRAßE 19",
+          "earea": "PICHLWANG",
           "ecompl": "",
           "efeanme": "ATTERSEESTRAßE",
-          "emun": "LENZING",
-          "estnum": "21"
+          "emun": "TIMELKAM",
+          "estnum": "19"
         },
         "alarmstufe": 1,
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
-        "einsatzort": "VB - LENZING",
+        "einsatzort": "VB - TIMELKAM",
         "einsatzsubtyp": {
           "id": "LANDWIRT-BG",
           "text": "BRAND LANDWIRTSCHAFTLICHES OBJEKT"
@@ -35,6 +129,9 @@
           "413420": {
             "feuerwehr": "FF Reibersdorf"
           },
+          "413427": {
+            "feuerwehr": "FF Timelkam"
+          },
           "413462": {
             "feuerwehr": "BTF Lenzing Aktiengesellschaft"
           }
@@ -49,6 +146,10 @@
             "fwnr": "413420"
           },
           "2": {
+            "fwname": "FF Timelkam",
+            "fwnr": "413427"
+          },
+          "3": {
             "fwname": "BTF Lenzing Aktiengesellschaft",
             "fwnr": "413462"
           }
@@ -58,8 +159,8 @@
         "startzeit": "Mon, 04 Dec 2023 19:52:31 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.978827,
-          "lng": 13.612217
+          "lat": 47.989565,
+          "lng": 13.616299
         }
       }
     },
