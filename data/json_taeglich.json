@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PISCHELSDORF AM ENGELBACH",
+          "earea": "",
+          "ecompl": "L1040 UTTENDORFER STRAßE KM 5.8 HÖHE HART",
+          "efeanme": "",
+          "emun": "PISCHELSDORF AM ENGELBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - PISCHELSDORF AM ENGELBACH",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400207": {
+            "feuerwehr": "FF Hart / BR"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hart / BR",
+            "fwnr": "400207"
+          }
+        },
+        "inzeit": "Wed, 06 Dec 2023 03:52:54 +0100",
+        "num1": "E231203815",
+        "startzeit": "Wed, 06 Dec 2023 03:23:59 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.12215,
+          "lng": 13.072477
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - SEEWALCHEN AM ATTERSEE",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "413417": {
+            "feuerwehr": "FF Puchheim"
+          },
           "413520": {
             "feuerwehr": "FF Seewalchen am Attersee"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Puchheim",
+            "fwnr": "413417"
+          },
+          "1": {
             "fwname": "FF Seewalchen am Attersee",
             "fwnr": "413520"
           }
