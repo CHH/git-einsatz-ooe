@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STIFTSSTRAßE 3",
+          "earea": "SCHLIERBACH",
+          "ecompl": "",
+          "efeanme": "STIFTSSTRAßE",
+          "emun": "SCHLIERBACH",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - SCHLIERBACH",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405213": {
+            "feuerwehr": "FF Schlierbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schlierbach",
+            "fwnr": "405213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203891",
+        "startzeit": "Wed, 06 Dec 2023 13:29:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.937769,
+          "lng": 14.126795
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -146,60 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "UNTERLEITEN 35",
-          "earea": "UNTERLEITEN",
-          "ecompl": "",
-          "efeanme": "UNTERLEITEN",
-          "emun": "HINZENBACH",
-          "estnum": "35"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - HINZENBACH",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401111": {
-            "feuerwehr": "FF Hinzenbach"
-          },
-          "401120": {
-            "feuerwehr": "FF Stroheim"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hinzenbach",
-            "fwnr": "401111"
-          },
-          "1": {
-            "fwname": "FF Stroheim",
-            "fwnr": "401120"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203881",
-        "startzeit": "Wed, 06 Dec 2023 12:30:11 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.324069,
-          "lng": 13.994042
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "KIRCHENPLATZ 1",
           "earea": "MOLLN",
           "ecompl": "",
@@ -262,53 +255,6 @@
         "wgs84": {
           "lat": 47.885874,
           "lng": 14.256318
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "KOPFING IM INNKREIS",
-          "earea": "",
-          "ecompl": "FW KOPFING IM INNKREIS",
-          "efeanme": "",
-          "emun": "KOPFING IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - KOPFING IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410110": {
-            "feuerwehr": "FF Kopfing im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kopfing im Innkreis",
-            "fwnr": "410110"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203864",
-        "startzeit": "Wed, 06 Dec 2023 11:09:05 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.44328,
-          "lng": 13.65904
         }
       }
     },
