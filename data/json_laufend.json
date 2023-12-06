@@ -5,6 +5,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "KOPFING IM INNKREIS",
+          "earea": "",
+          "ecompl": "FW KOPFING IM INNKREIS",
+          "efeanme": "",
+          "emun": "KOPFING IM INNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - KOPFING IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410110": {
+            "feuerwehr": "FF Kopfing im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kopfing im Innkreis",
+            "fwnr": "410110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231203864",
+        "startzeit": "Wed, 06 Dec 2023 11:09:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.44328,
+          "lng": 13.65904
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "STELZHAMERSTRAßE 28",
           "earea": "STEYR",
           "ecompl": "",
@@ -71,7 +118,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "PE - RIED IN DER RIEDMARK",
         "einsatzsubtyp": {
@@ -83,12 +130,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "407202": {
+            "feuerwehr": "FF Altaist-Hartl"
+          },
           "407211": {
             "feuerwehr": "FF Obenberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Altaist-Hartl",
+            "fwnr": "407202"
+          },
+          "1": {
             "fwname": "FF Obenberg",
             "fwnr": "407211"
           }
@@ -215,53 +269,6 @@
         "wgs84": {
           "lat": 48.443053,
           "lng": 13.661517
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "VOLKERSDORF 3",
-          "earea": "VOLKERSDORF",
-          "ecompl": "",
-          "efeanme": "VOLKERSDORF",
-          "emun": "ENNS",
-          "estnum": "3"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - ENNS",
-        "einsatzsubtyp": {
-          "id": "KFZ-TK",
-          "text": "FAHRZEUGBERGUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "FF Enns"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Enns",
-            "fwnr": "406102"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231203841",
-        "startzeit": "Wed, 06 Dec 2023 08:27:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.196691,
-          "lng": 14.429511
         }
       }
     }
