@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALBRECHTSTRAßE ",
+          "earea": "MARCHTRENK",
+          "ecompl": "NÖBAUER TISCHLEREI",
+          "efeanme": "ALBRECHTSTRAßE",
+          "emun": "MARCHTRENK",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - MARCHTRENK",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "FF Kappern"
+          },
+          "414215": {
+            "feuerwehr": "FF Marchtrenk"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kappern",
+            "fwnr": "414212"
+          },
+          "1": {
+            "fwname": "FF Marchtrenk",
+            "fwnr": "414215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204012",
+        "startzeit": "Fri, 08 Dec 2023 06:16:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.200126,
+          "lng": 14.144221
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,10 +107,10 @@
             "fwnr": "413429"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 08 Dec 2023 06:00:17 +0100",
         "num1": "E231204007",
         "startzeit": "Fri, 08 Dec 2023 02:10:47 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.996139,
           "lng": 13.637078
