@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KAPELLENSTRAßE 16",
+          "earea": "GUSEN",
+          "ecompl": "",
+          "efeanme": "KAPELLENSTRAßE",
+          "emun": "LANGENSTEIN",
+          "estnum": "16"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - LANGENSTEIN",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "407207": {
+            "feuerwehr": "FF Langenstein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Langenstein",
+            "fwnr": "407207"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204055",
+        "startzeit": "Fri, 08 Dec 2023 21:10:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.261401,
+          "lng": 14.462278
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
