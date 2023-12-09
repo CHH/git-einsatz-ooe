@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALKOVEN",
+          "earea": "",
+          "ecompl": "FW POLSING",
+          "efeanme": "",
+          "emun": "ALKOVEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - ALKOVEN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401114": {
+            "feuerwehr": "FF Polsing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Polsing",
+            "fwnr": "401114"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204084",
+        "startzeit": "Sat, 09 Dec 2023 10:10:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.26885,
+          "lng": 14.08564
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +93,6 @@
         "wgs84": {
           "lat": 48.223956,
           "lng": 14.180234
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": "3",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - ",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "FF Altmünster"
-          },
-          "403217": {
-            "feuerwehr": "FF Pinsdorf"
-          },
-          "403263": {
-            "feuerwehr": "BTF Hatschek"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altmünster",
-            "fwnr": "403201"
-          },
-          "1": {
-            "fwname": "FF Pinsdorf",
-            "fwnr": "403217"
-          },
-          "2": {
-            "fwname": "BTF Hatschek",
-            "fwnr": "403263"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231204072",
-        "startzeit": "Sat, 09 Dec 2023 08:43:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.920712,
-          "lng": 13.776847
         }
       }
     }
