@@ -1,16 +1,63 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "HATSCHEKSTRAßE 24",
-          "earea": "ALTMüNSTER",
+          "default": "AICHBERGSIEDLUNG 25",
+          "earea": "TAUFKIRCHEN AN DER PRAM",
           "ecompl": "",
-          "efeanme": "HATSCHEKSTRAßE",
-          "emun": "ALTMüNSTER",
-          "estnum": "24"
+          "efeanme": "AICHBERGSIEDLUNG",
+          "emun": "TAUFKIRCHEN AN DER PRAM",
+          "estnum": "25"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - TAUFKIRCHEN AN DER PRAM",
+        "einsatzsubtyp": {
+          "id": "1-TELEFON",
+          "text": "KLEINALARM"
+        },
+        "einsatztyp": {
+          "id": "ALKLEIN",
+          "text": "KLEINALARM FEUERWEHREINSATZ (AL-MITTEL REDUZIERT)"
+        },
+        "feuerwehren": {
+          "410325": {
+            "feuerwehr": "FF Taufkirchen an der Pram"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Taufkirchen an der Pram",
+            "fwnr": "410325"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204074",
+        "startzeit": "Sat, 09 Dec 2023 08:44:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.411241,
+          "lng": 13.528976
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
         },
         "alarmstufe": "3",
         "bezirk": {
@@ -19,7 +66,7 @@
         },
         "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
-        "einsatzort": "GM - ALTMüNSTER",
+        "einsatzort": "GM - ",
         "einsatzsubtyp": {
           "id": "VUBERGE-VU",
           "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
@@ -58,8 +105,8 @@
         "startzeit": "Sat, 09 Dec 2023 08:43:04 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.920784,
-          "lng": 13.776505
+          "lat": 47.920712,
+          "lng": 13.776847
         }
       }
     }
