@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KLOSTERSTRAßE 11",
+          "earea": "WAIZENKIRCHEN",
+          "ecompl": "00000-43463-1",
+          "efeanme": "KLOSTERSTRAßE",
+          "emun": "WAIZENKIRCHEN",
+          "estnum": "11"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - WAIZENKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "404320": {
+            "feuerwehr": "FF Stillfüssing"
+          },
+          "404324": {
+            "feuerwehr": "FF Waizenkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Stillfüssing",
+            "fwnr": "404320"
+          },
+          "1": {
+            "fwname": "FF Waizenkirchen",
+            "fwnr": "404324"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204069",
+        "startzeit": "Sat, 09 Dec 2023 07:38:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.328202,
+          "lng": 13.85348
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +147,10 @@
             "fwnr": "404120"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 09 Dec 2023 07:52:34 +0100",
         "num1": "E231204062",
         "startzeit": "Sat, 09 Dec 2023 07:13:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.211944,
           "lng": 13.768889
