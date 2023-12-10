@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "VORALPENKREUZ 3",
+          "earea": "OBERHART",
+          "ecompl": "",
+          "efeanme": "VORALPENKREUZ",
+          "emun": "SATTLEDT",
+          "estnum": "3"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - SATTLEDT",
+        "einsatzsubtyp": {
+          "id": "BMA-BG",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "414218": {
+            "feuerwehr": "FF Sattledt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Sattledt",
+            "fwnr": "414218"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204210",
+        "startzeit": "Sun, 10 Dec 2023 13:32:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.066338,
+          "lng": 14.037588
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "413312"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 10 Dec 2023 13:22:35 +0100",
         "num1": "E231204201",
         "startzeit": "Sun, 10 Dec 2023 12:25:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.055858,
           "lng": 13.80544
