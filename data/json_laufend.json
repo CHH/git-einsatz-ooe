@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALTENFELDEN",
+          "earea": "",
+          "ecompl": "KM 0.2 HÖHE L584 FALKENSTEINSTRAßE",
+          "efeanme": "",
+          "emun": "ALTENFELDEN",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RO - ALTENFELDEN",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409301": {
+            "feuerwehr": "FF Altenfelden"
+          },
+          "409404": {
+            "feuerwehr": "FF Arnreit"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altenfelden",
+            "fwnr": "409301"
+          },
+          "1": {
+            "fwname": "FF Arnreit",
+            "fwnr": "409404"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204177",
+        "startzeit": "Sun, 10 Dec 2023 05:05:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.496509,
+          "lng": 13.967606
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
