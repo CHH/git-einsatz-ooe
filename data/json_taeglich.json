@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HöTZING 17",
+          "earea": "HöTZING",
+          "ecompl": "",
+          "efeanme": "HöTZING",
+          "emun": "EBERSCHWANG",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - EBERSCHWANG",
+        "einsatzsubtyp": {
+          "id": "TRAFO-BK",
+          "text": "BRAND ELEKTRISCHE ANLAGEN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408203": {
+            "feuerwehr": "FF Eberschwang"
+          },
+          "408208": {
+            "feuerwehr": "FF Hausruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Eberschwang",
+            "fwnr": "408203"
+          },
+          "1": {
+            "fwname": "FF Hausruck",
+            "fwnr": "408208"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204262",
+        "startzeit": "Mon, 11 Dec 2023 10:02:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.133235,
+          "lng": 13.548669
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "414215"
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 11 Dec 2023 09:41:14 +0100",
         "num1": "E231204255",
         "startzeit": "Mon, 11 Dec 2023 08:22:25 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.189778,
           "lng": 14.098113
