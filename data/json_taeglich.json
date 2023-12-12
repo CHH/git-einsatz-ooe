@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "INDUSTRIEZEILE 50",
+          "earea": "HIMMELLINDACH",
+          "ecompl": "00000-1089-1",
+          "efeanme": "INDUSTRIEZEILE",
+          "emun": "BRAUNAU AM INN",
+          "estnum": "50"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - BRAUNAU AM INN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "FF Braunau am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Braunau am Inn",
+            "fwnr": "400102"
+          }
+        },
+        "inzeit": "Tue, 12 Dec 2023 07:04:30 +0100",
+        "num1": "E231204333",
+        "startzeit": "Tue, 12 Dec 2023 06:37:19 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.245745,
+          "lng": 13.057092
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "AM THALBACH 9",
+          "earea": "BERGERNDORF",
+          "ecompl": "00000-143365-2",
+          "efeanme": "AM THALBACH",
+          "emun": "THALHEIM BEI WELS",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - THALHEIM BEI WELS",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414223": {
+            "feuerwehr": "FF Thalheim bei Wels"
+          },
+          "414226": {
+            "feuerwehr": "FF Am Thalbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Thalheim bei Wels",
+            "fwnr": "414223"
+          },
+          "1": {
+            "fwname": "FF Am Thalbach",
+            "fwnr": "414226"
+          }
+        },
+        "inzeit": "Tue, 12 Dec 2023 06:58:43 +0100",
+        "num1": "E231204331",
+        "startzeit": "Tue, 12 Dec 2023 06:34:54 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.136788,
+          "lng": 14.042938
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BACHGASSE 1",
+          "earea": "WINDISCHGARSTEN",
+          "ecompl": "",
+          "efeanme": "BACHGASSE",
+          "emun": "WINDISCHGARSTEN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - WINDISCHGARSTEN",
+        "einsatzsubtyp": {
+          "id": "TRAFO-BK",
+          "text": "BRAND ELEKTRISCHE ANLAGEN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405405": {
+            "feuerwehr": "FF Windischgarsten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Windischgarsten",
+            "fwnr": "405405"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204329",
+        "startzeit": "Tue, 12 Dec 2023 06:33:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.720229,
+          "lng": 14.314486
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +187,10 @@
             "fwnr": "402103"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 12 Dec 2023 07:16:34 +0100",
         "num1": "E231204327",
         "startzeit": "Tue, 12 Dec 2023 06:17:13 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.488483,
           "lng": 14.49788
@@ -107,10 +255,10 @@
             "fwnr": "41510108"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 12 Dec 2023 06:57:01 +0100",
         "num1": "E231204325",
         "startzeit": "Tue, 12 Dec 2023 03:50:55 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.044892,
           "lng": 14.439664
