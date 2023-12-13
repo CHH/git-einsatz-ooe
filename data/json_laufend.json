@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SANDTAL 41",
+          "earea": "SANDTAL",
+          "ecompl": "",
+          "efeanme": "SANDTAL",
+          "emun": "HANDENBERG",
+          "estnum": "41"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - HANDENBERG",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400104": {
+            "feuerwehr": "FF Handenberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Handenberg",
+            "fwnr": "400104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204510",
+        "startzeit": "Wed, 13 Dec 2023 23:06:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.137056,
+          "lng": 13.019075
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - LAAKIRCHEN",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "403215": {
             "feuerwehr": "FF Oberweis"
+          },
+          "403262": {
+            "feuerwehr": "BTF Steyrermühl"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Oberweis",
             "fwnr": "403215"
+          },
+          "1": {
+            "fwname": "BTF Steyrermühl",
+            "fwnr": "403262"
           }
         },
         "inzeit": "",
