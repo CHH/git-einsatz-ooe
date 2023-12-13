@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GEWERBEPARK NEUKIRCHEN BEI LAMBACH",
+          "earea": "GEWERBEPARK NEUKIRCHEN BEI LAMBACH",
+          "ecompl": "B1 WIENER STRAßE",
+          "efeanme": "",
+          "emun": "LAMBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - LAMBACH",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "FF Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lambach",
+            "fwnr": "414111"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204486",
+        "startzeit": "Wed, 13 Dec 2023 16:34:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.089994,
+          "lng": 13.848991
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
