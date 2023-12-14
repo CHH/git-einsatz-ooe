@@ -1,7 +1,90 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 6,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERWEIS 22",
+          "earea": "LAAKIRCHEN",
+          "ecompl": "",
+          "efeanme": "OBERWEIS",
+          "emun": "LAAKIRCHEN",
+          "estnum": "22"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 6,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - LAAKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "403204": {
+            "feuerwehr": "FF Diethaming"
+          },
+          "403211": {
+            "feuerwehr": "FF Laakirchen"
+          },
+          "403213": {
+            "feuerwehr": "FF Lindach"
+          },
+          "403215": {
+            "feuerwehr": "FF Oberweis"
+          },
+          "403218": {
+            "feuerwehr": "FF Rahstorf"
+          },
+          "403262": {
+            "feuerwehr": "BTF Steyrermühl"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Diethaming",
+            "fwnr": "403204"
+          },
+          "1": {
+            "fwname": "FF Laakirchen",
+            "fwnr": "403211"
+          },
+          "2": {
+            "fwname": "FF Lindach",
+            "fwnr": "403213"
+          },
+          "3": {
+            "fwname": "FF Oberweis",
+            "fwnr": "403215"
+          },
+          "4": {
+            "fwname": "FF Rahstorf",
+            "fwnr": "403218"
+          },
+          "5": {
+            "fwname": "BTF Steyrermühl",
+            "fwnr": "403262"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204535",
+        "startzeit": "Thu, 14 Dec 2023 09:56:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.952922,
+          "lng": 13.818086
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
