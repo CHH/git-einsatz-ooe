@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MARCHTRENKER STRAßE 48",
+          "earea": "OBERHOCHERENZ",
+          "ecompl": "",
+          "efeanme": "MARCHTRENKER STRAßE",
+          "emun": "BUCHKIRCHEN",
+          "estnum": "48"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - BUCHKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414203": {
+            "feuerwehr": "FF Buchkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Buchkirchen",
+            "fwnr": "414203"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204513",
+        "startzeit": "Thu, 14 Dec 2023 02:47:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.219187,
+          "lng": 14.0594
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
