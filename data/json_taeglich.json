@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHULSTRAßE 20",
+          "earea": "TRAGWEIN",
+          "ecompl": "00000-21030-1",
+          "efeanme": "SCHULSTRAßE",
+          "emun": "TRAGWEIN",
+          "estnum": "20"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - TRAGWEIN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "402211": {
+            "feuerwehr": "FF Tragwein"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Tragwein",
+            "fwnr": "402211"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204515",
+        "startzeit": "Thu, 14 Dec 2023 03:11:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.327157,
+          "lng": 14.622617
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MARCHTRENKER STRAßE 48",
+          "earea": "OBERHOCHERENZ",
+          "ecompl": "",
+          "efeanme": "MARCHTRENKER STRAßE",
+          "emun": "BUCHKIRCHEN",
+          "estnum": "48"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - BUCHKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414203": {
+            "feuerwehr": "FF Buchkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Buchkirchen",
+            "fwnr": "414203"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204513",
+        "startzeit": "Thu, 14 Dec 2023 02:47:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.219187,
+          "lng": 14.0594
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
