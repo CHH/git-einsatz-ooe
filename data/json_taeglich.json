@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERHART 2",
+          "earea": "OBERHART",
+          "ecompl": "",
+          "efeanme": "OBERHART",
+          "emun": "SATTLEDT",
+          "estnum": "2"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - SATTLEDT",
+        "einsatzsubtyp": {
+          "id": "PERSON-TG",
+          "text": "PERSONENRETTUNG"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "414218": {
+            "feuerwehr": "FF Sattledt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Sattledt",
+            "fwnr": "414218"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204584",
+        "startzeit": "Thu, 14 Dec 2023 17:32:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.072546,
+          "lng": 14.03979
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,10 +99,10 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "OSTERNACH ",
-          "earea": "OSTERNACH",
-          "ecompl": "4331401-1",
-          "efeanme": "OSTERNACH",
+          "default": "ORT IM INNKREIS",
+          "earea": "",
+          "ecompl": "L1112 OSTERNACHER STRAßE KM 4.0 HÖHE OSTERNACH",
+          "efeanme": "",
           "emun": "ORT IM INNKREIS",
           "estnum": ""
         },
@@ -65,11 +112,11 @@
           "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
+        "einsatzart": "TEE",
         "einsatzort": "RI - ORT IM INNKREIS",
         "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
         },
         "einsatztyp": {
           "id": "VU",
@@ -98,8 +145,8 @@
         "startzeit": "Thu, 14 Dec 2023 17:10:15 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 48.312896,
-          "lng": 13.452029
+          "lat": 48.314176,
+          "lng": 13.455567
         }
       }
     },
@@ -147,10 +194,10 @@
             "fwnr": "406110"
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 14 Dec 2023 17:41:13 +0100",
         "num1": "E231204573",
         "startzeit": "Thu, 14 Dec 2023 15:38:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.235687,
           "lng": 14.339225
