@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "A9 FAHRTR. VORALPENK",
+          "earea": "",
+          "ecompl": "A9 FAHRTR. VORALPENKR. NACH AUFFAHRT INZERSDORF BEI KM 5.5",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - ",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405204": {
+            "feuerwehr": "FF Inzersdorf im Kremstal"
+          },
+          "405308": {
+            "feuerwehr": "FF Voitsdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Inzersdorf im Kremstal",
+            "fwnr": "405204"
+          },
+          "1": {
+            "fwname": "FF Voitsdorf",
+            "fwnr": "405308"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204609",
+        "startzeit": "Fri, 15 Dec 2023 01:33:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.018542,
+          "lng": 14.067256
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "409408"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 15 Dec 2023 01:40:59 +0100",
         "num1": "E231204607",
         "startzeit": "Fri, 15 Dec 2023 00:10:52 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.542483,
           "lng": 14.139624
