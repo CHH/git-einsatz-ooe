@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KRäUTERDORFSTRAßE 28",
+          "earea": "KLAFFER AM HOCHFICHT",
+          "ecompl": "",
+          "efeanme": "KRäUTERDORFSTRAßE",
+          "emun": "KLAFFER AM HOCHFICHT",
+          "estnum": "28"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - KLAFFER AM HOCHFICHT",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "409104": {
+            "feuerwehr": "FF Klaffer"
+          },
+          "409109": {
+            "feuerwehr": "FF Ulrichsberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Klaffer",
+            "fwnr": "409104"
+          },
+          "1": {
+            "fwname": "FF Ulrichsberg",
+            "fwnr": "409109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204760",
+        "startzeit": "Sun, 17 Dec 2023 12:21:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.695516,
+          "lng": 13.881344
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
