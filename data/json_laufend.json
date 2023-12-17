@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ST. MARTIN IM MÜHLKREIS",
+          "earea": "",
+          "ecompl": "B127 ROHRBACHER STRAßE KM 25.0 HÖHE ALLERSDORF",
+          "efeanme": "",
+          "emun": "ST. MARTIN IM MÜHLKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RO - ST. MARTIN IM MÜHLKREIS",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409312": {
+            "feuerwehr": "FF Plöcking"
+          },
+          "409314": {
+            "feuerwehr": "FF St. Martin im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Plöcking",
+            "fwnr": "409312"
+          },
+          "1": {
+            "fwname": "FF St. Martin im Mühlkreis",
+            "fwnr": "409314"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204744",
+        "startzeit": "Sun, 17 Dec 2023 04:44:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.417141,
+          "lng": 14.061599
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
