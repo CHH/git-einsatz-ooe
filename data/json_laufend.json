@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SCHöNEBEN 10",
+          "earea": "SCHöNEBEN",
+          "ecompl": "00000-91034-1",
+          "efeanme": "SCHöNEBEN",
+          "emun": "ULRICHSBERG",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - ULRICHSBERG",
+        "einsatzsubtyp": {
+          "id": "BMA2-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "409105": {
+            "feuerwehr": "FF Ödenkirchen"
+          },
+          "409109": {
+            "feuerwehr": "FF Ulrichsberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ödenkirchen",
+            "fwnr": "409105"
+          },
+          "1": {
+            "fwname": "FF Ulrichsberg",
+            "fwnr": "409109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204780",
+        "startzeit": "Sun, 17 Dec 2023 18:08:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.705342,
+          "lng": 13.946908
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
