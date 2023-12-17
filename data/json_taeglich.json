@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 20,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RIED IM INNKREIS",
+          "earea": "RIED IM INNKREIS",
+          "ecompl": "HARTLAUER OPTIK RIED",
+          "efeanme": "",
+          "emun": "RIED IM INNKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - RIED IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204770",
+        "startzeit": "Sun, 17 Dec 2023 15:09:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.208055,
+          "lng": 13.487139
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "BR - GERETSBERG",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "400102": {
+            "feuerwehr": "FF Braunau am Inn"
+          },
           "400405": {
             "feuerwehr": "FF Geretsberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Braunau am Inn",
+            "fwnr": "400102"
+          },
+          "1": {
             "fwname": "FF Geretsberg",
             "fwnr": "400405"
           }
@@ -147,10 +201,10 @@
             "fwnr": "412221"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Dec 2023 14:43:52 +0100",
         "num1": "E231204762",
         "startzeit": "Sun, 17 Dec 2023 13:14:53 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.341722,
           "lng": 14.165397
@@ -201,10 +255,10 @@
             "fwnr": "409109"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Dec 2023 14:21:56 +0100",
         "num1": "E231204760",
         "startzeit": "Sun, 17 Dec 2023 12:21:30 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.695516,
           "lng": 13.881344
