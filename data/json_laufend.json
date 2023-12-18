@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "WEILHARTSTRAßE 6",
-          "earea": "RIEDERSBACH",
-          "ecompl": "00000-1093-1",
-          "efeanme": "WEILHARTSTRAßE",
-          "emun": "ST. PANTALEON",
-          "estnum": "6"
+          "default": "WOLFERN",
+          "earea": "",
+          "ecompl": "KM 24.6 HÖHE L564 WOLFERNER STRAßE",
+          "efeanme": "",
+          "emun": "WOLFERN",
+          "estnum": ""
         },
-        "alarmstufe": 1,
+        "alarmstufe": "3",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 11,
+          "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - ST. PANTALEON",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SE - WOLFERN",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "400415": {
-            "feuerwehr": "FF Trimmelkam"
+          "411218": {
+            "feuerwehr": "FF Wolfern"
+          },
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Trimmelkam",
-            "fwnr": "400415"
+            "fwname": "FF Wolfern",
+            "fwnr": "411218"
+          },
+          "1": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
           }
         },
         "inzeit": "",
-        "num1": "E231204823",
-        "startzeit": "Mon, 18 Dec 2023 10:16:26 +0100",
+        "num1": "E231204827",
+        "startzeit": "Mon, 18 Dec 2023 10:48:31 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 48.026572,
-          "lng": 12.845196
+          "lat": 48.063178,
+          "lng": 14.388723
         }
       }
     }
