@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ATTERGAUSTRAßE 55",
+          "earea": "ST. GEORGEN IM ATTERGAU",
+          "ecompl": "",
+          "efeanme": "ATTERGAUSTRAßE",
+          "emun": "ST. GEORGEN IM ATTERGAU",
+          "estnum": "55"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - ST. GEORGEN IM ATTERGAU",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413518": {
+            "feuerwehr": "FF St. Georgen im Attergau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Georgen im Attergau",
+            "fwnr": "413518"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204857",
+        "startzeit": "Mon, 18 Dec 2023 15:33:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.934917,
+          "lng": 13.487771
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
