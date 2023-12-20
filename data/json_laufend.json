@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FRANZ-SEBEK-STRAßE 4",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "FRANZ-SEBEK-STRAßE",
+          "emun": "STEYR",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205067",
+        "startzeit": "Wed, 20 Dec 2023 17:27:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.05248,
+          "lng": 14.439937
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,100 +154,6 @@
         "wgs84": {
           "lat": 48.396718,
           "lng": 14.279679
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "EGGER-LIENZ-STRAßE 15",
-          "earea": "ST. MARTIN",
-          "ecompl": "00000-61022-1",
-          "efeanme": "EGGER-LIENZ-STRAßE",
-          "emun": "TRAUN",
-          "estnum": "15"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - TRAUN",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "FF Traun"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Traun",
-            "fwnr": "406222"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205060",
-        "startzeit": "Wed, 20 Dec 2023 16:40:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.234475,
-          "lng": 14.272101
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SCHMIEDGASSE ",
-          "earea": "ST. MARIENKIRCHEN AN DER POLSENZ",
-          "ecompl": "3411701-1",
-          "efeanme": "SCHMIEDGASSE",
-          "emun": "ST. MARIENKIRCHEN AN DER POLSENZ",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "EF - ST. MARIENKIRCHEN AN DER POLSENZ",
-        "einsatzsubtyp": {
-          "id": "BMT-DI",
-          "text": "BRANDMELDETASTE GEDRÜCKT"
-        },
-        "einsatztyp": {
-          "id": "DISP",
-          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
-        },
-        "feuerwehren": {
-          "401117": {
-            "feuerwehr": "FF St. Marienkirchen a.d.P."
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Marienkirchen a.d.P.",
-            "fwnr": "401117"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205058",
-        "startzeit": "Wed, 20 Dec 2023 16:22:49 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.264017,
-          "lng": 13.930408
         }
       }
     },
