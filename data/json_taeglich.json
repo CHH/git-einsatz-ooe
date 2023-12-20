@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TILLYSBURG 1",
+          "earea": "TILLYSBURG",
+          "ecompl": "00000-63034-1",
+          "efeanme": "TILLYSBURG",
+          "emun": "ST. FLORIAN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ST. FLORIAN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406108": {
+            "feuerwehr": "FF Bruck-Hausleiten"
+          },
+          "406110": {
+            "feuerwehr": "FF St. Florian-Markt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bruck-Hausleiten",
+            "fwnr": "406108"
+          },
+          "1": {
+            "fwname": "FF St. Florian-Markt",
+            "fwnr": "406110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204979",
+        "startzeit": "Wed, 20 Dec 2023 07:46:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.199289,
+          "lng": 14.422012
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "413428"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 20 Dec 2023 07:23:42 +0100",
         "num1": "E231204973",
         "startzeit": "Wed, 20 Dec 2023 06:39:07 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.063522,
           "lng": 13.601509
@@ -133,10 +187,10 @@
             "fwnr": "407208"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 20 Dec 2023 07:31:10 +0100",
         "num1": "E231204969",
         "startzeit": "Wed, 20 Dec 2023 05:41:09 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.280653,
           "lng": 14.41589
