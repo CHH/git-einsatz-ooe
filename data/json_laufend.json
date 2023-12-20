@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TILLYSBURG 1",
+          "earea": "TILLYSBURG",
+          "ecompl": "00000-63034-1",
+          "efeanme": "TILLYSBURG",
+          "emun": "ST. FLORIAN",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - ST. FLORIAN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406108": {
+            "feuerwehr": "FF Bruck-Hausleiten"
+          },
+          "406110": {
+            "feuerwehr": "FF St. Florian-Markt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bruck-Hausleiten",
+            "fwnr": "406108"
+          },
+          "1": {
+            "fwname": "FF St. Florian-Markt",
+            "fwnr": "406110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231204979",
+        "startzeit": "Wed, 20 Dec 2023 07:46:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.199289,
+          "lng": 14.422012
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
