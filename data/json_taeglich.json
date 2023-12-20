@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAHNHOFSTRAßE 17",
+          "earea": "VöCKLABRUCK",
+          "ecompl": "",
+          "efeanme": "BAHNHOFSTRAßE",
+          "emun": "VöCKLABRUCK",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - VöCKLABRUCK",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "FF Vöcklabruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Vöcklabruck",
+            "fwnr": "413429"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205007",
+        "startzeit": "Wed, 20 Dec 2023 11:13:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.009833,
+          "lng": 13.663602
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "411217"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 20 Dec 2023 10:56:09 +0100",
         "num1": "E231204999",
         "startzeit": "Wed, 20 Dec 2023 09:55:47 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.035028,
           "lng": 14.315688
