@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "EF - ",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401109": {
+            "feuerwehr": "FF Hartkirchen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hartkirchen",
+            "fwnr": "401109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205219",
+        "startzeit": "Thu, 21 Dec 2023 21:12:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.345819,
+          "lng": 13.975359
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -153,53 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "SCHENKENFELDEN",
-          "earea": "",
-          "ecompl": "B38 BÖHMERWALDSTRAßE KM 118.2 HÖHE VORDERKÖNIGSCHLAG",
-          "efeanme": "",
-          "emun": "SCHENKENFELDEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "UU - SCHENKENFELDEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412117": {
-            "feuerwehr": "FF Schenkenfelden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Schenkenfelden",
-            "fwnr": "412117"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205211",
-        "startzeit": "Thu, 21 Dec 2023 20:37:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.520783,
-          "lng": 14.332901
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "FELDWEG ",
           "earea": "FRANKENMARKT",
           "ecompl": "",
@@ -241,60 +241,6 @@
         "wgs84": {
           "lat": 47.986354,
           "lng": 13.413999
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WELSER STRAßE 122",
-          "earea": "UNTERHART",
-          "ecompl": "00000-141078-1",
-          "efeanme": "WELSER STRAßE",
-          "emun": "MARCHTRENK",
-          "estnum": "122"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - MARCHTRENK",
-        "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
-        },
-        "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "FF Kappern"
-          },
-          "414215": {
-            "feuerwehr": "FF Marchtrenk"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kappern",
-            "fwnr": "414212"
-          },
-          "1": {
-            "fwname": "FF Marchtrenk",
-            "fwnr": "414215"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205207",
-        "startzeit": "Thu, 21 Dec 2023 20:14:54 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.186464,
-          "lng": 14.080062
         }
       }
     },
