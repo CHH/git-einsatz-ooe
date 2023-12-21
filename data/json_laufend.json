@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "RO - ",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "409109": {
+            "feuerwehr": "FF Ulrichsberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ulrichsberg",
+            "fwnr": "409109"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205223",
+        "startzeit": "Thu, 21 Dec 2023 21:38:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.668205,
+          "lng": 13.872854
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,74 +241,6 @@
         "wgs84": {
           "lat": 48.221434,
           "lng": 13.318662
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SEEWALCHEN AM ATTERSEE",
-          "earea": "",
-          "ecompl": "B151 ATTERSEESTRAßE KM 9.4 HÖHE MOOS",
-          "efeanme": "",
-          "emun": "SEEWALCHEN AM ATTERSEE",
-          "estnum": ""
-        },
-        "alarmstufe": "3",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - SEEWALCHEN AM ATTERSEE",
-        "einsatzsubtyp": {
-          "id": "VUBERGE-VU",
-          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "FF Vöcklabruck"
-          },
-          "413519": {
-            "feuerwehr": "FF Schörfling am Attersee"
-          },
-          "413520": {
-            "feuerwehr": "FF Seewalchen am Attersee"
-          },
-          "413522": {
-            "feuerwehr": "FF Steindorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Vöcklabruck",
-            "fwnr": "413429"
-          },
-          "1": {
-            "fwname": "FF Schörfling am Attersee",
-            "fwnr": "413519"
-          },
-          "2": {
-            "fwname": "FF Seewalchen am Attersee",
-            "fwnr": "413520"
-          },
-          "3": {
-            "fwname": "FF Steindorf",
-            "fwnr": "413522"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205140",
-        "startzeit": "Thu, 21 Dec 2023 15:19:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.948085,
-          "lng": 13.573473
         }
       }
     }
