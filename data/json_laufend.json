@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAIBACH OB DER DONAU",
+          "earea": "",
+          "ecompl": "B130 NIBELUNGENSTRAßE KM 16.0 HÖHE GRUB",
+          "efeanme": "",
+          "emun": "HAIBACH OB DER DONAU",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "EF - HAIBACH OB DER DONAU",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401107": {
+            "feuerwehr": "FF Haibach ob der Donau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Haibach ob der Donau",
+            "fwnr": "401107"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205230",
+        "startzeit": "Thu, 21 Dec 2023 22:07:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.403395,
+          "lng": 13.898455
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,100 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "STöCKLGRABEN 64",
-          "earea": "HAGENBERG IM MüHLKREIS",
-          "ecompl": "",
-          "efeanme": "STöCKLGRABEN",
-          "emun": "HAGENBERG IM MüHLKREIS",
-          "estnum": "64"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "FR - HAGENBERG IM MüHLKREIS",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402205": {
-            "feuerwehr": "FF Hagenberg im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hagenberg im Mühlkreis",
-            "fwnr": "402205"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205225",
-        "startzeit": "Thu, 21 Dec 2023 21:41:57 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.364742,
-          "lng": 14.5097
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - ",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409109": {
-            "feuerwehr": "FF Ulrichsberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ulrichsberg",
-            "fwnr": "409109"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205223",
-        "startzeit": "Thu, 21 Dec 2023 21:38:17 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.668205,
-          "lng": 13.872854
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "NETTINGSDORFER STRAßE 40",
           "earea": "NETTINGSDORF",
           "ecompl": "00000-63237-1",
@@ -187,53 +140,6 @@
         "wgs84": {
           "lat": 48.184193,
           "lng": 14.260022
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "EF - ",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401109": {
-            "feuerwehr": "FF Hartkirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Hartkirchen",
-            "fwnr": "401109"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205219",
-        "startzeit": "Thu, 21 Dec 2023 21:12:33 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.345819,
-          "lng": 13.975359
         }
       }
     },
