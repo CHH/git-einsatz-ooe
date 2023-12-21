@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SUBEN ",
+          "earea": "SUBEN",
+          "ecompl": "KINDERGARTEN SUBEN",
+          "efeanme": "SUBEN",
+          "emun": "SUBEN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "SD - SUBEN",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410324": {
+            "feuerwehr": "FF Suben"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Suben",
+            "fwnr": "410324"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205232",
+        "startzeit": "Thu, 21 Dec 2023 22:22:20 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.410054,
+          "lng": 13.431798
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,60 +187,6 @@
         "wgs84": {
           "lat": 48.184193,
           "lng": 14.260022
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - ",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410206": {
-            "feuerwehr": "FF Enzenkirchen"
-          },
-          "410210": {
-            "feuerwehr": "FF Matzing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Enzenkirchen",
-            "fwnr": "410206"
-          },
-          "1": {
-            "fwname": "FF Matzing",
-            "fwnr": "410210"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205216",
-        "startzeit": "Thu, 21 Dec 2023 20:54:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.374406,
-          "lng": 13.652247
         }
       }
     }
