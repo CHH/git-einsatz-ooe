@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "BR - ",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400113": {
+            "feuerwehr": "FF Überackern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Überackern",
+            "fwnr": "400113"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205956",
+        "startzeit": "Fri, 22 Dec 2023 10:20:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.202431,
+          "lng": 12.952139
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GRAZER STRAßE 58",
+          "earea": "REITERNDORF",
+          "ecompl": "",
+          "efeanme": "GRAZER STRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "58"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "40310203": {
+            "feuerwehr": "FW Reiterndorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Reiterndorf",
+            "fwnr": "40310203"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205954",
+        "startzeit": "Fri, 22 Dec 2023 10:19:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.704279,
+          "lng": 13.627682
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -287,53 +381,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - ",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413412": {
-            "feuerwehr": "FF Neukirchen an der Vöckla"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Neukirchen an der Vöckla",
-            "fwnr": "413412"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205939",
-        "startzeit": "Fri, 22 Dec 2023 09:53:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.039774,
-          "lng": 13.525323
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "FRANKENBURG AM HAUSRUCK",
           "earea": "",
           "ecompl": "FW PEHIGEN",
@@ -393,7 +440,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - OBERTRAUN",
         "einsatzsubtyp": {
@@ -405,6 +452,9 @@
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "403101": {
+            "feuerwehr": "FF Bad Goisern"
+          },
           "403105": {
             "feuerwehr": "FF Hallstatt"
           },
@@ -414,10 +464,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Bad Goisern",
+            "fwnr": "403101"
+          },
+          "1": {
             "fwname": "FF Hallstatt",
             "fwnr": "403105"
           },
-          "1": {
+          "2": {
             "fwname": "FF Obertraun",
             "fwnr": "403111"
           }
@@ -583,53 +637,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "VORNHOLZ 18",
-          "earea": "VORNHOLZ",
-          "ecompl": "",
-          "efeanme": "VORNHOLZ",
-          "emun": "ZELL AM PETTENFIRST",
-          "estnum": "18"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - ZELL AM PETTENFIRST",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413433": {
-            "feuerwehr": "FF Zell am Pettenfirst"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Zell am Pettenfirst",
-            "fwnr": "413433"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205915",
-        "startzeit": "Fri, 22 Dec 2023 08:55:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.053096,
-          "lng": 13.60378
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "KREUTERER STRAßE 51",
           "earea": "KREUTERN",
           "ecompl": "",
@@ -738,53 +745,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "MAGERLSTRAßE ",
-          "earea": "RIED IM INNKREIS",
-          "ecompl": "BAUCHINGER LAGERHAUS",
-          "efeanme": "MAGERLSTRAßE",
-          "emun": "RIED IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205901",
-        "startzeit": "Fri, 22 Dec 2023 08:34:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.200487,
-          "lng": 13.481316
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "WIRLING 12",
           "earea": "WIRLING",
           "ecompl": "",
@@ -826,53 +786,6 @@
         "wgs84": {
           "lat": 47.723954,
           "lng": 13.552879
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "RIED IM INNKREIS",
-          "earea": "RIED IM INNKREIS",
-          "ecompl": "GITTMAIER GMBH",
-          "efeanme": "",
-          "emun": "RIED IM INNKREIS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "KEIN_UNWETTER-DI",
-          "text": "FREIMACHEN VERKEHRSWEG"
-        },
-        "einsatztyp": {
-          "id": "DISP",
-          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205878",
-        "startzeit": "Fri, 22 Dec 2023 07:59:29 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.199864,
-          "lng": 13.48163
         }
       }
     },
