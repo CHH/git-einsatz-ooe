@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 31,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "KLAUS AN DER PYHRNBAHN",
+          "default": "ATTERSEE AM ATTERSEE",
           "earea": "",
-          "ecompl": "VOESTALPINE STAHLGMBH-KALKWERK STEYRLING",
+          "ecompl": "B151 ATTERSEESTRAßE KM 16.2 HÖHE MÜHLBACH",
           "efeanme": "",
-          "emun": "KLAUS AN DER PYHRNBAHN",
+          "emun": "ATTERSEE AM ATTERSEE",
           "estnum": ""
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
+          "id": 13,
+          "text": "Vöcklabruck"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - KLAUS AN DER PYHRNBAHN",
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - ATTERSEE AM ATTERSEE",
         "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
         },
         "einsatztyp": {
           "id": "TK",
           "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "405216": {
-            "feuerwehr": "FF Steyrling"
+          "413503": {
+            "feuerwehr": "FF Attersee"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Steyrling",
-            "fwnr": "405216"
+            "fwname": "FF Attersee",
+            "fwnr": "413503"
           }
         },
         "inzeit": "",
-        "num1": "E231205738",
-        "startzeit": "Fri, 22 Dec 2023 01:43:59 +0100",
+        "num1": "E231205743",
+        "startzeit": "Fri, 22 Dec 2023 01:57:10 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 47.806972,
-          "lng": 14.159785
+          "lat": 47.909542,
+          "lng": 13.527969
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAUMGARTING 28",
+          "earea": "BAUMGARTING",
+          "ecompl": "",
+          "efeanme": "BAUMGARTING",
+          "emun": "GAMPERN",
+          "estnum": "28"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - GAMPERN",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413407": {
+            "feuerwehr": "FF Baumgarting"
+          },
+          "413408": {
+            "feuerwehr": "FF Gampern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Baumgarting",
+            "fwnr": "413407"
+          },
+          "1": {
+            "fwname": "FF Gampern",
+            "fwnr": "413408"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205741",
+        "startzeit": "Fri, 22 Dec 2023 01:47:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.001934,
+          "lng": 13.564194
         }
       }
     },
@@ -194,53 +248,6 @@
         "wgs84": {
           "lat": 48.012001,
           "lng": 13.531465
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": null,
-          "earea": "",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "WL - ",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414104": {
-            "feuerwehr": "FF Bergham-Kösslwang"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Bergham-Kösslwang",
-            "fwnr": "414104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205730",
-        "startzeit": "Fri, 22 Dec 2023 01:26:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.016475,
-          "lng": 13.881479
         }
       }
     },
@@ -583,53 +590,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "KLAMLEITEN 7",
-          "earea": "KLAMLEITEN",
-          "ecompl": "",
-          "efeanme": "KLAMLEITEN",
-          "emun": "ALBERNDORF IN DER RIEDMARK",
-          "estnum": "7"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - ALBERNDORF IN DER RIEDMARK",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412306": {
-            "feuerwehr": "FF Kottingersdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kottingersdorf",
-            "fwnr": "412306"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205703",
-        "startzeit": "Fri, 22 Dec 2023 00:45:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.392372,
-          "lng": 14.400098
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "ST. WOLFGANG IM SALZKAMMERGUT",
           "earea": "",
           "ecompl": "FW ST. WOLFGANG",
@@ -677,53 +637,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "FALLHOLZ",
-          "earea": "FALLHOLZ",
-          "ecompl": "FALLHOLZ",
-          "efeanme": "",
-          "emun": "DESSELBRUNN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - DESSELBRUNN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413317": {
-            "feuerwehr": "FF Windern"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Windern",
-            "fwnr": "413317"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205690",
-        "startzeit": "Fri, 22 Dec 2023 00:33:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.021656,
-          "lng": 13.799438
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "GOSAUSEESTRAßE 15",
           "earea": "GOSAU",
           "ecompl": "00000-31153-1",
@@ -765,53 +678,6 @@
         "wgs84": {
           "lat": 47.581493,
           "lng": 13.534115
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HINDING 23",
-          "earea": "HINDING",
-          "ecompl": "TANKSTELLE TURMÖL (TANKSTELLE ACHLEITEN)",
-          "efeanme": "HINDING",
-          "emun": "FREINBERG",
-          "estnum": "23"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - FREINBERG",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410305": {
-            "feuerwehr": "FF Freinberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Freinberg",
-            "fwnr": "410305"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205662",
-        "startzeit": "Fri, 22 Dec 2023 00:24:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.58111,
-          "lng": 13.503534
         }
       }
     },
@@ -994,107 +860,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "ALTENBERG 10",
-          "earea": "ALTENBERG",
-          "ecompl": "",
-          "efeanme": "ALTENBERG",
-          "emun": "ESCHENAU IM HAUSRUCKKREIS",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - ESCHENAU IM HAUSRUCKKREIS",
-        "einsatzsubtyp": {
-          "id": "TRAFO-BK",
-          "text": "BRAND ELEKTRISCHE ANLAGEN"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404303": {
-            "feuerwehr": "FF Aubach"
-          },
-          "404305": {
-            "feuerwehr": "FF Eschenau im Hausruckkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Aubach",
-            "fwnr": "404303"
-          },
-          "1": {
-            "fwname": "FF Eschenau im Hausruckkreis",
-            "fwnr": "404305"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205618",
-        "startzeit": "Fri, 22 Dec 2023 00:04:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.411087,
-          "lng": 13.81183
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "BRAUNAU AM INN",
-          "earea": "BRAUNAU AM INN",
-          "ecompl": "RAINERSTRAßE",
-          "efeanme": "",
-          "emun": "BRAUNAU AM INN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "BR - BRAUNAU AM INN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400105": {
-            "feuerwehr": "FF Haselbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haselbach",
-            "fwnr": "400105"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205613",
-        "startzeit": "Fri, 22 Dec 2023 00:01:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.25651,
-          "lng": 13.056663
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "RETTENBACHWALDSTRAßE 16",
           "earea": "STEINFELD",
           "ecompl": "",
@@ -1189,53 +954,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "MARIA NEUSTIFT",
-          "earea": "",
-          "ecompl": "MARIA NEUSTIFT",
-          "efeanme": "",
-          "emun": "MARIA NEUSTIFT",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SE - MARIA NEUSTIFT",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "411308": {
-            "feuerwehr": "FF Maria Neustift"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Maria Neustift",
-            "fwnr": "411308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205523",
-        "startzeit": "Thu, 21 Dec 2023 23:38:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.937499,
-          "lng": 14.606785
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "KEMATING",
           "earea": "KEMATING",
           "ecompl": "L1276 SEEWALCHENER STRAßE",
@@ -1277,100 +995,6 @@
         "wgs84": {
           "lat": 47.957834,
           "lng": 13.544772
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. FLORIAN",
-          "earea": "",
-          "ecompl": "L1349 THANNSTRAßE KM 15.2 HÖHE FERNBACH",
-          "efeanme": "",
-          "emun": "ST. FLORIAN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "LL - ST. FLORIAN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "406110": {
-            "feuerwehr": "FF St. Florian-Markt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Florian-Markt",
-            "fwnr": "406110"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205473",
-        "startzeit": "Thu, 21 Dec 2023 23:27:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.19015,
-          "lng": 14.381794
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "HARTKIRCHEN",
-          "earea": "",
-          "ecompl": "MOOS",
-          "efeanme": "",
-          "emun": "HARTKIRCHEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "EF - HARTKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401108": {
-            "feuerwehr": "FF Haizing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haizing",
-            "fwnr": "401108"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205463",
-        "startzeit": "Thu, 21 Dec 2023 23:25:21 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.370809,
-          "lng": 13.986111
         }
       }
     },
