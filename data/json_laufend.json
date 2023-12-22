@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "FEITZING ",
+          "earea": "",
+          "ecompl": "WIRT´Z FEITZING",
+          "efeanme": "FEITZING",
+          "emun": "PRAMET",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "RI - PRAMET",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408222": {
+            "feuerwehr": "FF Pramet"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pramet",
+            "fwnr": "408222"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205968",
+        "startzeit": "Fri, 22 Dec 2023 10:37:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.115246,
+          "lng": 13.486326
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "SE - TERNBERG",
         "einsatzsubtyp": {
@@ -76,6 +123,9 @@
           "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "411307": {
+            "feuerwehr": "FF Losenstein"
+          },
           "411314": {
             "feuerwehr": "FF Schweinsegg-Zehetner"
           },
@@ -85,10 +135,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Losenstein",
+            "fwnr": "411307"
+          },
+          "1": {
             "fwname": "FF Schweinsegg-Zehetner",
             "fwnr": "411314"
           },
-          "1": {
+          "2": {
             "fwname": "FF Ternberg",
             "fwnr": "411316"
           }
@@ -341,53 +395,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "SPIEßBERGER WEG 3",
-          "earea": "RIED IM INNKREIS",
-          "ecompl": "",
-          "efeanme": "SPIEßBERGER WEG",
-          "emun": "RIED IM INNKREIS",
-          "estnum": "3"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "KEIN-UNWETTER-DI",
-          "text": "WASSERSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "DISP",
-          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205948",
-        "startzeit": "Fri, 22 Dec 2023 10:08:11 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.192715,
-          "lng": 13.49472
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "PüHRET 19",
           "earea": "NACHDEMSEE",
           "ecompl": "",
@@ -429,53 +436,6 @@
         "wgs84": {
           "lat": 47.876186,
           "lng": 13.773492
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "DR.-THOMAS-SENN-STRAßE 6",
-          "earea": "RIED IM INNKREIS",
-          "ecompl": "",
-          "efeanme": "DR.-THOMAS-SENN-STRAßE",
-          "emun": "RIED IM INNKREIS",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RI - RIED IM INNKREIS",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "FF Ried im Innkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ried im Innkreis",
-            "fwnr": "408223"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231205944",
-        "startzeit": "Fri, 22 Dec 2023 10:02:13 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.207227,
-          "lng": 13.488455
         }
       }
     },
