@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ÜBERACKERN",
+          "earea": "",
+          "ecompl": "L501 WEILHARTSTRAßE KM 11.0 HÖHE MÜHLTAL",
+          "efeanme": "",
+          "emun": "ÜBERACKERN",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "BR - ÜBERACKERN",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400113": {
+            "feuerwehr": "FF Überackern"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Überackern",
+            "fwnr": "400113"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231206135",
+        "startzeit": "Fri, 22 Dec 2023 21:12:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.201479,
+          "lng": 12.904585
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -328,60 +375,6 @@
         "wgs84": {
           "lat": 48.337759,
           "lng": 14.182709
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "WEIDENWEG 10",
-          "earea": "BRUNNGRABEN",
-          "ecompl": "",
-          "efeanme": "WEIDENWEG",
-          "emun": "MAUTHAUSEN",
-          "estnum": "10"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - MAUTHAUSEN",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407204": {
-            "feuerwehr": "FF Haid / PE"
-          },
-          "407210": {
-            "feuerwehr": "FF Mauthausen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haid / PE",
-            "fwnr": "407204"
-          },
-          "1": {
-            "fwname": "FF Mauthausen",
-            "fwnr": "407210"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231206097",
-        "startzeit": "Fri, 22 Dec 2023 18:55:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.243926,
-          "lng": 14.51788
         }
       }
     },
