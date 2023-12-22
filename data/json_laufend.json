@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 16,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALLERHEILIGEN IM MÜHLKREIS",
+          "earea": "",
+          "ecompl": "FW ALLERHEILIGEN-LEBING",
+          "efeanme": "",
+          "emun": "ALLERHEILIGEN IM MÜHLKREIS",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "PE - ALLERHEILIGEN IM MÜHLKREIS",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "407301": {
+            "feuerwehr": "FF Allerheiligen-Lebing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Allerheiligen-Lebing",
+            "fwnr": "407301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231205759",
+        "startzeit": "Fri, 22 Dec 2023 03:26:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.30761,
+          "lng": 14.65926
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "UNWETTER",
         "einsatzort": "GM - BAD ISCHL",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "403102": {
             "feuerwehr": "FF Bad Ischl"
+          },
+          "403106": {
+            "feuerwehr": "FF Jainzen"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Bad Ischl",
             "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FF Jainzen",
+            "fwnr": "403106"
           }
         },
         "inzeit": "",
