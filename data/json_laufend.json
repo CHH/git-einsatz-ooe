@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 46,
-  "cnt_feuerwehren": 50,
+  "cnt_einsaetze": 35,
+  "cnt_feuerwehren": 40,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ALTENBERG BEI LINZ",
+          "earea": "",
+          "ecompl": "L1501 ALTENBERGER STRAßE KM 2.6 HÖHE ALTENBERGER STRAßE",
+          "efeanme": "",
+          "emun": "ALTENBERG BEI LINZ",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "UU - ALTENBERG BEI LINZ",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412302": {
+            "feuerwehr": "FF Altenberg bei Linz"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Altenberg bei Linz",
+            "fwnr": "412302"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231207995",
+        "startzeit": "Sat, 23 Dec 2023 18:35:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.346034,
+          "lng": 14.335293
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -529,53 +576,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "DIEPOLTSDORF 22",
-          "earea": "DIEPOLTSDORF",
-          "ecompl": "",
-          "efeanme": "DIEPOLTSDORF",
-          "emun": "OSTERMIETHING",
-          "estnum": "22"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "BR - OSTERMIETHING",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400403": {
-            "feuerwehr": "FF Ernsting"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Ernsting",
-            "fwnr": "400403"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207967",
-        "startzeit": "Sat, 23 Dec 2023 18:10:30 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.034587,
-          "lng": 12.857068
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "SCHIERLING 9",
           "earea": "SCHIERLING",
           "ecompl": "",
@@ -717,100 +717,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "WERNERSDORF 4",
-          "earea": "WERNERSDORF",
-          "ecompl": "",
-          "efeanme": "WERNERSDORF",
-          "emun": "PFARRKIRCHEN IM MüHLKREIS",
-          "estnum": "4"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - PFARRKIRCHEN IM MüHLKREIS",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409204": {
-            "feuerwehr": "FF Karlsbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Karlsbach",
-            "fwnr": "409204"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207957",
-        "startzeit": "Sat, 23 Dec 2023 18:01:25 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.524694,
-          "lng": 13.791671
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NIEDERKAPPEL",
-          "earea": "",
-          "ecompl": "LOHRMÜHL",
-          "efeanme": "",
-          "emun": "NIEDERKAPPEL",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "RO - NIEDERKAPPEL",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409208": {
-            "feuerwehr": "FF Niederkappel"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Niederkappel",
-            "fwnr": "409208"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207953",
-        "startzeit": "Sat, 23 Dec 2023 17:54:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.475875,
-          "lng": 13.887044
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "JOHANNITERSTRAßE 6",
           "earea": "LEMBACH IM MüHLKREIS",
           "ecompl": "",
@@ -899,53 +805,6 @@
         "wgs84": {
           "lat": 48.123055,
           "lng": 14.200745
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "PARKSTRAßE 11",
-          "earea": "GRIESKIRCHEN",
-          "ecompl": "",
-          "efeanme": "PARKSTRAßE",
-          "emun": "GRIESKIRCHEN",
-          "estnum": "11"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - GRIESKIRCHEN",
-        "einsatzsubtyp": {
-          "id": "BRANDVER-BK",
-          "text": "BRANDVERDACHT"
-        },
-        "einsatztyp": {
-          "id": "BK",
-          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "FF Grieskirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Grieskirchen",
-            "fwnr": "404104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207939",
-        "startzeit": "Sat, 23 Dec 2023 17:42:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.231991,
-          "lng": 13.838198
         }
       }
     },
@@ -1046,100 +905,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "BAUMGARTEN 13",
-          "earea": "BAUMGARTEN",
-          "ecompl": "",
-          "efeanme": "BAUMGARTEN",
-          "emun": "HAIBACH IM MüHLKREIS",
-          "estnum": "13"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "UU - HAIBACH IM MüHLKREIS",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412108": {
-            "feuerwehr": "FF Haibach im Mühlkreis"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Haibach im Mühlkreis",
-            "fwnr": "412108"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207919",
-        "startzeit": "Sat, 23 Dec 2023 17:32:55 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.419249,
-          "lng": 14.348123
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "BRUNNENTHAL",
-          "earea": "",
-          "ecompl": "KORNEREDT",
-          "efeanme": "",
-          "emun": "BRUNNENTHAL",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - BRUNNENTHAL",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410302": {
-            "feuerwehr": "FF Brunnenthal"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Brunnenthal",
-            "fwnr": "410302"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207914",
-        "startzeit": "Sat, 23 Dec 2023 17:29:26 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.465224,
-          "lng": 13.479869
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "DIETRICHSCHLAG 59",
           "earea": "DIETRICHSCHLAG",
           "ecompl": "",
@@ -1181,53 +946,6 @@
         "wgs84": {
           "lat": 48.504383,
           "lng": 14.289033
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "THALHEIM BEI WELS",
-          "earea": "",
-          "ecompl": "KM 1.8 HÖHE L1238 SIPBACHZELLER STRAßE",
-          "efeanme": "",
-          "emun": "THALHEIM BEI WELS",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - THALHEIM BEI WELS",
-        "einsatzsubtyp": {
-          "id": "AUFRAEUM-VU",
-          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
-        },
-        "einsatztyp": {
-          "id": "VU",
-          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414226": {
-            "feuerwehr": "FF Am Thalbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Am Thalbach",
-            "fwnr": "414226"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207905",
-        "startzeit": "Sat, 23 Dec 2023 17:25:07 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.133047,
-          "lng": 14.063024
         }
       }
     },
@@ -1328,53 +1046,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "KALLHAM",
-          "earea": "",
-          "ecompl": "L1204 ECKARTSROITHER STRAßE KM 2.6 HÖHE WÜRZBERG",
-          "efeanme": "",
-          "emun": "KALLHAM",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "GR - KALLHAM",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404308": {
-            "feuerwehr": "FF Kallham"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kallham",
-            "fwnr": "404308"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207885",
-        "startzeit": "Sat, 23 Dec 2023 17:16:42 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.291043,
-          "lng": 13.735572
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "GROßRAMING",
           "earea": "",
           "ecompl": "OBERPLAIßA",
@@ -1463,60 +1134,6 @@
         "wgs84": {
           "lat": 47.742761,
           "lng": 13.665511
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "REISCHAU 6",
-          "earea": "HAAG AM HAUSRUCK",
-          "ecompl": "",
-          "efeanme": "REISCHAU",
-          "emun": "HAAG AM HAUSRUCK",
-          "estnum": "6"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "GR - HAAG AM HAUSRUCK",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "404206": {
-            "feuerwehr": "FF Gotthaming"
-          },
-          "404208": {
-            "feuerwehr": "FF Haag am Hausruck"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Gotthaming",
-            "fwnr": "404206"
-          },
-          "1": {
-            "fwname": "FF Haag am Hausruck",
-            "fwnr": "404208"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207874",
-        "startzeit": "Sat, 23 Dec 2023 17:00:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.198697,
-          "lng": 13.636349
         }
       }
     },
@@ -1617,100 +1234,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "ST. LEONHARD BEI FREISTADT",
-          "earea": "",
-          "ecompl": "L1472 GUTAUER STRAßE KM 15.8 HÖHE REITH",
-          "efeanme": "",
-          "emun": "ST. LEONHARD BEI FREISTADT",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "FR - ST. LEONHARD BEI FREISTADT",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "402315": {
-            "feuerwehr": "FF St. Leonhard bei Freistadt"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Leonhard bei Freistadt",
-            "fwnr": "402315"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207807",
-        "startzeit": "Sat, 23 Dec 2023 16:30:18 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.433524,
-          "lng": 14.642216
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. WOLFGANG IM SALZKAMMERGUT",
-          "earea": "ST. WOLFGANG IM SALZKAMMERGUT",
-          "ecompl": "FRIEDHOF ST. WOLFGANG",
-          "efeanme": "",
-          "emun": "ST.WOLFGANG I.S.",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "GM - ST.WOLFGANG I.S.",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403118": {
-            "feuerwehr": "FF St. Wolfgang"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Wolfgang",
-            "fwnr": "403118"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207804",
-        "startzeit": "Sat, 23 Dec 2023 16:27:32 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.735333,
-          "lng": 13.456011
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "PISCHELSDORF AM ENGELBACH",
           "earea": "",
           "ecompl": "STAPFING",
@@ -1766,53 +1289,6 @@
         "wgs84": {
           "lat": 48.109165,
           "lng": 13.105475
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "ST. WOLFGANG IM SALZKAMMERGUT",
-          "earea": "ST. WOLFGANG IM SALZKAMMERGUT",
-          "ecompl": "FRIEDHOF ST. WOLFGANG",
-          "efeanme": "",
-          "emun": "ST.WOLFGANG I.S.",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "GM - ST.WOLFGANG I.S.",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "403118": {
-            "feuerwehr": "FF St. Wolfgang"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF St. Wolfgang",
-            "fwnr": "403118"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207792",
-        "startzeit": "Sat, 23 Dec 2023 16:23:45 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.735333,
-          "lng": 13.456011
         }
       }
     },
