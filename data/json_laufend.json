@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HORNBERG",
+          "earea": "HORNBERG",
+          "ecompl": "B119 GREINER STRAßE",
+          "efeanme": "",
+          "emun": "DIMBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "PE - DIMBACH",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "407102": {
+            "feuerwehr": "FF Dimbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Dimbach",
+            "fwnr": "407102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208064",
+        "startzeit": "Sat, 23 Dec 2023 21:37:20 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.302475,
+          "lng": 14.905983
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +234,6 @@
         "wgs84": {
           "lat": 48.284587,
           "lng": 13.447907
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "TIEFGRABEN",
-          "earea": "",
-          "ecompl": "KM 5.190 HÖHE L1279 MONDSEEBERGSTRAßE",
-          "efeanme": "",
-          "emun": "TIEFGRABEN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "VB - TIEFGRABEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "413213": {
-            "feuerwehr": "FF Tiefgraben"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Tiefgraben",
-            "fwnr": "413213"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208054",
-        "startzeit": "Sat, 23 Dec 2023 20:57:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 47.879878,
-          "lng": 13.36157
         }
       }
     },
@@ -522,60 +522,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "RAAB",
-          "earea": "",
-          "ecompl": "THAL",
-          "efeanme": "",
-          "emun": "RAAB",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "SD - RAAB",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "410214": {
-            "feuerwehr": "FF Raab"
-          },
-          "410219": {
-            "feuerwehr": "FF Steinbruck-Bründl"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Raab",
-            "fwnr": "410214"
-          },
-          "1": {
-            "fwname": "FF Steinbruck-Bründl",
-            "fwnr": "410219"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208015",
-        "startzeit": "Sat, 23 Dec 2023 19:32:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.374773,
-          "lng": 13.664758
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "JAHNSTRAßE 2",
           "earea": "MAUERKIRCHEN",
           "ecompl": "",
@@ -671,60 +617,6 @@
         "wgs84": {
           "lat": 48.551265,
           "lng": 13.526425
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "PARZERWEG 68",
-          "earea": "HASLACH",
-          "ecompl": "",
-          "efeanme": "PARZERWEG",
-          "emun": "ALTENBERG BEI LINZ",
-          "estnum": "68"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "UU - ALTENBERG BEI LINZ",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412302": {
-            "feuerwehr": "FF Altenberg bei Linz"
-          },
-          "412310": {
-            "feuerwehr": "FF Oberbairing"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Altenberg bei Linz",
-            "fwnr": "412302"
-          },
-          "1": {
-            "fwname": "FF Oberbairing",
-            "fwnr": "412310"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231207458",
-        "startzeit": "Sat, 23 Dec 2023 13:33:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.363849,
-          "lng": 14.338892
         }
       }
     },
