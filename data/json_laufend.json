@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": null,
+          "earea": "",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "EF - ",
+        "einsatzsubtyp": {
+          "id": "STURM-TK",
+          "text": "STURMSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401104": {
+            "feuerwehr": "FF Finklham"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Finklham",
+            "fwnr": "401104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208086",
+        "startzeit": "Sat, 23 Dec 2023 22:41:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.237877,
+          "lng": 13.973403
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,154 +140,6 @@
         "wgs84": {
           "lat": 48.354287,
           "lng": 14.383531
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "REXHAM 9",
-          "earea": "REXHAM",
-          "ecompl": "",
-          "efeanme": "REXHAM",
-          "emun": "SCHARTEN",
-          "estnum": "9"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "EF - SCHARTEN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "401118": {
-            "feuerwehr": "FF Scharten"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Scharten",
-            "fwnr": "401118"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208075",
-        "startzeit": "Sat, 23 Dec 2023 22:08:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.258275,
-          "lng": 14.040164
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "GREIN",
-          "earea": "",
-          "ecompl": "B119 GREINER STRAßE KM 13.0 HÖHE PANHOLZ",
-          "efeanme": "",
-          "emun": "GREIN",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "PE - GREIN",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407104": {
-            "feuerwehr": "FF Grein"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Grein",
-            "fwnr": "407104"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208074",
-        "startzeit": "Sat, 23 Dec 2023 22:08:24 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.235916,
-          "lng": 14.869909
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NEUKIRCHEN AN DER ENKNACH",
-          "earea": "",
-          "ecompl": "FW NEUKIRCHEN AN DER ENKNACH",
-          "efeanme": "",
-          "emun": "NEUKIRCHEN AN DER ENKNACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "BR - NEUKIRCHEN AN DER ENKNACH",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "400107": {
-            "feuerwehr": "FF Mitternberg"
-          },
-          "400108": {
-            "feuerwehr": "FF Neukirchen an der Enknach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Mitternberg",
-            "fwnr": "400107"
-          },
-          "1": {
-            "fwname": "FF Neukirchen an der Enknach",
-            "fwnr": "400108"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208070",
-        "startzeit": "Sat, 23 Dec 2023 22:03:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.18001,
-          "lng": 13.05001
         }
       }
     },
