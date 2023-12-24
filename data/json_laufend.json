@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 16,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RITZBERGERSTRAßE 37",
+          "earea": "ASCHACH AN DER DONAU",
+          "ecompl": "",
+          "efeanme": "RITZBERGERSTRAßE",
+          "emun": "ASCHACH AN DER DONAU",
+          "estnum": "37"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "EF - ASCHACH AN DER DONAU",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "FF Aschach an der Donau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Aschach an der Donau",
+            "fwnr": "401102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208175",
+        "startzeit": "Sun, 24 Dec 2023 09:17:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.373629,
+          "lng": 14.028119
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -382,60 +429,6 @@
         "wgs84": {
           "lat": 48.318828,
           "lng": 14.570985
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "SIPBACHZELL",
-          "earea": "",
-          "ecompl": "L1238 SIPBACHZELLER STRAßE KM 3.4 HÖHE LEOMBACH",
-          "efeanme": "",
-          "emun": "SIPBACHZELL",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "WL - SIPBACHZELL",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414208": {
-            "feuerwehr": "FF Giering-Rappersdorf"
-          },
-          "414214": {
-            "feuerwehr": "FF Leombach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Giering-Rappersdorf",
-            "fwnr": "414208"
-          },
-          "1": {
-            "fwname": "FF Leombach",
-            "fwnr": "414214"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208157",
-        "startzeit": "Sun, 24 Dec 2023 08:31:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.128382,
-          "lng": 14.082016
         }
       }
     },
