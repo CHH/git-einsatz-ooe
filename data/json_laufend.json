@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAIZING 46",
+          "earea": "HAIZING",
+          "ecompl": "",
+          "efeanme": "HAIZING",
+          "emun": "HARTKIRCHEN",
+          "estnum": "46"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "EF - HARTKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "401108": {
+            "feuerwehr": "FF Haizing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Haizing",
+            "fwnr": "401108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208136",
+        "startzeit": "Sun, 24 Dec 2023 07:23:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.374809,
+          "lng": 14.000671
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -99,53 +146,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "KRENGLBACH",
-          "earea": "",
-          "ecompl": "L519 INNBACHTALSTRAßE KM 6.0 HÖHE OBERHAM",
-          "efeanme": "",
-          "emun": "KRENGLBACH",
-          "estnum": ""
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "WL - KRENGLBACH",
-        "einsatzsubtyp": {
-          "id": "STURM-TK",
-          "text": "STURMSCHADEN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "414213": {
-            "feuerwehr": "FF Krenglbach"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Krenglbach",
-            "fwnr": "414213"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208130",
-        "startzeit": "Sun, 24 Dec 2023 06:30:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.188396,
-          "lng": 13.955763
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "BREITENSTEIN 33",
           "earea": "BREITENSTEIN",
           "ecompl": "",
@@ -187,53 +187,6 @@
         "wgs84": {
           "lat": 48.634022,
           "lng": 13.938818
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "POINT 8",
-          "earea": "POINT",
-          "ecompl": "",
-          "efeanme": "POINT",
-          "emun": "KIRCHBERG OB DER DONAU",
-          "estnum": "8"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - KIRCHBERG OB DER DONAU",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "409305": {
-            "feuerwehr": "FF Kirchberg ob der Donau"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Kirchberg ob der Donau",
-            "fwnr": "409305"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208118",
-        "startzeit": "Sun, 24 Dec 2023 04:39:07 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.418548,
-          "lng": 13.965245
         }
       }
     }
