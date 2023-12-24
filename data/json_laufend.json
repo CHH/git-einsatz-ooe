@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAMMERWERKGASSE 9",
+          "earea": "SCHöNDORF",
+          "ecompl": "",
+          "efeanme": "HAMMERWERKGASSE",
+          "emun": "VöCKLABRUCK",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "UNWETTER",
+        "einsatzort": "VB - VöCKLABRUCK",
+        "einsatzsubtyp": {
+          "id": "UEBERFL-TK",
+          "text": "ÜBERFLUTUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "FF Vöcklabruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Vöcklabruck",
+            "fwnr": "413429"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208234",
+        "startzeit": "Sun, 24 Dec 2023 13:30:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.00029,
+          "lng": 13.662038
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -161,60 +208,6 @@
         "wgs84": {
           "lat": 47.793098,
           "lng": 13.748292
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "RIEDEGG 33",
-          "earea": "RIEDEGG",
-          "ecompl": "",
-          "efeanme": "RIEDEGG",
-          "emun": "ALBERNDORF IN DER RIEDMARK",
-          "estnum": "33"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "UNWETTER",
-        "einsatzort": "UU - ALBERNDORF IN DER RIEDMARK",
-        "einsatzsubtyp": {
-          "id": "UEBERFL-TK",
-          "text": "ÜBERFLUTUNG"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "412301": {
-            "feuerwehr": "FF Alberndorf in der Riedmark"
-          },
-          "412316": {
-            "feuerwehr": "FF Veitsdorf"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Alberndorf in der Riedmark",
-            "fwnr": "412301"
-          },
-          "1": {
-            "fwname": "FF Veitsdorf",
-            "fwnr": "412316"
-          }
-        },
-        "inzeit": "",
-        "num1": "E231208216",
-        "startzeit": "Sun, 24 Dec 2023 11:48:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.374702,
-          "lng": 14.4043
         }
       }
     },
