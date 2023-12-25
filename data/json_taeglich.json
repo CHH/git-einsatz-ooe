@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HUB 4",
+          "earea": "HUB",
+          "ecompl": "",
+          "efeanme": "HUB",
+          "emun": "ST. GEORGEN BEI OBERNBERG AM INN",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - ST. GEORGEN BEI OBERNBERG AM INN",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "FF Ried im Innkreis"
+          },
+          "408316": {
+            "feuerwehr": "FF St. Georgen bei Obernberg am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ried im Innkreis",
+            "fwnr": "408223"
+          },
+          "1": {
+            "fwname": "FF St. Georgen bei Obernberg am Inn",
+            "fwnr": "408316"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208337",
+        "startzeit": "Mon, 25 Dec 2023 21:24:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.314992,
+          "lng": 13.339798
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "400414"
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 25 Dec 2023 21:30:39 +0100",
         "num1": "E231208334",
         "startzeit": "Mon, 25 Dec 2023 20:47:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.057065,
           "lng": 12.845107
