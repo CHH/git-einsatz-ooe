@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STöTZLGASSE 9",
+          "earea": "GOSAU",
+          "ecompl": "00000-33016-1",
+          "efeanme": "STöTZLGASSE",
+          "emun": "GOSAU",
+          "estnum": "9"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - GOSAU",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "403104": {
+            "feuerwehr": "FF Gosau"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Gosau",
+            "fwnr": "403104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208437",
+        "startzeit": "Wed, 27 Dec 2023 17:05:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.585809,
+          "lng": 13.542592
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PASSAUER STRAßE 21",
+          "earea": "PEUERBACH",
+          "ecompl": "",
+          "efeanme": "PASSAUER STRAßE",
+          "emun": "PEUERBACH",
+          "estnum": "21"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - PEUERBACH",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404315": {
+            "feuerwehr": "FF Peuerbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Peuerbach",
+            "fwnr": "404315"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208435",
+        "startzeit": "Wed, 27 Dec 2023 16:40:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.346507,
+          "lng": 13.768588
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -537,10 +631,10 @@
             "fwnr": "400109"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 27 Dec 2023 16:17:26 +0100",
         "num1": "E231208405",
         "startzeit": "Wed, 27 Dec 2023 08:14:34 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.254406,
           "lng": 13.059905
