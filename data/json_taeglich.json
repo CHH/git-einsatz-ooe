@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LACHSTATT 4",
+          "earea": "LACHSTATT",
+          "ecompl": "4930800-4S",
+          "efeanme": "LACHSTATT",
+          "emun": "STEYREGG",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "UU - STEYREGG",
+        "einsatzsubtyp": {
+          "id": "ALFEUER-DI",
+          "text": "SIRENENPROGRAMM FEUER VON FW AUSGELÖST"
+        },
+        "einsatztyp": {
+          "id": "DISP",
+          "text": "SELBSTSTÄNDIGER FEUERWEHREINSATZ  (OHNE AL LWZ/BWST)"
+        },
+        "feuerwehren": {
+          "412308": {
+            "feuerwehr": "FF Lachstatt"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lachstatt",
+            "fwnr": "412308"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208454",
+        "startzeit": "Wed, 27 Dec 2023 22:45:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.305572,
+          "lng": 14.374315
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WAMBACHSTRAßE 7",
+          "earea": "NETTINGSDORF",
+          "ecompl": "",
+          "efeanme": "WAMBACHSTRAßE",
+          "emun": "ANSFELDEN",
+          "estnum": "7"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - ANSFELDEN",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406213": {
+            "feuerwehr": "FF Nettingsdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Nettingsdorf",
+            "fwnr": "406213"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208452",
+        "startzeit": "Wed, 27 Dec 2023 22:39:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.183265,
+          "lng": 14.262473
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "GEWERBEALLEE 15",
+          "earea": "STEYREGG",
+          "ecompl": "00000-123153-1",
+          "efeanme": "GEWERBEALLEE",
+          "emun": "STEYREGG",
+          "estnum": "15"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - STEYREGG",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "412308": {
+            "feuerwehr": "FF Lachstatt"
+          },
+          "412314": {
+            "feuerwehr": "FF Steyregg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lachstatt",
+            "fwnr": "412308"
+          },
+          "1": {
+            "fwname": "FF Steyregg",
+            "fwnr": "412314"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208450",
+        "startzeit": "Wed, 27 Dec 2023 22:36:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.28325,
+          "lng": 14.369636
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +187,10 @@
             "fwnr": "406222"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 27 Dec 2023 22:39:57 +0100",
         "num1": "E231208448",
         "startzeit": "Wed, 27 Dec 2023 21:38:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.222966,
           "lng": 14.237446
