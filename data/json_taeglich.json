@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HAID 26",
+          "earea": "HAID",
+          "ecompl": "00000-101018-1",
+          "efeanme": "HAID",
+          "emun": "ST. FLORIAN AM INN",
+          "estnum": "26"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - ST. FLORIAN AM INN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "410319": {
+            "feuerwehr": "FF St. Florian am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF St. Florian am Inn",
+            "fwnr": "410319"
+          }
+        },
+        "inzeit": "Fri, 29 Dec 2023 01:48:21 +0100",
+        "num1": "E231208573",
+        "startzeit": "Fri, 29 Dec 2023 01:36:56 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.427096,
+          "lng": 13.449871
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
