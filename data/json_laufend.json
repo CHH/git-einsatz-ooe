@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DORFSTRAßE 26",
+          "earea": "KIRCHHEIM IM INNKREIS",
+          "ecompl": "",
+          "efeanme": "DORFSTRAßE",
+          "emun": "KIRCHHEIM IM INNKREIS",
+          "estnum": "26"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - KIRCHHEIM IM INNKREIS",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BG",
+          "text": "BRAND LANDWIRTSCHAFTLICHES OBJEKT"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "408101": {
+            "feuerwehr": "FF Ampfenham"
+          },
+          "408114": {
+            "feuerwehr": "FF Kirchheim im Innkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Ampfenham",
+            "fwnr": "408101"
+          },
+          "1": {
+            "fwname": "FF Kirchheim im Innkreis",
+            "fwnr": "408114"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208636",
+        "startzeit": "Sat, 30 Dec 2023 04:04:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.210912,
+          "lng": 13.357791
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
