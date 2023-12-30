@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ANDORF",
+          "earea": "",
+          "ecompl": "L1135 ENZENKIRCHENER STRAßE KM 1.8 HÖHE HAULA",
+          "efeanme": "",
+          "emun": "ANDORF",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - ANDORF",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410202": {
+            "feuerwehr": "FF Andorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Andorf",
+            "fwnr": "410202"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208633",
+        "startzeit": "Sat, 30 Dec 2023 01:35:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.372361,
+          "lng": 13.612345
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
