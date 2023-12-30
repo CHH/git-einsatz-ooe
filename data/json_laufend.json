@@ -1,15 +1,15 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "ANDORF",
+          "default": "ENZENKIRCHEN",
           "earea": "",
-          "ecompl": "L1135 ENZENKIRCHENER STRAßE KM 1.8 HÖHE HAULA",
+          "ecompl": "L1135 ENZENKIRCHENER STRAßE KM 2.2 HÖHE JAGERN",
           "efeanme": "",
-          "emun": "ANDORF",
+          "emun": "ENZENKIRCHEN",
           "estnum": ""
         },
         "alarmstufe": 1,
@@ -17,9 +17,9 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
-        "einsatzort": "SD - ANDORF",
+        "einsatzort": "SD - ENZENKIRCHEN",
         "einsatzsubtyp": {
           "id": "AUFRAEUM-VU",
           "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
@@ -31,12 +31,26 @@
         "feuerwehren": {
           "410202": {
             "feuerwehr": "FF Andorf"
+          },
+          "410206": {
+            "feuerwehr": "FF Enzenkirchen"
+          },
+          "410210": {
+            "feuerwehr": "FF Matzing"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF Andorf",
             "fwnr": "410202"
+          },
+          "1": {
+            "fwname": "FF Enzenkirchen",
+            "fwnr": "410206"
+          },
+          "2": {
+            "fwname": "FF Matzing",
+            "fwnr": "410210"
           }
         },
         "inzeit": "",
@@ -44,8 +58,8 @@
         "startzeit": "Sat, 30 Dec 2023 01:35:36 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 48.372361,
-          "lng": 13.612345
+          "lat": 48.37312,
+          "lng": 13.617318
         }
       }
     }
