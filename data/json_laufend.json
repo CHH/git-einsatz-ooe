@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LAABSTRAßE 5",
+          "earea": "LAAB",
+          "ecompl": "",
+          "efeanme": "LAABSTRAßE",
+          "emun": "BRAUNAU AM INN",
+          "estnum": "5"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - BRAUNAU AM INN",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "FF Braunau am Inn"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Braunau am Inn",
+            "fwnr": "400102"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208745",
+        "startzeit": "Sun, 31 Dec 2023 21:38:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.261115,
+          "lng": 13.041229
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "PFLASTER 26",
+          "earea": "REICHENAU IM MüHLKREIS",
+          "ecompl": "",
+          "efeanme": "PFLASTER",
+          "emun": "REICHENAU IM MüHLKREIS",
+          "estnum": "26"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - REICHENAU IM MüHLKREIS",
+        "einsatzsubtyp": {
+          "id": "FLURBR-BK",
+          "text": "BRAND BAUM, FLUR, BÖSCHUNG"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "412115": {
+            "feuerwehr": "FF Reichenau im Mühlkreis"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Reichenau im Mühlkreis",
+            "fwnr": "412115"
+          }
+        },
+        "inzeit": "",
+        "num1": "E231208743",
+        "startzeit": "Sun, 31 Dec 2023 21:37:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.456897,
+          "lng": 14.342173
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
