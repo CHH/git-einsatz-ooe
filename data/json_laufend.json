@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STEIN 1",
+          "earea": "STEIN",
+          "ecompl": "",
+          "efeanme": "STEIN",
+          "emun": "TOLLET",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - TOLLET",
+        "einsatzsubtyp": {
+          "id": "HAUS-BG",
+          "text": "BRAND WOHNHAUS"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "404114": {
+            "feuerwehr": "FF Oberwödling"
+          },
+          "404127": {
+            "feuerwehr": "FF Tolleterau"
+          },
+          "404128": {
+            "feuerwehr": "FF Unterstetten"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Oberwödling",
+            "fwnr": "404114"
+          },
+          "1": {
+            "fwname": "FF Tolleterau",
+            "fwnr": "404127"
+          },
+          "2": {
+            "fwname": "FF Unterstetten",
+            "fwnr": "404128"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100049",
+        "startzeit": "Mon, 01 Jan 2024 07:18:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.245223,
+          "lng": 13.792836
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +73,12 @@
           "emun": "GRüNBURG",
           "estnum": "51"
         },
-        "alarmstufe": "2",
+        "alarmstufe": "3",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 8,
+        "cntfeuerwehren": 9,
         "einsatzart": "BRAND",
         "einsatzort": "KI - GRüNBURG",
         "einsatzsubtyp": {
@@ -52,6 +113,9 @@
           },
           "405110": {
             "feuerwehr": "FF Wagenhub"
+          },
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
           }
         },
         "feuerwehrenarray": {
@@ -86,6 +150,10 @@
           "7": {
             "fwname": "FF Wagenhub",
             "fwnr": "405110"
+          },
+          "8": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
           }
         },
         "inzeit": "",
