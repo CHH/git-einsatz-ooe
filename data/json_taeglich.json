@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 43,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 46,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HANDENBERG",
+          "earea": "",
+          "ecompl": "B156 LAMPRECHTSHAUSENER STRAßE KM 47.4 HÖHE SALZBURGER STRAßE",
+          "efeanme": "",
+          "emun": "HANDENBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - HANDENBERG",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400104": {
+            "feuerwehr": "FF Handenberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Handenberg",
+            "fwnr": "400104"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100056",
+        "startzeit": "Mon, 01 Jan 2024 07:27:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.146616,
+          "lng": 13.023915
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "OBERLEBING 61",
+          "earea": "OBERLEBING",
+          "ecompl": "",
+          "efeanme": "OBERLEBING",
+          "emun": "ALLERHEILIGEN IM MüHLKREIS",
+          "estnum": "61"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - ALLERHEILIGEN IM MüHLKREIS",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "407301": {
+            "feuerwehr": "FF Allerheiligen-Lebing"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Allerheiligen-Lebing",
+            "fwnr": "407301"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100054",
+        "startzeit": "Mon, 01 Jan 2024 07:24:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.29072,
+          "lng": 14.634802
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -78,7 +172,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 8,
+        "cntfeuerwehren": 9,
         "einsatzart": "BRAND",
         "einsatzort": "KI - GRüNBURG",
         "einsatzsubtyp": {
@@ -113,6 +207,9 @@
           },
           "405110": {
             "feuerwehr": "FF Wagenhub"
+          },
+          "405205": {
+            "feuerwehr": "FF Kirchdorf an der Krems"
           }
         },
         "feuerwehrenarray": {
@@ -147,6 +244,10 @@
           "7": {
             "fwname": "FF Wagenhub",
             "fwnr": "405110"
+          },
+          "8": {
+            "fwname": "FF Kirchdorf an der Krems",
+            "fwnr": "405205"
           }
         },
         "inzeit": "",
