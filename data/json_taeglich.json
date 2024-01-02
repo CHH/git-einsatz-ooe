@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BAD ISCHL",
+          "earea": "",
+          "ecompl": "FW PFANDL",
+          "efeanme": "",
+          "emun": "BAD ISCHL",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TK",
+          "text": "TECHNISCHER EINSATZ KLEIN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          },
+          "403112": {
+            "feuerwehr": "FF Pfandl"
+          },
+          "403117": {
+            "feuerwehr": "FF St. Agatha / GM"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FF Pfandl",
+            "fwnr": "403112"
+          },
+          "2": {
+            "fwname": "FF St. Agatha / GM",
+            "fwnr": "403117"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100141",
+        "startzeit": "Tue, 02 Jan 2024 20:41:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.72039,
+          "lng": 13.58323
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +100,10 @@
             "fwnr": "406209"
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 02 Jan 2024 20:16:53 +0100",
         "num1": "E240100137",
         "startzeit": "Tue, 02 Jan 2024 19:10:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.217218,
           "lng": 14.187526
