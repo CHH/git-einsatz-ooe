@@ -1,7 +1,83 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 5,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MOLKEREISTRAßE 5",
+          "earea": "MüNZKIRCHEN",
+          "ecompl": "00000-103073-1",
+          "efeanme": "MOLKEREISTRAßE",
+          "emun": "MüNZKIRCHEN",
+          "estnum": "5"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - MüNZKIRCHEN",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "410304": {
+            "feuerwehr": "FF Eisenbirn"
+          },
+          "410312": {
+            "feuerwehr": "FF Kaltenmarkt"
+          },
+          "410315": {
+            "feuerwehr": "FF Münzkirchen"
+          },
+          "410318": {
+            "feuerwehr": "FF Reikersham"
+          },
+          "410323": {
+            "feuerwehr": "FF Schiessdorf"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Eisenbirn",
+            "fwnr": "410304"
+          },
+          "1": {
+            "fwname": "FF Kaltenmarkt",
+            "fwnr": "410312"
+          },
+          "2": {
+            "fwname": "FF Münzkirchen",
+            "fwnr": "410315"
+          },
+          "3": {
+            "fwname": "FF Reikersham",
+            "fwnr": "410318"
+          },
+          "4": {
+            "fwname": "FF Schiessdorf",
+            "fwnr": "410323"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100227",
+        "startzeit": "Thu, 04 Jan 2024 16:44:10 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.482708,
+          "lng": 13.558549
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
