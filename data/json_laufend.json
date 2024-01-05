@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WOLFERNSTRAßE 18",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "WOLFERNSTRAßE",
+          "emun": "STEYR",
+          "estnum": "18"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "GEWERBE-BG",
+          "text": "BRAND GEWERBE, INDUSTRIE"
+        },
+        "einsatztyp": {
+          "id": "BRAND",
+          "text": "BRAND \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "41510102": {
+            "feuerwehr": "FW Löschzug 2 Steyrdorf"
+          },
+          "41510103": {
+            "feuerwehr": "FW Löschzug 3 Gleink"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Löschzug 2 Steyrdorf",
+            "fwnr": "41510102"
+          },
+          "1": {
+            "fwname": "FW Löschzug 3 Gleink",
+            "fwnr": "41510103"
+          },
+          "2": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100257",
+        "startzeit": "Fri, 05 Jan 2024 10:50:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.048546,
+          "lng": 14.404605
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
