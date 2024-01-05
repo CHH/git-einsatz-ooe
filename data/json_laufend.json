@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RINGOFENSTRAßE 4",
+          "earea": "ALLERHEILIGEN",
+          "ecompl": "",
+          "efeanme": "RINGOFENSTRAßE",
+          "emun": "SCHäRDING",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - SCHäRDING",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BK",
+          "text": "BRAND KAMIN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "FF Schärding"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schärding",
+            "fwnr": "410321"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100274",
+        "startzeit": "Fri, 05 Jan 2024 16:14:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.464779,
+          "lng": 13.443265
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -183,19 +230,19 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "HöTZENECK 10",
+          "default": "HöTZENECK 1",
           "earea": "HöTZENECK",
           "ecompl": "",
           "efeanme": "HöTZENECK",
           "emun": "ST. ULRICH IM MüHLKREIS",
-          "estnum": "10"
+          "estnum": "1"
         },
         "alarmstufe": 1,
         "bezirk": {
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "RO - ST. ULRICH IM MüHLKREIS",
         "einsatzsubtyp": {
@@ -209,12 +256,19 @@
         "feuerwehren": {
           "409316": {
             "feuerwehr": "FF St. Ulrich im Mühlkreis"
+          },
+          "409407": {
+            "feuerwehr": "FF Haslach an der Mühl"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "FF St. Ulrich im Mühlkreis",
             "fwnr": "409316"
+          },
+          "1": {
+            "fwname": "FF Haslach an der Mühl",
+            "fwnr": "409407"
           }
         },
         "inzeit": "",
@@ -222,8 +276,8 @@
         "startzeit": "Fri, 05 Jan 2024 14:10:02 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 48.470879,
-          "lng": 14.087548
+          "lat": 48.480038,
+          "lng": 14.082192
         }
       }
     }
