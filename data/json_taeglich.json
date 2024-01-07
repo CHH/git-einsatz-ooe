@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "HILBERN",
+          "earea": "HILBERN",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "SCHIEDLBERG",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SE - SCHIEDLBERG",
+        "einsatzsubtyp": {
+          "id": "AUFRAEUM-VU",
+          "text": "VERKEHRSUNFALL AUFRÄUMARBEITEN"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "411215": {
+            "feuerwehr": "FF Schiedlberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schiedlberg",
+            "fwnr": "411215"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100339",
+        "startzeit": "Sun, 07 Jan 2024 09:50:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.062823,
+          "lng": 14.281355
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 15,
           "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "SR - STEYR",
         "einsatzsubtyp": {
@@ -35,6 +82,9 @@
           "41510105": {
             "feuerwehr": "FW Löschzug 5 Münichholz"
           },
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
           "41510108": {
             "feuerwehr": "FW Kommando Steyr"
           }
@@ -49,6 +99,10 @@
             "fwnr": "41510105"
           },
           "2": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "3": {
             "fwname": "FW Kommando Steyr",
             "fwnr": "41510108"
           }
