@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NIEDERNHAAG 31",
+          "earea": "NIEDERNHAAG",
+          "ecompl": "00000-41024-1",
+          "efeanme": "NIEDERNHAAG",
+          "emun": "HAAG AM HAUSRUCK",
+          "estnum": "31"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - HAAG AM HAUSRUCK",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "404208": {
+            "feuerwehr": "FF Haag am Hausruck"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Haag am Hausruck",
+            "fwnr": "404208"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100406",
+        "startzeit": "Mon, 08 Jan 2024 11:53:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.191457,
+          "lng": 13.656373
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "KIRCHENGASSE 4",
+          "earea": "MARCHTRENK",
+          "ecompl": "",
+          "efeanme": "KIRCHENGASSE",
+          "emun": "MARCHTRENK",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - MARCHTRENK",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "FF Kappern"
+          },
+          "414215": {
+            "feuerwehr": "FF Marchtrenk"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Kappern",
+            "fwnr": "414212"
+          },
+          "1": {
+            "fwname": "FF Marchtrenk",
+            "fwnr": "414215"
+          }
+        },
+        "inzeit": "Mon, 08 Jan 2024 12:04:50 +0100",
+        "num1": "E240100403",
+        "startzeit": "Mon, 08 Jan 2024 11:21:53 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.191578,
+          "lng": 14.109523
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +118,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "GR - SCHLüßLBERG",
         "einsatzsubtyp": {
@@ -29,20 +130,27 @@
           "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
+          "404104": {
+            "feuerwehr": "FF Grieskirchen"
+          },
           "404122": {
             "feuerwehr": "FF Schlüßlberg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "FF Grieskirchen",
+            "fwnr": "404104"
+          },
+          "1": {
             "fwname": "FF Schlüßlberg",
             "fwnr": "404122"
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 08 Jan 2024 12:15:13 +0100",
         "num1": "E240100400",
         "startzeit": "Mon, 08 Jan 2024 11:15:52 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.219611,
           "lng": 13.879607
