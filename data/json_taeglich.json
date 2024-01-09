@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "WITTIGAU 14",
+          "earea": "WITTIGAU",
+          "ecompl": "",
+          "efeanme": "WITTIGAU",
+          "emun": "TREUBACH",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - TREUBACH",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BK",
+          "text": "BRAND KAMIN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400312": {
+            "feuerwehr": "FF Pfendhub"
+          },
+          "400319": {
+            "feuerwehr": "FF Treubach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Pfendhub",
+            "fwnr": "400312"
+          },
+          "1": {
+            "fwname": "FF Treubach",
+            "fwnr": "400319"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100444",
+        "startzeit": "Tue, 09 Jan 2024 05:54:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.190178,
+          "lng": 13.20696
+        }
+      }
+    }
+  ],
   "title": "Einsätze laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
