@@ -1,7 +1,69 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "RUTZENHAM 5",
+          "earea": "RUTZENHAM",
+          "ecompl": "",
+          "efeanme": "RUTZENHAM",
+          "emun": "RUTZENHAM",
+          "estnum": "5"
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - RUTZENHAM",
+        "einsatzsubtyp": {
+          "id": "VUBERGE-VU",
+          "text": "VERKEHRSUNFALL EINGEKLEMMTE PERSON"
+        },
+        "einsatztyp": {
+          "id": "VU",
+          "text": "VERKEHRSUNFALL FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "413301": {
+            "feuerwehr": "FF Atzbach"
+          },
+          "413310": {
+            "feuerwehr": "FF Pühret"
+          },
+          "413313": {
+            "feuerwehr": "FF Rutzenham"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Atzbach",
+            "fwnr": "413301"
+          },
+          "1": {
+            "fwname": "FF Pühret",
+            "fwnr": "413310"
+          },
+          "2": {
+            "fwname": "FF Rutzenham",
+            "fwnr": "413313"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100518",
+        "startzeit": "Tue, 09 Jan 2024 23:20:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.062085,
+          "lng": 13.717628
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
