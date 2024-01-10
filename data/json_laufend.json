@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ROSENAU AM HENGSTPA",
+          "earea": "ROSENAU AM HENGSTPA",
+          "ecompl": "ROSENAU SCHNECKENSTRAßE",
+          "efeanme": "",
+          "emun": "ROSENAU AM HENGSTPAß",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - ROSENAU AM HENGSTPAß",
+        "einsatzsubtyp": {
+          "id": "KFZ-TK",
+          "text": "FAHRZEUGBERGUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "405406": {
+            "feuerwehr": "FF Rosenau am Hengstpaß"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Rosenau am Hengstpaß",
+            "fwnr": "405406"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100579",
+        "startzeit": "Wed, 10 Jan 2024 14:55:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.71356,
+          "lng": 14.381488
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,60 +147,6 @@
         "wgs84": {
           "lat": 48.017517,
           "lng": 13.249971
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "LETTEN 8",
-          "earea": "LETTEN",
-          "ecompl": "",
-          "efeanme": "LETTEN",
-          "emun": "SAXEN",
-          "estnum": "8"
-        },
-        "alarmstufe": 1,
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - SAXEN",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TK",
-          "text": "TECHNISCHER EINSATZ KLEIN"
-        },
-        "einsatztyp": {
-          "id": "TK",
-          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
-        },
-        "feuerwehren": {
-          "407108": {
-            "feuerwehr": "FF Reitberg"
-          },
-          "407110": {
-            "feuerwehr": "FF Saxen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "FF Reitberg",
-            "fwnr": "407108"
-          },
-          "1": {
-            "fwname": "FF Saxen",
-            "fwnr": "407110"
-          }
-        },
-        "inzeit": "",
-        "num1": "E240100562",
-        "startzeit": "Wed, 10 Jan 2024 12:35:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": 48.221071,
-          "lng": 14.815008
         }
       }
     }
