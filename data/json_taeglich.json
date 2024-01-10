@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LIMESSTRAßE 10",
+          "earea": "HART",
+          "ecompl": "00000-61208-1",
+          "efeanme": "LIMESSTRAßE",
+          "emun": "LEONDING",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "CHLOR-SONST",
+          "text": "CHLORGASALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "FF Hart / LL"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Hart / LL",
+            "fwnr": "406208"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100537",
+        "startzeit": "Wed, 10 Jan 2024 09:02:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.266888,
+          "lng": 14.252451
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +133,10 @@
             "fwnr": "406263"
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 10 Jan 2024 08:19:45 +0100",
         "num1": "E240100530",
         "startzeit": "Wed, 10 Jan 2024 07:59:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.219025,
           "lng": 14.244033
