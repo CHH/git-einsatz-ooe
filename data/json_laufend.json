@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "NATTERNBACH",
+          "earea": "NATTERNBACH",
+          "ecompl": "AULANDSTRAßE",
+          "efeanme": "",
+          "emun": "NATTERNBACH",
+          "estnum": ""
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - NATTERNBACH",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BK",
+          "text": "BRAND KAMIN"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "404311": {
+            "feuerwehr": "FF Natternbach"
+          },
+          "404321": {
+            "feuerwehr": "FF Tal"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Natternbach",
+            "fwnr": "404311"
+          },
+          "1": {
+            "fwname": "FF Tal",
+            "fwnr": "404321"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100602",
+        "startzeit": "Thu, 11 Jan 2024 01:18:43 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.394219,
+          "lng": 13.747259
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
