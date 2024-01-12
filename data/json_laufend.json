@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "SAND 27",
-          "earea": "LAMBACH",
-          "ecompl": "00000-141507-1",
-          "efeanme": "SAND",
-          "emun": "LAMBACH",
-          "estnum": "27"
+          "default": "TABORWEG 10",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "TABORWEG",
+          "emun": "STEYR",
+          "estnum": "10"
         },
         "alarmstufe": 1,
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 15,
+          "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - LAMBACH",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SR - STEYR",
         "einsatzsubtyp": {
-          "id": "BMA1-SONST",
-          "text": "BRANDMELDEALARM"
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
         },
         "einsatztyp": {
-          "id": "PREK",
-          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
         },
         "feuerwehren": {
-          "414111": {
-            "feuerwehr": "FF Lambach"
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "FF Lambach",
-            "fwnr": "414111"
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
           }
         },
         "inzeit": "",
-        "num1": "E240100673",
-        "startzeit": "Fri, 12 Jan 2024 10:57:44 +0100",
+        "num1": "E240100676",
+        "startzeit": "Fri, 12 Jan 2024 11:35:14 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": 48.096189,
-          "lng": 13.868662
+          "lat": 48.044661,
+          "lng": 14.422373
         }
       }
     }
