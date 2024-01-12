@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "SAND 27",
+          "earea": "LAMBACH",
+          "ecompl": "00000-141507-1",
+          "efeanme": "SAND",
+          "emun": "LAMBACH",
+          "estnum": "27"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - LAMBACH",
+        "einsatzsubtyp": {
+          "id": "BMA1-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "FF Lambach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Lambach",
+            "fwnr": "414111"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100673",
+        "startzeit": "Fri, 12 Jan 2024 10:57:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.096189,
+          "lng": 13.868662
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
