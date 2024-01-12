@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "MUNDENHAM 14",
+          "earea": "MUNDENHAM",
+          "ecompl": "",
+          "efeanme": "MUNDENHAM",
+          "emun": "PALTING",
+          "estnum": "14"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - PALTING",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400214": {
+            "feuerwehr": "FF Palting"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Palting",
+            "fwnr": "400214"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100656",
+        "startzeit": "Fri, 12 Jan 2024 02:40:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.006357,
+          "lng": 13.128987
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
