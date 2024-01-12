@@ -1,7 +1,55 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 1,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "DOBLWEG 29",
+          "earea": "LEONDING",
+          "ecompl": "",
+          "efeanme": "DOBLWEG",
+          "emun": "LEONDING",
+          "estnum": "29"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "BRANDVER-BK",
+          "text": "BRANDVERDACHT"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "406212": {
+            "feuerwehr": "FF Leonding"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Leonding",
+            "fwnr": "406212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100670",
+        "startzeit": "Fri, 12 Jan 2024 09:53:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.28348,
+          "lng": 14.256893
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
