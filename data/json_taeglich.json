@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TABORWEG 10",
+          "earea": "STEYR",
+          "ecompl": "",
+          "efeanme": "TABORWEG",
+          "emun": "STEYR",
+          "estnum": "10"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SR - STEYR",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "41510106": {
+            "feuerwehr": "FW Technischer Zug Steyr"
+          },
+          "41510108": {
+            "feuerwehr": "FW Kommando Steyr"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Technischer Zug Steyr",
+            "fwnr": "41510106"
+          },
+          "1": {
+            "fwname": "FW Kommando Steyr",
+            "fwnr": "41510108"
+          }
+        },
+        "inzeit": "Fri, 12 Jan 2024 11:59:09 +0100",
+        "num1": "E240100676",
+        "startzeit": "Fri, 12 Jan 2024 11:35:14 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.044661,
+          "lng": 14.422373
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "414111"
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 12 Jan 2024 11:32:49 +0100",
         "num1": "E240100673",
         "startzeit": "Fri, 12 Jan 2024 10:57:44 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.096189,
           "lng": 13.868662
