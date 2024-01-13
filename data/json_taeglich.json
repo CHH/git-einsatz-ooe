@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STEINFELDSTRAßE 4",
+          "earea": "STEINFELD",
+          "ecompl": "",
+          "efeanme": "STEINFELDSTRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "4"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "WASSER-TK",
+          "text": "WASSERSCHADEN"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "40310204": {
+            "feuerwehr": "FW Rettenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FW Rettenbach",
+            "fwnr": "40310204"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100774",
+        "startzeit": "Sat, 13 Jan 2024 18:15:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.715343,
+          "lng": 13.628891
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": "407101"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 13 Jan 2024 18:10:07 +0100",
         "num1": "E240100771",
         "startzeit": "Sat, 13 Jan 2024 16:41:58 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.255637,
           "lng": 14.832889
