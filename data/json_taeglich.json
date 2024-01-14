@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "STADTPLATZ 19",
+          "earea": "MATTIGHOFEN",
+          "ecompl": "",
+          "efeanme": "STADTPLATZ",
+          "emun": "MATTIGHOFEN",
+          "estnum": "19"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - MATTIGHOFEN",
+        "einsatzsubtyp": {
+          "id": "LIFT-TK",
+          "text": "EINGESCHLOSSENE PERSON IN LIFT"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "FF Mattighofen"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Mattighofen",
+            "fwnr": "400212"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100820",
+        "startzeit": "Sun, 14 Jan 2024 18:02:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.1042,
+          "lng": 13.149956
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": "403110"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 14 Jan 2024 17:25:53 +0100",
         "num1": "E240100818",
         "startzeit": "Sun, 14 Jan 2024 15:19:05 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 47.725224,
           "lng": 13.645724
