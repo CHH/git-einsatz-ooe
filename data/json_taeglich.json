@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "TRAXLECKERWEG 17",
+          "earea": "RETTENBACH",
+          "ecompl": "",
+          "efeanme": "TRAXLECKERWEG",
+          "emun": "BAD ISCHL",
+          "estnum": "17"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "TUEROE-TK",
+          "text": "TÜRÖFFNUNG"
+        },
+        "einsatztyp": {
+          "id": "TK",
+          "text": "TECHNISCH \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          },
+          "40310204": {
+            "feuerwehr": "FW Rettenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FW Rettenbach",
+            "fwnr": "40310204"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100831",
+        "startzeit": "Sun, 14 Jan 2024 20:16:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.714445,
+          "lng": 13.637053
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": "409109"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 14 Jan 2024 20:35:43 +0100",
         "num1": "E240100829",
         "startzeit": "Sun, 14 Jan 2024 19:44:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.705342,
           "lng": 13.946908
@@ -100,10 +154,10 @@
             "fwnr": "406263"
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 14 Jan 2024 20:40:10 +0100",
         "num1": "E240100822",
         "startzeit": "Sun, 14 Jan 2024 18:46:52 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.232909,
           "lng": 14.254569
