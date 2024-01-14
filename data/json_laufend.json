@@ -1,7 +1,62 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "BRACHBERGSTRAßE 1",
+          "earea": "ROITH",
+          "ecompl": "",
+          "efeanme": "BRACHBERGSTRAßE",
+          "emun": "BAD ISCHL",
+          "estnum": "1"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - BAD ISCHL",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BK",
+          "text": "BRAND ABFALL, CONTAINER"
+        },
+        "einsatztyp": {
+          "id": "BK",
+          "text": "BRAND \"KLEIN\" FEUERWEHREINSATZ"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "FF Bad Ischl"
+          },
+          "403110": {
+            "feuerwehr": "FF Mitterweißenbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Bad Ischl",
+            "fwnr": "403102"
+          },
+          "1": {
+            "fwname": "FF Mitterweißenbach",
+            "fwnr": "403110"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100818",
+        "startzeit": "Sun, 14 Jan 2024 15:19:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 47.725224,
+          "lng": 13.645724
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
