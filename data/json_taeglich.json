@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "ENGERWITZDORFER STRAßE 40",
+          "earea": "ENGERWITZDORF",
+          "ecompl": "00000-121067-1",
+          "efeanme": "ENGERWITZDORFER STRAßE",
+          "emun": "ENGERWITZDORF",
+          "estnum": "40"
+        },
+        "alarmstufe": 1,
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - ENGERWITZDORF",
+        "einsatzsubtyp": {
+          "id": "BMA3-SONST",
+          "text": "BRANDMELDEALARM"
+        },
+        "einsatztyp": {
+          "id": "PREK",
+          "text": "TECHNISCHE PROBEN UND EINSATZKOMMANDOS"
+        },
+        "feuerwehren": {
+          "412312": {
+            "feuerwehr": "FF Schmiedgassen"
+          },
+          "412313": {
+            "feuerwehr": "FF Schweinbach"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Schmiedgassen",
+            "fwnr": "412312"
+          },
+          "1": {
+            "fwname": "FF Schweinbach",
+            "fwnr": "412313"
+          }
+        },
+        "inzeit": "Mon, 15 Jan 2024 08:58:13 +0100",
+        "num1": "E240100853",
+        "startzeit": "Mon, 15 Jan 2024 08:23:27 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": 48.343867,
+          "lng": 14.440722
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": "403226"
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 15 Jan 2024 08:19:39 +0100",
         "num1": "E240100850",
         "startzeit": "Mon, 15 Jan 2024 08:03:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": 48.0112,
           "lng": 13.925061
