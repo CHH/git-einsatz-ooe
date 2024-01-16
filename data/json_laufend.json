@@ -1,7 +1,83 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 1,
+  "cnt_feuerwehren": 5,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "LEONDING",
+          "earea": "",
+          "ecompl": "FW HART",
+          "efeanme": "",
+          "emun": "LEONDING",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - LEONDING",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TG",
+          "text": "TECHNISCHER EINSATZ"
+        },
+        "einsatztyp": {
+          "id": "TEE",
+          "text": "TECHNISCH \"MITTEL\" FEUERWEHREINSATZ (A2+3: \"GROß\")"
+        },
+        "feuerwehren": {
+          "406202": {
+            "feuerwehr": "FF Axberg"
+          },
+          "406208": {
+            "feuerwehr": "FF Hart / LL"
+          },
+          "406212": {
+            "feuerwehr": "FF Leonding"
+          },
+          "406216": {
+            "feuerwehr": "FF Pasching"
+          },
+          "406218": {
+            "feuerwehr": "FF Rufling"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "FF Axberg",
+            "fwnr": "406202"
+          },
+          "1": {
+            "fwname": "FF Hart / LL",
+            "fwnr": "406208"
+          },
+          "2": {
+            "fwname": "FF Leonding",
+            "fwnr": "406212"
+          },
+          "3": {
+            "fwname": "FF Pasching",
+            "fwnr": "406216"
+          },
+          "4": {
+            "fwname": "FF Rufling",
+            "fwnr": "406218"
+          }
+        },
+        "inzeit": "",
+        "num1": "E240100930",
+        "startzeit": "Tue, 16 Jan 2024 11:22:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": 48.26547,
+          "lng": 14.2555
+        }
+      }
+    }
+  ],
   "title": "laufende Einsätze",
   "version": "1.3.1",
   "webext2": true
