@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weyer",
+          "earea": "Weyer",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weyer",
+          "estnum": ""
+        },
+        "alarmstufe": "3",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Weyer",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411318": {
+            "feuerwehr": "Feuerwehr/Florian Unterlaussa (46318)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterlaussa (46318)",
+            "fwnr": 411318
+          }
+        },
+        "inzeit": "",
+        "num1": "E240201973",
+        "startzeit": "Tue, 20 Feb 2024 17:35:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7182",
+          "lng": "14.5638"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.2097",
           "lng": "14.2881"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "415106": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
-          },
-          "415108": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415106
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240201970",
-        "startzeit": "Tue, 20 Feb 2024 17:22:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     },
