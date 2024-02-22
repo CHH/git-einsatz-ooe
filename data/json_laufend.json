@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neuhofen an der Krems",
+          "earea": "Neuhofen an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neuhofen an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "3",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Neuhofen an der Krems",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411306": {
+            "feuerwehr": "Feuerwehr/Florian Lindau-Neudorf (46306)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lindau-Neudorf (46306)",
+            "fwnr": 411306
+          }
+        },
+        "inzeit": "",
+        "num1": "E240202603",
+        "startzeit": "Thu, 22 Feb 2024 18:45:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1378",
+          "lng": "14.2341"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +59,52 @@
           "emun": "Ansfelden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
-          "id": "UNKLARLAGE-BR",
-          "text": "Brand unklare Lage"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "406201": {
             "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          },
+          "406207": {
+            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
+          },
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          },
+          "406261": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Ansfelden (39201)",
             "fwnr": 406201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Freindorf (39207)",
+            "fwnr": 406207
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
+            "fwnr": 406261
           }
         },
         "inzeit": "",
