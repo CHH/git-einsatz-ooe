@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Herzogsdorf",
+          "earea": "Herzogsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Herzogsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Herzogsdorf",
+        "einsatzsubtyp": {
+          "id": "ÖLGEWÄSSER-TE",
+          "text": "Ölaustritt Gewässer"
+        },
+        "einsatztyp": {
+          "id": "T1-ÖL-GEWÄSSER",
+          "text": "Ölaustritt Gewässer"
+        },
+        "feuerwehren": {
+          "412208": {
+            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
+            "fwnr": 412208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240202775",
+        "startzeit": "Fri, 23 Feb 2024 10:13:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4363",
+          "lng": "14.1157"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -179,7 +226,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "FR - Wartberg ob der Aist",
         "einsatzsubtyp": {
@@ -191,6 +238,9 @@
           "text": "Ölspur"
         },
         "feuerwehren": {
+          "402205": {
+            "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
+          },
           "402209": {
             "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
           },
@@ -206,6 +256,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Pregarten (35209)",
             "fwnr": 402209
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
+            "fwnr": 402205
           }
         },
         "inzeit": "",
