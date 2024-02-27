@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Schallerbach",
+          "earea": "Bad Schallerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Schallerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GR - Bad Schallerbach",
+        "einsatzsubtyp": {
+          "id": "GASAUSTR-SCHAD",
+          "text": "Gasaustritt"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
+            "fwnr": 404101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240203484",
+        "startzeit": "Tue, 27 Feb 2024 11:08:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2277",
+          "lng": "13.9234"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
@@ -29,6 +76,9 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402111": {
             "feuerwehr": "Feuerwehr/Florian Lamm (35111)"
           }
@@ -37,6 +87,10 @@
           "0": {
             "fwname": "Feuerwehr/Florian Lamm (35111)",
             "fwnr": 402111
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
           }
         },
         "inzeit": "",
