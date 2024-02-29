@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Mitterkirchen im Machlande",
-          "earea": "Mitterkirchen im Machlande",
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Mitterkirchen im Machlande",
+          "emun": "Mauthausen",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,34 +18,81 @@
           "text": "Perg"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Mitterkirchen im Machlande",
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Mauthausen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "407308": {
-            "feuerwehr": "Feuerwehr/Florian Mitterkirchen (42308)"
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Mitterkirchen (42308)",
-            "fwnr": 407308
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
           }
         },
         "inzeit": "",
-        "num1": "E240204074",
-        "startzeit": "Thu, 29 Feb 2024 14:34:08 +0100",
+        "num1": "E240204079",
+        "startzeit": "Thu, 29 Feb 2024 14:52:03 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1847",
-          "lng": "14.711"
+          "lat": "48.2455",
+          "lng": "14.5042"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406261": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
+            "fwnr": 406261
+          }
+        },
+        "inzeit": "",
+        "num1": "E240204078",
+        "startzeit": "Thu, 29 Feb 2024 14:51:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1853",
+          "lng": "14.2565"
         }
       }
     },
