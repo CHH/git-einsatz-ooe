@@ -1,51 +1,105 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Leonfelden",
-          "earea": "Bad Leonfelden",
+          "default": "Münzkirchen",
+          "earea": "Münzkirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Bad Leonfelden",
+          "emun": "Münzkirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 10,
+          "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Bad Leonfelden",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Münzkirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
         },
         "feuerwehren": {
-          "412129": {
-            "feuerwehr": "Feuerwehr/Florian Schönegg (49129)"
+          "410315": {
+            "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          },
+          "410323": {
+            "feuerwehr": "Feuerwehr/Florian Schiessdorf (45323)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Schönegg (49129)",
-            "fwnr": 412129
+            "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
+            "fwnr": 410315
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
+            "fwnr": 410323
           }
         },
         "inzeit": "",
-        "num1": "E240204215",
-        "startzeit": "Thu, 29 Feb 2024 21:00:43 +0100",
+        "num1": "E240204219",
+        "startzeit": "Thu, 29 Feb 2024 21:09:18 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5312",
-          "lng": "14.2942"
+          "lat": "48.4827",
+          "lng": "13.5608"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "407204": {
+            "feuerwehr": "Feuerwehr/Florian Haid (PE) (42204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haid (PE) (42204)",
+            "fwnr": 407204
+          }
+        },
+        "inzeit": "",
+        "num1": "E240204218",
+        "startzeit": "Thu, 29 Feb 2024 21:07:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2462",
+          "lng": "14.5497"
         }
       }
     },
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.5181",
           "lng": "14.5075"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lichtenberg",
-          "earea": "Lichtenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lichtenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Lichtenberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412304": {
-            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
-            "fwnr": 412304
-          }
-        },
-        "inzeit": "",
-        "num1": "E240204157",
-        "startzeit": "Thu, 29 Feb 2024 19:35:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3589",
-          "lng": "14.258"
         }
       }
     },
