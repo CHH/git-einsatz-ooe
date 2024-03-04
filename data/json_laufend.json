@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240300530",
+        "startzeit": "Mon, 04 Mar 2024 23:08:58 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.366",
+          "lng": "14.5498"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.3952",
           "lng": "14.2342"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Klaffer am Hochficht",
-          "earea": "Klaffer am Hochficht",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Klaffer am Hochficht",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - Klaffer am Hochficht",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur"
-        },
-        "feuerwehren": {
-          "409104": {
-            "feuerwehr": "Feuerwehr/Florian Klaffer (44104)"
-          },
-          "409108": {
-            "feuerwehr": "Feuerwehr/Florian Schwarzenberg (44108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Klaffer (44104)",
-            "fwnr": 409104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schwarzenberg (44108)",
-            "fwnr": 409108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240300433",
-        "startzeit": "Mon, 04 Mar 2024 17:02:55 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6956",
-          "lng": "13.8824"
         }
       }
     },
