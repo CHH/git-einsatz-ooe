@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Freistadt",
+          "earea": "Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Freistadt",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
+        },
+        "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          }
+        },
+        "inzeit": "",
+        "num1": "E240301084",
+        "startzeit": "Thu, 07 Mar 2024 15:31:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5181",
+          "lng": "14.5075"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.4025",
           "lng": "14.3797"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "415106": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
-          },
-          "415108": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415106
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301081",
-        "startzeit": "Thu, 07 Mar 2024 14:59:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
