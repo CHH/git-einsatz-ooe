@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "400302": {
+            "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aspach (33302)",
+            "fwnr": 400302
+          }
+        },
+        "inzeit": "",
+        "num1": "E240301237",
+        "startzeit": "Fri, 08 Mar 2024 15:08:58 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1856",
+          "lng": "13.3057"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.2975",
           "lng": "13.9435"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "FZGKLBBERGEN-TE",
-          "text": "Bergung Kleinbus"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301233",
-        "startzeit": "Fri, 08 Mar 2024 14:41:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
         }
       }
     },
@@ -328,60 +328,6 @@
         "wgs84": {
           "lat": "47.6731",
           "lng": "13.6166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neukirchen am Walde",
-          "earea": "Neukirchen am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neukirchen am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Neukirchen am Walde",
-        "einsatzsubtyp": {
-          "id": "TRAGEUNTST-TE",
-          "text": "Tragehilfe"
-        },
-        "einsatztyp": {
-          "id": "T0-UNTST-TRAGE",
-          "text": "Tragehilfe"
-        },
-        "feuerwehren": {
-          "404312": {
-            "feuerwehr": "Feuerwehr/Florian Neukirchen am Walde (37312)"
-          },
-          "404315": {
-            "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neukirchen am Walde (37312)",
-            "fwnr": 404312
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Peuerbach (37315)",
-            "fwnr": 404315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301224",
-        "startzeit": "Fri, 08 Mar 2024 13:43:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4068",
-          "lng": "13.781"
         }
       }
     },
