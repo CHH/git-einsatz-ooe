@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchham",
+          "earea": "Kirchham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Kirchham",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403210": {
+            "feuerwehr": "Feuerwehr/Florian Kirchham (36210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchham (36210)",
+            "fwnr": 403210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240301379",
+        "startzeit": "Sat, 09 Mar 2024 08:24:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9685",
+          "lng": "13.8966"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,67 +234,6 @@
         "wgs84": {
           "lat": "47.9514",
           "lng": "14.459"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sierning",
-          "earea": "Sierning",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sierning",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "SE - Sierning",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "411209": {
-            "feuerwehr": "Feuerwehr/Florian Neuzeug-Sierninghofen (46209)"
-          },
-          "411211": {
-            "feuerwehr": "Feuerwehr/Florian Pichlern (46211)"
-          },
-          "411217": {
-            "feuerwehr": "Feuerwehr/Florian Sierning (46217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neuzeug-Sierninghofen (46209)",
-            "fwnr": 411209
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pichlern (46211)",
-            "fwnr": 411211
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Sierning (46217)",
-            "fwnr": 411217
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301373",
-        "startzeit": "Sat, 09 Mar 2024 07:29:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0478",
-          "lng": "14.332"
         }
       }
     },
