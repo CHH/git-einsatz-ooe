@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Freistadt",
-          "earea": "Freistadt",
+          "default": "Neumarkt im Mühlkreis",
+          "earea": "Neumarkt im Mühlkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Freistadt",
+          "emun": "Neumarkt im Mühlkreis",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,8 +18,55 @@
           "text": "Freistadt"
         },
         "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Neumarkt im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402111": {
+            "feuerwehr": "Feuerwehr/Florian Lamm (35111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lamm (35111)",
+            "fwnr": 402111
+          }
+        },
+        "inzeit": "",
+        "num1": "E240301383",
+        "startzeit": "Sat, 09 Mar 2024 09:44:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4432",
+          "lng": "14.4331"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kefermarkt",
+          "earea": "Kefermarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kefermarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "FR - Freistadt",
+        "einsatzort": "FR - Kefermarkt",
         "einsatzsubtyp": {
           "id": "SONSTIGE-TE",
           "text": "Sonstiger Einsatz"
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "402103": {
             "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Freistadt (35103)",
             "fwnr": 402103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
           }
         },
         "inzeit": "",
@@ -44,8 +98,8 @@
         "startzeit": "Sat, 09 Mar 2024 09:24:21 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5181",
-          "lng": "14.5075"
+          "lat": "48.4391",
+          "lng": "14.5384"
         }
       }
     },
