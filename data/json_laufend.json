@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,26 +17,33 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "GR - Hofkirchen an der Trattnach",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
         },
         "feuerwehren": {
           "404107": {
             "feuerwehr": "Feuerwehr/Florian Hofkirchen an der Trattnach (37107)"
+          },
+          "404119": {
+            "feuerwehr": "Feuerwehr/Florian Ruhringsdorf (37119)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Hofkirchen an der Trattnach (37107)",
             "fwnr": 404107
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ruhringsdorf (37119)",
+            "fwnr": 404119
           }
         },
         "inzeit": "",
@@ -93,53 +100,6 @@
         "wgs84": {
           "lat": "47.6215",
           "lng": "13.6446"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Stefan am Walde",
-          "earea": "St. Stefan am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Stefan am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - St. Stefan am Walde",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409421": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Stefan am Walde (44421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Stefan am Walde (44421)",
-            "fwnr": 409421
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301640",
-        "startzeit": "Mon, 11 Mar 2024 20:02:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5661",
-          "lng": "14.1028"
         }
       }
     },
@@ -281,60 +241,6 @@
         "wgs84": {
           "lat": "48.4974",
           "lng": "14.3588"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Meggenhofen",
-          "earea": "Meggenhofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Meggenhofen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GR - Meggenhofen",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "404110": {
-            "feuerwehr": "Feuerwehr/Florian Meggenhofen (37110)"
-          },
-          "404131": {
-            "feuerwehr": "Feuerwehr/Florian Wilhelmsberg (37131)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Meggenhofen (37110)",
-            "fwnr": 404110
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Wilhelmsberg (37131)",
-            "fwnr": 404131
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301635",
-        "startzeit": "Mon, 11 Mar 2024 19:49:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1573",
-          "lng": "13.8005"
         }
       }
     },
@@ -764,53 +670,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301608",
-        "startzeit": "Mon, 11 Mar 2024 19:04:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Piberbach",
           "earea": "Piberbach",
           "ecompl": "",
@@ -899,53 +758,6 @@
         "wgs84": {
           "lat": "47.8232",
           "lng": "13.355"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Losenstein",
-          "earea": "Losenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Losenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Losenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411307": {
-            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Losenstein (46307)",
-            "fwnr": 411307
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301594",
-        "startzeit": "Mon, 11 Mar 2024 17:32:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9212",
-          "lng": "14.4394"
         }
       }
     },
