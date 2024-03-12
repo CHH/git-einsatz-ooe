@@ -1,62 +1,69 @@
 {
-  "cnt_einsaetze": 10,
+  "cnt_einsaetze": 9,
   "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Grünbach",
-          "earea": "Grünbach",
+          "default": "Steyr",
+          "earea": "Steyr",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Grünbach",
+          "emun": "Steyr",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
+          "id": 15,
+          "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Grünbach",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
         },
         "feuerwehren": {
-          "402409": {
-            "feuerwehr": "Feuerwehr/Florian Lichtenau (35409)"
+          "415105": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug 5 Münichholz (47105)"
+          },
+          "415108": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Lichtenau (35409)",
-            "fwnr": 402409
+            "fwname": "Feuerwehr/Florian Steyr Zug 5 Münichholz (47105)",
+            "fwnr": 415105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415108
           }
         },
         "inzeit": "",
-        "num1": "E240301767",
-        "startzeit": "Tue, 12 Mar 2024 20:52:32 +0100",
+        "num1": "E240301769",
+        "startzeit": "Tue, 12 Mar 2024 21:02:33 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.556",
-          "lng": "14.5161"
+          "lat": null,
+          "lng": null
         }
       }
     },
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Roman",
-          "earea": "St. Roman",
+          "default": "Raab",
+          "earea": "Raab",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Roman",
+          "emun": "Raab",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -66,7 +73,7 @@
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "SD - St. Roman",
+        "einsatzort": "SD - Raab",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -76,23 +83,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "410109": {
-            "feuerwehr": "Feuerwehr/Florian Kössldorf (45109)"
+          "410219": {
+            "feuerwehr": "Feuerwehr/Florian Steinbruck-Bründl (45219)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kössldorf (45109)",
-            "fwnr": 410109
+            "fwname": "Feuerwehr/Florian Steinbruck-Bründl (45219)",
+            "fwnr": 410219
           }
         },
         "inzeit": "",
-        "num1": "E240301766",
-        "startzeit": "Tue, 12 Mar 2024 20:50:55 +0100",
+        "num1": "E240301768",
+        "startzeit": "Tue, 12 Mar 2024 20:57:05 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4977",
-          "lng": "13.6182"
+          "lat": "48.3611",
+          "lng": "13.6447"
         }
       }
     },
@@ -234,53 +241,6 @@
         "wgs84": {
           "lat": "48.1378",
           "lng": "14.2341"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301749",
-        "startzeit": "Tue, 12 Mar 2024 19:19:11 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
         }
       }
     },
