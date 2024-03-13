@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gaflenz",
+          "earea": "Gaflenz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gaflenz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Gaflenz",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411306": {
+            "feuerwehr": "Feuerwehr/Florian Lindau-Neudorf (46306)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lindau-Neudorf (46306)",
+            "fwnr": 411306
+          }
+        },
+        "inzeit": "",
+        "num1": "E240301857",
+        "startzeit": "Wed, 13 Mar 2024 18:52:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8797",
+          "lng": "14.6734"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,67 +234,6 @@
         "wgs84": {
           "lat": "48.1817",
           "lng": "13.577"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "VERGIFTAL-SCHAD",
-          "text": "Vergiftungsalarm ausgelöst"
-        },
-        "einsatztyp": {
-          "id": "S0-GAS",
-          "text": "Gasaustritt"
-        },
-        "feuerwehren": {
-          "415103": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)"
-          },
-          "415106": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
-          },
-          "415108": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
-            "fwnr": 415103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415106
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240301847",
-        "startzeit": "Wed, 13 Mar 2024 18:00:19 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     },
