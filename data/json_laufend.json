@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee",
+          "earea": "Ebensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ebensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403115": {
+            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
+            "fwnr": 403115
+          }
+        },
+        "inzeit": "",
+        "num1": "E240302207",
+        "startzeit": "Fri, 15 Mar 2024 17:09:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7932",
+          "lng": "13.7579"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 15,
           "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "SR - Steyr",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "415106": {
             "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           },
+          "415107": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Wasserzug (47107)"
+          },
           "415108": {
             "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
@@ -44,6 +94,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
             "fwnr": 415108
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Wasserzug (47107)",
+            "fwnr": 415107
           }
         },
         "inzeit": "",
@@ -53,53 +107,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302204",
-        "startzeit": "Fri, 15 Mar 2024 16:53:30 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
         }
       }
     },
@@ -382,60 +389,6 @@
         "wgs84": {
           "lat": "48.1873",
           "lng": "14.2562"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchdorf am Inn",
-          "earea": "Kirchdorf am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchdorf am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - Kirchdorf am Inn",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "408304": {
-            "feuerwehr": "Feuerwehr/Florian Katzenberg (43304)"
-          },
-          "408305": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf am Inn (43305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Katzenberg (43304)",
-            "fwnr": 408304
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kirchdorf am Inn (43305)",
-            "fwnr": 408305
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302187",
-        "startzeit": "Fri, 15 Mar 2024 14:44:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.29",
-          "lng": "13.2963"
         }
       }
     },
