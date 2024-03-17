@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lichtenberg",
+          "earea": "Lichtenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lichtenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Lichtenberg",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "412309": {
+            "feuerwehr": "Feuerwehr/Florian Lichtenberg (49309)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lichtenberg (49309)",
+            "fwnr": 412309
+          }
+        },
+        "inzeit": "",
+        "num1": "E240302413",
+        "startzeit": "Sun, 17 Mar 2024 02:57:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3589",
+          "lng": "14.258"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,60 +106,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pinsdorf",
-          "earea": "Pinsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pinsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Pinsdorf",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "403217": {
-            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
-          },
-          "403227": {
-            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesen (36227)",
-            "fwnr": 403227
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
-            "fwnr": 403217
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302409",
-        "startzeit": "Sat, 16 Mar 2024 22:43:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9477",
-          "lng": "13.7515"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pfarrkirchen bei Bad Hall",
           "earea": "Pfarrkirchen bei Bad Hall",
           "ecompl": "",
@@ -154,53 +147,6 @@
         "wgs84": {
           "lat": "48.0275",
           "lng": "14.1998"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchdorf an der Krems",
-          "earea": "Kirchdorf an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchdorf an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Kirchdorf an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302392",
-        "startzeit": "Sat, 16 Mar 2024 18:56:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9059",
-          "lng": "14.1194"
         }
       }
     },
