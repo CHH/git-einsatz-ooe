@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Eggerding",
-          "earea": "Eggerding",
+          "default": "Fraham",
+          "earea": "Fraham",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Eggerding",
+          "emun": "Fraham",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 10,
-          "text": "Schärding"
+          "id": 1,
+          "text": "Eferding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Eggerding",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "EF - Fraham",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSZUG-VU",
+          "text": "Personenrettung Verkehrsunfall Zug"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V1-PERS-ZUG",
+          "text": "Personenrettung Verkehrsunfall Zug"
         },
         "feuerwehren": {
-          "410310": {
-            "feuerwehr": "Feuerwehr/Florian Hof (SD) (45310)"
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (ef) (34105)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Hof (SD) (45310)",
-            "fwnr": 410310
+            "fwname": "Feuerwehr/Florian Fraham (ef) (34105)",
+            "fwnr": 401105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
           }
         },
         "inzeit": "",
-        "num1": "E240302504",
-        "startzeit": "Mon, 18 Mar 2024 11:37:41 +0100",
+        "num1": "E240302507",
+        "startzeit": "Mon, 18 Mar 2024 12:02:39 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3646",
-          "lng": "13.5089"
+          "lat": "48.2826",
+          "lng": "14.0289"
         }
       }
     },
