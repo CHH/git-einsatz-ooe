@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Überackern",
+          "earea": "Überackern",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Überackern",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Überackern",
+        "einsatzsubtyp": {
+          "id": "BMT-SELBST",
+          "text": "Brandmeldetaste Gedrückt"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400113": {
+            "feuerwehr": "Feuerwehr/Florian Überackern (33113)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Überackern (33113)",
+            "fwnr": 400113
+          }
+        },
+        "inzeit": "",
+        "num1": "E240302501",
+        "startzeit": "Mon, 18 Mar 2024 11:11:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1914",
+          "lng": "12.875"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,100 +93,6 @@
         "wgs84": {
           "lat": "48.6198",
           "lng": "13.8923"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400161": {
-            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
-            "fwnr": 400161
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302497",
-        "startzeit": "Mon, 18 Mar 2024 10:39:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2283",
-          "lng": "13.0301"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302492",
-        "startzeit": "Mon, 18 Mar 2024 09:24:01 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
         }
       }
     }
