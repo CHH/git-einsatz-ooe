@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mondsee",
+          "earea": "Mondsee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mondsee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Mondsee",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413208": {
+            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mondsee (50208)",
+            "fwnr": 413208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240302494",
+        "startzeit": "Mon, 18 Mar 2024 09:37:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8574",
+          "lng": "13.3434"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,81 +93,6 @@
         "wgs84": {
           "lat": "48.2254",
           "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Diersbach",
-          "earea": "Diersbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Diersbach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "BRAND",
-        "einsatzort": "SD - Diersbach",
-        "einsatzsubtyp": {
-          "id": "CARPORT-BR",
-          "text": "Brand Carport"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "410204": {
-            "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
-          },
-          "410211": {
-            "feuerwehr": "Feuerwehr/Florian Mitterndorf (45211)"
-          },
-          "410212": {
-            "feuerwehr": "Feuerwehr/Florian Oberedt (45212)"
-          },
-          "410218": {
-            "feuerwehr": "Feuerwehr/Florian Sigharting (45218)"
-          },
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Diersbach (45204)",
-            "fwnr": 410204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Mitterndorf (45211)",
-            "fwnr": 410211
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Oberedt (45212)",
-            "fwnr": 410212
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Sigharting (45218)",
-            "fwnr": 410218
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302475",
-        "startzeit": "Mon, 18 Mar 2024 02:12:10 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4122",
-          "lng": "13.572"
         }
       }
     }
