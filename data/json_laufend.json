@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gosau",
+          "earea": "Gosau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gosau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gosau",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403104": {
+            "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gosau (36104)",
+            "fwnr": 403104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240302592",
+        "startzeit": "Tue, 19 Mar 2024 01:36:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5773",
+          "lng": "13.5281"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "SD - Diersbach",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "410204": {
             "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
+          },
+          "410325": {
+            "feuerwehr": "Feuerwehr/Florian Taufkirchen an der Pram (45325)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Diersbach (45204)",
             "fwnr": 410204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Taufkirchen an der Pram (45325)",
+            "fwnr": 410325
           }
         },
         "inzeit": "",
