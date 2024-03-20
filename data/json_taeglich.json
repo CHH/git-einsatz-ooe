@@ -1,495 +1,105 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Hörsching",
-          "earea": "Hörsching",
+          "default": "Unterach am Attersee",
+          "earea": "Unterach am Attersee",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Hörsching",
+          "emun": "Unterach am Attersee",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 13,
+          "text": "Vöcklabruck"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Hörsching",
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Unterach am Attersee",
         "einsatzsubtyp": {
-          "id": "TÜRPERS-TE",
-          "text": "Türöffnung Menschenrettung"
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "406209": {
-            "feuerwehr": "Feuerwehr/Florian Hörsching (39209)"
+          "413214": {
+            "feuerwehr": "Feuerwehr/Florian Unterach am Attersee (50214)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Hörsching (39209)",
-            "fwnr": 406209
+            "fwname": "Feuerwehr/Florian Unterach am Attersee (50214)",
+            "fwnr": 413214
           }
         },
         "inzeit": "",
-        "num1": "E240302618",
-        "startzeit": "Tue, 19 Mar 2024 11:05:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2243",
-          "lng": "14.1854"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Asten",
-          "earea": "Asten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Asten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Asten",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur"
-        },
-        "feuerwehren": {
-          "406101": {
-            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Asten (39101)",
-            "fwnr": 406101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302614",
-        "startzeit": "Tue, 19 Mar 2024 10:44:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2186",
-          "lng": "14.4232"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Alkoven",
-          "earea": "Alkoven",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alkoven",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Alkoven",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401114": {
-            "feuerwehr": "Feuerwehr/Florian Polsing (34114)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Polsing (34114)",
-            "fwnr": 401114
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302613",
-        "startzeit": "Tue, 19 Mar 2024 10:31:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.269",
-          "lng": "14.0856"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
-          },
-          "403115": {
-            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
-            "fwnr": 403115
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302610",
-        "startzeit": "Tue, 19 Mar 2024 10:07:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Allerheiligen im Mühlkreis",
-          "earea": "Allerheiligen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Allerheiligen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Allerheiligen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TE",
-          "text": "Sonstiger Einsatz"
-        },
-        "einsatztyp": {
-          "id": "T0-SONST",
-          "text": "Sonstiger Einsatz"
-        },
-        "feuerwehren": {
-          "407301": {
-            "feuerwehr": "Feuerwehr/Florian Allerheiligen im Mühlkreis (42301)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Allerheiligen im Mühlkreis (42301)",
-            "fwnr": 407301
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302605",
-        "startzeit": "Tue, 19 Mar 2024 09:47:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3076",
-          "lng": "14.6593"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steinerkirchen an der Traun",
-          "earea": "Steinerkirchen an der Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinerkirchen an der Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Steinerkirchen an der Traun",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414105": {
-            "feuerwehr": "Feuerwehr/Florian Eberstalzell (51105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eberstalzell (51105)",
-            "fwnr": 414105
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302604",
-        "startzeit": "Tue, 19 Mar 2024 09:39:59 +0100",
+        "num1": "E240302718",
+        "startzeit": "Wed, 20 Mar 2024 02:20:48 +0100",
         "status": "abgeschlossen",
         "wgs84": {
-          "lat": "48.0758",
-          "lng": "14.0134"
+          "lat": "47.8024",
+          "lng": "13.4776"
         }
       }
     },
     {
       "einsatz": {
         "adresse": {
-          "default": "Königswiesen",
-          "earea": "Königswiesen",
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Königswiesen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Königswiesen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402305": {
-            "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Königswiesen (35305)",
-            "fwnr": 402305
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302599",
-        "startzeit": "Tue, 19 Mar 2024 07:58:05 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4067",
-          "lng": "14.8361"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "KLEINMENGEÖL-TE",
-          "text": "Ölaustritt Kleinmenge"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-KLEINMENGE",
-          "text": "Ölaustritt Kleinmenge"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302593",
-        "startzeit": "Tue, 19 Mar 2024 06:54:05 +0100",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gosau",
-          "earea": "Gosau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gosau",
+          "emun": "Bad Ischl",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Gosau",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "403104": {
-            "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
-          },
-          "403117": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gosau (36104)",
-            "fwnr": 403104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
-            "fwnr": 403117
-          }
-        },
-        "inzeit": "",
-        "num1": "E240302592",
-        "startzeit": "Tue, 19 Mar 2024 01:36:12 +0100",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "47.5773",
-          "lng": "13.5281"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Diersbach",
-          "earea": "Diersbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Diersbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
         },
         "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "SD - Diersbach",
+        "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
-          "id": "UNKLARLAGE-BR",
-          "text": "Brand unklare Lage"
+          "id": "ABFALLCONT-BR",
+          "text": "Brand Abfallcontainer"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
         },
         "feuerwehren": {
-          "410204": {
-            "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
           },
-          "410325": {
-            "feuerwehr": "Feuerwehr/Florian Taufkirchen an der Pram (45325)"
+          "403503": {
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Diersbach (45204)",
-            "fwnr": 410204
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
           },
           "1": {
-            "fwname": "Feuerwehr/Florian Taufkirchen an der Pram (45325)",
-            "fwnr": 410325
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403503
           }
         },
         "inzeit": "",
-        "num1": "E240302591",
-        "startzeit": "Tue, 19 Mar 2024 00:58:45 +0100",
+        "num1": "E240302717",
+        "startzeit": "Wed, 20 Mar 2024 01:56:54 +0100",
         "status": "abgeschlossen",
         "wgs84": {
-          "lat": "48.4122",
-          "lng": "13.572"
+          "lat": null,
+          "lng": null
         }
       }
     }
