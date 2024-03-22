@@ -1,51 +1,65 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Schlägl",
-          "earea": "Schlägl",
+          "default": "Eggerding",
+          "earea": "Eggerding",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Schlägl",
+          "emun": "Eggerding",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
+          "id": 10,
+          "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Schlägl",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Eggerding",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "UNKLARLAGE-BR",
+          "text": "Brand unklare Lage"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
+          "410303": {
+            "feuerwehr": "Feuerwehr/Florian Eggerding (45303)"
+          },
+          "410310": {
+            "feuerwehr": "Feuerwehr/Florian Hof (SD) (45310)"
+          },
+          "410314": {
+            "feuerwehr": "Feuerwehr/Florian Maasbach (45314)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
+            "fwname": "Feuerwehr/Florian Eggerding (45303)",
+            "fwnr": 410303
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hof (SD) (45310)",
+            "fwnr": 410310
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Maasbach (45314)",
+            "fwnr": 410314
           }
         },
         "inzeit": "",
-        "num1": "E240303203",
-        "startzeit": "Fri, 22 Mar 2024 17:25:06 +0100",
+        "num1": "E240303210",
+        "startzeit": "Fri, 22 Mar 2024 17:52:03 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.637",
-          "lng": "13.9668"
+          "lat": "48.3494",
+          "lng": "13.4721"
         }
       }
     },
@@ -281,53 +295,6 @@
         "wgs84": {
           "lat": "48.1248",
           "lng": "13.3393"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Dietach",
-          "earea": "Dietach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Dietach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Dietach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411202": {
-            "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Dietach (46202)",
-            "fwnr": 411202
-          }
-        },
-        "inzeit": "",
-        "num1": "E240303178",
-        "startzeit": "Fri, 22 Mar 2024 16:05:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0894",
-          "lng": "14.4184"
         }
       }
     },
