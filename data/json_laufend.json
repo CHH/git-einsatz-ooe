@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Berg im Attergau",
+          "earea": "Berg im Attergau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Berg im Attergau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Berg im Attergau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413508": {
+            "feuerwehr": "Feuerwehr/Florian Hipping (50508)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hipping (50508)",
+            "fwnr": 413508
+          }
+        },
+        "inzeit": "",
+        "num1": "E240303679",
+        "startzeit": "Mon, 25 Mar 2024 16:08:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9511",
+          "lng": "13.4661"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "FR - Lasberg",
         "einsatzsubtyp": {
@@ -76,6 +123,9 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402112": {
             "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
           }
@@ -84,6 +134,10 @@
           "0": {
             "fwname": "Feuerwehr/Florian Lasberg (35112)",
             "fwnr": 402112
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
           }
         },
         "inzeit": "",
