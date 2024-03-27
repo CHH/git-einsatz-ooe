@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 1,
   "cnt_feuerwehren": 2,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
           "403504": {
             "feuerwehr": "Feuerwehr/Florian Rettenbach (36504)"
           }
@@ -37,6 +40,10 @@
           "0": {
             "fwname": "Feuerwehr/Florian Rettenbach (36504)",
             "fwnr": 403504
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
           }
         },
         "inzeit": "",
@@ -46,53 +53,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Andorf",
-          "earea": "Andorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Andorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Andorf",
-        "einsatzsubtyp": {
-          "id": "GROßLKWBERGEN-TE",
-          "text": "Bergung LKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-GROßFZG",
-          "text": "Bergung Großfahrzeug"
-        },
-        "feuerwehren": {
-          "410213": {
-            "feuerwehr": "Feuerwehr/Florian Pimpfing (45213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pimpfing (45213)",
-            "fwnr": 410213
-          }
-        },
-        "inzeit": "",
-        "num1": "E240303911",
-        "startzeit": "Wed, 27 Mar 2024 10:31:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3428",
-          "lng": "13.5546"
         }
       }
     }
