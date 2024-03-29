@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Zell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Bad Zell",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          }
+        },
+        "inzeit": "",
+        "num1": "E240304206",
+        "startzeit": "Fri, 29 Mar 2024 14:04:58 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3518",
+          "lng": "14.6781"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,81 +140,6 @@
         "wgs84": {
           "lat": "48.4984",
           "lng": "13.8945"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "PERSSUCHE-TE",
-          "text": "Personensuche"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-SUCHE",
-          "text": "Personensuche"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
-          },
-          "400106": {
-            "feuerwehr": "Feuerwehr/Florian Mining (33106)"
-          },
-          "400111": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
-          },
-          "400161": {
-            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
-          },
-          "400219": {
-            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Peter am Hart (33111)",
-            "fwnr": 400111
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Mining (33106)",
-            "fwnr": 400106
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Schalchen (33219)",
-            "fwnr": 400219
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
-            "fwnr": 400161
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304172",
-        "startzeit": "Fri, 29 Mar 2024 09:49:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
         }
       }
     }
