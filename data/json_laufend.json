@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400161": {
+            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
+            "fwnr": 400161
+          }
+        },
+        "inzeit": "",
+        "num1": "E240304187",
+        "startzeit": "Fri, 29 Mar 2024 11:31:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2283",
+          "lng": "13.0301"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -186,7 +233,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
         "einsatzort": "BR - Braunau am Inn",
         "einsatzsubtyp": {
@@ -206,6 +253,9 @@
           },
           "400111": {
             "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
+          },
+          "400161": {
+            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
           },
           "400219": {
             "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
@@ -227,6 +277,10 @@
           "3": {
             "fwname": "Feuerwehr/Florian Schalchen (33219)",
             "fwnr": 400219
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
+            "fwnr": 400161
           }
         },
         "inzeit": "",
