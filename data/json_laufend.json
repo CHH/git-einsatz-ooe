@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eggelsberg",
+          "earea": "Eggelsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eggelsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Eggelsberg",
+        "einsatzsubtyp": {
+          "id": "PERSEINGEKL-TE",
+          "text": "Person eingeklemmt"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-EINGEK",
+          "text": "Person eingeklemmt"
+        },
+        "feuerwehren": {
+          "400402": {
+            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
+          },
+          "400409": {
+            "feuerwehr": "Feuerwehr/Florian Ibm (33409)"
+          },
+          "400410": {
+            "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
+            "fwnr": 400402
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ibm (33409)",
+            "fwnr": 400409
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Moosdorf (33410)",
+            "fwnr": 400410
+          }
+        },
+        "inzeit": "",
+        "num1": "E240304182",
+        "startzeit": "Fri, 29 Mar 2024 11:02:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0736",
+          "lng": "12.9897"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -113,53 +174,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorderweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "UU - Vorderweißenbach",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "412102": {
-            "feuerwehr": "Feuerwehr/Florian Amesschlag/L. (49102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Amesschlag/L. (49102)",
-            "fwnr": 412102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304168",
-        "startzeit": "Fri, 29 Mar 2024 09:11:45 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5422",
-          "lng": "14.2511"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Feldkirchen an der Donau",
           "earea": "Feldkirchen an der Donau",
           "ecompl": "",
@@ -201,53 +215,6 @@
         "wgs84": {
           "lat": "48.3824",
           "lng": "14.0899"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Auerbach",
-          "earea": "Auerbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Auerbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Auerbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400202": {
-            "feuerwehr": "Feuerwehr/Florian Auerbach (33202)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Auerbach (33202)",
-            "fwnr": 400202
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304126",
-        "startzeit": "Thu, 28 Mar 2024 19:06:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0649",
-          "lng": "13.1073"
         }
       }
     },
