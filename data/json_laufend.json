@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E240304436",
+        "startzeit": "Sat, 30 Mar 2024 21:04:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,107 +93,6 @@
         "wgs84": {
           "lat": "47.8828",
           "lng": "13.3025"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur"
-        },
-        "feuerwehren": {
-          "415106": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
-          },
-          "415108": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415106
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304431",
-        "startzeit": "Sat, 30 Mar 2024 20:12:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pregarten",
-          "earea": "Pregarten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pregarten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Pregarten",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "402209": {
-            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pregarten (35209)",
-            "fwnr": 402209
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304430",
-        "startzeit": "Sat, 30 Mar 2024 20:05:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3475",
-          "lng": "14.5416"
         }
       }
     },
@@ -276,53 +222,6 @@
         "wgs84": {
           "lat": "48.2958",
           "lng": "13.4418"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwarzenberg am Böhmerwald",
-          "earea": "Schwarzenberg am Böhmerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwarzenberg am Böhmerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - Schwarzenberg am Böhmerwald",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "409108": {
-            "feuerwehr": "Feuerwehr/Florian Schwarzenberg (44108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwarzenberg (44108)",
-            "fwnr": 409108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240304414",
-        "startzeit": "Sat, 30 Mar 2024 17:51:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.7291",
-          "lng": "13.8334"
         }
       }
     },
