@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 24,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 26,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ohlsdorf",
+          "earea": "Ohlsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ohlsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Ohlsdorf",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403202": {
+            "feuerwehr": "Feuerwehr/Florian Aurachkirchen (36202)"
+          },
+          "403216": {
+            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aurachkirchen (36202)",
+            "fwnr": 403202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
+            "fwnr": 403216
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
+            "fwnr": 403262
+          }
+        },
+        "inzeit": "",
+        "num1": "E240400474",
+        "startzeit": "Wed, 03 Apr 2024 21:32:48 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9629",
+          "lng": "13.7936"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -277,53 +338,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorderweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Vorderweißenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412129": {
-            "feuerwehr": "Feuerwehr/Florian Schönegg (49129)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schönegg (49129)",
-            "fwnr": 412129
-          }
-        },
-        "inzeit": "",
-        "num1": "E240400442",
-        "startzeit": "Wed, 03 Apr 2024 19:42:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5803",
-          "lng": "14.1864"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Gaspoltshofen",
           "earea": "Gaspoltshofen",
           "ecompl": "",
@@ -412,100 +426,6 @@
         "wgs84": {
           "lat": "48.146",
           "lng": "13.6958"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Reichersberg",
-          "earea": "Reichersberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Reichersberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Reichersberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408320": {
-            "feuerwehr": "Feuerwehr/Florian Traxlham (43320)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traxlham (43320)",
-            "fwnr": 408320
-          }
-        },
-        "inzeit": "",
-        "num1": "E240400430",
-        "startzeit": "Wed, 03 Apr 2024 19:29:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3095",
-          "lng": "13.4044"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Rottenbach",
-          "earea": "Rottenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Rottenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Rottenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404214": {
-            "feuerwehr": "Feuerwehr/Florian Weibern (37214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weibern (37214)",
-            "fwnr": 404214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240400429",
-        "startzeit": "Wed, 03 Apr 2024 19:29:47 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2075",
-          "lng": "13.6798"
         }
       }
     },
@@ -929,53 +849,6 @@
         "wgs84": {
           "lat": "48.0999",
           "lng": "13.7688"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schenkenfelden",
-          "earea": "Schenkenfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schenkenfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Schenkenfelden",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412109": {
-            "feuerwehr": "Feuerwehr/Florian Königschlag (49109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Königschlag (49109)",
-            "fwnr": 412109
-          }
-        },
-        "inzeit": "",
-        "num1": "E240400369",
-        "startzeit": "Wed, 03 Apr 2024 18:53:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5234",
-          "lng": "14.3603"
         }
       }
     },
