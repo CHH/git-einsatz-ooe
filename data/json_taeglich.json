@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          },
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240400749",
+        "startzeit": "Fri, 05 Apr 2024 11:07:40 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3475",
+          "lng": "14.5416"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchdorf an der Krems",
+          "earea": "Kirchdorf an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchdorf an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Kirchdorf an der Krems",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          }
+        },
+        "inzeit": "",
+        "num1": "E240400747",
+        "startzeit": "Fri, 05 Apr 2024 10:58:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9059",
+          "lng": "14.1194"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vöcklamarkt",
+          "earea": "Vöcklamarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vöcklamarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Vöcklamarkt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413120": {
+            "feuerwehr": "Feuerwehr/Florian Oberalberting (50120)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberalberting (50120)",
+            "fwnr": 413120
+          }
+        },
+        "inzeit": "Fri, 05 Apr 2024 10:53:00 +0200",
+        "num1": "E240400746",
+        "startzeit": "Fri, 05 Apr 2024 10:53:18 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.9987",
+          "lng": "13.4531"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +194,10 @@
             "fwnr": 408223
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 05 Apr 2024 10:21:00 +0200",
         "num1": "E240400739",
         "startzeit": "Fri, 05 Apr 2024 09:37:01 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
