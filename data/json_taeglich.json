@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünburg",
+          "earea": "Grünburg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünburg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Grünburg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240401540",
+        "startzeit": "Wed, 10 Apr 2024 07:09:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.898",
+          "lng": "14.233"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +133,10 @@
             "fwnr": 406219
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 10 Apr 2024 06:49:00 +0200",
         "num1": "E240401536",
         "startzeit": "Wed, 10 Apr 2024 05:57:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2057",
           "lng": "14.1868"
