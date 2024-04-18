@@ -1,7 +1,75 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Rosenau am Hengstpaß",
+          "earea": "Rosenau am Hengstpaß",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Rosenau am Hengstpaß",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Rosenau am Hengstpaß",
+        "einsatzsubtyp": {
+          "id": "PERSHOCH-TE",
+          "text": "Personenrettung hoch"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-HOCH",
+          "text": "Personenrettung hoch"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          },
+          "405406": {
+            "feuerwehr": "Feuerwehr/Florian Rosenau am Hengstpass (38406)"
+          },
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          },
+          "415106": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rosenau am Hengstpass (38406)",
+            "fwnr": 405406
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415106
+          }
+        },
+        "inzeit": "",
+        "num1": "E240402795",
+        "startzeit": "Thu, 18 Apr 2024 10:01:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7129",
+          "lng": "14.3959"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +132,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Bad Leonfelden",
         "einsatzsubtyp": {
@@ -76,6 +144,9 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
           "412110": {
             "feuerwehr": "Feuerwehr/Florian Laimbach (49110)"
           }
@@ -84,6 +155,10 @@
           "0": {
             "fwname": "Feuerwehr/Florian Laimbach (49110)",
             "fwnr": 412110
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
           }
         },
         "inzeit": "",
