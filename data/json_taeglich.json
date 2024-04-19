@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 20,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413421": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
+            "fwnr": 413421
+          }
+        },
+        "inzeit": "",
+        "num1": "E240402946",
+        "startzeit": "Fri, 19 Apr 2024 10:51:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9712",
+          "lng": "13.7053"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eidenberg",
+          "earea": "Eidenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eidenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Eidenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412205": {
+            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geng (49205)",
+            "fwnr": 412205
+          }
+        },
+        "inzeit": "Fri, 19 Apr 2024 10:41:00 +0200",
+        "num1": "E240402943",
+        "startzeit": "Fri, 19 Apr 2024 10:25:23 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.426",
+          "lng": "14.2384"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +140,10 @@
             "fwnr": 412117
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 19 Apr 2024 10:52:00 +0200",
         "num1": "E240402941",
         "startzeit": "Fri, 19 Apr 2024 10:12:50 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4974",
           "lng": "14.3588"
@@ -212,7 +306,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 6,
+        "cntfeuerwehren": 7,
         "einsatzart": "BRAND",
         "einsatzort": "VB - Lenzing",
         "einsatzsubtyp": {
@@ -224,6 +318,9 @@
           "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "413104": {
+            "feuerwehr": "Feuerwehr/Florian Badstuben (50104)"
+          },
           "413411": {
             "feuerwehr": "Feuerwehr/Florian Lenzing (50411)"
           },
@@ -267,6 +364,10 @@
           "5": {
             "fwname": "Feuerwehr/Florian Schörfling am Attersee (50519)",
             "fwnr": 413519
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Badstuben (50104)",
+            "fwnr": 413104
           }
         },
         "inzeit": "",
