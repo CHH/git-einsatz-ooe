@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pinsdorf",
+          "earea": "Pinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Pinsdorf",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "403217": {
+            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
+          },
+          "403227": {
+            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
+            "fwnr": 403217
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Wiesen (36227)",
+            "fwnr": 403227
+          }
+        },
+        "inzeit": "",
+        "num1": "E240403130",
+        "startzeit": "Sat, 20 Apr 2024 04:42:37 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9281",
+          "lng": "13.771"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": 413133
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 20 Apr 2024 04:26:00 +0200",
         "num1": "E240403129",
         "startzeit": "Sat, 20 Apr 2024 04:05:06 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9616",
           "lng": "13.3833"
