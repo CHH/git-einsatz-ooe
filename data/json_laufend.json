@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ohlsdorf",
+          "earea": "Ohlsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ohlsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ohlsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403216": {
+            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
+            "fwnr": 403216
+          }
+        },
+        "inzeit": "",
+        "num1": "E240403617",
+        "startzeit": "Wed, 24 Apr 2024 10:21:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9629",
+          "lng": "13.7936"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240403611",
-        "startzeit": "Wed, 24 Apr 2024 09:47:02 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Gunskirchen",
           "earea": "Gunskirchen",
           "ecompl": "",
@@ -140,67 +140,6 @@
         "wgs84": {
           "lat": "48.1363",
           "lng": "13.9445"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "403212": {
-            "feuerwehr": "Feuerwehr/Florian Lederau (36212)"
-          },
-          "403223": {
-            "feuerwehr": "Feuerwehr/Florian Schart (36223)"
-          },
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lederau (36212)",
-            "fwnr": 403212
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schart (36223)",
-            "fwnr": 403223
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240403586",
-        "startzeit": "Wed, 24 Apr 2024 03:30:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
         }
       }
     },
