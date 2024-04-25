@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwertberg",
+          "earea": "Schwertberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwertberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Schwertberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407216": {
+            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
+            "fwnr": 407216
+          }
+        },
+        "inzeit": "",
+        "num1": "E240403727",
+        "startzeit": "Thu, 25 Apr 2024 08:07:02 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2734",
+          "lng": "14.5798"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gaspoltshofen",
+          "earea": "Gaspoltshofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gaspoltshofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Gaspoltshofen",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "404210": {
+            "feuerwehr": "Feuerwehr/Florian Hörbach (37210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hörbach (37210)",
+            "fwnr": 404210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240403726",
+        "startzeit": "Thu, 25 Apr 2024 07:58:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1314",
+          "lng": "13.7585"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +140,10 @@
             "fwnr": 412218
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 25 Apr 2024 07:35:00 +0200",
         "num1": "E240403721",
         "startzeit": "Thu, 25 Apr 2024 06:02:55 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3115",
           "lng": "14.2437"
