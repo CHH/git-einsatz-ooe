@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichersberg",
+          "earea": "Reichersberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichersberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Reichersberg",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408311": {
+            "feuerwehr": "Feuerwehr/Florian Münsteuer (43311)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
+          },
+          "408320": {
+            "feuerwehr": "Feuerwehr/Florian Traxlham (43320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münsteuer (43311)",
+            "fwnr": 408311
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Traxlham (43320)",
+            "fwnr": 408320
+          }
+        },
+        "inzeit": "",
+        "num1": "E240403867",
+        "startzeit": "Fri, 26 Apr 2024 09:11:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3321",
+          "lng": "13.3622"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -60,53 +121,6 @@
         "wgs84": {
           "lat": "48.1906",
           "lng": "14.2028"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Wimsbach-Neydharting",
-          "earea": "Bad Wimsbach-Neydharting",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Wimsbach-Neydharting",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Bad Wimsbach-Neydharting",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)",
-            "fwnr": 414103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240403864",
-        "startzeit": "Fri, 26 Apr 2024 08:33:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.065",
-          "lng": "13.9025"
         }
       }
     },
