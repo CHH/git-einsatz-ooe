@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240404330",
+        "startzeit": "Mon, 29 Apr 2024 12:19:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,53 +100,6 @@
         "wgs84": {
           "lat": "48.2692",
           "lng": "13.2583"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Waldneukirchen",
-          "earea": "Waldneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Waldneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Waldneukirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405107": {
-            "feuerwehr": "Feuerwehr/Florian Pieslwang (38107)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pieslwang (38107)",
-            "fwnr": 405107
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404319",
-        "startzeit": "Mon, 29 Apr 2024 10:55:45 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.979",
-          "lng": "14.246"
         }
       }
     },
@@ -194,194 +194,6 @@
         "wgs84": {
           "lat": "47.8889",
           "lng": "14.3161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steinbach an der Steyr",
-          "earea": "Steinbach an der Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinbach an der Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Steinbach an der Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405109": {
-            "feuerwehr": "Feuerwehr/Florian Steinbach an der Steyr (38109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steinbach an der Steyr (38109)",
-            "fwnr": 405109
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404316",
-        "startzeit": "Mon, 29 Apr 2024 10:50:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9671",
-          "lng": "14.2591"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Molln",
-          "earea": "Molln",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Molln",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Molln",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405105": {
-            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Molln (38105)",
-            "fwnr": 405105
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404315",
-        "startzeit": "Mon, 29 Apr 2024 10:49:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8837",
-          "lng": "14.2554"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünburg",
-          "earea": "Grünburg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünburg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Grünburg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405106": {
-            "feuerwehr": "Feuerwehr/Florian Pernzell (38106)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pernzell (38106)",
-            "fwnr": 405106
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404313",
-        "startzeit": "Mon, 29 Apr 2024 10:43:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9262",
-          "lng": "14.2174"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünburg",
-          "earea": "Grünburg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünburg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Grünburg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405104": {
-            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Leonstein (38104)",
-            "fwnr": 405104
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404312",
-        "startzeit": "Mon, 29 Apr 2024 10:43:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.898",
-          "lng": "14.233"
         }
       }
     },
