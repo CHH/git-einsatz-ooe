@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fraham",
+          "earea": "Fraham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fraham",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Fraham",
+        "einsatzsubtyp": {
+          "id": "PERSGEWÄSSER-TE",
+          "text": "Personenrettung Gewässer"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-GEWÄSSER",
+          "text": "Personenrettung Gewässer"
+        },
+        "feuerwehren": {
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (ef) (34105)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fraham (ef) (34105)",
+            "fwnr": 401105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
+          }
+        },
+        "inzeit": "",
+        "num1": "E240404344",
+        "startzeit": "Mon, 29 Apr 2024 14:19:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2826",
+          "lng": "14.0289"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Martin im Mühlkreis",
+          "earea": "St. Martin im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Martin im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - St. Martin im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "409314": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)",
+            "fwnr": 409314
+          }
+        },
+        "inzeit": "",
+        "num1": "E240404342",
+        "startzeit": "Mon, 29 Apr 2024 14:15:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4159",
+          "lng": "14.0434"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +118,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 8,
+        "cntfeuerwehren": 10,
         "einsatzart": "BRAND",
         "einsatzort": "SE - Garsten",
         "einsatzsubtyp": {
@@ -48,7 +149,7 @@
             "feuerwehr": "Feuerwehr/Florian Schwaming (46216)"
           },
           "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           }
         },
         "feuerwehrenarray": {
@@ -83,6 +184,14 @@
           "7": {
             "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
             "fwnr": 415101
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
+            "fwnr": 415101
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -92,147 +201,6 @@
         "wgs84": {
           "lat": "48.0251",
           "lng": "14.4098"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Pantaleon",
-          "earea": "St. Pantaleon",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Pantaleon",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Pantaleon",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "400415": {
-            "feuerwehr": "Feuerwehr/Florian Trimmelkam (33415)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Trimmelkam (33415)",
-            "fwnr": 400415
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404338",
-        "startzeit": "Mon, 29 Apr 2024 13:32:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0257",
-          "lng": "12.8675"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ulrichsberg",
-          "earea": "Ulrichsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ulrichsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Ulrichsberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409104": {
-            "feuerwehr": "Feuerwehr/Florian Klaffer (44104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Klaffer (44104)",
-            "fwnr": 409104
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404336",
-        "startzeit": "Mon, 29 Apr 2024 13:13:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6524",
-          "lng": "13.9173"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240404335",
-        "startzeit": "Mon, 29 Apr 2024 13:07:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3308",
-          "lng": "14.6181"
         }
       }
     },
