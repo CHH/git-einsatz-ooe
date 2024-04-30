@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 100,
-  "cnt_feuerwehren": 102,
+  "cnt_einsaetze": 101,
+  "cnt_feuerwehren": 104,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240404544",
+        "startzeit": "Tue, 30 Apr 2024 23:59:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,26 +111,40 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "UU - Goldwörth",
         "einsatzsubtyp": {
-          "id": "ABFALL-BR",
-          "text": "Brand Abfall im Freien"
+          "id": "FREI-BR",
+          "text": "Brand im Freien"
         },
         "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
+          "id": "B0-FREI",
+          "text": "Brand im Freien"
         },
         "feuerwehren": {
+          "412204": {
+            "feuerwehr": "Feuerwehr/Florian Feldkirchen an der Donau (49204)"
+          },
           "412206": {
             "feuerwehr": "Feuerwehr/Florian Goldwörth (49206)"
+          },
+          "412214": {
+            "feuerwehr": "Feuerwehr/Florian Mühldorf (49214)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Goldwörth (49206)",
             "fwnr": 412206
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Feldkirchen an der Donau (49204)",
+            "fwnr": 412204
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Mühldorf (49214)",
+            "fwnr": 412214
           }
         },
         "inzeit": "",
@@ -180,10 +241,10 @@
             "fwnr": 405208
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 30 Apr 2024 23:13:00 +0200",
         "num1": "E240404539",
         "startzeit": "Tue, 30 Apr 2024 22:18:24 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
