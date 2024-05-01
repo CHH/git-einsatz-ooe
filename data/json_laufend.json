@@ -1,25 +1,72 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 18,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Johann am Wimberg",
-          "earea": "St. Johann am Wimberg",
+          "default": "Hinzenbach",
+          "earea": "Hinzenbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Johann am Wimberg",
+          "emun": "Hinzenbach",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Hinzenbach",
+        "einsatzsubtyp": {
+          "id": "BAUMFREIMA-TE",
+          "text": "Baum ist umgestürzt"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "401111": {
+            "feuerwehr": "Feuerwehr/Florian Hinzenbach (34111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinzenbach (34111)",
+            "fwnr": 401111
+          }
+        },
+        "inzeit": "",
+        "num1": "E240500074",
+        "startzeit": "Wed, 01 May 2024 18:12:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3103",
+          "lng": "14.0055"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bundesland Steiermark",
+          "earea": "Bundesland Steiermark",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bundesland Steiermark",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": "STMK",
+          "text": "STMK"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "RO - St. Johann am Wimberg",
+        "einsatzort": "ST - Bundesland Steiermark",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +76,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "409313": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Johann am Wimberg (44313)"
+          "403105": {
+            "feuerwehr": "Feuerwehr/Florian Hallstatt (36105)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Johann am Wimberg (44313)",
-            "fwnr": 409313
+            "fwname": "Feuerwehr/Florian Hallstatt (36105)",
+            "fwnr": 403105
           }
         },
         "inzeit": "",
-        "num1": "E240500072",
-        "startzeit": "Wed, 01 May 2024 17:48:17 +0200",
+        "num1": "E240500073",
+        "startzeit": "Wed, 01 May 2024 18:02:41 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4898",
-          "lng": "14.1312"
+          "lat": null,
+          "lng": null
         }
       }
     },
@@ -269,67 +316,6 @@
         "wgs84": {
           "lat": "48.5012",
           "lng": "14.8366"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pabneukirchen",
-          "earea": "Pabneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pabneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Pabneukirchen",
-        "einsatzsubtyp": {
-          "id": "PERSSUCHE-TE",
-          "text": "Personensuche"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-SUCHE",
-          "text": "Personensuche"
-        },
-        "feuerwehren": {
-          "407107": {
-            "feuerwehr": "Feuerwehr/Florian Pabneukirchen (42107)"
-          },
-          "407109": {
-            "feuerwehr": "Feuerwehr/Florian Riedersdorf (42109)"
-          },
-          "407312": {
-            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pabneukirchen (42107)",
-            "fwnr": 407107
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Riedersdorf (42109)",
-            "fwnr": 407109
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Perg (42312)",
-            "fwnr": 407312
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500048",
-        "startzeit": "Wed, 01 May 2024 14:32:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3212",
-          "lng": "14.8125"
         }
       }
     },
