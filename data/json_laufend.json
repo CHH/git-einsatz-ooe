@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weyer",
+          "earea": "Weyer",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weyer",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Weyer",
+        "einsatzsubtyp": {
+          "id": "FLUREN-BR",
+          "text": "Brand Fluren"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "411304": {
+            "feuerwehr": "Feuerwehr/Florian Kleinreifling (46304)"
+          },
+          "411319": {
+            "feuerwehr": "Feuerwehr/Florian Weyer (46319)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kleinreifling (46304)",
+            "fwnr": 411304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weyer (46319)",
+            "fwnr": 411319
+          }
+        },
+        "inzeit": "",
+        "num1": "E240500123",
+        "startzeit": "Thu, 02 May 2024 11:45:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8253",
+          "lng": "14.6449"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.0974",
           "lng": "13.6589"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weyer",
-          "earea": "Weyer",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weyer",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Weyer",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411304": {
-            "feuerwehr": "Feuerwehr/Florian Kleinreifling (46304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinreifling (46304)",
-            "fwnr": 411304
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500096",
-        "startzeit": "Thu, 02 May 2024 06:45:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8253",
-          "lng": "14.6449"
         }
       }
     },
