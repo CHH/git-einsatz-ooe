@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altmünster",
+          "earea": "Altmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Altmünster",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          }
+        },
+        "inzeit": "",
+        "num1": "E240500734",
+        "startzeit": "Mon, 06 May 2024 21:31:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8949",
+          "lng": "13.7663"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,7 +106,7 @@
           "emun": "Brunnenthal",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 10,
           "text": "Schärding"
@@ -68,12 +115,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "SD - Brunnenthal",
         "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "410302": {
@@ -247,100 +294,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Perg",
-          "earea": "Perg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Perg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Perg",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "407312": {
-            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Perg (42312)",
-            "fwnr": 407312
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500728",
-        "startzeit": "Mon, 06 May 2024 20:59:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2449",
-          "lng": "14.6356"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500727",
-        "startzeit": "Mon, 06 May 2024 20:54:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2174",
-          "lng": "14.4791"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kematen an der Krems",
           "earea": "Kematen an der Krems",
           "ecompl": "",
@@ -429,53 +382,6 @@
         "wgs84": {
           "lat": "48.0911",
           "lng": "14.2705"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500721",
-        "startzeit": "Mon, 06 May 2024 20:36:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
         }
       }
     },
@@ -617,53 +523,6 @@
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neukirchen bei Lambach",
-          "earea": "Neukirchen bei Lambach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neukirchen bei Lambach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Neukirchen bei Lambach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414112": {
-            "feuerwehr": "Feuerwehr/Florian Neukirchen bei Lambach (51112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neukirchen bei Lambach (51112)",
-            "fwnr": 414112
-          }
-        },
-        "inzeit": "",
-        "num1": "E240500677",
-        "startzeit": "Mon, 06 May 2024 19:11:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1026",
-          "lng": "13.8145"
         }
       }
     },
