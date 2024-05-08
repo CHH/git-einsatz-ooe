@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 129,
+  "cnt_einsaetze": 130,
   "cnt_feuerwehren": 129,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altmünster",
+          "earea": "Altmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Altmünster",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          }
+        },
+        "inzeit": "",
+        "num1": "E240501074",
+        "startzeit": "Wed, 08 May 2024 22:44:38 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8949",
+          "lng": "13.7663"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -705,10 +752,10 @@
             "fwnr": 403106
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:31:00 +0200",
         "num1": "E240501056",
         "startzeit": "Wed, 08 May 2024 19:45:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.724",
           "lng": "13.6191"
@@ -900,10 +947,10 @@
             "fwnr": 411311
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:20:00 +0200",
         "num1": "E240501052",
         "startzeit": "Wed, 08 May 2024 19:40:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8932",
           "lng": "14.4772"
@@ -994,10 +1041,10 @@
             "fwnr": 403102
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:37:00 +0200",
         "num1": "E240501050",
         "startzeit": "Wed, 08 May 2024 19:40:27 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7109",
           "lng": "13.6262"
@@ -1059,10 +1106,10 @@
             "fwnr": 407313
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:18:00 +0200",
         "num1": "E240501049",
         "startzeit": "Wed, 08 May 2024 19:40:50 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2449",
           "lng": "14.6356"
@@ -1166,53 +1213,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Adlwang",
-          "earea": "Adlwang",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Adlwang",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Adlwang",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411101": {
-            "feuerwehr": "Feuerwehr/Florian Adlwang (46101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Adlwang (46101)",
-            "fwnr": 411101
-          }
-        },
-        "inzeit": "Wed, 08 May 2024 20:39:00 +0200",
-        "num1": "E240501046",
-        "startzeit": "Wed, 08 May 2024 19:38:20 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "47.9926",
-          "lng": "14.2176"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Münzkirchen",
           "earea": "Münzkirchen",
           "ecompl": "",
@@ -1254,6 +1254,53 @@
         "wgs84": {
           "lat": "48.483",
           "lng": "13.5608"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Adlwang",
+          "earea": "Adlwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Adlwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Adlwang",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411101": {
+            "feuerwehr": "Feuerwehr/Florian Adlwang (46101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Adlwang (46101)",
+            "fwnr": 411101
+          }
+        },
+        "inzeit": "Wed, 08 May 2024 20:39:00 +0200",
+        "num1": "E240501046",
+        "startzeit": "Wed, 08 May 2024 19:38:20 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.9926",
+          "lng": "14.2176"
         }
       }
     },
@@ -1670,10 +1717,10 @@
             "fwnr": 410304
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:44:00 +0200",
         "num1": "E240501035",
         "startzeit": "Wed, 08 May 2024 19:34:27 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4727",
           "lng": "13.5619"
@@ -2006,10 +2053,10 @@
             "fwnr": 413502
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 23:00:00 +0200",
         "num1": "E240501028",
         "startzeit": "Wed, 08 May 2024 19:32:01 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9346",
           "lng": "13.5124"
@@ -3651,10 +3698,10 @@
             "fwnr": 403202
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:55:00 +0200",
         "num1": "E240500991",
         "startzeit": "Wed, 08 May 2024 18:59:09 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9716",
           "lng": "13.7469"
@@ -3792,10 +3839,10 @@
             "fwnr": 403103
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:35:00 +0200",
         "num1": "E240500988",
         "startzeit": "Wed, 08 May 2024 18:48:56 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
@@ -3980,10 +4027,10 @@
             "fwnr": 413415
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:49:00 +0200",
         "num1": "E240500980",
         "startzeit": "Wed, 08 May 2024 18:30:52 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9749",
           "lng": "13.5317"
@@ -4168,10 +4215,10 @@
             "fwnr": 405403
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 08 May 2024 22:46:00 +0200",
         "num1": "E240500971",
         "startzeit": "Wed, 08 May 2024 17:54:53 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
