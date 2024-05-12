@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Engerwitzdorf",
-          "earea": "Engerwitzdorf",
+          "default": "Herzogsdorf",
+          "earea": "Herzogsdorf",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Engerwitzdorf",
+          "emun": "Herzogsdorf",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,34 +18,81 @@
           "text": "Urfahr-Umgebung"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Engerwitzdorf",
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Herzogsdorf",
         "einsatzsubtyp": {
-          "id": "KLEINMENGEÖL-TE",
-          "text": "Ölaustritt Kleinmenge"
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
         },
         "einsatztyp": {
-          "id": "T0-ÖL-KLEINMENGE",
-          "text": "Ölaustritt Kleinmenge"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "412315": {
-            "feuerwehr": "Feuerwehr/Florian Treffling (49315)"
+          "412208": {
+            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Treffling (49315)",
-            "fwnr": 412315
+            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
+            "fwnr": 412208
           }
         },
         "inzeit": "",
-        "num1": "E240501472",
-        "startzeit": "Sun, 12 May 2024 18:40:56 +0200",
+        "num1": "E240501474",
+        "startzeit": "Sun, 12 May 2024 19:07:44 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3353",
-          "lng": "14.385"
+          "lat": "48.4363",
+          "lng": "14.1157"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hofkirchen an der Trattnach",
+          "earea": "Hofkirchen an der Trattnach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hofkirchen an der Trattnach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Hofkirchen an der Trattnach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404119": {
+            "feuerwehr": "Feuerwehr/Florian Ruhringsdorf (37119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ruhringsdorf (37119)",
+            "fwnr": 404119
+          }
+        },
+        "inzeit": "",
+        "num1": "E240501473",
+        "startzeit": "Sun, 12 May 2024 19:07:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.204",
+          "lng": "13.7294"
         }
       }
     },
