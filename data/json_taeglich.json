@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Wolfgang im Salzkammergut",
+          "earea": "St. Wolfgang im Salzkammergut",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Wolfgang im Salzkammergut",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - St. Wolfgang im Salzkammergut",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403116": {
+            "feuerwehr": "Feuerwehr/Florian Russbach (36116)"
+          },
+          "403118": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Wolfgang im Salzkammergu (36118)"
+          },
+          "403120": {
+            "feuerwehr": "Feuerwehr/Florian Wirling (36120)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Russbach (36116)",
+            "fwnr": 403116
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Wolfgang im Salzkammergu (36118)",
+            "fwnr": 403118
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Wirling (36120)",
+            "fwnr": 403120
+          }
+        },
+        "inzeit": "",
+        "num1": "E240501452",
+        "startzeit": "Sun, 12 May 2024 14:52:28 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7391",
+          "lng": "13.4478"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steinhaus",
+          "earea": "Steinhaus",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steinhaus",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Steinhaus",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
+        },
+        "feuerwehren": {
+          "414221": {
+            "feuerwehr": "Feuerwehr/Florian Steinhaus bei Wels (51221)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steinhaus bei Wels (51221)",
+            "fwnr": 414221
+          }
+        },
+        "inzeit": "",
+        "num1": "E240501446",
+        "startzeit": "Sun, 12 May 2024 14:35:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1189",
+          "lng": "14.0173"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,23 +167,26 @@
           "emun": "Neumarkt im Mühlkreis",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
-          "id": "PERSUNTFZG-VU",
-          "text": "Person unter Fahrzeug – Maschine   "
+          "id": "FZGTRKBERGEN-TE",
+          "text": "Bergung Traktor"
         },
         "einsatztyp": {
-          "id": "V1-PERS-UNT-FZG",
-          "text": "Person unter Fahrzeug - Maschine"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402121": {
             "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
           },
@@ -91,6 +202,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Alberndorf in der Riedmark (49301)",
             "fwnr": 412301
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
           }
         },
         "inzeit": "",
@@ -140,10 +255,10 @@
             "fwnr": 402112
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 12 May 2024 15:08:00 +0200",
         "num1": "E240501443",
         "startzeit": "Sun, 12 May 2024 13:42:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5344",
           "lng": "14.5371"
