@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 70,
-  "cnt_feuerwehren": 68,
+  "cnt_einsaetze": 71,
+  "cnt_feuerwehren": 69,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "Mon, 13 May 2024 23:00:00 +0200",
+        "num1": "E240501610",
+        "startzeit": "Mon, 13 May 2024 22:34:17 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,10 +241,10 @@
             "fwnr": 405304
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 13 May 2024 22:43:00 +0200",
         "num1": "E240501605",
         "startzeit": "Mon, 13 May 2024 21:35:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0546",
           "lng": "14.1325"
@@ -872,53 +919,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Marien",
-          "earea": "St. Marien",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marien",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - St. Marien",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406311": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)",
-            "fwnr": 406311
-          }
-        },
-        "inzeit": "Mon, 13 May 2024 20:38:00 +0200",
-        "num1": "E240501587",
-        "startzeit": "Mon, 13 May 2024 19:34:34 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.1434",
-          "lng": "14.2754"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Julbach",
           "earea": "Julbach",
           "ecompl": "",
@@ -960,6 +960,53 @@
         "wgs84": {
           "lat": "48.6414",
           "lng": "13.8546"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Marien",
+          "earea": "St. Marien",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Marien",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - St. Marien",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406311": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)",
+            "fwnr": 406311
+          }
+        },
+        "inzeit": "Mon, 13 May 2024 20:38:00 +0200",
+        "num1": "E240501587",
+        "startzeit": "Mon, 13 May 2024 19:34:34 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1434",
+          "lng": "14.2754"
         }
       }
     },
