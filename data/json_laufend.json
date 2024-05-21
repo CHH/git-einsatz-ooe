@@ -1,7 +1,116 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Niederkappel",
+          "earea": "Niederkappel",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Niederkappel",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - Niederkappel",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "409205": {
+            "feuerwehr": "Feuerwehr/Florian Lembach im Mühlkreis (44205)"
+          },
+          "409208": {
+            "feuerwehr": "Feuerwehr/Florian Niederkappel (44208)"
+          },
+          "409211": {
+            "feuerwehr": "Feuerwehr/Florian Ollerndorf (44211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lembach im Mühlkreis (44205)",
+            "fwnr": 409205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Niederkappel (44208)",
+            "fwnr": 409208
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ollerndorf (44211)",
+            "fwnr": 409211
+          }
+        },
+        "inzeit": "",
+        "num1": "E240502614",
+        "startzeit": "Tue, 21 May 2024 15:34:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4651",
+          "lng": "13.8809"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Taufkirchen an der Pram",
+          "earea": "Taufkirchen an der Pram",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Taufkirchen an der Pram",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Taufkirchen an der Pram",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410325": {
+            "feuerwehr": "Feuerwehr/Florian Taufkirchen an der Pram (45325)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Taufkirchen an der Pram (45325)",
+            "fwnr": 410325
+          }
+        },
+        "inzeit": "",
+        "num1": "E240502613",
+        "startzeit": "Tue, 21 May 2024 15:29:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4055",
+          "lng": "13.5327"
+        }
+      }
+    }
+  ],
   "title": "laufend",
   "version": "1.3.1",
   "webext2": true
