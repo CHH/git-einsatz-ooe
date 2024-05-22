@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "KLEINMENGEÖL-TE",
+          "text": "Ölaustritt Kleinmenge"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-KLEINMENGE",
+          "text": "Ölaustritt Kleinmenge"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240502764",
+        "startzeit": "Wed, 22 May 2024 12:07:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.1552",
           "lng": "13.4345"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gutau",
-          "earea": "Gutau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gutau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Gutau",
-        "einsatzsubtyp": {
-          "id": "GROßTIERRETT-TE",
-          "text": "Rettung Großtier"
-        },
-        "einsatztyp": {
-          "id": "T0-TIER-RETTUNG",
-          "text": "Rettung Großtier"
-        },
-        "feuerwehren": {
-          "402204": {
-            "feuerwehr": "Feuerwehr/Florian Gutau (35204)"
-          },
-          "402208": {
-            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gutau (35204)",
-            "fwnr": 402204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
-            "fwnr": 402208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240502735",
-        "startzeit": "Wed, 22 May 2024 07:34:19 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4187",
-          "lng": "14.6081"
         }
       }
     },
