@@ -5,6 +5,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Münzkirchen",
+          "earea": "Münzkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Münzkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Münzkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410315": {
+            "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
+            "fwnr": 410315
+          }
+        },
+        "inzeit": "",
+        "num1": "E240502752",
+        "startzeit": "Wed, 22 May 2024 09:56:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4827",
+          "lng": "13.5608"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Ort im Innkreis",
           "earea": "Ort im Innkreis",
           "ecompl": "",
@@ -17,7 +64,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "RI - Ort im Innkreis",
         "einsatzsubtyp": {
@@ -34,6 +81,9 @@
           },
           "408314": {
             "feuerwehr": "Feuerwehr/Florian Osternach (43314)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
           }
         },
         "feuerwehrenarray": {
@@ -44,6 +94,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Osternach (43314)",
             "fwnr": 408314
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
           }
         },
         "inzeit": "",
@@ -161,60 +215,6 @@
         "wgs84": {
           "lat": "48.1552",
           "lng": "13.4345"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Edt bei Lambach",
-          "earea": "Edt bei Lambach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Edt bei Lambach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - Edt bei Lambach",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur"
-        },
-        "feuerwehren": {
-          "414106": {
-            "feuerwehr": "Feuerwehr/Florian Edt-Klaus (51106)"
-          },
-          "414107": {
-            "feuerwehr": "Feuerwehr/Florian Edt-Winkling (51107)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Edt-Winkling (51107)",
-            "fwnr": 414107
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Edt-Klaus (51106)",
-            "fwnr": 414106
-          }
-        },
-        "inzeit": "",
-        "num1": "E240502737",
-        "startzeit": "Wed, 22 May 2024 07:40:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.093",
-          "lng": "13.9045"
         }
       }
     },
