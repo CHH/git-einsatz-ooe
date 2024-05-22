@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee",
+          "earea": "Ebensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ebensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403115": {
+            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
+            "fwnr": 403115
+          }
+        },
+        "inzeit": "",
+        "num1": "E240502793",
+        "startzeit": "Wed, 22 May 2024 15:46:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7932",
+          "lng": "13.7579"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -205,7 +252,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "PE - Dimbach",
         "einsatzsubtyp": {
@@ -222,6 +269,9 @@
           },
           "415101": {
             "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
+          },
+          "50001": {
+            "feuerwehr": "Feuerwehr/Florian Amstetten (NÖ)"
           }
         },
         "feuerwehrenarray": {
@@ -232,6 +282,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
             "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Amstetten (NÖ)",
+            "fwnr": 50001
           }
         },
         "inzeit": "",
