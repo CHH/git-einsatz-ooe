@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ulrichsberg",
+          "earea": "Ulrichsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ulrichsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "RO - Ulrichsberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "409109": {
+            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
+            "fwnr": 409109
+          }
+        },
+        "inzeit": "",
+        "num1": "E240503005",
+        "startzeit": "Fri, 24 May 2024 04:58:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6748",
+          "lng": "13.9123"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Kremsmünster",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405305": {
+            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Krühub (38305)",
+            "fwnr": 405305
+          }
+        },
+        "inzeit": "Fri, 24 May 2024 05:05:00 +0200",
+        "num1": "E240503004",
+        "startzeit": "Fri, 24 May 2024 04:56:50 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0244",
+          "lng": "14.1465"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
