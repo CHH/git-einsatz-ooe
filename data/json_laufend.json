@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
+        },
+        "feuerwehren": {
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E240503089",
+        "startzeit": "Fri, 24 May 2024 16:36:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7204",
+          "lng": "13.5832"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,60 +187,6 @@
         "wgs84": {
           "lat": "47.7932",
           "lng": "13.7579"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Thalheim bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Thalheim bei Wels",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
-          },
-          "414226": {
-            "feuerwehr": "Feuerwehr/Florian Am Thalbach (51226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Am Thalbach (51226)",
-            "fwnr": 414226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503085",
-        "startzeit": "Fri, 24 May 2024 16:03:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1381",
-          "lng": "14.0475"
         }
       }
     },
