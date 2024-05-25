@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "",
+        "num1": "E240503160",
+        "startzeit": "Sat, 25 May 2024 06:42:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 403117
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 25 May 2024 06:21:00 +0200",
         "num1": "E240503158",
         "startzeit": "Sat, 25 May 2024 05:49:42 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6215",
           "lng": "13.6446"
