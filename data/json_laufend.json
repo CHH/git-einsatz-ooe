@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "GR - St. Agatha",
         "einsatzsubtyp": {
@@ -32,11 +32,17 @@
           "401107": {
             "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
           },
+          "404104": {
+            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          },
           "404315": {
             "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
           },
           "404317": {
             "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          },
+          "416101": {
+            "feuerwehr": "Feuerwehr/Florian Wels (52101)"
           }
         },
         "feuerwehrenarray": {
@@ -45,12 +51,20 @@
             "fwnr": 401107
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
+            "fwnr": 404104
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Peuerbach (37315)",
             "fwnr": 404315
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
             "fwnr": 404317
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Wels (52101)",
+            "fwnr": 416101
           }
         },
         "inzeit": "",
@@ -107,53 +121,6 @@
         "wgs84": {
           "lat": "47.8696",
           "lng": "13.4324"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lochen",
-          "earea": "Lochen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lochen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Lochen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400210": {
-            "feuerwehr": "Feuerwehr/Florian Lochen (33210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lochen (33210)",
-            "fwnr": 400210
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503433",
-        "startzeit": "Mon, 27 May 2024 19:34:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.007",
-          "lng": "13.1787"
         }
       }
     },
