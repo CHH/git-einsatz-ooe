@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,24 +17,38 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "GR - St. Agatha",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "UNKLARLAGE-BR",
+          "text": "Brand unklare Lage"
         },
         "einsatztyp": {
           "id": "B0-SONST-VERDACH",
           "text": "Brandverdacht"
         },
         "feuerwehren": {
+          "401107": {
+            "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
+          },
+          "404315": {
+            "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
+          },
           "404317": {
             "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
+            "fwnr": 401107
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Peuerbach (37315)",
+            "fwnr": 404315
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
             "fwnr": 404317
           }
@@ -46,53 +60,6 @@
         "wgs84": {
           "lat": "48.3883",
           "lng": "13.8772"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hochburg-Ach",
-          "earea": "Hochburg-Ach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hochburg-Ach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Hochburg-Ach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400408": {
-            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hochburg (33408)",
-            "fwnr": 400408
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503445",
-        "startzeit": "Mon, 27 May 2024 20:27:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1475",
-          "lng": "12.8395"
         }
       }
     },
