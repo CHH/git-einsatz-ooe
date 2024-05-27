@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Agatha",
+          "earea": "St. Agatha",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Agatha",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - St. Agatha",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "404317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
+            "fwnr": 404317
+          }
+        },
+        "inzeit": "",
+        "num1": "E240503447",
+        "startzeit": "Mon, 27 May 2024 21:17:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3883",
+          "lng": "13.8772"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.1475",
           "lng": "12.8395"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Schmolln",
-          "earea": "Maria Schmolln",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Schmolln",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Maria Schmolln",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400211": {
-            "feuerwehr": "Feuerwehr/Florian Maria Schmolln (33211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Maria Schmolln (33211)",
-            "fwnr": 400211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503444",
-        "startzeit": "Mon, 27 May 2024 20:21:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1402",
-          "lng": "13.2161"
         }
       }
     },
@@ -281,100 +281,6 @@
         "wgs84": {
           "lat": "48.1906",
           "lng": "14.2028"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Goisern",
-          "earea": "Bad Goisern",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Goisern",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Bad Goisern",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Goisern (36101)",
-            "fwnr": 403101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503421",
-        "startzeit": "Mon, 27 May 2024 19:06:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6412",
-          "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503419",
-        "startzeit": "Mon, 27 May 2024 19:03:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
         }
       }
     },
