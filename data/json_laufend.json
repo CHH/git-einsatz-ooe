@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schönau im Mühlkreis",
+          "earea": "Schönau im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schönau im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Schönau im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402311": {
+            "feuerwehr": "Feuerwehr/Florian Oberndorf (FR) (35311)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberndorf (FR) (35311)",
+            "fwnr": 402311
+          }
+        },
+        "inzeit": "",
+        "num1": "E240503732",
+        "startzeit": "Wed, 29 May 2024 22:29:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4145",
+          "lng": "14.7132"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.937",
           "lng": "14.1171"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vöcklabruck",
-          "earea": "Vöcklabruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vöcklabruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Vöcklabruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
-            "fwnr": 413429
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503730",
-        "startzeit": "Wed, 29 May 2024 21:56:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0064",
-          "lng": "13.6637"
         }
       }
     },
@@ -187,100 +187,6 @@
         "wgs84": {
           "lat": "47.8232",
           "lng": "13.355"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Aschach an der Donau",
-          "earea": "Aschach an der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aschach an der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Aschach an der Donau",
-        "einsatzsubtyp": {
-          "id": "FZGBOOBERGEN-TE",
-          "text": "Bergung Boot"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "401102": {
-            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
-            "fwnr": 401102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503725",
-        "startzeit": "Wed, 29 May 2024 20:54:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3628",
-          "lng": "14.0233"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schlüßlberg",
-          "earea": "Schlüßlberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schlüßlberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Schlüßlberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404126": {
-            "feuerwehr": "Feuerwehr/Florian Tegernbach (37126)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tegernbach (37126)",
-            "fwnr": 404126
-          }
-        },
-        "inzeit": "",
-        "num1": "E240503717",
-        "startzeit": "Wed, 29 May 2024 19:52:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2424",
-          "lng": "13.8767"
         }
       }
     },
