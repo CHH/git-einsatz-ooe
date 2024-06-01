@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "BMA3-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411313": {
+            "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
+          },
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schattleiten (46313)",
+            "fwnr": 411313
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          }
+        },
+        "inzeit": "",
+        "num1": "E240600103",
+        "startzeit": "Sat, 01 Jun 2024 19:47:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9462",
+          "lng": "14.3603"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -281,53 +335,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Münzbach",
-          "earea": "Münzbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Münzbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Münzbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407309": {
-            "feuerwehr": "Feuerwehr/Florian Münzbach (42309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Münzbach (42309)",
-            "fwnr": 407309
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600086",
-        "startzeit": "Sat, 01 Jun 2024 17:48:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2701",
-          "lng": "14.7219"
         }
       }
     },
