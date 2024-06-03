@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 85,
-  "cnt_feuerwehren": 69,
+  "cnt_einsaetze": 83,
+  "cnt_feuerwehren": 67,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pram",
+          "earea": "Pram",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pram",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Pram",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLGEB-TE",
+          "text": "Gebäude überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "404211": {
+            "feuerwehr": "Feuerwehr/Florian Pram (37211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pram (37211)",
+            "fwnr": 404211
+          }
+        },
+        "inzeit": "",
+        "num1": "E240600447",
+        "startzeit": "Mon, 03 Jun 2024 18:38:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2327",
+          "lng": "13.6082"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "BAUMDROHTSICH-TE",
+          "text": "Baum droht umzustürzen"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-D",
+          "text": "Baum droht umzustürzen"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240600446",
+        "startzeit": "Mon, 03 Jun 2024 18:33:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -388,53 +482,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Marienkirchen am Hausruck",
-          "earea": "St. Marienkirchen am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marienkirchen am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - St. Marienkirchen am Hausruck",
-        "einsatzsubtyp": {
-          "id": "HWSICH-TE",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "408226": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)",
-            "fwnr": 408226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600431",
-        "startzeit": "Mon, 03 Jun 2024 18:00:59 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1817",
-          "lng": "13.577"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Feldkirchen an der Donau",
           "earea": "Feldkirchen an der Donau",
           "ecompl": "",
@@ -476,6 +523,53 @@
         "wgs84": {
           "lat": "48.3478",
           "lng": "14.0527"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Marienkirchen am Hausruck",
+          "earea": "St. Marienkirchen am Hausruck",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Marienkirchen am Hausruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - St. Marienkirchen am Hausruck",
+        "einsatzsubtyp": {
+          "id": "HWSICH-TE",
+          "text": "Sicherungsdienst Hochwasser"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-HW",
+          "text": "Sicherungsdienst Hochwasser"
+        },
+        "feuerwehren": {
+          "408226": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)",
+            "fwnr": 408226
+          }
+        },
+        "inzeit": "",
+        "num1": "E240600431",
+        "startzeit": "Mon, 03 Jun 2024 18:00:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1817",
+          "lng": "13.577"
         }
       }
     },
@@ -1701,53 +1795,6 @@
         "einsatzart": "TEE",
         "einsatzort": "EF - Alkoven",
         "einsatzsubtyp": {
-          "id": "ÜBERFLFAHRB-TE",
-          "text": "Überflutete Fahrbahn"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-VKWEG",
-          "text": "Überflutung Verkehrsweg"
-        },
-        "feuerwehren": {
-          "401101": {
-            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Alkoven (34101)",
-            "fwnr": 401101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600384",
-        "startzeit": "Mon, 03 Jun 2024 17:11:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2876",
-          "lng": "14.1102"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Alkoven",
-          "earea": "Alkoven",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alkoven",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Alkoven",
-        "einsatzsubtyp": {
           "id": "ÜBERFLKELLER-TE",
           "text": "Keller überflutet"
         },
@@ -1873,53 +1920,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Marienkirchen am Hausruck",
-          "earea": "St. Marienkirchen am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marienkirchen am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - St. Marienkirchen am Hausruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408226": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)",
-            "fwnr": 408226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600376",
-        "startzeit": "Mon, 03 Jun 2024 17:00:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1817",
-          "lng": "13.577"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Esternberg",
           "earea": "Esternberg",
           "ecompl": "",
@@ -1961,53 +1961,6 @@
         "wgs84": {
           "lat": "48.5309",
           "lng": "13.5537"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Esternberg",
-          "earea": "Esternberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Esternberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Esternberg",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "410113": {
-            "feuerwehr": "Feuerwehr/Florian Pyrawang (45113)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pyrawang (45113)",
-            "fwnr": 410113
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600368",
-        "startzeit": "Mon, 03 Jun 2024 16:54:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5644",
-          "lng": "13.6061"
         }
       }
     },
@@ -2553,67 +2506,6 @@
         "wgs84": {
           "lat": "48.2431",
           "lng": "13.7078"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lohnsburg am Kobernaußerwald",
-          "earea": "Lohnsburg am Kobernaußerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lohnsburg am Kobernaußerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
-        "einsatzsubtyp": {
-          "id": "HWSICH-TE",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "408215": {
-            "feuerwehr": "Feuerwehr/Florian Lohnsburg (43215)"
-          },
-          "408216": {
-            "feuerwehr": "Feuerwehr/Florian Neuhofen im Innkreis (43216)"
-          },
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lohnsburg (43215)",
-            "fwnr": 408215
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Neuhofen im Innkreis (43216)",
-            "fwnr": 408216
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E240600327",
-        "startzeit": "Mon, 03 Jun 2024 16:07:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1437",
-          "lng": "13.404"
         }
       }
     },
