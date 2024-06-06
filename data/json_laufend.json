@@ -1,7 +1,108 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "BAUMFREIMA-TE",
+          "text": "Baum ist umgestürzt"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240601180",
+        "startzeit": "Thu, 06 Jun 2024 23:15:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Münzkirchen",
+          "earea": "Münzkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Münzkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Münzkirchen",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLKELLER-TE",
+          "text": "Keller überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "410315": {
+            "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          },
+          "410323": {
+            "feuerwehr": "Feuerwehr/Florian Schiessdorf (45323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
+            "fwnr": 410315
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
+            "fwnr": 410323
+          }
+        },
+        "inzeit": "",
+        "num1": "E240601179",
+        "startzeit": "Thu, 06 Jun 2024 23:15:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.483",
+          "lng": "13.5608"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -334,67 +435,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Eggelsberg",
-          "earea": "Eggelsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eggelsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Eggelsberg",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "400212": {
-            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
-          },
-          "400402": {
-            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
-          },
-          "400409": {
-            "feuerwehr": "Feuerwehr/Florian Ibm (33409)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
-            "fwnr": 400212
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
-            "fwnr": 400402
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Ibm (33409)",
-            "fwnr": 400409
-          }
-        },
-        "inzeit": "",
-        "num1": "E240601170",
-        "startzeit": "Thu, 06 Jun 2024 22:25:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0736",
-          "lng": "12.9897"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Niederwaldkirchen",
           "earea": "Niederwaldkirchen",
           "ecompl": "",
@@ -483,53 +523,6 @@
         "wgs84": {
           "lat": "48.0255",
           "lng": "13.7908"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Georgen bei Grieskirchen",
-          "earea": "St. Georgen bei Grieskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Georgen bei Grieskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - St. Georgen bei Grieskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404120": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)",
-            "fwnr": 404120
-          }
-        },
-        "inzeit": "",
-        "num1": "E240601121",
-        "startzeit": "Thu, 06 Jun 2024 19:04:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2137",
-          "lng": "13.7807"
         }
       }
     },
