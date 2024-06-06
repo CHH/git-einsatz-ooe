@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Engelhartszell",
+          "earea": "Engelhartszell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Engelhartszell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Engelhartszell",
+        "einsatzsubtyp": {
+          "id": "BAUMFREIMA-TE",
+          "text": "Baum ist umgestürzt"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "410103": {
+            "feuerwehr": "Feuerwehr/Florian Engelhartszell (45103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Engelhartszell (45103)",
+            "fwnr": 410103
+          }
+        },
+        "inzeit": "",
+        "num1": "E240601071",
+        "startzeit": "Thu, 06 Jun 2024 15:46:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5056",
+          "lng": "13.7335"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -82,6 +129,10 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
             "fwnr": 403102
           }
@@ -93,100 +144,6 @@
         "wgs84": {
           "lat": "47.7024",
           "lng": "13.6299"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wernstein am Inn",
-          "earea": "Wernstein am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wernstein am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Wernstein am Inn",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "410327": {
-            "feuerwehr": "Feuerwehr/Florian Wernstein am Inn (45327)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wernstein am Inn (45327)",
-            "fwnr": 410327
-          }
-        },
-        "inzeit": "",
-        "num1": "E240601064",
-        "startzeit": "Thu, 06 Jun 2024 15:19:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5015",
-          "lng": "13.481"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oberneukirchen",
-          "earea": "Oberneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Oberneukirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412207": {
-            "feuerwehr": "Feuerwehr/Florian Gramastetten (49207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gramastetten (49207)",
-            "fwnr": 412207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240601062",
-        "startzeit": "Thu, 06 Jun 2024 15:11:45 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4643",
-          "lng": "14.2208"
         }
       }
     },
