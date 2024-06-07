@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 142,
-  "cnt_feuerwehren": 121,
+  "cnt_einsaetze": 143,
+  "cnt_feuerwehren": 122,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauerkirchen",
+          "earea": "Mauerkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauerkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Mauerkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          }
+        },
+        "inzeit": "",
+        "num1": "E240601396",
+        "startzeit": "Sat, 08 Jun 2024 00:49:09 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1964",
+          "lng": "13.1298"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": 408321
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 08 Jun 2024 00:55:00 +0200",
         "num1": "E240601395",
         "startzeit": "Sat, 08 Jun 2024 00:05:50 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2958",
           "lng": "13.4418"
@@ -140,10 +187,10 @@
             "fwnr": 403116
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 08 Jun 2024 00:35:00 +0200",
         "num1": "E240601393",
         "startzeit": "Fri, 07 Jun 2024 21:23:33 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7342",
           "lng": "13.52"
@@ -2181,53 +2228,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405203": {
-            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
-            "fwnr": 405203
-          }
-        },
-        "inzeit": "Fri, 07 Jun 2024 21:55:00 +0200",
-        "num1": "E240601343",
-        "startzeit": "Fri, 07 Jun 2024 19:05:51 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.0007",
-          "lng": "14.0345"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Eberstalzell",
           "earea": "Eberstalzell",
           "ecompl": "",
@@ -2269,6 +2269,53 @@
         "wgs84": {
           "lat": "48.012",
           "lng": "13.9883"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pettenbach",
+          "earea": "Pettenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pettenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Pettenbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405203": {
+            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
+            "fwnr": 405203
+          }
+        },
+        "inzeit": "Fri, 07 Jun 2024 21:55:00 +0200",
+        "num1": "E240601343",
+        "startzeit": "Fri, 07 Jun 2024 19:05:51 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0007",
+          "lng": "14.0345"
         }
       }
     },
