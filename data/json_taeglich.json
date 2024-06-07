@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 140,
+  "cnt_einsaetze": 141,
   "cnt_feuerwehren": 120,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "GASAUSTR-SCHAD",
+          "text": "Gasaustritt"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240601394",
+        "startzeit": "Fri, 07 Jun 2024 22:55:26 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -610,10 +657,10 @@
             "fwnr": 409203
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 07 Jun 2024 22:22:00 +0200",
         "num1": "E240601377",
         "startzeit": "Fri, 07 Jun 2024 19:42:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": null,
           "lng": null
@@ -1362,10 +1409,10 @@
             "fwnr": 404208
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 07 Jun 2024 23:09:00 +0200",
         "num1": "E240601361",
         "startzeit": "Fri, 07 Jun 2024 19:15:11 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1879",
           "lng": "13.6437"
@@ -2080,53 +2127,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Eberstalzell",
-          "earea": "Eberstalzell",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eberstalzell",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Eberstalzell",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414116": {
-            "feuerwehr": "Feuerwehr/Florian Spieldorf (51116)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spieldorf (51116)",
-            "fwnr": 414116
-          }
-        },
-        "inzeit": "Fri, 07 Jun 2024 19:57:00 +0200",
-        "num1": "E240601344",
-        "startzeit": "Fri, 07 Jun 2024 19:05:51 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.012",
-          "lng": "13.9883"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pettenbach",
           "earea": "Pettenbach",
           "ecompl": "",
@@ -2168,6 +2168,53 @@
         "wgs84": {
           "lat": "48.0007",
           "lng": "14.0345"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberstalzell",
+          "earea": "Eberstalzell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberstalzell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Eberstalzell",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414116": {
+            "feuerwehr": "Feuerwehr/Florian Spieldorf (51116)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Spieldorf (51116)",
+            "fwnr": 414116
+          }
+        },
+        "inzeit": "Fri, 07 Jun 2024 19:57:00 +0200",
+        "num1": "E240601344",
+        "startzeit": "Fri, 07 Jun 2024 19:05:51 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.012",
+          "lng": "13.9883"
         }
       }
     },
