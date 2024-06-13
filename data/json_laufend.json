@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Leonfelden",
-          "earea": "Bad Leonfelden",
+          "default": "Vorderweißenbach",
+          "earea": "Vorderweißenbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Bad Leonfelden",
+          "emun": "Vorderweißenbach",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,34 +18,81 @@
           "text": "Urfahr-Umgebung"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Vorderweißenbach",
         "einsatzsubtyp": {
-          "id": "LIFTÖFFNEN-TE",
-          "text": "Aufzugsdefekt"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "412103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          "412122": {
+            "feuerwehr": "Feuerwehr/Florian Vorderweissenbach (49122)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
-            "fwnr": 412103
+            "fwname": "Feuerwehr/Florian Vorderweissenbach (49122)",
+            "fwnr": 412122
           }
         },
         "inzeit": "",
-        "num1": "E240602247",
-        "startzeit": "Thu, 13 Jun 2024 12:08:02 +0200",
+        "num1": "E240602250",
+        "startzeit": "Thu, 13 Jun 2024 12:29:28 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5223",
-          "lng": "14.2965"
+          "lat": "48.553",
+          "lng": "14.219"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "BMA5-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406212": {
+            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leonding (39212)",
+            "fwnr": 406212
+          }
+        },
+        "inzeit": "",
+        "num1": "E240602249",
+        "startzeit": "Thu, 13 Jun 2024 12:27:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2799",
+          "lng": "14.2457"
         }
       }
     },
