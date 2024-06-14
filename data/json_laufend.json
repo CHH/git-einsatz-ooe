@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Münzbach",
+          "earea": "Münzbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Münzbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Münzbach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "407309": {
+            "feuerwehr": "Feuerwehr/Florian Münzbach (42309)"
+          },
+          "407311": {
+            "feuerwehr": "Feuerwehr/Florian Obernstraß (42311)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münzbach (42309)",
+            "fwnr": 407309
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Obernstraß (42311)",
+            "fwnr": 407311
+          }
+        },
+        "inzeit": "",
+        "num1": "E240602407",
+        "startzeit": "Fri, 14 Jun 2024 12:06:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2701",
+          "lng": "14.7219"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -261,53 +315,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Julbach",
-          "earea": "Julbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Julbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Julbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409103": {
-            "feuerwehr": "Feuerwehr/Florian Julbach (44103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Julbach (44103)",
-            "fwnr": 409103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602390",
-        "startzeit": "Fri, 14 Jun 2024 10:43:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6586",
-          "lng": "13.8713"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ohlsdorf",
           "earea": "Ohlsdorf",
           "ecompl": "",
@@ -349,100 +356,6 @@
         "wgs84": {
           "lat": "47.9716",
           "lng": "13.7469"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pinsdorf",
-          "earea": "Pinsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pinsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Pinsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403217": {
-            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
-            "fwnr": 403217
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602388",
-        "startzeit": "Fri, 14 Jun 2024 10:34:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9281",
-          "lng": "13.771"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Neustift",
-          "earea": "Maria Neustift",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Neustift",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Maria Neustift",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411315": {
-            "feuerwehr": "Feuerwehr/Florian Sulzbach (se) (46315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sulzbach (se) (46315)",
-            "fwnr": 411315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602385",
-        "startzeit": "Fri, 14 Jun 2024 10:09:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9713",
-          "lng": "14.5738"
         }
       }
     },
