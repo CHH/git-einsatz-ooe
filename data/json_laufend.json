@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E240602886",
+        "startzeit": "Mon, 17 Jun 2024 16:47:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -146,53 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Attnang-Puchheim",
-          "earea": "Attnang-Puchheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Attnang-Puchheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Attnang-Puchheim",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "413417": {
-            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Puchheim (50417)",
-            "fwnr": 413417
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602882",
-        "startzeit": "Mon, 17 Jun 2024 16:17:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0017",
-          "lng": "13.7159"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Schiedlberg",
           "earea": "Schiedlberg",
           "ecompl": "",
@@ -205,7 +205,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "SE - Schiedlberg",
         "einsatzsubtyp": {
@@ -233,10 +233,14 @@
             "fwnr": 406208
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Rufling (39218)",
             "fwnr": 406218
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Schiedlberg (46215)",
             "fwnr": 411215
           }
@@ -295,67 +299,6 @@
         "wgs84": {
           "lat": "48.2306",
           "lng": "14.5773"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406208": {
-            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
-          },
-          "406212": {
-            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
-          },
-          "406218": {
-            "feuerwehr": "Feuerwehr/Florian Rufling (39218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
-            "fwnr": 406208
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Leonding (39212)",
-            "fwnr": 406212
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Rufling (39218)",
-            "fwnr": 406218
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602836",
-        "startzeit": "Mon, 17 Jun 2024 15:22:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2652",
-          "lng": "14.2551"
         }
       }
     },
