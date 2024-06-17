@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 12,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Königswiesen",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Personensuche"
         },
         "feuerwehren": {
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
           "402305": {
             "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Königswiesen (35305)",
             "fwnr": 402305
           }
@@ -302,53 +309,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Stefan am Walde",
-          "earea": "St. Stefan am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Stefan am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - St. Stefan am Walde",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "409421": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Stefan am Walde (44421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Stefan am Walde (44421)",
-            "fwnr": 409421
-          }
-        },
-        "inzeit": "",
-        "num1": "E240602923",
-        "startzeit": "Mon, 17 Jun 2024 19:44:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5661",
-          "lng": "14.1028"
         }
       }
     },
