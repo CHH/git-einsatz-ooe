@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Seewalchen am Attersee",
+          "earea": "Seewalchen am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Seewalchen am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Seewalchen am Attersee",
+        "einsatzsubtyp": {
+          "id": "TÜRHERD-TE",
+          "text": "Türöffnung Herd eingeschalten"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-HERD",
+          "text": "Türöffnung Herd eingeschalten"
+        },
+        "feuerwehren": {
+          "413520": {
+            "feuerwehr": "Feuerwehr/Florian Seewalchen am Attersee (50520)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Seewalchen am Attersee (50520)",
+            "fwnr": 413520
+          }
+        },
+        "inzeit": "",
+        "num1": "E240602957",
+        "startzeit": "Tue, 18 Jun 2024 09:25:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.954",
+          "lng": "13.5804"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +158,7 @@
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "RO - Putzleinsdorf",
         "einsatzsubtyp": {
@@ -123,12 +170,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "409205": {
+            "feuerwehr": "Feuerwehr/Florian Lembach im Mühlkreis (44205)"
+          },
           "409213": {
             "feuerwehr": "Feuerwehr/Florian Putzleinsdorf (44213)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Lembach im Mühlkreis (44205)",
+            "fwnr": 409205
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Putzleinsdorf (44213)",
             "fwnr": 409213
           }
