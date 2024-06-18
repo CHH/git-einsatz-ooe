@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603016",
+        "startzeit": "Tue, 18 Jun 2024 15:04:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2455",
+          "lng": "14.5042"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +106,12 @@
           "emun": "Weitersfelden",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 10,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Weitersfelden",
         "einsatzsubtyp": {
@@ -76,8 +123,26 @@
           "text": "Brand im Dachbereich"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
+          "402205": {
+            "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
+          },
           "402303": {
             "feuerwehr": "Feuerwehr/Florian Harrachsthal (35303)"
+          },
+          "402304": {
+            "feuerwehr": "Feuerwehr/Florian Kaltenberg (35304)"
+          },
+          "402306": {
+            "feuerwehr": "Feuerwehr/Florian Langfirling (35306)"
+          },
+          "402308": {
+            "feuerwehr": "Feuerwehr/Florian Liebenstein (35308)"
+          },
+          "402315": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Leonhard bei Freistadt (35315)"
           },
           "402319": {
             "feuerwehr": "Feuerwehr/Florian Unterweissenbach (35319)"
@@ -91,18 +156,42 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
+            "fwnr": 402205
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Harrachsthal (35303)",
             "fwnr": 402303
           },
-          "1": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Kaltenberg (35304)",
+            "fwnr": 402304
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Langfirling (35306)",
+            "fwnr": 402306
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Liebenstein (35308)",
+            "fwnr": 402308
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Sankt Leonhard bei Freistadt (35315)",
+            "fwnr": 402315
+          },
+          "7": {
             "fwname": "Feuerwehr/Florian Unterweissenbach (35319)",
             "fwnr": 402319
           },
-          "2": {
+          "8": {
             "fwname": "Feuerwehr/Florian Weitersfelden (35320)",
             "fwnr": 402320
           },
-          "3": {
+          "9": {
             "fwname": "Feuerwehr/Florian Wienau (35321)",
             "fwnr": 402321
           }
