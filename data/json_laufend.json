@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Garsten",
+          "earea": "Garsten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Garsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Garsten",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411210": {
+            "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberdambach (46210)",
+            "fwnr": 411210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603321",
+        "startzeit": "Thu, 20 Jun 2024 08:55:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9786",
+          "lng": "14.4006"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Pinsdorf",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Tragehilfe"
         },
         "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          },
           "403217": {
             "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
             "fwnr": 403217
           }
