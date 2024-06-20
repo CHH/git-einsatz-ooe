@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Florian",
+          "earea": "St. Florian",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Florian",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - St. Florian",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406110": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Florian-Markt (39110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Florian-Markt (39110)",
+            "fwnr": 406110
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603351",
+        "startzeit": "Thu, 20 Jun 2024 12:43:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2045",
+          "lng": "14.3718"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,60 +187,6 @@
         "wgs84": {
           "lat": "48.4363",
           "lng": "14.1157"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Alkoven",
-          "earea": "Alkoven",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alkoven",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "EF - Alkoven",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "401101": {
-            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
-          },
-          "401114": {
-            "feuerwehr": "Feuerwehr/Florian Polsing (34114)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Alkoven (34101)",
-            "fwnr": 401101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Polsing (34114)",
-            "fwnr": 401114
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603344",
-        "startzeit": "Thu, 20 Jun 2024 11:39:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2876",
-          "lng": "14.1102"
         }
       }
     },
