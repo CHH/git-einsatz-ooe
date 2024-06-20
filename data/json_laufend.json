@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tragwein",
+          "earea": "Tragwein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tragwein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Tragwein",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "402207": {
+            "feuerwehr": "Feuerwehr/Florian Mistlberg (FR) (35207)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mistlberg (FR) (35207)",
+            "fwnr": 402207
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603339",
+        "startzeit": "Thu, 20 Jun 2024 11:08:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3326",
+          "lng": "14.5873"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -99,53 +153,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TE",
-          "text": "Sonstiger Einsatz"
-        },
-        "einsatztyp": {
-          "id": "T0-SONST",
-          "text": "Sonstiger Einsatz"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603332",
-        "startzeit": "Thu, 20 Jun 2024 10:11:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Andorf",
           "earea": "Andorf",
           "ecompl": "",
@@ -234,100 +241,6 @@
         "wgs84": {
           "lat": "48.221",
           "lng": "13.872"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vichtenstein",
-          "earea": "Vichtenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vichtenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Vichtenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410118": {
-            "feuerwehr": "Feuerwehr/Florian Vichtenstein (45118)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vichtenstein (45118)",
-            "fwnr": 410118
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603318",
-        "startzeit": "Thu, 20 Jun 2024 08:42:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5279",
-          "lng": "13.6516"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mauerkirchen",
-          "earea": "Mauerkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauerkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Mauerkirchen",
-        "einsatzsubtyp": {
-          "id": "KLEINMENGEÖL-TE",
-          "text": "Ölaustritt Kleinmenge"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-KLEINMENGE",
-          "text": "Ölaustritt Kleinmenge"
-        },
-        "feuerwehren": {
-          "400308": {
-            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
-            "fwnr": 400308
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603312",
-        "startzeit": "Thu, 20 Jun 2024 07:31:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1964",
-          "lng": "13.1298"
         }
       }
     },
