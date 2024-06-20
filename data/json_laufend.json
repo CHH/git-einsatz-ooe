@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 24,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bundesland Bayern - Deutschland",
+          "earea": "Bundesland Bayern - Deutschland",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bundesland Bayern - Deutschland",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": "BRD",
+          "text": "BRD"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Bundesland Bayern - Deutschland",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BR",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-LANDWIRT",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "feuerwehren": {
+          "409411": {
+            "feuerwehr": "Feuerwehr/Florian Kollerschlag (44411)"
+          },
+          "409412": {
+            "feuerwehr": "Feuerwehr/Florian Mistlberg (RO) (44412)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kollerschlag (44411)",
+            "fwnr": 409411
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mistlberg (RO) (44412)",
+            "fwnr": 409412
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603502",
+        "startzeit": "Thu, 20 Jun 2024 21:27:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -238,53 +292,6 @@
         "wgs84": {
           "lat": "47.9638",
           "lng": "14.2399"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steinbach an der Steyr",
-          "earea": "Steinbach an der Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinbach an der Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Steinbach an der Steyr",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "411314": {
-            "feuerwehr": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)",
-            "fwnr": 411314
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603490",
-        "startzeit": "Thu, 20 Jun 2024 20:00:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9671",
-          "lng": "14.2591"
         }
       }
     },
