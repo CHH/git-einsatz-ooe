@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 25,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Garsten",
+          "earea": "Garsten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Garsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Garsten",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411210": {
+            "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberdambach (46210)",
+            "fwnr": 411210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603503",
+        "startzeit": "Thu, 20 Jun 2024 21:42:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9786",
+          "lng": "14.4006"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -147,104 +194,6 @@
         "wgs84": {
           "lat": "47.9401",
           "lng": "14.0476"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603496",
-        "startzeit": "Thu, 20 Jun 2024 20:16:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Klaus an der Pyhrnbahn",
-          "earea": "Klaus an der Pyhrnbahn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Klaus an der Pyhrnbahn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Klaus an der Pyhrnbahn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405226": {
-            "feuerwehr": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)",
-            "fwnr": 405226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603494",
-        "startzeit": "Thu, 20 Jun 2024 20:11:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8316",
-          "lng": "14.1589"
         }
       }
     },
@@ -541,53 +490,6 @@
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gmunden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Gmunden",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603469",
-        "startzeit": "Thu, 20 Jun 2024 19:31:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
         }
       }
     },
