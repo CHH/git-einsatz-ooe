@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pettenbach",
+          "earea": "Pettenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pettenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Pettenbach",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "405215": {
+            "feuerwehr": "Feuerwehr/Florian Steinfelden (38215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steinfelden (38215)",
+            "fwnr": 405215
+          }
+        },
+        "inzeit": "",
+        "num1": "E240603518",
+        "startzeit": "Fri, 21 Jun 2024 07:04:02 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9153",
+          "lng": "13.9902"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": "48.157",
           "lng": "13.5589"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lenzing",
-          "earea": "Lenzing",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lenzing",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Lenzing",
-        "einsatzsubtyp": {
-          "id": "PERSLKW-VU",
-          "text": "Personenrettung Verkehrsunfall LKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-LKW",
-          "text": "Personenrettung Verkehrsunfall LKW"
-        },
-        "feuerwehren": {
-          "413411": {
-            "feuerwehr": "Feuerwehr/Florian Lenzing (50411)"
-          },
-          "413427": {
-            "feuerwehr": "Feuerwehr/Florian Timelkam (50427)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lenzing (50411)",
-            "fwnr": 413411
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Timelkam (50427)",
-            "fwnr": 413427
-          }
-        },
-        "inzeit": "",
-        "num1": "E240603515",
-        "startzeit": "Fri, 21 Jun 2024 06:30:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9785",
-          "lng": "13.6119"
         }
       }
     },
