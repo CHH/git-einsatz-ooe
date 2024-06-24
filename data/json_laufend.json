@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
+  "cnt_einsaetze": 11,
   "cnt_feuerwehren": 27,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leopoldschlag",
+          "earea": "Leopoldschlag",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leopoldschlag",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Leopoldschlag",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "402425": {
+            "feuerwehr": "Feuerwehr/Florian Leopoldschlag (35425)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leopoldschlag (35425)",
+            "fwnr": 402425
+          }
+        },
+        "inzeit": "",
+        "num1": "E240604099",
+        "startzeit": "Mon, 24 Jun 2024 14:22:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6172",
+          "lng": "14.4994"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -106,53 +153,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Lohnsburg am Kobernaußerwald",
-          "earea": "Lohnsburg am Kobernaußerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lohnsburg am Kobernaußerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408215": {
-            "feuerwehr": "Feuerwehr/Florian Lohnsburg (43215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lohnsburg (43215)",
-            "fwnr": 408215
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604096",
-        "startzeit": "Mon, 24 Jun 2024 13:41:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1437",
-          "lng": "13.404"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Gmunden",
           "earea": "Gmunden",
           "ecompl": "",
@@ -212,7 +212,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 14,
+        "cntfeuerwehren": 16,
         "einsatzart": "BRAND",
         "einsatzort": "EF - St. Marienkirchen an der Polsenz",
         "einsatzsubtyp": {
@@ -260,8 +260,14 @@
           "404121": {
             "feuerwehr": "Feuerwehr/Florian Sankt Thomas (37121)"
           },
+          "404126": {
+            "feuerwehr": "Feuerwehr/Florian Tegernbach (37126)"
+          },
           "404129": {
             "feuerwehr": "Feuerwehr/Florian Wallern an der Trattnach (37129)"
+          },
+          "404316": {
+            "feuerwehr": "Feuerwehr/Florian Ritzing (37316)"
           },
           "414213": {
             "feuerwehr": "Feuerwehr/Florian Krenglbach (51213)"
@@ -285,10 +291,18 @@
             "fwnr": 404121
           },
           "12": {
+            "fwname": "Feuerwehr/Florian Tegernbach (37126)",
+            "fwnr": 404126
+          },
+          "13": {
             "fwname": "Feuerwehr/Florian Wallern an der Trattnach (37129)",
             "fwnr": 404129
           },
-          "13": {
+          "14": {
+            "fwname": "Feuerwehr/Florian Ritzing (37316)",
+            "fwnr": 404316
+          },
+          "15": {
             "fwname": "Feuerwehr/Florian Krenglbach (51213)",
             "fwnr": 414213
           },
@@ -332,60 +346,6 @@
         "wgs84": {
           "lat": "48.2663",
           "lng": "13.9272"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eggelsberg",
-          "earea": "Eggelsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eggelsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Eggelsberg",
-        "einsatzsubtyp": {
-          "id": "PERSUNWEGG-TE",
-          "text": "Personenrettung unwegsames Gelände"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-UNWEGG",
-          "text": "Personenrettung unwegsames Gelände"
-        },
-        "feuerwehren": {
-          "400402": {
-            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
-          },
-          "400409": {
-            "feuerwehr": "Feuerwehr/Florian Ibm (33409)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
-            "fwnr": 400402
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ibm (33409)",
-            "fwnr": 400409
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604086",
-        "startzeit": "Mon, 24 Jun 2024 12:54:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0661",
-          "lng": "12.9677"
         }
       }
     },
