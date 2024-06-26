@@ -1,7 +1,58 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240604477",
+        "startzeit": "Wed, 26 Jun 2024 17:23:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0553",
+          "lng": "14.4445"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,100 +191,6 @@
         "wgs84": {
           "lat": "47.7932",
           "lng": "13.7579"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchschlag bei Linz",
-          "earea": "Kirchschlag bei Linz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchschlag bei Linz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Kirchschlag bei Linz",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "412305": {
-            "feuerwehr": "Feuerwehr/Florian Kirchschlag bei Linz (49305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchschlag bei Linz (49305)",
-            "fwnr": 412305
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604472",
-        "startzeit": "Wed, 26 Jun 2024 16:48:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4137",
-          "lng": "14.2767"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vichtenstein",
-          "earea": "Vichtenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vichtenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Vichtenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410118": {
-            "feuerwehr": "Feuerwehr/Florian Vichtenstein (45118)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vichtenstein (45118)",
-            "fwnr": 410118
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604471",
-        "startzeit": "Wed, 26 Jun 2024 16:43:40 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5279",
-          "lng": "13.6516"
         }
       }
     },
@@ -433,53 +390,6 @@
         "wgs84": {
           "lat": "47.7391",
           "lng": "13.4478"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Geretsberg",
-          "earea": "Geretsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geretsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Geretsberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400405": {
-            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
-            "fwnr": 400405
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604353",
-        "startzeit": "Tue, 25 Jun 2024 20:05:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0896",
-          "lng": "12.9354"
         }
       }
     },
