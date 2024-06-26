@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 23,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenburg am Hausruck",
+          "earea": "Frankenburg am Hausruck",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenburg am Hausruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Frankenburg am Hausruck",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413128": {
+            "feuerwehr": "Feuerwehr/Florian Raitenberg (50128)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Raitenberg (50128)",
+            "fwnr": 413128
+          }
+        },
+        "inzeit": "",
+        "num1": "E240604578",
+        "startzeit": "Wed, 26 Jun 2024 21:06:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0465",
+          "lng": "13.4561"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -288,61 +335,6 @@
         "wgs84": {
           "lat": "47.9989",
           "lng": "13.8509"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "KÜBEL-BR",
-          "text": "Brand Kübel im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 1 Innere Stadt (47101)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
-            "fwnr": 415101
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604557",
-        "startzeit": "Wed, 26 Jun 2024 19:55:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0363",
-          "lng": "14.3924"
         }
       }
     },
