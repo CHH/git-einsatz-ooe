@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "406212": {
+            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leonding (39212)",
+            "fwnr": 406212
+          }
+        },
+        "inzeit": "",
+        "num1": "E240604475",
+        "startzeit": "Wed, 26 Jun 2024 17:05:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2799",
+          "lng": "14.2457"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -306,7 +353,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -324,6 +371,10 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "ÖWR Ebensee",
+            "fwnr": 418920
+          },
+          "1": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           }
