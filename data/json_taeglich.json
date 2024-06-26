@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Putzleinsdorf",
+          "earea": "Putzleinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Putzleinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Putzleinsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409213": {
+            "feuerwehr": "Feuerwehr/Florian Putzleinsdorf (44213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Putzleinsdorf (44213)",
+            "fwnr": 409213
+          }
+        },
+        "inzeit": "Wed, 26 Jun 2024 11:46:00 +0200",
+        "num1": "E240604428",
+        "startzeit": "Wed, 26 Jun 2024 11:44:02 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.5164",
+          "lng": "13.8749"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Windischgarsten",
+          "earea": "Windischgarsten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Windischgarsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Windischgarsten",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "405405": {
+            "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
+            "fwnr": 405405
+          }
+        },
+        "inzeit": "Wed, 26 Jun 2024 12:12:00 +0200",
+        "num1": "E240604426",
+        "startzeit": "Wed, 26 Jun 2024 11:31:42 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.7196",
+          "lng": "14.3204"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +106,12 @@
           "emun": "Lohnsburg am Kobernaußerwald",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
         "einsatzsubtyp": {
@@ -29,21 +123,35 @@
           "text": "Brandverdacht"
         },
         "feuerwehren": {
+          "408211": {
+            "feuerwehr": "Feuerwehr/Florian Kemating (RI) (43211)"
+          },
           "408212": {
             "feuerwehr": "Feuerwehr/Florian Kobernaussen (43212)"
           },
           "408215": {
             "feuerwehr": "Feuerwehr/Florian Lohnsburg (43215)"
+          },
+          "408224": {
+            "feuerwehr": "Feuerwehr/Florian Riegerting (43224)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Kemating (RI) (43211)",
+            "fwnr": 408211
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Kobernaussen (43212)",
             "fwnr": 408212
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Lohnsburg (43215)",
             "fwnr": 408215
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Riegerting (43224)",
+            "fwnr": 408224
           }
         },
         "inzeit": "",
@@ -93,10 +201,10 @@
             "fwnr": 414215
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Jun 2024 11:31:00 +0200",
         "num1": "E240604424",
         "startzeit": "Wed, 26 Jun 2024 11:15:19 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1921",
           "lng": "14.1187"
@@ -187,10 +295,10 @@
             "fwnr": 403112
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Jun 2024 11:31:00 +0200",
         "num1": "E240604419",
         "startzeit": "Wed, 26 Jun 2024 10:41:57 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7204",
           "lng": "13.5832"
@@ -422,10 +530,10 @@
             "fwnr": 411319
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Jun 2024 11:48:00 +0200",
         "num1": "E240604401",
         "startzeit": "Wed, 26 Jun 2024 09:30:31 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8554",
           "lng": "14.662"
@@ -563,10 +671,10 @@
             "fwnr": 401120
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Jun 2024 11:35:00 +0200",
         "num1": "E240604397",
         "startzeit": "Wed, 26 Jun 2024 09:16:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3407",
           "lng": "13.9558"
