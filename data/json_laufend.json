@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          }
+        },
+        "inzeit": "",
+        "num1": "E240604900",
+        "startzeit": "Fri, 28 Jun 2024 13:35:56 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3475",
+          "lng": "14.5416"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +234,6 @@
         "wgs84": {
           "lat": "47.8232",
           "lng": "13.355"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ort im Innkreis",
-          "earea": "Ort im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ort im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Ort im Innkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408313": {
-            "feuerwehr": "Feuerwehr/Florian Ort im Innkreis (43313)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ort im Innkreis (43313)",
-            "fwnr": 408313
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604892",
-        "startzeit": "Fri, 28 Jun 2024 13:07:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3139",
-          "lng": "13.4351"
         }
       }
     },
@@ -469,57 +469,6 @@
         "wgs84": {
           "lat": "48.2734",
           "lng": "14.5798"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Seewalchen am Attersee",
-          "earea": "Seewalchen am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Seewalchen am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "VB - Seewalchen am Attersee",
-        "einsatzsubtyp": {
-          "id": "BOOTHERRENL-ÖWR",
-          "text": "ÖWR Einsatz - Herrenloses Boot auf Gewässer"
-        },
-        "einsatztyp": {
-          "id": "ÖWR-BERG",
-          "text": "ÖWR-Einsatz Bootsbergung"
-        },
-        "feuerwehren": {
-          "418920": {
-            "feuerwehr": "ÖWR Litzlberg"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "ÖWR Nußdorf",
-            "fwnr": 418920
-          },
-          "1": {
-            "fwname": "ÖWR Litzlberg",
-            "fwnr": 418920
-          }
-        },
-        "inzeit": "",
-        "num1": "E240604829",
-        "startzeit": "Fri, 28 Jun 2024 09:47:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.954",
-          "lng": "13.5804"
         }
       }
     }
