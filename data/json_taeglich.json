@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 78,
+  "cnt_einsaetze": 79,
   "cnt_feuerwehren": 82,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lambach",
+          "earea": "Lambach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lambach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Lambach",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "Feuerwehr/Florian Lambach (51111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lambach (51111)",
+            "fwnr": 414111
+          }
+        },
+        "inzeit": "",
+        "num1": "E240605389",
+        "startzeit": "Sun, 30 Jun 2024 23:49:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0914",
+          "lng": "13.868"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -299,7 +346,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - Grünau im Almtal",
         "einsatzsubtyp": {
@@ -314,6 +361,9 @@
           "403208": {
             "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
           },
+          "403222": {
+            "feuerwehr": "Feuerwehr/Florian Scharnstein (36222)"
+          },
           "405205": {
             "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
           }
@@ -324,6 +374,10 @@
             "fwnr": 403208
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Scharnstein (36222)",
+            "fwnr": 403222
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
             "fwnr": 405205
           }
