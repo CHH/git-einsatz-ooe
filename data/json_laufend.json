@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 7,
   "cnt_feuerwehren": 12,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "EF - Fraham",
         "einsatzsubtyp": {
@@ -29,8 +29,14 @@
           "text": "Ölspur"
         },
         "feuerwehren": {
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          },
           "401105": {
             "feuerwehr": "Feuerwehr/Florian Fraham (ef) (34105)"
+          },
+          "401116": {
+            "feuerwehr": "Feuerwehr/Florian Pupping (34116)"
           },
           "401119": {
             "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
@@ -38,10 +44,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Fraham (ef) (34105)",
             "fwnr": 401105
           },
-          "1": {
+          "2": {
+            "fwname": "Feuerwehr/Florian Pupping (34116)",
+            "fwnr": 401116
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Steinholz (34119)",
             "fwnr": 401119
           }
@@ -53,53 +67,6 @@
         "wgs84": {
           "lat": "48.2826",
           "lng": "14.0289"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700260",
-        "startzeit": "Tue, 02 Jul 2024 14:13:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
         }
       }
     },
@@ -161,53 +128,6 @@
         "wgs84": {
           "lat": "47.9819",
           "lng": "13.8195"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünau im Almtal",
-          "earea": "Grünau im Almtal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünau im Almtal",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Grünau im Almtal",
-        "einsatzsubtyp": {
-          "id": "PERSSUCHE-TE",
-          "text": "Personensuche"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-SUCHE",
-          "text": "Personensuche"
-        },
-        "feuerwehren": {
-          "403208": {
-            "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grünau im Almtal (36208)",
-            "fwnr": 403208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700208",
-        "startzeit": "Tue, 02 Jul 2024 07:38:47 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.861",
-          "lng": "13.9493"
         }
       }
     },
