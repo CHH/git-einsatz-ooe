@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 18,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Engerwitzdorf",
+          "earea": "Engerwitzdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Engerwitzdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Engerwitzdorf",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "412315": {
+            "feuerwehr": "Feuerwehr/Florian Treffling (49315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Treffling (49315)",
+            "fwnr": 412315
+          }
+        },
+        "inzeit": "",
+        "num1": "E240700212",
+        "startzeit": "Tue, 02 Jul 2024 07:50:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3353",
+          "lng": "14.385"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -451,67 +498,6 @@
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weitersfelden",
-          "earea": "Weitersfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weitersfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - Weitersfelden",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "402128": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
-          },
-          "402303": {
-            "feuerwehr": "Feuerwehr/Florian Harrachsthal (35303)"
-          },
-          "402320": {
-            "feuerwehr": "Feuerwehr/Florian Weitersfelden (35320)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
-            "fwnr": 402128
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Harrachsthal (35303)",
-            "fwnr": 402303
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Weitersfelden (35320)",
-            "fwnr": 402320
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700193",
-        "startzeit": "Tue, 02 Jul 2024 06:06:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5015",
-          "lng": "14.6883"
         }
       }
     },
