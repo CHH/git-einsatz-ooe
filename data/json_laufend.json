@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hinterstoder",
+          "earea": "Hinterstoder",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hinterstoder",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Hinterstoder",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
+          },
+          "405404": {
+            "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
+            "fwnr": 405401
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
+            "fwnr": 405404
+          }
+        },
+        "inzeit": "",
+        "num1": "E240700561",
+        "startzeit": "Wed, 03 Jul 2024 22:45:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7005",
+          "lng": "14.1536"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.0032",
           "lng": "13.4918"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hörsching",
-          "earea": "Hörsching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hörsching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Hörsching",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406219": {
-            "feuerwehr": "Feuerwehr/Florian Rutzing (39219)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rutzing (39219)",
-            "fwnr": 406219
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700559",
-        "startzeit": "Wed, 03 Jul 2024 21:59:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2057",
-          "lng": "14.1868"
         }
       }
     },
@@ -168,147 +175,6 @@
         "wgs84": {
           "lat": "48.0064",
           "lng": "13.6637"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Taufkirchen an der Pram",
-          "earea": "Taufkirchen an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Taufkirchen an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Taufkirchen an der Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410308": {
-            "feuerwehr": "Feuerwehr/Florian Höbmannsbach (45308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Höbmannsbach (45308)",
-            "fwnr": 410308
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700546",
-        "startzeit": "Wed, 03 Jul 2024 20:26:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4367",
-          "lng": "13.5149"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weibern",
-          "earea": "Weibern",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weibern",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Weibern",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404214": {
-            "feuerwehr": "Feuerwehr/Florian Weibern (37214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weibern (37214)",
-            "fwnr": 404214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700519",
-        "startzeit": "Wed, 03 Jul 2024 19:19:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.184",
-          "lng": "13.7022"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Offenhausen",
-          "earea": "Offenhausen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Offenhausen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Offenhausen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414113": {
-            "feuerwehr": "Feuerwehr/Florian Offenhausen (51113)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Offenhausen (51113)",
-            "fwnr": 414113
-          }
-        },
-        "inzeit": "",
-        "num1": "E240700509",
-        "startzeit": "Wed, 03 Jul 2024 19:09:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1546",
-          "lng": "13.8355"
         }
       }
     },
