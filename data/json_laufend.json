@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 38,
-  "cnt_feuerwehren": 60,
+  "cnt_einsaetze": 31,
+  "cnt_feuerwehren": 52,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Georgen bei Grieskirchen",
+          "earea": "St. Georgen bei Grieskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Georgen bei Grieskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - St. Georgen bei Grieskirchen",
+        "einsatzsubtyp": {
+          "id": "BMT-SELBST",
+          "text": "Brandmeldetaste Gedrückt"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404120": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)",
+            "fwnr": 404120
+          }
+        },
+        "inzeit": "",
+        "num1": "E240701216",
+        "startzeit": "Sat, 06 Jul 2024 21:50:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2137",
+          "lng": "13.7807"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -294,53 +341,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Gallneukirchen",
-          "earea": "Gallneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gallneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Gallneukirchen",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "412303": {
-            "feuerwehr": "Feuerwehr/Florian Gallneukirchen (49303)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
-            "fwnr": 412303
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701209",
-        "startzeit": "Sat, 06 Jul 2024 21:24:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3517",
-          "lng": "14.426"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Marchtrenk",
           "earea": "Marchtrenk",
           "ecompl": "",
@@ -435,53 +435,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Freistadt",
-          "earea": "Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Freistadt",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701205",
-        "startzeit": "Sat, 06 Jul 2024 21:16:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5181",
-          "lng": "14.5075"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Helfenberg",
           "earea": "Helfenberg",
           "ecompl": "",
@@ -523,154 +476,6 @@
         "wgs84": {
           "lat": "48.5367",
           "lng": "14.164"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Perg",
-          "earea": "Perg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Perg",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - Perg",
-        "einsatzsubtyp": {
-          "id": "INDUSTRIE-BR",
-          "text": "Brand Industrie"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB-INDUSTRIE",
-          "text": "Brand Industrie"
-        },
-        "feuerwehren": {
-          "407312": {
-            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
-          },
-          "407313": {
-            "feuerwehr": "Feuerwehr/Florian Pergkirchen (42313)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Perg (42312)",
-            "fwnr": 407312
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pergkirchen (42313)",
-            "fwnr": 407313
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701191",
-        "startzeit": "Sat, 06 Jul 2024 20:55:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2449",
-          "lng": "14.6356"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Alberndorf in der Riedmark",
-          "earea": "Alberndorf in der Riedmark",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alberndorf in der Riedmark",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Alberndorf in der Riedmark",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "412306": {
-            "feuerwehr": "Feuerwehr/Florian Kottingersdorf (49306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kottingersdorf (49306)",
-            "fwnr": 412306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701189",
-        "startzeit": "Sat, 06 Jul 2024 20:54:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4025",
-          "lng": "14.3797"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Ulrich bei Steyr",
-          "earea": "St. Ulrich bei Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Ulrich bei Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - St. Ulrich bei Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411203": {
-            "feuerwehr": "Feuerwehr/Florian Ebersegg (46203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebersegg (46203)",
-            "fwnr": 411203
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701185",
-        "startzeit": "Sat, 06 Jul 2024 20:50:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9883",
-          "lng": "14.5019"
         }
       }
     },
@@ -778,53 +583,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hartkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Hartkirchen",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "401108": {
-            "feuerwehr": "Feuerwehr/Florian Haizing (34108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haizing (34108)",
-            "fwnr": 401108
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701179",
-        "startzeit": "Sat, 06 Jul 2024 20:45:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3747",
-          "lng": "14.0004"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Alberndorf in der Riedmark",
           "earea": "Alberndorf in der Riedmark",
           "ecompl": "",
@@ -913,57 +671,6 @@
         "wgs84": {
           "lat": "48.3744",
           "lng": "14.347"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 1 Innere Stadt (47101)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701150",
-        "startzeit": "Sat, 06 Jul 2024 20:27:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
@@ -1160,60 +867,6 @@
         "wgs84": {
           "lat": "48.429",
           "lng": "14.1628"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchdorf an der Krems",
-          "earea": "Kirchdorf an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchdorf an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Kirchdorf an der Krems",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
-          },
-          "405208": {
-            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
-            "fwnr": 405208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701122",
-        "startzeit": "Sat, 06 Jul 2024 20:05:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9059",
-          "lng": "14.1194"
         }
       }
     },
