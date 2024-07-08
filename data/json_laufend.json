@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 29,
+  "cnt_einsaetze": 22,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
     {
       "einsatz": {
@@ -205,7 +205,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - Wolfsegg am Hausruck",
         "einsatzsubtyp": {
@@ -217,12 +217,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          },
           "413318": {
             "feuerwehr": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)",
             "fwnr": 413318
           }
@@ -536,100 +543,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Aigen im Mühlkreis",
-          "earea": "Aigen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aigen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Aigen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701404",
-        "startzeit": "Mon, 08 Jul 2024 16:35:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6489",
-          "lng": "13.9714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Geiersberg",
-          "earea": "Geiersberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geiersberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Geiersberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408207": {
-            "feuerwehr": "Feuerwehr/Florian Geiersberg (43207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geiersberg (43207)",
-            "fwnr": 408207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701403",
-        "startzeit": "Mon, 08 Jul 2024 16:34:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1998",
-          "lng": "13.5807"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ungenach",
           "earea": "Ungenach",
           "ecompl": "",
@@ -671,53 +584,6 @@
         "wgs84": {
           "lat": "48.0461",
           "lng": "13.6121"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701401",
-        "startzeit": "Mon, 08 Jul 2024 16:33:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0556",
-          "lng": "14.4157"
         }
       }
     },
