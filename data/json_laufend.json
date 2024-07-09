@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          }
+        },
+        "inzeit": "",
+        "num1": "E240701582",
+        "startzeit": "Tue, 09 Jul 2024 14:49:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9462",
+          "lng": "14.3603"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E240701581",
+        "startzeit": "Tue, 09 Jul 2024 14:42:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +158,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 8,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -76,13 +170,53 @@
           "text": "ÖWR-Einsatz Personenrettung"
         },
         "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          },
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
+          },
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          },
           "418920": {
-            "feuerwehr": "ÖWR Traunkirchen"
+            "feuerwehr": "ÖWR Taucher"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
+            "fwnr": 403262
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          },
+          "4": {
+            "fwname": "ÖWR Ebensee",
+            "fwnr": 418920
+          },
+          "5": {
+            "fwname": "ÖWR Gmunden",
+            "fwnr": 418920
+          },
+          "6": {
             "fwname": "ÖWR Traunkirchen",
+            "fwnr": 418920
+          },
+          "7": {
+            "fwname": "ÖWR Taucher",
             "fwnr": 418920
           }
         },
@@ -146,53 +280,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Luftenberg an der Donau",
-          "earea": "Luftenberg an der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Luftenberg an der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Luftenberg an der Donau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407208": {
-            "feuerwehr": "Feuerwehr/Florian Luftenberg an der Donau (42208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Luftenberg an der Donau (42208)",
-            "fwnr": 407208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701574",
-        "startzeit": "Tue, 09 Jul 2024 13:52:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2735",
-          "lng": "14.429"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pierbach",
           "earea": "Pierbach",
           "ecompl": "",
@@ -234,67 +321,6 @@
         "wgs84": {
           "lat": "48.3449",
           "lng": "14.7588"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Scharnstein",
-          "earea": "Scharnstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Scharnstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Scharnstein",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "403203": {
-            "feuerwehr": "Feuerwehr/Florian Bäckerberg (36203)"
-          },
-          "403222": {
-            "feuerwehr": "Feuerwehr/Florian Scharnstein (36222)"
-          },
-          "403225": {
-            "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bäckerberg (36203)",
-            "fwnr": 403203
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Scharnstein (36222)",
-            "fwnr": 403222
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Viechtwang (36225)",
-            "fwnr": 403225
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701568",
-        "startzeit": "Tue, 09 Jul 2024 12:55:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9141",
-          "lng": "13.9645"
         }
       }
     },
