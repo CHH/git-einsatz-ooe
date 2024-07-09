@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aigen im Mühlkreis",
+          "earea": "Aigen im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aigen im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Aigen im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409101": {
+            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
+            "fwnr": 409101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240701599",
+        "startzeit": "Tue, 09 Jul 2024 16:22:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6489",
+          "lng": "13.9714"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.0432",
           "lng": "12.8403"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Aigen im Mühlkreis",
-          "earea": "Aigen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aigen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Aigen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701590",
-        "startzeit": "Tue, 09 Jul 2024 15:50:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6489",
-          "lng": "13.9714"
         }
       }
     },
@@ -389,93 +389,6 @@
         "wgs84": {
           "lat": "48.3819",
           "lng": "14.1932"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traunkirchen",
-          "earea": "Traunkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traunkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 8,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "GM - Traunkirchen",
-        "einsatzsubtyp": {
-          "id": "STORNO-ÖWR",
-          "text": "ÖWR Einsatz - Einsatzstorno Gewässereinsatz, kein Einsatz mehr erforderlich"
-        },
-        "einsatztyp": {
-          "id": "ÖWR-SONST",
-          "text": "ÖWR-Einsatz Sonstige"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
-          },
-          "403224": {
-            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
-          },
-          "403262": {
-            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
-          },
-          "413429": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
-          },
-          "418920": {
-            "feuerwehr": "ÖWR Taucher"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
-            "fwnr": 403224
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
-            "fwnr": 403262
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
-            "fwnr": 413429
-          },
-          "4": {
-            "fwname": "ÖWR Ebensee",
-            "fwnr": 418920
-          },
-          "5": {
-            "fwname": "ÖWR Gmunden",
-            "fwnr": 418920
-          },
-          "6": {
-            "fwname": "ÖWR Traunkirchen",
-            "fwnr": 418920
-          },
-          "7": {
-            "fwname": "ÖWR Taucher",
-            "fwnr": 418920
-          }
-        },
-        "inzeit": "",
-        "num1": "E240701577",
-        "startzeit": "Tue, 09 Jul 2024 14:31:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8557",
-          "lng": "13.7805"
         }
       }
     },
