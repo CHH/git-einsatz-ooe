@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 51,
-  "cnt_feuerwehren": 43,
+  "cnt_einsaetze": 45,
+  "cnt_feuerwehren": 40,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tollet",
+          "earea": "Tollet",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tollet",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Tollet",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404128": {
+            "feuerwehr": "Feuerwehr/Florian Unterstetten (37128)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterstetten (37128)",
+            "fwnr": 404128
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702131",
+        "startzeit": "Wed, 10 Jul 2024 21:54:29 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2509",
+          "lng": "13.775"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,53 +241,6 @@
         "wgs84": {
           "lat": "48.4427",
           "lng": "14.6107"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Dorf an der Pram",
-          "earea": "Dorf an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Dorf an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Dorf an der Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410205": {
-            "feuerwehr": "Feuerwehr/Florian Dorf an der Pram (45205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Dorf an der Pram (45205)",
-            "fwnr": 410205
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702111",
-        "startzeit": "Wed, 10 Jul 2024 21:08:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2798",
-          "lng": "13.6276"
         }
       }
     },
@@ -583,100 +583,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Rainbach im Mühlkreis",
-          "earea": "Rainbach im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Rainbach im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Rainbach im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "402415": {
-            "feuerwehr": "Feuerwehr/Florian Rainbach im Mühlkreis (35415)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rainbach im Mühlkreis (35415)",
-            "fwnr": 402415
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702088",
-        "startzeit": "Wed, 10 Jul 2024 20:21:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5574",
-          "lng": "14.4831"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Helfenberg",
-          "earea": "Helfenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Helfenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - Helfenberg",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "409408": {
-            "feuerwehr": "Feuerwehr/Florian Helfenberg (44408)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Helfenberg (44408)",
-            "fwnr": 409408
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702085",
-        "startzeit": "Wed, 10 Jul 2024 20:20:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5463",
-          "lng": "14.143"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Bad Ischl",
           "earea": "Bad Ischl",
           "ecompl": "",
@@ -906,53 +812,6 @@
         "wgs84": {
           "lat": "48.5265",
           "lng": "14.0616"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Stefan am Walde",
-          "earea": "St. Stefan am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Stefan am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - St. Stefan am Walde",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "409421": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Stefan am Walde (44421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Stefan am Walde (44421)",
-            "fwnr": 409421
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702058",
-        "startzeit": "Wed, 10 Jul 2024 20:04:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5661",
-          "lng": "14.1028"
         }
       }
     },
@@ -1430,147 +1289,6 @@
         "wgs84": {
           "lat": "48.3914",
           "lng": "13.8177"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Peter am Wimberg",
-          "earea": "St. Peter am Wimberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Peter am Wimberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - St. Peter am Wimberg",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "409315": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)",
-            "fwnr": 409315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702026",
-        "startzeit": "Wed, 10 Jul 2024 19:47:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5023",
-          "lng": "14.0719"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Peter am Wimberg",
-          "earea": "St. Peter am Wimberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Peter am Wimberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - St. Peter am Wimberg",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "409315": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)",
-            "fwnr": 409315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702024",
-        "startzeit": "Wed, 10 Jul 2024 19:51:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5023",
-          "lng": "14.0719"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kleinzell im Mühlkreis",
-          "earea": "Kleinzell im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kleinzell im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - Kleinzell im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "409306": {
-            "feuerwehr": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)",
-            "fwnr": 409306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702016",
-        "startzeit": "Wed, 10 Jul 2024 19:43:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4629",
-          "lng": "13.9933"
         }
       }
     },
