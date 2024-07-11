@@ -1,7 +1,123 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 5,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eschenau im Hausruckkreis",
+          "earea": "Eschenau im Hausruckkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eschenau im Hausruckkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Eschenau im Hausruckkreis",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "404305": {
+            "feuerwehr": "Feuerwehr/Florian Eschenau im Hausruckkreis (37305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eschenau im Hausruckkreis (37305)",
+            "fwnr": 404305
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702372",
+        "startzeit": "Fri, 12 Jul 2024 01:19:37 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3914",
+          "lng": "13.8177"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "DACH-BR",
+          "text": "Brand im Dachbereich"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-DACH",
+          "text": "Brand im Dachbereich"
+        },
+        "feuerwehren": {
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          },
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          },
+          "402213": {
+            "feuerwehr": "Feuerwehr/Florian Wartberg ob der Aist (35213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Wartberg ob der Aist (35213)",
+            "fwnr": 402213
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702371",
+        "startzeit": "Fri, 12 Jul 2024 01:09:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3475",
+          "lng": "14.5416"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
