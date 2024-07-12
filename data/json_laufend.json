@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neufelden",
+          "earea": "Neufelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neufelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Neufelden",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409318": {
+            "feuerwehr": "Feuerwehr/Florian Steinbruch (44318)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steinbruch (44318)",
+            "fwnr": 409318
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702459",
+        "startzeit": "Fri, 12 Jul 2024 13:55:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5001",
+          "lng": "14.0352"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Oberwang",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "VB - Oberwang",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "413206": {
             "feuerwehr": "Feuerwehr/Florian Innerschwand (50206)"
           },
+          "413208": {
+            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
+          },
           "413211": {
             "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
           }
@@ -42,6 +92,10 @@
             "fwnr": 413206
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Mondsee (50208)",
+            "fwnr": 413208
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Oberwang (50211)",
             "fwnr": 413211
           }
