@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 35,
+  "cnt_einsaetze": 31,
   "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Auberg",
+          "earea": "Auberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Auberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Auberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409302": {
+            "feuerwehr": "Feuerwehr/Florian Auberg (44302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Auberg (44302)",
+            "fwnr": 409302
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702688",
+        "startzeit": "Sat, 13 Jul 2024 01:14:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5265",
+          "lng": "14.0616"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -219,7 +266,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SD - Zell an der Pram",
         "einsatzsubtyp": {
@@ -233,12 +280,19 @@
         "feuerwehren": {
           "404315": {
             "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
+          },
+          "410217": {
+            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Peuerbach (37315)",
             "fwnr": 404315
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
+            "fwnr": 410217
           }
         },
         "inzeit": "",
@@ -248,53 +302,6 @@
         "wgs84": {
           "lat": "48.3184",
           "lng": "13.6309"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Natternbach",
-          "earea": "Natternbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Natternbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Natternbach",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "404311": {
-            "feuerwehr": "Feuerwehr/Florian Natternbach (37311)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Natternbach (37311)",
-            "fwnr": 404311
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702679",
-        "startzeit": "Sat, 13 Jul 2024 00:32:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3989",
-          "lng": "13.7492"
         }
       }
     },
@@ -691,53 +698,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Zell an der Pram",
-          "earea": "Zell an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Zell an der Pram",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "410203": {
-            "feuerwehr": "Feuerwehr/Florian Blümling (45203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Blümling (45203)",
-            "fwnr": 410203
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702660",
-        "startzeit": "Sat, 13 Jul 2024 00:02:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3139",
-          "lng": "13.5765"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Lambrechten",
           "earea": "Lambrechten",
           "ecompl": "",
@@ -940,53 +900,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Riedau",
-          "earea": "Riedau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Riedau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Riedau",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "410215": {
-            "feuerwehr": "Feuerwehr/Florian Riedau (45215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Riedau (45215)",
-            "fwnr": 410215
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702653",
-        "startzeit": "Fri, 12 Jul 2024 23:58:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3036",
-          "lng": "13.6299"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Altschwendt",
           "earea": "Altschwendt",
           "ecompl": "",
@@ -1082,53 +995,6 @@
         "wgs84": {
           "lat": "48.2678",
           "lng": "13.3013"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Zell an der Pram",
-          "earea": "Zell an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Zell an der Pram",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "410220": {
-            "feuerwehr": "Feuerwehr/Florian Zell an der Pram (45220)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Zell an der Pram (45220)",
-            "fwnr": 410220
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702645",
-        "startzeit": "Fri, 12 Jul 2024 23:51:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3184",
-          "lng": "13.6309"
         }
       }
     },
@@ -1378,53 +1244,6 @@
         "wgs84": {
           "lat": "48.2283",
           "lng": "13.0301"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Peter am Hart",
-          "earea": "St. Peter am Hart",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Peter am Hart",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Peter am Hart",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLFAHRB-TE",
-          "text": "Überflutete Fahrbahn"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-VKWEG",
-          "text": "Überflutung Verkehrsweg"
-        },
-        "feuerwehren": {
-          "400111": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Peter am Hart (33111)",
-            "fwnr": 400111
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702627",
-        "startzeit": "Fri, 12 Jul 2024 23:08:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2534",
-          "lng": "13.0986"
         }
       }
     },
