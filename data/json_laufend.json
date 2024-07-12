@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 17,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "MEHRSTOCKGEB-BR",
+          "text": "Brand Gebäude mehrstöckig"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-MEHRSTOCK",
+          "text": "Brand Gebäude mehrstöckig"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          },
+          "406263": {
+            "feuerwehr": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)",
+            "fwnr": 406263
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702618",
+        "startzeit": "Fri, 12 Jul 2024 22:03:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,53 +107,6 @@
         "wgs84": {
           "lat": "48.4364",
           "lng": "14.0006"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lohnsburg am Kobernaußerwald",
-          "earea": "Lohnsburg am Kobernaußerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lohnsburg am Kobernaußerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408212": {
-            "feuerwehr": "Feuerwehr/Florian Kobernaussen (43212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kobernaussen (43212)",
-            "fwnr": 408212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702607",
-        "startzeit": "Fri, 12 Jul 2024 20:24:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1235",
-          "lng": "13.3748"
         }
       }
     },
