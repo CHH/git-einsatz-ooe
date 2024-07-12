@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702403",
+        "startzeit": "Fri, 12 Jul 2024 09:08:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": "48.466",
           "lng": "14.2649"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Nußbach",
-          "earea": "Nußbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Nußbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Nußbach",
-        "einsatzsubtyp": {
-          "id": "ELEKTRANL-BR",
-          "text": "Brand Elektroanlage im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ELE",
-          "text": "Brand Elektroanlagen im Freien"
-        },
-        "feuerwehren": {
-          "405209": {
-            "feuerwehr": "Feuerwehr/Florian Nussbach (38209)"
-          },
-          "405709": {
-            "feuerwehr": "Feuerwehr/Florian Wimberg (38709)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nussbach (38209)",
-            "fwnr": 405209
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Wimberg (38709)",
-            "fwnr": 405709
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702396",
-        "startzeit": "Fri, 12 Jul 2024 08:27:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9724",
-          "lng": "14.1631"
         }
       }
     },
