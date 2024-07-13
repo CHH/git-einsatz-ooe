@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchdorf an der Krems",
+          "earea": "Kirchdorf an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchdorf an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Kirchdorf an der Krems",
+        "einsatzsubtyp": {
+          "id": "BMA3-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          }
+        },
+        "inzeit": "",
+        "num1": "E240702847",
+        "startzeit": "Sat, 13 Jul 2024 20:42:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9059",
+          "lng": "14.1194"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.861",
           "lng": "13.9493"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Molln",
-          "earea": "Molln",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Molln",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Molln",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "405105": {
-            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Molln (38105)",
-            "fwnr": 405105
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702839",
-        "startzeit": "Sat, 13 Jul 2024 19:17:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8837",
-          "lng": "14.2554"
         }
       }
     },
@@ -422,60 +422,6 @@
         "wgs84": {
           "lat": "47.7391",
           "lng": "13.4478"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Brunnenthal",
-          "earea": "Brunnenthal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Brunnenthal",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "SD - Brunnenthal",
-        "einsatzsubtyp": {
-          "id": "CARPORT-BR",
-          "text": "Brand Carport"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "410302": {
-            "feuerwehr": "Feuerwehr/Florian Brunnenthal (45302)"
-          },
-          "410326": {
-            "feuerwehr": "Feuerwehr/Florian Wallensham (45326)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Brunnenthal (45302)",
-            "fwnr": 410302
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Wallensham (45326)",
-            "fwnr": 410326
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702815",
-        "startzeit": "Sat, 13 Jul 2024 17:38:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4678",
-          "lng": "13.464"
         }
       }
     },
