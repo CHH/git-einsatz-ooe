@@ -1,98 +1,65 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Agatha",
-          "earea": "St. Agatha",
+          "default": "Riedau",
+          "earea": "Riedau",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Agatha",
+          "emun": "Riedau",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 10,
+          "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - St. Agatha",
+        "cntfeuerwehren": 3,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "SD - Riedau",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "SONSTIGE-SCHAD",
+          "text": "Schadstoffeinsatz"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "S1-SONST",
+          "text": "Schadstoffeinsatz"
         },
         "feuerwehren": {
-          "404317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          "410215": {
+            "feuerwehr": "Feuerwehr/Florian Riedau (45215)"
+          },
+          "410261": {
+            "feuerwehr": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)"
+          },
+          "410320": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen b.S. (45320)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
-            "fwnr": 404317
+            "fwname": "Feuerwehr/Florian Riedau (45215)",
+            "fwnr": 410215
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)",
+            "fwnr": 410261
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen b.S. (45320)",
+            "fwnr": 410320
           }
         },
         "inzeit": "",
-        "num1": "E240702693",
-        "startzeit": "Sat, 13 Jul 2024 03:57:45 +0200",
+        "num1": "E240702694",
+        "startzeit": "Sat, 13 Jul 2024 04:18:25 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3883",
-          "lng": "13.8772"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Helpfau-Uttendorf",
-          "earea": "Helpfau-Uttendorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Helpfau-Uttendorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Helpfau-Uttendorf",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "400320": {
-            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
-            "fwnr": 400320
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702692",
-        "startzeit": "Sat, 13 Jul 2024 03:43:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1564",
-          "lng": "13.1222"
+          "lat": "48.3036",
+          "lng": "13.6299"
         }
       }
     },
@@ -403,60 +370,6 @@
         "wgs84": {
           "lat": "48.3036",
           "lng": "13.6299"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Raab",
-          "earea": "Raab",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Raab",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Raab",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "410214": {
-            "feuerwehr": "Feuerwehr/Florian Raab (45214)"
-          },
-          "410219": {
-            "feuerwehr": "Feuerwehr/Florian Steinbruck-Bründl (45219)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Raab (45214)",
-            "fwnr": 410214
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steinbruck-Bründl (45219)",
-            "fwnr": 410219
-          }
-        },
-        "inzeit": "",
-        "num1": "E240702638",
-        "startzeit": "Fri, 12 Jul 2024 23:46:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3611",
-          "lng": "13.6447"
         }
       }
     },
