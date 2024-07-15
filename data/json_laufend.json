@@ -1,54 +1,7 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 34,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Klam",
-          "earea": "Klam",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Klam",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Klam",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407105": {
-            "feuerwehr": "Feuerwehr/Florian Klam (42105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Klam (42105)",
-            "fwnr": 407105
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703145",
-        "startzeit": "Mon, 15 Jul 2024 21:21:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2239",
-          "lng": "14.7811"
-        }
-      }
-    },
     {
       "einsatz": {
         "adresse": {
@@ -59,21 +12,21 @@
           "emun": "Haag am Hausruck",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "GR - Haag am Hausruck",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
           "404206": {
@@ -81,6 +34,9 @@
           },
           "404208": {
             "feuerwehr": "Feuerwehr/Florian Haag am Hausruck (37208)"
+          },
+          "404214": {
+            "feuerwehr": "Feuerwehr/Florian Weibern (37214)"
           }
         },
         "feuerwehrenarray": {
@@ -91,6 +47,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Haag am Hausruck (37208)",
             "fwnr": 404208
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Weibern (37214)",
+            "fwnr": 404214
           }
         },
         "inzeit": "",
@@ -388,53 +348,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Oswald bei Freistadt",
-          "earea": "St. Oswald bei Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Oswald bei Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - St. Oswald bei Freistadt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402128": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
-            "fwnr": 402128
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703134",
-        "startzeit": "Mon, 15 Jul 2024 20:21:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5005",
-          "lng": "14.5845"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Wartberg ob der Aist",
           "earea": "Wartberg ob der Aist",
           "ecompl": "",
@@ -623,53 +536,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Oberhofen am Irrsee",
-          "earea": "Oberhofen am Irrsee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberhofen am Irrsee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Oberhofen am Irrsee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413210": {
-            "feuerwehr": "Feuerwehr/Florian Oberhofen am Irrsee (50210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberhofen am Irrsee (50210)",
-            "fwnr": 413210
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703117",
-        "startzeit": "Mon, 15 Jul 2024 19:45:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9544",
-          "lng": "13.3039"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Großraming",
           "earea": "Großraming",
           "ecompl": "",
@@ -711,53 +577,6 @@
         "wgs84": {
           "lat": "47.8848",
           "lng": "14.5495"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Neustift",
-          "earea": "Maria Neustift",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Neustift",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Maria Neustift",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411309": {
-            "feuerwehr": "Feuerwehr/Florian Moosgraben (46309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Moosgraben (46309)",
-            "fwnr": 411309
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703097",
-        "startzeit": "Mon, 15 Jul 2024 19:19:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9366",
-          "lng": "14.6627"
         }
       }
     },
