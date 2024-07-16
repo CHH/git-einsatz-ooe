@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Perg",
-          "earea": "Perg",
+          "default": "Saxen",
+          "earea": "Saxen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Perg",
+          "emun": "Saxen",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,82 +17,49 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "PE - Perg",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Saxen",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "STROH-BR",
+          "text": "Brand Stroh im Freien"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
         },
         "feuerwehren": {
-          "407312": {
-            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
+          "407105": {
+            "feuerwehr": "Feuerwehr/Florian Klam (42105)"
+          },
+          "407108": {
+            "feuerwehr": "Feuerwehr/Florian Reitberg (42108)"
+          },
+          "407110": {
+            "feuerwehr": "Feuerwehr/Florian Saxen (42110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Perg (42312)",
-            "fwnr": 407312
+            "fwname": "Feuerwehr/Florian Klam (42105)",
+            "fwnr": 407105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reitberg (42108)",
+            "fwnr": 407108
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Saxen (42110)",
+            "fwnr": 407110
           }
         },
         "inzeit": "",
-        "num1": "E240703186",
-        "startzeit": "Tue, 16 Jul 2024 11:12:49 +0200",
+        "num1": "E240703190",
+        "startzeit": "Tue, 16 Jul 2024 11:40:04 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2449",
-          "lng": "14.6356"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neuhofen an der Krems",
-          "earea": "Neuhofen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neuhofen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Neuhofen an der Krems",
-        "einsatzsubtyp": {
-          "id": "TÜRPERS-TE",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "feuerwehren": {
-          "406307": {
-            "feuerwehr": "Feuerwehr/Florian Neuhofen an der Krems (39307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neuhofen an der Krems (39307)",
-            "fwnr": 406307
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703185",
-        "startzeit": "Tue, 16 Jul 2024 11:00:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1378",
-          "lng": "14.2341"
+          "lat": "48.2057",
+          "lng": "14.793"
         }
       }
     },
