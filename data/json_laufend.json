@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 25,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kallham",
+          "earea": "Kallham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kallham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Kallham",
+        "einsatzsubtyp": {
+          "id": "FREI-BR",
+          "text": "Brand im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI",
+          "text": "Brand im Freien"
+        },
+        "feuerwehren": {
+          "404306": {
+            "feuerwehr": "Feuerwehr/Florian Güttling (37306)"
+          },
+          "404308": {
+            "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Güttling (37306)",
+            "fwnr": 404306
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kallham (37308)",
+            "fwnr": 404308
+          }
+        },
+        "inzeit": "",
+        "num1": "E240703987",
+        "startzeit": "Fri, 19 Jul 2024 21:27:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2826",
+          "lng": "13.7091"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +241,6 @@
         "wgs84": {
           "lat": "48.5145",
           "lng": "14.1997"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Desselbrunn",
-          "earea": "Desselbrunn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Desselbrunn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Desselbrunn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413304": {
-            "feuerwehr": "Feuerwehr/Florian Desselbrunn (50304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Desselbrunn (50304)",
-            "fwnr": 413304
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703974",
-        "startzeit": "Fri, 19 Jul 2024 20:31:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0202",
-          "lng": "13.7688"
         }
       }
     },
@@ -704,100 +711,6 @@
         "wgs84": {
           "lat": "48.3076",
           "lng": "14.6593"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Frankenburg am Hausruck",
-          "earea": "Frankenburg am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Frankenburg am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Frankenburg am Hausruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413128": {
-            "feuerwehr": "Feuerwehr/Florian Raitenberg (50128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Raitenberg (50128)",
-            "fwnr": 413128
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703933",
-        "startzeit": "Fri, 19 Jul 2024 19:00:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0465",
-          "lng": "13.4561"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Spital am Pyhrn",
-          "earea": "Spital am Pyhrn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Spital am Pyhrn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Spital am Pyhrn",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "405403": {
-            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          }
-        },
-        "inzeit": "",
-        "num1": "E240703921",
-        "startzeit": "Fri, 19 Jul 2024 18:15:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6632",
-          "lng": "14.3396"
         }
       }
     },
