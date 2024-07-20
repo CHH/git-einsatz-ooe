@@ -1,51 +1,72 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
+          "default": "Waizenkirchen",
+          "earea": "Waizenkirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ebensee",
+          "emun": "Waizenkirchen",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 4,
+          "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - Waizenkirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "403114": {
-            "feuerwehr": "Feuerwehr/Florian Rindbach (36114)"
+          "401120": {
+            "feuerwehr": "Feuerwehr/Florian Stroheim (34120)"
+          },
+          "404316": {
+            "feuerwehr": "Feuerwehr/Florian Ritzing (37316)"
+          },
+          "404317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          },
+          "404324": {
+            "feuerwehr": "Feuerwehr/Florian Waizenkirchen (37324)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Rindbach (36114)",
-            "fwnr": 403114
+            "fwname": "Feuerwehr/Florian Stroheim (34120)",
+            "fwnr": 401120
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ritzing (37316)",
+            "fwnr": 404316
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
+            "fwnr": 404317
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Waizenkirchen (37324)",
+            "fwnr": 404324
           }
         },
         "inzeit": "",
-        "num1": "E240704162",
-        "startzeit": "Sat, 20 Jul 2024 21:32:48 +0200",
+        "num1": "E240704164",
+        "startzeit": "Sat, 20 Jul 2024 21:52:43 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8048",
-          "lng": "13.793"
+          "lat": "48.335",
+          "lng": "13.8982"
         }
       }
     },
@@ -154,60 +175,6 @@
         "wgs84": {
           "lat": "48.2735",
           "lng": "14.429"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Asten",
-          "earea": "Asten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Asten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Asten",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406101": {
-            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
-          },
-          "406105": {
-            "feuerwehr": "Feuerwehr/Florian Raffelstetten (39105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Asten (39101)",
-            "fwnr": 406101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Raffelstetten (39105)",
-            "fwnr": 406105
-          }
-        },
-        "inzeit": "",
-        "num1": "E240704158",
-        "startzeit": "Sat, 20 Jul 2024 20:58:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2186",
-          "lng": "14.4232"
         }
       }
     },
