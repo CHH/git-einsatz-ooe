@@ -1,7 +1,159 @@
 {
-  "cnt_einsaetze": 37,
-  "cnt_feuerwehren": 41,
+  "cnt_einsaetze": 40,
+  "cnt_feuerwehren": 45,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gramastetten",
+          "earea": "Gramastetten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gramastetten",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Gramastetten",
+        "einsatzsubtyp": {
+          "id": "PERSEINGEKL-TE",
+          "text": "Person eingeklemmt"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-EINGEK",
+          "text": "Person eingeklemmt"
+        },
+        "feuerwehren": {
+          "412205": {
+            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
+          },
+          "412207": {
+            "feuerwehr": "Feuerwehr/Florian Gramastetten (49207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geng (49205)",
+            "fwnr": 412205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gramastetten (49207)",
+            "fwnr": 412207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240704214",
+        "startzeit": "Sun, 21 Jul 2024 16:08:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3819",
+          "lng": "14.1932"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tarsdorf",
+          "earea": "Tarsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tarsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Tarsdorf",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BR",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-LANDWIRT",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "feuerwehren": {
+          "400414": {
+            "feuerwehr": "Feuerwehr/Florian Tarsdorf (33414)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Tarsdorf (33414)",
+            "fwnr": 400414
+          }
+        },
+        "inzeit": "Sun, 21 Jul 2024 16:04:00 +0200",
+        "num1": "E240704213",
+        "startzeit": "Sun, 21 Jul 2024 15:43:41 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0797",
+          "lng": "12.8243"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "TÜRPERS-TE",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240704212",
+        "startzeit": "Sun, 21 Jul 2024 15:40:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +191,10 @@
             "fwnr": 404121
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 21 Jul 2024 15:37:00 +0200",
         "num1": "E240704211",
         "startzeit": "Sun, 21 Jul 2024 15:07:20 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2854",
           "lng": "13.8841"
@@ -86,10 +238,10 @@
             "fwnr": 403118
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 21 Jul 2024 15:34:00 +0200",
         "num1": "E240704210",
         "startzeit": "Sun, 21 Jul 2024 15:06:18 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7391",
           "lng": "13.4478"
@@ -187,10 +339,10 @@
             "fwnr": 400414
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 21 Jul 2024 15:35:00 +0200",
         "num1": "E240704208",
         "startzeit": "Sun, 21 Jul 2024 14:20:49 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0797",
           "lng": "12.8243"
