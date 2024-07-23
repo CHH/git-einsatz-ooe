@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 8,
+  "cnt_einsaetze": 7,
   "cnt_feuerwehren": 10,
   "einsaetze": [
     {
@@ -111,7 +111,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "KI - Spital am Pyhrn",
         "einsatzsubtyp": {
@@ -123,6 +123,9 @@
           "text": "Personenrettung Gewässer"
         },
         "feuerwehren": {
+          "405216": {
+            "feuerwehr": "Feuerwehr/Florian Steyrling (38216)"
+          },
           "405403": {
             "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
           },
@@ -132,10 +135,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Steyrling (38216)",
+            "fwnr": 405216
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
             "fwnr": 405403
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
             "fwnr": 405405
           }
@@ -194,53 +201,6 @@
         "wgs84": {
           "lat": "48.3914",
           "lng": "13.8177"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240704504",
-        "startzeit": "Tue, 23 Jul 2024 12:52:59 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2174",
-          "lng": "14.4791"
         }
       }
     },
