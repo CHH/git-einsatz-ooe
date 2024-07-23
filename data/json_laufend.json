@@ -1,15 +1,109 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Roßleiten",
-          "earea": "Roßleiten",
+          "default": "Aistersheim",
+          "earea": "Aistersheim",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Roßleiten",
+          "emun": "Aistersheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Aistersheim",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "404202": {
+            "feuerwehr": "Feuerwehr/Florian Aistersheim (37202)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aistersheim (37202)",
+            "fwnr": 404202
+          }
+        },
+        "inzeit": "",
+        "num1": "E240704508",
+        "startzeit": "Tue, 23 Jul 2024 13:05:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1884",
+          "lng": "13.7431"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aigen im Mühlkreis",
+          "earea": "Aigen im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aigen im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Aigen im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409101": {
+            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
+            "fwnr": 409101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240704507",
+        "startzeit": "Tue, 23 Jul 2024 13:03:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6489",
+          "lng": "13.9714"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Spital am Pyhrn",
+          "earea": "Spital am Pyhrn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Spital am Pyhrn",
           "estnum": ""
         },
         "alarmstufe": "1",
@@ -17,9 +111,9 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "KI - Roßleiten",
+        "einsatzort": "KI - Spital am Pyhrn",
         "einsatzsubtyp": {
           "id": "PERSGEWÄSSER-TE",
           "text": "Personenrettung Gewässer"
@@ -29,12 +123,19 @@
           "text": "Personenrettung Gewässer"
         },
         "feuerwehren": {
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
+          },
           "405405": {
             "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
             "fwnr": 405405
           }
@@ -44,8 +145,8 @@
         "startzeit": "Tue, 23 Jul 2024 12:53:52 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": null,
-          "lng": null
+          "lat": "47.6632",
+          "lng": "14.3396"
         }
       }
     },
