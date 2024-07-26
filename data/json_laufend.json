@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Roßleiten",
+          "earea": "Roßleiten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Roßleiten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Roßleiten",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "405405": {
+            "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
+            "fwnr": 405405
+          }
+        },
+        "inzeit": "",
+        "num1": "E240705115",
+        "startzeit": "Fri, 26 Jul 2024 10:27:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,100 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kappern (51212)",
-            "fwnr": 414212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705110",
-        "startzeit": "Fri, 26 Jul 2024 09:59:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1895",
-          "lng": "14.1296"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Aigen im Mühlkreis",
-          "earea": "Aigen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aigen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Aigen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705109",
-        "startzeit": "Fri, 26 Jul 2024 09:57:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6489",
-          "lng": "13.9714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Taiskirchen im Innkreis",
           "earea": "Taiskirchen im Innkreis",
           "ecompl": "",
@@ -158,7 +111,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "RI - Taiskirchen im Innkreis",
         "einsatzsubtyp": {
@@ -172,12 +125,19 @@
         "feuerwehren": {
           "408108": {
             "feuerwehr": "Feuerwehr/Florian Bruckleiten (43108)"
+          },
+          "408323": {
+            "feuerwehr": "Feuerwehr/Florian Utzenaich (43323)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bruckleiten (43108)",
             "fwnr": 408108
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Utzenaich (43323)",
+            "fwnr": 408323
           }
         },
         "inzeit": "",
