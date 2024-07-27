@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwertberg",
+          "earea": "Schwertberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwertberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Schwertberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407216": {
+            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
+            "fwnr": 407216
+          }
+        },
+        "inzeit": "",
+        "num1": "E240705472",
+        "startzeit": "Sat, 27 Jul 2024 22:31:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2734",
+          "lng": "14.5798"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -234,67 +281,6 @@
         "wgs84": {
           "lat": "48.2228",
           "lng": "14.6161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Schmolln",
-          "earea": "Maria Schmolln",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Schmolln",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Maria Schmolln",
-        "einsatzsubtyp": {
-          "id": "PERSUNTFZG-VU",
-          "text": "Person unter Fahrzeug – Maschine   "
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-UNT-FZG",
-          "text": "Person unter Fahrzeug - Maschine"
-        },
-        "feuerwehren": {
-          "400211": {
-            "feuerwehr": "Feuerwehr/Florian Maria Schmolln (33211)"
-          },
-          "400318": {
-            "feuerwehr": "Feuerwehr/Florian Thannstrass (33318)"
-          },
-          "417180": {
-            "feuerwehr": "Feuerwehr/Florian Bezirk Braunau (33000)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Maria Schmolln (33211)",
-            "fwnr": 400211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Thannstrass (33318)",
-            "fwnr": 400318
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Bezirk Braunau (33000)",
-            "fwnr": 417180
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705416",
-        "startzeit": "Sat, 27 Jul 2024 17:28:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1402",
-          "lng": "13.2161"
         }
       }
     },
