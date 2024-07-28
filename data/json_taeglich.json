@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Scharnstein",
+          "earea": "Scharnstein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Scharnstein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Scharnstein",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BR",
+          "text": "Brand Abfall im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "403222": {
+            "feuerwehr": "Feuerwehr/Florian Scharnstein (36222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Scharnstein (36222)",
+            "fwnr": 403222
+          }
+        },
+        "inzeit": "",
+        "num1": "E240705478",
+        "startzeit": "Sun, 28 Jul 2024 03:40:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9027",
+          "lng": "13.9549"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 404104
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 28 Jul 2024 03:54:00 +0200",
         "num1": "E240705477",
         "startzeit": "Sun, 28 Jul 2024 03:18:49 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2362",
           "lng": "13.8166"
