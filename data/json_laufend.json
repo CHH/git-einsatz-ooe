@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pinsdorf",
+          "earea": "Pinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Pinsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403217": {
+            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
+            "fwnr": 403217
+          }
+        },
+        "inzeit": "",
+        "num1": "E240705504",
+        "startzeit": "Sun, 28 Jul 2024 13:54:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9281",
+          "lng": "13.771"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,155 +187,6 @@
         "wgs84": {
           "lat": "48.1533",
           "lng": "14.1725"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
-            "fwnr": 415101
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705500",
-        "startzeit": "Sun, 28 Jul 2024 13:26:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kappern (51212)",
-            "fwnr": 414212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705499",
-        "startzeit": "Sun, 28 Jul 2024 13:19:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1895",
-          "lng": "14.1296"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Marienkirchen bei Schärding",
-          "earea": "St. Marienkirchen bei Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marienkirchen bei Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - St. Marienkirchen bei Schärding",
-        "einsatzsubtyp": {
-          "id": "BAUMDROHTSICH-TE",
-          "text": "Baum droht umzustürzen"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-D",
-          "text": "Baum droht umzustürzen"
-        },
-        "feuerwehren": {
-          "410311": {
-            "feuerwehr": "Feuerwehr/Florian Hub (45311)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hub (45311)",
-            "fwnr": 410311
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705495",
-        "startzeit": "Sun, 28 Jul 2024 12:28:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3741",
-          "lng": "13.4212"
         }
       }
     },
