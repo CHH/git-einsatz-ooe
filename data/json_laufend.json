@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Kremsmünster",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405305": {
+            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Krühub (38305)",
+            "fwnr": 405305
+          }
+        },
+        "inzeit": "",
+        "num1": "E240705997",
+        "startzeit": "Tue, 30 Jul 2024 21:38:37 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0244",
+          "lng": "14.1465"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.0897",
           "lng": "14.2156"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorderweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Vorderweißenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412122": {
-            "feuerwehr": "Feuerwehr/Florian Vorderweissenbach (49122)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vorderweissenbach (49122)",
-            "fwnr": 412122
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705995",
-        "startzeit": "Tue, 30 Jul 2024 21:19:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.553",
-          "lng": "14.219"
         }
       }
     },
@@ -146,100 +146,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Marienkirchen bei Schärding",
-          "earea": "St. Marienkirchen bei Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marienkirchen bei Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - St. Marienkirchen bei Schärding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410306": {
-            "feuerwehr": "Feuerwehr/Florian Hackenbuch (SD) (45306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hackenbuch (SD) (45306)",
-            "fwnr": 410306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705990",
-        "startzeit": "Tue, 30 Jul 2024 20:54:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3879",
-          "lng": "13.4698"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Laussa",
-          "earea": "Laussa",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Laussa",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Laussa",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411305": {
-            "feuerwehr": "Feuerwehr/Florian Laussa (46305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Laussa (46305)",
-            "fwnr": 411305
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705988",
-        "startzeit": "Tue, 30 Jul 2024 20:43:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9514",
-          "lng": "14.459"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Desselbrunn",
           "earea": "Desselbrunn",
           "ecompl": "",
@@ -287,53 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Steinerkirchen an der Traun",
-          "earea": "Steinerkirchen an der Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinerkirchen an der Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Steinerkirchen an der Traun",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414119": {
-            "feuerwehr": "Feuerwehr/Florian Wollsberg (51119)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wollsberg (51119)",
-            "fwnr": 414119
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705975",
-        "startzeit": "Tue, 30 Jul 2024 20:04:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0758",
-          "lng": "14.0134"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Wolfgang im Salzkammergut",
           "earea": "St. Wolfgang im Salzkammergut",
           "ecompl": "",
@@ -375,53 +234,6 @@
         "wgs84": {
           "lat": "47.7391",
           "lng": "13.4478"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchberg-Thening",
-          "earea": "Kirchberg-Thening",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchberg-Thening",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kirchberg-Thening",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406211": {
-            "feuerwehr": "Feuerwehr/Florian Kirchberg-Thening (39211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchberg-Thening (39211)",
-            "fwnr": 406211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240705945",
-        "startzeit": "Tue, 30 Jul 2024 19:21:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2566",
-          "lng": "14.1564"
         }
       }
     },
