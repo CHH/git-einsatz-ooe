@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 31,
+  "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geinberg",
+          "earea": "Geinberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geinberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Geinberg",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408302": {
+            "feuerwehr": "Feuerwehr/Florian Geinberg (43302)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geinberg (43302)",
+            "fwnr": 408302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
+          }
+        },
+        "inzeit": "",
+        "num1": "E240800453",
+        "startzeit": "Fri, 02 Aug 2024 22:46:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2678",
+          "lng": "13.3013"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.1895",
           "lng": "14.1296"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eferding",
-          "earea": "Eferding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eferding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Eferding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401103": {
-            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eferding (34103)",
-            "fwnr": 401103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240800449",
-        "startzeit": "Fri, 02 Aug 2024 22:07:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3005",
-          "lng": "14.0175"
         }
       }
     },
