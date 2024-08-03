@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 21,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
     {
       "einsatz": {
@@ -106,29 +106,36 @@
           "emun": "Hinzenbach",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "EF - Hinzenbach",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "ELEKTROGEB-BR",
+          "text": "Brand Elektroanlage in Gebäude"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          },
           "401111": {
             "feuerwehr": "Feuerwehr/Florian Hinzenbach (34111)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Hinzenbach (34111)",
             "fwnr": 401111
           }
