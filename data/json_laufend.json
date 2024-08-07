@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Pinsdorf",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          },
           "403227": {
             "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Wiesen (36227)",
             "fwnr": 403227
           }
@@ -234,100 +241,6 @@
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400161": {
-            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
-            "fwnr": 400161
-          }
-        },
-        "inzeit": "",
-        "num1": "E240801126",
-        "startzeit": "Wed, 07 Aug 2024 08:39:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2283",
-          "lng": "13.0301"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Windhaag bei Freistadt",
-          "earea": "Windhaag bei Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Windhaag bei Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Windhaag bei Freistadt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402422": {
-            "feuerwehr": "Feuerwehr/Florian Windhaag bei Freistadt (35422)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Windhaag bei Freistadt (35422)",
-            "fwnr": 402422
-          }
-        },
-        "inzeit": "",
-        "num1": "E240801069",
-        "startzeit": "Tue, 06 Aug 2024 19:33:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5861",
-          "lng": "14.56"
         }
       }
     },
