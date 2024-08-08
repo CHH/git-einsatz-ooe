@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 15,
   "einsaetze": [
     {
@@ -12,12 +12,12 @@
           "emun": "Weißenkirchen im Attergau",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - Weißenkirchen im Attergau",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "413133": {
+            "feuerwehr": "Feuerwehr/Florian Reittern (50133)"
+          },
           "413146": {
             "feuerwehr": "Feuerwehr/Florian Weissenkirchen im Attergau (50146)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Reittern (50133)",
+            "fwnr": 413133
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Weissenkirchen im Attergau (50146)",
             "fwnr": 413146
           }
@@ -187,53 +194,6 @@
         "wgs84": {
           "lat": "48.1921",
           "lng": "14.1187"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neustift im Mühlkreis",
-          "earea": "Neustift im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neustift im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Neustift im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409207": {
-            "feuerwehr": "Feuerwehr/Florian Neustift (44207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neustift (44207)",
-            "fwnr": 409207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240801401",
-        "startzeit": "Thu, 08 Aug 2024 16:02:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5328",
-          "lng": "13.7559"
         }
       }
     },
