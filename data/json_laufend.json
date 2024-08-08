@@ -1,27 +1,27 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Eberstalzell",
-          "earea": "Eberstalzell",
+          "default": "Enns",
+          "earea": "Enns",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Eberstalzell",
+          "emun": "Enns",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 6,
+          "text": "Linz-Land"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "BRAND",
-        "einsatzort": "WL - Eberstalzell",
+        "einsatzort": "LL - Enns",
         "einsatzsubtyp": {
-          "id": "BMA2-BR",
+          "id": "BMA1-BR",
           "text": "Brandmeldealarm"
         },
         "einsatztyp": {
@@ -29,23 +29,77 @@
           "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "414105": {
-            "feuerwehr": "Feuerwehr/Florian Eberstalzell (51105)"
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Eberstalzell (51105)",
-            "fwnr": 414105
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
           }
         },
         "inzeit": "",
-        "num1": "E240801509",
-        "startzeit": "Thu, 08 Aug 2024 21:13:37 +0200",
+        "num1": "E240801512",
+        "startzeit": "Thu, 08 Aug 2024 22:24:06 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0396",
-          "lng": "13.9927"
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lenzing",
+          "earea": "Lenzing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lenzing",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Lenzing",
+        "einsatzsubtyp": {
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
+        },
+        "feuerwehren": {
+          "413411": {
+            "feuerwehr": "Feuerwehr/Florian Lenzing (50411)"
+          },
+          "413420": {
+            "feuerwehr": "Feuerwehr/Florian Reibersdorf (50420)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lenzing (50411)",
+            "fwnr": 413411
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reibersdorf (50420)",
+            "fwnr": 413420
+          }
+        },
+        "inzeit": "",
+        "num1": "E240801511",
+        "startzeit": "Thu, 08 Aug 2024 22:20:33 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9785",
+          "lng": "13.6119"
         }
       }
     },
