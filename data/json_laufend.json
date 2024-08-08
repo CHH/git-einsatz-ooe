@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Vöckla",
+          "earea": "Neukirchen an der Vöckla",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Vöckla",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Neukirchen an der Vöckla",
+        "einsatzsubtyp": {
+          "id": "BAUM-BR",
+          "text": "Brand Baum"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "413412": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Vöckla (50412)"
+          },
+          "413418": {
+            "feuerwehr": "Feuerwehr/Florian Puchkirchen (50418)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Vöckla (50412)",
+            "fwnr": 413412
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Puchkirchen (50418)",
+            "fwnr": 413418
+          }
+        },
+        "inzeit": "",
+        "num1": "E240801371",
+        "startzeit": "Thu, 08 Aug 2024 12:55:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0416",
+          "lng": "13.5372"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -66,47 +120,73 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Radegund",
-          "earea": "St. Radegund",
+          "default": "Gmunden",
+          "earea": "Gmunden",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Radegund",
+          "emun": "Gmunden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "2",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Radegund",
+        "cntfeuerwehren": 6,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
+          "id": "PERSINNOT-ÖWR",
+          "text": "ÖWR Einsatz - Person in Not auf Gewässer"
         },
         "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
+          "id": "ÖWR-PERS",
+          "text": "ÖWR-Einsatz Personenrettung"
         },
         "feuerwehren": {
-          "400413": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Radegund (33413)"
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          },
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          },
+          "418920": {
+            "feuerwehr": "ÖWR Taucher"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Radegund (33413)",
-            "fwnr": 400413
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          },
+          "2": {
+            "fwname": "ÖWR Ebensee",
+            "fwnr": 418920
+          },
+          "3": {
+            "fwname": "ÖWR Gmunden",
+            "fwnr": 418920
+          },
+          "4": {
+            "fwname": "ÖWR Traunkirchen",
+            "fwnr": 418920
+          },
+          "5": {
+            "fwname": "ÖWR Taucher",
+            "fwnr": 418920
           }
         },
         "inzeit": "",
-        "num1": "E240801366",
-        "startzeit": "Thu, 08 Aug 2024 12:40:08 +0200",
+        "num1": "E240801367",
+        "startzeit": "Thu, 08 Aug 2024 12:54:20 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0934",
-          "lng": "12.7674"
+          "lat": "47.9166",
+          "lng": "13.8048"
         }
       }
     },
