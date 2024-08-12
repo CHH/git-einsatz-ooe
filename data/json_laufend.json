@@ -1,15 +1,62 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Eberstalzell",
-          "earea": "Eberstalzell",
+          "default": "Schönau im Mühlkreis",
+          "earea": "Schönau im Mühlkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Eberstalzell",
+          "emun": "Schönau im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Schönau im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402316": {
+            "feuerwehr": "Feuerwehr/Florian Schönau im Mühlkreis (35316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schönau im Mühlkreis (35316)",
+            "fwnr": 402316
+          }
+        },
+        "inzeit": "",
+        "num1": "E240801957",
+        "startzeit": "Mon, 12 Aug 2024 09:28:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3926",
+          "lng": "14.7312"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sattledt",
+          "earea": "Sattledt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sattledt",
           "estnum": ""
         },
         "alarmstufe": "1",
@@ -17,9 +64,9 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
-        "einsatzort": "WL - Eberstalzell",
+        "einsatzort": "WL - Sattledt",
         "einsatzsubtyp": {
           "id": "PERSPKW-VU",
           "text": "Personenrettung Verkehrsunfall PKW"
@@ -34,6 +81,9 @@
           },
           "414105": {
             "feuerwehr": "Feuerwehr/Florian Eberstalzell (51105)"
+          },
+          "414218": {
+            "feuerwehr": "Feuerwehr/Florian Sattledt (51218)"
           }
         },
         "feuerwehrenarray": {
@@ -44,6 +94,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Eberstalzell (51105)",
             "fwnr": 414105
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sattledt (51218)",
+            "fwnr": 414218
           }
         },
         "inzeit": "",
@@ -51,8 +105,8 @@
         "startzeit": "Mon, 12 Aug 2024 09:20:50 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0396",
-          "lng": "13.9927"
+          "lat": "48.0721",
+          "lng": "14.0524"
         }
       }
     },
