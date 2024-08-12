@@ -1,54 +1,7 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 30,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 33,
   "einsaetze": [
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Freistadt",
-          "earea": "Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Freistadt",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802184",
-        "startzeit": "Tue, 13 Aug 2024 00:41:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5181",
-          "lng": "14.5075"
-        }
-      }
-    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 10,
+        "cntfeuerwehren": 13,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Kefermarkt",
         "einsatzsubtyp": {
@@ -123,11 +76,17 @@
           "text": "Brand landwirtschaftliches Objekt"
         },
         "feuerwehren": {
+          "402101": {
+            "feuerwehr": "Feuerwehr/Florian Dingdorf (35101)"
+          },
           "402103": {
             "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
           },
           "402109": {
             "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
+          "402111": {
+            "feuerwehr": "Feuerwehr/Florian Lamm (35111)"
           },
           "402112": {
             "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
@@ -137,6 +96,9 @@
           },
           "402121": {
             "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
+          },
+          "402134": {
+            "feuerwehr": "Feuerwehr/Florian Trosselsdorf (35134)"
           },
           "402139": {
             "feuerwehr": "Feuerwehr/Florian Zeiss (35139)"
@@ -156,44 +118,56 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Dingdorf (35101)",
+            "fwnr": 402101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Freistadt (35103)",
             "fwnr": 402103
           },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
-            "fwnr": 402109
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Lasberg (35112)",
-            "fwnr": 402112
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
-            "fwnr": 402119
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
-            "fwnr": 402121
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Zeiss (35139)",
-            "fwnr": 402139
-          },
-          "6": {
-            "fwname": "Feuerwehr/Florian Gutau (35204)",
-            "fwnr": 402204
-          },
-          "7": {
+          "10": {
             "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
             "fwnr": 402205
           },
-          "8": {
+          "11": {
             "fwname": "Feuerwehr/Florian Tragwein (35211)",
             "fwnr": 402211
           },
-          "9": {
+          "12": {
             "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
             "fwnr": 412303
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Lamm (35111)",
+            "fwnr": 402111
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Lasberg (35112)",
+            "fwnr": 402112
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
+            "fwnr": 402119
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Trosselsdorf (35134)",
+            "fwnr": 402134
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Zeiss (35139)",
+            "fwnr": 402139
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Gutau (35204)",
+            "fwnr": 402204
           }
         },
         "inzeit": "",
