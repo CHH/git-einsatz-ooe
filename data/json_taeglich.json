@@ -1,7 +1,256 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lochen",
+          "earea": "Lochen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lochen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Lochen",
+        "einsatzsubtyp": {
+          "id": "PERSUNTFZG-VU",
+          "text": "Person unter Fahrzeug – Maschine   "
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-UNT-FZG",
+          "text": "Person unter Fahrzeug - Maschine"
+        },
+        "feuerwehren": {
+          "400210": {
+            "feuerwehr": "Feuerwehr/Florian Lochen (33210)"
+          },
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          },
+          "400214": {
+            "feuerwehr": "Feuerwehr/Florian Palting (33214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lochen (33210)",
+            "fwnr": 400210
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Palting (33214)",
+            "fwnr": 400214
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802452",
+        "startzeit": "Wed, 14 Aug 2024 08:14:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.007",
+          "lng": "13.1787"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ungenach",
+          "earea": "Ungenach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ungenach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Ungenach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413428": {
+            "feuerwehr": "Feuerwehr/Florian Ungenach (50428)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ungenach (50428)",
+            "fwnr": 413428
+          }
+        },
+        "inzeit": "Wed, 14 Aug 2024 08:19:00 +0200",
+        "num1": "E240802451",
+        "startzeit": "Wed, 14 Aug 2024 08:09:17 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0461",
+          "lng": "13.6121"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Perg",
+          "earea": "Perg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Perg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - Perg",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "407312": {
+            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Perg (42312)",
+            "fwnr": 407312
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802450",
+        "startzeit": "Wed, 14 Aug 2024 08:05:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2449",
+          "lng": "14.6356"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "Wed, 14 Aug 2024 08:05:00 +0200",
+        "num1": "E240802449",
+        "startzeit": "Wed, 14 Aug 2024 07:40:38 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schörfling am Attersee",
+          "earea": "Schörfling am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schörfling am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - Schörfling am Attersee",
+        "einsatzsubtyp": {
+          "id": "BOOTSCHWEMM-ÖWR",
+          "text": "ÖWR-Einsatz - Boot angeschwemmt"
+        },
+        "einsatztyp": {
+          "id": "ÖWR-BERG",
+          "text": "ÖWR-Einsatz Bootsbergung"
+        },
+        "feuerwehren": {
+          "418920": {
+            "feuerwehr": "ÖWR Litzlberg"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "ÖWR Litzlberg",
+            "fwnr": 418920
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802448",
+        "startzeit": "Wed, 14 Aug 2024 07:34:02 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9467",
+          "lng": "13.603"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,10 +443,10 @@
             "fwnr": 400112
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 14 Aug 2024 07:35:00 +0200",
         "num1": "E240802443",
         "startzeit": "Wed, 14 Aug 2024 06:53:59 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1791",
           "lng": "12.9656"
@@ -248,10 +497,10 @@
             "fwnr": 406209
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 14 Aug 2024 07:51:00 +0200",
         "num1": "E240802442",
         "startzeit": "Wed, 14 Aug 2024 06:46:15 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2243",
           "lng": "14.1854"
