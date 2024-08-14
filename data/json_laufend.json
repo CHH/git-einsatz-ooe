@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 25,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weyer",
+          "earea": "Weyer",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weyer",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Weyer",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411319": {
+            "feuerwehr": "Feuerwehr/Florian Weyer (46319)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Weyer (46319)",
+            "fwnr": 411319
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802674",
+        "startzeit": "Wed, 14 Aug 2024 21:42:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8554",
+          "lng": "14.662"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -241,53 +288,6 @@
         "wgs84": {
           "lat": "47.8848",
           "lng": "14.5495"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mehrnbach",
-          "earea": "Mehrnbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mehrnbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Mehrnbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408104": {
-            "feuerwehr": "Feuerwehr/Florian Asenham (43104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Asenham (43104)",
-            "fwnr": 408104
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802668",
-        "startzeit": "Wed, 14 Aug 2024 21:25:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2178",
-          "lng": "13.4465"
         }
       }
     },
@@ -617,100 +617,6 @@
         "wgs84": {
           "lat": "48.047",
           "lng": "12.9893"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Lorenz",
-          "earea": "St. Lorenz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Lorenz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - St. Lorenz",
-        "einsatzsubtyp": {
-          "id": "BAUMAUFFZG-TE",
-          "text": "Baum auf Fahrzeug"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "413212": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Lorenz (50212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Lorenz (50212)",
-            "fwnr": 413212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802658",
-        "startzeit": "Wed, 14 Aug 2024 20:56:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8232",
-          "lng": "13.355"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Redleiten",
-          "earea": "Redleiten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Redleiten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Redleiten",
-        "einsatzsubtyp": {
-          "id": "BAUMFREIMA-TE",
-          "text": "Baum ist umgestürzt"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "413131": {
-            "feuerwehr": "Feuerwehr/Florian Redleiten (50131)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Redleiten (50131)",
-            "fwnr": 413131
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802657",
-        "startzeit": "Wed, 14 Aug 2024 20:57:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0815",
-          "lng": "13.4692"
         }
       }
     },
