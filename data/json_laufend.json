@@ -1,7 +1,58 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802836",
+        "startzeit": "Fri, 16 Aug 2024 11:46:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +97,6 @@
         "wgs84": {
           "lat": "48.2826",
           "lng": "13.7091"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802833",
-        "startzeit": "Fri, 16 Aug 2024 11:16:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
         }
       }
     },
@@ -187,100 +191,6 @@
         "wgs84": {
           "lat": "48.1962",
           "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402206": {
-            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
-            "fwnr": 402206
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802828",
-        "startzeit": "Fri, 16 Aug 2024 10:47:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3731",
-          "lng": "14.6147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Marienkirchen am Hausruck",
-          "earea": "St. Marienkirchen am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marienkirchen am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - St. Marienkirchen am Hausruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408226": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)",
-            "fwnr": 408226
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802827",
-        "startzeit": "Fri, 16 Aug 2024 10:23:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1817",
-          "lng": "13.577"
         }
       }
     },
