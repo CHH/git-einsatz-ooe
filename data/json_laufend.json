@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
+          "default": "St. Marienkirchen am Hausruck",
+          "earea": "St. Marienkirchen am Hausruck",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Braunau am Inn",
+          "emun": "St. Marienkirchen am Hausruck",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 8,
+          "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
+        "einsatzort": "RI - St. Marienkirchen am Hausruck",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          "408226": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen am Hausruck (43226)",
+            "fwnr": 408226
           }
         },
         "inzeit": "",
-        "num1": "E240802825",
-        "startzeit": "Fri, 16 Aug 2024 10:09:59 +0200",
+        "num1": "E240802827",
+        "startzeit": "Fri, 16 Aug 2024 10:23:33 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
+          "lat": "48.1817",
+          "lng": "13.577"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchberg bei Mattighofen",
+          "earea": "Kirchberg bei Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchberg bei Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Kirchberg bei Mattighofen",
+        "einsatzsubtyp": {
+          "id": "FELD-BR",
+          "text": "Brand Feld"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "400221": {
+            "feuerwehr": "Feuerwehr/Florian Kirchberg bei Mattighofen (33221)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchberg bei Mattighofen (33221)",
+            "fwnr": 400221
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802826",
+        "startzeit": "Fri, 16 Aug 2024 10:16:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0462",
+          "lng": "13.1231"
         }
       }
     },
@@ -287,53 +334,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Grünau im Almtal",
-          "earea": "Grünau im Almtal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünau im Almtal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Grünau im Almtal",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403208": {
-            "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grünau im Almtal (36208)",
-            "fwnr": 403208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802817",
-        "startzeit": "Fri, 16 Aug 2024 09:30:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.861",
-          "lng": "13.9493"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kirchdorf am Inn",
           "earea": "Kirchdorf am Inn",
           "ecompl": "",
@@ -375,100 +375,6 @@
         "wgs84": {
           "lat": "48.29",
           "lng": "13.2963"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406201": {
-            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
-            "fwnr": 406201
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802809",
-        "startzeit": "Fri, 16 Aug 2024 08:16:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2097",
-          "lng": "14.2881"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Obernberg am Inn",
-          "earea": "Obernberg am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Obernberg am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Obernberg am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408312": {
-            "feuerwehr": "Feuerwehr/Florian Obernberg am Inn (43312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Obernberg am Inn (43312)",
-            "fwnr": 408312
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802806",
-        "startzeit": "Fri, 16 Aug 2024 07:57:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3125",
-          "lng": "13.3235"
         }
       }
     },
