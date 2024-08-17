@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 7,
   "cnt_feuerwehren": 16,
   "einsaetze": [
     {
@@ -99,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "BRANDNACHSCH-KL",
-          "text": "Brandnachschau "
-        },
-        "einsatztyp": {
-          "id": "KL-BRAND-NACHSCH",
-          "text": "Brandnachschau"
-        },
-        "feuerwehren": {
-          "406208": {
-            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
-            "fwnr": 406208
-          }
-        },
-        "inzeit": "",
-        "num1": "E240803013",
-        "startzeit": "Sat, 17 Aug 2024 12:22:45 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2652",
-          "lng": "14.2551"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Traunkirchen",
           "earea": "Traunkirchen",
           "ecompl": "",
@@ -158,7 +111,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 8,
+        "cntfeuerwehren": 10,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -170,6 +123,9 @@
           "text": "ÖWR-Einsatz Personenrettung"
         },
         "feuerwehren": {
+          "400111": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
+          },
           "403103": {
             "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
           },
@@ -182,40 +138,51 @@
           "403262": {
             "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
           },
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Taucher"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Sankt Peter am Hart (33111)",
+            "fwnr": 400111
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Ebensee (36103)",
             "fwnr": 403103
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
             "fwnr": 403117
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
             "fwnr": 403224
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
             "fwnr": 403262
           },
-          "4": {
+          "5": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          },
+          "6": {
             "fwname": "ÖWR Ebensee",
             "fwnr": 418920
           },
-          "5": {
+          "7": {
             "fwname": "ÖWR Gmunden",
             "fwnr": 418920
           },
-          "6": {
+          "8": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           },
-          "7": {
+          "9": {
             "fwname": "ÖWR Taucher",
             "fwnr": 418920
           }
@@ -368,53 +335,6 @@
         "wgs84": {
           "lat": "48.3174",
           "lng": "14.7638"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Agatha",
-          "earea": "St. Agatha",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Agatha",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - St. Agatha",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
-            "fwnr": 404317
-          }
-        },
-        "inzeit": "",
-        "num1": "E240802941",
-        "startzeit": "Fri, 16 Aug 2024 19:41:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3883",
-          "lng": "13.8772"
         }
       }
     },
