@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Thomas",
+          "earea": "St. Thomas",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Thomas",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - St. Thomas",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "404121": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Thomas (37121)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Thomas (37121)",
+            "fwnr": 404121
+          }
+        },
+        "inzeit": "",
+        "num1": "E240802968",
+        "startzeit": "Sat, 17 Aug 2024 02:27:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2854",
+          "lng": "13.8841"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 402211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 17 Aug 2024 03:22:00 +0200",
         "num1": "E240802967",
         "startzeit": "Sat, 17 Aug 2024 01:38:58 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3308",
           "lng": "14.6181"
