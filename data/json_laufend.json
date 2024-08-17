@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "2",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "BRANDNACHSCH-KL",
+          "text": "Brandnachschau "
+        },
+        "einsatztyp": {
+          "id": "KL-BRAND-NACHSCH",
+          "text": "Brandnachschau"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803013",
+        "startzeit": "Sat, 17 Aug 2024 12:22:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2652",
+          "lng": "14.2551"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 6,
+        "cntfeuerwehren": 7,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -35,6 +82,9 @@
           "403224": {
             "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
           },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Taucher"
           }
@@ -49,18 +99,22 @@
             "fwnr": 403224
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
+            "fwnr": 403262
+          },
+          "3": {
             "fwname": "ÖWR Ebensee",
             "fwnr": 418920
           },
-          "3": {
+          "4": {
             "fwname": "ÖWR Gmunden",
             "fwnr": 418920
           },
-          "4": {
+          "5": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           },
-          "5": {
+          "6": {
             "fwname": "ÖWR Taucher",
             "fwnr": 418920
           }
