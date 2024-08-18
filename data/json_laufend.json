@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803108",
+        "startzeit": "Sun, 18 Aug 2024 07:04:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
         "einsatzort": "BR - Mining",
         "einsatzsubtyp": {
@@ -29,14 +76,42 @@
           "text": "Bergung auf Gewässer"
         },
         "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          },
           "400106": {
             "feuerwehr": "Feuerwehr/Florian Mining (33106)"
+          },
+          "400111": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
+          },
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          },
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Mining (33106)",
             "fwnr": 400106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Peter am Hart (33111)",
+            "fwnr": 400111
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
           }
         },
         "inzeit": "",
