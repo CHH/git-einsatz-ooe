@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 30,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Riedau",
+          "earea": "Riedau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Riedau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Riedau",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "410215": {
+            "feuerwehr": "Feuerwehr/Florian Riedau (45215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Riedau (45215)",
+            "fwnr": 410215
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803252",
+        "startzeit": "Sun, 18 Aug 2024 19:43:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3036",
+          "lng": "13.6299"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,7 +205,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "SONSTIGE",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
@@ -173,6 +220,9 @@
           "406201": {
             "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
           },
+          "406202": {
+            "feuerwehr": "Feuerwehr/Florian Axberg (39202)"
+          },
           "406213": {
             "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
           },
@@ -186,14 +236,18 @@
             "fwnr": 406201
           },
           "1": {
-            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
-            "fwnr": 406213
+            "fwname": "Feuerwehr/Florian Axberg (39202)",
+            "fwnr": 406202
           },
           "2": {
             "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
             "fwnr": 406213
           },
           "3": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
             "fwnr": 406261
           }
@@ -826,53 +880,6 @@
         "inzeit": "",
         "num1": "E240803181",
         "startzeit": "Sun, 18 Aug 2024 16:39:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2548",
-          "lng": "14.2114"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pasching",
-          "earea": "Pasching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pasching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Pasching",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "406216": {
-            "feuerwehr": "Feuerwehr/Florian Pasching (39216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pasching (39216)",
-            "fwnr": 406216
-          }
-        },
-        "inzeit": "",
-        "num1": "E240803180",
-        "startzeit": "Sun, 18 Aug 2024 16:38:12 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.2548",
