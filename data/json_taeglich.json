@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 126,
-  "cnt_feuerwehren": 111,
+  "cnt_einsaetze": 129,
+  "cnt_feuerwehren": 116,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mondsee",
+          "earea": "Mondsee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mondsee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Mondsee",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413208": {
+            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mondsee (50208)",
+            "fwnr": 413208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803442",
+        "startzeit": "Mon, 19 Aug 2024 22:09:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8574",
+          "lng": "13.3434"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mitterkirchen im Machland",
+          "earea": "Mitterkirchen im Machland",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mitterkirchen im Machland",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Mitterkirchen im Machland",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "407306": {
+            "feuerwehr": "Feuerwehr/Florian Hütting (42306)"
+          },
+          "407307": {
+            "feuerwehr": "Feuerwehr/Florian Langacker (42307)"
+          },
+          "407308": {
+            "feuerwehr": "Feuerwehr/Florian Mitterkirchen (42308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hütting (42306)",
+            "fwnr": 407306
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Langacker (42307)",
+            "fwnr": 407307
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Mitterkirchen (42308)",
+            "fwnr": 407308
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803440",
+        "startzeit": "Mon, 19 Aug 2024 21:44:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1847",
+          "lng": "14.711"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee",
+          "earea": "Ebensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ebensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803438",
+        "startzeit": "Mon, 19 Aug 2024 21:13:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8115",
+          "lng": "13.7753"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +167,45 @@
           "emun": "Waldzell",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "RI - Waldzell",
         "einsatzsubtyp": {
-          "id": "RETTUNGUNTST-TE",
-          "text": "Unterstützung Rettungsdienst"
+          "id": "PERSUNWEGG-TE",
+          "text": "Personenrettung unwegsames Gelände"
         },
         "einsatztyp": {
-          "id": "T0-UNTST-RETTUNG",
-          "text": "Unterstützung Rettungsdienst"
+          "id": "T1-PERS-UNWEGG",
+          "text": "Personenrettung unwegsames Gelände"
         },
         "feuerwehren": {
           "408229": {
             "feuerwehr": "Feuerwehr/Florian Waldzell (43229)"
+          },
+          "413131": {
+            "feuerwehr": "Feuerwehr/Florian Redleiten (50131)"
+          },
+          "413148": {
+            "feuerwehr": "Feuerwehr/Florian Wilding-Mühlberg (50148)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Waldzell (43229)",
             "fwnr": 408229
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Redleiten (50131)",
+            "fwnr": 413131
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Wilding-Mühlberg (50148)",
+            "fwnr": 413148
           }
         },
         "inzeit": "",
@@ -144,10 +313,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:17:00 +0200",
         "num1": "E240803435",
         "startzeit": "Mon, 19 Aug 2024 20:47:38 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0553",
           "lng": "14.4445"
@@ -198,10 +367,10 @@
             "fwnr": 409212
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:59:00 +0200",
         "num1": "E240803434",
         "startzeit": "Mon, 19 Aug 2024 20:46:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5025",
           "lng": "13.8279"
@@ -245,10 +414,10 @@
             "fwnr": 410315
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:27:00 +0200",
         "num1": "E240803433",
         "startzeit": "Mon, 19 Aug 2024 20:41:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4827",
           "lng": "13.5608"
@@ -339,10 +508,10 @@
             "fwnr": 402207
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:17:00 +0200",
         "num1": "E240803431",
         "startzeit": "Mon, 19 Aug 2024 20:30:13 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3326",
           "lng": "14.5873"
@@ -715,10 +884,10 @@
             "fwnr": 413304
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:45:00 +0200",
         "num1": "E240803421",
         "startzeit": "Mon, 19 Aug 2024 19:55:33 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0202",
           "lng": "13.7688"
@@ -903,10 +1072,10 @@
             "fwnr": 413207
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:11:00 +0200",
         "num1": "E240803415",
         "startzeit": "Mon, 19 Aug 2024 19:40:24 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.839",
           "lng": "13.3103"
@@ -1279,10 +1448,10 @@
             "fwnr": 413213
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 22:19:00 +0200",
         "num1": "E240803407",
         "startzeit": "Mon, 19 Aug 2024 19:25:20 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8618",
           "lng": "13.3583"
@@ -1796,10 +1965,10 @@
             "fwnr": 413404
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Aug 2024 21:19:00 +0200",
         "num1": "E240803394",
         "startzeit": "Mon, 19 Aug 2024 18:59:24 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0164",
           "lng": "13.7192"
