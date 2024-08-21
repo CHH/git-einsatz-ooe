@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400323": {
+            "feuerwehr": "Feuerwehr/Florian Wildenau (33323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildenau (33323)",
+            "fwnr": 400323
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803776",
+        "startzeit": "Thu, 22 Aug 2024 01:13:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.318"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Altheim",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 8,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
@@ -32,8 +79,26 @@
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
           },
+          "400312": {
+            "feuerwehr": "Feuerwehr/Florian Pfendhub (33312)"
+          },
+          "400313": {
+            "feuerwehr": "Feuerwehr/Florian Polling (33313)"
+          },
+          "400316": {
+            "feuerwehr": "Feuerwehr/Florian Rossbach (33316)"
+          },
+          "400317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Veit im Innkreis (33317)"
+          },
+          "400322": {
+            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
+          },
           "400361": {
             "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
           }
         },
         "feuerwehrenarray": {
@@ -42,8 +107,32 @@
             "fwnr": 400301
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Pfendhub (33312)",
+            "fwnr": 400312
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Polling (33313)",
+            "fwnr": 400313
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Rossbach (33316)",
+            "fwnr": 400316
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Sankt Veit im Innkreis (33317)",
+            "fwnr": 400317
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
+            "fwnr": 400322
+          },
+          "6": {
             "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
             "fwnr": 400361
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
           }
         },
         "inzeit": "",
