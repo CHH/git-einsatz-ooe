@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 5,
+  "cnt_einsaetze": 4,
   "cnt_feuerwehren": 6,
   "einsaetze": [
     {
@@ -64,20 +64,23 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "VB - Neukirchen an der Vöckla",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
         },
         "feuerwehren": {
           "413115": {
             "feuerwehr": "Feuerwehr/Florian Hörgersteig (50115)"
+          },
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
           },
           "413461": {
             "feuerwehr": "Feuerwehr/Florian Brauerei Zipf (50461)"
@@ -89,6 +92,10 @@
             "fwnr": 413115
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Brauerei Zipf (50461)",
             "fwnr": 413461
           }
@@ -147,53 +154,6 @@
         "wgs84": {
           "lat": "48.2075",
           "lng": "13.6798"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Attnang-Puchheim",
-          "earea": "Attnang-Puchheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Attnang-Puchheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Attnang-Puchheim",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "413417": {
-            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Puchheim (50417)",
-            "fwnr": 413417
-          }
-        },
-        "inzeit": "",
-        "num1": "E240803645",
-        "startzeit": "Wed, 21 Aug 2024 12:05:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0017",
-          "lng": "13.7159"
         }
       }
     },
