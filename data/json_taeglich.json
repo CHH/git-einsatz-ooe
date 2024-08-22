@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Molln",
+          "earea": "Molln",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Molln",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Molln",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "405105": {
+            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Molln (38105)",
+            "fwnr": 405105
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803783",
+        "startzeit": "Thu, 22 Aug 2024 07:46:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8837",
+          "lng": "14.2554"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 413111
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 22 Aug 2024 08:15:00 +0200",
         "num1": "E240803780",
         "startzeit": "Thu, 22 Aug 2024 07:09:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9851",
           "lng": "13.4109"
@@ -64,7 +111,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "RI - Aurolzmünster",
         "einsatzsubtyp": {
@@ -81,6 +128,9 @@
           },
           "408123": {
             "feuerwehr": "Feuerwehr/Florian Weierfing (43123)"
+          },
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
           }
         },
         "feuerwehrenarray": {
@@ -91,6 +141,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Weierfing (43123)",
             "fwnr": 408123
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
           }
         },
         "inzeit": "",
