@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenmarkt",
+          "earea": "Frankenmarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenmarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Frankenmarkt",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803780",
+        "startzeit": "Thu, 22 Aug 2024 07:09:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9851",
+          "lng": "13.4109"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Aurolzmünster",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "RI - Aurolzmünster",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "408105": {
+            "feuerwehr": "Feuerwehr/Florian Aurolzmünster (43105)"
+          },
           "408123": {
             "feuerwehr": "Feuerwehr/Florian Weierfing (43123)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Aurolzmünster (43105)",
+            "fwnr": 408105
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Weierfing (43123)",
             "fwnr": 408123
           }
@@ -46,102 +100,6 @@
         "wgs84": {
           "lat": "48.2299",
           "lng": "13.4618"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altheim",
-          "earea": "Altheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altheim",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 8,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Altheim",
-        "einsatzsubtyp": {
-          "id": "FREI-BR",
-          "text": "Brand im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI",
-          "text": "Brand im Freien"
-        },
-        "feuerwehren": {
-          "400301": {
-            "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
-          },
-          "400312": {
-            "feuerwehr": "Feuerwehr/Florian Pfendhub (33312)"
-          },
-          "400313": {
-            "feuerwehr": "Feuerwehr/Florian Polling (33313)"
-          },
-          "400316": {
-            "feuerwehr": "Feuerwehr/Florian Rossbach (33316)"
-          },
-          "400317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Veit im Innkreis (33317)"
-          },
-          "400322": {
-            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
-          },
-          "400361": {
-            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
-          },
-          "408308": {
-            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altheim (33301)",
-            "fwnr": 400301
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pfendhub (33312)",
-            "fwnr": 400312
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Polling (33313)",
-            "fwnr": 400313
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Rossbach (33316)",
-            "fwnr": 400316
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Sankt Veit im Innkreis (33317)",
-            "fwnr": 400317
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
-            "fwnr": 400322
-          },
-          "6": {
-            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
-            "fwnr": 400361
-          },
-          "7": {
-            "fwname": "Feuerwehr/Florian Moosham (43308)",
-            "fwnr": 408308
-          }
-        },
-        "inzeit": "",
-        "num1": "E240803775",
-        "startzeit": "Thu, 22 Aug 2024 00:53:40 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2477",
-          "lng": "13.2294"
         }
       }
     },
