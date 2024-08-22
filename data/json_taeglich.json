@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 16,
+  "cnt_feuerwehren": 29,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weißenkirchen im Attergau",
+          "earea": "Weißenkirchen im Attergau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weißenkirchen im Attergau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Weißenkirchen im Attergau",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          },
+          "413126": {
+            "feuerwehr": "Feuerwehr/Florian Pöndorf (50126)"
+          },
+          "413133": {
+            "feuerwehr": "Feuerwehr/Florian Reittern (50133)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pöndorf (50126)",
+            "fwnr": 413126
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Reittern (50133)",
+            "fwnr": 413133
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803804",
+        "startzeit": "Thu, 22 Aug 2024 11:18:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9616",
+          "lng": "13.3833"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Oberndorf bei Schwanenstadt",
+          "earea": "Oberndorf bei Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Oberndorf bei Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Oberndorf bei Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803802",
+        "startzeit": "Thu, 22 Aug 2024 11:06:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Königswiesen",
+          "earea": "Königswiesen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Königswiesen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Königswiesen",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "402309": {
+            "feuerwehr": "Feuerwehr/Florian Mönchdorf (35309)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mönchdorf (35309)",
+            "fwnr": 402309
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803800",
+        "startzeit": "Thu, 22 Aug 2024 10:54:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3618",
+          "lng": "14.7972"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +219,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Hagenberg im Mühlkreis",
         "einsatzsubtyp": {
@@ -78,12 +233,19 @@
         "feuerwehren": {
           "402205": {
             "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
             "fwnr": 402205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
           }
         },
         "inzeit": "",
@@ -133,10 +295,10 @@
             "fwnr": 402208
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 22 Aug 2024 11:15:00 +0200",
         "num1": "E240803795",
         "startzeit": "Thu, 22 Aug 2024 10:03:00 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4187",
           "lng": "14.6081"
