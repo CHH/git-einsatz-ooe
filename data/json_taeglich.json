@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sarleinsbach",
+          "earea": "Sarleinsbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sarleinsbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Sarleinsbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409423": {
+            "feuerwehr": "Feuerwehr/Florian Sprinzenstein (44423)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sprinzenstein (44423)",
+            "fwnr": 409423
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803917",
+        "startzeit": "Fri, 23 Aug 2024 07:30:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5514",
+          "lng": "13.9556"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240803915",
+        "startzeit": "Fri, 23 Aug 2024 07:25:17 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +133,10 @@
             "fwnr": 413311
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 23 Aug 2024 07:42:00 +0200",
         "num1": "E240803911",
         "startzeit": "Fri, 23 Aug 2024 07:07:09 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0249",
           "lng": "13.7494"
@@ -64,7 +158,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Ebensee",
         "einsatzsubtyp": {
@@ -76,12 +170,26 @@
           "text": "Brand Wald"
         },
         "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          },
+          "403107": {
+            "feuerwehr": "Feuerwehr/Florian Langwies (36107)"
+          },
           "403117": {
             "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Langwies (36107)",
+            "fwnr": 403107
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
             "fwnr": 403117
           }
