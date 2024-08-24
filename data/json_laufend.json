@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bundesland Bayern - Deutschland",
+          "earea": "Bundesland Bayern - Deutschland",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bundesland Bayern - Deutschland",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": "BRD",
+          "text": "BRD"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Bundesland Bayern - Deutschland",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804125",
+        "startzeit": "Sat, 24 Aug 2024 10:50:38 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -341,12 +388,12 @@
           "emun": "Moosdorf",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
         "einsatzort": "BR - Moosdorf",
         "einsatzsubtyp": {
@@ -360,6 +407,9 @@
         "feuerwehren": {
           "400219": {
             "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
+          "400402": {
+            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
           },
           "400405": {
             "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
@@ -377,14 +427,18 @@
             "fwnr": 400219
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
+            "fwnr": 400402
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Geretsberg (33405)",
             "fwnr": 400405
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Hackenbuch (BR) (33406)",
             "fwnr": 400406
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Moosdorf (33410)",
             "fwnr": 400410
           }
