@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 17,
+  "cnt_einsaetze": 16,
   "cnt_feuerwehren": 18,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "BR - Moosdorf",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "Personensuche"
         },
         "feuerwehren": {
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
           "400406": {
             "feuerwehr": "Feuerwehr/Florian Hackenbuch (BR) (33406)"
           },
@@ -38,10 +41,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Hackenbuch (BR) (33406)",
             "fwnr": 400406
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Moosdorf (33410)",
             "fwnr": 400410
           }
@@ -53,53 +60,6 @@
         "wgs84": {
           "lat": "48.047",
           "lng": "12.9893"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804112",
-        "startzeit": "Sat, 24 Aug 2024 09:50:15 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
         }
       }
     },
