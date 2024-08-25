@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Krenglbach",
+          "earea": "Krenglbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Krenglbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Krenglbach",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "414210": {
+            "feuerwehr": "Feuerwehr/Florian Haiding (51210)"
+          },
+          "414213": {
+            "feuerwehr": "Feuerwehr/Florian Krenglbach (51213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haiding (51210)",
+            "fwnr": 414210
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Krenglbach (51213)",
+            "fwnr": 414213
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804217",
+        "startzeit": "Sun, 25 Aug 2024 03:23:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.209",
+          "lng": "13.9555"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": 410321
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 25 Aug 2024 02:45:00 +0200",
         "num1": "E240804216",
         "startzeit": "Sun, 25 Aug 2024 02:07:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4476",
           "lng": "13.4433"
