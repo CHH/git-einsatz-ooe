@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pischelsdorf am Engelbach",
+          "earea": "Pischelsdorf am Engelbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pischelsdorf am Engelbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Pischelsdorf am Engelbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400217": {
+            "feuerwehr": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)",
+            "fwnr": 400217
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804249",
+        "startzeit": "Sun, 25 Aug 2024 12:53:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1303",
+          "lng": "13.0865"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "KI - Roßleiten",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "405404": {
+            "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
+          },
           "405405": {
             "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
+            "fwnr": 405404
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
             "fwnr": 405405
           }
