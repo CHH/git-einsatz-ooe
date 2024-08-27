@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchham",
+          "earea": "Kirchham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchham",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Kirchham",
+        "einsatzsubtyp": {
+          "id": "MENSCHANSGEB-BR",
+          "text": "Brand Gebäude mit Menschenansammlung"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-MENSCHANS",
+          "text": "Brand Gebäude mit Menschenansammlung"
+        },
+        "feuerwehren": {
+          "403206": {
+            "feuerwehr": "Feuerwehr/Florian Feichtenberg (36206)"
+          },
+          "403210": {
+            "feuerwehr": "Feuerwehr/Florian Kirchham (36210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Feichtenberg (36206)",
+            "fwnr": 403206
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kirchham (36210)",
+            "fwnr": 403210
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804544",
+        "startzeit": "Tue, 27 Aug 2024 17:12:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9685",
+          "lng": "13.8966"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.0015",
           "lng": "13.5655"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hartkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Hartkirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401113": {
-            "feuerwehr": "Feuerwehr/Florian Öd In Bergen (34113)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Öd In Bergen (34113)",
-            "fwnr": 401113
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804542",
-        "startzeit": "Tue, 27 Aug 2024 17:04:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4051",
-          "lng": "13.9848"
         }
       }
     },
