@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Zell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Bad Zell",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "81524": {
+            "feuerwehr": "Feuerwehr/Florian Demofeuerwehr 3 (93103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Demofeuerwehr 3 (93103)",
+            "fwnr": 81524
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804496",
+        "startzeit": "Tue, 27 Aug 2024 11:33:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3518",
+          "lng": "14.6781"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +59,45 @@
           "emun": "Leonding",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "LL - Leonding",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
           "406208": {
             "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          },
+          "406212": {
+            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
+          },
+          "406218": {
+            "feuerwehr": "Feuerwehr/Florian Rufling (39218)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
             "fwnr": 406208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonding (39212)",
+            "fwnr": 406212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Rufling (39218)",
+            "fwnr": 406218
           }
         },
         "inzeit": "",
@@ -288,53 +349,6 @@
         "wgs84": {
           "lat": "48.1546",
           "lng": "13.8355"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vöcklabruck",
-          "earea": "Vöcklabruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vöcklabruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Vöcklabruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
-            "fwnr": 413429
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804482",
-        "startzeit": "Tue, 27 Aug 2024 09:54:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0064",
-          "lng": "13.6637"
         }
       }
     },
