@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eidenberg",
+          "earea": "Eidenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eidenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Eidenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412202": {
+            "feuerwehr": "Feuerwehr/Florian Eidenberg (49202)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eidenberg (49202)",
+            "fwnr": 412202
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804702",
+        "startzeit": "Wed, 28 Aug 2024 18:37:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3952",
+          "lng": "14.2342"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +187,6 @@
         "wgs84": {
           "lat": "47.8738",
           "lng": "13.7073"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mattighofen",
-          "earea": "Mattighofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mattighofen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Mattighofen",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400212": {
-            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
-            "fwnr": 400212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804694",
-        "startzeit": "Wed, 28 Aug 2024 18:20:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0972",
-          "lng": "13.1559"
         }
       }
     },
@@ -536,53 +536,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Schwanenstadt",
-          "earea": "Schwanenstadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwanenstadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Schwanenstadt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413315": {
-            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
-            "fwnr": 413315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804683",
-        "startzeit": "Wed, 28 Aug 2024 17:39:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0582",
-          "lng": "13.7817"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ried im Innkreis",
           "earea": "Ried im Innkreis",
           "ecompl": "",
@@ -624,128 +577,6 @@
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Taiskirchen im Innkreis",
-          "earea": "Taiskirchen im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Taiskirchen im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - Taiskirchen im Innkreis",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "408107": {
-            "feuerwehr": "Feuerwehr/Florian Breitenried (43107)"
-          },
-          "408108": {
-            "feuerwehr": "Feuerwehr/Florian Bruckleiten (43108)"
-          },
-          "408307": {
-            "feuerwehr": "Feuerwehr/Florian Lambrechten (43307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Breitenried (43107)",
-            "fwnr": 408107
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Bruckleiten (43108)",
-            "fwnr": 408108
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Lambrechten (43307)",
-            "fwnr": 408307
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804669",
-        "startzeit": "Wed, 28 Aug 2024 16:27:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2725",
-          "lng": "13.5406"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünbach",
-          "earea": "Grünbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - Grünbach",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          },
-          "402402": {
-            "feuerwehr": "Feuerwehr/Florian Grünbach (35402)"
-          },
-          "402411": {
-            "feuerwehr": "Feuerwehr/Florian Mitterbach (35411)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Grünbach (35402)",
-            "fwnr": 402402
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Mitterbach (35411)",
-            "fwnr": 402411
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804662",
-        "startzeit": "Wed, 28 Aug 2024 15:17:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5406",
-          "lng": "14.5864"
         }
       }
     },
