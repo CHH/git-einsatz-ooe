@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hargelsberg",
+          "earea": "Hargelsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hargelsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "LL - Hargelsberg",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "406103": {
+            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
+          },
+          "406104": {
+            "feuerwehr": "Feuerwehr/Florian Kronstorf (39104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
+            "fwnr": 406103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kronstorf (39104)",
+            "fwnr": 406104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804753",
+        "startzeit": "Wed, 28 Aug 2024 21:41:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1473",
+          "lng": "14.4235"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +194,6 @@
         "wgs84": {
           "lat": "47.5773",
           "lng": "13.5281"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Marien",
-          "earea": "St. Marien",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marien",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - St. Marien",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406311": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)",
-            "fwnr": 406311
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804749",
-        "startzeit": "Wed, 28 Aug 2024 20:41:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1434",
-          "lng": "14.2754"
         }
       }
     },
