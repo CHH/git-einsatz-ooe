@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "FR - Grünbach",
         "einsatzsubtyp": {
@@ -76,12 +76,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "402402": {
+            "feuerwehr": "Feuerwehr/Florian Grünbach (35402)"
+          },
           "402411": {
             "feuerwehr": "Feuerwehr/Florian Mitterbach (35411)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Grünbach (35402)",
+            "fwnr": 402402
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Mitterbach (35411)",
             "fwnr": 402411
           }
@@ -241,100 +248,6 @@
         "wgs84": {
           "lat": "48.1269",
           "lng": "13.0179"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Nußdorf am Attersee",
-          "earea": "Nußdorf am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Nußdorf am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Nußdorf am Attersee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413513": {
-            "feuerwehr": "Feuerwehr/Florian Nussdorf am Attersee (50513)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nussdorf am Attersee (50513)",
-            "fwnr": 413513
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804655",
-        "startzeit": "Wed, 28 Aug 2024 14:00:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.884",
-          "lng": "13.5225"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403115": {
-            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
-            "fwnr": 403115
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804649",
-        "startzeit": "Wed, 28 Aug 2024 12:43:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7932",
-          "lng": "13.7579"
         }
       }
     },
