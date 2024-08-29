@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aschach an der Donau",
+          "earea": "Aschach an der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aschach an der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Aschach an der Donau",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
+            "fwnr": 401102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804837",
+        "startzeit": "Thu, 29 Aug 2024 12:01:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3628",
+          "lng": "14.0233"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,67 +140,6 @@
         "wgs84": {
           "lat": "48.2254",
           "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Katsdorf",
-          "earea": "Katsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Katsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - Katsdorf",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "407206": {
-            "feuerwehr": "Feuerwehr/Florian Katsdorf (42206)"
-          },
-          "407209": {
-            "feuerwehr": "Feuerwehr/Florian Lungitz (42209)"
-          },
-          "407215": {
-            "feuerwehr": "Feuerwehr/Florian Ruhstetten (42215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Katsdorf (42206)",
-            "fwnr": 407206
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Lungitz (42209)",
-            "fwnr": 407209
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Ruhstetten (42215)",
-            "fwnr": 407215
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804815",
-        "startzeit": "Thu, 29 Aug 2024 10:43:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3122",
-          "lng": "14.5091"
         }
       }
     },
