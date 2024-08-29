@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          },
+          "406263": {
+            "feuerwehr": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)",
+            "fwnr": 406263
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804809",
+        "startzeit": "Thu, 29 Aug 2024 10:05:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.0736",
           "lng": "12.9897"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Wimsbach-Neydharting",
-          "earea": "Bad Wimsbach-Neydharting",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Wimsbach-Neydharting",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Bad Wimsbach-Neydharting",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)",
-            "fwnr": 414103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240804796",
-        "startzeit": "Thu, 29 Aug 2024 09:09:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.065",
-          "lng": "13.9025"
         }
       }
     },
