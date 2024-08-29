@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "BMA-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA-SONST",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804765",
+        "startzeit": "Thu, 29 Aug 2024 03:49:40 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "VB - Tiefgraben",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "413205": {
             "feuerwehr": "Feuerwehr/Florian Hof (VB) (50205)"
+          },
+          "413208": {
+            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Hof (VB) (50205)",
             "fwnr": 413205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mondsee (50208)",
+            "fwnr": 413208
           }
         },
         "inzeit": "",
@@ -86,10 +140,10 @@
             "fwnr": 400108
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 29 Aug 2024 04:00:00 +0200",
         "num1": "E240804763",
         "startzeit": "Thu, 29 Aug 2024 02:58:37 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.18",
           "lng": "13.05"
@@ -133,10 +187,10 @@
             "fwnr": 406216
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 29 Aug 2024 03:50:00 +0200",
         "num1": "E240804762",
         "startzeit": "Thu, 29 Aug 2024 02:22:00 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2548",
           "lng": "14.2114"
