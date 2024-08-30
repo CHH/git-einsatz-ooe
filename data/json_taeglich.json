@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Schallerbach",
+          "earea": "Bad Schallerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Schallerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Bad Schallerbach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
+          },
+          "404104": {
+            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
+            "fwnr": 404101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
+            "fwnr": 404104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240804950",
+        "startzeit": "Fri, 30 Aug 2024 03:17:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2277",
+          "lng": "13.9234"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "Fri, 30 Aug 2024 03:14:00 +0200",
+        "num1": "E240804949",
+        "startzeit": "Fri, 30 Aug 2024 02:32:27 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +140,10 @@
             "fwnr": 406209
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 30 Aug 2024 02:50:00 +0200",
         "num1": "E240804948",
         "startzeit": "Fri, 30 Aug 2024 01:33:07 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2243",
           "lng": "14.1854"
