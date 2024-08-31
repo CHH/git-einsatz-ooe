@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Herzogsdorf",
+          "earea": "Herzogsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Herzogsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Herzogsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412208": {
+            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
+            "fwnr": 412208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240805168",
+        "startzeit": "Sat, 31 Aug 2024 12:55:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4363",
+          "lng": "14.1157"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,154 +93,6 @@
         "wgs84": {
           "lat": "48.0676",
           "lng": "13.4835"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "406218": {
-            "feuerwehr": "Feuerwehr/Florian Rufling (39218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rufling (39218)",
-            "fwnr": 406218
-          }
-        },
-        "inzeit": "",
-        "num1": "E240805165",
-        "startzeit": "Sat, 31 Aug 2024 12:17:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2787",
-          "lng": "14.2156"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kopfing im Innkreis",
-          "earea": "Kopfing im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kopfing im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "SD - Kopfing im Innkreis",
-        "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
-        },
-        "feuerwehren": {
-          "410104": {
-            "feuerwehr": "Feuerwehr/Florian Engertsberg (45104)"
-          },
-          "410110": {
-            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Engertsberg (45104)",
-            "fwnr": 410104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
-            "fwnr": 410110
-          }
-        },
-        "inzeit": "",
-        "num1": "E240805164",
-        "startzeit": "Sat, 31 Aug 2024 12:07:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4433",
-          "lng": "13.659"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hartkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "EF - Hartkirchen",
-        "einsatzsubtyp": {
-          "id": "UNKLARLAGE-BR",
-          "text": "Brand unklare Lage"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "401109": {
-            "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
-            "fwnr": 401109
-          }
-        },
-        "inzeit": "",
-        "num1": "E240805162",
-        "startzeit": "Sat, 31 Aug 2024 12:04:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3597",
-          "lng": "14.0029"
         }
       }
     },
