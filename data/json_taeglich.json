@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lasberg",
+          "earea": "Lasberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lasberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Lasberg",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
+          "402112": {
+            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lasberg (35112)",
+            "fwnr": 402112
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900099",
+        "startzeit": "Mon, 02 Sep 2024 06:04:26 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4737",
+          "lng": "14.5302"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +66,12 @@
           "emun": "Inzersdorf im Kremstal",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "KI - Inzersdorf im Kremstal",
         "einsatzsubtyp": {
@@ -32,8 +86,17 @@
           "405204": {
             "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
           },
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          },
           "405206": {
             "feuerwehr": "Feuerwehr/Florian Lauterbach (38206)"
+          },
+          "405208": {
+            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
+          },
+          "405214": {
+            "feuerwehr": "Feuerwehr/Florian Steinbach am Ziehberg (38214)"
           }
         },
         "feuerwehrenarray": {
@@ -42,8 +105,20 @@
             "fwnr": 405204
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Lauterbach (38206)",
             "fwnr": 405206
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
+            "fwnr": 405208
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Steinbach am Ziehberg (38214)",
+            "fwnr": 405214
           }
         },
         "inzeit": "",
