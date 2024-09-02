@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gosau",
+          "earea": "Gosau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gosau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Gosau",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403104": {
+            "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gosau (36104)",
+            "fwnr": 403104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900118",
+        "startzeit": "Mon, 02 Sep 2024 08:58:17 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5773",
+          "lng": "13.5281"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -146,60 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Oftering",
-          "earea": "Oftering",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oftering",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Oftering",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406206": {
-            "feuerwehr": "Feuerwehr/Florian Freiling (39206)"
-          },
-          "406215": {
-            "feuerwehr": "Feuerwehr/Florian Oftering (39215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freiling (39206)",
-            "fwnr": 406206
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Oftering (39215)",
-            "fwnr": 406215
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900114",
-        "startzeit": "Mon, 02 Sep 2024 08:14:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2344",
-          "lng": "14.1346"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Bad Goisern",
           "earea": "Bad Goisern",
           "ecompl": "",
@@ -241,53 +234,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eferding",
-          "earea": "Eferding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eferding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "EF - Eferding",
-        "einsatzsubtyp": {
-          "id": "UNKLARLAGE-BR",
-          "text": "Brand unklare Lage"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "401103": {
-            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eferding (34103)",
-            "fwnr": 401103
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900100",
-        "startzeit": "Mon, 02 Sep 2024 06:37:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3005",
-          "lng": "14.0175"
         }
       }
     }
