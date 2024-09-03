@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 7,
+  "cnt_einsaetze": 6,
   "cnt_feuerwehren": 24,
   "einsaetze": [
     {
@@ -12,31 +12,38 @@
           "emun": "St. Radegund",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
         "einsatzort": "BR - St. Radegund",
         "einsatzsubtyp": {
-          "id": "BMT-SELBST",
-          "text": "Brandmeldetaste Gedrückt"
+          "id": "TRAKTOR-BR",
+          "text": "Brand Traktor im Freien"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B1-FZG-GROß",
+          "text": "Brand Großfahrzeug"
         },
         "feuerwehren": {
           "400413": {
             "feuerwehr": "Feuerwehr/Florian Sankt Radegund (33413)"
+          },
+          "400414": {
+            "feuerwehr": "Feuerwehr/Florian Tarsdorf (33414)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Sankt Radegund (33413)",
             "fwnr": 400413
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Tarsdorf (33414)",
+            "fwnr": 400414
           }
         },
         "inzeit": "",
@@ -46,53 +53,6 @@
         "wgs84": {
           "lat": "48.0934",
           "lng": "12.7674"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sattledt",
-          "earea": "Sattledt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sattledt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Sattledt",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "414218": {
-            "feuerwehr": "Feuerwehr/Florian Sattledt (51218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sattledt (51218)",
-            "fwnr": 414218
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900329",
-        "startzeit": "Tue, 03 Sep 2024 16:29:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0721",
-          "lng": "14.0524"
         }
       }
     },
