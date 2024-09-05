@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 15,
+  "cnt_einsaetze": 14,
   "cnt_feuerwehren": 18,
   "einsaetze": [
     {
@@ -259,18 +259,21 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
         },
         "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          },
           "406213": {
             "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
           },
@@ -280,10 +283,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
             "fwnr": 406213
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
             "fwnr": 406261
           }
@@ -396,53 +403,6 @@
         "wgs84": {
           "lat": "48.4542",
           "lng": "14.0859"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lembach im Mühlkreis",
-          "earea": "Lembach im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lembach im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Lembach im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409205": {
-            "feuerwehr": "Feuerwehr/Florian Lembach im Mühlkreis (44205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lembach im Mühlkreis (44205)",
-            "fwnr": 409205
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900643",
-        "startzeit": "Thu, 05 Sep 2024 09:10:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4984",
-          "lng": "13.8945"
         }
       }
     },
