@@ -5,94 +5,54 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
+          "default": "Laakirchen",
+          "earea": "Laakirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Braunau am Inn",
+          "emun": "Laakirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "BR - Braunau am Inn",
+        "einsatzort": "GM - Laakirchen",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "403218": {
+            "feuerwehr": "Feuerwehr/Florian Rahstorf (36218)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rahstorf (36218)",
+            "fwnr": 403218
           }
         },
         "inzeit": "",
-        "num1": "E240900701",
-        "startzeit": "Thu, 05 Sep 2024 15:05:15 +0200",
+        "num1": "E240900704",
+        "startzeit": "Thu, 05 Sep 2024 15:24:30 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900698",
-        "startzeit": "Thu, 05 Sep 2024 15:03:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
+          "lat": "47.9748",
+          "lng": "13.8456"
         }
       }
     },
@@ -134,12 +94,106 @@
           }
         },
         "inzeit": "",
-        "num1": "E240900697",
-        "startzeit": "Thu, 05 Sep 2024 14:54:53 +0200",
+        "num1": "E240900703",
+        "startzeit": "Thu, 05 Sep 2024 15:18:34 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.2826",
           "lng": "13.7091"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vöcklabruck",
+          "earea": "Vöcklabruck",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vöcklabruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Vöcklabruck",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900702",
+        "startzeit": "Thu, 05 Sep 2024 15:13:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0064",
+          "lng": "13.6637"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900701",
+        "startzeit": "Thu, 05 Sep 2024 15:05:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
         }
       }
     },
@@ -295,60 +349,6 @@
         "wgs84": {
           "lat": "48.3139",
           "lng": "13.4351"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "KLEINMENGE-SCHAD",
-          "text": "Schadstoff Kleinmenge"
-        },
-        "einsatztyp": {
-          "id": "S0-KLEINMENGE",
-          "text": "Schadstoffeinsatz Kleinmenge"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          },
-          "403214": {
-            "feuerwehr": "Feuerwehr/Florian Neukirchen (36214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Neukirchen (36214)",
-            "fwnr": 403214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900674",
-        "startzeit": "Thu, 05 Sep 2024 13:22:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8738",
-          "lng": "13.7073"
         }
       }
     },
