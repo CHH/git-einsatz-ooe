@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vorchdorf",
+          "earea": "Vorchdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vorchdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Vorchdorf",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403223": {
+            "feuerwehr": "Feuerwehr/Florian Schart (36223)"
+          },
+          "403226": {
+            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schart (36223)",
+            "fwnr": 403223
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
+            "fwnr": 403226
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900661",
+        "startzeit": "Thu, 05 Sep 2024 11:28:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0101",
+          "lng": "13.914"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +165,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
@@ -126,6 +180,9 @@
           "406201": {
             "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
           },
+          "406207": {
+            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
+          },
           "406213": {
             "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
           },
@@ -139,10 +196,14 @@
             "fwnr": 406201
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Freindorf (39207)",
+            "fwnr": 406207
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
             "fwnr": 406213
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
             "fwnr": 406261
           }
