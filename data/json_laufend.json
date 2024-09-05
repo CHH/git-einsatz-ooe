@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -29,12 +29,23 @@
           "text": "ÖWR-Einsatz Bootsbergung"
         },
         "feuerwehren": {
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Traunkirchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "1": {
+            "fwname": "ÖWR Gmunden",
+            "fwnr": 418920
+          },
+          "2": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           }
@@ -93,53 +104,6 @@
         "wgs84": {
           "lat": "48.5025",
           "lng": "13.8279"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Unterach am Attersee",
-          "earea": "Unterach am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Unterach am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Unterach am Attersee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413214": {
-            "feuerwehr": "Feuerwehr/Florian Unterach am Attersee (50214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Unterach am Attersee (50214)",
-            "fwnr": 413214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900662",
-        "startzeit": "Thu, 05 Sep 2024 11:58:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8024",
-          "lng": "13.4776"
         }
       }
     },
