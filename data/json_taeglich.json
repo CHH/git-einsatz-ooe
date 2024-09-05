@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 22,
+  "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900667",
+        "startzeit": "Thu, 05 Sep 2024 12:52:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 4,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -29,12 +76,30 @@
           "text": "ÖWR-Einsatz Bootsbergung"
         },
         "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          },
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Traunkirchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "2": {
+            "fwname": "ÖWR Gmunden",
+            "fwnr": 418920
+          },
+          "3": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           }
@@ -133,10 +198,10 @@
             "fwnr": 413214
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 05 Sep 2024 12:34:00 +0200",
         "num1": "E240900662",
         "startzeit": "Thu, 05 Sep 2024 11:58:13 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8024",
           "lng": "13.4776"
