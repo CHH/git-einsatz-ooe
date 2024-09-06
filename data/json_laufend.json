@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 33,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 28,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
     {
       "einsatz": {
@@ -18,15 +18,15 @@
           "text": "Perg"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "TEE",
         "einsatzort": "PE - Baumgartenberg",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
           "407304": {
@@ -40,12 +40,73 @@
           }
         },
         "inzeit": "",
-        "num1": "E240900991",
-        "startzeit": "Fri, 06 Sep 2024 20:35:28 +0200",
+        "num1": "E240900993",
+        "startzeit": "Fri, 06 Sep 2024 21:11:21 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.2152",
           "lng": "14.7436"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pettenbach",
+          "earea": "Pettenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pettenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Pettenbach",
+        "einsatzsubtyp": {
+          "id": "BMA3-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403225": {
+            "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
+          },
+          "405211": {
+            "feuerwehr": "Feuerwehr/Florian Pettenbach (38211)"
+          },
+          "405215": {
+            "feuerwehr": "Feuerwehr/Florian Steinfelden (38215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Viechtwang (36225)",
+            "fwnr": 403225
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pettenbach (38211)",
+            "fwnr": 405211
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steinfelden (38215)",
+            "fwnr": 405215
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900992",
+        "startzeit": "Fri, 06 Sep 2024 21:09:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9153",
+          "lng": "13.9902"
         }
       }
     },
@@ -381,100 +442,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Moosdorf",
-          "earea": "Moosdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Moosdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Moosdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400410": {
-            "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Moosdorf (33410)",
-            "fwnr": 400410
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900972",
-        "startzeit": "Fri, 06 Sep 2024 19:40:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.047",
-          "lng": "12.9893"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Stroheim",
-          "earea": "Stroheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Stroheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Stroheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401120": {
-            "feuerwehr": "Feuerwehr/Florian Stroheim (34120)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Stroheim (34120)",
-            "fwnr": 401120
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900971",
-        "startzeit": "Fri, 06 Sep 2024 19:39:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3407",
-          "lng": "13.9558"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Straß im Attergau",
           "earea": "Straß im Attergau",
           "ecompl": "",
@@ -804,53 +771,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Unterach am Attersee",
-          "earea": "Unterach am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Unterach am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Unterach am Attersee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413214": {
-            "feuerwehr": "Feuerwehr/Florian Unterach am Attersee (50214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Unterach am Attersee (50214)",
-            "fwnr": 413214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900953",
-        "startzeit": "Fri, 06 Sep 2024 19:09:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8024",
-          "lng": "13.4776"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Königswiesen",
           "earea": "Königswiesen",
           "ecompl": "",
@@ -992,53 +912,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Haslach an der Mühl",
-          "earea": "Haslach an der Mühl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Haslach an der Mühl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Haslach an der Mühl",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409407": {
-            "feuerwehr": "Feuerwehr/Florian Haslach an der Mühl (44407)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haslach an der Mühl (44407)",
-            "fwnr": 409407
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900937",
-        "startzeit": "Fri, 06 Sep 2024 18:58:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5765",
-          "lng": "14.044"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Peter am Wimberg",
           "earea": "St. Peter am Wimberg",
           "ecompl": "",
@@ -1080,100 +953,6 @@
         "wgs84": {
           "lat": "48.5466",
           "lng": "14.0718"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Auberg",
-          "earea": "Auberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Auberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Auberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409302": {
-            "feuerwehr": "Feuerwehr/Florian Auberg (44302)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Auberg (44302)",
-            "fwnr": 409302
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900934",
-        "startzeit": "Fri, 06 Sep 2024 18:56:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5265",
-          "lng": "14.0616"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kleinzell im Mühlkreis",
-          "earea": "Kleinzell im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kleinzell im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Kleinzell im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409306": {
-            "feuerwehr": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)",
-            "fwnr": 409306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900932",
-        "startzeit": "Fri, 06 Sep 2024 18:55:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4629",
-          "lng": "13.9933"
         }
       }
     },
