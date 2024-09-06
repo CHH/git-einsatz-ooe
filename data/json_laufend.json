@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 52,
+  "cnt_einsaetze": 51,
   "cnt_feuerwehren": 55,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "ABFALLCONT-BR",
+          "text": "Brand Abfallcontainer"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          }
+        },
+        "inzeit": "",
+        "num1": "E240900978",
+        "startzeit": "Fri, 06 Sep 2024 19:50:13 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1873",
+          "lng": "14.2562"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +59,38 @@
           "emun": "Altheim",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "MENSCHANSGEB-BR",
+          "text": "Brand Gebäude mit Menschenansammlung"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-MENSCHANS",
+          "text": "Brand Gebäude mit Menschenansammlung"
         },
         "feuerwehren": {
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
+          },
+          "400361": {
+            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Altheim (33301)",
             "fwnr": 400301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
+            "fwnr": 400361
           }
         },
         "inzeit": "",
@@ -1039,53 +1093,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Steinbach an der Steyr",
-          "earea": "Steinbach an der Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinbach an der Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Steinbach an der Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405107": {
-            "feuerwehr": "Feuerwehr/Florian Pieslwang (38107)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pieslwang (38107)",
-            "fwnr": 405107
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900947",
-        "startzeit": "Fri, 06 Sep 2024 19:08:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9808",
-          "lng": "14.2887"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Molln",
           "earea": "Molln",
           "ecompl": "",
@@ -1738,53 +1745,6 @@
         "wgs84": {
           "lat": "48.5025",
           "lng": "13.8279"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Baumgartenberg",
-          "earea": "Baumgartenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Baumgartenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Baumgartenberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407304": {
-            "feuerwehr": "Feuerwehr/Florian Baumgartenberg (42304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Baumgartenberg (42304)",
-            "fwnr": 407304
-          }
-        },
-        "inzeit": "",
-        "num1": "E240900929",
-        "startzeit": "Fri, 06 Sep 2024 18:46:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2152",
-          "lng": "14.7436"
         }
       }
     },
