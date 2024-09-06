@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grein",
+          "earea": "Grein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - Grein",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "407104": {
+            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grein (42104)",
+            "fwnr": 407104
+          }
+        },
+        "inzeit": "",
+        "num1": "E240901007",
+        "startzeit": "Sat, 07 Sep 2024 00:46:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2284",
+          "lng": "14.8498"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": 400213
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 07 Sep 2024 00:56:00 +0200",
         "num1": "E240901005",
         "startzeit": "Sat, 07 Sep 2024 00:01:38 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0649",
           "lng": "13.1073"
