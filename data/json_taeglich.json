@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 127,
-  "cnt_feuerwehren": 127,
+  "cnt_einsaetze": 129,
+  "cnt_feuerwehren": 131,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E240901001",
+        "startzeit": "Fri, 06 Sep 2024 22:56:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7204",
+          "lng": "13.5832"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Enknach",
+          "earea": "Neukirchen an der Enknach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Enknach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Neukirchen an der Enknach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400108": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
+            "fwnr": 400108
+          }
+        },
+        "inzeit": "",
+        "num1": "E240901000",
+        "startzeit": "Fri, 06 Sep 2024 22:38:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.18",
+          "lng": "13.05"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +187,10 @@
             "fwnr": 401119
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Sep 2024 22:53:00 +0200",
         "num1": "E240900997",
         "startzeit": "Fri, 06 Sep 2024 21:46:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2826",
           "lng": "14.0289"
@@ -118,7 +212,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "VB - Attnang-Puchheim",
         "einsatzsubtyp": {
@@ -130,12 +224,26 @@
           "text": "Personensuche"
         },
         "feuerwehren": {
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "413104": {
+            "feuerwehr": "Feuerwehr/Florian Badstuben (50104)"
+          },
           "413417": {
             "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Badstuben (50104)",
+            "fwnr": 413104
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Puchheim (50417)",
             "fwnr": 413417
           }
@@ -194,10 +302,10 @@
             "fwnr": 407304
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Sep 2024 22:51:00 +0200",
         "num1": "E240900993",
         "startzeit": "Fri, 06 Sep 2024 21:11:21 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2152",
           "lng": "14.7436"
@@ -772,10 +880,10 @@
             "fwnr": 413126
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Sep 2024 22:49:00 +0200",
         "num1": "E240900981",
         "startzeit": "Fri, 06 Sep 2024 19:58:46 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9974",
           "lng": "13.3687"
@@ -1582,10 +1690,10 @@
             "fwnr": 411319
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Sep 2024 22:47:00 +0200",
         "num1": "E240900958",
         "startzeit": "Fri, 06 Sep 2024 19:16:58 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8554",
           "lng": "14.662"
@@ -1629,10 +1737,10 @@
             "fwnr": 411301
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 06 Sep 2024 22:47:00 +0200",
         "num1": "E240900957",
         "startzeit": "Fri, 06 Sep 2024 19:16:23 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8929",
           "lng": "14.716"
