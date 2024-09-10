@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 15,
+  "cnt_einsaetze": 13,
   "cnt_feuerwehren": 15,
   "einsaetze": [
     {
@@ -99,11 +99,11 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pierbach",
-          "earea": "Pierbach",
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Pierbach",
+          "emun": "Bad Zell",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -111,9 +111,9 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
-        "einsatzort": "FR - Pierbach",
+        "einsatzort": "FR - Bad Zell",
         "einsatzsubtyp": {
           "id": "PKW-BR",
           "text": "Brand PKW im Freien"
@@ -123,12 +123,26 @@
           "text": "Brand PKW im Freien"
         },
         "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          },
+          "402202": {
+            "feuerwehr": "Feuerwehr/Florian Erdleiten (35202)"
+          },
           "402312": {
             "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Erdleiten (35202)",
+            "fwnr": 402202
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Pierbach (35312)",
             "fwnr": 402312
           }
@@ -138,8 +152,8 @@
         "startzeit": "Tue, 10 Sep 2024 20:34:47 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3449",
-          "lng": "14.7588"
+          "lat": "48.3518",
+          "lng": "14.6781"
         }
       }
     },
@@ -240,53 +254,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Schardenberg",
-          "earea": "Schardenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schardenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Schardenberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410322": {
-            "feuerwehr": "Feuerwehr/Florian Schardenberg (45322)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schardenberg (45322)",
-            "fwnr": 410322
-          }
-        },
-        "inzeit": "",
-        "num1": "E240901482",
-        "startzeit": "Tue, 10 Sep 2024 20:01:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.521",
-          "lng": "13.4987"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Vorchdorf",
           "earea": "Vorchdorf",
           "ecompl": "",
@@ -375,53 +342,6 @@
         "wgs84": {
           "lat": "48.0032",
           "lng": "13.4918"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405202": {
-            "feuerwehr": "Feuerwehr/Florian Eggenstein (38202)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eggenstein (38202)",
-            "fwnr": 405202
-          }
-        },
-        "inzeit": "",
-        "num1": "E240901470",
-        "startzeit": "Tue, 10 Sep 2024 19:16:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9786",
-          "lng": "13.9626"
         }
       }
     },
