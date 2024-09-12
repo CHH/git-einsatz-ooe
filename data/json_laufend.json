@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tragwein",
+          "earea": "Tragwein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tragwein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Tragwein",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          }
+        },
+        "inzeit": "",
+        "num1": "E240901738",
+        "startzeit": "Thu, 12 Sep 2024 11:31:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3308",
+          "lng": "14.6181"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,60 +241,6 @@
         "wgs84": {
           "lat": "48.3005",
           "lng": "14.0175"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lasberg",
-          "earea": "Lasberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lasberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "FR - Lasberg",
-        "einsatzsubtyp": {
-          "id": "BMA3-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          },
-          "402112": {
-            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Lasberg (35112)",
-            "fwnr": 402112
-          }
-        },
-        "inzeit": "",
-        "num1": "E240901723",
-        "startzeit": "Thu, 12 Sep 2024 10:16:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4737",
-          "lng": "14.5302"
         }
       }
     },
