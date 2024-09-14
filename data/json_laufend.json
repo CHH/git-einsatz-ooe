@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 51,
+  "cnt_einsaetze": 50,
   "cnt_feuerwehren": 52,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Micheldorf in OÖ",
+          "earea": "Micheldorf in OÖ",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Micheldorf in OÖ",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Micheldorf in OÖ",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "405208": {
+            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
+            "fwnr": 405208
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903078",
+        "startzeit": "Sun, 15 Sep 2024 01:22:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8777",
+          "lng": "14.1319"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -675,16 +722,16 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
+          "id": "HWSICH-TE",
+          "text": "Sicherungsdienst Hochwasser"
         },
         "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
+          "id": "T0-SICH-HW",
+          "text": "Sicherungsdienst Hochwasser"
         },
         "feuerwehren": {
           "403102": {
@@ -697,10 +744,14 @@
             "fwnr": 403102
           },
           "1": {
-            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwname": "Feuerwehr/Florian Perneck (36506)",
             "fwnr": 403102
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
             "fwnr": 403102
           }
@@ -859,53 +910,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pierbach",
-          "earea": "Pierbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pierbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Pierbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402312": {
-            "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pierbach (35312)",
-            "fwnr": 402312
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903046",
-        "startzeit": "Sat, 14 Sep 2024 23:36:45 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3449",
-          "lng": "14.7588"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Mauerkirchen",
           "earea": "Mauerkirchen",
           "ecompl": "",
@@ -994,53 +998,6 @@
         "wgs84": {
           "lat": "48.5265",
           "lng": "14.0616"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "HWSICHGEBÄUDE-TE",
-          "text": "Gebäude droht überflutet zu werden"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903030",
-        "startzeit": "Sat, 14 Sep 2024 23:16:15 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
         }
       }
     },
