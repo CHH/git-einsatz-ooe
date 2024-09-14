@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 56,
-  "cnt_feuerwehren": 54,
+  "cnt_einsaetze": 54,
+  "cnt_feuerwehren": 55,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Zell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Bad Zell",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903075",
+        "startzeit": "Sun, 15 Sep 2024 01:00:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3518",
+          "lng": "14.6781"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Baumgartenberg",
+          "earea": "Baumgartenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Baumgartenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Baumgartenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407304": {
+            "feuerwehr": "Feuerwehr/Florian Baumgartenberg (42304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Baumgartenberg (42304)",
+            "fwnr": 407304
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903074",
+        "startzeit": "Sun, 15 Sep 2024 01:00:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2152",
+          "lng": "14.7436"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -534,7 +628,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -552,6 +646,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
             "fwnr": 403102
           }
@@ -1039,53 +1141,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Lichtenberg",
-          "earea": "Lichtenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lichtenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Lichtenberg",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "412309": {
-            "feuerwehr": "Feuerwehr/Florian Lichtenberg (49309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lichtenberg (49309)",
-            "fwnr": 412309
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903034",
-        "startzeit": "Sat, 14 Sep 2024 23:23:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3589",
-          "lng": "14.258"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kematen an der Krems",
           "earea": "Kematen an der Krems",
           "ecompl": "",
@@ -1174,53 +1229,6 @@
         "wgs84": {
           "lat": "48.287",
           "lng": "14.5933"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lichtenberg",
-          "earea": "Lichtenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lichtenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Lichtenberg",
-        "einsatzsubtyp": {
-          "id": "HWSICHGEBÄUDE-TE",
-          "text": "Gebäude droht überflutet zu werden"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "412309": {
-            "feuerwehr": "Feuerwehr/Florian Lichtenberg (49309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lichtenberg (49309)",
-            "fwnr": 412309
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903011",
-        "startzeit": "Sat, 14 Sep 2024 22:39:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3589",
-          "lng": "14.258"
         }
       }
     },
@@ -1658,53 +1666,6 @@
         "wgs84": {
           "lat": "48.2705",
           "lng": "14.8058"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Frankenmarkt",
-          "earea": "Frankenmarkt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Frankenmarkt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Frankenmarkt",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLSCHADEN-TE",
-          "text": "Wasserschaden"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "413111": {
-            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
-            "fwnr": 413111
-          }
-        },
-        "inzeit": "",
-        "num1": "E240902972",
-        "startzeit": "Sat, 14 Sep 2024 21:47:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9851",
-          "lng": "13.4109"
         }
       }
     },
@@ -2445,53 +2406,6 @@
         "wgs84": {
           "lat": "48.5463",
           "lng": "14.143"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Nußbach",
-          "earea": "Nußbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Nußbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Nußbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405209": {
-            "feuerwehr": "Feuerwehr/Florian Nußbach (38209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nußbach (38209)",
-            "fwnr": 405209
-          }
-        },
-        "inzeit": "",
-        "num1": "E240902486",
-        "startzeit": "Sat, 14 Sep 2024 14:20:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9724",
-          "lng": "14.1631"
         }
       }
     },
