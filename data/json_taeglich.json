@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bachmanning",
+          "earea": "Bachmanning",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bachmanning",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Bachmanning",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414102": {
+            "feuerwehr": "Feuerwehr/Florian Bachmanning (51102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bachmanning (51102)",
+            "fwnr": 414102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903582",
+        "startzeit": "Mon, 16 Sep 2024 01:01:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1309",
+          "lng": "13.7956"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steinhaus",
+          "earea": "Steinhaus",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steinhaus",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Steinhaus",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414221": {
+            "feuerwehr": "Feuerwehr/Florian Steinhaus bei Wels (51221)"
+          },
+          "414224": {
+            "feuerwehr": "Feuerwehr/Florian Traunleiten (51224)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steinhaus bei Wels (51221)",
+            "fwnr": 414221
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Traunleiten (51224)",
+            "fwnr": 414224
+          }
+        },
+        "inzeit": "Mon, 16 Sep 2024 01:18:00 +0200",
+        "num1": "E240903581",
+        "startzeit": "Mon, 16 Sep 2024 00:24:27 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1189",
+          "lng": "14.0173"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
