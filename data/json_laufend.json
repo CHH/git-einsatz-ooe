@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 37,
-  "cnt_feuerwehren": 67,
+  "cnt_einsaetze": 33,
+  "cnt_feuerwehren": 64,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Burgkirchen",
+          "earea": "Burgkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Burgkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Burgkirchen",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400304": {
+            "feuerwehr": "Feuerwehr/Florian Burgkirchen (33304)"
+          },
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          },
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
+            "fwnr": 400304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903644",
+        "startzeit": "Mon, 16 Sep 2024 10:04:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.1016"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -334,53 +395,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903634",
-        "startzeit": "Mon, 16 Sep 2024 09:36:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Gmunden",
           "earea": "Gmunden",
           "ecompl": "",
@@ -422,53 +436,6 @@
         "wgs84": {
           "lat": "47.9166",
           "lng": "13.8048"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Neustift",
-          "earea": "Maria Neustift",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Neustift",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Maria Neustift",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411315": {
-            "feuerwehr": "Feuerwehr/Florian Sulzbach (se) (46315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sulzbach (se) (46315)",
-            "fwnr": 411315
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903631",
-        "startzeit": "Mon, 16 Sep 2024 09:24:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9713",
-          "lng": "14.5738"
         }
       }
     },
@@ -563,100 +530,6 @@
         "wgs84": {
           "lat": "48.3699",
           "lng": "14.6311"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pram",
-          "earea": "Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404211": {
-            "feuerwehr": "Feuerwehr/Florian Pram (37211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pram (37211)",
-            "fwnr": 404211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903625",
-        "startzeit": "Mon, 16 Sep 2024 09:09:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2327",
-          "lng": "13.6082"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ried im Innkreis",
-          "earea": "Ried im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ried im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Ried im Innkreis",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903622",
-        "startzeit": "Mon, 16 Sep 2024 08:55:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2102",
-          "lng": "13.4825"
         }
       }
     },
@@ -798,53 +671,6 @@
         "wgs84": {
           "lat": "48.0249",
           "lng": "13.7494"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ottensheim",
-          "earea": "Ottensheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ottensheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Ottensheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412218": {
-            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
-            "fwnr": 412218
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903614",
-        "startzeit": "Mon, 16 Sep 2024 08:23:05 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3368",
-          "lng": "14.177"
         }
       }
     },
