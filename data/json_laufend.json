@@ -5,6 +5,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLKELLER-TE",
+          "text": "Keller überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903654",
+        "startzeit": "Mon, 16 Sep 2024 10:54:37 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Feldkirchen an der Donau",
           "earea": "Feldkirchen an der Donau",
           "ecompl": "",
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.3629",
           "lng": "14.0649"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903648",
-        "startzeit": "Mon, 16 Sep 2024 10:27:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3308",
-          "lng": "14.6181"
         }
       }
     },
@@ -1057,7 +1057,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 10,
+        "cntfeuerwehren": 11,
         "einsatzart": "TEE",
         "einsatzort": "BR - Bezirk BRAUNAU AM INN",
         "einsatzsubtyp": {
@@ -1109,6 +1109,10 @@
             "fwname": "Feuerwehr/Florian Ranshofen (33109)",
             "fwnr": 400109
           },
+          "10": {
+            "fwname": "Feuerwehr/Florian Bezirk Braunau (33000)",
+            "fwnr": 417180
+          },
           "2": {
             "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
             "fwnr": 400161
@@ -1126,20 +1130,20 @@
             "fwnr": 400304
           },
           "6": {
+            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
+            "fwnr": 400304
+          },
+          "7": {
             "fwname": "Feuerwehr/Florian Pfendhub (33312)",
             "fwnr": 400312
           },
-          "7": {
+          "8": {
             "fwname": "Feuerwehr/Florian Thannstrass (33318)",
             "fwnr": 400318
           },
-          "8": {
+          "9": {
             "fwname": "Feuerwehr/Florian Wildenau (33323)",
             "fwnr": 400323
-          },
-          "9": {
-            "fwname": "Feuerwehr/Florian Bezirk Braunau (33000)",
-            "fwnr": 417180
           }
         },
         "inzeit": "",
