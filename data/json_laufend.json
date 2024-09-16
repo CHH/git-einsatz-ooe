@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 67,
-  "cnt_feuerwehren": 89,
+  "cnt_einsaetze": 60,
+  "cnt_feuerwehren": 81,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "HWSICHGEBÄUDE-TE",
+          "text": "Gebäude droht überflutet zu werden"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-HW",
+          "text": "Sicherungsdienst Hochwasser"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E240904179",
+        "startzeit": "Tue, 17 Sep 2024 01:32:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -334,53 +381,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Schalchen",
-          "earea": "Schalchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schalchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Schalchen",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "400222": {
-            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
-            "fwnr": 400222
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904169",
-        "startzeit": "Tue, 17 Sep 2024 00:45:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0964",
-          "lng": "13.1768"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Neukirchen an der Vöckla",
           "earea": "Neukirchen an der Vöckla",
           "ecompl": "",
@@ -610,154 +610,6 @@
         "wgs84": {
           "lat": "47.8048",
           "lng": "13.793"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neukirchen an der Vöckla",
-          "earea": "Neukirchen an der Vöckla",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neukirchen an der Vöckla",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Neukirchen an der Vöckla",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLFAHRB-TE",
-          "text": "Überflutete Fahrbahn"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-VKWEG",
-          "text": "Überflutung Verkehrsweg"
-        },
-        "feuerwehren": {
-          "413430": {
-            "feuerwehr": "Feuerwehr/Florian Wegleiten (50430)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wegleiten (50430)",
-            "fwnr": 413430
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904161",
-        "startzeit": "Tue, 17 Sep 2024 00:38:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0371",
-          "lng": "13.5574"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Zell am Moos",
-          "earea": "Zell am Moos",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell am Moos",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Zell am Moos",
-        "einsatzsubtyp": {
-          "id": "HWSICHGEBÄUDE-TE",
-          "text": "Gebäude droht überflutet zu werden"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "413204": {
-            "feuerwehr": "Feuerwehr/Florian Haslau (50204)"
-          },
-          "413215": {
-            "feuerwehr": "Feuerwehr/Florian Zell am Moos (50215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haslau (50204)",
-            "fwnr": 413204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Zell am Moos (50215)",
-            "fwnr": 413215
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904160",
-        "startzeit": "Tue, 17 Sep 2024 00:08:28 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9256",
-          "lng": "13.3507"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lochen",
-          "earea": "Lochen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lochen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Lochen",
-        "einsatzsubtyp": {
-          "id": "HWSICHGEBÄUDE-TE",
-          "text": "Gebäude droht überflutet zu werden"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "400210": {
-            "feuerwehr": "Feuerwehr/Florian Lochen (33210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lochen (33210)",
-            "fwnr": 400210
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904158",
-        "startzeit": "Tue, 17 Sep 2024 00:05:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.007",
-          "lng": "13.1787"
         }
       }
     },
@@ -1295,53 +1147,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Mauerkirchen",
-          "earea": "Mauerkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauerkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Mauerkirchen",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "400308": {
-            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
-            "fwnr": 400308
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904132",
-        "startzeit": "Mon, 16 Sep 2024 23:05:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1962",
-          "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Maria Neustift",
           "earea": "Maria Neustift",
           "ecompl": "",
@@ -1430,60 +1235,6 @@
         "wgs84": {
           "lat": "48.1363",
           "lng": "13.9445"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Großraming",
-          "earea": "Großraming",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Großraming",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - Großraming",
-        "einsatzsubtyp": {
-          "id": "VERMURUNG-TE",
-          "text": "Vermurung"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-MURE",
-          "text": "Sicherungsdienst Vermurung - Rutschung"
-        },
-        "feuerwehren": {
-          "411302": {
-            "feuerwehr": "Feuerwehr/Florian Großraming (46302)"
-          },
-          "411319": {
-            "feuerwehr": "Feuerwehr/Florian Weyer (46319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Großraming (46302)",
-            "fwnr": 411302
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Weyer (46319)",
-            "fwnr": 411319
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904093",
-        "startzeit": "Mon, 16 Sep 2024 22:08:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8848",
-          "lng": "14.5495"
         }
       }
     },
@@ -2033,67 +1784,6 @@
         "wgs84": {
           "lat": "48.3629",
           "lng": "14.0649"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Feldkirchen an der Donau",
-          "earea": "Feldkirchen an der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Feldkirchen an der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Feldkirchen an der Donau",
-        "einsatzsubtyp": {
-          "id": "HWSICH-TE",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "409314": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)"
-          },
-          "412211": {
-            "feuerwehr": "Feuerwehr/Florian Lacken (49211)"
-          },
-          "412214": {
-            "feuerwehr": "Feuerwehr/Florian Mühldorf (49214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)",
-            "fwnr": 409314
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Lacken (49211)",
-            "fwnr": 412211
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Mühldorf (49214)",
-            "fwnr": 412214
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903984",
-        "startzeit": "Mon, 16 Sep 2024 20:46:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3496",
-          "lng": "14.0946"
         }
       }
     },
@@ -3347,53 +3037,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hartkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Hartkirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401109": {
-            "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
-            "fwnr": 401109
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903206",
-        "startzeit": "Sun, 15 Sep 2024 09:15:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3597",
-          "lng": "14.0029"
         }
       }
     }
