@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 39,
-  "cnt_feuerwehren": 74,
+  "cnt_einsaetze": 36,
+  "cnt_feuerwehren": 70,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vöcklamarkt",
+          "earea": "Vöcklamarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vöcklamarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Vöcklamarkt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413118": {
+            "feuerwehr": "Feuerwehr/Florian Mösendorf (50118)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mösendorf (50118)",
+            "fwnr": 413118
+          }
+        },
+        "inzeit": "",
+        "num1": "E240903704",
+        "startzeit": "Mon, 16 Sep 2024 13:22:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9888",
+          "lng": "13.4669"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -475,53 +522,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
-            "fwnr": 403102
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903692",
-        "startzeit": "Mon, 16 Sep 2024 12:43:02 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7109",
-          "lng": "13.6262"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kirchdorf an der Krems",
           "earea": "Kirchdorf an der Krems",
           "ecompl": "",
@@ -785,107 +785,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Johann am Walde",
-          "earea": "St. Johann am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Johann am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Johann am Walde",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "400204": {
-            "feuerwehr": "Feuerwehr/Florian Frauschereck (33204)"
-          },
-          "400218": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Johann am Walde (33218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Frauschereck (33204)",
-            "fwnr": 400204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Johann am Walde (33218)",
-            "fwnr": 400218
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903682",
-        "startzeit": "Mon, 16 Sep 2024 12:24:47 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0973",
-          "lng": "13.3112"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Georgen an der Gusen",
-          "earea": "St. Georgen an der Gusen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Georgen an der Gusen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - St. Georgen an der Gusen",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "407217": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)",
-            "fwnr": 407217
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903680",
-        "startzeit": "Mon, 16 Sep 2024 12:18:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2739",
-          "lng": "14.4471"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Freistadt",
           "earea": "Freistadt",
           "ecompl": "",
@@ -1068,53 +967,6 @@
         "wgs84": {
           "lat": "48.3724",
           "lng": "14.5161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "406212": {
-            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Leonding (39212)",
-            "fwnr": 406212
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903613",
-        "startzeit": "Mon, 16 Sep 2024 08:22:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2799",
-          "lng": "14.2457"
         }
       }
     },
