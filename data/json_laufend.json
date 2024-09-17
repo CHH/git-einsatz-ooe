@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 33,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 31,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kefermarkt",
+          "earea": "Kefermarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kefermarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Kefermarkt",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          }
+        },
+        "inzeit": "",
+        "num1": "E240904475",
+        "startzeit": "Tue, 17 Sep 2024 17:02:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4391",
+          "lng": "14.5384"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.4737",
           "lng": "14.5302"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ostermiething",
-          "earea": "Ostermiething",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ostermiething",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Ostermiething",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400403": {
-            "feuerwehr": "Feuerwehr/Florian Ernsting (33403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ernsting (33403)",
-            "fwnr": 400403
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904470",
-        "startzeit": "Tue, 17 Sep 2024 16:39:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0432",
-          "lng": "12.8403"
         }
       }
     },
@@ -522,53 +522,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Mauerkirchen",
-          "earea": "Mauerkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauerkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Mauerkirchen",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "400308": {
-            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
-            "fwnr": 400308
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904455",
-        "startzeit": "Tue, 17 Sep 2024 15:19:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1962",
-          "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Attnang-Puchheim",
           "earea": "Attnang-Puchheim",
           "ecompl": "",
@@ -892,53 +845,6 @@
         "wgs84": {
           "lat": "48.4067",
           "lng": "14.8361"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pichl bei Wels",
-          "earea": "Pichl bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pichl bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - Pichl bei Wels",
-        "einsatzsubtyp": {
-          "id": "VKWEGFREIMA-TE",
-          "text": "Freimachen von Verkehrswegen"
-        },
-        "einsatztyp": {
-          "id": "T0-FREIMA-VKWEG",
-          "text": "Freimachen von Verkehrswegen"
-        },
-        "feuerwehren": {
-          "414217": {
-            "feuerwehr": "Feuerwehr/Florian Pichl bei Wels (51217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pichl bei Wels (51217)",
-            "fwnr": 414217
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904306",
-        "startzeit": "Tue, 17 Sep 2024 09:02:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.186",
-          "lng": "13.9001"
         }
       }
     },
