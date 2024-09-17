@@ -1,58 +1,98 @@
 {
-  "cnt_einsaetze": 56,
-  "cnt_feuerwehren": 60,
+  "cnt_einsaetze": 54,
+  "cnt_feuerwehren": 56,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
+          "default": "Bruck-Waasen",
+          "earea": "Bruck-Waasen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ansfelden",
+          "emun": "Bruck-Waasen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 4,
+          "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Ansfelden",
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Bruck-Waasen",
         "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "406201": {
-            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
-          },
-          "406207": {
-            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
+          "404304": {
+            "feuerwehr": "Feuerwehr/Florian Bruck-Waasen (37304)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
-            "fwnr": 406201
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Freindorf (39207)",
-            "fwnr": 406207
+            "fwname": "Feuerwehr/Florian Bruck-Waasen (37304)",
+            "fwnr": 404304
           }
         },
         "inzeit": "",
-        "num1": "E240904447",
-        "startzeit": "Tue, 17 Sep 2024 14:43:50 +0200",
+        "num1": "E240904449",
+        "startzeit": "Tue, 17 Sep 2024 14:56:10 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2097",
-          "lng": "14.2881"
+          "lat": "48.327",
+          "lng": "13.7824"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLKELLER-TE",
+          "text": "Keller überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E240904448",
+        "startzeit": "Tue, 17 Sep 2024 14:45:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
         }
       }
     },
@@ -1168,53 +1208,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gmunden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Gmunden",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904398",
-        "startzeit": "Tue, 17 Sep 2024 12:17:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Bad Ischl",
           "earea": "Bad Ischl",
           "ecompl": "",
@@ -1303,53 +1296,6 @@
         "wgs84": {
           "lat": "47.8962",
           "lng": "13.7141"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ottensheim",
-          "earea": "Ottensheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ottensheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Ottensheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412209": {
-            "feuerwehr": "Feuerwehr/Florian Höflein (49209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Höflein (49209)",
-            "fwnr": 412209
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904382",
-        "startzeit": "Tue, 17 Sep 2024 11:30:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.335",
-          "lng": "14.1625"
         }
       }
     },
@@ -1538,53 +1484,6 @@
         "wgs84": {
           "lat": "48.1402",
           "lng": "13.2161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pischelsdorf am Engelbach",
-          "earea": "Pischelsdorf am Engelbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pischelsdorf am Engelbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Pischelsdorf am Engelbach",
-        "einsatzsubtyp": {
-          "id": "SONSTIGE-TE",
-          "text": "Sonstiger Einsatz"
-        },
-        "einsatztyp": {
-          "id": "T0-SONST",
-          "text": "Sonstiger Einsatz"
-        },
-        "feuerwehren": {
-          "400207": {
-            "feuerwehr": "Feuerwehr/Florian Hart (BR) (33207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (BR) (33207)",
-            "fwnr": 400207
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904348",
-        "startzeit": "Tue, 17 Sep 2024 10:07:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1176",
-          "lng": "13.0772"
         }
       }
     },
