@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
@@ -52,6 +52,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Gunskirchen",
+          "earea": "Gunskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gunskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Gunskirchen",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLKELLER-TE",
+          "text": "Keller überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "414205": {
+            "feuerwehr": "Feuerwehr/Florian Fernreith (51205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fernreith (51205)",
+            "fwnr": 414205
+          }
+        },
+        "inzeit": "",
+        "num1": "E240904595",
+        "startzeit": "Wed, 18 Sep 2024 09:04:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1738",
+          "lng": "13.9474"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Moosdorf",
           "earea": "Moosdorf",
           "ecompl": "",
@@ -64,7 +111,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "BR - Moosdorf",
         "einsatzsubtyp": {
@@ -76,12 +123,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "400406": {
+            "feuerwehr": "Feuerwehr/Florian Hackenbuch (BR) (33406)"
+          },
           "400410": {
             "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Hackenbuch (BR) (33406)",
+            "fwnr": 400406
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Moosdorf (33410)",
             "fwnr": 400410
           }
@@ -240,60 +294,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          },
-          "406263": {
-            "feuerwehr": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)",
-            "fwnr": 406263
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904584",
-        "startzeit": "Wed, 18 Sep 2024 08:13:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Baumgartenberg",
           "earea": "Baumgartenberg",
           "ecompl": "",
@@ -382,100 +382,6 @@
         "wgs84": {
           "lat": "48.2734",
           "lng": "14.5798"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406213": {
-            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
-            "fwnr": 406213
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904573",
-        "startzeit": "Wed, 18 Sep 2024 07:40:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1873",
-          "lng": "14.2562"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchberg ob der Donau",
-          "earea": "Kirchberg ob der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchberg ob der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Kirchberg ob der Donau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409305": {
-            "feuerwehr": "Feuerwehr/Florian Kirchberg ob der Donau (44305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchberg ob der Donau (44305)",
-            "fwnr": 409305
-          }
-        },
-        "inzeit": "",
-        "num1": "E240904568",
-        "startzeit": "Wed, 18 Sep 2024 07:09:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4454",
-          "lng": "13.9417"
         }
       }
     },
@@ -718,53 +624,6 @@
         "wgs84": {
           "lat": "48.4954",
           "lng": "14.2803"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steegen",
-          "earea": "Steegen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steegen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Steegen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404319": {
-            "feuerwehr": "Feuerwehr/Florian Steegen (37319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steegen (37319)",
-            "fwnr": 404319
-          }
-        },
-        "inzeit": "",
-        "num1": "E240903889",
-        "startzeit": "Mon, 16 Sep 2024 19:43:15 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3413",
-          "lng": "13.7654"
         }
       }
     },
