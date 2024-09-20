@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 13,
   "einsaetze": [
     {
@@ -17,26 +17,33 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
         "einsatzort": "GM - Kirchham",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
         },
         "feuerwehren": {
           "403210": {
             "feuerwehr": "Feuerwehr/Florian Kirchham (36210)"
+          },
+          "403226": {
+            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Kirchham (36210)",
             "fwnr": 403210
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
+            "fwnr": 403226
           }
         },
         "inzeit": "",
@@ -281,53 +288,6 @@
         "wgs84": {
           "lat": "48.0249",
           "lng": "13.7494"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wilhering",
-          "earea": "Wilhering",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wilhering",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Wilhering",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406205": {
-            "feuerwehr": "Feuerwehr/Florian Edramsberg (39205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Edramsberg (39205)",
-            "fwnr": 406205
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905025",
-        "startzeit": "Fri, 20 Sep 2024 13:43:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3188",
-          "lng": "14.1755"
         }
       }
     },
