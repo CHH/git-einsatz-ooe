@@ -1,51 +1,79 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
+          "default": "Maria Neustift",
+          "earea": "Maria Neustift",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kematen an der Krems",
+          "emun": "Maria Neustift",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 11,
+          "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Kematen an der Krems",
+        "cntfeuerwehren": 5,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Maria Neustift",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "MEHRSTOCKGEB-BR",
+          "text": "Brand Gebäude mehrstöckig"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "B1-GEB-MEHRSTOCK",
+          "text": "Brand Gebäude mehrstöckig"
         },
         "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
+          "411302": {
+            "feuerwehr": "Feuerwehr/Florian Großraming (46302)"
+          },
+          "411303": {
+            "feuerwehr": "Feuerwehr/Florian Hofberg (46303)"
+          },
+          "411308": {
+            "feuerwehr": "Feuerwehr/Florian Maria Neustift (46308)"
+          },
+          "411309": {
+            "feuerwehr": "Feuerwehr/Florian Moosgraben (46309)"
+          },
+          "411315": {
+            "feuerwehr": "Feuerwehr/Florian Sulzbach (se) (46315)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
+            "fwname": "Feuerwehr/Florian Großraming (46302)",
+            "fwnr": 411302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hofberg (46303)",
+            "fwnr": 411303
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Maria Neustift (46308)",
+            "fwnr": 411308
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Moosgraben (46309)",
+            "fwnr": 411309
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Sulzbach (se) (46315)",
+            "fwnr": 411315
           }
         },
         "inzeit": "",
-        "num1": "E240905154",
-        "startzeit": "Fri, 20 Sep 2024 22:04:44 +0200",
+        "num1": "E240905155",
+        "startzeit": "Fri, 20 Sep 2024 22:31:21 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
+          "lat": "47.9387",
+          "lng": "14.608"
         }
       }
     },
@@ -93,53 +121,6 @@
         "wgs84": {
           "lat": "48.0102",
           "lng": "13.509"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vöcklamarkt",
-          "earea": "Vöcklamarkt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vöcklamarkt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Vöcklamarkt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413130": {
-            "feuerwehr": "Feuerwehr/Florian Redl (50130)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Redl (50130)",
-            "fwnr": 413130
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905134",
-        "startzeit": "Fri, 20 Sep 2024 19:35:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0244",
-          "lng": "13.5026"
         }
       }
     },
