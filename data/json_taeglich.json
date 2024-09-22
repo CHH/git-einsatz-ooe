@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E240905337",
+        "startzeit": "Sun, 22 Sep 2024 03:42:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "Sun, 22 Sep 2024 02:43:00 +0200",
+        "num1": "E240905336",
+        "startzeit": "Sun, 22 Sep 2024 02:39:07 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +111,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "KI - Vorderstoder",
         "einsatzsubtyp": {
@@ -29,12 +123,19 @@
           "text": "Tragehilfe"
         },
         "feuerwehren": {
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
+          },
           "405404": {
             "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
             "fwnr": 405404
           }
@@ -64,7 +165,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SE - Dietach",
         "einsatzsubtyp": {
@@ -78,12 +179,19 @@
         "feuerwehren": {
           "411202": {
             "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Dietach (46202)",
             "fwnr": 411202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -140,10 +248,10 @@
             "fwnr": 410211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 22 Sep 2024 02:33:00 +0200",
         "num1": "E240905333",
         "startzeit": "Sun, 22 Sep 2024 01:53:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4239",
           "lng": "13.624"
