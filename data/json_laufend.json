@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 7,
+  "cnt_einsaetze": 6,
   "cnt_feuerwehren": 8,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "KI - Vorderstoder",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Tragehilfe"
         },
         "feuerwehren": {
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
+          },
           "405404": {
             "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
             "fwnr": 405404
           }
@@ -64,7 +71,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SE - Dietach",
         "einsatzsubtyp": {
@@ -78,12 +85,19 @@
         "feuerwehren": {
           "411202": {
             "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Dietach (46202)",
             "fwnr": 411202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -93,60 +107,6 @@
         "wgs84": {
           "lat": "48.0894",
           "lng": "14.4184"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Diersbach",
-          "earea": "Diersbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Diersbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "SD - Diersbach",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "410204": {
-            "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
-          },
-          "410211": {
-            "feuerwehr": "Feuerwehr/Florian Mitterndorf (45211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Diersbach (45204)",
-            "fwnr": 410204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Mitterndorf (45211)",
-            "fwnr": 410211
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905333",
-        "startzeit": "Sun, 22 Sep 2024 01:53:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4239",
-          "lng": "13.624"
         }
       }
     },
