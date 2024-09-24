@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Perwang am Grabensee",
+          "earea": "Perwang am Grabensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Perwang am Grabensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Perwang am Grabensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400215": {
+            "feuerwehr": "Feuerwehr/Florian Perwang am Grabensee (33215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Perwang am Grabensee (33215)",
+            "fwnr": 400215
+          }
+        },
+        "inzeit": "",
+        "num1": "E240905578",
+        "startzeit": "Tue, 24 Sep 2024 16:24:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.009",
+          "lng": "13.0879"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.2051",
           "lng": "13.1016"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tarsdorf",
-          "earea": "Tarsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tarsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Tarsdorf",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400414": {
-            "feuerwehr": "Feuerwehr/Florian Tarsdorf (33414)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tarsdorf (33414)",
-            "fwnr": 400414
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905575",
-        "startzeit": "Tue, 24 Sep 2024 16:05:17 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0797",
-          "lng": "12.8243"
         }
       }
     },
@@ -200,100 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Seewalchen am Attersee",
-          "earea": "Seewalchen am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Seewalchen am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Seewalchen am Attersee",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "413522": {
-            "feuerwehr": "Feuerwehr/Florian Steindorf (50522)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steindorf (50522)",
-            "fwnr": 413522
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905570",
-        "startzeit": "Tue, 24 Sep 2024 15:26:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9636",
-          "lng": "13.5713"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402206": {
-            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
-            "fwnr": 402206
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905567",
-        "startzeit": "Tue, 24 Sep 2024 14:34:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3731",
-          "lng": "14.6147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pucking",
           "earea": "Pucking",
           "ecompl": "",
@@ -335,53 +241,6 @@
         "wgs84": {
           "lat": "48.1906",
           "lng": "14.2028"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Höhnhart",
-          "earea": "Höhnhart",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Höhnhart",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Höhnhart",
-        "einsatzsubtyp": {
-          "id": "GEBÜSCH-BR",
-          "text": "Brand Gebüsch"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "400307": {
-            "feuerwehr": "Feuerwehr/Florian Höhnhart (33307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Höhnhart (33307)",
-            "fwnr": 400307
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905562",
-        "startzeit": "Tue, 24 Sep 2024 14:05:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1651",
-          "lng": "13.2664"
         }
       }
     },
