@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Diersbach",
+          "earea": "Diersbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Diersbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Diersbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410204": {
+            "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Diersbach (45204)",
+            "fwnr": 410204
+          }
+        },
+        "inzeit": "",
+        "num1": "E240905973",
+        "startzeit": "Fri, 27 Sep 2024 09:02:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4122",
+          "lng": "13.572"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,60 +234,6 @@
         "wgs84": {
           "lat": "48.0253",
           "lng": "13.2157"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
-          },
-          "403112": {
-            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
-            "fwnr": 403102
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pfandl (36112)",
-            "fwnr": 403112
-          }
-        },
-        "inzeit": "",
-        "num1": "E240905967",
-        "startzeit": "Fri, 27 Sep 2024 08:36:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7109",
-          "lng": "13.6262"
         }
       }
     },
