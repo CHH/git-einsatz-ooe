@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 27,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Seewalchen am Attersee",
+          "earea": "Seewalchen am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Seewalchen am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Seewalchen am Attersee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413510": {
+            "feuerwehr": "Feuerwehr/Florian Kemating (VB) (50510)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kemating (VB) (50510)",
+            "fwnr": 413510
+          }
+        },
+        "inzeit": "",
+        "num1": "E240906228",
+        "startzeit": "Sat, 28 Sep 2024 13:55:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9573",
+          "lng": "13.5409"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -205,7 +252,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "LL - Hargelsberg",
         "einsatzsubtyp": {
@@ -217,6 +264,9 @@
           "text": "Brand landwirtschaftliches Objekt"
         },
         "feuerwehren": {
+          "402206": {
+            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
+          },
           "406103": {
             "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
           },
@@ -232,18 +282,22 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
+            "fwnr": 402206
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
             "fwnr": 406103
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Kronstorf (39104)",
             "fwnr": 406104
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Hofkirchen im Traunkreis (39106)",
             "fwnr": 406106
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
             "fwnr": 415101
           }
@@ -786,53 +840,6 @@
         "wgs84": {
           "lat": "48.293",
           "lng": "13.2778"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Reichenthal",
-          "earea": "Reichenthal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Reichenthal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Reichenthal",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412116": {
-            "feuerwehr": "Feuerwehr/Florian Reichenthal (49116)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Reichenthal (49116)",
-            "fwnr": 412116
-          }
-        },
-        "inzeit": "",
-        "num1": "E240906154",
-        "startzeit": "Fri, 27 Sep 2024 19:38:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5446",
-          "lng": "14.3855"
         }
       }
     },
