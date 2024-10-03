@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Gallspach",
-          "earea": "Gallspach",
+          "default": "Eggelsberg",
+          "earea": "Eggelsberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gallspach",
+          "emun": "Eggelsberg",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "GR - Gallspach",
+        "einsatzort": "BR - Eggelsberg",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "GROßTIERRETT-TE",
+          "text": "Rettung Großtier"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "T0-TIER-RETTUNG",
+          "text": "Tierrettung"
         },
         "feuerwehren": {
-          "404103": {
-            "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
+          "400404": {
+            "feuerwehr": "Feuerwehr/Florian Franking (33404)"
+          },
+          "400409": {
+            "feuerwehr": "Feuerwehr/Florian Ibm (33409)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Gallspach (37103)",
-            "fwnr": 404103
+            "fwname": "Feuerwehr/Florian Franking (33404)",
+            "fwnr": 400404
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ibm (33409)",
+            "fwnr": 400409
           }
         },
         "inzeit": "",
-        "num1": "E241000302",
-        "startzeit": "Thu, 03 Oct 2024 15:36:09 +0200",
+        "num1": "E241000305",
+        "startzeit": "Thu, 03 Oct 2024 16:02:45 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2057",
-          "lng": "13.8143"
+          "lat": "48.0661",
+          "lng": "12.9677"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altmünster",
+          "earea": "Altmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Altmünster",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000304",
+        "startzeit": "Thu, 03 Oct 2024 16:02:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8949",
+          "lng": "13.7663"
         }
       }
     },
