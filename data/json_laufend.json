@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000383",
+        "startzeit": "Thu, 03 Oct 2024 21:05:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2097",
+          "lng": "14.2881"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.1962",
           "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Gotthard im Mühlkreis",
-          "earea": "St. Gotthard im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Gotthard im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - St. Gotthard im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412220": {
-            "feuerwehr": "Feuerwehr/Florian Rottenegg (49220)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rottenegg (49220)",
-            "fwnr": 412220
-          }
-        },
-        "inzeit": "",
-        "num1": "E241000374",
-        "startzeit": "Thu, 03 Oct 2024 19:56:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3696",
-          "lng": "14.134"
         }
       }
     },
@@ -529,100 +529,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Lengau",
-          "earea": "Lengau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lengau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Lengau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400209": {
-            "feuerwehr": "Feuerwehr/Florian Lengau (33209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lengau (33209)",
-            "fwnr": 400209
-          }
-        },
-        "inzeit": "",
-        "num1": "E241000328",
-        "startzeit": "Thu, 03 Oct 2024 18:51:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0077",
-          "lng": "13.2177"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neumarkt im Mühlkreis",
-          "earea": "Neumarkt im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neumarkt im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Neumarkt im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402121": {
-            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
-            "fwnr": 402121
-          }
-        },
-        "inzeit": "",
-        "num1": "E241000326",
-        "startzeit": "Thu, 03 Oct 2024 18:50:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.43",
-          "lng": "14.4838"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ungenach",
           "earea": "Ungenach",
           "ecompl": "",
@@ -664,53 +570,6 @@
         "wgs84": {
           "lat": "48.0461",
           "lng": "13.6121"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Krenglbach",
-          "earea": "Krenglbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Krenglbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Krenglbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414213": {
-            "feuerwehr": "Feuerwehr/Florian Krenglbach (51213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Krenglbach (51213)",
-            "fwnr": 414213
-          }
-        },
-        "inzeit": "",
-        "num1": "E241000315",
-        "startzeit": "Thu, 03 Oct 2024 18:03:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.209",
-          "lng": "13.9555"
         }
       }
     },
