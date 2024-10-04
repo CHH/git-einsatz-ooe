@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 42,
-  "cnt_feuerwehren": 55,
+  "cnt_einsaetze": 45,
+  "cnt_feuerwehren": 59,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aigen im Mühlkreis",
+          "earea": "Aigen im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aigen im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Aigen im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409101": {
+            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
+            "fwnr": 409101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000473",
+        "startzeit": "Fri, 04 Oct 2024 15:01:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6489",
+          "lng": "13.9714"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000472",
+        "startzeit": "Fri, 04 Oct 2024 14:52:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Maria Schmolln",
+          "earea": "Maria Schmolln",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Maria Schmolln",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Maria Schmolln",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400211": {
+            "feuerwehr": "Feuerwehr/Florian Maria Schmolln (33211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Maria Schmolln (33211)",
+            "fwnr": 400211
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000471",
+        "startzeit": "Fri, 04 Oct 2024 14:43:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1402",
+          "lng": "13.2161"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +158,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "SE - Garsten",
         "einsatzsubtyp": {
@@ -43,6 +184,9 @@
           },
           "411216": {
             "feuerwehr": "Feuerwehr/Florian Schwaming (46216)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)"
           }
         },
         "feuerwehrenarray": {
@@ -65,6 +209,10 @@
           "4": {
             "fwname": "Feuerwehr/Florian Schwaming (46216)",
             "fwnr": 411216
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -161,10 +309,10 @@
             "fwnr": 408223
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:20:00 +0200",
         "num1": "E241000468",
         "startzeit": "Fri, 04 Oct 2024 14:02:06 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
@@ -309,10 +457,10 @@
             "fwnr": 406215
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:46:00 +0200",
         "num1": "E241000465",
         "startzeit": "Fri, 04 Oct 2024 13:45:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2344",
           "lng": "14.1346"
@@ -356,10 +504,10 @@
             "fwnr": 413315
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:21:00 +0200",
         "num1": "E241000464",
         "startzeit": "Fri, 04 Oct 2024 13:42:38 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0582",
           "lng": "13.7817"
@@ -403,10 +551,10 @@
             "fwnr": 405403
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:41:00 +0200",
         "num1": "E241000462",
         "startzeit": "Fri, 04 Oct 2024 13:30:43 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
@@ -450,10 +598,10 @@
             "fwnr": 401117
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:37:00 +0200",
         "num1": "E241000461",
         "startzeit": "Fri, 04 Oct 2024 13:26:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2663",
           "lng": "13.9272"
@@ -497,10 +645,10 @@
             "fwnr": 406208
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:46:00 +0200",
         "num1": "E241000460",
         "startzeit": "Fri, 04 Oct 2024 13:24:51 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2652",
           "lng": "14.2551"
@@ -2080,10 +2228,10 @@
             "fwnr": 412309
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 04 Oct 2024 14:48:00 +0200",
         "num1": "E241000389",
         "startzeit": "Fri, 04 Oct 2024 01:21:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3952",
           "lng": "14.2342"
