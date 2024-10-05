@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 23,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ottensheim",
+          "earea": "Ottensheim",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ottensheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Ottensheim",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412218": {
+            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
+            "fwnr": 412218
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000818",
+        "startzeit": "Sat, 05 Oct 2024 18:45:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3368",
+          "lng": "14.177"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Tierrettung"
         },
         "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
           "403109": {
             "feuerwehr": "Feuerwehr/Florian Lauffen (36109)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Lauffen (36109)",
             "fwnr": 403109
           }
@@ -168,53 +222,6 @@
         "wgs84": {
           "lat": "48.6748",
           "lng": "13.9186"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neukirchen bei Lambach",
-          "earea": "Neukirchen bei Lambach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neukirchen bei Lambach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Neukirchen bei Lambach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414112": {
-            "feuerwehr": "Feuerwehr/Florian Neukirchen bei Lambach (51112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neukirchen bei Lambach (51112)",
-            "fwnr": 414112
-          }
-        },
-        "inzeit": "",
-        "num1": "E241000812",
-        "startzeit": "Sat, 05 Oct 2024 18:16:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1026",
-          "lng": "13.8145"
         }
       }
     },
