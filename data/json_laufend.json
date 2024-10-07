@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ottensheim",
-          "earea": "Ottensheim",
+          "default": "Regau",
+          "earea": "Regau",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ottensheim",
+          "emun": "Regau",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 13,
+          "text": "Vöcklabruck"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "UU - Ottensheim",
+        "einsatzort": "VB - Regau",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "412218": {
-            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
+          "413419": {
+            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
-            "fwnr": 412218
+            "fwname": "Feuerwehr/Florian Regau (50419)",
+            "fwnr": 413419
           }
         },
         "inzeit": "",
-        "num1": "E241000976",
-        "startzeit": "Mon, 07 Oct 2024 18:29:53 +0200",
+        "num1": "E241000979",
+        "startzeit": "Mon, 07 Oct 2024 18:44:18 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3368",
-          "lng": "14.177"
+          "lat": "47.9893",
+          "lng": "13.6896"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Marienkirchen an der Polsenz",
+          "earea": "St. Marienkirchen an der Polsenz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Marienkirchen an der Polsenz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - St. Marienkirchen an der Polsenz",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)",
+            "fwnr": 401117
+          }
+        },
+        "inzeit": "",
+        "num1": "E241000978",
+        "startzeit": "Mon, 07 Oct 2024 18:43:36 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2663",
+          "lng": "13.9272"
         }
       }
     },
@@ -158,7 +205,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Gosau",
         "einsatzsubtyp": {
@@ -173,6 +220,9 @@
           "10016": {
             "feuerwehr": "Feuerwehr/Florian Rußbach (SBG)"
           },
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          },
           "403104": {
             "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
           },
@@ -186,10 +236,14 @@
             "fwnr": 10016
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Gosau (36104)",
             "fwnr": 403104
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
             "fwnr": 403117
           }
