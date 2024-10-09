@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          },
+          "406263": {
+            "feuerwehr": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.h. (39263)",
+            "fwnr": 406263
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001191",
+        "startzeit": "Wed, 09 Oct 2024 12:20:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,114 +100,6 @@
         "wgs84": {
           "lat": "48.2523",
           "lng": "14.4738"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Polling im Innkreis",
-          "earea": "Polling im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Polling im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Polling im Innkreis",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "400313": {
-            "feuerwehr": "Feuerwehr/Florian Polling (33313)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Polling (33313)",
-            "fwnr": 400313
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001186",
-        "startzeit": "Wed, 09 Oct 2024 11:04:14 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2298",
-          "lng": "13.2836"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ulrichsberg",
-          "earea": "Ulrichsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ulrichsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "RO - Ulrichsberg",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
-          },
-          "409105": {
-            "feuerwehr": "Feuerwehr/Florian Ödenkirchen (44105)"
-          },
-          "409109": {
-            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ödenkirchen (44105)",
-            "fwnr": 409105
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
-            "fwnr": 409109
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001181",
-        "startzeit": "Wed, 09 Oct 2024 09:55:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6748",
-          "lng": "13.9186"
         }
       }
     },
