@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "Fri, 11 Oct 2024 01:13:00 +0200",
+        "num1": "E241001407",
+        "startzeit": "Fri, 11 Oct 2024 00:47:04 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Antiesenhofen",
+          "earea": "Antiesenhofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Antiesenhofen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Antiesenhofen",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "408301": {
+            "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
+            "fwnr": 408301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001406",
+        "startzeit": "Fri, 11 Oct 2024 00:39:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
