@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 30,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 31,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lenzing",
+          "earea": "Lenzing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lenzing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Lenzing",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BR",
+          "text": "Brand Kamin"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-KAMIN",
+          "text": "Brand Kamin"
+        },
+        "feuerwehren": {
+          "413420": {
+            "feuerwehr": "Feuerwehr/Florian Reibersdorf (50420)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Reibersdorf (50420)",
+            "fwnr": 413420
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001633",
+        "startzeit": "Sat, 12 Oct 2024 10:30:48 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9626",
+          "lng": "13.6343"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 400109
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 10:54:00 +0200",
         "num1": "E241001630",
         "startzeit": "Sat, 12 Oct 2024 10:16:53 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2335",
           "lng": "13.0148"
@@ -111,7 +158,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Pregarten",
         "einsatzsubtyp": {
@@ -123,12 +170,19 @@
           "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
           "402210": {
             "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
             "fwnr": 402210
           }
@@ -321,10 +375,10 @@
             "fwnr": 403102
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 11:10:00 +0200",
         "num1": "E241001624",
         "startzeit": "Sat, 12 Oct 2024 09:56:00 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7109",
           "lng": "13.6262"
@@ -368,10 +422,10 @@
             "fwnr": 402112
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 10:22:00 +0200",
         "num1": "E241001622",
         "startzeit": "Sat, 12 Oct 2024 09:38:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4737",
           "lng": "14.5302"
@@ -556,10 +610,10 @@
             "fwnr": 408228
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 11:12:00 +0200",
         "num1": "E241001615",
         "startzeit": "Sat, 12 Oct 2024 08:51:01 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1314",
           "lng": "13.4499"
@@ -932,10 +986,10 @@
             "fwnr": 400409
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 10:20:00 +0200",
         "num1": "E241001605",
         "startzeit": "Sat, 12 Oct 2024 08:14:17 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0661",
           "lng": "12.9677"
@@ -1167,10 +1221,10 @@
             "fwnr": 400408
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 12 Oct 2024 10:19:00 +0200",
         "num1": "E241001599",
         "startzeit": "Sat, 12 Oct 2024 07:26:17 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1475",
           "lng": "12.8395"
