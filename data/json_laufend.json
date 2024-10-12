@@ -1,15 +1,69 @@
 {
-  "cnt_einsaetze": 42,
-  "cnt_feuerwehren": 42,
+  "cnt_einsaetze": 40,
+  "cnt_feuerwehren": 41,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ried im Traunkreis",
-          "earea": "Ried im Traunkreis",
+          "default": "Garsten",
+          "earea": "Garsten",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ried im Traunkreis",
+          "emun": "Garsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Garsten",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BR",
+          "text": "Brand Kamin"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-KAMIN",
+          "text": "Brand Kamin"
+        },
+        "feuerwehren": {
+          "411204": {
+            "feuerwehr": "Feuerwehr/Florian Garsten (46204)"
+          },
+          "411213": {
+            "feuerwehr": "Feuerwehr/Florian Saass (46213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Garsten (46204)",
+            "fwnr": 411204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Saass (46213)",
+            "fwnr": 411213
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001774",
+        "startzeit": "Sat, 12 Oct 2024 18:35:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.021",
+          "lng": "14.3617"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünburg",
+          "earea": "Grünburg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünburg",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -19,7 +73,7 @@
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "KI - Ried im Traunkreis",
+        "einsatzort": "KI - Grünburg",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,70 +83,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "405306": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Traunkreis (38306)"
+          "405103": {
+            "feuerwehr": "Feuerwehr/Florian Grünburg (38103)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ried im Traunkreis (38306)",
-            "fwnr": 405306
+            "fwname": "Feuerwehr/Florian Grünburg (38103)",
+            "fwnr": 405103
           }
         },
         "inzeit": "",
-        "num1": "E241001772",
-        "startzeit": "Sat, 12 Oct 2024 18:23:45 +0200",
+        "num1": "E241001773",
+        "startzeit": "Sat, 12 Oct 2024 18:29:44 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0275",
-          "lng": "14.0776"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grein",
-          "earea": "Grein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Grein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407104": {
-            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grein (42104)",
-            "fwnr": 407104
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001768",
-        "startzeit": "Sat, 12 Oct 2024 18:20:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2284",
-          "lng": "14.8498"
+          "lat": "47.9703",
+          "lng": "14.2628"
         }
       }
     },
@@ -140,6 +147,53 @@
         "wgs84": {
           "lat": "48.2239",
           "lng": "14.7811"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grein",
+          "earea": "Grein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Grein",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407104": {
+            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grein (42104)",
+            "fwnr": 407104
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001768",
+        "startzeit": "Sat, 12 Oct 2024 18:20:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2284",
+          "lng": "14.8498"
         }
       }
     },
@@ -358,53 +412,6 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "410208": {
-            "feuerwehr": "Feuerwehr/Florian Krena (45208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Krena (45208)",
-            "fwnr": 410208
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001757",
-        "startzeit": "Sat, 12 Oct 2024 17:06:20 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3116",
-          "lng": "13.6676"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Zell an der Pram",
-          "earea": "Zell an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Zell an der Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
           "410203": {
             "feuerwehr": "Feuerwehr/Florian Blümling (45203)"
           }
@@ -563,53 +570,6 @@
         "wgs84": {
           "lat": "48.3605",
           "lng": "13.6898"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Offenhausen",
-          "earea": "Offenhausen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Offenhausen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Offenhausen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414108": {
-            "feuerwehr": "Feuerwehr/Florian Großkrottendorf (51108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Großkrottendorf (51108)",
-            "fwnr": 414108
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001748",
-        "startzeit": "Sat, 12 Oct 2024 16:32:50 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1548",
-          "lng": "13.8684"
         }
       }
     },
@@ -1033,53 +993,6 @@
         "wgs84": {
           "lat": "48.4159",
           "lng": "14.0434"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gunskirchen",
-          "earea": "Gunskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gunskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Gunskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414205": {
-            "feuerwehr": "Feuerwehr/Florian Fernreith (51205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Fernreith (51205)",
-            "fwnr": 414205
-          }
-        },
-        "inzeit": "",
-        "num1": "E241001718",
-        "startzeit": "Sat, 12 Oct 2024 15:03:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1738",
-          "lng": "13.9474"
         }
       }
     },
