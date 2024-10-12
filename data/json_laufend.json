@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 26,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Natternbach",
+          "earea": "Natternbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Natternbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Natternbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404321": {
+            "feuerwehr": "Feuerwehr/Florian Tal (37321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Tal (37321)",
+            "fwnr": 404321
+          }
+        },
+        "inzeit": "",
+        "num1": "E241001635",
+        "startzeit": "Sat, 12 Oct 2024 11:31:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4331",
+          "lng": "13.7216"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +158,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "FR - Pregarten",
         "einsatzsubtyp": {
@@ -123,6 +170,9 @@
           "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
           "402209": {
             "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
           },
@@ -132,10 +182,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pregarten (35209)",
             "fwnr": 402209
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
             "fwnr": 402210
           }
