@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Grieskirchen",
-          "earea": "Grieskirchen",
+          "default": "Neukirchen bei Lambach",
+          "earea": "Neukirchen bei Lambach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Grieskirchen",
+          "emun": "Neukirchen bei Lambach",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 14,
+          "text": "Wels-Land"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Grieskirchen",
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Neukirchen bei Lambach",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
-          "404104": {
-            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          "414112": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen bei Lambach (51112)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
-            "fwnr": 404104
+            "fwname": "Feuerwehr/Florian Neukirchen bei Lambach (51112)",
+            "fwnr": 414112
           }
         },
         "inzeit": "",
-        "num1": "E241002057",
-        "startzeit": "Tue, 15 Oct 2024 18:12:47 +0200",
+        "num1": "E241002060",
+        "startzeit": "Tue, 15 Oct 2024 18:29:00 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2362",
-          "lng": "13.8166"
+          "lat": "48.1026",
+          "lng": "13.8145"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400161": {
+            "feuerwehr": "Feuerwehr/Florian Amag Ranshofen (33161)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Amag Ranshofen (33161)",
+            "fwnr": 400161
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002059",
+        "startzeit": "Tue, 15 Oct 2024 18:25:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2283",
+          "lng": "13.0301"
         }
       }
     },
