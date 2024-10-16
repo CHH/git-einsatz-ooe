@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Nußbach",
+          "earea": "Nußbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Nußbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Nußbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405209": {
+            "feuerwehr": "Feuerwehr/Florian Nußbach (38209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nußbach (38209)",
+            "fwnr": 405209
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002139",
+        "startzeit": "Wed, 16 Oct 2024 10:10:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9724",
+          "lng": "14.1631"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Martin im Mühlkreis",
+          "earea": "St. Martin im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Martin im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - St. Martin im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409312": {
+            "feuerwehr": "Feuerwehr/Florian Plöcking (44312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Plöcking (44312)",
+            "fwnr": 409312
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002135",
+        "startzeit": "Wed, 16 Oct 2024 09:42:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4364",
+          "lng": "14.0006"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vorchdorf",
+          "earea": "Vorchdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vorchdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Vorchdorf",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403223": {
+            "feuerwehr": "Feuerwehr/Florian Schart (36223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schart (36223)",
+            "fwnr": 403223
+          }
+        },
+        "inzeit": "Wed, 16 Oct 2024 10:08:00 +0200",
+        "num1": "E241002130",
+        "startzeit": "Wed, 16 Oct 2024 09:21:43 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0233",
+          "lng": "13.9539"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +153,38 @@
           "emun": "Bad Leonfelden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "UU - Bad Leonfelden",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "412103": {
             "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
+          "412119": {
+            "feuerwehr": "Feuerwehr/Florian Stiftung bei Bad Leonfelden (49119)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
             "fwnr": 412103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Stiftung bei Bad Leonfelden (49119)",
+            "fwnr": 412119
           }
         },
         "inzeit": "",
@@ -86,10 +234,10 @@
             "fwnr": 405209
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 16 Oct 2024 09:44:00 +0200",
         "num1": "E241002124",
         "startzeit": "Wed, 16 Oct 2024 09:11:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9724",
           "lng": "14.1631"
@@ -227,10 +375,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 16 Oct 2024 09:27:00 +0200",
         "num1": "E241002120",
         "startzeit": "Wed, 16 Oct 2024 09:05:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0553",
           "lng": "14.4445"
