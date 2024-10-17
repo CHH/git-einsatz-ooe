@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Eberstalzell",
-          "earea": "Eberstalzell",
+          "default": "Freistadt",
+          "earea": "Freistadt",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Eberstalzell",
+          "emun": "Freistadt",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 2,
+          "text": "Freistadt"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Eberstalzell",
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Freistadt",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
-          "414116": {
-            "feuerwehr": "Feuerwehr/Florian Spieldorf (51116)"
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Spieldorf (51116)",
-            "fwnr": 414116
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
           }
         },
         "inzeit": "",
-        "num1": "E241002279",
-        "startzeit": "Thu, 17 Oct 2024 08:03:03 +0200",
+        "num1": "E241002283",
+        "startzeit": "Thu, 17 Oct 2024 08:23:15 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.012",
-          "lng": "13.9883"
+          "lat": "48.5181",
+          "lng": "14.5075"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wallern an der Trattnach",
+          "earea": "Wallern an der Trattnach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wallern an der Trattnach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Wallern an der Trattnach",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "404129": {
+            "feuerwehr": "Feuerwehr/Florian Wallern an der Trattnach (37129)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wallern an der Trattnach (37129)",
+            "fwnr": 404129
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002281",
+        "startzeit": "Thu, 17 Oct 2024 08:10:53 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2342",
+          "lng": "13.9497"
         }
       }
     },
@@ -194,53 +241,6 @@
         "wgs84": {
           "lat": "48.1914",
           "lng": "12.875"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Marien",
-          "earea": "St. Marien",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Marien",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "LL - St. Marien",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "406312": {
-            "feuerwehr": "Feuerwehr/Florian Weichstetten (39312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weichstetten (39312)",
-            "fwnr": 406312
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002269",
-        "startzeit": "Thu, 17 Oct 2024 06:53:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1222",
-          "lng": "14.3157"
         }
       }
     },
@@ -570,53 +570,6 @@
         "wgs84": {
           "lat": "48.2787",
           "lng": "14.2156"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002190",
-        "startzeit": "Wed, 16 Oct 2024 18:05:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
         }
       }
     }
