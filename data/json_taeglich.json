@@ -1,15 +1,62 @@
 {
-  "cnt_einsaetze": 64,
-  "cnt_feuerwehren": 70,
+  "cnt_einsaetze": 65,
+  "cnt_feuerwehren": 71,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
+          "default": "Vöcklabruck",
+          "earea": "Vöcklabruck",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gmunden",
+          "emun": "Vöcklabruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Vöcklabruck",
+        "einsatzsubtyp": {
+          "id": "SIRFEUER-SELBST",
+          "text": "Sirenenprogramm FEUER von FW ausgelöst"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          }
+        },
+        "inzeit": "Thu, 17 Oct 2024 23:13:00 +0200",
+        "num1": "E241002379",
+        "startzeit": "Thu, 17 Oct 2024 22:41:38 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0064",
+          "lng": "13.6637"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gschwandt",
+          "earea": "Gschwandt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gschwandt",
           "estnum": ""
         },
         "alarmstufe": "1",
@@ -17,9 +64,9 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
-        "einsatzort": "GM - Gmunden",
+        "einsatzort": "GM - Gschwandt",
         "einsatzsubtyp": {
           "id": "PERSSUCHE-TE",
           "text": "Personensuche"
@@ -37,6 +84,9 @@
           },
           "403208": {
             "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
+          },
+          "403209": {
+            "feuerwehr": "Feuerwehr/Florian Gschwandt (36209)"
           },
           "403211": {
             "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
@@ -56,6 +106,10 @@
             "fwnr": 403208
           },
           "3": {
+            "fwname": "Feuerwehr/Florian Gschwandt (36209)",
+            "fwnr": 403209
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Laakirchen (36211)",
             "fwnr": 403211
           }
@@ -65,8 +119,8 @@
         "startzeit": "Thu, 17 Oct 2024 21:43:59 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
+          "lat": "47.9354",
+          "lng": "13.8444"
         }
       }
     },
