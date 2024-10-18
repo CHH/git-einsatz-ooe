@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002587",
+        "startzeit": "Fri, 18 Oct 2024 23:51:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "WL - Weißkirchen an der Traun",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Brand PKW im Freien"
         },
         "feuerwehren": {
+          "414215": {
+            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
+          },
           "414225": {
             "feuerwehr": "Feuerwehr/Florian Weisskirchen an der Traun (51225)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
+            "fwnr": 414215
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Weisskirchen an der Traun (51225)",
             "fwnr": 414225
           }
