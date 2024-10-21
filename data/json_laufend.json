@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Nikola (46105)"
+          },
+          "411106": {
+            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Nikola (46105)",
+            "fwnr": 411105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
+            "fwnr": 411106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002911",
+        "startzeit": "Mon, 21 Oct 2024 08:46:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9959",
+          "lng": "14.2594"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +154,6 @@
         "wgs84": {
           "lat": "47.9387",
           "lng": "14.608"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406261": {
-            "feuerwehr": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nettingsdorfer Papierf.ag (39261)",
-            "fwnr": 406261
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002897",
-        "startzeit": "Mon, 21 Oct 2024 08:10:21 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1853",
-          "lng": "14.2565"
         }
       }
     },
