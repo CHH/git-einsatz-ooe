@@ -1,25 +1,72 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Unterweißenbach",
-          "earea": "Unterweißenbach",
+          "default": "Waizenkirchen",
+          "earea": "Waizenkirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Unterweißenbach",
+          "emun": "Waizenkirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Waizenkirchen",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404324": {
+            "feuerwehr": "Feuerwehr/Florian Waizenkirchen (37324)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Waizenkirchen (37324)",
+            "fwnr": 404324
+          }
+        },
+        "inzeit": "",
+        "num1": "E241002896",
+        "startzeit": "Mon, 21 Oct 2024 08:06:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3305",
+          "lng": "13.8543"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "FR - Unterweißenbach",
+        "einsatzort": "SR - Steyr",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,98 +76,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "402319": {
-            "feuerwehr": "Feuerwehr/Florian Unterweißenbach (35319)"
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Unterweißenbach (35319)",
-            "fwnr": 402319
+            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
-        "num1": "E241002892",
-        "startzeit": "Mon, 21 Oct 2024 07:41:09 +0200",
+        "num1": "E241002895",
+        "startzeit": "Mon, 21 Oct 2024 08:02:59 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4397",
-          "lng": "14.7827"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchschlag bei Linz",
-          "earea": "Kirchschlag bei Linz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchschlag bei Linz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Kirchschlag bei Linz",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "412304": {
-            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
-          },
-          "412305": {
-            "feuerwehr": "Feuerwehr/Florian Kirchschlag bei Linz (49305)"
-          },
-          "412307": {
-            "feuerwehr": "Feuerwehr/Florian Kronabittedt (49307)"
-          },
-          "417151": {
-            "feuerwehr": "Feuerwehr/Florian BF Linz (40151)"
-          },
-          "417180": {
-            "feuerwehr": "Feuerwehr/Florian Bezirk Urfahr-Umgebung (49000)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
-            "fwnr": 412304
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kirchschlag bei Linz (49305)",
-            "fwnr": 412305
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Kronabittedt (49307)",
-            "fwnr": 412307
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian BF Linz (40151)",
-            "fwnr": 417151
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Bezirk Urfahr-Umgebung (49000)",
-            "fwnr": 417180
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002883",
-        "startzeit": "Mon, 21 Oct 2024 03:10:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4137",
-          "lng": "14.2767"
+          "lat": "48.044",
+          "lng": "14.4147"
         }
       }
     },
