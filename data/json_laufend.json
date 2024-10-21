@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
@@ -32,6 +32,12 @@
           "403207": {
             "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
           },
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Gmunden"
           }
@@ -42,6 +48,14 @@
             "fwnr": 403207
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
+            "fwnr": 403262
+          },
+          "3": {
             "fwname": "ÖWR Gmunden",
             "fwnr": 418920
           }
@@ -160,67 +174,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Naarn im Machlande",
-          "earea": "Naarn im Machlande",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Naarn im Machlande",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - Naarn im Machlande",
-        "einsatzsubtyp": {
-          "id": "KAMIN-BR",
-          "text": "Brand Kamin"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-KAMIN",
-          "text": "Brand Kamin"
-        },
-        "feuerwehren": {
-          "407303": {
-            "feuerwehr": "Feuerwehr/Florian Au/Donau (42303)"
-          },
-          "407305": {
-            "feuerwehr": "Feuerwehr/Florian Holzleiten im Machland (42305)"
-          },
-          "407310": {
-            "feuerwehr": "Feuerwehr/Florian Naarn im Machland (42310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Au/Donau (42303)",
-            "fwnr": 407303
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Holzleiten im Machland (42305)",
-            "fwnr": 407305
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Naarn im Machland (42310)",
-            "fwnr": 407310
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002954",
-        "startzeit": "Mon, 21 Oct 2024 12:49:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1965",
-          "lng": "14.6528"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Adlwang",
           "earea": "Adlwang",
           "ecompl": "",
@@ -262,67 +215,6 @@
         "wgs84": {
           "lat": "47.9926",
           "lng": "14.2176"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "402206": {
-            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
-          },
-          "402207": {
-            "feuerwehr": "Feuerwehr/Florian Mistlberg (FR) (35207)"
-          },
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
-            "fwnr": 402206
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Mistlberg (FR) (35207)",
-            "fwnr": 402207
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          }
-        },
-        "inzeit": "",
-        "num1": "E241002951",
-        "startzeit": "Mon, 21 Oct 2024 12:28:28 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3308",
-          "lng": "14.6181"
         }
       }
     },
