@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hellmonsödt",
+          "earea": "Hellmonsödt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hellmonsödt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Hellmonsödt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412304": {
+            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
+            "fwnr": 412304
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003065",
+        "startzeit": "Tue, 22 Oct 2024 12:36:26 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4329",
+          "lng": "14.3014"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "RI - Mehrnbach",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "408104": {
             "feuerwehr": "Feuerwehr/Florian Asenham (43104)"
+          },
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Asenham (43104)",
             "fwnr": 408104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
           }
         },
         "inzeit": "",
@@ -100,10 +154,10 @@
             "fwnr": 408320
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 22 Oct 2024 12:30:00 +0200",
         "num1": "E241003063",
         "startzeit": "Tue, 22 Oct 2024 12:04:54 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.335",
           "lng": "13.3665"
@@ -248,10 +302,10 @@
             "fwnr": 400320
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 22 Oct 2024 12:30:00 +0200",
         "num1": "E241003054",
         "startzeit": "Tue, 22 Oct 2024 11:24:02 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1564",
           "lng": "13.1222"
