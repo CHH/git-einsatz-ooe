@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Oswald bei Freistadt",
+          "earea": "St. Oswald bei Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Oswald bei Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - St. Oswald bei Freistadt",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402112": {
+            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
+          },
+          "402128": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lasberg (35112)",
+            "fwnr": 402112
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
+            "fwnr": 402128
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003051",
+        "startzeit": "Tue, 22 Oct 2024 10:05:09 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5005",
+          "lng": "14.5845"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hellmonsödt",
+          "earea": "Hellmonsödt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hellmonsödt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Hellmonsödt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412304": {
+            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
+            "fwnr": 412304
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003049",
+        "startzeit": "Tue, 22 Oct 2024 09:45:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4329",
+          "lng": "14.3014"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kematen an der Krems",
+          "earea": "Kematen an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kematen an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Kematen an der Krems",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406306": {
+            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
+            "fwnr": 406306
+          }
+        },
+        "inzeit": "Tue, 22 Oct 2024 09:58:00 +0200",
+        "num1": "E241003044",
+        "startzeit": "Tue, 22 Oct 2024 09:21:05 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1114",
+          "lng": "14.1931"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,10 +288,10 @@
             "fwnr": 413404
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 22 Oct 2024 09:37:00 +0200",
         "num1": "E241003040",
         "startzeit": "Tue, 22 Oct 2024 09:02:44 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0164",
           "lng": "13.7192"
@@ -234,10 +382,10 @@
             "fwnr": 401117
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 22 Oct 2024 09:39:00 +0200",
         "num1": "E241003036",
         "startzeit": "Tue, 22 Oct 2024 08:45:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2663",
           "lng": "13.9272"
