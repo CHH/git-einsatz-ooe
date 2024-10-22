@@ -1,7 +1,62 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "UNKLARLAGE-BR",
+          "text": "Brand unklare Lage"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 5 Münichholz (47105)",
+            "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003100",
+        "startzeit": "Tue, 22 Oct 2024 17:59:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,53 +108,6 @@
         "wgs84": {
           "lat": "48.2229",
           "lng": "13.742"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hargelsberg",
-          "earea": "Hargelsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hargelsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "LL - Hargelsberg",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "406103": {
-            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
-            "fwnr": 406103
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003097",
-        "startzeit": "Tue, 22 Oct 2024 17:39:38 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1473",
-          "lng": "14.4235"
         }
       }
     },
