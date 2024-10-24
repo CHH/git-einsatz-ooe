@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ottensheim",
+          "earea": "Ottensheim",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ottensheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Ottensheim",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412218": {
+            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
+            "fwnr": 412218
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003408",
+        "startzeit": "Thu, 24 Oct 2024 18:19:29 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3368",
+          "lng": "14.177"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.8574",
           "lng": "13.3434"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pasching",
-          "earea": "Pasching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pasching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Pasching",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "406216": {
-            "feuerwehr": "Feuerwehr/Florian Pasching (39216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pasching (39216)",
-            "fwnr": 406216
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003403",
-        "startzeit": "Thu, 24 Oct 2024 18:04:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2548",
-          "lng": "14.2114"
         }
       }
     },
@@ -193,53 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Allerheiligen im Mühlkreis",
-          "earea": "Allerheiligen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Allerheiligen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Allerheiligen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TRAGEUNTST-TE",
-          "text": "Tragehilfe"
-        },
-        "einsatztyp": {
-          "id": "T0-UNTST-TRAGE",
-          "text": "Tragehilfe"
-        },
-        "feuerwehren": {
-          "407301": {
-            "feuerwehr": "Feuerwehr/Florian Allerheiligen im Mühlkreis (42301)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Allerheiligen im Mühlkreis (42301)",
-            "fwnr": 407301
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003396",
-        "startzeit": "Thu, 24 Oct 2024 17:22:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3076",
-          "lng": "14.6593"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Krenglbach",
           "earea": "Krenglbach",
           "ecompl": "",
@@ -281,60 +234,6 @@
         "wgs84": {
           "lat": "48.209",
           "lng": "13.9555"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mauerkirchen",
-          "earea": "Mauerkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauerkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Mauerkirchen",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "400308": {
-            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
-          },
-          "400310": {
-            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
-            "fwnr": 400308
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Moosbach (33310)",
-            "fwnr": 400310
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003379",
-        "startzeit": "Thu, 24 Oct 2024 14:34:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1962",
-          "lng": "13.1293"
         }
       }
     },
