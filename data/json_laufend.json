@@ -1,51 +1,58 @@
 {
-  "cnt_einsaetze": 15,
+  "cnt_einsaetze": 14,
   "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
+          "default": "Thalheim bei Wels",
+          "earea": "Thalheim bei Wels",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Hartkirchen",
+          "emun": "Thalheim bei Wels",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 1,
-          "text": "Eferding"
+          "id": 14,
+          "text": "Wels-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Hartkirchen",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Thalheim bei Wels",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
-          "401109": {
-            "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
+          "414223": {
+            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
+          },
+          "414226": {
+            "feuerwehr": "Feuerwehr/Florian Am Thalbach (51226)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
-            "fwnr": 401109
+            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
+            "fwnr": 414223
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Am Thalbach (51226)",
+            "fwnr": 414226
           }
         },
         "inzeit": "",
-        "num1": "E241003491",
-        "startzeit": "Fri, 25 Oct 2024 10:18:02 +0200",
+        "num1": "E241003495",
+        "startzeit": "Fri, 25 Oct 2024 10:59:23 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3597",
-          "lng": "14.0029"
+          "lat": "48.1538",
+          "lng": "14.031"
         }
       }
     },
@@ -241,53 +248,6 @@
         "wgs84": {
           "lat": "48.1713",
           "lng": "13.507"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pfarrkirchen bei Bad Hall",
-          "earea": "Pfarrkirchen bei Bad Hall",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pfarrkirchen bei Bad Hall",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "SE - Pfarrkirchen bei Bad Hall",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "411103": {
-            "feuerwehr": "Feuerwehr/Florian Pfarrkirchen bei Bad Hall (46103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pfarrkirchen bei Bad Hall (46103)",
-            "fwnr": 411103
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003482",
-        "startzeit": "Fri, 25 Oct 2024 09:32:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0275",
-          "lng": "14.1998"
         }
       }
     },
