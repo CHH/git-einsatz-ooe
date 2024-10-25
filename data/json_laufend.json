@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 24,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Nikola (46105)"
+          },
+          "411106": {
+            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Nikola (46105)",
+            "fwnr": 411105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
+            "fwnr": 411106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003674",
+        "startzeit": "Fri, 25 Oct 2024 22:44:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.014",
+          "lng": "14.2774"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -734,53 +795,6 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "413415": {
-            "feuerwehr": "Feuerwehr/Florian Piesdorf (50415)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Piesdorf (50415)",
-            "fwnr": 413415
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003583",
-        "startzeit": "Fri, 25 Oct 2024 18:39:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9749",
-          "lng": "13.5317"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gampern",
-          "earea": "Gampern",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gampern",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Gampern",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
           "413431": {
             "feuerwehr": "Feuerwehr/Florian Weiterschwang (50431)"
           }
@@ -892,53 +906,6 @@
         "wgs84": {
           "lat": "47.9401",
           "lng": "14.0476"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Diersbach",
-          "earea": "Diersbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Diersbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Diersbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410211": {
-            "feuerwehr": "Feuerwehr/Florian Mitterndorf (45211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mitterndorf (45211)",
-            "fwnr": 410211
-          }
-        },
-        "inzeit": "",
-        "num1": "E241003521",
-        "startzeit": "Fri, 25 Oct 2024 15:14:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4239",
-          "lng": "13.624"
         }
       }
     },
