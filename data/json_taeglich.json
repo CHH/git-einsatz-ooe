@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Feldkirchen an der Donau",
+          "earea": "Feldkirchen an der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Feldkirchen an der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Feldkirchen an der Donau",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "412211": {
+            "feuerwehr": "Feuerwehr/Florian Lacken (49211)"
+          },
+          "412215": {
+            "feuerwehr": "Feuerwehr/Florian Bad Mühllacken (49215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lacken (49211)",
+            "fwnr": 412211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Mühllacken (49215)",
+            "fwnr": 412215
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003793",
+        "startzeit": "Sun, 27 Oct 2024 01:29:17 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3824",
+          "lng": "14.0899"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": 403220
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 27 Oct 2024 01:48:00 +0200",
         "num1": "E241003792",
         "startzeit": "Sun, 27 Oct 2024 01:06:36 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": null,
           "lng": null
