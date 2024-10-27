@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 21,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Taufkirchen an der Pram",
+          "earea": "Taufkirchen an der Pram",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Taufkirchen an der Pram",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Taufkirchen an der Pram",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410325": {
+            "feuerwehr": "Feuerwehr/Florian Taufkirchen an der Pram (45325)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Taufkirchen an der Pram (45325)",
+            "fwnr": 410325
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003838",
+        "startzeit": "Sun, 27 Oct 2024 16:36:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4055",
+          "lng": "13.5327"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +106,12 @@
           "emun": "Mattighofen",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Mattighofen",
         "einsatzsubtyp": {
@@ -78,12 +125,26 @@
         "feuerwehren": {
           "400212": {
             "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          },
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
+          "400222": {
+            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Mattighofen (33212)",
             "fwnr": 400212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
+            "fwnr": 400222
           }
         },
         "inzeit": "",
