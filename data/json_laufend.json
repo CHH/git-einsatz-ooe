@@ -1,25 +1,72 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ohlsdorf",
-          "earea": "Ohlsdorf",
+          "default": "Schildorn",
+          "earea": "Schildorn",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ohlsdorf",
+          "emun": "Schildorn",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 8,
+          "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Schildorn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408227": {
+            "feuerwehr": "Feuerwehr/Florian Schildorn (43227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schildorn (43227)",
+            "fwnr": 408227
+          }
+        },
+        "inzeit": "",
+        "num1": "E241003988",
+        "startzeit": "Mon, 28 Oct 2024 18:11:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1469",
+          "lng": "13.4644"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aurolzmünster",
+          "earea": "Aurolzmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aurolzmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
-        "einsatzort": "GM - Ohlsdorf",
+        "einsatzort": "RI - Aurolzmünster",
         "einsatzsubtyp": {
           "id": "BMA1-BR",
           "text": "Brandmeldealarm"
@@ -29,23 +76,37 @@
           "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "403216": {
-            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          "408105": {
+            "feuerwehr": "Feuerwehr/Florian Aurolzmünster (43105)"
+          },
+          "408111": {
+            "feuerwehr": "Feuerwehr/Florian Forchtenau (43111)"
+          },
+          "408123": {
+            "feuerwehr": "Feuerwehr/Florian Weierfing (43123)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
-            "fwnr": 403216
+            "fwname": "Feuerwehr/Florian Aurolzmünster (43105)",
+            "fwnr": 408105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Forchtenau (43111)",
+            "fwnr": 408111
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Weierfing (43123)",
+            "fwnr": 408123
           }
         },
         "inzeit": "",
-        "num1": "E241003985",
-        "startzeit": "Mon, 28 Oct 2024 17:54:32 +0100",
+        "num1": "E241003987",
+        "startzeit": "Mon, 28 Oct 2024 18:11:06 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9629",
-          "lng": "13.7936"
+          "lat": "48.2299",
+          "lng": "13.4618"
         }
       }
     },
