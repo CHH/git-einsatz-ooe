@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "GASAUSTR-SCHAD",
+          "text": "Gasaustritt"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "406218": {
+            "feuerwehr": "Feuerwehr/Florian Rufling (39218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rufling (39218)",
+            "fwnr": 406218
+          }
+        },
+        "inzeit": "",
+        "num1": "E241004039",
+        "startzeit": "Tue, 29 Oct 2024 08:45:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2787",
+          "lng": "14.2156"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,60 +187,6 @@
         "wgs84": {
           "lat": "47.8554",
           "lng": "14.662"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ohlsdorf",
-          "earea": "Ohlsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ohlsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Ohlsdorf",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "403202": {
-            "feuerwehr": "Feuerwehr/Florian Aurachkirchen (36202)"
-          },
-          "403216": {
-            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aurachkirchen (36202)",
-            "fwnr": 403202
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
-            "fwnr": 403216
-          }
-        },
-        "inzeit": "",
-        "num1": "E241004031",
-        "startzeit": "Tue, 29 Oct 2024 07:10:45 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9716",
-          "lng": "13.7469"
         }
       }
     },
