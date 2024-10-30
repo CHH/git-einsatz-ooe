@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Oberwang",
+          "earea": "Oberwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Oberwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Oberwang",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413211": {
+            "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberwang (50211)",
+            "fwnr": 413211
+          }
+        },
+        "inzeit": "",
+        "num1": "E241004117",
+        "startzeit": "Wed, 30 Oct 2024 01:24:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8696",
+          "lng": "13.4324"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Georgen im Attergau",
+          "earea": "St. Georgen im Attergau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Georgen im Attergau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - St. Georgen im Attergau",
+        "einsatzsubtyp": {
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
+        },
+        "feuerwehren": {
+          "413212": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Lorenz (50212)"
+          },
+          "413518": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen im Attergau (50518)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Lorenz (50212)",
+            "fwnr": 413212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen im Attergau (50518)",
+            "fwnr": 413518
+          }
+        },
+        "inzeit": "",
+        "num1": "E241004116",
+        "startzeit": "Wed, 30 Oct 2024 00:23:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9359",
+          "lng": "13.4883"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
