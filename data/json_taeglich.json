@@ -1,7 +1,116 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gunskirchen",
+          "earea": "Gunskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gunskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Gunskirchen",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "414107": {
+            "feuerwehr": "Feuerwehr/Florian Edt-Winkling (51107)"
+          },
+          "414205": {
+            "feuerwehr": "Feuerwehr/Florian Fernreith (51205)"
+          },
+          "414209": {
+            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Edt-Winkling (51107)",
+            "fwnr": 414107
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Fernreith (51205)",
+            "fwnr": 414205
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
+            "fwnr": 414209
+          }
+        },
+        "inzeit": "",
+        "num1": "E241004245",
+        "startzeit": "Thu, 31 Oct 2024 02:09:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1738",
+          "lng": "13.9474"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Arbing",
+          "earea": "Arbing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Arbing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Arbing",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "407302": {
+            "feuerwehr": "Feuerwehr/Florian Arbing (42302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Arbing (42302)",
+            "fwnr": 407302
+          }
+        },
+        "inzeit": "Thu, 31 Oct 2024 02:39:00 +0100",
+        "num1": "E241004244",
+        "startzeit": "Thu, 31 Oct 2024 02:03:34 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2301",
+          "lng": "14.6991"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
