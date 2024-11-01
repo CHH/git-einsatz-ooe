@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100010",
+        "startzeit": "Fri, 01 Nov 2024 07:56:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2455",
+          "lng": "14.5042"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 403215
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 01 Nov 2024 07:30:00 +0100",
         "num1": "E241100002",
         "startzeit": "Fri, 01 Nov 2024 06:33:58 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9529",
           "lng": "13.8187"
