@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schalchen",
+          "earea": "Schalchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schalchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Schalchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          }
+        },
+        "inzeit": "Sat, 02 Nov 2024 03:34:00 +0100",
+        "num1": "E241100112",
+        "startzeit": "Sat, 02 Nov 2024 03:32:48 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1194",
+          "lng": "13.1549"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 7,
+        "cntfeuerwehren": 9,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Auerbach",
         "einsatzsubtyp": {
@@ -34,6 +81,12 @@
           },
           "400203": {
             "feuerwehr": "Feuerwehr/Florian Feldkirchen bei Mattighofen (33203)"
+          },
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          },
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
           },
           "400216": {
             "feuerwehr": "Feuerwehr/Florian Pfaffstätt (33216)"
@@ -61,22 +114,30 @@
             "fwnr": 400203
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Pfaffstätt (33216)",
             "fwnr": 400216
           },
-          "3": {
+          "5": {
             "fwname": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)",
             "fwnr": 400217
           },
-          "4": {
+          "6": {
             "fwname": "Feuerwehr/Florian Kirchberg bei Mattighofen (33221)",
             "fwnr": 400221
           },
-          "5": {
+          "7": {
             "fwname": "Feuerwehr/Florian Stallhofen (33222)",
             "fwnr": 400222
           },
-          "6": {
+          "8": {
             "fwname": "Feuerwehr/Florian Wagenham (33226)",
             "fwnr": 400226
           }
