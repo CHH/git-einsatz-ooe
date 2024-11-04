@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 30,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 34,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünbach",
+          "earea": "Grünbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Grünbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402411": {
+            "feuerwehr": "Feuerwehr/Florian Mitterbach (35411)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mitterbach (35411)",
+            "fwnr": 402411
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100325",
+        "startzeit": "Mon, 04 Nov 2024 16:00:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5406",
+          "lng": "14.5864"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwertberg",
+          "earea": "Schwertberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwertberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - Schwertberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "407201": {
+            "feuerwehr": "Feuerwehr/Florian Aisting-Furth (42201)"
+          },
+          "407216": {
+            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aisting-Furth (42201)",
+            "fwnr": 407201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
+            "fwnr": 407216
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100317",
+        "startzeit": "Mon, 04 Nov 2024 15:33:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2527",
+          "lng": "14.585"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "Mon, 04 Nov 2024 16:04:00 +0100",
+        "num1": "E241100316",
+        "startzeit": "Mon, 04 Nov 2024 15:28:57 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +194,10 @@
             "fwnr": 407210
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 04 Nov 2024 16:05:00 +0100",
         "num1": "E241100312",
         "startzeit": "Mon, 04 Nov 2024 14:56:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2455",
           "lng": "14.5042"
@@ -140,10 +288,10 @@
             "fwnr": 400408
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 04 Nov 2024 15:37:00 +0100",
         "num1": "E241100307",
         "startzeit": "Mon, 04 Nov 2024 14:11:12 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1475",
           "lng": "12.8395"
@@ -417,10 +565,10 @@
             "fwnr": 403118
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 04 Nov 2024 16:09:00 +0100",
         "num1": "E241100296",
         "startzeit": "Mon, 04 Nov 2024 12:44:30 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7391",
           "lng": "13.4478"
