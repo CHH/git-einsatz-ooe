@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hochburg-Ach",
+          "earea": "Hochburg-Ach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hochburg-Ach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Hochburg-Ach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400408": {
+            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hochburg (33408)",
+            "fwnr": 400408
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100307",
+        "startzeit": "Mon, 04 Nov 2024 14:11:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1475",
+          "lng": "12.8395"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Mattighofen",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Mattighofen",
         "einsatzsubtyp": {
@@ -32,11 +79,20 @@
           "400212": {
             "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
           },
+          "400216": {
+            "feuerwehr": "Feuerwehr/Florian Pfaffstätt (33216)"
+          },
           "400219": {
             "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
           },
+          "400222": {
+            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
+          },
           "400227": {
             "feuerwehr": "Feuerwehr/Florian Furth-Unterlochen (33227)"
+          },
+          "400302": {
+            "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
           }
         },
         "feuerwehrenarray": {
@@ -45,12 +101,24 @@
             "fwnr": 400212
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Pfaffstätt (33216)",
+            "fwnr": 400216
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Schalchen (33219)",
             "fwnr": 400219
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
+            "fwnr": 400222
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Furth-Unterlochen (33227)",
             "fwnr": 400227
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Aspach (33302)",
+            "fwnr": 400302
           }
         },
         "inzeit": "",
