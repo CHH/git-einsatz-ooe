@@ -5,6 +5,60 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Schwertberg",
+          "earea": "Schwertberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwertberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "PE - Schwertberg",
+        "einsatzsubtyp": {
+          "id": "BMA4-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "407201": {
+            "feuerwehr": "Feuerwehr/Florian Aisting-Furth (42201)"
+          },
+          "407216": {
+            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aisting-Furth (42201)",
+            "fwnr": 407201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
+            "fwnr": 407216
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100404",
+        "startzeit": "Tue, 05 Nov 2024 08:58:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2734",
+          "lng": "14.5798"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Großraming",
           "earea": "Großraming",
           "ecompl": "",
@@ -118,7 +172,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "GM - Ebensee",
         "einsatzsubtyp": {
@@ -133,6 +187,9 @@
           "403103": {
             "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
           },
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Traunkirchen"
           }
@@ -143,10 +200,14 @@
             "fwnr": 403103
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "2": {
             "fwname": "ÖWR Ebensee",
             "fwnr": 418920
           },
-          "2": {
+          "3": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           }
@@ -158,60 +219,6 @@
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gosau",
-          "earea": "Gosau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gosau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Gosau",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "403104": {
-            "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
-          },
-          "403117": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gosau (36104)",
-            "fwnr": 403104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
-            "fwnr": 403117
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100385",
-        "startzeit": "Tue, 05 Nov 2024 06:51:29 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.5773",
-          "lng": "13.5281"
         }
       }
     },
