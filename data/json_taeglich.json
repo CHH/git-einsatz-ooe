@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 80,
-  "cnt_feuerwehren": 76,
+  "cnt_einsaetze": 83,
+  "cnt_feuerwehren": 78,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberschwang",
+          "earea": "Eberschwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberschwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Eberschwang",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "408214": {
+            "feuerwehr": "Feuerwehr/Florian Leopoldshofstatt (43214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leopoldshofstatt (43214)",
+            "fwnr": 408214
+          }
+        },
+        "inzeit": "Wed, 06 Nov 2024 21:09:00 +0100",
+        "num1": "E241100655",
+        "startzeit": "Wed, 06 Nov 2024 20:59:18 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1461",
+          "lng": "13.5744"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Wimsbach-Neydharting",
+          "earea": "Bad Wimsbach-Neydharting",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Wimsbach-Neydharting",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Bad Wimsbach-Neydharting",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414104": {
+            "feuerwehr": "Feuerwehr/Florian Bergham-Kösslwang (51104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bergham-Kösslwang (51104)",
+            "fwnr": 414104
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100654",
+        "startzeit": "Wed, 06 Nov 2024 20:41:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0399",
+          "lng": "13.8828"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          }
+        },
+        "inzeit": "Wed, 06 Nov 2024 21:01:00 +0100",
+        "num1": "E241100652",
+        "startzeit": "Wed, 06 Nov 2024 20:15:04 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +180,10 @@
             "fwnr": 414101
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:01:00 +0100",
         "num1": "E241100651",
         "startzeit": "Wed, 06 Nov 2024 20:08:35 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1092",
           "lng": "13.79"
@@ -59,31 +200,38 @@
           "emun": "Grein",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "PE - Grein",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
         },
         "feuerwehren": {
           "407104": {
             "feuerwehr": "Feuerwehr/Florian Grein (42104)"
+          },
+          "407312": {
+            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Grein (42104)",
             "fwnr": 407104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Perg (42312)",
+            "fwnr": 407312
           }
         },
         "inzeit": "",
@@ -274,10 +422,10 @@
             "fwnr": 413312
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:24:00 +0100",
         "num1": "E241100646",
         "startzeit": "Wed, 06 Nov 2024 19:46:19 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0416",
           "lng": "13.7912"
@@ -368,10 +516,10 @@
             "fwnr": 403102
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:01:00 +0100",
         "num1": "E241100644",
         "startzeit": "Wed, 06 Nov 2024 19:44:34 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7109",
           "lng": "13.6262"
@@ -509,10 +657,10 @@
             "fwnr": 408211
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:43:00 +0100",
         "num1": "E241100641",
         "startzeit": "Wed, 06 Nov 2024 19:38:32 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1552",
           "lng": "13.4345"
@@ -603,10 +751,10 @@
             "fwnr": 400112
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:29:00 +0100",
         "num1": "E241100639",
         "startzeit": "Wed, 06 Nov 2024 19:37:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1791",
           "lng": "12.9656"
@@ -838,10 +986,10 @@
             "fwnr": 408121
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:32:00 +0100",
         "num1": "E241100632",
         "startzeit": "Wed, 06 Nov 2024 19:30:06 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2298",
           "lng": "13.4996"
@@ -932,10 +1080,10 @@
             "fwnr": 403106
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:19:00 +0100",
         "num1": "E241100630",
         "startzeit": "Wed, 06 Nov 2024 19:27:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.724",
           "lng": "13.6191"
@@ -1073,10 +1221,10 @@
             "fwnr": 413502
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:35:00 +0100",
         "num1": "E241100625",
         "startzeit": "Wed, 06 Nov 2024 19:19:57 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9346",
           "lng": "13.5124"
@@ -1120,10 +1268,10 @@
             "fwnr": 407304
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:39:00 +0100",
         "num1": "E241100624",
         "startzeit": "Wed, 06 Nov 2024 19:19:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2152",
           "lng": "14.7436"
@@ -1167,10 +1315,10 @@
             "fwnr": 408230
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:08:00 +0100",
         "num1": "E241100622",
         "startzeit": "Wed, 06 Nov 2024 19:17:11 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1515",
           "lng": "13.5388"
@@ -1214,10 +1362,10 @@
             "fwnr": 403217
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:15:00 +0100",
         "num1": "E241100621",
         "startzeit": "Wed, 06 Nov 2024 19:14:23 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9281",
           "lng": "13.771"
@@ -1308,10 +1456,10 @@
             "fwnr": 405105
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:28:00 +0100",
         "num1": "E241100618",
         "startzeit": "Wed, 06 Nov 2024 19:12:29 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8837",
           "lng": "14.2554"
@@ -1402,10 +1550,10 @@
             "fwnr": 414226
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:17:00 +0100",
         "num1": "E241100615",
         "startzeit": "Wed, 06 Nov 2024 19:09:39 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1381",
           "lng": "14.0475"
@@ -1449,10 +1597,10 @@
             "fwnr": 414119
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:14:00 +0100",
         "num1": "E241100614",
         "startzeit": "Wed, 06 Nov 2024 19:09:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0758",
           "lng": "14.0134"
@@ -1543,10 +1691,10 @@
             "fwnr": 409411
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:42:00 +0100",
         "num1": "E241100612",
         "startzeit": "Wed, 06 Nov 2024 19:06:10 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.6034",
           "lng": "13.8399"
@@ -1590,10 +1738,10 @@
             "fwnr": 413421
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:01:00 +0100",
         "num1": "E241100609",
         "startzeit": "Wed, 06 Nov 2024 19:03:59 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9712",
           "lng": "13.7053"
@@ -1637,10 +1785,10 @@
             "fwnr": 406218
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:43:00 +0100",
         "num1": "E241100608",
         "startzeit": "Wed, 06 Nov 2024 19:03:13 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2787",
           "lng": "14.2156"
@@ -1684,10 +1832,10 @@
             "fwnr": 406212
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:31:00 +0100",
         "num1": "E241100607",
         "startzeit": "Wed, 06 Nov 2024 19:02:45 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2799",
           "lng": "14.2457"
@@ -1731,10 +1879,10 @@
             "fwnr": 412127
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:19:00 +0100",
         "num1": "E241100606",
         "startzeit": "Wed, 06 Nov 2024 19:02:25 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.466",
           "lng": "14.2649"
@@ -2013,10 +2161,10 @@
             "fwnr": 412209
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 21:00:00 +0100",
         "num1": "E241100600",
         "startzeit": "Wed, 06 Nov 2024 18:44:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.335",
           "lng": "14.1625"
@@ -2060,10 +2208,10 @@
             "fwnr": 400226
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:23:00 +0100",
         "num1": "E241100599",
         "startzeit": "Wed, 06 Nov 2024 18:41:12 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0949",
           "lng": "13.1115"
@@ -2161,10 +2309,10 @@
             "fwnr": 406307
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:39:00 +0100",
         "num1": "E241100594",
         "startzeit": "Wed, 06 Nov 2024 18:38:01 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1533",
           "lng": "14.1725"
@@ -2208,10 +2356,10 @@
             "fwnr": 406222
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:47:00 +0100",
         "num1": "E241100593",
         "startzeit": "Wed, 06 Nov 2024 18:35:43 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2254",
           "lng": "14.252"
@@ -2255,10 +2403,10 @@
             "fwnr": 412218
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:09:00 +0100",
         "num1": "E241100592",
         "startzeit": "Wed, 06 Nov 2024 18:18:34 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3368",
           "lng": "14.177"
@@ -2396,10 +2544,10 @@
             "fwnr": 408312
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 06 Nov 2024 20:25:00 +0100",
         "num1": "E241100589",
         "startzeit": "Wed, 06 Nov 2024 18:06:06 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3125",
           "lng": "13.3235"
