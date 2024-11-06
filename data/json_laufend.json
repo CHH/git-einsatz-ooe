@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aichkirchen",
+          "earea": "Aichkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aichkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Aichkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414101": {
+            "feuerwehr": "Feuerwehr/Florian Aichkirchen (51101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aichkirchen (51101)",
+            "fwnr": 414101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100519",
+        "startzeit": "Wed, 06 Nov 2024 06:42:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1092",
+          "lng": "13.79"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "LL - Niederneukirchen",
         "einsatzsubtyp": {
@@ -34,6 +81,9 @@
           },
           "406312": {
             "feuerwehr": "Feuerwehr/Florian Weichstetten (39312)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           }
         },
         "feuerwehrenarray": {
@@ -44,6 +94,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Weichstetten (39312)",
             "fwnr": 406312
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
