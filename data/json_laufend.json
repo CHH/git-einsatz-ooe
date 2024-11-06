@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberschwang",
+          "earea": "Eberschwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberschwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Eberschwang",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "408214": {
+            "feuerwehr": "Feuerwehr/Florian Leopoldshofstatt (43214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leopoldshofstatt (43214)",
+            "fwnr": 408214
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100655",
+        "startzeit": "Wed, 06 Nov 2024 20:59:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1461",
+          "lng": "13.5744"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,100 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100652",
-        "startzeit": "Wed, 06 Nov 2024 20:15:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Aichkirchen",
-          "earea": "Aichkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aichkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Aichkirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414101": {
-            "feuerwehr": "Feuerwehr/Florian Aichkirchen (51101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aichkirchen (51101)",
-            "fwnr": 414101
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100651",
-        "startzeit": "Wed, 06 Nov 2024 20:08:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1092",
-          "lng": "13.79"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Grein",
           "earea": "Grein",
           "ecompl": "",
@@ -153,21 +106,21 @@
           "emun": "Grein",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 7,
           "text": "Perg"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "TEE",
         "einsatzort": "PE - Grein",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
         },
         "feuerwehren": {
           "407104": {
@@ -281,53 +234,6 @@
         "wgs84": {
           "lat": "48.5234",
           "lng": "14.3603"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
-            "fwnr": 403102
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100644",
-        "startzeit": "Wed, 06 Nov 2024 19:44:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7109",
-          "lng": "13.6262"
         }
       }
     },
@@ -898,53 +804,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Regau",
-          "earea": "Regau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Regau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Regau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413421": {
-            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
-            "fwnr": 413421
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100609",
-        "startzeit": "Wed, 06 Nov 2024 19:03:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9712",
-          "lng": "13.7053"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ebensee",
           "earea": "Ebensee",
           "ecompl": "",
@@ -1033,53 +892,6 @@
         "wgs84": {
           "lat": "47.9785",
           "lng": "13.6119"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ottensheim",
-          "earea": "Ottensheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ottensheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Ottensheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412209": {
-            "feuerwehr": "Feuerwehr/Florian Höflein (49209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Höflein (49209)",
-            "fwnr": 412209
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100600",
-        "startzeit": "Wed, 06 Nov 2024 18:44:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.335",
-          "lng": "14.1625"
         }
       }
     }
