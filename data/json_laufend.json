@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenmarkt",
+          "earea": "Frankenmarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenmarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Frankenmarkt",
+        "einsatzsubtyp": {
+          "id": "PERSUNTFZG-VU",
+          "text": "Person unter Fahrzeug – Maschine   "
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-UNT-FZG",
+          "text": "Person unter Fahrzeug - Maschine"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          },
+          "413126": {
+            "feuerwehr": "Feuerwehr/Florian Pöndorf (50126)"
+          },
+          "413129": {
+            "feuerwehr": "Feuerwehr/Florian Raspoldsedt (50129)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pöndorf (50126)",
+            "fwnr": 413126
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Raspoldsedt (50129)",
+            "fwnr": 413129
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100798",
+        "startzeit": "Fri, 08 Nov 2024 00:37:11 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9851",
+          "lng": "13.4109"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,116 +154,6 @@
         "wgs84": {
           "lat": "48.186",
           "lng": "13.9001"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Fornach",
-          "earea": "Fornach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Fornach",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 10,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Fornach",
-        "einsatzsubtyp": {
-          "id": "LANDWIRT-BR",
-          "text": "Brand landwirtschaftliches Objekt"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB-LANDWIRT",
-          "text": "Brand landwirtschaftliches Objekt"
-        },
-        "feuerwehren": {
-          "413104": {
-            "feuerwehr": "Feuerwehr/Florian Badstuben (50104)"
-          },
-          "413108": {
-            "feuerwehr": "Feuerwehr/Florian Fornach (50108)"
-          },
-          "413111": {
-            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
-          },
-          "413118": {
-            "feuerwehr": "Feuerwehr/Florian Mösendorf (50118)"
-          },
-          "413120": {
-            "feuerwehr": "Feuerwehr/Florian Oberalberting (50120)"
-          },
-          "413125": {
-            "feuerwehr": "Feuerwehr/Florian Pfaffing (50125)"
-          },
-          "413126": {
-            "feuerwehr": "Feuerwehr/Florian Pöndorf (50126)"
-          },
-          "413129": {
-            "feuerwehr": "Feuerwehr/Florian Raspoldsedt (50129)"
-          },
-          "413142": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklamarkt (50142)"
-          },
-          "413148": {
-            "feuerwehr": "Feuerwehr/Florian Wilding-Mühlberg (50148)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Badstuben (50104)",
-            "fwnr": 413104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Fornach (50108)",
-            "fwnr": 413108
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
-            "fwnr": 413111
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Mösendorf (50118)",
-            "fwnr": 413118
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Oberalberting (50120)",
-            "fwnr": 413120
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Pfaffing (50125)",
-            "fwnr": 413125
-          },
-          "6": {
-            "fwname": "Feuerwehr/Florian Pöndorf (50126)",
-            "fwnr": 413126
-          },
-          "7": {
-            "fwname": "Feuerwehr/Florian Raspoldsedt (50129)",
-            "fwnr": 413129
-          },
-          "8": {
-            "fwname": "Feuerwehr/Florian Vöcklamarkt (50142)",
-            "fwnr": 413142
-          },
-          "9": {
-            "fwname": "Feuerwehr/Florian Wilding-Mühlberg (50148)",
-            "fwnr": 413148
-          }
-        },
-        "inzeit": "",
-        "num1": "E241100713",
-        "startzeit": "Thu, 07 Nov 2024 14:41:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0196",
-          "lng": "13.4311"
         }
       }
     },
