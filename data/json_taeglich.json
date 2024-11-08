@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E241100801",
+        "startzeit": "Fri, 08 Nov 2024 06:47:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 410642
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 08 Nov 2024 07:18:00 +0100",
         "num1": "E241100799",
         "startzeit": "Fri, 08 Nov 2024 05:56:25 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5199",
           "lng": "13.5897"
