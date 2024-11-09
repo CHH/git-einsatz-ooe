@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "411313": {
+            "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
+          },
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          },
+          "411317": {
+            "feuerwehr": "Feuerwehr/Florian Trattenbach (46317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schattleiten (46313)",
+            "fwnr": 411313
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Trattenbach (46317)",
+            "fwnr": 411317
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101097",
+        "startzeit": "Sat, 09 Nov 2024 22:18:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9205",
+          "lng": "14.3411"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +248,6 @@
         "wgs84": {
           "lat": "48.327",
           "lng": "13.7824"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405207": {
-            "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
-            "fwnr": 405207
-          }
-        },
-        "inzeit": "",
-        "num1": "E241101034",
-        "startzeit": "Sat, 09 Nov 2024 14:00:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9401",
-          "lng": "14.0476"
         }
       }
     },
