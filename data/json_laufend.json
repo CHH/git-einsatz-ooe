@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steinerkirchen an der Traun",
+          "earea": "Steinerkirchen an der Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steinerkirchen an der Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Steinerkirchen an der Traun",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414119": {
+            "feuerwehr": "Feuerwehr/Florian Wollsberg (51119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wollsberg (51119)",
+            "fwnr": 414119
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101433",
+        "startzeit": "Tue, 12 Nov 2024 18:40:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0758",
+          "lng": "14.0134"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.0275",
           "lng": "14.3229"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E241101430",
-        "startzeit": "Tue, 12 Nov 2024 18:28:07 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
         }
       }
     },
@@ -334,6 +334,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Lambach",
+          "earea": "Lambach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lambach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "WL - Lambach",
+        "einsatzsubtyp": {
+          "id": "SONST-KL",
+          "text": "Kleinalarm technisch"
+        },
+        "einsatztyp": {
+          "id": "KL-SONST",
+          "text": "Kleinalarm technisch"
+        },
+        "feuerwehren": {
+          "414111": {
+            "feuerwehr": "Feuerwehr/Florian Lambach (51111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lambach (51111)",
+            "fwnr": 414111
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101423",
+        "startzeit": "Tue, 12 Nov 2024 18:35:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0914",
+          "lng": "13.868"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Lasberg",
           "earea": "Lasberg",
           "ecompl": "",
@@ -422,100 +469,6 @@
         "wgs84": {
           "lat": "48.2075",
           "lng": "13.6798"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pramet",
-          "earea": "Pramet",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pramet",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Pramet",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "408222": {
-            "feuerwehr": "Feuerwehr/Florian Pramet (43222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pramet (43222)",
-            "fwnr": 408222
-          }
-        },
-        "inzeit": "",
-        "num1": "E241101417",
-        "startzeit": "Tue, 12 Nov 2024 17:45:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1391",
-          "lng": "13.4865"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Regau",
-          "earea": "Regau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Regau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Regau",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "413419": {
-            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Regau (50419)",
-            "fwnr": 413419
-          }
-        },
-        "inzeit": "",
-        "num1": "E241101411",
-        "startzeit": "Tue, 12 Nov 2024 17:33:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9893",
-          "lng": "13.6896"
         }
       }
     },
