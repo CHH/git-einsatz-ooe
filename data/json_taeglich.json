@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hörsching",
+          "earea": "Hörsching",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hörsching",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Hörsching",
+        "einsatzsubtyp": {
+          "id": "BMA5-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406209": {
+            "feuerwehr": "Feuerwehr/Florian Hörsching (39209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hörsching (39209)",
+            "fwnr": 406209
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101626",
+        "startzeit": "Thu, 14 Nov 2024 02:03:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2243",
+          "lng": "14.1854"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 407104
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 14 Nov 2024 01:50:00 +0100",
         "num1": "E241101625",
         "startzeit": "Thu, 14 Nov 2024 00:57:34 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2284",
           "lng": "14.8498"
