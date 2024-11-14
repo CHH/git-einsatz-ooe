@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,24 +17,31 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "GR - Kallham",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "404306": {
+            "feuerwehr": "Feuerwehr/Florian Güttling (37306)"
+          },
           "404308": {
             "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Güttling (37306)",
+            "fwnr": 404306
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Kallham (37308)",
             "fwnr": 404308
           }
@@ -44,8 +51,8 @@
         "startzeit": "Thu, 14 Nov 2024 10:52:31 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2826",
-          "lng": "13.7091"
+          "lat": "48.2935",
+          "lng": "13.6826"
         }
       }
     },
@@ -100,57 +107,6 @@
         "wgs84": {
           "lat": "48.2254",
           "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E241101658",
-        "startzeit": "Thu, 14 Nov 2024 10:33:17 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
