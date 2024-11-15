@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pramet",
+          "earea": "Pramet",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pramet",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Pramet",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "408222": {
+            "feuerwehr": "Feuerwehr/Florian Pramet (43222)"
+          },
+          "413139": {
+            "feuerwehr": "Feuerwehr/Florian Steining (50139)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pramet (43222)",
+            "fwnr": 408222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steining (50139)",
+            "fwnr": 413139
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101752",
+        "startzeit": "Fri, 15 Nov 2024 05:29:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1391",
+          "lng": "13.4865"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": 414215
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 15 Nov 2024 05:31:00 +0100",
         "num1": "E241101751",
         "startzeit": "Fri, 15 Nov 2024 04:56:44 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1921",
           "lng": "14.1187"
