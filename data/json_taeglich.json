@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 45,
-  "cnt_feuerwehren": 46,
+  "cnt_einsaetze": 48,
+  "cnt_feuerwehren": 51,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Münzkirchen",
+          "earea": "Münzkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Münzkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Münzkirchen",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "410315": {
+            "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          },
+          "410323": {
+            "feuerwehr": "Feuerwehr/Florian Schiessdorf (45323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
+            "fwnr": 410315
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
+            "fwnr": 410323
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101933",
+        "startzeit": "Sat, 16 Nov 2024 15:17:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4827",
+          "lng": "13.5608"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gaflenz",
+          "earea": "Gaflenz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gaflenz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Gaflenz",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411301": {
+            "feuerwehr": "Feuerwehr/Florian Gaflenz (46301)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gaflenz (46301)",
+            "fwnr": 411301
+          }
+        },
+        "inzeit": "",
+        "num1": "E241101932",
+        "startzeit": "Sat, 16 Nov 2024 15:07:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8929",
+          "lng": "14.716"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schiedlberg",
+          "earea": "Schiedlberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schiedlberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Schiedlberg",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411215": {
+            "feuerwehr": "Feuerwehr/Florian Schiedlberg (46215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schiedlberg (46215)",
+            "fwnr": 411215
+          }
+        },
+        "inzeit": "Sat, 16 Nov 2024 14:49:00 +0100",
+        "num1": "E241101929",
+        "startzeit": "Sat, 16 Nov 2024 14:25:19 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0911",
+          "lng": "14.2705"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -440,7 +588,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "FR - Rainbach im Mühlkreis",
         "einsatzsubtyp": {
@@ -455,6 +603,9 @@
           "402405": {
             "feuerwehr": "Feuerwehr/Florian Hörschlag (35405)"
           },
+          "402420": {
+            "feuerwehr": "Feuerwehr/Florian Summerau (35420)"
+          },
           "402424": {
             "feuerwehr": "Feuerwehr/Florian Zulissen (35424)"
           }
@@ -465,6 +616,10 @@
             "fwnr": 402405
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Summerau (35420)",
+            "fwnr": 402420
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Zulissen (35424)",
             "fwnr": 402424
           }
@@ -563,10 +718,10 @@
             "fwnr": 408302
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 16 Nov 2024 14:46:00 +0100",
         "num1": "E241101915",
         "startzeit": "Sat, 16 Nov 2024 13:21:36 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2678",
           "lng": "13.3013"
@@ -610,10 +765,10 @@
             "fwnr": 400211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 16 Nov 2024 15:18:00 +0100",
         "num1": "E241101914",
         "startzeit": "Sat, 16 Nov 2024 13:18:01 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1402",
           "lng": "13.2161"
@@ -657,10 +812,10 @@
             "fwnr": 402116
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 16 Nov 2024 14:52:00 +0100",
         "num1": "E241101913",
         "startzeit": "Sat, 16 Nov 2024 13:13:11 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4825",
           "lng": "14.617"
@@ -986,10 +1141,10 @@
             "fwnr": 408305
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 16 Nov 2024 14:35:00 +0100",
         "num1": "E241101903",
         "startzeit": "Sat, 16 Nov 2024 11:32:06 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.293",
           "lng": "13.2778"
