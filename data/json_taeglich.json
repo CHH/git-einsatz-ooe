@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 28,
-  "cnt_feuerwehren": 36,
+  "cnt_einsaetze": 29,
+  "cnt_feuerwehren": 38,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waizenkirchen",
+          "earea": "Waizenkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waizenkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Waizenkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404322": {
+            "feuerwehr": "Feuerwehr/Florian Unterheuberg (37322)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterheuberg (37322)",
+            "fwnr": 404322
+          }
+        },
+        "inzeit": "Sun, 17 Nov 2024 17:47:00 +0100",
+        "num1": "E241102014",
+        "startzeit": "Sun, 17 Nov 2024 17:34:02 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.334",
+          "lng": "13.813"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -133,10 +180,10 @@
             "fwnr": 406208
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Nov 2024 18:11:00 +0100",
         "num1": "E241102010",
         "startzeit": "Sun, 17 Nov 2024 17:00:00 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2652",
           "lng": "14.2551"
@@ -187,10 +234,10 @@
             "fwnr": 412210
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Nov 2024 17:36:00 +0100",
         "num1": "E241102008",
         "startzeit": "Sun, 17 Nov 2024 16:55:10 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3501",
           "lng": "14.2223"
@@ -212,7 +259,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 8,
+        "cntfeuerwehren": 9,
         "einsatzart": "TEE",
         "einsatzort": "UU - Feldkirchen an der Donau",
         "einsatzsubtyp": {
@@ -244,6 +291,9 @@
           },
           "412204": {
             "feuerwehr": "Feuerwehr/Florian Feldkirchen an der Donau (49204)"
+          },
+          "412214": {
+            "feuerwehr": "Feuerwehr/Florian Mühldorf (49214)"
           },
           "418920": {
             "feuerwehr": "ÖWR Feldkirchen"
@@ -279,6 +329,10 @@
             "fwnr": 412204
           },
           "7": {
+            "fwname": "Feuerwehr/Florian Mühldorf (49214)",
+            "fwnr": 412214
+          },
+          "8": {
             "fwname": "ÖWR Feldkirchen",
             "fwnr": 418920
           }
