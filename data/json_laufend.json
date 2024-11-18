@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Scharnstein",
+          "earea": "Scharnstein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Scharnstein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Scharnstein",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403225": {
+            "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Viechtwang (36225)",
+            "fwnr": 403225
+          }
+        },
+        "inzeit": "",
+        "num1": "E241102131",
+        "startzeit": "Mon, 18 Nov 2024 18:28:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9141",
+          "lng": "13.9645"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,67 +187,6 @@
         "wgs84": {
           "lat": "48.2057",
           "lng": "13.8143"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kremsmünster",
-          "earea": "Kremsmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kremsmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Kremsmünster",
-        "einsatzsubtyp": {
-          "id": "MEHRSTOCKGEB-BR",
-          "text": "Brand Gebäude mehrstöckig"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB-MEHRSTOCK",
-          "text": "Brand Gebäude mehrstöckig"
-        },
-        "feuerwehren": {
-          "405303": {
-            "feuerwehr": "Feuerwehr/Florian Irndorf (38303)"
-          },
-          "405304": {
-            "feuerwehr": "Feuerwehr/Florian Kremsmünster (38304)"
-          },
-          "405305": {
-            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Irndorf (38303)",
-            "fwnr": 405303
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kremsmünster (38304)",
-            "fwnr": 405304
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Krühub (38305)",
-            "fwnr": 405305
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102123",
-        "startzeit": "Mon, 18 Nov 2024 17:34:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0546",
-          "lng": "14.1325"
         }
       }
     },
