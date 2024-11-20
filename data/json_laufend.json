@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Moosdorf",
-          "earea": "Moosdorf",
+          "default": "Taiskirchen im Innkreis",
+          "earea": "Taiskirchen im Innkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Moosdorf",
+          "emun": "Taiskirchen im Innkreis",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 8,
+          "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "TEE",
-        "einsatzort": "BR - Moosdorf",
+        "einsatzort": "RI - Taiskirchen im Innkreis",
         "einsatzsubtyp": {
           "id": "BAUMSTRAßE-TE",
           "text": "Baum über Straße"
@@ -29,23 +29,84 @@
           "text": "Baum ist umgestürzt"
         },
         "feuerwehren": {
-          "400410": {
-            "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
+          "408120": {
+            "feuerwehr": "Feuerwehr/Florian Taiskirchen im Innkreis (43120)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Moosdorf (33410)",
-            "fwnr": 400410
+            "fwname": "Feuerwehr/Florian Taiskirchen im Innkreis (43120)",
+            "fwnr": 408120
           }
         },
         "inzeit": "",
-        "num1": "E241102296",
-        "startzeit": "Wed, 20 Nov 2024 04:57:11 +0100",
+        "num1": "E241102299",
+        "startzeit": "Wed, 20 Nov 2024 05:31:03 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.047",
-          "lng": "12.9893"
+          "lat": "48.2644",
+          "lng": "13.5752"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Nikola (46105)"
+          },
+          "411106": {
+            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Nikola (46105)",
+            "fwnr": 411105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
+            "fwnr": 411106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "",
+        "num1": "E241102298",
+        "startzeit": "Wed, 20 Nov 2024 05:23:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.014",
+          "lng": "14.2774"
         }
       }
     },
