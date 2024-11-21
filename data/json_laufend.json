@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Ägidi",
+          "earea": "St. Ägidi",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Ägidi",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - St. Ägidi",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410115": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Ägidi (45115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Ägidi (45115)",
+            "fwnr": 410115
+          }
+        },
+        "inzeit": "",
+        "num1": "E241102511",
+        "startzeit": "Thu, 21 Nov 2024 18:10:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4791",
+          "lng": "13.7381"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.3592",
           "lng": "14.8967"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sattledt",
-          "earea": "Sattledt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sattledt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Sattledt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414218": {
-            "feuerwehr": "Feuerwehr/Florian Sattledt (51218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sattledt (51218)",
-            "fwnr": 414218
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102508",
-        "startzeit": "Thu, 21 Nov 2024 17:46:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0721",
-          "lng": "14.0524"
         }
       }
     },
@@ -200,60 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
-          },
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kappern (51212)",
-            "fwnr": 414212
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102505",
-        "startzeit": "Thu, 21 Nov 2024 17:33:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Asten",
           "earea": "Asten",
           "ecompl": "",
@@ -295,107 +241,6 @@
         "wgs84": {
           "lat": "48.2186",
           "lng": "14.4232"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pichl bei Wels",
-          "earea": "Pichl bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pichl bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Pichl bei Wels",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414207": {
-            "feuerwehr": "Feuerwehr/Florian Geisensheim (51207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geisensheim (51207)",
-            "fwnr": 414207
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102503",
-        "startzeit": "Thu, 21 Nov 2024 17:05:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.195",
-          "lng": "13.9243"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wallern an der Trattnach",
-          "earea": "Wallern an der Trattnach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wallern an der Trattnach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GR - Wallern an der Trattnach",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "404129": {
-            "feuerwehr": "Feuerwehr/Florian Wallern an der Trattnach (37129)"
-          },
-          "414210": {
-            "feuerwehr": "Feuerwehr/Florian Haiding (51210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wallern an der Trattnach (37129)",
-            "fwnr": 404129
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Haiding (51210)",
-            "fwnr": 414210
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102502",
-        "startzeit": "Thu, 21 Nov 2024 16:58:20 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2342",
-          "lng": "13.9497"
         }
       }
     },
