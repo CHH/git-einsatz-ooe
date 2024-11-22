@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -76,12 +76,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
           "403110": {
             "feuerwehr": "Feuerwehr/Florian Mitterweissenbach (36110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Mitterweissenbach (36110)",
             "fwnr": 403110
           }
@@ -93,147 +100,6 @@
         "wgs84": {
           "lat": "47.7403",
           "lng": "13.661"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mondsee",
-          "earea": "Mondsee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mondsee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Mondsee",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "413208": {
-            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mondsee (50208)",
-            "fwnr": 413208
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102560",
-        "startzeit": "Fri, 22 Nov 2024 06:04:42 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8574",
-          "lng": "13.3434"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Attnang-Puchheim",
-          "earea": "Attnang-Puchheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Attnang-Puchheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Attnang-Puchheim",
-        "einsatzsubtyp": {
-          "id": "SIRFEUER-SELBST",
-          "text": "Sirenenprogramm FEUER von FW ausgelöst"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413417": {
-            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Puchheim (50417)",
-            "fwnr": 413417
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102558",
-        "startzeit": "Fri, 22 Nov 2024 05:54:44 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0017",
-          "lng": "13.7159"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eferding",
-          "earea": "Eferding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eferding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Eferding",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "401103": {
-            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eferding (34103)",
-            "fwnr": 401103
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102555",
-        "startzeit": "Fri, 22 Nov 2024 04:43:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3005",
-          "lng": "14.0175"
         }
       }
     },
