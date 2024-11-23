@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Oberkappel",
+          "earea": "Oberkappel",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Oberkappel",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RO - Oberkappel",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "409206": {
+            "feuerwehr": "Feuerwehr/Florian Mollmannsreith (44206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mollmannsreith (44206)",
+            "fwnr": 409206
+          }
+        },
+        "inzeit": "",
+        "num1": "E241102730",
+        "startzeit": "Sat, 23 Nov 2024 02:46:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5727",
+          "lng": "13.8322"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "402119": {
             "feuerwehr": "Feuerwehr/Florian Matzelsdorf (35119)"
+          },
+          "402121": {
+            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
             "fwnr": 402119
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
           }
         },
         "inzeit": "",
@@ -46,100 +100,6 @@
         "wgs84": {
           "lat": "48.4114",
           "lng": "14.5046"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Inzersdorf im Kremstal",
-          "earea": "Inzersdorf im Kremstal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Inzersdorf im Kremstal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Inzersdorf im Kremstal",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "405207": {
-            "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
-            "fwnr": 405207
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102727",
-        "startzeit": "Sat, 23 Nov 2024 00:44:05 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.928",
-          "lng": "14.0816"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Inzersdorf im Kremstal",
-          "earea": "Inzersdorf im Kremstal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Inzersdorf im Kremstal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Inzersdorf im Kremstal",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "405207": {
-            "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
-            "fwnr": 405207
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102724",
-        "startzeit": "Fri, 22 Nov 2024 23:52:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.928",
-          "lng": "14.0816"
         }
       }
     },
