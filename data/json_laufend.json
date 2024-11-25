@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Micheldorf in OÖ",
+          "earea": "Micheldorf in OÖ",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Micheldorf in OÖ",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Micheldorf in OÖ",
+        "einsatzsubtyp": {
+          "id": "PERSLKW-VU",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-LKW",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "feuerwehren": {
+          "405102": {
+            "feuerwehr": "Feuerwehr/Florian Frauenstein (38102)"
+          },
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          },
+          "405208": {
+            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frauenstein (38102)",
+            "fwnr": 405102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
+            "fwnr": 405208
+          }
+        },
+        "inzeit": "",
+        "num1": "E241102979",
+        "startzeit": "Mon, 25 Nov 2024 21:21:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8777",
+          "lng": "14.1319"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -144,53 +205,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Nußbach",
-          "earea": "Nußbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Nußbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Nußbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405209": {
-            "feuerwehr": "Feuerwehr/Florian Nußbach (38209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nußbach (38209)",
-            "fwnr": 405209
-          }
-        },
-        "inzeit": "",
-        "num1": "E241102972",
-        "startzeit": "Mon, 25 Nov 2024 19:35:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9724",
-          "lng": "14.1631"
         }
       }
     },
