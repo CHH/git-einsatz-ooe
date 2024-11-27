@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Moosdorf",
+          "earea": "Moosdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Moosdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Moosdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400406": {
+            "feuerwehr": "Feuerwehr/Florian Hackenbuch (BR) (33406)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hackenbuch (BR) (33406)",
+            "fwnr": 400406
+          }
+        },
+        "inzeit": "",
+        "num1": "E241103258",
+        "startzeit": "Wed, 27 Nov 2024 19:59:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "12.9478"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -328,61 +375,6 @@
         "wgs84": {
           "lat": "48.3308",
           "lng": "14.6181"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "CONTAINER-BR",
-          "text": "Brand Container im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 1 Innere Stadt (47101)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
-            "fwnr": 415101
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E241103247",
-        "startzeit": "Wed, 27 Nov 2024 19:28:26 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0363",
-          "lng": "14.3924"
         }
       }
     },
