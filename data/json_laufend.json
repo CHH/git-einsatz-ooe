@@ -1,7 +1,58 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241103296",
+        "startzeit": "Thu, 28 Nov 2024 09:37:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +68,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "EF - Alkoven",
         "einsatzsubtyp": {
@@ -35,6 +86,9 @@
           "401114": {
             "feuerwehr": "Feuerwehr/Florian Polsing (34114)"
           },
+          "406202": {
+            "feuerwehr": "Feuerwehr/Florian Axberg (39202)"
+          },
           "406211": {
             "feuerwehr": "Feuerwehr/Florian Kirchberg-Thening (39211)"
           }
@@ -49,6 +103,10 @@
             "fwnr": 401114
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Axberg (39202)",
+            "fwnr": 406202
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Kirchberg-Thening (39211)",
             "fwnr": 406211
           }
@@ -60,107 +118,6 @@
         "wgs84": {
           "lat": "48.2876",
           "lng": "14.1102"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Freinberg",
-          "earea": "Freinberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Freinberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "SD - Freinberg",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "410305": {
-            "feuerwehr": "Feuerwehr/Florian Freinberg (45305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freinberg (45305)",
-            "fwnr": 410305
-          }
-        },
-        "inzeit": "",
-        "num1": "E241103284",
-        "startzeit": "Thu, 28 Nov 2024 07:53:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5654",
-          "lng": "13.5209"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neukirchen an der Enknach",
-          "earea": "Neukirchen an der Enknach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neukirchen an der Enknach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Neukirchen an der Enknach",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "400108": {
-            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
-          },
-          "400304": {
-            "feuerwehr": "Feuerwehr/Florian Burgkirchen (33304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
-            "fwnr": 400108
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
-            "fwnr": 400304
-          }
-        },
-        "inzeit": "",
-        "num1": "E241103283",
-        "startzeit": "Thu, 28 Nov 2024 07:32:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.18",
-          "lng": "13.05"
         }
       }
     },
