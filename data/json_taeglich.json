@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Freinberg",
+          "earea": "Freinberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Freinberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Freinberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "410305": {
+            "feuerwehr": "Feuerwehr/Florian Freinberg (45305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Freinberg (45305)",
+            "fwnr": 410305
+          }
+        },
+        "inzeit": "",
+        "num1": "E241103284",
+        "startzeit": "Thu, 28 Nov 2024 07:53:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5654",
+          "lng": "13.5209"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Enknach",
+          "earea": "Neukirchen an der Enknach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Enknach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Neukirchen an der Enknach",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400108": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
+          },
+          "400304": {
+            "feuerwehr": "Feuerwehr/Florian Burgkirchen (33304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
+            "fwnr": 400108
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
+            "fwnr": 400304
+          }
+        },
+        "inzeit": "",
+        "num1": "E241103283",
+        "startzeit": "Thu, 28 Nov 2024 07:32:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.18",
+          "lng": "13.05"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +140,10 @@
             "fwnr": 406201
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 28 Nov 2024 08:06:00 +0100",
         "num1": "E241103277",
         "startzeit": "Thu, 28 Nov 2024 06:53:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2097",
           "lng": "14.2881"
@@ -86,10 +187,10 @@
             "fwnr": 408223
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 28 Nov 2024 07:53:00 +0100",
         "num1": "E241103276",
         "startzeit": "Thu, 28 Nov 2024 06:51:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
