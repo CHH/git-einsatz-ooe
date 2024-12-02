@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gschwandt",
+          "earea": "Gschwandt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gschwandt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Gschwandt",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "403209": {
+            "feuerwehr": "Feuerwehr/Florian Gschwandt (36209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gschwandt (36209)",
+            "fwnr": 403209
+          }
+        },
+        "inzeit": "",
+        "num1": "E241200163",
+        "startzeit": "Mon, 02 Dec 2024 06:15:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9354",
+          "lng": "13.8444"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -43,10 +90,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 02 Dec 2024 05:39:00 +0100",
         "num1": "E241200162",
         "startzeit": "Mon, 02 Dec 2024 05:10:08 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0553",
           "lng": "14.4445"
