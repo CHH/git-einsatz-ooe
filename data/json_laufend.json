@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E241200339",
+        "startzeit": "Tue, 03 Dec 2024 14:34:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Georgen am Fillmannsbach",
-          "earea": "St. Georgen am Fillmannsbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Georgen am Fillmannsbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - St. Georgen am Fillmannsbach",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "400110": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
-            "fwnr": 400110
-          }
-        },
-        "inzeit": "",
-        "num1": "E241200335",
-        "startzeit": "Tue, 03 Dec 2024 14:02:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1269",
-          "lng": "13.0179"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Georgen an der Gusen",
           "earea": "St. Georgen an der Gusen",
           "ecompl": "",
@@ -140,100 +140,6 @@
         "wgs84": {
           "lat": "48.2739",
           "lng": "14.4471"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
-          }
-        },
-        "inzeit": "",
-        "num1": "E241200331",
-        "startzeit": "Tue, 03 Dec 2024 13:49:21 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Naarn im Machlande",
-          "earea": "Naarn im Machlande",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Naarn im Machlande",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Naarn im Machlande",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "407310": {
-            "feuerwehr": "Feuerwehr/Florian Naarn im Machland (42310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Naarn im Machland (42310)",
-            "fwnr": 407310
-          }
-        },
-        "inzeit": "",
-        "num1": "E241200323",
-        "startzeit": "Tue, 03 Dec 2024 13:25:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2228",
-          "lng": "14.6161"
         }
       }
     },
