@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Meggenhofen",
+          "earea": "Meggenhofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Meggenhofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Meggenhofen",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "404110": {
+            "feuerwehr": "Feuerwehr/Florian Meggenhofen (37110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Meggenhofen (37110)",
+            "fwnr": 404110
+          }
+        },
+        "inzeit": "",
+        "num1": "E241200562",
+        "startzeit": "Thu, 05 Dec 2024 11:22:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1801",
+          "lng": "13.7938"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gmunden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Gmunden",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
-          }
-        },
-        "inzeit": "",
-        "num1": "E241200560",
-        "startzeit": "Thu, 05 Dec 2024 10:59:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Reichraming",
           "earea": "Reichraming",
           "ecompl": "",
@@ -140,67 +140,6 @@
         "wgs84": {
           "lat": "47.8932",
           "lng": "14.4772"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altenfelden",
-          "earea": "Altenfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altenfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - Altenfelden",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "409301": {
-            "feuerwehr": "Feuerwehr/Florian Altenfelden (44301)"
-          },
-          "409303": {
-            "feuerwehr": "Feuerwehr/Florian Hühnergeschrei (44303)"
-          },
-          "409307": {
-            "feuerwehr": "Feuerwehr/Florian Neufelden (44307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altenfelden (44301)",
-            "fwnr": 409301
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Hühnergeschrei (44303)",
-            "fwnr": 409303
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Neufelden (44307)",
-            "fwnr": 409307
-          }
-        },
-        "inzeit": "",
-        "num1": "E241200552",
-        "startzeit": "Thu, 05 Dec 2024 10:19:11 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4855",
-          "lng": "13.9706"
         }
       }
     },
