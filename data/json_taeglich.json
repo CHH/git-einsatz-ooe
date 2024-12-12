@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichersberg",
+          "earea": "Reichersberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichersberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Reichersberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "408311": {
+            "feuerwehr": "Feuerwehr/Florian Münsteuer (43311)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münsteuer (43311)",
+            "fwnr": 408311
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201295",
+        "startzeit": "Thu, 12 Dec 2024 08:18:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3356",
+          "lng": "13.3952"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hochburg-Ach",
+          "earea": "Hochburg-Ach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hochburg-Ach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Hochburg-Ach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400408": {
+            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hochburg (33408)",
+            "fwnr": 400408
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201289",
+        "startzeit": "Thu, 12 Dec 2024 07:55:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1475",
+          "lng": "12.8395"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "KLEINTIERRETT-TE",
+          "text": "Rettung Kleintier"
+        },
+        "einsatztyp": {
+          "id": "T0-TIER-RETTUNG",
+          "text": "Tierrettung"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "Thu, 12 Dec 2024 08:19:00 +0100",
+        "num1": "E241201285",
+        "startzeit": "Thu, 12 Dec 2024 07:28:42 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +187,10 @@
             "fwnr": 401103
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 12 Dec 2024 08:17:00 +0100",
         "num1": "E241201284",
         "startzeit": "Thu, 12 Dec 2024 07:05:53 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3005",
           "lng": "14.0175"
