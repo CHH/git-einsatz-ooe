@@ -1,7 +1,58 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201485",
+        "startzeit": "Fri, 13 Dec 2024 18:51:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0553",
+          "lng": "14.4445"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,53 +238,6 @@
         "wgs84": {
           "lat": "47.8949",
           "lng": "13.7663"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grieskirchen",
-          "earea": "Grieskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grieskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Grieskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
-            "fwnr": 404104
-          }
-        },
-        "inzeit": "",
-        "num1": "E241201474",
-        "startzeit": "Fri, 13 Dec 2024 17:32:52 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2362",
-          "lng": "13.8166"
         }
       }
     },
