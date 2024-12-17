@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201810",
+        "startzeit": "Tue, 17 Dec 2024 11:12:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberschwang",
+          "earea": "Eberschwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberschwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Eberschwang",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408203": {
+            "feuerwehr": "Feuerwehr/Florian Eberschwang (43203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eberschwang (43203)",
+            "fwnr": 408203
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201809",
+        "startzeit": "Tue, 17 Dec 2024 11:08:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.157",
+          "lng": "13.5589"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,53 +194,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "NEUMARKT im Hausruckkreis",
-          "earea": "NEUMARKT im Hausruckkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "NEUMARKT im Hausruckkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - NEUMARKT im Hausruckkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404112": {
-            "feuerwehr": "Feuerwehr/Florian Neumarkt im Hausruckkreis (37112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neumarkt im Hausruckkreis (37112)",
-            "fwnr": 404112
-          }
-        },
-        "inzeit": "",
-        "num1": "E241201806",
-        "startzeit": "Tue, 17 Dec 2024 10:56:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2737",
-          "lng": "13.7292"
         }
       }
     },
@@ -306,26 +353,33 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "KI - Molln",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
           "405101": {
             "feuerwehr": "Feuerwehr/Florian Breitenau (38101)"
+          },
+          "405105": {
+            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Breitenau (38101)",
             "fwnr": 405101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Molln (38105)",
+            "fwnr": 405105
           }
         },
         "inzeit": "",
@@ -335,53 +389,6 @@
         "wgs84": {
           "lat": "47.8889",
           "lng": "14.3161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Klaffer am Hochficht",
-          "earea": "Klaffer am Hochficht",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Klaffer am Hochficht",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Klaffer am Hochficht",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409104": {
-            "feuerwehr": "Feuerwehr/Florian Klaffer (44104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Klaffer (44104)",
-            "fwnr": 409104
-          }
-        },
-        "inzeit": "",
-        "num1": "E241201792",
-        "startzeit": "Tue, 17 Dec 2024 09:44:52 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6956",
-          "lng": "13.8824"
         }
       }
     }
