@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichenthal",
+          "earea": "Reichenthal",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichenthal",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Reichenthal",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "412116": {
+            "feuerwehr": "Feuerwehr/Florian Reichenthal (49116)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Reichenthal (49116)",
+            "fwnr": 412116
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201964",
+        "startzeit": "Wed, 18 Dec 2024 14:32:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5446",
+          "lng": "14.3855"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,57 +93,6 @@
         "wgs84": {
           "lat": "47.9851",
           "lng": "13.4109"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E241201961",
-        "startzeit": "Wed, 18 Dec 2024 13:41:18 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
