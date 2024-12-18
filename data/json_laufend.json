@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenmarkt",
+          "earea": "Frankenmarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenmarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Frankenmarkt",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDESICH-TE",
+          "text": "Sicherungsdienst Gebäude"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-GEB",
+          "text": "Sicherungsdienst Gebäude"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201962",
+        "startzeit": "Wed, 18 Dec 2024 13:57:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9851",
+          "lng": "13.4109"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -198,60 +245,6 @@
         "wgs84": {
           "lat": "48.6198",
           "lng": "13.8923"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchschlag bei Linz",
-          "earea": "Kirchschlag bei Linz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchschlag bei Linz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "UU - Kirchschlag bei Linz",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "412304": {
-            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
-          },
-          "412305": {
-            "feuerwehr": "Feuerwehr/Florian Kirchschlag bei Linz (49305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
-            "fwnr": 412304
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kirchschlag bei Linz (49305)",
-            "fwnr": 412305
-          }
-        },
-        "inzeit": "",
-        "num1": "E241201948",
-        "startzeit": "Wed, 18 Dec 2024 12:43:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4137",
-          "lng": "14.2767"
         }
       }
     },
