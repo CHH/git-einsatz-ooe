@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geiersberg",
+          "earea": "Geiersberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geiersberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Geiersberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "408207": {
+            "feuerwehr": "Feuerwehr/Florian Geiersberg-Pramerdorf (43207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geiersberg-Pramerdorf (43207)",
+            "fwnr": 408207
+          }
+        },
+        "inzeit": "",
+        "num1": "E241201984",
+        "startzeit": "Wed, 18 Dec 2024 17:42:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1998",
+          "lng": "13.5807"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,7 +106,7 @@
           "emun": "Aistersheim",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 4,
           "text": "Grieskirchen"
@@ -68,12 +115,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "GR - Aistersheim",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "ELEKTROGEB-BR",
+          "text": "Brand Elektroanlage in Gebäude"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
           "404202": {
