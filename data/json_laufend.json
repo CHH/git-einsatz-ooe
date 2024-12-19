@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldzell",
+          "earea": "Waldzell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldzell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Waldzell",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408217": {
+            "feuerwehr": "Feuerwehr/Florian Nussbaum (43217)"
+          },
+          "408228": {
+            "feuerwehr": "Feuerwehr/Florian Voglhaid (43228)"
+          },
+          "408229": {
+            "feuerwehr": "Feuerwehr/Florian Waldzell (43229)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nussbaum (43217)",
+            "fwnr": 408217
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Voglhaid (43228)",
+            "fwnr": 408228
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldzell (43229)",
+            "fwnr": 408229
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202036",
+        "startzeit": "Thu, 19 Dec 2024 08:35:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1331",
+          "lng": "13.4268"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,57 +113,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202032",
-        "startzeit": "Thu, 19 Dec 2024 08:10:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Neukirchen an der Vöckla",
           "earea": "Neukirchen an der Vöckla",
           "ecompl": "",
@@ -144,53 +154,6 @@
         "wgs84": {
           "lat": "48.0375",
           "lng": "13.5026"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Attnang-Puchheim",
-          "earea": "Attnang-Puchheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Attnang-Puchheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Attnang-Puchheim",
-        "einsatzsubtyp": {
-          "id": "SIRFEUER-SELBST",
-          "text": "Sirenenprogramm FEUER von FW ausgelöst"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413417": {
-            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Puchheim (50417)",
-            "fwnr": 413417
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202027",
-        "startzeit": "Thu, 19 Dec 2024 07:51:52 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0017",
-          "lng": "13.7159"
         }
       }
     }
