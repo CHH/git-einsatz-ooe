@@ -1,7 +1,152 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202032",
+        "startzeit": "Thu, 19 Dec 2024 08:10:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Vöckla",
+          "earea": "Neukirchen an der Vöckla",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Vöckla",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Neukirchen an der Vöckla",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413461": {
+            "feuerwehr": "Feuerwehr/Florian Brauerei Zipf (50461)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Brauerei Zipf (50461)",
+            "fwnr": 413461
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202030",
+        "startzeit": "Thu, 19 Dec 2024 07:53:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0375",
+          "lng": "13.5026"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Attnang-Puchheim",
+          "earea": "Attnang-Puchheim",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Attnang-Puchheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Attnang-Puchheim",
+        "einsatzsubtyp": {
+          "id": "SIRFEUER-SELBST",
+          "text": "Sirenenprogramm FEUER von FW ausgelöst"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413417": {
+            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Puchheim (50417)",
+            "fwnr": 413417
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202027",
+        "startzeit": "Thu, 19 Dec 2024 07:51:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0017",
+          "lng": "13.7159"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +191,10 @@
             "fwnr": 406307
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 19 Dec 2024 08:12:00 +0100",
         "num1": "E241202021",
         "startzeit": "Thu, 19 Dec 2024 07:09:05 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1533",
           "lng": "14.1725"
