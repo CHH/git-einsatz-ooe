@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 28,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 29,
+  "cnt_feuerwehren": 35,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Utzenaich",
+          "earea": "Utzenaich",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Utzenaich",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Utzenaich",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408323": {
+            "feuerwehr": "Feuerwehr/Florian Utzenaich (43323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Utzenaich (43323)",
+            "fwnr": 408323
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202167",
+        "startzeit": "Fri, 20 Dec 2024 12:01:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2768",
+          "lng": "13.4651"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +140,10 @@
             "fwnr": 410323
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Dec 2024 11:53:00 +0100",
         "num1": "E241202161",
         "startzeit": "Fri, 20 Dec 2024 11:13:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4827",
           "lng": "13.5608"
@@ -118,24 +165,31 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402119": {
             "feuerwehr": "Feuerwehr/Florian Matzelsdorf (35119)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
             "fwnr": 402119
           }
@@ -187,10 +241,10 @@
             "fwnr": 403206
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Dec 2024 11:49:00 +0100",
         "num1": "E241202157",
         "startzeit": "Fri, 20 Dec 2024 10:48:08 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9446",
           "lng": "13.9246"
@@ -241,10 +295,10 @@
             "fwnr": 412218
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Dec 2024 11:51:00 +0100",
         "num1": "E241202155",
         "startzeit": "Fri, 20 Dec 2024 10:22:30 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3368",
           "lng": "14.177"
