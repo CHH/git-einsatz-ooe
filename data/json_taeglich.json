@@ -1,7 +1,163 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 21,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Perneck (36506)",
+            "fwnr": 403102
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202145",
+        "startzeit": "Fri, 20 Dec 2024 07:56:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7024",
+          "lng": "13.6299"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Marchtrenk",
+          "earea": "Marchtrenk",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Marchtrenk",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Marchtrenk",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kappern (51212)",
+            "fwnr": 414212
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202144",
+        "startzeit": "Fri, 20 Dec 2024 07:35:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1895",
+          "lng": "14.1296"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202143",
+        "startzeit": "Fri, 20 Dec 2024 07:33:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +202,10 @@
             "fwnr": 410210
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Dec 2024 07:52:00 +0100",
         "num1": "E241202139",
         "startzeit": "Fri, 20 Dec 2024 07:14:12 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3832",
           "lng": "13.6851"
@@ -93,10 +249,10 @@
             "fwnr": 408215
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Dec 2024 07:47:00 +0100",
         "num1": "E241202138",
         "startzeit": "Fri, 20 Dec 2024 07:12:01 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1437",
           "lng": "13.404"
