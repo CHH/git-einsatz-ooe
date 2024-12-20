@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schalchen",
+          "earea": "Schalchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schalchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Schalchen",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
+          "400222": {
+            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
+            "fwnr": 400222
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202190",
+        "startzeit": "Fri, 20 Dec 2024 17:45:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1194",
+          "lng": "13.1549"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.2428",
           "lng": "13.7973"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mauthausen",
-          "earea": "Mauthausen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauthausen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Mauthausen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407210": {
-            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
-            "fwnr": 407210
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202186",
-        "startzeit": "Fri, 20 Dec 2024 16:47:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2455",
-          "lng": "14.5042"
         }
       }
     },
