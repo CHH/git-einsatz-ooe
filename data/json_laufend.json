@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Münzbach",
-          "earea": "Münzbach",
+          "default": "Bad Kreuzen",
+          "earea": "Bad Kreuzen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Münzbach",
+          "emun": "Bad Kreuzen",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +17,9 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
-        "einsatzort": "PE - Münzbach",
+        "einsatzort": "PE - Bad Kreuzen",
         "einsatzsubtyp": {
           "id": "AUFRÄUM-VU",
           "text": "Verkehrsunfall Aufräumarbeiten"
@@ -29,12 +29,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "407101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
+          },
           "407309": {
             "feuerwehr": "Feuerwehr/Florian Münzbach (42309)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
+            "fwnr": 407101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Münzbach (42309)",
             "fwnr": 407309
           }
@@ -44,102 +51,8 @@
         "startzeit": "Sat, 21 Dec 2024 19:54:36 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2701",
-          "lng": "14.7219"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kopfing im Innkreis",
-          "earea": "Kopfing im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kopfing im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Kopfing im Innkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410104": {
-            "feuerwehr": "Feuerwehr/Florian Engertsberg (45104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Engertsberg (45104)",
-            "fwnr": 410104
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202262",
-        "startzeit": "Sat, 21 Dec 2024 19:24:05 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4184",
-          "lng": "13.6603"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202261",
-        "startzeit": "Sat, 21 Dec 2024 19:22:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2174",
-          "lng": "14.4791"
+          "lat": "48.2705",
+          "lng": "14.8058"
         }
       }
     },
