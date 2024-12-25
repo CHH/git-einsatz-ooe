@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Enknach",
+          "earea": "Neukirchen an der Enknach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Enknach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Neukirchen an der Enknach",
+        "einsatzsubtyp": {
+          "id": "UNKLARLAGE-BR",
+          "text": "Brand unklare Lage"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "400108": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
+            "fwnr": 400108
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202474",
+        "startzeit": "Wed, 25 Dec 2024 17:25:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.18",
+          "lng": "13.05"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,21 +59,21 @@
           "emun": "Alkoven",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 1,
           "text": "Eferding"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
+        "einsatzart": "TEE",
         "einsatzort": "EF - Alkoven",
         "einsatzsubtyp": {
-          "id": "SONST-KL",
-          "text": "Kleinalarm technisch"
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
         },
         "einsatztyp": {
-          "id": "KL-SONST",
-          "text": "Kleinalarm technisch"
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
         },
         "feuerwehren": {
           "401101": {
@@ -39,10 +86,10 @@
             "fwnr": 401101
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 25 Dec 2024 18:18:00 +0100",
         "num1": "E241202473",
         "startzeit": "Wed, 25 Dec 2024 16:57:01 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2876",
           "lng": "14.1102"
@@ -100,10 +147,10 @@
             "fwnr": 411314
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 25 Dec 2024 17:40:00 +0100",
         "num1": "E241202472",
         "startzeit": "Wed, 25 Dec 2024 16:53:43 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9671",
           "lng": "14.2591"
@@ -147,10 +194,10 @@
             "fwnr": 403207
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 25 Dec 2024 17:56:00 +0100",
         "num1": "E241202471",
         "startzeit": "Wed, 25 Dec 2024 16:22:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9166",
           "lng": "13.8048"
