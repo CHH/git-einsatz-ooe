@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ostermiething",
+          "earea": "Ostermiething",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ostermiething",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Ostermiething",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400411": {
+            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
+            "fwnr": 400411
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202563",
+        "startzeit": "Fri, 27 Dec 2024 15:06:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0432",
+          "lng": "12.8403"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SD - Andorf",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "410202": {
             "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
+          },
+          "410217": {
+            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Andorf (45202)",
             "fwnr": 410202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
+            "fwnr": 410217
           }
         },
         "inzeit": "",
@@ -140,53 +194,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schenkenfelden",
-          "earea": "Schenkenfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schenkenfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Schenkenfelden",
-        "einsatzsubtyp": {
-          "id": "TRAGEUNTST-TE",
-          "text": "Tragehilfe"
-        },
-        "einsatztyp": {
-          "id": "T0-UNTST-TRAGE",
-          "text": "Tragehilfe"
-        },
-        "feuerwehren": {
-          "412117": {
-            "feuerwehr": "Feuerwehr/Florian Schenkenfelden (49117)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schenkenfelden (49117)",
-            "fwnr": 412117
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202557",
-        "startzeit": "Fri, 27 Dec 2024 13:53:42 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4974",
-          "lng": "14.3588"
         }
       }
     },
