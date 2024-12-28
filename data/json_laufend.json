@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Schallerbach",
+          "earea": "Bad Schallerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Schallerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Bad Schallerbach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
+          },
+          "404104": {
+            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
+            "fwnr": 404101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
+            "fwnr": 404104
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202647",
+        "startzeit": "Sat, 28 Dec 2024 13:26:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2277",
+          "lng": "13.9234"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gaspoltshofen",
+          "earea": "Gaspoltshofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gaspoltshofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Gaspoltshofen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404201": {
+            "feuerwehr": "Feuerwehr/Florian Affnang (37201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Affnang (37201)",
+            "fwnr": 404201
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202646",
+        "startzeit": "Sat, 28 Dec 2024 13:19:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.146",
+          "lng": "13.6958"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,182 +147,6 @@
         "wgs84": {
           "lat": "48.1434",
           "lng": "14.2754"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vöcklabruck",
-          "earea": "Vöcklabruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vöcklabruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Vöcklabruck",
-        "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
-            "fwnr": 413429
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202643",
-        "startzeit": "Sat, 28 Dec 2024 12:37:10 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0064",
-          "lng": "13.6637"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Thalheim bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "PERSON",
-        "einsatzort": "WL - Thalheim bei Wels",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "414219": {
-            "feuerwehr": "Feuerwehr/Florian Schleissheim (51219)"
-          },
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
-          },
-          "414224": {
-            "feuerwehr": "Feuerwehr/Florian Traunleiten (51224)"
-          },
-          "414226": {
-            "feuerwehr": "Feuerwehr/Florian Am Thalbach (51226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schleissheim (51219)",
-            "fwnr": 414219
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Traunleiten (51224)",
-            "fwnr": 414224
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Am Thalbach (51226)",
-            "fwnr": 414226
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202640",
-        "startzeit": "Sat, 28 Dec 2024 11:53:30 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1538",
-          "lng": "14.031"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Seewalchen am Attersee",
-          "earea": "Seewalchen am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Seewalchen am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Seewalchen am Attersee",
-        "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
-        },
-        "feuerwehren": {
-          "413518": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen im Attergau (50518)"
-          },
-          "413519": {
-            "feuerwehr": "Feuerwehr/Florian Schörfling am Attersee (50519)"
-          },
-          "413520": {
-            "feuerwehr": "Feuerwehr/Florian Seewalchen am Attersee (50520)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen im Attergau (50518)",
-            "fwnr": 413518
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schörfling am Attersee (50519)",
-            "fwnr": 413519
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Seewalchen am Attersee (50520)",
-            "fwnr": 413520
-          }
-        },
-        "inzeit": "",
-        "num1": "E241202636",
-        "startzeit": "Sat, 28 Dec 2024 11:33:25 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.954",
-          "lng": "13.5804"
         }
       }
     },
