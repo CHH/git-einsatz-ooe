@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "MEHRSTOCKGEB-BR",
+          "text": "Brand Gebäude mehrstöckig"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-MEHRSTOCK",
+          "text": "Brand Gebäude mehrstöckig"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202715",
+        "startzeit": "Sun, 29 Dec 2024 19:28:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +140,10 @@
             "fwnr": 409421
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 29 Dec 2024 19:25:00 +0100",
         "num1": "E241202707",
         "startzeit": "Sun, 29 Dec 2024 17:45:54 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5661",
           "lng": "14.1028"
