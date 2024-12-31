@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mining",
+          "earea": "Mining",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mining",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Mining",
+        "einsatzsubtyp": {
+          "id": "BAUMDROHTSICH-TE",
+          "text": "Baum droht umzustürzen"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-D",
+          "text": "Baum droht umzustürzen"
+        },
+        "feuerwehren": {
+          "400106": {
+            "feuerwehr": "Feuerwehr/Florian Mining (33106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mining (33106)",
+            "fwnr": 400106
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202802",
+        "startzeit": "Tue, 31 Dec 2024 11:56:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2757",
+          "lng": "13.1585"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bruck-Waasen",
+          "earea": "Bruck-Waasen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bruck-Waasen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Bruck-Waasen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404304": {
+            "feuerwehr": "Feuerwehr/Florian Bruck-Waasen (37304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bruck-Waasen (37304)",
+            "fwnr": 404304
+          }
+        },
+        "inzeit": "",
+        "num1": "E241202801",
+        "startzeit": "Tue, 31 Dec 2024 11:53:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.327",
+          "lng": "13.7824"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -201,10 +295,10 @@
             "fwnr": 411214
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 31 Dec 2024 11:47:00 +0100",
         "num1": "E241202795",
         "startzeit": "Tue, 31 Dec 2024 10:10:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9992",
           "lng": "14.4015"
