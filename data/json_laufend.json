@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Moosbach",
+          "earea": "Moosbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Moosbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Moosbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400310": {
+            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Moosbach (33310)",
+            "fwnr": 400310
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100037",
+        "startzeit": "Wed, 01 Jan 2025 14:24:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2068",
+          "lng": "13.1639"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.3517",
           "lng": "14.426"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Haag am Hausruck",
-          "earea": "Haag am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Haag am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Haag am Hausruck",
-        "einsatzsubtyp": {
-          "id": "KAMIN-BR",
-          "text": "Brand Kamin"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-KAMIN",
-          "text": "Brand Kamin"
-        },
-        "feuerwehren": {
-          "404206": {
-            "feuerwehr": "Feuerwehr/Florian Gotthaming (37206)"
-          },
-          "404208": {
-            "feuerwehr": "Feuerwehr/Florian Haag am Hausruck (37208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gotthaming (37206)",
-            "fwnr": 404206
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Haag am Hausruck (37208)",
-            "fwnr": 404208
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100035",
-        "startzeit": "Wed, 01 Jan 2025 13:06:10 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1879",
-          "lng": "13.6437"
         }
       }
     },
@@ -161,74 +154,6 @@
         "wgs84": {
           "lat": "48.0404",
           "lng": "14.3484"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Haag am Hausruck",
-          "earea": "Haag am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Haag am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Haag am Hausruck",
-        "einsatzsubtyp": {
-          "id": "PERSSUCHE-TE",
-          "text": "Personensuche"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-SUCHE",
-          "text": "Personensuche"
-        },
-        "feuerwehren": {
-          "404208": {
-            "feuerwehr": "Feuerwehr/Florian Haag am Hausruck (37208)"
-          },
-          "404211": {
-            "feuerwehr": "Feuerwehr/Florian Pram (37211)"
-          },
-          "404308": {
-            "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
-          },
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haag am Hausruck (37208)",
-            "fwnr": 404208
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pram (37211)",
-            "fwnr": 404211
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Kallham (37308)",
-            "fwnr": 404308
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100028",
-        "startzeit": "Wed, 01 Jan 2025 11:01:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1879",
-          "lng": "13.6437"
         }
       }
     },
