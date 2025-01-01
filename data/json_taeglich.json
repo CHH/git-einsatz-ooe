@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100030",
+        "startzeit": "Wed, 01 Jan 2025 12:06:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "SE - Garsten",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "411204": {
             "feuerwehr": "Feuerwehr/Florian Garsten (46204)"
           },
+          "411213": {
+            "feuerwehr": "Feuerwehr/Florian Saass (46213)"
+          },
           "411216": {
             "feuerwehr": "Feuerwehr/Florian Schwaming (46216)"
           }
@@ -42,6 +92,10 @@
             "fwnr": 411204
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Saass (46213)",
+            "fwnr": 411213
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Schwaming (46216)",
             "fwnr": 411216
           }
@@ -71,7 +125,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "GR - Haag am Hausruck",
         "einsatzsubtyp": {
@@ -86,6 +140,9 @@
           "404208": {
             "feuerwehr": "Feuerwehr/Florian Haag am Hausruck (37208)"
           },
+          "404211": {
+            "feuerwehr": "Feuerwehr/Florian Pram (37211)"
+          },
           "404308": {
             "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
           },
@@ -99,10 +156,14 @@
             "fwnr": 404208
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Pram (37211)",
+            "fwnr": 404211
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Kallham (37308)",
             "fwnr": 404308
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
             "fwnr": 408223
           }
@@ -201,10 +262,10 @@
             "fwnr": 407310
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 01 Jan 2025 11:27:00 +0100",
         "num1": "E250100026",
         "startzeit": "Wed, 01 Jan 2025 10:32:23 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2228",
           "lng": "14.6161"
@@ -302,10 +363,10 @@
             "fwnr": 409419
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 01 Jan 2025 11:20:00 +0100",
         "num1": "E250100023",
         "startzeit": "Wed, 01 Jan 2025 08:00:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.6042",
           "lng": "13.9887"
