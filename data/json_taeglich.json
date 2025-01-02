@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "410319": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Florian am Inn (45319)"
+          },
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Florian am Inn (45319)",
+            "fwnr": 410319
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100059",
+        "startzeit": "Thu, 02 Jan 2025 02:41:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +140,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 02 Jan 2025 02:43:00 +0100",
         "num1": "E250100057",
         "startzeit": "Thu, 02 Jan 2025 01:14:09 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0556",
           "lng": "14.4157"
