@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 24,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100225",
+        "startzeit": "Fri, 03 Jan 2025 14:29:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -316,60 +363,6 @@
         "wgs84": {
           "lat": "48.2243",
           "lng": "14.1854"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schönau im Mühlkreis",
-          "earea": "Schönau im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schönau im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Schönau im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          },
-          "402316": {
-            "feuerwehr": "Feuerwehr/Florian Schönau im Mühlkreis (35316)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schönau im Mühlkreis (35316)",
-            "fwnr": 402316
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100211",
-        "startzeit": "Fri, 03 Jan 2025 12:37:09 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3926",
-          "lng": "14.7312"
         }
       }
     },
