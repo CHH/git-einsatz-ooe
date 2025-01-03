@@ -1,7 +1,566 @@
 {
-  "cnt_einsaetze": 34,
-  "cnt_feuerwehren": 39,
+  "cnt_einsaetze": 45,
+  "cnt_feuerwehren": 53,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vorderweißenbach",
+          "earea": "Vorderweißenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vorderweißenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "UU - Vorderweißenbach",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "412122": {
+            "feuerwehr": "Feuerwehr/Florian Vorderweissenbach (49122)"
+          },
+          "412129": {
+            "feuerwehr": "Feuerwehr/Florian Schönegg (49129)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Vorderweissenbach (49122)",
+            "fwnr": 412122
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schönegg (49129)",
+            "fwnr": 412129
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100215",
+        "startzeit": "Fri, 03 Jan 2025 13:17:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.553",
+          "lng": "14.219"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Katsdorf",
+          "earea": "Katsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Katsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Katsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407206": {
+            "feuerwehr": "Feuerwehr/Florian Katsdorf (42206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Katsdorf (42206)",
+            "fwnr": 407206
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100214",
+        "startzeit": "Fri, 03 Jan 2025 13:02:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3174",
+          "lng": "14.4801"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pierbach",
+          "earea": "Pierbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pierbach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Pierbach",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          },
+          "402312": {
+            "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pierbach (35312)",
+            "fwnr": 402312
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100213",
+        "startzeit": "Fri, 03 Jan 2025 12:57:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3449",
+          "lng": "14.7588"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hörsching",
+          "earea": "Hörsching",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hörsching",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Hörsching",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "406209": {
+            "feuerwehr": "Feuerwehr/Florian Hörsching (39209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hörsching (39209)",
+            "fwnr": 406209
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100212",
+        "startzeit": "Fri, 03 Jan 2025 12:46:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2243",
+          "lng": "14.1854"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schönau im Mühlkreis",
+          "earea": "Schönau im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schönau im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Schönau im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
+          "402316": {
+            "feuerwehr": "Feuerwehr/Florian Schönau im Mühlkreis (35316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schönau im Mühlkreis (35316)",
+            "fwnr": 402316
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100211",
+        "startzeit": "Fri, 03 Jan 2025 12:37:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3926",
+          "lng": "14.7312"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100209",
+        "startzeit": "Fri, 03 Jan 2025 12:29:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pfarrkirchen im Mühlkreis",
+          "earea": "Pfarrkirchen im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pfarrkirchen im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - Pfarrkirchen im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "409202": {
+            "feuerwehr": "Feuerwehr/Florian Amesedt (44202)"
+          },
+          "409212": {
+            "feuerwehr": "Feuerwehr/Florian Pfarrkirchen im Mühlkreis (44212)"
+          },
+          "409213": {
+            "feuerwehr": "Feuerwehr/Florian Putzleinsdorf (44213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Amesedt (44202)",
+            "fwnr": 409202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfarrkirchen im Mühlkreis (44212)",
+            "fwnr": 409212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Putzleinsdorf (44213)",
+            "fwnr": 409213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100208",
+        "startzeit": "Fri, 03 Jan 2025 12:26:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5514",
+          "lng": "13.8176"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Haibach ob der Donau",
+          "earea": "Haibach ob der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Haibach ob der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Haibach ob der Donau",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
+          "401107": {
+            "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
+            "fwnr": 401107
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100207",
+        "startzeit": "Fri, 03 Jan 2025 12:23:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.412",
+          "lng": "13.9172"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Asten",
+          "earea": "Asten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Asten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Asten",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "406101": {
+            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Asten (39101)",
+            "fwnr": 406101
+          }
+        },
+        "inzeit": "Fri, 03 Jan 2025 12:49:00 +0100",
+        "num1": "E250100206",
+        "startzeit": "Fri, 03 Jan 2025 12:18:40 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2186",
+          "lng": "14.4232"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Ägidi",
+          "earea": "St. Ägidi",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Ägidi",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - St. Ägidi",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410115": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Ägidi (45115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Ägidi (45115)",
+            "fwnr": 410115
+          }
+        },
+        "inzeit": "Fri, 03 Jan 2025 12:59:00 +0100",
+        "num1": "E250100205",
+        "startzeit": "Fri, 03 Jan 2025 12:18:19 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.4791",
+          "lng": "13.7381"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Königswiesen",
+          "earea": "Königswiesen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Königswiesen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Königswiesen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402302": {
+            "feuerwehr": "Feuerwehr/Florian Haid (FR) (35302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haid (FR) (35302)",
+            "fwnr": 402302
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100204",
+        "startzeit": "Fri, 03 Jan 2025 12:13:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4317",
+          "lng": "14.8634"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +598,10 @@
             "fwnr": 414218
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 03 Jan 2025 13:05:00 +0100",
         "num1": "E250100203",
-        "startzeit": "Fri, 03 Jan 2025 12:09:24 +0100",
-        "status": "offen",
+        "startzeit": "Fri, 03 Jan 2025 12:09:38 +0100",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0721",
           "lng": "14.0524"
@@ -111,7 +670,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "FR - Grünbach",
         "einsatzsubtyp": {
@@ -128,6 +687,9 @@
           },
           "402409": {
             "feuerwehr": "Feuerwehr/Florian Lichtenau (35409)"
+          },
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
           }
         },
         "feuerwehrenarray": {
@@ -138,6 +700,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Lichtenau (35409)",
             "fwnr": 402409
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
           }
         },
         "inzeit": "",
@@ -187,10 +753,10 @@
             "fwnr": 406212
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 03 Jan 2025 13:08:00 +0100",
         "num1": "E250100199",
         "startzeit": "Fri, 03 Jan 2025 11:38:48 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2799",
           "lng": "14.2457"
@@ -476,10 +1042,10 @@
             "fwnr": 406110
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 03 Jan 2025 12:57:00 +0100",
         "num1": "E250100188",
         "startzeit": "Fri, 03 Jan 2025 10:53:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1592",
           "lng": "14.3391"
@@ -584,10 +1150,10 @@
             "fwnr": 412129
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 03 Jan 2025 12:43:00 +0100",
         "num1": "E250100186",
         "startzeit": "Fri, 03 Jan 2025 10:51:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.553",
           "lng": "14.219"
