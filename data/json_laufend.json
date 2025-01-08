@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400323": {
+            "feuerwehr": "Feuerwehr/Florian Wildenau (33323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildenau (33323)",
+            "fwnr": 400323
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100544",
+        "startzeit": "Wed, 08 Jan 2025 02:39:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.318"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -95,60 +142,6 @@
         "wgs84": {
           "lat": "48.2051",
           "lng": "13.1016"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Redleiten",
-          "earea": "Redleiten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Redleiten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Redleiten",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "413110": {
-            "feuerwehr": "Feuerwehr/Florian Frankenburg am Hausruck (50110)"
-          },
-          "413131": {
-            "feuerwehr": "Feuerwehr/Florian Redleiten (50131)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Frankenburg am Hausruck (50110)",
-            "fwnr": 413110
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Redleiten (50131)",
-            "fwnr": 413131
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100542",
-        "startzeit": "Wed, 08 Jan 2025 01:11:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0815",
-          "lng": "13.4692"
         }
       }
     }
