@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wendling",
+          "earea": "Wendling",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wendling",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Wendling",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404215": {
+            "feuerwehr": "Feuerwehr/Florian Wendling (37215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wendling (37215)",
+            "fwnr": 404215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250100737",
+        "startzeit": "Thu, 09 Jan 2025 15:15:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2333",
+          "lng": "13.6723"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -200,53 +247,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Ried im Innkreis",
-          "earea": "Ried im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ried im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Ried im Innkreis",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100731",
-        "startzeit": "Thu, 09 Jan 2025 14:54:29 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2102",
-          "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Neuhofen im Innkreis",
           "earea": "Neuhofen im Innkreis",
           "ecompl": "",
@@ -386,100 +386,6 @@
         "wgs84": {
           "lat": "47.7204",
           "lng": "13.5832"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schildorn",
-          "earea": "Schildorn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schildorn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Schildorn",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "408227": {
-            "feuerwehr": "Feuerwehr/Florian Schildorn (43227)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schildorn (43227)",
-            "fwnr": 408227
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100693",
-        "startzeit": "Thu, 09 Jan 2025 10:17:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1469",
-          "lng": "13.4644"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Straß im Attergau",
-          "earea": "Straß im Attergau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Straß im Attergau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Straß im Attergau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413515": {
-            "feuerwehr": "Feuerwehr/Florian Pabing (50515)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pabing (50515)",
-            "fwnr": 413515
-          }
-        },
-        "inzeit": "",
-        "num1": "E250100654",
-        "startzeit": "Wed, 08 Jan 2025 19:46:56 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.913",
-          "lng": "13.4361"
         }
       }
     }
