@@ -1,15 +1,62 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Antiesenhofen",
-          "earea": "Antiesenhofen",
+          "default": "Reichersberg",
+          "earea": "Reichersberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Antiesenhofen",
+          "emun": "Reichersberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Reichersberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408311": {
+            "feuerwehr": "Feuerwehr/Florian Münsteuer (43311)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münsteuer (43311)",
+            "fwnr": 408311
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101109",
+        "startzeit": "Mon, 13 Jan 2025 14:35:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3356",
+          "lng": "13.3952"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichersberg",
+          "earea": "Reichersberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichersberg",
           "estnum": ""
         },
         "alarmstufe": "1",
@@ -19,7 +66,7 @@
         },
         "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
-        "einsatzort": "RI - Antiesenhofen",
+        "einsatzort": "RI - Reichersberg",
         "einsatzsubtyp": {
           "id": "PERSPKW-VU",
           "text": "Personenrettung Verkehrsunfall PKW"
@@ -58,8 +105,8 @@
         "startzeit": "Mon, 13 Jan 2025 14:27:47 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": null,
-          "lng": null
+          "lat": "48.3356",
+          "lng": "13.3952"
         }
       }
     },
@@ -107,60 +154,6 @@
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hochburg-Ach",
-          "earea": "Hochburg-Ach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hochburg-Ach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Hochburg-Ach",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "400401": {
-            "feuerwehr": "Feuerwehr/Florian Ach an der Salzach (33401)"
-          },
-          "400408": {
-            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ach an der Salzach (33401)",
-            "fwnr": 400401
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Hochburg (33408)",
-            "fwnr": 400408
-          }
-        },
-        "inzeit": "",
-        "num1": "E250101099",
-        "startzeit": "Mon, 13 Jan 2025 12:26:57 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1475",
-          "lng": "12.8395"
         }
       }
     }
