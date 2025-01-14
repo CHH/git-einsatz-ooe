@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ampflwang im Hausruckwald",
+          "earea": "Ampflwang im Hausruckwald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ampflwang im Hausruckwald",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Ampflwang im Hausruckwald",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "413403": {
+            "feuerwehr": "Feuerwehr/Florian Ampflwang im Hausruckwald (50403)"
+          },
+          "413414": {
+            "feuerwehr": "Feuerwehr/Florian Pichl (50414)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ampflwang im Hausruckwald (50403)",
+            "fwnr": 413403
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pichl (50414)",
+            "fwnr": 413414
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101221",
+        "startzeit": "Tue, 14 Jan 2025 13:42:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0914",
+          "lng": "13.5686"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +71,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GR - Gallspach",
         "einsatzsubtyp": {
@@ -29,12 +83,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "404102": {
+            "feuerwehr": "Feuerwehr/Florian Enzendorf (37102)"
+          },
           "404103": {
             "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Enzendorf (37102)",
+            "fwnr": 404102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Gallspach (37103)",
             "fwnr": 404103
           }
@@ -46,53 +107,6 @@
         "wgs84": {
           "lat": "48.2057",
           "lng": "13.8143"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406208": {
-            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
-            "fwnr": 406208
-          }
-        },
-        "inzeit": "",
-        "num1": "E250101215",
-        "startzeit": "Tue, 14 Jan 2025 12:45:42 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2652",
-          "lng": "14.2551"
         }
       }
     }
