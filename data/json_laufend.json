@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Alkoven",
+          "earea": "Alkoven",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Alkoven",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "EF - Alkoven",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101544",
+        "startzeit": "Thu, 16 Jan 2025 19:24:35 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2876",
+          "lng": "14.1102"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,67 +187,6 @@
         "wgs84": {
           "lat": "48.2186",
           "lng": "14.4232"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Ulrich bei Steyr",
-          "earea": "St. Ulrich bei Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Ulrich bei Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - St. Ulrich bei Steyr",
-        "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
-        },
-        "feuerwehren": {
-          "411203": {
-            "feuerwehr": "Feuerwehr/Florian Ebersegg (46203)"
-          },
-          "411206": {
-            "feuerwehr": "Feuerwehr/Florian Kleinraming (46206)"
-          },
-          "411212": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Ulrich bei Steyr (46212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebersegg (46203)",
-            "fwnr": 411203
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kleinraming (46206)",
-            "fwnr": 411206
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Sankt Ulrich bei Steyr (46212)",
-            "fwnr": 411212
-          }
-        },
-        "inzeit": "",
-        "num1": "E250101518",
-        "startzeit": "Thu, 16 Jan 2025 15:50:54 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0216",
-          "lng": "14.4249"
         }
       }
     }
