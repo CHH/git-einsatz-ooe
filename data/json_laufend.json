@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Sandl",
-          "earea": "Sandl",
+          "default": "Gutau",
+          "earea": "Gutau",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Sandl",
+          "emun": "Gutau",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,82 +17,42 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "FR - Sandl",
+        "einsatzort": "FR - Gutau",
         "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
         },
         "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
         },
         "feuerwehren": {
-          "402417": {
-            "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
+          "402203": {
+            "feuerwehr": "Feuerwehr/Florian Erdmannsdorf (35203)"
+          },
+          "402204": {
+            "feuerwehr": "Feuerwehr/Florian Gutau (35204)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sandl (35417)",
-            "fwnr": 402417
+            "fwname": "Feuerwehr/Florian Erdmannsdorf (35203)",
+            "fwnr": 402203
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gutau (35204)",
+            "fwnr": 402204
           }
         },
         "inzeit": "",
-        "num1": "E250101398",
-        "startzeit": "Wed, 15 Jan 2025 18:06:23 +0100",
+        "num1": "E250101453",
+        "startzeit": "Thu, 16 Jan 2025 07:44:51 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5601",
-          "lng": "14.647"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250101393",
-        "startzeit": "Wed, 15 Jan 2025 17:44:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
+          "lat": "48.4187",
+          "lng": "14.6081"
         }
       }
     },
@@ -111,35 +71,302 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
         "einsatzort": "WL - Marchtrenk",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
           "414212": {
             "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
+          },
+          "414215": {
+            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Kappern (51212)",
             "fwnr": 414212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
+            "fwnr": 414215
           }
         },
         "inzeit": "",
-        "num1": "E250101382",
-        "startzeit": "Wed, 15 Jan 2025 16:23:04 +0100",
+        "num1": "E250101450",
+        "startzeit": "Thu, 16 Jan 2025 07:24:28 +0100",
         "status": "offen",
         "wgs84": {
           "lat": "48.1895",
           "lng": "14.1296"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403110": {
+            "feuerwehr": "Feuerwehr/Florian Mitterweissenbach (36110)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          },
+          "413521": {
+            "feuerwehr": "Feuerwehr/Florian Steinbach am Attersee (50521)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mitterweissenbach (36110)",
+            "fwnr": 403110
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steinbach am Attersee (50521)",
+            "fwnr": 413521
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101449",
+        "startzeit": "Thu, 16 Jan 2025 07:00:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7403",
+          "lng": "13.661"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sipbachzell",
+          "earea": "Sipbachzell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sipbachzell",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Sipbachzell",
+        "einsatzsubtyp": {
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
+        },
+        "feuerwehren": {
+          "414208": {
+            "feuerwehr": "Feuerwehr/Florian Giering-Rappersdorf (51208)"
+          },
+          "414214": {
+            "feuerwehr": "Feuerwehr/Florian Leombach (51214)"
+          },
+          "414220": {
+            "feuerwehr": "Feuerwehr/Florian Sipbachzell (51220)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Giering-Rappersdorf (51208)",
+            "fwnr": 414208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leombach (51214)",
+            "fwnr": 414214
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sipbachzell (51220)",
+            "fwnr": 414220
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101448",
+        "startzeit": "Thu, 16 Jan 2025 06:57:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1026",
+          "lng": "14.1113"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Burgkirchen",
+          "earea": "Burgkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Burgkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "3",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 13,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Burgkirchen",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BR",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-LANDWIRT",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "feuerwehren": {
+          "400101": {
+            "feuerwehr": "Feuerwehr/Florian Aching (33101)"
+          },
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          },
+          "400105": {
+            "feuerwehr": "Feuerwehr/Florian Haselbach (33105)"
+          },
+          "400108": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
+          },
+          "400109": {
+            "feuerwehr": "Feuerwehr/Florian Ranshofen (33109)"
+          },
+          "400111": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Hart (33111)"
+          },
+          "400304": {
+            "feuerwehr": "Feuerwehr/Florian Burgkirchen (33304)"
+          },
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          },
+          "400310": {
+            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
+          },
+          "400312": {
+            "feuerwehr": "Feuerwehr/Florian Pfendhub (33312)"
+          },
+          "400314": {
+            "feuerwehr": "Feuerwehr/Florian Reith (33314)"
+          },
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          },
+          "400322": {
+            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aching (33101)",
+            "fwnr": 400101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          },
+          "10": {
+            "fwname": "Feuerwehr/Florian Reith (33314)",
+            "fwnr": 400314
+          },
+          "11": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          },
+          "12": {
+            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
+            "fwnr": 400322
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Haselbach (33105)",
+            "fwnr": 400105
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
+            "fwnr": 400108
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Ranshofen (33109)",
+            "fwnr": 400109
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Sankt Peter am Hart (33111)",
+            "fwnr": 400111
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
+            "fwnr": 400304
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Moosbach (33310)",
+            "fwnr": 400310
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Pfendhub (33312)",
+            "fwnr": 400312
+          }
+        },
+        "inzeit": "",
+        "num1": "E250101436",
+        "startzeit": "Wed, 15 Jan 2025 22:27:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.1016"
         }
       }
     }
