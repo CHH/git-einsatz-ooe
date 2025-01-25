@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gaspoltshofen",
+          "earea": "Gaspoltshofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gaspoltshofen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - Gaspoltshofen",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "404203": {
+            "feuerwehr": "Feuerwehr/Florian Altenhof am Hausruck (37203)"
+          },
+          "404204": {
+            "feuerwehr": "Feuerwehr/Florian Gaspoltshofen (37204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altenhof am Hausruck (37203)",
+            "fwnr": 404203
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gaspoltshofen (37204)",
+            "fwnr": 404204
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102417",
+        "startzeit": "Sat, 25 Jan 2025 17:37:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1424",
+          "lng": "13.7347"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +100,6 @@
         "wgs84": {
           "lat": "48.1146",
           "lng": "14.2253"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Thalheim bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Thalheim bei Wels",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
-          },
-          "414226": {
-            "feuerwehr": "Feuerwehr/Florian Am Thalbach (51226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Am Thalbach (51226)",
-            "fwnr": 414226
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102415",
-        "startzeit": "Sat, 25 Jan 2025 17:12:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1538",
-          "lng": "14.031"
         }
       }
     },
@@ -194,53 +194,6 @@
         "wgs84": {
           "lat": "48.1622",
           "lng": "14.1222"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hörsching",
-          "earea": "Hörsching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hörsching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Hörsching",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "406209": {
-            "feuerwehr": "Feuerwehr/Florian Hörsching (39209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hörsching (39209)",
-            "fwnr": 406209
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102410",
-        "startzeit": "Sat, 25 Jan 2025 15:38:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2243",
-          "lng": "14.1854"
         }
       }
     },
@@ -363,74 +316,6 @@
         "wgs84": {
           "lat": "47.9281",
           "lng": "13.771"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traunkirchen",
-          "earea": "Traunkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traunkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "GM - Traunkirchen",
-        "einsatzsubtyp": {
-          "id": "PERSABGÄNGIG-ÖWR",
-          "text": "ÖWR Einsatz - Abgängige Person nahe Gewässer"
-        },
-        "einsatztyp": {
-          "id": "ÖWR-PERS",
-          "text": "ÖWR-Einsatz Personenrettung"
-        },
-        "feuerwehren": {
-          "403117": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
-          },
-          "403224": {
-            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
-          },
-          "403262": {
-            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
-          },
-          "418920": {
-            "feuerwehr": "ÖWR Traunkirchen"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
-            "fwnr": 403117
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
-            "fwnr": 403224
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
-            "fwnr": 403262
-          },
-          "3": {
-            "fwname": "ÖWR Traunkirchen",
-            "fwnr": 418920
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102405",
-        "startzeit": "Sat, 25 Jan 2025 13:59:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8557",
-          "lng": "13.7805"
         }
       }
     }
