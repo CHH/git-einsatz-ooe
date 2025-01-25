@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Thalheim bei Wels",
+          "earea": "Thalheim bei Wels",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Thalheim bei Wels",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - Thalheim bei Wels",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "414226": {
+            "feuerwehr": "Feuerwehr/Florian Am Thalbach (51226)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Am Thalbach (51226)",
+            "fwnr": 414226
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102426",
+        "startzeit": "Sat, 25 Jan 2025 19:25:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1381",
+          "lng": "14.0475"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gaspoltshofen",
-          "earea": "Gaspoltshofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gaspoltshofen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GR - Gaspoltshofen",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "404203": {
-            "feuerwehr": "Feuerwehr/Florian Altenhof am Hausruck (37203)"
-          },
-          "404204": {
-            "feuerwehr": "Feuerwehr/Florian Gaspoltshofen (37204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altenhof am Hausruck (37203)",
-            "fwnr": 404203
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Gaspoltshofen (37204)",
-            "fwnr": 404204
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102417",
-        "startzeit": "Sat, 25 Jan 2025 17:37:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1424",
-          "lng": "13.7347"
         }
       }
     },
