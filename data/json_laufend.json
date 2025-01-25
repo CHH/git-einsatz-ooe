@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 1,
   "cnt_feuerwehren": 2,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "SONSTIGE",
         "einsatzort": "GM - Traunkirchen",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "ÖWR-Einsatz Personenrettung"
         },
         "feuerwehren": {
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Traunkirchen"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          },
+          "1": {
             "fwname": "ÖWR Traunkirchen",
             "fwnr": 418920
           }
@@ -46,53 +53,6 @@
         "wgs84": {
           "lat": "47.8557",
           "lng": "13.7805"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gaspoltshofen",
-          "earea": "Gaspoltshofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gaspoltshofen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Gaspoltshofen",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "404204": {
-            "feuerwehr": "Feuerwehr/Florian Gaspoltshofen (37204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gaspoltshofen (37204)",
-            "fwnr": 404204
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102404",
-        "startzeit": "Sat, 25 Jan 2025 13:47:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1424",
-          "lng": "13.7347"
         }
       }
     }
