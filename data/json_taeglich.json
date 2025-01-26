@@ -1,7 +1,113 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hinterstoder",
+          "earea": "Hinterstoder",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hinterstoder",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Hinterstoder",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
+          },
+          "405404": {
+            "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
+            "fwnr": 405401
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
+            "fwnr": 405404
+          }
+        },
+        "inzeit": "Sun, 26 Jan 2025 01:00:00 +0100",
+        "num1": "E250102433",
+        "startzeit": "Sun, 26 Jan 2025 00:35:29 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.7005",
+          "lng": "14.1536"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "KÜBEL-BR",
+          "text": "Brand Kübel im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          }
+        },
+        "inzeit": "Sun, 26 Jan 2025 01:18:00 +0100",
+        "num1": "E250102432",
+        "startzeit": "Sun, 26 Jan 2025 00:33:37 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.7024",
+          "lng": "13.6299"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
