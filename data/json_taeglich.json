@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102607",
+        "startzeit": "Tue, 28 Jan 2025 10:00:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2097",
+          "lng": "14.2881"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Rutzenham",
+          "earea": "Rutzenham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Rutzenham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Rutzenham",
+        "einsatzsubtyp": {
+          "id": "FZGTRKBERGEN-TE",
+          "text": "Bergung Traktor"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "413310": {
+            "feuerwehr": "Feuerwehr/Florian Pühret (50310)"
+          },
+          "413313": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenham (50313)"
+          },
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pühret (50310)",
+            "fwnr": 413310
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rutzenham (50313)",
+            "fwnr": 413313
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102599",
+        "startzeit": "Tue, 28 Jan 2025 09:25:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0565",
+          "lng": "13.7014"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +147,10 @@
             "fwnr": 412204
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 28 Jan 2025 09:45:00 +0100",
         "num1": "E250102598",
         "startzeit": "Tue, 28 Jan 2025 08:57:09 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3478",
           "lng": "14.0527"
