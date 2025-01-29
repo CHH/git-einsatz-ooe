@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Herzogsdorf",
+          "earea": "Herzogsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Herzogsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Herzogsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412208": {
+            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
+            "fwnr": 412208
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102734",
+        "startzeit": "Wed, 29 Jan 2025 11:16:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4363",
+          "lng": "14.1157"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,60 +147,6 @@
         "wgs84": {
           "lat": "48.0027",
           "lng": "13.6078"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünau im Almtal",
-          "earea": "Grünau im Almtal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünau im Almtal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Grünau im Almtal",
-        "einsatzsubtyp": {
-          "id": "FZGBAUBERGEN-TE",
-          "text": "Bergung Baumaschine"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "403208": {
-            "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
-          },
-          "405208": {
-            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grünau im Almtal (36208)",
-            "fwnr": 403208
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
-            "fwnr": 405208
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102695",
-        "startzeit": "Wed, 29 Jan 2025 06:28:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.861",
-          "lng": "13.9493"
         }
       }
     }
