@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Herzogsdorf",
-          "earea": "Herzogsdorf",
+          "default": "Gmunden",
+          "earea": "Gmunden",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Herzogsdorf",
+          "emun": "Gmunden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Herzogsdorf",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "DACH-BR",
+          "text": "Brand im Dachbereich"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B1-GEB-DACH",
+          "text": "Brand im Dachbereich"
         },
         "feuerwehren": {
-          "412208": {
-            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
-            "fwnr": 412208
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
+            "fwnr": 403262
           }
         },
         "inzeit": "",
-        "num1": "E250102734",
-        "startzeit": "Wed, 29 Jan 2025 11:16:12 +0100",
+        "num1": "E250102737",
+        "startzeit": "Wed, 29 Jan 2025 11:40:25 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4363",
-          "lng": "14.1157"
+          "lat": "47.9166",
+          "lng": "13.8048"
         }
       }
     },
