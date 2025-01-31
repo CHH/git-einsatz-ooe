@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102926",
+        "startzeit": "Fri, 31 Jan 2025 07:56:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2652",
+          "lng": "14.2551"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Alberndorf in der Riedmark",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "412301": {
+            "feuerwehr": "Feuerwehr/Florian Alberndorf in der Riedmark (49301)"
+          },
           "412316": {
             "feuerwehr": "Feuerwehr/Florian Veitsdorf (49316)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alberndorf in der Riedmark (49301)",
+            "fwnr": 412301
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Veitsdorf (49316)",
             "fwnr": 412316
           }
