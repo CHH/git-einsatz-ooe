@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,18 +17,21 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 6,
         "einsatzart": "TEE",
         "einsatzort": "BR - Eggelsberg",
         "einsatzsubtyp": {
-          "id": "PERSVERSCH-TE",
-          "text": "Person verschüttet"
+          "id": "PERSTIEF-TE",
+          "text": "Personenrettung tief"
         },
         "einsatztyp": {
-          "id": "T1-PERS-VERSINKT",
-          "text": "Person verschüttet / eingesunken"
+          "id": "T1-PERS-TIEF",
+          "text": "Personenrettung tief"
         },
         "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          },
           "400402": {
             "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
           },
@@ -37,20 +40,38 @@
           },
           "400410": {
             "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
+          },
+          "400411": {
+            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
+          },
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
             "fwnr": 400402
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Ibm (33409)",
             "fwnr": 400409
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Moosdorf (33410)",
             "fwnr": 400410
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
+            "fwnr": 400411
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
           }
         },
         "inzeit": "",
@@ -114,60 +135,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Alberndorf in der Riedmark",
-          "earea": "Alberndorf in der Riedmark",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alberndorf in der Riedmark",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Alberndorf in der Riedmark",
-        "einsatzsubtyp": {
-          "id": "FZGKLTBERGEN-TE",
-          "text": "Bergung Kleintransporter"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "412301": {
-            "feuerwehr": "Feuerwehr/Florian Alberndorf in der Riedmark (49301)"
-          },
-          "412316": {
-            "feuerwehr": "Feuerwehr/Florian Veitsdorf (49316)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Alberndorf in der Riedmark (49301)",
-            "fwnr": 412301
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Veitsdorf (49316)",
-            "fwnr": 412316
-          }
-        },
-        "inzeit": "",
-        "num1": "E250102924",
-        "startzeit": "Fri, 31 Jan 2025 07:35:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.378",
-          "lng": "14.3888"
         }
       }
     },
