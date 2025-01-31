@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Niederneukirchen",
+          "earea": "Niederneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Niederneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Niederneukirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406107": {
+            "feuerwehr": "Feuerwehr/Florian Niederneukirchen (39107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Niederneukirchen (39107)",
+            "fwnr": 406107
+          }
+        },
+        "inzeit": "",
+        "num1": "E250102942",
+        "startzeit": "Fri, 31 Jan 2025 10:01:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1592",
+          "lng": "14.3391"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 6,
+        "cntfeuerwehren": 7,
         "einsatzart": "TEE",
         "einsatzort": "BR - Eggelsberg",
         "einsatzsubtyp": {
@@ -46,6 +93,9 @@
           },
           "413111": {
             "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          },
+          "417180": {
+            "feuerwehr": "Feuerwehr/Florian Bezirk Braunau (33000)"
           }
         },
         "feuerwehrenarray": {
@@ -72,6 +122,10 @@
           "5": {
             "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
             "fwnr": 413111
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Bezirk Braunau (33000)",
+            "fwnr": 417180
           }
         },
         "inzeit": "",
