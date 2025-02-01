@@ -1,7 +1,166 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200020",
+        "startzeit": "Sat, 01 Feb 2025 11:03:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Munderfing",
+          "earea": "Munderfing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Munderfing",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Munderfing",
+        "einsatzsubtyp": {
+          "id": "PERSEINGEKL-TE",
+          "text": "Person eingeklemmt"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-EINGEK",
+          "text": "Person eingeklemmt"
+        },
+        "feuerwehren": {
+          "400201": {
+            "feuerwehr": "Feuerwehr/Florian Achenlohe (33201)"
+          },
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          },
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Achenlohe (33201)",
+            "fwnr": 400201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200019",
+        "startzeit": "Sat, 01 Feb 2025 10:58:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0668",
+          "lng": "13.184"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lambrechten",
+          "earea": "Lambrechten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lambrechten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Lambrechten",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408307": {
+            "feuerwehr": "Feuerwehr/Florian Lambrechten (43307)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lambrechten (43307)",
+            "fwnr": 408307
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200018",
+        "startzeit": "Sat, 01 Feb 2025 10:46:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3183",
+          "lng": "13.5106"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -227,10 +386,10 @@
             "fwnr": 413126
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 01 Feb 2025 10:48:00 +0100",
         "num1": "E250200013",
         "startzeit": "Sat, 01 Feb 2025 08:40:47 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9974",
           "lng": "13.3687"
