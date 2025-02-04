@@ -1,7 +1,166 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 35,
+  "cnt_einsaetze": 23,
+  "cnt_feuerwehren": 39,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Raab",
+          "earea": "Raab",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Raab",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Raab",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "410214": {
+            "feuerwehr": "Feuerwehr/Florian Raab (45214)"
+          },
+          "410219": {
+            "feuerwehr": "Feuerwehr/Florian Steinbruck-Bründl (45219)"
+          },
+          "410220": {
+            "feuerwehr": "Feuerwehr/Florian Zell an der Pram (45220)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Raab (45214)",
+            "fwnr": 410214
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinbruck-Bründl (45219)",
+            "fwnr": 410219
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Zell an der Pram (45220)",
+            "fwnr": 410220
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200321",
+        "startzeit": "Tue, 04 Feb 2025 17:14:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3525",
+          "lng": "13.6392"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pinsdorf",
+          "earea": "Pinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Pinsdorf",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403227": {
+            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wiesen (36227)",
+            "fwnr": 403227
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200320",
+        "startzeit": "Tue, 04 Feb 2025 17:11:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9477",
+          "lng": "13.7515"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "PERSEVAKUIERU-TE",
+          "text": "Personenevakuierung"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-EVAKUIER",
+          "text": "Personenevakuierung"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Rettenbach (36504)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rettenbach (36504)",
+            "fwnr": 403102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200317",
+        "startzeit": "Tue, 04 Feb 2025 16:38:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.717",
+          "lng": "13.6331"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +205,10 @@
             "fwnr": 406104
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 04 Feb 2025 17:01:00 +0100",
         "num1": "E250200305",
         "startzeit": "Tue, 04 Feb 2025 15:37:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.152",
           "lng": "14.464"
@@ -158,10 +317,10 @@
             "fwnr": 403117
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 04 Feb 2025 16:24:00 +0100",
         "num1": "E250200297",
         "startzeit": "Tue, 04 Feb 2025 15:03:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.717",
           "lng": "13.6331"
@@ -252,10 +411,10 @@
             "fwnr": 413130
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 04 Feb 2025 16:53:00 +0100",
         "num1": "E250200286",
         "startzeit": "Tue, 04 Feb 2025 14:06:02 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0244",
           "lng": "13.5026"
