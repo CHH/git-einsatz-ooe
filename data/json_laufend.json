@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eferding",
+          "earea": "Eferding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eferding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "EF - Eferding",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200494",
+        "startzeit": "Wed, 05 Feb 2025 18:37:00 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3005",
+          "lng": "14.0175"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -193,53 +240,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Ulrichsberg",
-          "earea": "Ulrichsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ulrichsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Ulrichsberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409109": {
-            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
-            "fwnr": 409109
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200488",
-        "startzeit": "Wed, 05 Feb 2025 17:52:30 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6748",
-          "lng": "13.9186"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Eggelsberg",
           "earea": "Eggelsberg",
           "ecompl": "",
@@ -335,100 +335,6 @@
         "wgs84": {
           "lat": "47.9236",
           "lng": "14.5337"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Laakirchen",
-          "earea": "Laakirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Laakirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Laakirchen",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLFAHRB-TE",
-          "text": "Überflutete Fahrbahn"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-VKWEG",
-          "text": "Überflutung Verkehrsweg"
-        },
-        "feuerwehren": {
-          "403218": {
-            "feuerwehr": "Feuerwehr/Florian Rahstorf (36218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rahstorf (36218)",
-            "fwnr": 403218
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200482",
-        "startzeit": "Wed, 05 Feb 2025 16:58:24 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9748",
-          "lng": "13.8456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Geboltskirchen",
-          "earea": "Geboltskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geboltskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Geboltskirchen",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "404205": {
-            "feuerwehr": "Feuerwehr/Florian Geboltskirchen (37205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geboltskirchen (37205)",
-            "fwnr": 404205
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200476",
-        "startzeit": "Wed, 05 Feb 2025 15:59:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1544",
-          "lng": "13.642"
         }
       }
     },
