@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bundesland Bayern - Deutschland",
+          "earea": "Bundesland Bayern - Deutschland",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bundesland Bayern - Deutschland",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": "BRD",
+          "text": "BRD"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Bundesland Bayern - Deutschland",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400106": {
+            "feuerwehr": "Feuerwehr/Florian Mining (33106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mining (33106)",
+            "fwnr": 400106
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200621",
+        "startzeit": "Thu, 06 Feb 2025 14:41:21 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.012",
           "lng": "13.9883"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ohlsdorf",
-          "earea": "Ohlsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ohlsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Ohlsdorf",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
-          },
-          "403216": {
-            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
-            "fwnr": 403216
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200601",
-        "startzeit": "Thu, 06 Feb 2025 12:20:26 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9629",
-          "lng": "13.7936"
         }
       }
     }
