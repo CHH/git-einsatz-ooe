@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Munderfing",
+          "earea": "Munderfing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Munderfing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Munderfing",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200606",
+        "startzeit": "Thu, 06 Feb 2025 13:00:53 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0668",
+          "lng": "13.184"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,6 +93,53 @@
         "wgs84": {
           "lat": "48.5671",
           "lng": "13.9852"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Münzkirchen",
+          "earea": "Münzkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Münzkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "SD - Münzkirchen",
+        "einsatzsubtyp": {
+          "id": "SONST-KL",
+          "text": "Kleinalarm technisch"
+        },
+        "einsatztyp": {
+          "id": "KL-SONST",
+          "text": "Kleinalarm technisch"
+        },
+        "feuerwehren": {
+          "410315": {
+            "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
+            "fwnr": 410315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200604",
+        "startzeit": "Thu, 06 Feb 2025 13:04:10 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4827",
+          "lng": "13.5608"
         }
       }
     },
