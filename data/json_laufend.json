@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eidenberg",
+          "earea": "Eidenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eidenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Eidenberg",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BR",
+          "text": "Brand Kamin"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-KAMIN",
+          "text": "Brand Kamin"
+        },
+        "feuerwehren": {
+          "412202": {
+            "feuerwehr": "Feuerwehr/Florian Eidenberg (49202)"
+          },
+          "412205": {
+            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eidenberg (49202)",
+            "fwnr": 412202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Geng (49205)",
+            "fwnr": 412205
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200732",
+        "startzeit": "Fri, 07 Feb 2025 12:29:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.426",
+          "lng": "14.2384"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +71,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "BR - Neukirchen an der Enknach",
         "einsatzsubtyp": {
@@ -29,6 +83,9 @@
           "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
+          "400104": {
+            "feuerwehr": "Feuerwehr/Florian Handenberg (33104)"
+          },
           "400108": {
             "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
           },
@@ -41,14 +98,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Handenberg (33104)",
+            "fwnr": 400104
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
             "fwnr": 400108
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
             "fwnr": 400110
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Hart (BR) (33207)",
             "fwnr": 400207
           }
