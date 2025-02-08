@@ -1,7 +1,159 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 28,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Inzersdorf im Kremstal",
+          "earea": "Inzersdorf im Kremstal",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Inzersdorf im Kremstal",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Inzersdorf im Kremstal",
+        "einsatzsubtyp": {
+          "id": "FLUREN-BR",
+          "text": "Brand Fluren"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "405204": {
+            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
+          },
+          "405206": {
+            "feuerwehr": "Feuerwehr/Florian Lauterbach (38206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
+            "fwnr": 405204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lauterbach (38206)",
+            "fwnr": 405206
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200872",
+        "startzeit": "Sat, 08 Feb 2025 17:54:11 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.928",
+          "lng": "14.0816"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200869",
+        "startzeit": "Sat, 08 Feb 2025 17:49:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "Sat, 08 Feb 2025 18:01:00 +0100",
+        "num1": "E250200868",
+        "startzeit": "Sat, 08 Feb 2025 17:42:27 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +191,10 @@
             "fwnr": 400211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 08 Feb 2025 17:43:00 +0100",
         "num1": "E250200855",
         "startzeit": "Sat, 08 Feb 2025 16:10:20 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1402",
           "lng": "13.2161"
@@ -520,10 +672,10 @@
             "fwnr": 405208
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 08 Feb 2025 17:33:00 +0100",
         "num1": "E250200827",
         "startzeit": "Sat, 08 Feb 2025 11:52:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
