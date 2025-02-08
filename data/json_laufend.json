@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Roitham am Traunfall",
-          "earea": "Roitham am Traunfall",
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Roitham am Traunfall",
+          "emun": "Bad Ischl",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,35 +17,39 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Roitham am Traunfall",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "403220": {
-            "feuerwehr": "Feuerwehr/Florian Roitham (GM) (36220)"
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Roitham (GM) (36220)",
-            "fwnr": 403220
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
           }
         },
         "inzeit": "",
-        "num1": "E250200830",
-        "startzeit": "Sat, 08 Feb 2025 12:26:14 +0100",
+        "num1": "E250200839",
+        "startzeit": "Sat, 08 Feb 2025 14:03:31 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": null,
-          "lng": null
+          "lat": "47.7024",
+          "lng": "13.6299"
         }
       }
     },
@@ -93,53 +97,6 @@
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gallspach",
-          "earea": "Gallspach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gallspach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Gallspach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404103": {
-            "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gallspach (37103)",
-            "fwnr": 404103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200804",
-        "startzeit": "Sat, 08 Feb 2025 07:13:24 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2057",
-          "lng": "13.8143"
         }
       }
     },
