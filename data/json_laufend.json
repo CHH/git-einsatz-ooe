@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403501": {
+            "feuerwehr": "Feuerwehr/Florian Ahorn (GM) (36501)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ahorn (GM) (36501)",
+            "fwnr": 403501
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200908",
+        "startzeit": "Sun, 09 Feb 2025 10:05:35 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7097",
+          "lng": "13.5982"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.2254",
           "lng": "14.252"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Moosbach",
-          "earea": "Moosbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Moosbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Moosbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400310": {
-            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Moosbach (33310)",
-            "fwnr": 400310
-          }
-        },
-        "inzeit": "",
-        "num1": "E250200906",
-        "startzeit": "Sun, 09 Feb 2025 09:55:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2068",
-          "lng": "13.1639"
         }
       }
     },
