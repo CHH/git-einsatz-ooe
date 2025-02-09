@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400323": {
+            "feuerwehr": "Feuerwehr/Florian Wildenau (33323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildenau (33323)",
+            "fwnr": 400323
+          }
+        },
+        "inzeit": "",
+        "num1": "E250200895",
+        "startzeit": "Sun, 09 Feb 2025 04:06:11 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.318"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -21,12 +68,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "BR - Mauerkirchen",
         "einsatzsubtyp": {
-          "id": "INDUSTRIE-BR",
-          "text": "Brand Industrie"
+          "id": "SCHUPPEN-BR",
+          "text": "Brand Schuppen"
         },
         "einsatztyp": {
-          "id": "B1-GEB-INDUSTRIE",
-          "text": "Brand Industrie"
+          "id": "B1-GEB-KLEIN",
+          "text": "Brand Kleingebäude"
         },
         "feuerwehren": {
           "400102": {
