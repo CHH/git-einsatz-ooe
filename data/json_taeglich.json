@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wilhering",
+          "earea": "Wilhering",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wilhering",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Wilhering",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "406221": {
+            "feuerwehr": "Feuerwehr/Florian Schönering (39221)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schönering (39221)",
+            "fwnr": 406221
+          }
+        },
+        "inzeit": "",
+        "num1": "E250201118",
+        "startzeit": "Tue, 11 Feb 2025 11:18:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2975",
+          "lng": "14.1618"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kronstorf",
+          "earea": "Kronstorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kronstorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "LL - Kronstorf",
+        "einsatzsubtyp": {
+          "id": "PERSLKW-VU",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-LKW",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "feuerwehren": {
+          "406103": {
+            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
+          },
+          "406104": {
+            "feuerwehr": "Feuerwehr/Florian Kronstorf (39104)"
+          },
+          "411202": {
+            "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
+            "fwnr": 406103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kronstorf (39104)",
+            "fwnr": 406104
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Dietach (46202)",
+            "fwnr": 411202
+          }
+        },
+        "inzeit": "",
+        "num1": "E250201114",
+        "startzeit": "Tue, 11 Feb 2025 10:46:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.152",
+          "lng": "14.464"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +125,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -30,13 +138,24 @@
         },
         "feuerwehren": {
           "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
+          },
+          "403106": {
+            "feuerwehr": "Feuerwehr/Florian Jainzen (36106)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
             "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Jainzen (36106)",
+            "fwnr": 403106
           }
         },
         "inzeit": "",
@@ -93,10 +212,10 @@
             "fwnr": 403216
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 11 Feb 2025 10:39:00 +0100",
         "num1": "E250201097",
         "startzeit": "Tue, 11 Feb 2025 09:59:11 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
@@ -140,10 +259,10 @@
             "fwnr": 402204
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 11 Feb 2025 10:28:00 +0100",
         "num1": "E250201090",
         "startzeit": "Tue, 11 Feb 2025 09:19:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4187",
           "lng": "14.6081"
