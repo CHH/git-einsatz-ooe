@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Esternberg",
+          "earea": "Esternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Esternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Esternberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410121": {
+            "feuerwehr": "Feuerwehr/Florian Wetzendorf (45121)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wetzendorf (45121)",
+            "fwnr": 410121
+          }
+        },
+        "inzeit": "",
+        "num1": "E250201222",
+        "startzeit": "Tue, 11 Feb 2025 20:37:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.9003",
           "lng": "13.4879"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wolfsegg am Hausruck",
-          "earea": "Wolfsegg am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wolfsegg am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Wolfsegg am Hausruck",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "413318": {
-            "feuerwehr": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)",
-            "fwnr": 413318
-          }
-        },
-        "inzeit": "",
-        "num1": "E250201218",
-        "startzeit": "Tue, 11 Feb 2025 20:13:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1102",
-          "lng": "13.6761"
         }
       }
     },
@@ -262,100 +262,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pinsdorf",
-          "earea": "Pinsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pinsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Pinsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403217": {
-            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
-            "fwnr": 403217
-          }
-        },
-        "inzeit": "",
-        "num1": "E250201210",
-        "startzeit": "Tue, 11 Feb 2025 19:53:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9281",
-          "lng": "13.771"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Andorf",
-          "earea": "Andorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Andorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Andorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410202": {
-            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Andorf (45202)",
-            "fwnr": 410202
-          }
-        },
-        "inzeit": "",
-        "num1": "E250201209",
-        "startzeit": "Tue, 11 Feb 2025 19:49:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3708",
-          "lng": "13.5671"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Raab",
           "earea": "Raab",
           "ecompl": "",
@@ -444,53 +350,6 @@
         "wgs84": {
           "lat": "47.9794",
           "lng": "14.0795"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Lorenz",
-          "earea": "St. Lorenz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Lorenz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - St. Lorenz",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413212": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Lorenz (50212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Lorenz (50212)",
-            "fwnr": 413212
-          }
-        },
-        "inzeit": "",
-        "num1": "E250201202",
-        "startzeit": "Tue, 11 Feb 2025 19:33:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8232",
-          "lng": "13.355"
         }
       }
     },
