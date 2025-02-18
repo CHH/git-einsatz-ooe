@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ort im Innkreis",
+          "earea": "Ort im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ort im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Ort im Innkreis",
+        "einsatzsubtyp": {
+          "id": "PERSLKW-VU",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-LKW",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "feuerwehren": {
+          "408301": {
+            "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
+          },
+          "408313": {
+            "feuerwehr": "Feuerwehr/Florian Ort im Innkreis (43313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
+            "fwnr": 408301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ort im Innkreis (43313)",
+            "fwnr": 408313
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202027",
+        "startzeit": "Tue, 18 Feb 2025 20:16:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3139",
+          "lng": "13.4351"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +118,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "BR - Treubach",
         "einsatzsubtyp": {
@@ -76,6 +130,9 @@
           "text": "Unterstützung Rettungsdienst"
         },
         "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          },
           "400312": {
             "feuerwehr": "Feuerwehr/Florian Pfendhub (33312)"
           },
@@ -85,10 +142,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pfendhub (33312)",
             "fwnr": 400312
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Treubach (33319)",
             "fwnr": 400319
           }
