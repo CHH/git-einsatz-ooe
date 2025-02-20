@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fraham",
+          "earea": "Fraham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fraham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "EF - Fraham",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (ef) (34105)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fraham (ef) (34105)",
+            "fwnr": 401105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202322",
+        "startzeit": "Thu, 20 Feb 2025 18:26:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2826",
+          "lng": "14.0289"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +118,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Altmünster",
         "einsatzsubtyp": {
@@ -76,6 +130,9 @@
           "text": "Brand Kamin"
         },
         "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          },
           "403214": {
             "feuerwehr": "Feuerwehr/Florian Neukirchen (36214)"
           },
@@ -85,10 +142,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Neukirchen (36214)",
             "fwnr": 403214
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Reindlmühl (36219)",
             "fwnr": 403219
           }
