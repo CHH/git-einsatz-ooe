@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vorderstoder",
+          "earea": "Vorderstoder",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vorderstoder",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Vorderstoder",
+        "einsatzsubtyp": {
+          "id": "CONTAINER-BR",
+          "text": "Brand Container im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
+          },
+          "405404": {
+            "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
+            "fwnr": 405401
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
+            "fwnr": 405404
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202369",
+        "startzeit": "Fri, 21 Feb 2025 02:50:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7131",
+          "lng": "14.2294"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +93,10 @@
             "fwnr": 406212
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Feb 2025 03:03:00 +0100",
         "num1": "E250202368",
         "startzeit": "Fri, 21 Feb 2025 02:29:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2799",
           "lng": "14.2457"
@@ -133,10 +187,10 @@
             "fwnr": 411214
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Feb 2025 03:21:00 +0100",
         "num1": "E250202364",
         "startzeit": "Fri, 21 Feb 2025 00:58:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9992",
           "lng": "14.4015"
