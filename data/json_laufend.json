@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Georgen an der Gusen",
+          "earea": "St. Georgen an der Gusen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Georgen an der Gusen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - St. Georgen an der Gusen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407217": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)",
+            "fwnr": 407217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202470",
+        "startzeit": "Fri, 21 Feb 2025 17:19:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2739",
+          "lng": "14.4471"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
         "einsatzort": "FR - Bad Zell",
         "einsatzsubtyp": {
@@ -81,6 +128,15 @@
           },
           "402202": {
             "feuerwehr": "Feuerwehr/Florian Erdleiten (35202)"
+          },
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          },
+          "407217": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)"
+          },
+          "417151": {
+            "feuerwehr": "Feuerwehr/Florian BF Linz Hauptwache (40151)"
           }
         },
         "feuerwehrenarray": {
@@ -91,6 +147,18 @@
           "1": {
             "fwname": "Feuerwehr/Florian Erdleiten (35202)",
             "fwnr": 402202
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)",
+            "fwnr": 407217
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian BF Linz Hauptwache (40151)",
+            "fwnr": 417151
           }
         },
         "inzeit": "",
@@ -349,100 +417,6 @@
         "wgs84": {
           "lat": "48.1856",
           "lng": "13.3057"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Arnreit",
-          "earea": "Arnreit",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Arnreit",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Arnreit",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409404": {
-            "feuerwehr": "Feuerwehr/Florian Arnreit (44404)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Arnreit (44404)",
-            "fwnr": 409404
-          }
-        },
-        "inzeit": "",
-        "num1": "E250202458",
-        "startzeit": "Fri, 21 Feb 2025 16:12:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5233",
-          "lng": "13.9946"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ried im Innkreis",
-          "earea": "Ried im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ried im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Ried im Innkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250202456",
-        "startzeit": "Fri, 21 Feb 2025 16:04:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2102",
-          "lng": "13.4825"
         }
       }
     },
