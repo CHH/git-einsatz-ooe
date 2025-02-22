@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 30,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202602",
+        "startzeit": "Sat, 22 Feb 2025 14:21:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -186,7 +233,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
@@ -200,12 +247,19 @@
         "feuerwehren": {
           "402101": {
             "feuerwehr": "Feuerwehr/Florian Dingdorf (35101)"
+          },
+          "402121": {
+            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Dingdorf (35101)",
             "fwnr": 402101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
           }
         },
         "inzeit": "",
@@ -370,53 +424,6 @@
         "wgs84": {
           "lat": "48.2711",
           "lng": "14.9519"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tollet",
-          "earea": "Tollet",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tollet",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Tollet",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404128": {
-            "feuerwehr": "Feuerwehr/Florian Unterstetten (37128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Unterstetten (37128)",
-            "fwnr": 404128
-          }
-        },
-        "inzeit": "",
-        "num1": "E250202590",
-        "startzeit": "Sat, 22 Feb 2025 13:46:13 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2509",
-          "lng": "13.775"
         }
       }
     },
