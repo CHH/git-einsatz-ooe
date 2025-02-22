@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "SIRFEUER-SELBST",
+          "text": "Sirenenprogramm FEUER von FW ausgelöst"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202535",
+        "startzeit": "Sat, 22 Feb 2025 02:20:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.394",
+          "lng": "14.5577"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Vorderstoder",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "3",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 9,
         "einsatzart": "BRAND",
         "einsatzort": "KI - Vorderstoder",
         "einsatzsubtyp": {
@@ -29,21 +76,70 @@
           "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "405102": {
+            "feuerwehr": "Feuerwehr/Florian Frauenstein (38102)"
+          },
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          },
+          "405226": {
+            "feuerwehr": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)"
+          },
           "405401": {
             "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
           },
+          "405402": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Pankraz (38402)"
+          },
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
+          },
           "405404": {
             "feuerwehr": "Feuerwehr/Florian Vorderstoder (38404)"
+          },
+          "405405": {
+            "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
+          },
+          "405406": {
+            "feuerwehr": "Feuerwehr/Florian Rosenau am Hengstpass (38406)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Frauenstein (38102)",
+            "fwnr": 405102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)",
+            "fwnr": 405226
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
             "fwnr": 405401
           },
-          "1": {
+          "4": {
+            "fwname": "Feuerwehr/Florian Sankt Pankraz (38402)",
+            "fwnr": 405402
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
+          },
+          "6": {
             "fwname": "Feuerwehr/Florian Vorderstoder (38404)",
             "fwnr": 405404
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
+            "fwnr": 405405
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Rosenau am Hengstpass (38406)",
+            "fwnr": 405406
           }
         },
         "inzeit": "",
