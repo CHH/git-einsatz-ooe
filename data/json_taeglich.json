@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 63,
-  "cnt_feuerwehren": 78,
+  "cnt_einsaetze": 64,
+  "cnt_feuerwehren": 82,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geinberg",
+          "earea": "Geinberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geinberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Geinberg",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "408304": {
+            "feuerwehr": "Feuerwehr/Florian Katzenberg (43304)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
+          },
+          "408312": {
+            "feuerwehr": "Feuerwehr/Florian Obernberg am Inn (43312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Katzenberg (43304)",
+            "fwnr": 408304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Obernberg am Inn (43312)",
+            "fwnr": 408312
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202634",
+        "startzeit": "Sat, 22 Feb 2025 20:21:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2692",
+          "lng": "13.2583"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +100,10 @@
             "fwnr": 404215
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 22 Feb 2025 20:17:00 +0100",
         "num1": "E250202633",
         "startzeit": "Sat, 22 Feb 2025 19:56:57 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2333",
           "lng": "13.6723"
@@ -64,7 +125,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 7,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
@@ -76,11 +137,17 @@
           "text": "Brand Gebäude mehrstöckig"
         },
         "feuerwehren": {
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          },
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
           },
           "400302": {
             "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
+          },
+          "400316": {
+            "feuerwehr": "Feuerwehr/Florian Rossbach (33316)"
           },
           "400322": {
             "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
@@ -94,22 +161,30 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Altheim (33301)",
             "fwnr": 400301
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Aspach (33302)",
             "fwnr": 400302
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Rossbach (33316)",
+            "fwnr": 400316
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
             "fwnr": 400322
           },
-          "3": {
+          "5": {
             "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
             "fwnr": 400361
           },
-          "4": {
+          "6": {
             "fwname": "Feuerwehr/Florian Moosham (43308)",
             "fwnr": 408308
           }
@@ -168,10 +243,10 @@
             "fwnr": 404213
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 22 Feb 2025 20:51:00 +0100",
         "num1": "E250202628",
         "startzeit": "Sat, 22 Feb 2025 19:04:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2332",
           "lng": "13.6723"
