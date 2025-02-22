@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wendling",
+          "earea": "Wendling",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wendling",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Wendling",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404215": {
+            "feuerwehr": "Feuerwehr/Florian Wendling (37215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wendling (37215)",
+            "fwnr": 404215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202633",
+        "startzeit": "Sat, 22 Feb 2025 19:56:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2333",
+          "lng": "13.6723"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
@@ -35,8 +82,14 @@
           "400302": {
             "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
           },
+          "400322": {
+            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
+          },
           "400361": {
             "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
           }
         },
         "feuerwehrenarray": {
@@ -49,8 +102,16 @@
             "fwnr": 400302
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
+            "fwnr": 400322
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
             "fwnr": 400361
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
           }
         },
         "inzeit": "",
