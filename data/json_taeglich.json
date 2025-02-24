@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "407204": {
+            "feuerwehr": "Feuerwehr/Florian Haid (PE) (42204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haid (PE) (42204)",
+            "fwnr": 407204
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202777",
+        "startzeit": "Mon, 24 Feb 2025 15:57:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2462",
+          "lng": "14.5497"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Prambachkirchen",
+          "earea": "Prambachkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Prambachkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "EF - Prambachkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "401115": {
+            "feuerwehr": "Feuerwehr/Florian Prambachkirchen (34115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Prambachkirchen (34115)",
+            "fwnr": 401115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250202774",
+        "startzeit": "Mon, 24 Feb 2025 15:25:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3116",
+          "lng": "13.9037"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +133,10 @@
             "fwnr": 405403
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 24 Feb 2025 15:30:00 +0100",
         "num1": "E250202771",
         "startzeit": "Mon, 24 Feb 2025 14:57:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
@@ -86,10 +180,10 @@
             "fwnr": 414223
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 24 Feb 2025 16:12:00 +0100",
         "num1": "E250202766",
         "startzeit": "Mon, 24 Feb 2025 14:37:25 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1538",
           "lng": "14.031"
@@ -111,7 +205,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 6,
         "einsatzart": "TEE",
         "einsatzort": "EF - Haibach ob der Donau",
         "einsatzsubtyp": {
@@ -123,6 +217,9 @@
           "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
           "401103": {
             "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
           },
@@ -141,22 +238,26 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Eferding (34103)",
             "fwnr": 401103
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
             "fwnr": 401107
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)",
             "fwnr": 401117
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Niederranna (44209)",
             "fwnr": 409209
           },
-          "4": {
+          "5": {
             "fwname": "Feuerwehr/Florian Wesenufer (45119)",
             "fwnr": 410119
           }
@@ -396,10 +497,10 @@
             "fwnr": 400213
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 24 Feb 2025 15:46:00 +0100",
         "num1": "E250202757",
         "startzeit": "Mon, 24 Feb 2025 14:11:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0668",
           "lng": "13.184"
