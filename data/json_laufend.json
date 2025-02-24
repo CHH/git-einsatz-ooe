@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
@@ -106,12 +106,12 @@
           "emun": "Haibach ob der Donau",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "EF - Haibach ob der Donau",
         "einsatzsubtyp": {
@@ -125,12 +125,33 @@
         "feuerwehren": {
           "401107": {
             "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
+          },
+          "401117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)"
+          },
+          "409209": {
+            "feuerwehr": "Feuerwehr/Florian Niederranna (44209)"
+          },
+          "410119": {
+            "feuerwehr": "Feuerwehr/Florian Wesenufer (45119)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
             "fwnr": 401107
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)",
+            "fwnr": 401117
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Niederranna (44209)",
+            "fwnr": 409209
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Wesenufer (45119)",
+            "fwnr": 410119
           }
         },
         "inzeit": "",
@@ -140,53 +161,6 @@
         "wgs84": {
           "lat": "48.412",
           "lng": "13.9172"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pitzenberg",
-          "earea": "Pitzenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pitzenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Pitzenberg",
-        "einsatzsubtyp": {
-          "id": "TÜRPERSEING-TE",
-          "text": "Türöffnung Person eingeschlossen"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "feuerwehren": {
-          "413310": {
-            "feuerwehr": "Feuerwehr/Florian Pühret (50310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pühret (50310)",
-            "fwnr": 413310
-          }
-        },
-        "inzeit": "",
-        "num1": "E250202764",
-        "startzeit": "Mon, 24 Feb 2025 14:35:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.04",
-          "lng": "13.7055"
         }
       }
     },
