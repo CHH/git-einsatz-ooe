@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "400323": {
+            "feuerwehr": "Feuerwehr/Florian Wildenau (33323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildenau (33323)",
+            "fwnr": 400323
+          }
+        },
+        "inzeit": "",
+        "num1": "E250203246",
+        "startzeit": "Fri, 28 Feb 2025 10:08:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.318"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,100 +100,6 @@
         "wgs84": {
           "lat": "48.1895",
           "lng": "14.1296"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eidenberg",
-          "earea": "Eidenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eidenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Eidenberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412205": {
-            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geng (49205)",
-            "fwnr": 412205
-          }
-        },
-        "inzeit": "",
-        "num1": "E250203239",
-        "startzeit": "Fri, 28 Feb 2025 09:41:57 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.426",
-          "lng": "14.2384"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gallspach",
-          "earea": "Gallspach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gallspach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Gallspach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404103": {
-            "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gallspach (37103)",
-            "fwnr": 404103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250203184",
-        "startzeit": "Thu, 27 Feb 2025 19:31:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2057",
-          "lng": "13.8143"
         }
       }
     }
