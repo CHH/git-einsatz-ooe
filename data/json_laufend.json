@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Weißkirchen an der Traun",
-          "earea": "Weißkirchen an der Traun",
+          "default": "Grünburg",
+          "earea": "Grünburg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Weißkirchen an der Traun",
+          "emun": "Grünburg",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 5,
+          "text": "Kirchdorf"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - Weißkirchen an der Traun",
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Grünburg",
         "einsatzsubtyp": {
-          "id": "TÜRPERS-TE",
-          "text": "Türöffnung Menschenrettung"
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
-          "414225": {
-            "feuerwehr": "Feuerwehr/Florian Weißkirchen an der Traun (51225)"
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Weißkirchen an der Traun (51225)",
-            "fwnr": 414225
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
           }
         },
         "inzeit": "",
-        "num1": "E250203267",
-        "startzeit": "Fri, 28 Feb 2025 12:54:15 +0100",
+        "num1": "E250203271",
+        "startzeit": "Fri, 28 Feb 2025 13:42:22 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1622",
-          "lng": "14.1222"
+          "lat": "47.898",
+          "lng": "14.233"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Haag am Hausruck",
+          "earea": "Haag am Hausruck",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Haag am Hausruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Haag am Hausruck",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404208": {
+            "feuerwehr": "Feuerwehr/Florian Haag am Hausruck (37208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haag am Hausruck (37208)",
+            "fwnr": 404208
+          }
+        },
+        "inzeit": "",
+        "num1": "E250203270",
+        "startzeit": "Fri, 28 Feb 2025 13:41:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1879",
+          "lng": "13.6437"
         }
       }
     }
