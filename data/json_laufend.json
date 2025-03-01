@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Pantaleon",
+          "earea": "St. Pantaleon",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Pantaleon",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - St. Pantaleon",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "400412": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Pantaleon (33412)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Pantaleon (33412)",
+            "fwnr": 400412
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300081",
+        "startzeit": "Sat, 01 Mar 2025 23:14:00 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0077",
+          "lng": "12.8929"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.0721",
           "lng": "14.0524"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Laakirchen",
-          "earea": "Laakirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Laakirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Laakirchen",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "403211": {
-            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
-          },
-          "403262": {
-            "feuerwehr": "Feuerwehr/Florian Steyrermühl Ag (36262)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
-            "fwnr": 403211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyrermühl Ag (36262)",
-            "fwnr": 403262
-          }
-        },
-        "inzeit": "",
-        "num1": "E250300079",
-        "startzeit": "Sat, 01 Mar 2025 21:56:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9914",
-          "lng": "13.799"
         }
       }
     },
