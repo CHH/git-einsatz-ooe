@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 42,
-  "cnt_feuerwehren": 44,
+  "cnt_einsaetze": 45,
+  "cnt_feuerwehren": 50,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Garsten",
+          "earea": "Garsten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Garsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Garsten",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411210": {
+            "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberdambach (46210)",
+            "fwnr": 411210
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300069",
+        "startzeit": "Sat, 01 Mar 2025 19:06:35 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9786",
+          "lng": "14.4006"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steegen",
+          "earea": "Steegen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steegen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Steegen",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "404304": {
+            "feuerwehr": "Feuerwehr/Florian Bruck-Waasen (37304)"
+          },
+          "404310": {
+            "feuerwehr": "Feuerwehr/Florian Langenpeuerbach (37310)"
+          },
+          "404315": {
+            "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
+          },
+          "404319": {
+            "feuerwehr": "Feuerwehr/Florian Steegen (37319)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bruck-Waasen (37304)",
+            "fwnr": 404304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Langenpeuerbach (37310)",
+            "fwnr": 404310
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Peuerbach (37315)",
+            "fwnr": 404315
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steegen (37319)",
+            "fwnr": 404319
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300067",
+        "startzeit": "Sat, 01 Mar 2025 18:49:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3413",
+          "lng": "13.7654"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Goisern am Hallstättersee",
+          "earea": "Bad Goisern am Hallstättersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Goisern am Hallstättersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Goisern am Hallstättersee",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Goisern (36101)",
+            "fwnr": 403101
+          }
+        },
+        "inzeit": "Sat, 01 Mar 2025 19:14:00 +0100",
+        "num1": "E250300065",
+        "startzeit": "Sat, 01 Mar 2025 18:18:27 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.6412",
+          "lng": "13.6215"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +201,10 @@
             "fwnr": 412103
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 01 Mar 2025 18:20:00 +0100",
         "num1": "E250300064",
         "startzeit": "Sat, 01 Mar 2025 18:03:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5223",
           "lng": "14.2965"
@@ -563,10 +725,10 @@
             "fwnr": 408126
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 01 Mar 2025 18:59:00 +0100",
         "num1": "E250300048",
         "startzeit": "Sat, 01 Mar 2025 14:20:24 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2807",
           "lng": "13.5911"
@@ -1618,10 +1780,10 @@
             "fwnr": 410216
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 01 Mar 2025 18:33:00 +0100",
         "num1": "E250300018",
         "startzeit": "Sat, 01 Mar 2025 08:51:30 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3605",
           "lng": "13.6898"
