@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 1,
   "cnt_feuerwehren": 2,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "PE - St. Georgen an der Gusen",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Personenrettung unwegsames Gelände"
         },
         "feuerwehren": {
+          "407208": {
+            "feuerwehr": "Feuerwehr/Florian Luftenberg an der Donau (42208)"
+          },
           "407217": {
             "feuerwehr": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Luftenberg an der Donau (42208)",
+            "fwnr": 407208
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)",
             "fwnr": 407217
           }
@@ -46,53 +53,6 @@
         "wgs84": {
           "lat": "48.2739",
           "lng": "14.4471"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lasberg",
-          "earea": "Lasberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lasberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Lasberg",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "402112": {
-            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lasberg (35112)",
-            "fwnr": 402112
-          }
-        },
-        "inzeit": "",
-        "num1": "E250300401",
-        "startzeit": "Tue, 04 Mar 2025 20:46:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4737",
-          "lng": "14.5302"
         }
       }
     }
