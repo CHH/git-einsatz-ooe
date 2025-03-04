@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberstalzell",
+          "earea": "Eberstalzell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberstalzell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Eberstalzell",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414105": {
+            "feuerwehr": "Feuerwehr/Florian Eberstalzell (51105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eberstalzell (51105)",
+            "fwnr": 414105
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300354",
+        "startzeit": "Tue, 04 Mar 2025 14:48:23 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0396",
+          "lng": "13.9927"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,12 +106,12 @@
           "emun": "Gampern",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "VB - Gampern",
         "einsatzsubtyp": {
@@ -76,8 +123,14 @@
           "text": "Person verschüttet / eingesunken"
         },
         "feuerwehren": {
+          "413407": {
+            "feuerwehr": "Feuerwehr/Florian Baumgarting (50407)"
+          },
           "413408": {
             "feuerwehr": "Feuerwehr/Florian Gampern (50408)"
+          },
+          "413415": {
+            "feuerwehr": "Feuerwehr/Florian Piesdorf (50415)"
           },
           "413431": {
             "feuerwehr": "Feuerwehr/Florian Weiterschwang (50431)"
@@ -85,10 +138,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Baumgarting (50407)",
+            "fwnr": 413407
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Gampern (50408)",
             "fwnr": 413408
           },
-          "1": {
+          "2": {
+            "fwname": "Feuerwehr/Florian Piesdorf (50415)",
+            "fwnr": 413415
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Weiterschwang (50431)",
             "fwnr": 413431
           }
