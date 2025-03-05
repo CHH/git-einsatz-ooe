@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hallstatt",
+          "earea": "Hallstatt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hallstatt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Hallstatt",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "403105": {
+            "feuerwehr": "Feuerwehr/Florian Hallstatt (36105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hallstatt (36105)",
+            "fwnr": 403105
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300413",
+        "startzeit": "Wed, 05 Mar 2025 03:16:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5557",
+          "lng": "13.6461"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Timelkam",
+          "earea": "Timelkam",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Timelkam",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Timelkam",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413427": {
+            "feuerwehr": "Feuerwehr/Florian Timelkam (50427)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Timelkam (50427)",
+            "fwnr": 413427
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300412",
+        "startzeit": "Wed, 05 Mar 2025 02:57:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0027",
+          "lng": "13.6078"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -60,10 +154,10 @@
             "fwnr": 412315
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 05 Mar 2025 03:04:00 +0100",
         "num1": "E250300411",
         "startzeit": "Wed, 05 Mar 2025 01:38:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3353",
           "lng": "14.385"
