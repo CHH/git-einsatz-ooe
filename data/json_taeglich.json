@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Munderfing",
+          "earea": "Munderfing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Munderfing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Munderfing",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300420",
+        "startzeit": "Wed, 05 Mar 2025 07:15:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0668",
+          "lng": "13.184"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "LL - St. Florian",
         "einsatzsubtyp": {
@@ -29,6 +76,9 @@
           "text": "Personenrettung Verkehrsunfall LKW"
         },
         "feuerwehren": {
+          "406107": {
+            "feuerwehr": "Feuerwehr/Florian Niederneukirchen (39107)"
+          },
           "406109": {
             "feuerwehr": "Feuerwehr/Florian Rohrbach (39109)"
           },
@@ -38,10 +88,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Niederneukirchen (39107)",
+            "fwnr": 406107
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Rohrbach (39109)",
             "fwnr": 406109
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Florian-Markt (39110)",
             "fwnr": 406110
           }
