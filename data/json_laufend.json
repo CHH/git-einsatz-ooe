@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neuhofen an der Krems",
+          "earea": "Neuhofen an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neuhofen an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Neuhofen an der Krems",
+        "einsatzsubtyp": {
+          "id": "FELD-BR",
+          "text": "Brand Feld"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "406307": {
+            "feuerwehr": "Feuerwehr/Florian Neuhofen an der Krems (39307)"
+          },
+          "406313": {
+            "feuerwehr": "Feuerwehr/Florian Weissenberg (39313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neuhofen an der Krems (39307)",
+            "fwnr": 406307
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weissenberg (39313)",
+            "fwnr": 406313
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300496",
+        "startzeit": "Wed, 05 Mar 2025 17:23:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1378",
+          "lng": "14.2341"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -256,12 +310,12 @@
           "emun": "St. Florian",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "LL - St. Florian",
         "einsatzsubtyp": {
@@ -273,12 +327,26 @@
           "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
+          "406108": {
+            "feuerwehr": "Feuerwehr/Florian Bruck-Hausleiten (39108)"
+          },
+          "406109": {
+            "feuerwehr": "Feuerwehr/Florian Rohrbach (39109)"
+          },
           "406110": {
             "feuerwehr": "Feuerwehr/Florian Sankt Florian-Markt (39110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bruck-Hausleiten (39108)",
+            "fwnr": 406108
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rohrbach (39109)",
+            "fwnr": 406109
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Sankt Florian-Markt (39110)",
             "fwnr": 406110
           }
