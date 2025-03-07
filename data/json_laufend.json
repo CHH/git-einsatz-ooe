@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250300800",
+        "startzeit": "Fri, 07 Mar 2025 14:53:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1873",
+          "lng": "14.2562"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +59,94 @@
           "emun": "Hirschbach im Mühlkreis",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 10,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Hirschbach im Mühlkreis",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "WALD-BR",
+          "text": "Brand Wald"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-WALD",
+          "text": "Brand Wald"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402107": {
             "feuerwehr": "Feuerwehr/Florian Hirschbach im Mühlkreis (35107)"
+          },
+          "402111": {
+            "feuerwehr": "Feuerwehr/Florian Lamm (35111)"
+          },
+          "402121": {
+            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
+          },
+          "402130": {
+            "feuerwehr": "Feuerwehr/Florian Schwandt-Freudenthal (35130)"
+          },
+          "402136": {
+            "feuerwehr": "Feuerwehr/Florian Waldburg (35136)"
+          },
+          "402139": {
+            "feuerwehr": "Feuerwehr/Florian Zeiss (35139)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
+          "412114": {
+            "feuerwehr": "Feuerwehr/Florian Ottenschlag im Mühlkreis (49114)"
+          },
+          "412117": {
+            "feuerwehr": "Feuerwehr/Florian Schenkenfelden (49117)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Hirschbach im Mühlkreis (35107)",
             "fwnr": 402107
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Lamm (35111)",
+            "fwnr": 402111
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Schwandt-Freudenthal (35130)",
+            "fwnr": 402130
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Waldburg (35136)",
+            "fwnr": 402136
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Zeiss (35139)",
+            "fwnr": 402139
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Ottenschlag im Mühlkreis (49114)",
+            "fwnr": 412114
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Schenkenfelden (49117)",
+            "fwnr": 412117
           }
         },
         "inzeit": "",
@@ -234,100 +344,6 @@
         "wgs84": {
           "lat": "48.3744",
           "lng": "14.347"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Feldkirchen an der Donau",
-          "earea": "Feldkirchen an der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Feldkirchen an der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Feldkirchen an der Donau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412215": {
-            "feuerwehr": "Feuerwehr/Florian Bad Mühllacken (49215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Mühllacken (49215)",
-            "fwnr": 412215
-          }
-        },
-        "inzeit": "",
-        "num1": "E250300792",
-        "startzeit": "Fri, 07 Mar 2025 14:33:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3629",
-          "lng": "14.0649"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Spital am Pyhrn",
-          "earea": "Spital am Pyhrn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Spital am Pyhrn",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Spital am Pyhrn",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "405403": {
-            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          }
-        },
-        "inzeit": "",
-        "num1": "E250300783",
-        "startzeit": "Fri, 07 Mar 2025 13:34:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6632",
-          "lng": "14.3396"
         }
       }
     },
