@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee",
+          "earea": "Ebensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ebensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301171",
+        "startzeit": "Mon, 10 Mar 2025 16:27:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8115",
+          "lng": "13.7753"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.3731",
           "lng": "14.6147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weng im Innkreis",
-          "earea": "Weng im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weng im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "BR - Weng im Innkreis",
-        "einsatzsubtyp": {
-          "id": "CO-SCHAD",
-          "text": "Kohlenmonoxidaustritt"
-        },
-        "einsatztyp": {
-          "id": "S0-GAS",
-          "text": "Gasaustritt"
-        },
-        "feuerwehren": {
-          "400322": {
-            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
-            "fwnr": 400322
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301166",
-        "startzeit": "Mon, 10 Mar 2025 15:29:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2345",
-          "lng": "13.1782"
         }
       }
     },
@@ -365,109 +365,6 @@
         "wgs84": {
           "lat": "48.366",
           "lng": "14.5498"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Nikola an der Donau",
-          "earea": "St. Nikola an der Donau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Nikola an der Donau",
-          "estnum": ""
-        },
-        "alarmstufe": "2",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 9,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - St. Nikola an der Donau",
-        "einsatzsubtyp": {
-          "id": "WALD-BR",
-          "text": "Brand Wald"
-        },
-        "einsatztyp": {
-          "id": "B1-WALD",
-          "text": "Brand Wald"
-        },
-        "feuerwehren": {
-          "407101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
-          },
-          "407102": {
-            "feuerwehr": "Feuerwehr/Florian Dimbach (42102)"
-          },
-          "407104": {
-            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
-          },
-          "407105": {
-            "feuerwehr": "Feuerwehr/Florian Klam (42105)"
-          },
-          "407110": {
-            "feuerwehr": "Feuerwehr/Florian Saxen (42110)"
-          },
-          "407112": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Nikola an der Donau (42112)"
-          },
-          "407114": {
-            "feuerwehr": "Feuerwehr/Florian Waldhausen im Strudengau (42114)"
-          },
-          "407203": {
-            "feuerwehr": "Feuerwehr/Florian Blindendorf (42203)"
-          },
-          "407312": {
-            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
-            "fwnr": 407101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Dimbach (42102)",
-            "fwnr": 407102
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Grein (42104)",
-            "fwnr": 407104
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Klam (42105)",
-            "fwnr": 407105
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Saxen (42110)",
-            "fwnr": 407110
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Sankt Nikola an der Donau (42112)",
-            "fwnr": 407112
-          },
-          "6": {
-            "fwname": "Feuerwehr/Florian Waldhausen im Strudengau (42114)",
-            "fwnr": 407114
-          },
-          "7": {
-            "fwname": "Feuerwehr/Florian Blindendorf (42203)",
-            "fwnr": 407203
-          },
-          "8": {
-            "fwname": "Feuerwehr/Florian Perg (42312)",
-            "fwnr": 407312
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301134",
-        "startzeit": "Mon, 10 Mar 2025 12:23:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.233",
-          "lng": "14.906"
         }
       }
     }
