@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weibern",
+          "earea": "Weibern",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weibern",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Weibern",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404214": {
+            "feuerwehr": "Feuerwehr/Florian Weibern (37214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Weibern (37214)",
+            "fwnr": 404214
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301093",
+        "startzeit": "Mon, 10 Mar 2025 07:18:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.184",
+          "lng": "13.7022"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Munderfing",
+          "earea": "Munderfing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Munderfing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Munderfing",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301092",
+        "startzeit": "Mon, 10 Mar 2025 07:13:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0668",
+          "lng": "13.184"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +133,10 @@
             "fwnr": 406102
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 10 Mar 2025 06:37:00 +0100",
         "num1": "E250301089",
         "startzeit": "Mon, 10 Mar 2025 06:09:13 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2174",
           "lng": "14.4791"
