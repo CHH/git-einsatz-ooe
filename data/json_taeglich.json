@@ -1,7 +1,122 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steegen",
+          "earea": "Steegen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steegen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Steegen",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404310": {
+            "feuerwehr": "Feuerwehr/Florian Langenpeuerbach (37310)"
+          },
+          "404313": {
+            "feuerwehr": "Feuerwehr/Florian Obererleinsbach (37313)"
+          },
+          "404315": {
+            "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
+          },
+          "404319": {
+            "feuerwehr": "Feuerwehr/Florian Steegen (37319)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Langenpeuerbach (37310)",
+            "fwnr": 404310
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Obererleinsbach (37313)",
+            "fwnr": 404313
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Peuerbach (37315)",
+            "fwnr": 404315
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steegen (37319)",
+            "fwnr": 404319
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301264",
+        "startzeit": "Tue, 11 Mar 2025 10:08:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3413",
+          "lng": "13.7654"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pinsdorf",
+          "earea": "Pinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Pinsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403217": {
+            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
+            "fwnr": 403217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301259",
+        "startzeit": "Tue, 11 Mar 2025 09:34:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9281",
+          "lng": "13.771"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -187,10 +302,10 @@
             "fwnr": 406215
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 11 Mar 2025 09:41:00 +0100",
         "num1": "E250301239",
         "startzeit": "Tue, 11 Mar 2025 07:34:39 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2344",
           "lng": "14.1346"
