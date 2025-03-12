@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "BMA-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA-SONST",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301454",
+        "startzeit": "Wed, 12 Mar 2025 11:54:55 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -208,60 +255,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Treubach",
-          "earea": "Treubach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Treubach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Treubach",
-        "einsatzsubtyp": {
-          "id": "ABFALL-BR",
-          "text": "Brand Abfall im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
-        },
-        "feuerwehren": {
-          "400312": {
-            "feuerwehr": "Feuerwehr/Florian Pfendhub (33312)"
-          },
-          "400319": {
-            "feuerwehr": "Feuerwehr/Florian Treubach (33319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pfendhub (33312)",
-            "fwnr": 400312
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Treubach (33319)",
-            "fwnr": 400319
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301447",
-        "startzeit": "Wed, 12 Mar 2025 11:25:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1945",
-          "lng": "13.215"
         }
       }
     },
