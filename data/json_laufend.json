@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 31,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
     {
       "einsatz": {
@@ -18,15 +18,15 @@
           "text": "Urfahr-Umgebung"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "TEE",
         "einsatzort": "UU - Haibach im Mühlkreis",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
           "412108": {
@@ -40,12 +40,59 @@
           }
         },
         "inzeit": "",
-        "num1": "E250301664",
-        "startzeit": "Thu, 13 Mar 2025 17:51:09 +0100",
+        "num1": "E250301667",
+        "startzeit": "Thu, 13 Mar 2025 18:05:31 +0100",
         "status": "offen",
         "wgs84": {
           "lat": "48.4269",
           "lng": "14.3586"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Lorenz",
+          "earea": "St. Lorenz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Lorenz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - St. Lorenz",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "413212": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Lorenz (50212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Lorenz (50212)",
+            "fwnr": 413212
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301666",
+        "startzeit": "Thu, 13 Mar 2025 18:02:07 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8232",
+          "lng": "13.355"
         }
       }
     },
@@ -342,81 +389,6 @@
         "wgs84": {
           "lat": "48.6034",
           "lng": "13.8399"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Andorf",
-          "earea": "Andorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Andorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Andorf",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "410202": {
-            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
-          },
-          "410217": {
-            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
-          },
-          "410310": {
-            "feuerwehr": "Feuerwehr/Florian Hof (SD) (45310)"
-          },
-          "410313": {
-            "feuerwehr": "Feuerwehr/Florian Laufenbach (45313)"
-          },
-          "410316": {
-            "feuerwehr": "Feuerwehr/Florian Pramau (45316)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Andorf (45202)",
-            "fwnr": 410202
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
-            "fwnr": 410217
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Hof (SD) (45310)",
-            "fwnr": 410310
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Laufenbach (45313)",
-            "fwnr": 410313
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Pramau (45316)",
-            "fwnr": 410316
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301652",
-        "startzeit": "Thu, 13 Mar 2025 15:31:32 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3708",
-          "lng": "13.5671"
         }
       }
     },
