@@ -1,15 +1,62 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 26,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Freinberg",
-          "earea": "Freinberg",
+          "default": "Oberndorf bei Schwanenstadt",
+          "earea": "Oberndorf bei Schwanenstadt",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Freinberg",
+          "emun": "Oberndorf bei Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Oberndorf bei Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "GROßBUSBERGEN-TE",
+          "text": "Bergung Autobus"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301659",
+        "startzeit": "Thu, 13 Mar 2025 17:03:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Esternberg",
+          "earea": "Esternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Esternberg",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +64,9 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "SD - Freinberg",
+        "einsatzort": "SD - Esternberg",
         "einsatzsubtyp": {
           "id": "GROßLKWBERGEN-TE",
           "text": "Bergung LKW"
@@ -29,12 +76,19 @@
           "text": "Bergung Großfahrzeug"
         },
         "feuerwehren": {
+          "410113": {
+            "feuerwehr": "Feuerwehr/Florian Pyrawang (45113)"
+          },
           "410305": {
             "feuerwehr": "Feuerwehr/Florian Freinberg (45305)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Pyrawang (45113)",
+            "fwnr": 410113
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Freinberg (45305)",
             "fwnr": 410305
           }
@@ -44,55 +98,8 @@
         "startzeit": "Thu, 13 Mar 2025 16:57:24 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5654",
-          "lng": "13.5209"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eberstalzell",
-          "earea": "Eberstalzell",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eberstalzell",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Eberstalzell",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414116": {
-            "feuerwehr": "Feuerwehr/Florian Spieldorf (51116)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spieldorf (51116)",
-            "fwnr": 414116
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301657",
-        "startzeit": "Thu, 13 Mar 2025 16:48:33 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.012",
-          "lng": "13.9883"
+          "lat": "48.5644",
+          "lng": "13.6061"
         }
       }
     },
