@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pramet",
+          "earea": "Pramet",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pramet",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Pramet",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408222": {
+            "feuerwehr": "Feuerwehr/Florian Pramet (43222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pramet (43222)",
+            "fwnr": 408222
+          }
+        },
+        "inzeit": "",
+        "num1": "E250301999",
+        "startzeit": "Sun, 16 Mar 2025 13:21:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1391",
+          "lng": "13.4865"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Gosau",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "403104": {
             "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
+          },
+          "403117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Gosau (36104)",
             "fwnr": 403104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
+            "fwnr": 403117
           }
         },
         "inzeit": "",
@@ -93,107 +147,6 @@
         "wgs84": {
           "lat": "47.9002",
           "lng": "13.3203"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ottenschlag im Mühlkreis",
-          "earea": "Ottenschlag im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ottenschlag im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Ottenschlag im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "ÖLGEWÄSSER-TE",
-          "text": "Ölaustritt Gewässer"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-GEWÄSSER",
-          "text": "Ölaustritt Gewässer"
-        },
-        "feuerwehren": {
-          "412114": {
-            "feuerwehr": "Feuerwehr/Florian Ottenschlag im Mühlkreis (49114)"
-          },
-          "412115": {
-            "feuerwehr": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ottenschlag im Mühlkreis (49114)",
-            "fwnr": 412114
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)",
-            "fwnr": 412115
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301991",
-        "startzeit": "Sun, 16 Mar 2025 11:18:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4661",
-          "lng": "14.387"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Losenstein",
-          "earea": "Losenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Losenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Losenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411307": {
-            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Losenstein (46307)",
-            "fwnr": 411307
-          }
-        },
-        "inzeit": "",
-        "num1": "E250301989",
-        "startzeit": "Sun, 16 Mar 2025 10:11:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9212",
-          "lng": "14.4394"
         }
       }
     },
