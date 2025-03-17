@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302029",
+        "startzeit": "Mon, 17 Mar 2025 05:16:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geretsberg",
+          "earea": "Geretsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geretsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "BR - Geretsberg",
+        "einsatzsubtyp": {
+          "id": "GASWAHRN-SCHAD",
+          "text": "Gasgeruch wahrnehmbar"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
+          }
+        },
+        "inzeit": "Mon, 17 Mar 2025 05:05:00 +0100",
+        "num1": "E250302028",
+        "startzeit": "Mon, 17 Mar 2025 04:21:18 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0896",
+          "lng": "12.9354"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
