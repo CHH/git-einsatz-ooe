@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 25,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 26,
+  "cnt_feuerwehren": 34,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Leonfelden",
+          "earea": "Bad Leonfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Leonfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302225",
+        "startzeit": "Tue, 18 Mar 2025 13:57:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5223",
+          "lng": "14.2965"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "LL - St. Marien",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "406312": {
             "feuerwehr": "Feuerwehr/Florian Weichstetten (39312)"
+          },
+          "411207": {
+            "feuerwehr": "Feuerwehr/Florian Losensteinleiten (46207)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Weichstetten (39312)",
             "fwnr": 406312
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Losensteinleiten (46207)",
+            "fwnr": 411207
           }
         },
         "inzeit": "",
@@ -86,10 +140,10 @@
             "fwnr": 406110
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Mar 2025 13:34:00 +0100",
         "num1": "E250302216",
         "startzeit": "Tue, 18 Mar 2025 13:00:10 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2045",
           "lng": "14.3718"
@@ -133,10 +187,10 @@
             "fwnr": 404112
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Mar 2025 13:47:00 +0100",
         "num1": "E250302213",
         "startzeit": "Tue, 18 Mar 2025 12:36:35 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2737",
           "lng": "13.7292"
@@ -187,10 +241,10 @@
             "fwnr": 404204
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Mar 2025 13:52:00 +0100",
         "num1": "E250302210",
         "startzeit": "Tue, 18 Mar 2025 11:36:49 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1424",
           "lng": "13.7347"
@@ -912,10 +966,10 @@
             "fwnr": 410322
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Mar 2025 13:41:00 +0100",
         "num1": "E250302172",
         "startzeit": "Tue, 18 Mar 2025 07:26:04 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.521",
           "lng": "13.4987"
