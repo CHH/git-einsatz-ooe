@@ -1,7 +1,176 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "S10",
+          "earea": "S10",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "S10",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - S10",
+        "einsatzsubtyp": {
+          "id": "PERSLKW-VU",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-LKW",
+          "text": "Personenrettung Verkehrsunfall LKW"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
+          "402121": {
+            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
+          },
+          "402205": {
+            "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
+          },
+          "402212": {
+            "feuerwehr": "Feuerwehr/Florian Unterweitersdorf (35212)"
+          },
+          "402213": {
+            "feuerwehr": "Feuerwehr/Florian Wartberg ob der Aist (35213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
+            "fwnr": 402205
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Unterweitersdorf (35212)",
+            "fwnr": 402212
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Wartberg ob der Aist (35213)",
+            "fwnr": 402213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302175",
+        "startzeit": "Tue, 18 Mar 2025 08:08:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sandl",
+          "earea": "Sandl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sandl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Sandl",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "402417": {
+            "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sandl (35417)",
+            "fwnr": 402417
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302173",
+        "startzeit": "Tue, 18 Mar 2025 07:38:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5601",
+          "lng": "14.647"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schardenberg",
+          "earea": "Schardenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schardenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Schardenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410322": {
+            "feuerwehr": "Feuerwehr/Florian Schardenberg (45322)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schardenberg (45322)",
+            "fwnr": 410322
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302172",
+        "startzeit": "Tue, 18 Mar 2025 07:26:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.521",
+          "lng": "13.4987"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +255,10 @@
             "fwnr": 403101
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Mar 2025 07:34:00 +0100",
         "num1": "E250302163",
         "startzeit": "Tue, 18 Mar 2025 06:58:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
