@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Berg im Attergau",
+          "earea": "Berg im Attergau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Berg im Attergau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Berg im Attergau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413505": {
+            "feuerwehr": "Feuerwehr/Florian Berg im Attergau (50505)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Berg im Attergau (50505)",
+            "fwnr": 413505
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302283",
+        "startzeit": "Tue, 18 Mar 2025 19:33:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.94",
+          "lng": "13.5259"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -18,15 +65,15 @@
           "text": "Gmunden"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "TEE",
         "einsatzort": "GM - St. Wolfgang im Salzkammergut",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
         },
         "feuerwehren": {
           "403118": {
@@ -40,8 +87,8 @@
           }
         },
         "inzeit": "",
-        "num1": "E250302281",
-        "startzeit": "Tue, 18 Mar 2025 19:18:14 +0100",
+        "num1": "E250302282",
+        "startzeit": "Tue, 18 Mar 2025 19:33:16 +0100",
         "status": "offen",
         "wgs84": {
           "lat": "47.7391",
@@ -428,53 +475,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pregarten",
-          "earea": "Pregarten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pregarten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - Pregarten",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "402209": {
-            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pregarten (35209)",
-            "fwnr": 402209
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302265",
-        "startzeit": "Tue, 18 Mar 2025 18:41:39 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3475",
-          "lng": "14.5416"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Meggenhofen",
           "earea": "Meggenhofen",
           "ecompl": "",
@@ -610,107 +610,6 @@
         "wgs84": {
           "lat": "48.2362",
           "lng": "13.8166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Rainbach im Innkreis",
-          "earea": "Rainbach im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Rainbach im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Rainbach im Innkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410317": {
-            "feuerwehr": "Feuerwehr/Florian Rainbach im Innkreis (45317)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rainbach im Innkreis (45317)",
-            "fwnr": 410317
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302255",
-        "startzeit": "Tue, 18 Mar 2025 17:59:33 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4545",
-          "lng": "13.5357"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Riedau",
-          "earea": "Riedau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Riedau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "SD - Riedau",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "410215": {
-            "feuerwehr": "Feuerwehr/Florian Riedau (45215)"
-          },
-          "410261": {
-            "feuerwehr": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Riedau (45215)",
-            "fwnr": 410215
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)",
-            "fwnr": 410261
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302248",
-        "startzeit": "Tue, 18 Mar 2025 17:26:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3036",
-          "lng": "13.6299"
         }
       }
     },
