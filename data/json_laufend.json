@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 41,
-  "cnt_feuerwehren": 41,
+  "cnt_einsaetze": 36,
+  "cnt_feuerwehren": 36,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Steinerkirchen an der Traun",
-          "earea": "Steinerkirchen an der Traun",
+          "default": "Jeging",
+          "earea": "Jeging",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Steinerkirchen an der Traun",
+          "emun": "Jeging",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 0,
+          "text": "Braunau"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "WL - Steinerkirchen an der Traun",
+        "einsatzort": "BR - Jeging",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "414119": {
-            "feuerwehr": "Feuerwehr/Florian Wollsberg (51119)"
+          "400208": {
+            "feuerwehr": "Feuerwehr/Florian Jeging (33208)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Wollsberg (51119)",
-            "fwnr": 414119
+            "fwname": "Feuerwehr/Florian Jeging (33208)",
+            "fwnr": 400208
           }
         },
         "inzeit": "",
-        "num1": "E250302791",
-        "startzeit": "Fri, 21 Mar 2025 20:00:40 +0100",
+        "num1": "E250302795",
+        "startzeit": "Fri, 21 Mar 2025 20:13:18 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0758",
-          "lng": "14.0134"
+          "lat": "48.0512",
+          "lng": "13.1464"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302794",
+        "startzeit": "Fri, 21 Mar 2025 20:09:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
         }
       }
     },
@@ -334,53 +381,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Ulrichsberg",
-          "earea": "Ulrichsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ulrichsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Ulrichsberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409109": {
-            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
-            "fwnr": 409109
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302780",
-        "startzeit": "Fri, 21 Mar 2025 19:35:02 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6748",
-          "lng": "13.9186"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Agatha",
           "earea": "St. Agatha",
           "ecompl": "",
@@ -422,6 +422,53 @@
         "wgs84": {
           "lat": "48.3883",
           "lng": "13.8772"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ulrichsberg",
+          "earea": "Ulrichsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ulrichsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Ulrichsberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409109": {
+            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
+            "fwnr": 409109
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302780",
+        "startzeit": "Fri, 21 Mar 2025 19:35:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6748",
+          "lng": "13.9186"
         }
       }
     },
@@ -663,53 +710,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pinsdorf",
-          "earea": "Pinsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pinsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Pinsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403227": {
-            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesen (36227)",
-            "fwnr": 403227
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302772",
-        "startzeit": "Fri, 21 Mar 2025 19:16:24 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9477",
-          "lng": "13.7515"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Puchkirchen am Trattberg",
           "earea": "Puchkirchen am Trattberg",
           "ecompl": "",
@@ -798,53 +798,6 @@
         "wgs84": {
           "lat": "48.2737",
           "lng": "13.7292"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Langenstein",
-          "earea": "Langenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Langenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Langenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407207": {
-            "feuerwehr": "Feuerwehr/Florian Langenstein (42207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Langenstein (42207)",
-            "fwnr": 407207
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302768",
-        "startzeit": "Fri, 21 Mar 2025 19:11:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2523",
-          "lng": "14.4738"
         }
       }
     },
@@ -992,53 +945,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Peter am Wimberg",
-          "earea": "St. Peter am Wimberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Peter am Wimberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - St. Peter am Wimberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409304": {
-            "feuerwehr": "Feuerwehr/Florian Kasten (44304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kasten (44304)",
-            "fwnr": 409304
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302763",
-        "startzeit": "Fri, 21 Mar 2025 19:08:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5466",
-          "lng": "14.0718"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Katsdorf",
           "earea": "Katsdorf",
           "ecompl": "",
@@ -1133,53 +1039,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Münzkirchen",
-          "earea": "Münzkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Münzkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Münzkirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410323": {
-            "feuerwehr": "Feuerwehr/Florian Schiessdorf (45323)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
-            "fwnr": 410323
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302760",
-        "startzeit": "Fri, 21 Mar 2025 19:04:53 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.483",
-          "lng": "13.5608"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Naarn im Machlande",
           "earea": "Naarn im Machlande",
           "ecompl": "",
@@ -1251,53 +1110,6 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "400207": {
-            "feuerwehr": "Feuerwehr/Florian Hart (BR) (33207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (BR) (33207)",
-            "fwnr": 400207
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302756",
-        "startzeit": "Fri, 21 Mar 2025 19:02:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1176",
-          "lng": "13.0772"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pischelsdorf am Engelbach",
-          "earea": "Pischelsdorf am Engelbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pischelsdorf am Engelbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Pischelsdorf am Engelbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
           "400217": {
             "feuerwehr": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)"
           }
@@ -1315,53 +1127,6 @@
         "wgs84": {
           "lat": "48.1303",
           "lng": "13.0865"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mauthausen",
-          "earea": "Mauthausen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauthausen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Mauthausen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407204": {
-            "feuerwehr": "Feuerwehr/Florian Haid (PE) (42204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haid (PE) (42204)",
-            "fwnr": 407204
-          }
-        },
-        "inzeit": "",
-        "num1": "E250302751",
-        "startzeit": "Fri, 21 Mar 2025 18:46:56 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2462",
-          "lng": "14.5497"
         }
       }
     },
