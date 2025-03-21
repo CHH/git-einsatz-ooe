@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traunkirchen",
+          "earea": "Traunkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traunkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Traunkirchen",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "403224": {
+            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
+            "fwnr": 403224
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302709",
+        "startzeit": "Fri, 21 Mar 2025 16:41:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8557",
+          "lng": "13.7805"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "UU - Altenberg bei Linz",
         "einsatzsubtyp": {
@@ -37,6 +84,9 @@
           },
           "412307": {
             "feuerwehr": "Feuerwehr/Florian Kronabittedt (49307)"
+          },
+          "412310": {
+            "feuerwehr": "Feuerwehr/Florian Oberbairing (49310)"
           }
         },
         "feuerwehrenarray": {
@@ -51,6 +101,10 @@
           "2": {
             "fwname": "Feuerwehr/Florian Kronabittedt (49307)",
             "fwnr": 412307
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Oberbairing (49310)",
+            "fwnr": 412310
           }
         },
         "inzeit": "",
