@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 97,
-  "cnt_feuerwehren": 109,
+  "cnt_einsaetze": 98,
+  "cnt_feuerwehren": 110,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302803",
+        "startzeit": "Fri, 21 Mar 2025 22:16:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2097",
+          "lng": "14.2881"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,10 +147,10 @@
             "fwnr": 414117
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:27:00 +0100",
         "num1": "E250302797",
         "startzeit": "Fri, 21 Mar 2025 20:45:05 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0842",
           "lng": "13.8583"
@@ -147,10 +194,10 @@
             "fwnr": 400208
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:40:00 +0100",
         "num1": "E250302795",
         "startzeit": "Fri, 21 Mar 2025 20:13:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0512",
           "lng": "13.1464"
@@ -382,10 +429,10 @@
             "fwnr": 409402
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:39:00 +0100",
         "num1": "E250302787",
         "startzeit": "Fri, 21 Mar 2025 19:43:41 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5271",
           "lng": "14.1709"
@@ -429,10 +476,10 @@
             "fwnr": 400203
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 22:04:00 +0100",
         "num1": "E250302785",
         "startzeit": "Fri, 21 Mar 2025 19:41:46 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0667",
           "lng": "13.0455"
@@ -523,60 +570,13 @@
             "fwnr": 409302
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:20:00 +0100",
         "num1": "E250302783",
         "startzeit": "Fri, 21 Mar 2025 19:39:20 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5265",
           "lng": "14.0616"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Agatha",
-          "earea": "St. Agatha",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Agatha",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - St. Agatha",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
-            "fwnr": 404317
-          }
-        },
-        "inzeit": "Fri, 21 Mar 2025 20:18:00 +0100",
-        "num1": "E250302779",
-        "startzeit": "Fri, 21 Mar 2025 19:35:02 +0100",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.3883",
-          "lng": "13.8772"
         }
       }
     },
@@ -630,6 +630,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "St. Agatha",
+          "earea": "St. Agatha",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Agatha",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - St. Agatha",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
+            "fwnr": 404317
+          }
+        },
+        "inzeit": "Fri, 21 Mar 2025 20:18:00 +0100",
+        "num1": "E250302779",
+        "startzeit": "Fri, 21 Mar 2025 19:35:02 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.3883",
+          "lng": "13.8772"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Attnang-Puchheim",
           "earea": "Attnang-Puchheim",
           "ecompl": "",
@@ -664,10 +711,10 @@
             "fwnr": 413404
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:46:00 +0100",
         "num1": "E250302777",
         "startzeit": "Fri, 21 Mar 2025 19:34:45 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0164",
           "lng": "13.7192"
@@ -1510,10 +1557,10 @@
             "fwnr": 407310
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 22:17:00 +0100",
         "num1": "E250302759",
         "startzeit": "Fri, 21 Mar 2025 19:04:04 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2228",
           "lng": "14.6161"
@@ -1933,10 +1980,10 @@
             "fwnr": 404316
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 22:17:00 +0100",
         "num1": "E250302749",
         "startzeit": "Fri, 21 Mar 2025 18:44:46 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.335",
           "lng": "13.8982"
@@ -1980,10 +2027,10 @@
             "fwnr": 406215
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:25:00 +0100",
         "num1": "E250302748",
         "startzeit": "Fri, 21 Mar 2025 18:43:12 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2344",
           "lng": "14.1346"
@@ -2309,10 +2356,10 @@
             "fwnr": 409407
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:50:00 +0100",
         "num1": "E250302738",
         "startzeit": "Fri, 21 Mar 2025 18:17:33 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5765",
           "lng": "14.044"
@@ -2403,10 +2450,10 @@
             "fwnr": 402121
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:30:00 +0100",
         "num1": "E250302736",
         "startzeit": "Fri, 21 Mar 2025 18:04:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.43",
           "lng": "14.4838"
@@ -2967,10 +3014,10 @@
             "fwnr": 406223
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 21 Mar 2025 21:46:00 +0100",
         "num1": "E250302721",
         "startzeit": "Fri, 21 Mar 2025 17:10:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3188",
           "lng": "14.1755"
