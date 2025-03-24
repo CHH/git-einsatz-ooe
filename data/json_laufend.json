@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Waldneukirchen",
-          "earea": "Waldneukirchen",
+          "default": "Kirchheim im Innkreis",
+          "earea": "Kirchheim im Innkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Waldneukirchen",
+          "emun": "Kirchheim im Innkreis",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
+          "id": 8,
+          "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "SE - Waldneukirchen",
+        "einsatzort": "RI - Kirchheim im Innkreis",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "411107": {
-            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          "408114": {
+            "feuerwehr": "Feuerwehr/Florian Kirchheim im Innkreis (43114)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
-            "fwnr": 411107
+            "fwname": "Feuerwehr/Florian Kirchheim im Innkreis (43114)",
+            "fwnr": 408114
           }
         },
         "inzeit": "",
-        "num1": "E250302997",
-        "startzeit": "Mon, 24 Mar 2025 09:01:57 +0100",
+        "num1": "E250303000",
+        "startzeit": "Mon, 24 Mar 2025 09:15:48 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9959",
-          "lng": "14.2594"
+          "lat": "48.2086",
+          "lng": "13.3586"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E250302999",
+        "startzeit": "Mon, 24 Mar 2025 09:12:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
         }
       }
     },
