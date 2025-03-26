@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 18,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "SONSTIGE",
         "einsatzort": "FR - Pregarten",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Gasaustritt"
         },
         "feuerwehren": {
+          "402205": {
+            "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
+          },
           "402209": {
             "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
+            "fwnr": 402205
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pregarten (35209)",
             "fwnr": 402209
           }
@@ -147,53 +154,6 @@
         "wgs84": {
           "lat": "47.9421",
           "lng": "13.4682"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Utzenaich",
-          "earea": "Utzenaich",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Utzenaich",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Utzenaich",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408323": {
-            "feuerwehr": "Feuerwehr/Florian Utzenaich (43323)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Utzenaich (43323)",
-            "fwnr": 408323
-          }
-        },
-        "inzeit": "",
-        "num1": "E250303377",
-        "startzeit": "Wed, 26 Mar 2025 19:42:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2768",
-          "lng": "13.4651"
         }
       }
     },
