@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          }
+        },
+        "inzeit": "",
+        "num1": "E250303413",
+        "startzeit": "Thu, 27 Mar 2025 10:18:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -146,53 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Neumarkt im Mühlkreis",
-          "earea": "Neumarkt im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neumarkt im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Neumarkt im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "402121": {
-            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
-            "fwnr": 402121
-          }
-        },
-        "inzeit": "",
-        "num1": "E250303407",
-        "startzeit": "Thu, 27 Mar 2025 09:50:25 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.43",
-          "lng": "14.4838"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Mehrnbach",
           "earea": "Mehrnbach",
           "ecompl": "",
@@ -248,60 +248,6 @@
         "wgs84": {
           "lat": "48.2182",
           "lng": "13.4121"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Allhaming",
-          "earea": "Allhaming",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Allhaming",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Allhaming",
-        "einsatzsubtyp": {
-          "id": "LANDWIRT-BR",
-          "text": "Brand landwirtschaftliches Objekt"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB-LANDWIRT",
-          "text": "Brand landwirtschaftliches Objekt"
-        },
-        "feuerwehren": {
-          "406302": {
-            "feuerwehr": "Feuerwehr/Florian Allhaming (39302)"
-          },
-          "406307": {
-            "feuerwehr": "Feuerwehr/Florian Neuhofen an der Krems (39307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Allhaming (39302)",
-            "fwnr": 406302
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Neuhofen an der Krems (39307)",
-            "fwnr": 406307
-          }
-        },
-        "inzeit": "",
-        "num1": "E250303395",
-        "startzeit": "Thu, 27 Mar 2025 08:08:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1533",
-          "lng": "14.1725"
         }
       }
     },
