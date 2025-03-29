@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Unterweitersdorf",
+          "earea": "Unterweitersdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Unterweitersdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Unterweitersdorf",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "402212": {
+            "feuerwehr": "Feuerwehr/Florian Unterweitersdorf (35212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterweitersdorf (35212)",
+            "fwnr": 402212
+          }
+        },
+        "inzeit": "",
+        "num1": "E250303693",
+        "startzeit": "Sat, 29 Mar 2025 02:33:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3665",
+          "lng": "14.4731"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 414225
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 29 Mar 2025 01:52:00 +0100",
         "num1": "E250303692",
         "startzeit": "Sat, 29 Mar 2025 01:19:36 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1622",
           "lng": "14.1222"
