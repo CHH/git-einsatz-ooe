@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sierning",
+          "earea": "Sierning",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sierning",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "SE - Sierning",
+        "einsatzsubtyp": {
+          "id": "CO-SCHAD",
+          "text": "Kohlenmonoxidaustritt"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "411217": {
+            "feuerwehr": "Feuerwehr/Florian Sierning (46217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sierning (46217)",
+            "fwnr": 411217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250400077",
+        "startzeit": "Tue, 01 Apr 2025 14:56:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0405",
+          "lng": "14.3116"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,7 +59,7 @@
           "emun": "Gutau",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
@@ -21,12 +68,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "FR - Gutau",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
           "402203": {
