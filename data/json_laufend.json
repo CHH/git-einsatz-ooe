@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Prambachkirchen",
+          "earea": "Prambachkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Prambachkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Prambachkirchen",
+        "einsatzsubtyp": {
+          "id": "FELD-BR",
+          "text": "Brand Feld"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "401106": {
+            "feuerwehr": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)"
+          },
+          "401115": {
+            "feuerwehr": "Feuerwehr/Florian Prambachkirchen (34115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)",
+            "fwnr": 401106
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Prambachkirchen (34115)",
+            "fwnr": 401115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250401461",
+        "startzeit": "Thu, 10 Apr 2025 14:26:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2975",
+          "lng": "13.9435"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,147 +100,6 @@
         "wgs84": {
           "lat": "48.5279",
           "lng": "13.6516"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Peilstein im Mühlkreis",
-          "earea": "Peilstein im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Peilstein im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Peilstein im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409416": {
-            "feuerwehr": "Feuerwehr/Florian Peilstein im Mühlkreis (44416)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Peilstein im Mühlkreis (44416)",
-            "fwnr": 409416
-          }
-        },
-        "inzeit": "",
-        "num1": "E250401456",
-        "startzeit": "Thu, 10 Apr 2025 14:02:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6198",
-          "lng": "13.8923"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mauthausen",
-          "earea": "Mauthausen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mauthausen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Mauthausen",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "407204": {
-            "feuerwehr": "Feuerwehr/Florian Haid (pe) (42204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haid (pe) (42204)",
-            "fwnr": 407204
-          }
-        },
-        "inzeit": "",
-        "num1": "E250401455",
-        "startzeit": "Thu, 10 Apr 2025 13:58:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2462",
-          "lng": "14.5497"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E250401450",
-        "startzeit": "Thu, 10 Apr 2025 13:45:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
         }
       }
     },
