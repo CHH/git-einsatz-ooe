@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Prambachkirchen",
+          "earea": "Prambachkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Prambachkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "EF - Prambachkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "401106": {
+            "feuerwehr": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)",
+            "fwnr": 401106
+          }
+        },
+        "inzeit": "",
+        "num1": "E250401600",
+        "startzeit": "Fri, 11 Apr 2025 13:10:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2975",
+          "lng": "13.9435"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kefermarkt",
+          "earea": "Kefermarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kefermarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Kefermarkt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          }
+        },
+        "inzeit": "",
+        "num1": "E250401598",
+        "startzeit": "Fri, 11 Apr 2025 12:26:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4391",
+          "lng": "14.5384"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,7 +106,7 @@
           "emun": "Höhnhart",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
@@ -21,12 +115,12 @@
         "einsatzart": "PERSON",
         "einsatzort": "BR - Höhnhart",
         "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
           "400302": {
@@ -100,10 +194,10 @@
             "fwnr": 407207
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 11 Apr 2025 12:22:00 +0200",
         "num1": "E250401596",
         "startzeit": "Fri, 11 Apr 2025 12:09:42 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2523",
           "lng": "14.4738"
