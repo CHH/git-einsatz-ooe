@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 38,
+  "cnt_einsaetze": 26,
+  "cnt_feuerwehren": 35,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Gotthard im Mühlkreis",
+          "earea": "St. Gotthard im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Gotthard im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - St. Gotthard im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412203": {
+            "feuerwehr": "Feuerwehr/Florian Eschelberg (49203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eschelberg (49203)",
+            "fwnr": 412203
+          }
+        },
+        "inzeit": "",
+        "num1": "E250401873",
+        "startzeit": "Sat, 12 Apr 2025 16:49:49 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3864",
+          "lng": "14.1152"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -146,53 +193,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Freistadt",
-          "earea": "Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Freistadt",
-        "einsatzsubtyp": {
-          "id": "TÜRHERD-TE",
-          "text": "Türöffnung Herd eingeschalten"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-HERD",
-          "text": "Türöffnung Herd eingeschalten"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250401865",
-        "startzeit": "Sat, 12 Apr 2025 16:15:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5181",
-          "lng": "14.5075"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Schwertberg",
           "earea": "Schwertberg",
           "ecompl": "",
@@ -328,67 +328,6 @@
         "wgs84": {
           "lat": "48.3028",
           "lng": "13.3653"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Andorf",
-          "earea": "Andorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Andorf",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "SD - Andorf",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "410202": {
-            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
-          },
-          "410213": {
-            "feuerwehr": "Feuerwehr/Florian Pimpfing (45213)"
-          },
-          "410316": {
-            "feuerwehr": "Feuerwehr/Florian Pramau (45316)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Andorf (45202)",
-            "fwnr": 410202
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pimpfing (45213)",
-            "fwnr": 410213
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Pramau (45316)",
-            "fwnr": 410316
-          }
-        },
-        "inzeit": "",
-        "num1": "E250401856",
-        "startzeit": "Sat, 12 Apr 2025 15:42:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3708",
-          "lng": "13.5671"
         }
       }
     },
