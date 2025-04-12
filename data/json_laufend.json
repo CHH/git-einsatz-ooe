@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 21,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "TÜRASSPOL-TE",
+          "text": "Türöffnung Assistenz Polizei"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E250401806",
+        "startzeit": "Sat, 12 Apr 2025 12:28:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Altenfelden",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 10,
         "einsatzart": "BRAND",
         "einsatzort": "RO - Altenfelden",
         "einsatzsubtyp": {
@@ -29,28 +76,77 @@
           "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "409205": {
+            "feuerwehr": "Feuerwehr/Florian Lembach im Mühlkreis (44205)"
+          },
           "409301": {
             "feuerwehr": "Feuerwehr/Florian Altenfelden (44301)"
           },
           "409303": {
             "feuerwehr": "Feuerwehr/Florian Hühnergeschrei (44303)"
           },
+          "409305": {
+            "feuerwehr": "Feuerwehr/Florian Kirchberg ob der Donau (44305)"
+          },
           "409306": {
             "feuerwehr": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)"
+          },
+          "409307": {
+            "feuerwehr": "Feuerwehr/Florian Neufelden (44307)"
+          },
+          "409315": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)"
+          },
+          "409404": {
+            "feuerwehr": "Feuerwehr/Florian Arnreit (44404)"
+          },
+          "409407": {
+            "feuerwehr": "Feuerwehr/Florian Haslach an der Mühl (44407)"
+          },
+          "409419": {
+            "feuerwehr": "Feuerwehr/Florian Rohrbach im Mühlkreis (44419)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Lembach im Mühlkreis (44205)",
+            "fwnr": 409205
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Altenfelden (44301)",
             "fwnr": 409301
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Hühnergeschrei (44303)",
             "fwnr": 409303
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Kirchberg ob der Donau (44305)",
+            "fwnr": 409305
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)",
             "fwnr": 409306
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Neufelden (44307)",
+            "fwnr": 409307
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)",
+            "fwnr": 409315
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Arnreit (44404)",
+            "fwnr": 409404
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Haslach an der Mühl (44407)",
+            "fwnr": 409407
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Rohrbach im Mühlkreis (44419)",
+            "fwnr": 409419
           }
         },
         "inzeit": "",
