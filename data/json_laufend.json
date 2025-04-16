@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E250402307",
+        "startzeit": "Wed, 16 Apr 2025 15:43:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.233",
           "lng": "14.906"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pramet",
-          "earea": "Pramet",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pramet",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Pramet",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408222": {
-            "feuerwehr": "Feuerwehr/Florian Pramet (43222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pramet (43222)",
-            "fwnr": 408222
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402295",
-        "startzeit": "Wed, 16 Apr 2025 14:24:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1391",
-          "lng": "13.4865"
         }
       }
     },
