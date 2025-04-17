@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 23,
+  "cnt_einsaetze": 22,
   "cnt_feuerwehren": 33,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steinbach am Ziehberg",
+          "earea": "Steinbach am Ziehberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steinbach am Ziehberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Steinbach am Ziehberg",
+        "einsatzsubtyp": {
+          "id": "WALD-BR",
+          "text": "Brand Wald"
+        },
+        "einsatztyp": {
+          "id": "B1-WALD",
+          "text": "Brand Wald"
+        },
+        "feuerwehren": {
+          "405214": {
+            "feuerwehr": "Feuerwehr/Florian Steinbach am Ziehberg (38214)"
+          },
+          "405215": {
+            "feuerwehr": "Feuerwehr/Florian Steinfelden (38215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steinbach am Ziehberg (38214)",
+            "fwnr": 405214
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinfelden (38215)",
+            "fwnr": 405215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250402521",
+        "startzeit": "Thu, 17 Apr 2025 13:51:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8921",
+          "lng": "14.0306"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -106,7 +160,7 @@
           "emun": "Redlham",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 13,
           "text": "Vöcklabruck"
@@ -115,12 +169,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "VB - Redlham",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "413311": {
@@ -334,53 +388,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Peter am Wimberg",
-          "earea": "St. Peter am Wimberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Peter am Wimberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RO - St. Peter am Wimberg",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "409315": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)",
-            "fwnr": 409315
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402513",
-        "startzeit": "Thu, 17 Apr 2025 13:23:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5023",
-          "lng": "14.0719"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ternberg",
           "earea": "Ternberg",
           "ecompl": "",
@@ -469,53 +476,6 @@
         "wgs84": {
           "lat": "48.2262",
           "lng": "14.2971"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hagenberg im Mühlkreis",
-          "earea": "Hagenberg im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hagenberg im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Hagenberg im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "402205": {
-            "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)",
-            "fwnr": 402205
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402510",
-        "startzeit": "Thu, 17 Apr 2025 13:19:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3724",
-          "lng": "14.5161"
         }
       }
     },
