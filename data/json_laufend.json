@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lochen am See",
+          "earea": "Lochen am See",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lochen am See",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Lochen am See",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "10007": {
+            "feuerwehr": "Feuerwehr/Florian Mattsee (SBG)"
+          },
+          "400210": {
+            "feuerwehr": "Feuerwehr/Florian Lochen (33210)"
+          },
+          "400214": {
+            "feuerwehr": "Feuerwehr/Florian Palting (33214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattsee (SBG)",
+            "fwnr": 10007
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lochen (33210)",
+            "fwnr": 400210
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Palting (33214)",
+            "fwnr": 400214
+          }
+        },
+        "inzeit": "",
+        "num1": "E250402964",
+        "startzeit": "Sat, 19 Apr 2025 19:15:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.007",
+          "lng": "13.1787"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -147,53 +208,6 @@
         "wgs84": {
           "lat": "47.8889",
           "lng": "14.3161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Pantaleon",
-          "earea": "St. Pantaleon",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Pantaleon",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Pantaleon",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "400415": {
-            "feuerwehr": "Feuerwehr/Florian Trimmelkam (33415)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Trimmelkam (33415)",
-            "fwnr": 400415
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402958",
-        "startzeit": "Sat, 19 Apr 2025 18:45:59 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0257",
-          "lng": "12.8675"
         }
       }
     },
