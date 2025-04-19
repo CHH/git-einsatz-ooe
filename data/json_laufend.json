@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 20,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Zell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Bad Zell",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          }
+        },
+        "inzeit": "",
+        "num1": "E250402925",
+        "startzeit": "Sat, 19 Apr 2025 14:09:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3518",
+          "lng": "14.6781"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250402924",
+        "startzeit": "Sat, 19 Apr 2025 14:06:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -65,15 +159,15 @@
           "text": "Grieskirchen"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "PERSON",
         "einsatzort": "GR - St. Georgen bei Grieskirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
           "404120": {
@@ -255,53 +349,6 @@
         "wgs84": {
           "lat": "48.1469",
           "lng": "13.4644"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traun",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Traun",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402913",
-        "startzeit": "Sat, 19 Apr 2025 13:16:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
         }
       }
     },
@@ -584,60 +631,6 @@
         "wgs84": {
           "lat": "48.6276",
           "lng": "13.8451"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sierning",
-          "earea": "Sierning",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sierning",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - Sierning",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "411211": {
-            "feuerwehr": "Feuerwehr/Florian Pichlern (46211)"
-          },
-          "411217": {
-            "feuerwehr": "Feuerwehr/Florian Sierning (46217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pichlern (46211)",
-            "fwnr": 411211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sierning (46217)",
-            "fwnr": 411217
-          }
-        },
-        "inzeit": "",
-        "num1": "E250402891",
-        "startzeit": "Sat, 19 Apr 2025 12:01:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0405",
-          "lng": "14.3116"
         }
       }
     },
