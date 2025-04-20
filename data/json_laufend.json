@@ -1,51 +1,58 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ohlsdorf",
-          "earea": "Ohlsdorf",
+          "default": "Spital am Pyhrn",
+          "earea": "Spital am Pyhrn",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ohlsdorf",
+          "emun": "Spital am Pyhrn",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": "STMK",
+          "text": "STMK"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
-        "einsatzort": "GM - Ohlsdorf",
+        "einsatzort": "ST - Spital am Pyhrn",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "403216": {
-            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          "20003": {
+            "feuerwehr": "Feuerwehr/Florian Ardning (STMK)"
+          },
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
-            "fwnr": 403216
+            "fwname": "Feuerwehr/Florian Ardning (STMK)",
+            "fwnr": 20003
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
           }
         },
         "inzeit": "",
-        "num1": "E250403009",
-        "startzeit": "Sun, 20 Apr 2025 16:19:51 +0200",
+        "num1": "E250403012",
+        "startzeit": "Sun, 20 Apr 2025 17:13:45 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9629",
-          "lng": "13.7936"
+          "lat": null,
+          "lng": null
         }
       }
     },
