@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schalchen",
+          "earea": "Schalchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schalchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Schalchen",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
+          "400227": {
+            "feuerwehr": "Feuerwehr/Florian Furth-Unterlochen (33227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Furth-Unterlochen (33227)",
+            "fwnr": 400227
+          }
+        },
+        "inzeit": "",
+        "num1": "E250403018",
+        "startzeit": "Sun, 20 Apr 2025 19:08:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1233",
+          "lng": "13.1413"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,107 +100,6 @@
         "wgs84": {
           "lat": "48.0478",
           "lng": "14.332"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gunskirchen",
-          "earea": "Gunskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gunskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Gunskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414209": {
-            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
-            "fwnr": 414209
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403013",
-        "startzeit": "Sun, 20 Apr 2025 18:30:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1363",
-          "lng": "13.9445"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Spital am Pyhrn",
-          "earea": "Spital am Pyhrn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Spital am Pyhrn",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": "STMK",
-          "text": "STMK"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "ST - Spital am Pyhrn",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "20003": {
-            "feuerwehr": "Feuerwehr/Florian Ardning (STMK)"
-          },
-          "405403": {
-            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ardning (STMK)",
-            "fwnr": 20003
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403012",
-        "startzeit": "Sun, 20 Apr 2025 17:13:45 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     }
