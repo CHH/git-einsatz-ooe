@@ -1,7 +1,75 @@
 {
-  "cnt_einsaetze": 102,
-  "cnt_feuerwehren": 97,
+  "cnt_einsaetze": 103,
+  "cnt_feuerwehren": 100,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kleinzell im Mühlkreis",
+          "earea": "Kleinzell im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kleinzell im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "RO - Kleinzell im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BR",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-LANDWIRT",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "feuerwehren": {
+          "409301": {
+            "feuerwehr": "Feuerwehr/Florian Altenfelden (44301)"
+          },
+          "409306": {
+            "feuerwehr": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)"
+          },
+          "409312": {
+            "feuerwehr": "Feuerwehr/Florian Plöcking (44312)"
+          },
+          "409314": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altenfelden (44301)",
+            "fwnr": 409301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kleinzell im Mühlkreis (44306)",
+            "fwnr": 409306
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Plöcking (44312)",
+            "fwnr": 409312
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Sankt Martin im Mühlkreis (44314)",
+            "fwnr": 409314
+          }
+        },
+        "inzeit": "",
+        "num1": "E250403420",
+        "startzeit": "Wed, 23 Apr 2025 22:27:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4629",
+          "lng": "13.9933"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -791,10 +859,10 @@
             "fwnr": 409413
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 23 Apr 2025 22:40:00 +0200",
         "num1": "E250403396",
         "startzeit": "Wed, 23 Apr 2025 19:31:20 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.6276",
           "lng": "13.8451"
@@ -2503,53 +2571,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Liebenau",
-          "earea": "Liebenau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Liebenau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Liebenau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402317": {
-            "feuerwehr": "Feuerwehr/Florian Schöneben (35317)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schöneben (35317)",
-            "fwnr": 402317
-          }
-        },
-        "inzeit": "Wed, 23 Apr 2025 19:45:00 +0200",
-        "num1": "E250403353",
-        "startzeit": "Wed, 23 Apr 2025 18:16:54 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.5344",
-          "lng": "14.7395"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kematen am Innbach",
           "earea": "Kematen am Innbach",
           "ecompl": "",
@@ -2591,6 +2612,53 @@
         "wgs84": {
           "lat": "48.1744",
           "lng": "13.8419"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Liebenau",
+          "earea": "Liebenau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Liebenau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Liebenau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402317": {
+            "feuerwehr": "Feuerwehr/Florian Schöneben (35317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schöneben (35317)",
+            "fwnr": 402317
+          }
+        },
+        "inzeit": "Wed, 23 Apr 2025 19:45:00 +0200",
+        "num1": "E250403353",
+        "startzeit": "Wed, 23 Apr 2025 18:16:54 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.5344",
+          "lng": "14.7395"
         }
       }
     },
