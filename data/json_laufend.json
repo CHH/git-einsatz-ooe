@@ -1,51 +1,65 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Fraham",
-          "earea": "Fraham",
+          "default": "Leonding",
+          "earea": "Leonding",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Fraham",
+          "emun": "Leonding",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 1,
-          "text": "Eferding"
+          "id": 6,
+          "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Fraham",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Leonding",
         "einsatzsubtyp": {
-          "id": "BMT-SELBST",
-          "text": "Brandmeldetaste Gedrückt"
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "401105": {
-            "feuerwehr": "Feuerwehr/Florian Fraham (ef) (34105)"
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          },
+          "406212": {
+            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
+          },
+          "406218": {
+            "feuerwehr": "Feuerwehr/Florian Rufling (39218)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Fraham (ef) (34105)",
-            "fwnr": 401105
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonding (39212)",
+            "fwnr": 406212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Rufling (39218)",
+            "fwnr": 406218
           }
         },
         "inzeit": "",
-        "num1": "E250403452",
-        "startzeit": "Thu, 24 Apr 2025 11:08:07 +0200",
+        "num1": "E250403454",
+        "startzeit": "Thu, 24 Apr 2025 11:22:02 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2826",
-          "lng": "14.0289"
+          "lat": "48.2652",
+          "lng": "14.2551"
         }
       }
     },
@@ -93,53 +107,6 @@
         "wgs84": {
           "lat": "47.886",
           "lng": "13.5224"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Laakirchen",
-          "earea": "Laakirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Laakirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Laakirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403211": {
-            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
-            "fwnr": 403211
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403448",
-        "startzeit": "Thu, 24 Apr 2025 10:58:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9819",
-          "lng": "13.8195"
         }
       }
     },
