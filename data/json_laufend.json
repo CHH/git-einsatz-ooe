@@ -1,51 +1,119 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
+          "default": "Vorderweißenbach",
+          "earea": "Vorderweißenbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Altmünster",
+          "emun": "Vorderweißenbach",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 12,
+          "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
-        "einsatzort": "GM - Altmünster",
+        "einsatzort": "UU - Vorderweißenbach",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          "412102": {
+            "feuerwehr": "Feuerwehr/Florian Amesschlag/L. (49102)"
+          },
+          "412122": {
+            "feuerwehr": "Feuerwehr/Florian Vorderweissenbach (49122)"
+          },
+          "412129": {
+            "feuerwehr": "Feuerwehr/Florian Schönegg (49129)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
+            "fwname": "Feuerwehr/Florian Amesschlag/L. (49102)",
+            "fwnr": 412102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vorderweissenbach (49122)",
+            "fwnr": 412122
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Schönegg (49129)",
+            "fwnr": 412129
           }
         },
         "inzeit": "",
-        "num1": "E250403662",
-        "startzeit": "Fri, 25 Apr 2025 16:41:39 +0200",
+        "num1": "E250403669",
+        "startzeit": "Fri, 25 Apr 2025 17:51:41 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
+          "lat": "48.553",
+          "lng": "14.219"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Losenstein",
+          "earea": "Losenstein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Losenstein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Losenstein",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411305": {
+            "feuerwehr": "Feuerwehr/Florian Laussa (46305)"
+          },
+          "411307": {
+            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Laussa (46305)",
+            "fwnr": 411305
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Losenstein (46307)",
+            "fwnr": 411307
+          }
+        },
+        "inzeit": "",
+        "num1": "E250403668",
+        "startzeit": "Fri, 25 Apr 2025 17:50:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9212",
+          "lng": "14.4394"
         }
       }
     },
