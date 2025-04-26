@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 34,
-  "cnt_feuerwehren": 34,
+  "cnt_einsaetze": 32,
+  "cnt_feuerwehren": 33,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Seewalchen am Attersee",
+          "earea": "Seewalchen am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Seewalchen am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Seewalchen am Attersee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413520": {
+            "feuerwehr": "Feuerwehr/Florian Seewalchen am Attersee (50520)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Seewalchen am Attersee (50520)",
+            "fwnr": 413520
+          }
+        },
+        "inzeit": "",
+        "num1": "E250403826",
+        "startzeit": "Sat, 26 Apr 2025 10:30:59 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.954",
+          "lng": "13.5804"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -299,7 +346,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Altmünster",
         "einsatzsubtyp": {
@@ -311,12 +358,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "403214": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen (36214)"
+          },
           "403219": {
             "feuerwehr": "Feuerwehr/Florian Reindlmühl (36219)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Neukirchen (36214)",
+            "fwnr": 403214
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Reindlmühl (36219)",
             "fwnr": 403219
           }
@@ -328,53 +382,6 @@
         "wgs84": {
           "lat": "47.8962",
           "lng": "13.7141"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kopfing im Innkreis",
-          "earea": "Kopfing im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kopfing im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Kopfing im Innkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410110": {
-            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
-            "fwnr": 410110
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403818",
-        "startzeit": "Sat, 26 Apr 2025 09:44:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4433",
-          "lng": "13.659"
         }
       }
     },
@@ -516,53 +523,6 @@
         "wgs84": {
           "lat": "47.8554",
           "lng": "14.662"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Reichenau im Mühlkreis",
-          "earea": "Reichenau im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Reichenau im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Reichenau im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412115": {
-            "feuerwehr": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)",
-            "fwnr": 412115
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403809",
-        "startzeit": "Sat, 26 Apr 2025 09:04:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4592",
-          "lng": "14.3457"
         }
       }
     },
@@ -939,53 +899,6 @@
         "wgs84": {
           "lat": "48.0202",
           "lng": "13.7688"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pinsdorf",
-          "earea": "Pinsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pinsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Pinsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403227": {
-            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesen (36227)",
-            "fwnr": 403227
-          }
-        },
-        "inzeit": "",
-        "num1": "E250403790",
-        "startzeit": "Sat, 26 Apr 2025 07:46:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9477",
-          "lng": "13.7515"
         }
       }
     },
