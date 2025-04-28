@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
@@ -18,233 +18,34 @@
           "text": "Linz-Land"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
+        "einsatzart": "BRAND",
         "einsatzort": "LL - Leonding",
         "einsatzsubtyp": {
-          "id": "TÜRPERS-TE",
-          "text": "Türöffnung Menschenrettung"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "406212": {
-            "feuerwehr": "Feuerwehr/Florian Leonding (39212)"
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Leonding (39212)",
-            "fwnr": 406212
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
           }
         },
         "inzeit": "",
-        "num1": "E250404036",
-        "startzeit": "Mon, 28 Apr 2025 11:12:28 +0200",
+        "num1": "E250404038",
+        "startzeit": "Mon, 28 Apr 2025 11:28:39 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2799",
-          "lng": "14.2457"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404034",
-        "startzeit": "Mon, 28 Apr 2025 11:05:40 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0556",
-          "lng": "14.4157"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Zell am Moos",
-          "earea": "Zell am Moos",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell am Moos",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Zell am Moos",
-        "einsatzsubtyp": {
-          "id": "PERSUNWEGG-TE",
-          "text": "Personenrettung unwegsames Gelände"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-UNWEGG",
-          "text": "Personenrettung unwegsames Gelände"
-        },
-        "feuerwehren": {
-          "413204": {
-            "feuerwehr": "Feuerwehr/Florian Haslau (50204)"
-          },
-          "413215": {
-            "feuerwehr": "Feuerwehr/Florian Zell am Moos (50215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haslau (50204)",
-            "fwnr": 413204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Zell am Moos (50215)",
-            "fwnr": 413215
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404033",
-        "startzeit": "Mon, 28 Apr 2025 11:03:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9003",
-          "lng": "13.3203"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lichtenberg",
-          "earea": "Lichtenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lichtenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Lichtenberg",
-        "einsatzsubtyp": {
-          "id": "TÜRPERSEING-TE",
-          "text": "Türöffnung Person eingeschlossen"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "feuerwehren": {
-          "412309": {
-            "feuerwehr": "Feuerwehr/Florian Lichtenberg (49309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lichtenberg (49309)",
-            "fwnr": 412309
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404032",
-        "startzeit": "Mon, 28 Apr 2025 10:58:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3589",
-          "lng": "14.258"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Geboltskirchen",
-          "earea": "Geboltskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geboltskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Geboltskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404205": {
-            "feuerwehr": "Feuerwehr/Florian Geboltskirchen (37205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geboltskirchen (37205)",
-            "fwnr": 404205
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404031",
-        "startzeit": "Mon, 28 Apr 2025 10:46:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1544",
-          "lng": "13.642"
+          "lat": "48.2652",
+          "lng": "14.2551"
         }
       }
     },
