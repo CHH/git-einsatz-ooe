@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eferding",
+          "earea": "Eferding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eferding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Eferding",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          },
+          "401111": {
+            "feuerwehr": "Feuerwehr/Florian Hinzenbach (34111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hinzenbach (34111)",
+            "fwnr": 401111
+          }
+        },
+        "inzeit": "",
+        "num1": "E250404183",
+        "startzeit": "Tue, 29 Apr 2025 12:10:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3005",
+          "lng": "14.0175"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,107 +100,6 @@
         "wgs84": {
           "lat": "48.0859",
           "lng": "13.9489"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pasching",
-          "earea": "Pasching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pasching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Pasching",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "406216": {
-            "feuerwehr": "Feuerwehr/Florian Pasching (39216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pasching (39216)",
-            "fwnr": 406216
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404176",
-        "startzeit": "Tue, 29 Apr 2025 11:42:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2548",
-          "lng": "14.2114"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tarsdorf",
-          "earea": "Tarsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tarsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Tarsdorf",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "400408": {
-            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
-          },
-          "400414": {
-            "feuerwehr": "Feuerwehr/Florian Tarsdorf (33414)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hochburg (33408)",
-            "fwnr": 400408
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Tarsdorf (33414)",
-            "fwnr": 400414
-          }
-        },
-        "inzeit": "",
-        "num1": "E250404164",
-        "startzeit": "Tue, 29 Apr 2025 11:16:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0797",
-          "lng": "12.8243"
         }
       }
     },
