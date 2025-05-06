@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "",
+        "num1": "E250500628",
+        "startzeit": "Tue, 06 May 2025 09:10:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauerkirchen",
+          "earea": "Mauerkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauerkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Mauerkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          }
+        },
+        "inzeit": "",
+        "num1": "E250500615",
+        "startzeit": "Tue, 06 May 2025 08:40:27 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1962",
+          "lng": "13.1293"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +158,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - Desselbrunn",
         "einsatzsubtyp": {
@@ -76,12 +170,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "403216": {
+            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          },
           "413316": {
             "feuerwehr": "Feuerwehr/Florian Sicking (50316)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
+            "fwnr": 403216
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Sicking (50316)",
             "fwnr": 413316
           }
