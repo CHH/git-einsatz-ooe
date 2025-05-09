@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 112,
-  "cnt_feuerwehren": 110,
+  "cnt_einsaetze": 115,
+  "cnt_feuerwehren": 116,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250501254",
+        "startzeit": "Fri, 09 May 2025 21:16:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2174",
+          "lng": "14.4791"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kollerschlag",
+          "earea": "Kollerschlag",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kollerschlag",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Kollerschlag",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409412": {
+            "feuerwehr": "Feuerwehr/Florian Mistlberg (RO) (44412)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mistlberg (RO) (44412)",
+            "fwnr": 409412
+          }
+        },
+        "inzeit": "Fri, 09 May 2025 21:10:00 +0200",
+        "num1": "E250501252",
+        "startzeit": "Fri, 09 May 2025 21:05:59 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.5957",
+          "lng": "13.8184"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "LANDWFZG-BR",
+          "text": "Brand landwirtschaftliches Fahrzeug"
+        },
+        "einsatztyp": {
+          "id": "B1-FZG-GROß",
+          "text": "Brand Großfahrzeug"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          },
+          "406207": {
+            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
+          },
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          },
+          "406261": {
+            "feuerwehr": "Feuerwehr/Florian Papier Nettingsdorf (39261)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Freindorf (39207)",
+            "fwnr": 406207
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Papier Nettingsdorf (39261)",
+            "fwnr": 406261
+          }
+        },
+        "inzeit": "",
+        "num1": "E250501250",
+        "startzeit": "Fri, 09 May 2025 20:30:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2097",
+          "lng": "14.2881"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,7 +320,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SD - Zell an der Pram",
         "einsatzsubtyp": {
@@ -170,12 +332,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "410201": {
+            "feuerwehr": "Feuerwehr/Florian Altschwendt (45201)"
+          },
           "410220": {
             "feuerwehr": "Feuerwehr/Florian Zell an der Pram (45220)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Altschwendt (45201)",
+            "fwnr": 410201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Zell an der Pram (45220)",
             "fwnr": 410220
           }
@@ -368,10 +537,10 @@
             "fwnr": 413517
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:50:00 +0200",
         "num1": "E250501240",
         "startzeit": "Fri, 09 May 2025 20:04:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8961",
           "lng": "13.4264"
@@ -415,10 +584,10 @@
             "fwnr": 413523
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:50:00 +0200",
         "num1": "E250501239",
         "startzeit": "Fri, 09 May 2025 20:03:43 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9116",
           "lng": "13.4596"
@@ -509,10 +678,10 @@
             "fwnr": 402421
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:48:00 +0200",
         "num1": "E250501237",
         "startzeit": "Fri, 09 May 2025 20:03:07 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.6156",
           "lng": "14.6014"
@@ -650,10 +819,10 @@
             "fwnr": 413109
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:08:00 +0200",
         "num1": "E250501234",
         "startzeit": "Fri, 09 May 2025 19:59:39 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0115",
           "lng": "13.341"
@@ -932,10 +1101,10 @@
             "fwnr": 404115
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:26:00 +0200",
         "num1": "E250501227",
         "startzeit": "Fri, 09 May 2025 19:45:02 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2817",
           "lng": "13.7691"
@@ -979,10 +1148,10 @@
             "fwnr": 413144
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:47:00 +0200",
         "num1": "E250501226",
         "startzeit": "Fri, 09 May 2025 19:44:05 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9847",
           "lng": "13.489"
@@ -1026,10 +1195,10 @@
             "fwnr": 402413
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:30:00 +0200",
         "num1": "E250501225",
         "startzeit": "Fri, 09 May 2025 19:40:39 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5709",
           "lng": "14.5525"
@@ -1073,10 +1242,10 @@
             "fwnr": 408211
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:33:00 +0200",
         "num1": "E250501224",
         "startzeit": "Fri, 09 May 2025 19:40:12 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1552",
           "lng": "13.4345"
@@ -1120,10 +1289,10 @@
             "fwnr": 413138
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:44:00 +0200",
         "num1": "E250501223",
         "startzeit": "Fri, 09 May 2025 19:39:14 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0102",
           "lng": "13.509"
@@ -1261,10 +1430,10 @@
             "fwnr": 413142
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:40:00 +0200",
         "num1": "E250501220",
         "startzeit": "Fri, 09 May 2025 19:38:40 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0032",
           "lng": "13.4918"
@@ -1308,10 +1477,10 @@
             "fwnr": 401110
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:49:00 +0200",
         "num1": "E250501219",
         "startzeit": "Fri, 09 May 2025 19:38:39 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3703",
           "lng": "13.9721"
@@ -1402,10 +1571,10 @@
             "fwnr": 413508
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:01:00 +0200",
         "num1": "E250501217",
         "startzeit": "Fri, 09 May 2025 19:38:16 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9511",
           "lng": "13.4661"
@@ -1449,10 +1618,10 @@
             "fwnr": 401107
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:55:00 +0200",
         "num1": "E250501216",
         "startzeit": "Fri, 09 May 2025 19:37:58 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.412",
           "lng": "13.9172"
@@ -1496,10 +1665,10 @@
             "fwnr": 403221
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:42:00 +0200",
         "num1": "E250501215",
         "startzeit": "Fri, 09 May 2025 19:37:38 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9125",
           "lng": "13.8885"
@@ -1543,10 +1712,10 @@
             "fwnr": 400202
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:24:00 +0200",
         "num1": "E250501213",
         "startzeit": "Fri, 09 May 2025 19:34:41 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0649",
           "lng": "13.1073"
@@ -1590,10 +1759,10 @@
             "fwnr": 413129
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:36:00 +0200",
         "num1": "E250501212",
         "startzeit": "Fri, 09 May 2025 19:34:26 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9764",
           "lng": "13.4171"
@@ -1684,10 +1853,10 @@
             "fwnr": 413125
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:39:00 +0200",
         "num1": "E250501210",
         "startzeit": "Fri, 09 May 2025 19:33:35 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0182",
           "lng": "13.4818"
@@ -1778,10 +1947,10 @@
             "fwnr": 404124
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:42:00 +0200",
         "num1": "E250501208",
         "startzeit": "Fri, 09 May 2025 19:32:33 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1744",
           "lng": "13.8419"
@@ -1825,10 +1994,10 @@
             "fwnr": 404108
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:46:00 +0200",
         "num1": "E250501207",
         "startzeit": "Fri, 09 May 2025 19:31:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1769",
           "lng": "13.8585"
@@ -1919,10 +2088,10 @@
             "fwnr": 403120
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:05:00 +0200",
         "num1": "E250501205",
         "startzeit": "Fri, 09 May 2025 19:26:05 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7251",
           "lng": "13.5529"
@@ -1966,10 +2135,10 @@
             "fwnr": 403211
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:56:00 +0200",
         "num1": "E250501204",
         "startzeit": "Fri, 09 May 2025 19:24:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9819",
           "lng": "13.8195"
@@ -2060,10 +2229,10 @@
             "fwnr": 411308
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:11:00 +0200",
         "num1": "E250501201",
         "startzeit": "Fri, 09 May 2025 19:19:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9387",
           "lng": "14.608"
@@ -2295,10 +2464,10 @@
             "fwnr": 407310
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:35:00 +0200",
         "num1": "E250501194",
         "startzeit": "Fri, 09 May 2025 19:14:52 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2228",
           "lng": "14.6161"
@@ -2577,10 +2746,10 @@
             "fwnr": 405208
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:06:00 +0200",
         "num1": "E250501187",
         "startzeit": "Fri, 09 May 2025 19:03:20 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
@@ -2624,10 +2793,10 @@
             "fwnr": 407204
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:18:00 +0200",
         "num1": "E250501186",
         "startzeit": "Fri, 09 May 2025 19:01:59 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2462",
           "lng": "14.5497"
@@ -2765,10 +2934,10 @@
             "fwnr": 400205
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 21:08:00 +0200",
         "num1": "E250501183",
         "startzeit": "Fri, 09 May 2025 18:55:20 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0182",
           "lng": "13.2481"
@@ -3000,10 +3169,10 @@
             "fwnr": 407202
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:29:00 +0200",
         "num1": "E250501177",
         "startzeit": "Fri, 09 May 2025 18:22:51 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3132",
           "lng": "14.5411"
@@ -3094,10 +3263,10 @@
             "fwnr": 402213
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 09 May 2025 20:41:00 +0200",
         "num1": "E250501175",
         "startzeit": "Fri, 09 May 2025 18:18:05 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3475",
           "lng": "14.5102"
