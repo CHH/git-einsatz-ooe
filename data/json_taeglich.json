@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 34,
-  "cnt_feuerwehren": 41,
+  "cnt_einsaetze": 35,
+  "cnt_feuerwehren": 44,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Seewalchen am Attersee",
+          "earea": "Seewalchen am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Seewalchen am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Seewalchen am Attersee",
+        "einsatzsubtyp": {
+          "id": "RETTUNGUNTST-TE",
+          "text": "Unterstützung Rettungsdienst"
+        },
+        "einsatztyp": {
+          "id": "T0-UNTST-RETTUNG",
+          "text": "Unterstützung Rettungsdienst"
+        },
+        "feuerwehren": {
+          "413522": {
+            "feuerwehr": "Feuerwehr/Florian Steindorf (50522)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steindorf (50522)",
+            "fwnr": 413522
+          }
+        },
+        "inzeit": "",
+        "num1": "E250501447",
+        "startzeit": "Sun, 11 May 2025 18:44:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9636",
+          "lng": "13.5713"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 400102
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 11 May 2025 18:48:00 +0200",
         "num1": "E250501445",
         "startzeit": "Sun, 11 May 2025 18:18:24 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
@@ -59,29 +106,43 @@
           "emun": "Helpfau-Uttendorf",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "BR - Helpfau-Uttendorf",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
         },
         "feuerwehren": {
+          "400219": {
+            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
+          },
+          "400314": {
+            "feuerwehr": "Feuerwehr/Florian Reith (33314)"
+          },
           "400320": {
             "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Schalchen (33219)",
+            "fwnr": 400219
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reith (33314)",
+            "fwnr": 400314
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Uttendorf (33320)",
             "fwnr": 400320
           }
@@ -133,10 +194,10 @@
             "fwnr": 410327
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 11 May 2025 18:22:00 +0200",
         "num1": "E250501441",
         "startzeit": "Sun, 11 May 2025 17:47:59 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5015",
           "lng": "13.481"
