@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 13,
+  "cnt_einsaetze": 12,
   "cnt_feuerwehren": 18,
   "einsaetze": [
     {
@@ -374,7 +374,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "BR - Braunau am Inn",
         "einsatzsubtyp": {
@@ -386,6 +386,9 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "400101": {
+            "feuerwehr": "Feuerwehr/Florian Aching (33101)"
+          },
           "400102": {
             "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
           },
@@ -395,10 +398,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Aching (33101)",
+            "fwnr": 400101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
             "fwnr": 400102
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
             "fwnr": 400304
           }
@@ -457,53 +464,6 @@
         "wgs84": {
           "lat": "47.8797",
           "lng": "14.6734"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gilgenberg am Weilhart",
-          "earea": "Gilgenberg am Weilhart",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gilgenberg am Weilhart",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Gilgenberg am Weilhart",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400103": {
-            "feuerwehr": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)",
-            "fwnr": 400103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250501541",
-        "startzeit": "Mon, 12 May 2025 17:00:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.13",
-          "lng": "12.9382"
         }
       }
     },
