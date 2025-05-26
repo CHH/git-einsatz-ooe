@@ -1,15 +1,109 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Molln",
-          "earea": "Molln",
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Molln",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "REINIGEN-KL",
+          "text": "Reinigungsarbeiten"
+        },
+        "einsatztyp": {
+          "id": "KL-REINIGEN",
+          "text": "Reinigungsarbeiten"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E250503497",
+        "startzeit": "Mon, 26 May 2025 08:16:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Garsten",
+          "earea": "Garsten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Garsten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Garsten",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411210": {
+            "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oberdambach (46210)",
+            "fwnr": 411210
+          }
+        },
+        "inzeit": "",
+        "num1": "E250503493",
+        "startzeit": "Mon, 26 May 2025 07:44:19 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9786",
+          "lng": "14.4006"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünburg",
+          "earea": "Grünburg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünburg",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +111,9 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
-        "einsatzort": "KI - Molln",
+        "einsatzort": "KI - Grünburg",
         "einsatzsubtyp": {
           "id": "ÖLSPUR-TE",
           "text": "Ölspur/Ölaustritt"
@@ -29,12 +123,26 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "405101": {
+            "feuerwehr": "Feuerwehr/Florian Breitenau (38101)"
+          },
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          },
           "405105": {
             "feuerwehr": "Feuerwehr/Florian Molln (38105)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Breitenau (38101)",
+            "fwnr": 405101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Molln (38105)",
             "fwnr": 405105
           }
@@ -44,8 +152,8 @@
         "startzeit": "Mon, 26 May 2025 07:19:35 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8837",
-          "lng": "14.2554"
+          "lat": "47.898",
+          "lng": "14.233"
         }
       }
     },
@@ -86,10 +194,10 @@
             "fwnr": 413429
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 26 May 2025 07:20:00 +0200",
         "num1": "E250503481",
         "startzeit": "Mon, 26 May 2025 06:46:27 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0064",
           "lng": "13.6637"
