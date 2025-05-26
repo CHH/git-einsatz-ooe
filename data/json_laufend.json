@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "TRAGEUNTST-TE",
+          "text": "Tragehilfe"
+        },
+        "einsatztyp": {
+          "id": "T0-UNTST-TRAGE",
+          "text": "Tragehilfe"
+        },
+        "feuerwehren": {
+          "413421": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
+            "fwnr": 413421
+          }
+        },
+        "inzeit": "",
+        "num1": "E250503510",
+        "startzeit": "Mon, 26 May 2025 09:45:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9712",
+          "lng": "13.7053"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.9166",
           "lng": "13.8048"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
-          }
-        },
-        "inzeit": "",
-        "num1": "E250503505",
-        "startzeit": "Mon, 26 May 2025 08:56:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
         }
       }
     },
@@ -187,67 +187,6 @@
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünburg",
-          "earea": "Grünburg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünburg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Grünburg",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "405101": {
-            "feuerwehr": "Feuerwehr/Florian Breitenau (38101)"
-          },
-          "405104": {
-            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
-          },
-          "405105": {
-            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Breitenau (38101)",
-            "fwnr": 405101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Leonstein (38104)",
-            "fwnr": 405104
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Molln (38105)",
-            "fwnr": 405105
-          }
-        },
-        "inzeit": "",
-        "num1": "E250503488",
-        "startzeit": "Mon, 26 May 2025 07:19:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.898",
-          "lng": "14.233"
         }
       }
     }
