@@ -1,15 +1,15 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Molln",
-          "earea": "Molln",
+          "default": "Grünburg",
+          "earea": "Grünburg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Molln",
+          "emun": "Grünburg",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +17,9 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
-        "einsatzort": "KI - Molln",
+        "einsatzort": "KI - Grünburg",
         "einsatzsubtyp": {
           "id": "ÖLSPUR-TE",
           "text": "Ölspur/Ölaustritt"
@@ -29,12 +29,26 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "405101": {
+            "feuerwehr": "Feuerwehr/Florian Breitenau (38101)"
+          },
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          },
           "405105": {
             "feuerwehr": "Feuerwehr/Florian Molln (38105)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Breitenau (38101)",
+            "fwnr": 405101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Molln (38105)",
             "fwnr": 405105
           }
@@ -44,8 +58,8 @@
         "startzeit": "Mon, 26 May 2025 07:19:35 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8837",
-          "lng": "14.2554"
+          "lat": "47.898",
+          "lng": "14.233"
         }
       }
     }
