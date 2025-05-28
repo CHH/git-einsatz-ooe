@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Esternberg",
+          "earea": "Esternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Esternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Esternberg",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "410106": {
+            "feuerwehr": "Feuerwehr/Florian Esternberg (45106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Esternberg (45106)",
+            "fwnr": 410106
+          }
+        },
+        "inzeit": "",
+        "num1": "E250504081",
+        "startzeit": "Thu, 29 May 2025 00:12:22 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5419",
+          "lng": "13.5809"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": "47.9724",
           "lng": "14.1631"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Neufelden",
-          "earea": "Neufelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Neufelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "RO - Neufelden",
-        "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "409307": {
-            "feuerwehr": "Feuerwehr/Florian Neufelden (44307)"
-          },
-          "409318": {
-            "feuerwehr": "Feuerwehr/Florian Steinbruch (44318)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Neufelden (44307)",
-            "fwnr": 409307
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steinbruch (44318)",
-            "fwnr": 409318
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504077",
-        "startzeit": "Wed, 28 May 2025 23:19:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5001",
-          "lng": "14.0352"
         }
       }
     },
