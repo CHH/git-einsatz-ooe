@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee",
+          "earea": "Ebensee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Ebensee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403115": {
+            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
+            "fwnr": 403115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250504140",
+        "startzeit": "Thu, 29 May 2025 16:40:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7932",
+          "lng": "13.7579"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
@@ -82,6 +129,9 @@
           "403224": {
             "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
           },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
+          },
           "418920": {
             "feuerwehr": "ÖWR Gmunden"
           }
@@ -96,6 +146,10 @@
             "fwnr": 403224
           },
           "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
+            "fwnr": 403262
+          },
+          "3": {
             "fwname": "ÖWR Gmunden",
             "fwnr": 418920
           }
