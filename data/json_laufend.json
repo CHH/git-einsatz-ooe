@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Andorf",
+          "earea": "Andorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Andorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Andorf",
+        "einsatzsubtyp": {
+          "id": "FREI-BR",
+          "text": "Brand im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI",
+          "text": "Brand im Freien"
+        },
+        "feuerwehren": {
+          "410202": {
+            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
+          },
+          "410217": {
+            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Andorf (45202)",
+            "fwnr": 410202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
+            "fwnr": 410217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250504152",
+        "startzeit": "Thu, 29 May 2025 20:07:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.358",
+          "lng": "13.6057"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,74 +100,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gmunden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Gmunden",
-        "einsatzsubtyp": {
-          "id": "FZGBOOBERGEN-TE",
-          "text": "Bergung Boot"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
-          },
-          "403224": {
-            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
-          },
-          "403262": {
-            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
-          },
-          "418920": {
-            "feuerwehr": "ÖWR Gmunden"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
-            "fwnr": 403224
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
-            "fwnr": 403262
-          },
-          "3": {
-            "fwname": "ÖWR Gmunden",
-            "fwnr": 418920
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504137",
-        "startzeit": "Thu, 29 May 2025 16:07:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
         }
       }
     },
