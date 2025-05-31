@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 29,
-  "cnt_feuerwehren": 30,
+  "cnt_einsaetze": 27,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenmarkt",
+          "earea": "Frankenmarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenmarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Frankenmarkt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          }
+        },
+        "inzeit": "",
+        "num1": "E250504399",
+        "startzeit": "Sat, 31 May 2025 15:35:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9851",
+          "lng": "13.4109"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "SONSTIGE",
         "einsatzort": "VB - Vöcklamarkt",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "413136": {
             "feuerwehr": "Feuerwehr/Florian Schmidham (50136)"
+          },
+          "413142": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklamarkt (50142)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Schmidham (50136)",
             "fwnr": 413136
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vöcklamarkt (50142)",
+            "fwnr": 413142
           }
         },
         "inzeit": "",
@@ -187,60 +241,6 @@
         "wgs84": {
           "lat": "48.5223",
           "lng": "14.2965"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Moosdorf",
-          "earea": "Moosdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Moosdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Moosdorf",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400406": {
-            "feuerwehr": "Feuerwehr/Florian Hackenbuch (BR) (33406)"
-          },
-          "400410": {
-            "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hackenbuch (BR) (33406)",
-            "fwnr": 400406
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Moosdorf (33410)",
-            "fwnr": 400410
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504390",
-        "startzeit": "Sat, 31 May 2025 14:24:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.047",
-          "lng": "12.9893"
         }
       }
     },
@@ -523,53 +523,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oftering",
-          "earea": "Oftering",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oftering",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Oftering",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406206": {
-            "feuerwehr": "Feuerwehr/Florian Freiling (39206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freiling (39206)",
-            "fwnr": 406206
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504381",
-        "startzeit": "Sat, 31 May 2025 13:57:20 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2363",
-          "lng": "14.1231"
         }
       }
     },
@@ -1228,53 +1181,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504301",
-        "startzeit": "Sat, 31 May 2025 06:56:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
         }
       }
     },
