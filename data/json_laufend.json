@@ -1,25 +1,72 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Steyr",
+          "emun": "Braunau am Inn",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250504426",
+        "startzeit": "Sat, 31 May 2025 18:32:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "SR - Steyr",
+        "einsatzort": "KI - Kremsmünster",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,70 +76,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)"
+          "405305": {
+            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
-            "fwnr": 415101
+            "fwname": "Feuerwehr/Florian Krühub (38305)",
+            "fwnr": 405305
           }
         },
         "inzeit": "",
-        "num1": "E250504422",
-        "startzeit": "Sat, 31 May 2025 17:59:33 +0200",
+        "num1": "E250504425",
+        "startzeit": "Sat, 31 May 2025 18:30:53 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ampflwang im Hausruckwald",
-          "earea": "Ampflwang im Hausruckwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ampflwang im Hausruckwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "VB - Ampflwang im Hausruckwald",
-        "einsatzsubtyp": {
-          "id": "ELEKTRANL-BR",
-          "text": "Brand Elektroanlage im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ELE",
-          "text": "Brand Elektroanlagen im Freien"
-        },
-        "feuerwehren": {
-          "413403": {
-            "feuerwehr": "Feuerwehr/Florian Ampflwang im Hausruckwald (50403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ampflwang im Hausruckwald (50403)",
-            "fwnr": 413403
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504421",
-        "startzeit": "Sat, 31 May 2025 17:55:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0914",
-          "lng": "13.5686"
+          "lat": "48.0244",
+          "lng": "14.1465"
         }
       }
     },
@@ -140,53 +140,6 @@
         "wgs84": {
           "lat": "47.954",
           "lng": "13.5804"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Herzogsdorf",
-          "earea": "Herzogsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Herzogsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Herzogsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412208": {
-            "feuerwehr": "Feuerwehr/Florian Herzogsdorf (49208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Herzogsdorf (49208)",
-            "fwnr": 412208
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504407",
-        "startzeit": "Sat, 31 May 2025 16:14:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4363",
-          "lng": "14.1157"
         }
       }
     },
@@ -328,53 +281,6 @@
         "wgs84": {
           "lat": "48.637",
           "lng": "13.9668"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mettmach",
-          "earea": "Mettmach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mettmach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Mettmach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408103": {
-            "feuerwehr": "Feuerwehr/Florian Arnberg (43103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Arnberg (43103)",
-            "fwnr": 408103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504369",
-        "startzeit": "Sat, 31 May 2025 13:06:46 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1248",
-          "lng": "13.3393"
         }
       }
     },
