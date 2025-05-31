@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 26,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,7 +64,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "SONSTIGE",
         "einsatzort": "VB - Vöcklamarkt",
         "einsatzsubtyp": {
@@ -76,6 +76,9 @@
           "text": "Reinigungsarbeiten"
         },
         "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          },
           "413136": {
             "feuerwehr": "Feuerwehr/Florian Schmidham (50136)"
           },
@@ -85,10 +88,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Schmidham (50136)",
             "fwnr": 413136
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Vöcklamarkt (50142)",
             "fwnr": 413142
           }
@@ -382,53 +389,6 @@
         "wgs84": {
           "lat": "48.4974",
           "lng": "14.3588"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hohenzell",
-          "earea": "Hohenzell",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hohenzell",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Hohenzell",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408220": {
-            "feuerwehr": "Feuerwehr/Florian Ponner/Breiningsham (43220)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ponner/Breiningsham (43220)",
-            "fwnr": 408220
-          }
-        },
-        "inzeit": "",
-        "num1": "E250504386",
-        "startzeit": "Sat, 31 May 2025 14:18:28 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2093",
-          "lng": "13.5526"
         }
       }
     },
