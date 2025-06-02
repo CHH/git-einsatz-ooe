@@ -1,7 +1,58 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250600136",
+        "startzeit": "Mon, 02 Jun 2025 10:27:17 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,67 +97,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wolfern",
-          "earea": "Wolfern",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wolfern",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "SE - Wolfern",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "406312": {
-            "feuerwehr": "Feuerwehr/Florian Weichstetten (39312)"
-          },
-          "411207": {
-            "feuerwehr": "Feuerwehr/Florian Losensteinleiten (46207)"
-          },
-          "411218": {
-            "feuerwehr": "Feuerwehr/Florian Wolfern (46218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weichstetten (39312)",
-            "fwnr": 406312
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Losensteinleiten (46207)",
-            "fwnr": 411207
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Wolfern (46218)",
-            "fwnr": 411218
-          }
-        },
-        "inzeit": "",
-        "num1": "E250600111",
-        "startzeit": "Mon, 02 Jun 2025 08:46:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1167",
-          "lng": "14.3611"
         }
       }
     }
