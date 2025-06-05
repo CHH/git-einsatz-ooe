@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchham",
+          "earea": "Kirchham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Kirchham",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403206": {
+            "feuerwehr": "Feuerwehr/Florian Feichtenberg (36206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Feichtenberg (36206)",
+            "fwnr": 403206
+          }
+        },
+        "inzeit": "",
+        "num1": "E250600622",
+        "startzeit": "Thu, 05 Jun 2025 05:26:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9446",
+          "lng": "13.9246"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fraham",
+          "earea": "Fraham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fraham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Fraham",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
+            "fwnr": 401105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
+          }
+        },
+        "inzeit": "",
+        "num1": "E250600621",
+        "startzeit": "Thu, 05 Jun 2025 05:09:02 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2826",
+          "lng": "14.0289"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          },
+          "406313": {
+            "feuerwehr": "Feuerwehr/Florian Weissenberg (39313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weissenberg (39313)",
+            "fwnr": 406313
+          }
+        },
+        "inzeit": "Thu, 05 Jun 2025 05:12:00 +0200",
+        "num1": "E250600619",
+        "startzeit": "Thu, 05 Jun 2025 04:41:53 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1873",
+          "lng": "14.2562"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +194,10 @@
             "fwnr": 401118
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 05 Jun 2025 05:00:00 +0200",
         "num1": "E250600618",
         "startzeit": "Thu, 05 Jun 2025 04:21:47 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2521",
           "lng": "14.0365"
