@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Prambachkirchen",
+          "earea": "Prambachkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Prambachkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Prambachkirchen",
+        "einsatzsubtyp": {
+          "id": "SONSTIGE-TE",
+          "text": "Sonstiger Einsatz"
+        },
+        "einsatztyp": {
+          "id": "T0-SONST",
+          "text": "Sonstiger Einsatz"
+        },
+        "feuerwehren": {
+          "401115": {
+            "feuerwehr": "Feuerwehr/Florian Prambachkirchen (34115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Prambachkirchen (34115)",
+            "fwnr": 401115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250601724",
+        "startzeit": "Wed, 11 Jun 2025 23:17:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3116",
+          "lng": "13.9037"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,60 +100,6 @@
         "wgs84": {
           "lat": "48.065",
           "lng": "13.9025"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Goisern am Hallstättersee",
-          "earea": "Bad Goisern am Hallstättersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Goisern am Hallstättersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Bad Goisern am Hallstättersee",
-        "einsatzsubtyp": {
-          "id": "RETTUNGUNTST-TE",
-          "text": "Unterstützung Rettungsdienst"
-        },
-        "einsatztyp": {
-          "id": "T0-UNTST-RETTUNG",
-          "text": "Unterstützung Rettungsdienst"
-        },
-        "feuerwehren": {
-          "403101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
-          },
-          "403119": {
-            "feuerwehr": "Feuerwehr/Florian Weissenbach (36119)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Goisern (36101)",
-            "fwnr": 403101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Weissenbach (36119)",
-            "fwnr": 403119
-          }
-        },
-        "inzeit": "",
-        "num1": "E250601722",
-        "startzeit": "Wed, 11 Jun 2025 22:16:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6622",
-          "lng": "13.6058"
         }
       }
     },
