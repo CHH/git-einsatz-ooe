@@ -1,7 +1,209 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250601543",
+        "startzeit": "Wed, 11 Jun 2025 09:14:26 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neumarkt im Mühlkreis",
+          "earea": "Neumarkt im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neumarkt im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Neumarkt im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402139": {
+            "feuerwehr": "Feuerwehr/Florian Zeiss (35139)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Zeiss (35139)",
+            "fwnr": 402139
+          }
+        },
+        "inzeit": "",
+        "num1": "E250601540",
+        "startzeit": "Wed, 11 Jun 2025 08:59:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4545",
+          "lng": "14.4769"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gallneukirchen",
+          "earea": "Gallneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gallneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Gallneukirchen",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "412303": {
+            "feuerwehr": "Feuerwehr/Florian Gallneukirchen (49303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
+            "fwnr": 412303
+          }
+        },
+        "inzeit": "Wed, 11 Jun 2025 08:48:00 +0200",
+        "num1": "E250601534",
+        "startzeit": "Wed, 11 Jun 2025 08:31:55 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.3517",
+          "lng": "14.426"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neumarkt im Mühlkreis",
+          "earea": "Neumarkt im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neumarkt im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Neumarkt im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
+        },
+        "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
+          "402119": {
+            "feuerwehr": "Feuerwehr/Florian Matzelsdorf (35119)"
+          },
+          "402121": {
+            "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
+            "fwnr": 402119
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
+            "fwnr": 402121
+          }
+        },
+        "inzeit": "",
+        "num1": "E250601533",
+        "startzeit": "Wed, 11 Jun 2025 08:28:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4114",
+          "lng": "14.5046"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +241,10 @@
             "fwnr": 403207
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 11 Jun 2025 08:21:00 +0200",
         "num1": "E250601530",
         "startzeit": "Wed, 11 Jun 2025 08:08:28 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9166",
           "lng": "13.8048"
@@ -274,10 +476,10 @@
             "fwnr": 413210
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 11 Jun 2025 08:32:00 +0200",
         "num1": "E250601522",
         "startzeit": "Wed, 11 Jun 2025 07:30:23 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9544",
           "lng": "13.3039"
