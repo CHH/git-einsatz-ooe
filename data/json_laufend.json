@@ -1,54 +1,7 @@
 {
-  "cnt_einsaetze": 8,
+  "cnt_einsaetze": 7,
   "cnt_feuerwehren": 9,
   "einsaetze": [
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gallneukirchen",
-          "earea": "Gallneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gallneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Gallneukirchen",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "412303": {
-            "feuerwehr": "Feuerwehr/Florian Gallneukirchen (49303)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
-            "fwnr": 412303
-          }
-        },
-        "inzeit": "",
-        "num1": "E250601534",
-        "startzeit": "Wed, 11 Jun 2025 08:31:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3517",
-          "lng": "14.426"
-        }
-      }
-    },
     {
       "einsatz": {
         "adresse": {
@@ -59,23 +12,26 @@
           "emun": "Neumarkt im Mühlkreis",
           "estnum": ""
         },
-        "alarmstufe": "2",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "402109": {
+            "feuerwehr": "Feuerwehr/Florian Kefermarkt (35109)"
+          },
           "402119": {
             "feuerwehr": "Feuerwehr/Florian Matzelsdorf (35119)"
           },
@@ -85,10 +41,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
+            "fwnr": 402109
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Matzelsdorf (35119)",
             "fwnr": 402119
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
             "fwnr": 402121
           }
