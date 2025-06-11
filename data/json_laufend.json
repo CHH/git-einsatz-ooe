@@ -1,98 +1,65 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Pasching",
-          "earea": "Pasching",
+          "default": "Gilgenberg am Weilhart",
+          "earea": "Gilgenberg am Weilhart",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Pasching",
+          "emun": "Gilgenberg am Weilhart",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "LL - Pasching",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Gilgenberg am Weilhart",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "DACH-BR",
+          "text": "Brand im Dachbereich"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B1-GEB-DACH",
+          "text": "Brand im Dachbereich"
         },
         "feuerwehren": {
-          "406216": {
-            "feuerwehr": "Feuerwehr/Florian Pasching (39216)"
+          "400103": {
+            "feuerwehr": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)"
+          },
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
+          },
+          "400411": {
+            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Pasching (39216)",
-            "fwnr": 406216
+            "fwname": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)",
+            "fwnr": 400103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
+            "fwnr": 400411
           }
         },
         "inzeit": "",
-        "num1": "E250601596",
-        "startzeit": "Wed, 11 Jun 2025 12:20:58 +0200",
+        "num1": "E250601605",
+        "startzeit": "Wed, 11 Jun 2025 13:20:12 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2548",
-          "lng": "14.2114"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E250601587",
-        "startzeit": "Wed, 11 Jun 2025 11:32:24 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
+          "lat": "48.13",
+          "lng": "12.9382"
         }
       }
     },
