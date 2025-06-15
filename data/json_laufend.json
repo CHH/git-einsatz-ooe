@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
     {
       "einsatz": {
@@ -320,24 +320,31 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "VB - Seewalchen am Attersee",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
         },
         "feuerwehren": {
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          },
           "413520": {
             "feuerwehr": "Feuerwehr/Florian Seewalchen am Attersee (50520)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Seewalchen am Attersee (50520)",
             "fwnr": 413520
           }
@@ -504,53 +511,6 @@
         "wgs84": {
           "lat": "47.8961",
           "lng": "13.4264"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oberwang",
-          "earea": "Oberwang",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberwang",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Oberwang",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "413211": {
-            "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberwang (50211)",
-            "fwnr": 413211
-          }
-        },
-        "inzeit": "",
-        "num1": "E250602292",
-        "startzeit": "Sun, 15 Jun 2025 19:55:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8696",
-          "lng": "13.4324"
         }
       }
     },
