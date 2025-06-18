@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 32,
-  "cnt_feuerwehren": 33,
+  "cnt_einsaetze": 30,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Heiligenberg",
+          "earea": "Heiligenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Heiligenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Heiligenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404307": {
+            "feuerwehr": "Feuerwehr/Florian Heiligenberg (37307)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Heiligenberg (37307)",
+            "fwnr": 404307
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603011",
+        "startzeit": "Wed, 18 Jun 2025 20:33:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3544",
+          "lng": "13.8235"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Inzersdorf im Kremstal",
+          "earea": "Inzersdorf im Kremstal",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Inzersdorf im Kremstal",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Inzersdorf im Kremstal",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405204": {
+            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
+            "fwnr": 405204
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603010",
+        "startzeit": "Wed, 18 Jun 2025 20:31:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.928",
+          "lng": "14.0816"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Kreuzen",
+          "earea": "Bad Kreuzen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Kreuzen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Bad Kreuzen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
+            "fwnr": 407101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603009",
+        "startzeit": "Wed, 18 Jun 2025 20:29:36 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2705",
+          "lng": "14.8058"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -18,15 +159,15 @@
           "text": "Urfahr-Umgebung"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "SONSTIGE",
         "einsatzort": "UU - Gramastetten",
         "einsatzsubtyp": {
-          "id": "BMT-SELBST",
-          "text": "Brandmeldetaste Gedrückt"
+          "id": "CO-SCHAD",
+          "text": "Kohlenmonoxidaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
         },
         "feuerwehren": {
           "412207": {
@@ -288,53 +429,6 @@
         "wgs84": {
           "lat": "47.8311",
           "lng": "13.5462"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Stroheim",
-          "earea": "Stroheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Stroheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Stroheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401120": {
-            "feuerwehr": "Feuerwehr/Florian Stroheim (34120)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Stroheim (34120)",
-            "fwnr": 401120
-          }
-        },
-        "inzeit": "",
-        "num1": "E250603000",
-        "startzeit": "Wed, 18 Jun 2025 19:50:20 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3407",
-          "lng": "13.9558"
         }
       }
     },
@@ -905,53 +999,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405203": {
-            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
-            "fwnr": 405203
-          }
-        },
-        "inzeit": "",
-        "num1": "E250602980",
-        "startzeit": "Wed, 18 Jun 2025 19:05:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0007",
-          "lng": "14.0345"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Windischgarsten",
           "earea": "Windischgarsten",
           "ecompl": "",
@@ -1040,53 +1087,6 @@
         "wgs84": {
           "lat": "48.5233",
           "lng": "13.9946"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Rosenau am Hengstpaß",
-          "earea": "Rosenau am Hengstpaß",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Rosenau am Hengstpaß",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Rosenau am Hengstpaß",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405406": {
-            "feuerwehr": "Feuerwehr/Florian Rosenau am Hengstpass (38406)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rosenau am Hengstpass (38406)",
-            "fwnr": 405406
-          }
-        },
-        "inzeit": "",
-        "num1": "E250602975",
-        "startzeit": "Wed, 18 Jun 2025 19:04:02 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7129",
-          "lng": "14.3959"
         }
       }
     },
@@ -1281,53 +1281,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Ulrich bei Steyr",
-          "earea": "St. Ulrich bei Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Ulrich bei Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - St. Ulrich bei Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411206": {
-            "feuerwehr": "Feuerwehr/Florian Kleinraming (46206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinraming (46206)",
-            "fwnr": 411206
-          }
-        },
-        "inzeit": "",
-        "num1": "E250602962",
-        "startzeit": "Wed, 18 Jun 2025 18:19:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "14.4903"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Zell am Moos",
           "earea": "Zell am Moos",
           "ecompl": "",
@@ -1416,53 +1369,6 @@
         "wgs84": {
           "lat": "47.8554",
           "lng": "14.662"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
-          }
-        },
-        "inzeit": "",
-        "num1": "E250602952",
-        "startzeit": "Wed, 18 Jun 2025 18:02:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2557",
-          "lng": "13.0456"
         }
       }
     },
