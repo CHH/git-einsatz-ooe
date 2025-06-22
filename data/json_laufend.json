@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 16,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Diersbach",
+          "earea": "Diersbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Diersbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Diersbach",
+        "einsatzsubtyp": {
+          "id": "FLUREN-BR",
+          "text": "Brand Fluren"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "410204": {
+            "feuerwehr": "Feuerwehr/Florian Diersbach (45204)"
+          },
+          "410212": {
+            "feuerwehr": "Feuerwehr/Florian Oberedt (45212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Diersbach (45204)",
+            "fwnr": 410204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Oberedt (45212)",
+            "fwnr": 410212
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603604",
+        "startzeit": "Sun, 22 Jun 2025 17:18:39 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4122",
+          "lng": "13.572"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +194,6 @@
         "wgs84": {
           "lat": "48.1114",
           "lng": "14.1931"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E250603593",
-        "startzeit": "Sun, 22 Jun 2025 14:00:34 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
         }
       }
     },
