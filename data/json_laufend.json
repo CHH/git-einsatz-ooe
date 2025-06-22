@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 18,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Kremsmünster",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BR",
+          "text": "Brand Abfall im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "405304": {
+            "feuerwehr": "Feuerwehr/Florian Kremsmünster (38304)"
+          },
+          "405305": {
+            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kremsmünster (38304)",
+            "fwnr": 405304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Krühub (38305)",
+            "fwnr": 405305
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603634",
+        "startzeit": "Sun, 22 Jun 2025 21:23:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0244",
+          "lng": "14.1465"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.3724",
           "lng": "14.5161"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ohlsdorf",
-          "earea": "Ohlsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ohlsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Ohlsdorf",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "403216": {
-            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
-            "fwnr": 403216
-          }
-        },
-        "inzeit": "",
-        "num1": "E250603629",
-        "startzeit": "Sun, 22 Jun 2025 20:24:44 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9629",
-          "lng": "13.7936"
         }
       }
     },
