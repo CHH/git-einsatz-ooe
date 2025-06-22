@@ -1,7 +1,115 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 23,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Königswiesen",
+          "earea": "Königswiesen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Königswiesen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Königswiesen",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "402302": {
+            "feuerwehr": "Feuerwehr/Florian Haid (FR) (35302)"
+          },
+          "402305": {
+            "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
+          },
+          "402309": {
+            "feuerwehr": "Feuerwehr/Florian Mönchdorf (35309)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haid (FR) (35302)",
+            "fwnr": 402302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Königswiesen (35305)",
+            "fwnr": 402305
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Mönchdorf (35309)",
+            "fwnr": 402309
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603594",
+        "startzeit": "Sun, 22 Jun 2025 14:07:43 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4067",
+          "lng": "14.8361"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603593",
+        "startzeit": "Sun, 22 Jun 2025 14:00:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +154,6 @@
         "wgs84": {
           "lat": "47.7743",
           "lng": "13.7256"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Roßbach",
-          "earea": "Roßbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Roßbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Roßbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400315": {
-            "feuerwehr": "Feuerwehr/Florian Rödham (33315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rödham (33315)",
-            "fwnr": 400315
-          }
-        },
-        "inzeit": "",
-        "num1": "E250603590",
-        "startzeit": "Sun, 22 Jun 2025 13:39:26 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1875",
-          "lng": "13.2366"
         }
       }
     },
@@ -515,53 +576,6 @@
         "wgs84": {
           "lat": "48.3605",
           "lng": "13.6898"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wartberg an der Krems",
-          "earea": "Wartberg an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wartberg an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Wartberg an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405309": {
-            "feuerwehr": "Feuerwehr/Florian Wartberg an der Krems (38309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wartberg an der Krems (38309)",
-            "fwnr": 405309
-          }
-        },
-        "inzeit": "",
-        "num1": "E250603563",
-        "startzeit": "Sun, 22 Jun 2025 08:48:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.99",
-          "lng": "14.1166"
         }
       }
     },
