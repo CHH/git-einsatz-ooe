@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 21,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Goisern am Hallstättersee",
+          "earea": "Bad Goisern am Hallstättersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Goisern am Hallstättersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Goisern am Hallstättersee",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "403101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
+          },
+          "403119": {
+            "feuerwehr": "Feuerwehr/Florian Weissenbach (36119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Goisern (36101)",
+            "fwnr": 403101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weissenbach (36119)",
+            "fwnr": 403119
+          }
+        },
+        "inzeit": "",
+        "num1": "E250604002",
+        "startzeit": "Tue, 24 Jun 2025 09:53:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6622",
+          "lng": "13.6058"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Oswald bei Freistadt",
+          "earea": "St. Oswald bei Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Oswald bei Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - St. Oswald bei Freistadt",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "402116": {
+            "feuerwehr": "Feuerwehr/Florian March (35116)"
+          },
+          "402128": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian March (35116)",
+            "fwnr": 402116
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
+            "fwnr": 402128
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603999",
+        "startzeit": "Tue, 24 Jun 2025 09:34:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5152",
+          "lng": "14.6266"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "",
+        "num1": "E250603996",
+        "startzeit": "Tue, 24 Jun 2025 09:24:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +194,10 @@
             "fwnr": 408226
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 24 Jun 2025 10:16:00 +0200",
         "num1": "E250603994",
         "startzeit": "Tue, 24 Jun 2025 09:05:52 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1817",
           "lng": "13.577"
@@ -133,10 +288,10 @@
             "fwnr": 403102
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 24 Jun 2025 09:32:00 +0200",
         "num1": "E250603989",
         "startzeit": "Tue, 24 Jun 2025 08:46:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7109",
           "lng": "13.6262"
@@ -180,10 +335,10 @@
             "fwnr": 405401
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 24 Jun 2025 09:52:00 +0200",
         "num1": "E250603984",
         "startzeit": "Tue, 24 Jun 2025 08:34:26 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7005",
           "lng": "14.1536"
