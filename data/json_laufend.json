@@ -1,51 +1,58 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Gunskirchen",
-          "earea": "Gunskirchen",
+          "default": "St. Georgen am Fillmannsbach",
+          "earea": "St. Georgen am Fillmannsbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gunskirchen",
+          "emun": "St. Georgen am Fillmannsbach",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Gunskirchen",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - St. Georgen am Fillmannsbach",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "414209": {
-            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
+          "400104": {
+            "feuerwehr": "Feuerwehr/Florian Handenberg (33104)"
+          },
+          "400110": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
-            "fwnr": 414209
+            "fwname": "Feuerwehr/Florian Handenberg (33104)",
+            "fwnr": 400104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
+            "fwnr": 400110
           }
         },
         "inzeit": "",
-        "num1": "E250604330",
-        "startzeit": "Thu, 26 Jun 2025 00:10:41 +0200",
+        "num1": "E250604331",
+        "startzeit": "Thu, 26 Jun 2025 00:21:01 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1363",
-          "lng": "13.9445"
+          "lat": "48.1269",
+          "lng": "13.0179"
         }
       }
     },
@@ -93,6 +100,53 @@
         "wgs84": {
           "lat": "48.1738",
           "lng": "13.9474"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gunskirchen",
+          "earea": "Gunskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gunskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Gunskirchen",
+        "einsatzsubtyp": {
+          "id": "BMA-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA-SONST",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414209": {
+            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
+            "fwnr": 414209
+          }
+        },
+        "inzeit": "",
+        "num1": "E250604327",
+        "startzeit": "Thu, 26 Jun 2025 00:18:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1363",
+          "lng": "13.9445"
         }
       }
     },
