@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "UU - Engerwitzdorf",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "412303": {
+            "feuerwehr": "Feuerwehr/Florian Gallneukirchen (49303)"
+          },
           "412312": {
             "feuerwehr": "Feuerwehr/Florian Schmiedgassen (49312)"
           },
@@ -41,14 +44,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
+            "fwnr": 412303
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Schmiedgassen (49312)",
             "fwnr": 412312
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Schweinbach (49313)",
             "fwnr": 412313
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Treffling (49315)",
             "fwnr": 412315
           }
@@ -60,53 +67,6 @@
         "wgs84": {
           "lat": "48.3353",
           "lng": "14.385"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Antiesenhofen",
-          "earea": "Antiesenhofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Antiesenhofen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Antiesenhofen",
-        "einsatzsubtyp": {
-          "id": "TÜRPERS-TE",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-TÜR",
-          "text": "Türöffnung Menschenrettung"
-        },
-        "feuerwehren": {
-          "408301": {
-            "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
-            "fwnr": 408301
-          }
-        },
-        "inzeit": "",
-        "num1": "E250604413",
-        "startzeit": "Thu, 26 Jun 2025 13:29:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     },
@@ -201,61 +161,6 @@
         "wgs84": {
           "lat": "48.2397",
           "lng": "14.0606"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "BAUM-BR",
-          "text": "Brand Baum"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
-            "fwnr": 415101
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250604406",
-        "startzeit": "Thu, 26 Jun 2025 12:52:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
