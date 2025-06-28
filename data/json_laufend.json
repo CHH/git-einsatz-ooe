@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 16,
-  "cnt_feuerwehren": 18,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Auerbach",
+          "earea": "Auerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Auerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Auerbach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400202": {
+            "feuerwehr": "Feuerwehr/Florian Auerbach (33202)"
+          },
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Auerbach (33202)",
+            "fwnr": 400202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250604889",
+        "startzeit": "Sat, 28 Jun 2025 13:25:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0649",
+          "lng": "13.1073"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -295,53 +349,6 @@
         "wgs84": {
           "lat": "47.954",
           "lng": "13.5804"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Laakirchen",
-          "earea": "Laakirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Laakirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Laakirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403262": {
-            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
-            "fwnr": 403262
-          }
-        },
-        "inzeit": "",
-        "num1": "E250604868",
-        "startzeit": "Sat, 28 Jun 2025 11:57:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9914",
-          "lng": "13.799"
         }
       }
     },
