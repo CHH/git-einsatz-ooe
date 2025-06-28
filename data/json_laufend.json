@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 19,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E250604925",
+        "startzeit": "Sat, 28 Jun 2025 18:24:41 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,7 +205,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "SONSTIGE",
         "einsatzort": "VB - Unterach am Attersee",
         "einsatzsubtyp": {
@@ -171,12 +218,20 @@
         },
         "feuerwehren": {
           "418920": {
-            "feuerwehr": "ÖWR Unterach"
+            "feuerwehr": "ÖWR Weyregg"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "ÖWR Nußdorf",
+            "fwnr": 418920
+          },
+          "1": {
             "fwname": "ÖWR Unterach",
+            "fwnr": 418920
+          },
+          "2": {
+            "fwname": "ÖWR Weyregg",
             "fwnr": 418920
           }
         },
