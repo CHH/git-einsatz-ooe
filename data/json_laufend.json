@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400105": {
+            "feuerwehr": "Feuerwehr/Florian Haselbach (33105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haselbach (33105)",
+            "fwnr": 400105
+          }
+        },
+        "inzeit": "",
+        "num1": "E250605176",
+        "startzeit": "Mon, 30 Jun 2025 16:02:48 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2532",
+          "lng": "13.058"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "47.6215",
           "lng": "13.6446"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lambrechten",
-          "earea": "Lambrechten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lambrechten",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - Lambrechten",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "408307": {
-            "feuerwehr": "Feuerwehr/Florian Lambrechten (43307)"
-          },
-          "410213": {
-            "feuerwehr": "Feuerwehr/Florian Pimpfing (45213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lambrechten (43307)",
-            "fwnr": 408307
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pimpfing (45213)",
-            "fwnr": 410213
-          }
-        },
-        "inzeit": "",
-        "num1": "E250605156",
-        "startzeit": "Mon, 30 Jun 2025 13:51:15 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3183",
-          "lng": "13.5106"
         }
       }
     }
