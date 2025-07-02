@@ -1,15 +1,116 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Haag am Hausruck",
-          "earea": "Haag am Hausruck",
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Haag am Hausruck",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          },
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700203",
+        "startzeit": "Wed, 02 Jul 2025 04:12:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyregg",
+          "earea": "Steyregg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyregg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Steyregg",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLFAHRB-TE",
+          "text": "Überflutete Fahrbahn"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-VKWEG",
+          "text": "Überflutung Verkehrsweg"
+        },
+        "feuerwehren": {
+          "412314": {
+            "feuerwehr": "Feuerwehr/Florian Steyregg (49314)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyregg (49314)",
+            "fwnr": 412314
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700202",
+        "startzeit": "Wed, 02 Jul 2025 04:06:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2855",
+          "lng": "14.3714"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kematen am Innbach",
+          "earea": "Kematen am Innbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kematen am Innbach",
           "estnum": ""
         },
         "alarmstufe": "1",
@@ -19,7 +120,7 @@
         },
         "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "GR - Haag am Hausruck",
+        "einsatzort": "GR - Kematen am Innbach",
         "einsatzsubtyp": {
           "id": "LKW-BR",
           "text": "Brand LKW im Freien"
@@ -51,8 +152,8 @@
         "startzeit": "Wed, 02 Jul 2025 03:15:26 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1879",
-          "lng": "13.6437"
+          "lat": "48.1801",
+          "lng": "13.7938"
         }
       }
     },
