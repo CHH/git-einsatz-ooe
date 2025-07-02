@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "Oepping",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "BRAND",
         "einsatzort": "RO - Oepping",
         "einsatzsubtyp": {
@@ -32,8 +32,14 @@
           "409406": {
             "feuerwehr": "Feuerwehr/Florian Götzendorf (44406)"
           },
+          "409410": {
+            "feuerwehr": "Feuerwehr/Florian Kirchbach (44410)"
+          },
           "409415": {
             "feuerwehr": "Feuerwehr/Florian Oepping (44415)"
+          },
+          "409416": {
+            "feuerwehr": "Feuerwehr/Florian Peilstein im Mühlkreis (44416)"
           }
         },
         "feuerwehrenarray": {
@@ -42,8 +48,16 @@
             "fwnr": 409406
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Kirchbach (44410)",
+            "fwnr": 409410
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Oepping (44415)",
             "fwnr": 409415
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Peilstein im Mühlkreis (44416)",
+            "fwnr": 409416
           }
         },
         "inzeit": "",
@@ -181,53 +195,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Spital am Pyhrn",
-          "earea": "Spital am Pyhrn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Spital am Pyhrn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "KI - Spital am Pyhrn",
-        "einsatzsubtyp": {
-          "id": "CO-SCHAD",
-          "text": "Kohlenmonoxidaustritt"
-        },
-        "einsatztyp": {
-          "id": "S0-GAS",
-          "text": "Gasaustritt"
-        },
-        "feuerwehren": {
-          "405403": {
-            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          }
-        },
-        "inzeit": "",
-        "num1": "E250700316",
-        "startzeit": "Wed, 02 Jul 2025 14:13:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6632",
-          "lng": "14.3396"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ansfelden",
           "earea": "Ansfelden",
           "ecompl": "",
@@ -269,60 +236,6 @@
         "wgs84": {
           "lat": "48.2262",
           "lng": "14.2971"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Martin im Innkreis",
-          "earea": "St. Martin im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Martin im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "RI - St. Martin im Innkreis",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "408317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Martin im Innkreis (43317)"
-          },
-          "408321": {
-            "feuerwehr": "Feuerwehr/Florian Trosskolm (43321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Martin im Innkreis (43317)",
-            "fwnr": 408317
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Trosskolm (43321)",
-            "fwnr": 408321
-          }
-        },
-        "inzeit": "",
-        "num1": "E250700313",
-        "startzeit": "Wed, 02 Jul 2025 13:40:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2958",
-          "lng": "13.4418"
         }
       }
     },
