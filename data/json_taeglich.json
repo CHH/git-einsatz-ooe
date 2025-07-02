@@ -1,7 +1,129 @@
 {
-  "cnt_einsaetze": 40,
-  "cnt_feuerwehren": 45,
+  "cnt_einsaetze": 42,
+  "cnt_feuerwehren": 51,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Agatha",
+          "earea": "St. Agatha",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Agatha",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - St. Agatha",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GR) (37317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GR) (37317)",
+            "fwnr": 404317
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700319",
+        "startzeit": "Wed, 02 Jul 2025 14:25:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3883",
+          "lng": "13.8772"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünbach",
+          "earea": "Grünbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünbach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Grünbach",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "402402": {
+            "feuerwehr": "Feuerwehr/Florian Grünbach (35402)"
+          },
+          "402404": {
+            "feuerwehr": "Feuerwehr/Florian Helbetschlag (35404)"
+          },
+          "402409": {
+            "feuerwehr": "Feuerwehr/Florian Lichtenau (35409)"
+          },
+          "402411": {
+            "feuerwehr": "Feuerwehr/Florian Mitterbach (35411)"
+          },
+          "402416": {
+            "feuerwehr": "Feuerwehr/Florian Rauchenödt (35416)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grünbach (35402)",
+            "fwnr": 402402
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Helbetschlag (35404)",
+            "fwnr": 402404
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Lichtenau (35409)",
+            "fwnr": 402409
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Mitterbach (35411)",
+            "fwnr": 402411
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Rauchenödt (35416)",
+            "fwnr": 402416
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700318",
+        "startzeit": "Wed, 02 Jul 2025 14:20:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5428",
+          "lng": "14.509"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +168,10 @@
             "fwnr": 401119
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 02 Jul 2025 15:16:00 +0200",
         "num1": "E250700317",
         "startzeit": "Wed, 02 Jul 2025 14:16:30 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2826",
           "lng": "14.0289"
@@ -273,24 +395,31 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "PE - Naarn im Machlande",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "FZGBAUBERGEN-TE",
+          "text": "Bergung Baumaschine"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          },
           "407310": {
             "feuerwehr": "Feuerwehr/Florian Naarn im Machland (42310)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Naarn im Machland (42310)",
             "fwnr": 407310
           }
