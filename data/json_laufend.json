@@ -1,7 +1,58 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700220",
+        "startzeit": "Wed, 02 Jul 2025 07:28:51 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +97,6 @@
         "wgs84": {
           "lat": "48.4439",
           "lng": "14.6814"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwand im Innkreis",
-          "earea": "Schwand im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwand im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Schwand im Innkreis",
-        "einsatzsubtyp": {
-          "id": "KLEINTIERRETT-TE",
-          "text": "Rettung Kleintier"
-        },
-        "einsatztyp": {
-          "id": "T0-TIER-RETTUNG",
-          "text": "Tierrettung"
-        },
-        "feuerwehren": {
-          "400112": {
-            "feuerwehr": "Feuerwehr/Florian Schwand im Innkreis (33112)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwand im Innkreis (33112)",
-            "fwnr": 400112
-          }
-        },
-        "inzeit": "",
-        "num1": "E250700207",
-        "startzeit": "Wed, 02 Jul 2025 06:49:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1791",
-          "lng": "12.9656"
         }
       }
     },
