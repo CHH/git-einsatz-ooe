@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 30,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Frankenmarkt",
+          "earea": "Frankenmarkt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Frankenmarkt",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Frankenmarkt",
+        "einsatzsubtyp": {
+          "id": "PERSTIEF-TE",
+          "text": "Personenrettung tief"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-TIEF",
+          "text": "Personenrettung tief"
+        },
+        "feuerwehren": {
+          "413111": {
+            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          },
+          "413129": {
+            "feuerwehr": "Feuerwehr/Florian Raspoldsedt (50129)"
+          },
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
+            "fwnr": 413111
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Raspoldsedt (50129)",
+            "fwnr": 413129
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701216",
+        "startzeit": "Fri, 04 Jul 2025 20:33:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9851",
+          "lng": "13.4109"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pischelsdorf am Engelbach",
+          "earea": "Pischelsdorf am Engelbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pischelsdorf am Engelbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Pischelsdorf am Engelbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400217": {
+            "feuerwehr": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pischelsdorf am Engelbach (33217)",
+            "fwnr": 400217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701215",
+        "startzeit": "Fri, 04 Jul 2025 20:31:56 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1303",
+          "lng": "13.0865"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +125,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "VB - Oberwang",
         "einsatzsubtyp": {
@@ -29,6 +137,9 @@
           "text": "Brand Gebäude mehrstöckig"
         },
         "feuerwehren": {
+          "413206": {
+            "feuerwehr": "Feuerwehr/Florian Innerschwand (50206)"
+          },
           "413208": {
             "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
           },
@@ -44,18 +155,22 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Innerschwand (50206)",
+            "fwnr": 413206
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Mondsee (50208)",
             "fwnr": 413208
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Oberaschau (50209)",
             "fwnr": 413209
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Oberwang (50211)",
             "fwnr": 413211
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Oberwang LZ Grossenschwandt (50711)",
             "fwnr": 413711
           }
@@ -167,53 +282,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Alkoven",
-          "earea": "Alkoven",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Alkoven",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Alkoven",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401114": {
-            "feuerwehr": "Feuerwehr/Florian Polsing (34114)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Polsing (34114)",
-            "fwnr": 401114
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701210",
-        "startzeit": "Fri, 04 Jul 2025 20:14:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.269",
-          "lng": "14.0856"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Steinerkirchen an der Traun",
           "earea": "Steinerkirchen an der Traun",
           "ecompl": "",
@@ -255,53 +323,6 @@
         "wgs84": {
           "lat": "48.0758",
           "lng": "14.0134"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Kreuzen",
-          "earea": "Bad Kreuzen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Kreuzen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Bad Kreuzen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
-            "fwnr": 407101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701208",
-        "startzeit": "Fri, 04 Jul 2025 19:56:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2705",
-          "lng": "14.8058"
         }
       }
     },
@@ -449,53 +470,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Georgen am Walde",
-          "earea": "St. Georgen am Walde",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Georgen am Walde",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - St. Georgen am Walde",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407111": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Walde (42111)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen am Walde (42111)",
-            "fwnr": 407111
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701192",
-        "startzeit": "Fri, 04 Jul 2025 19:13:01 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3592",
-          "lng": "14.8967"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Allerheiligen im Mühlkreis",
           "earea": "Allerheiligen im Mühlkreis",
           "ecompl": "",
@@ -537,53 +511,6 @@
         "wgs84": {
           "lat": "48.3076",
           "lng": "14.6593"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Innerschwand",
-          "earea": "Innerschwand",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Innerschwand",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Innerschwand",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413206": {
-            "feuerwehr": "Feuerwehr/Florian Innerschwand (50206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Innerschwand (50206)",
-            "fwnr": 413206
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701190",
-        "startzeit": "Fri, 04 Jul 2025 19:08:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8294",
-          "lng": "13.4054"
         }
       }
     },
@@ -872,53 +799,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Haslach an der Mühl",
-          "earea": "Haslach an der Mühl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Haslach an der Mühl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Haslach an der Mühl",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409407": {
-            "feuerwehr": "Feuerwehr/Florian Haslach an der Mühl (44407)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haslach an der Mühl (44407)",
-            "fwnr": 409407
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701180",
-        "startzeit": "Fri, 04 Jul 2025 18:54:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5765",
-          "lng": "14.044"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kremsmünster",
           "earea": "Kremsmünster",
           "ecompl": "",
@@ -1195,100 +1075,6 @@
         "wgs84": {
           "lat": "48.0465",
           "lng": "13.4561"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Zell an der Pram",
-          "earea": "Zell an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Zell an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Zell an der Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410220": {
-            "feuerwehr": "Feuerwehr/Florian Zell an der Pram (45220)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Zell an der Pram (45220)",
-            "fwnr": 410220
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701154",
-        "startzeit": "Fri, 04 Jul 2025 16:23:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3184",
-          "lng": "13.6309"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oberwang",
-          "earea": "Oberwang",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberwang",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Oberwang",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413211": {
-            "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberwang (50211)",
-            "fwnr": 413211
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701141",
-        "startzeit": "Fri, 04 Jul 2025 15:01:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8696",
-          "lng": "13.4324"
         }
       }
     },
