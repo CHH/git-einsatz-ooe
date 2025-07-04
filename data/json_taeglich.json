@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Gotthard im Mühlkreis",
+          "earea": "St. Gotthard im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Gotthard im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - St. Gotthard im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TÜRPERS-TE",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "412220": {
+            "feuerwehr": "Feuerwehr/Florian Rottenegg (49220)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rottenegg (49220)",
+            "fwnr": 412220
+          }
+        },
+        "inzeit": "",
+        "num1": "E250700996",
+        "startzeit": "Fri, 04 Jul 2025 03:35:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3696",
+          "lng": "14.134"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          }
+        },
+        "inzeit": "Fri, 04 Jul 2025 03:20:00 +0200",
+        "num1": "E250700995",
+        "startzeit": "Fri, 04 Jul 2025 03:08:50 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
