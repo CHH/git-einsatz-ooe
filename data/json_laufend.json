@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Munderfing",
+          "earea": "Munderfing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Munderfing",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Munderfing",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400201": {
+            "feuerwehr": "Feuerwehr/Florian Achenlohe (33201)"
+          },
+          "400213": {
+            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Achenlohe (33201)",
+            "fwnr": 400201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Munderfing (33213)",
+            "fwnr": 400213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701309",
+        "startzeit": "Sat, 05 Jul 2025 15:18:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0668",
+          "lng": "13.184"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "47.8949",
           "lng": "13.7663"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701304",
-        "startzeit": "Sat, 05 Jul 2025 14:57:59 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2178",
-          "lng": "14.4792"
         }
       }
     },
