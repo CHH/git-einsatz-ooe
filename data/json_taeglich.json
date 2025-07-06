@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 26,
-  "cnt_feuerwehren": 31,
+  "cnt_einsaetze": 28,
+  "cnt_feuerwehren": 36,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Rainbach im Innkreis",
+          "earea": "Rainbach im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Rainbach im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Rainbach im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410317": {
+            "feuerwehr": "Feuerwehr/Florian Rainbach im Innkreis (45317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rainbach im Innkreis (45317)",
+            "fwnr": 410317
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701416",
+        "startzeit": "Sun, 06 Jul 2025 13:44:53 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4545",
+          "lng": "13.5357"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberschwang",
+          "earea": "Eberschwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberschwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Eberschwang",
+        "einsatzsubtyp": {
+          "id": "GEBÜSCH-BR",
+          "text": "Brand Gebüsch"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "408203": {
+            "feuerwehr": "Feuerwehr/Florian Eberschwang (43203)"
+          },
+          "408231": {
+            "feuerwehr": "Feuerwehr/Florian Zeiling (43231)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eberschwang (43203)",
+            "fwnr": 408203
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Zeiling (43231)",
+            "fwnr": 408231
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701415",
+        "startzeit": "Sun, 06 Jul 2025 13:44:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.5787"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +140,10 @@
             "fwnr": 414203
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 06 Jul 2025 13:46:00 +0200",
         "num1": "E250701414",
         "startzeit": "Sun, 06 Jul 2025 13:10:41 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2234",
           "lng": "14.0229"
@@ -86,10 +187,10 @@
             "fwnr": 414211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 06 Jul 2025 13:31:00 +0200",
         "num1": "E250701413",
         "startzeit": "Sun, 06 Jul 2025 13:07:19 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2208",
           "lng": "14.1004"
@@ -106,12 +207,12 @@
           "emun": "Altheim",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
@@ -126,6 +227,12 @@
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
           },
+          "400302": {
+            "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
+          },
+          "400322": {
+            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
+          },
           "400361": {
             "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
           },
@@ -139,10 +246,18 @@
             "fwnr": 400301
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Aspach (33302)",
+            "fwnr": 400302
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
+            "fwnr": 400322
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
             "fwnr": 400361
           },
-          "2": {
+          "4": {
             "fwname": "Feuerwehr/Florian Moosham (43308)",
             "fwnr": 408308
           }
@@ -765,10 +880,10 @@
             "fwnr": 412109
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 06 Jul 2025 14:03:00 +0200",
         "num1": "E250701389",
         "startzeit": "Sun, 06 Jul 2025 09:13:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5234",
           "lng": "14.3603"
@@ -913,10 +1028,10 @@
             "fwnr": 404104
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 06 Jul 2025 13:58:00 +0200",
         "num1": "E250701383",
         "startzeit": "Sun, 06 Jul 2025 07:31:08 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2362",
           "lng": "13.8166"
