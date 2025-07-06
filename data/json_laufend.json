@@ -1,7 +1,75 @@
 {
-  "cnt_einsaetze": 10,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Königswiesen",
+          "earea": "Königswiesen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Königswiesen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Königswiesen",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "402302": {
+            "feuerwehr": "Feuerwehr/Florian Haid (FR) (35302)"
+          },
+          "402305": {
+            "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
+          },
+          "402309": {
+            "feuerwehr": "Feuerwehr/Florian Mönchdorf (35309)"
+          },
+          "402312": {
+            "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haid (FR) (35302)",
+            "fwnr": 402302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Königswiesen (35305)",
+            "fwnr": 402305
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Mönchdorf (35309)",
+            "fwnr": 402309
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Pierbach (35312)",
+            "fwnr": 402312
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701452",
+        "startzeit": "Sun, 06 Jul 2025 18:19:09 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3618",
+          "lng": "14.7972"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +161,6 @@
         "wgs84": {
           "lat": "48.1573",
           "lng": "13.8005"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Königswiesen",
-          "earea": "Königswiesen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Königswiesen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Königswiesen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402305": {
-            "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Königswiesen (35305)",
-            "fwnr": 402305
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701448",
-        "startzeit": "Sun, 06 Jul 2025 18:05:04 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4067",
-          "lng": "14.8361"
         }
       }
     },
@@ -240,53 +261,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Ried in der Riedmark",
-          "earea": "Ried in der Riedmark",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ried in der Riedmark",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Ried in der Riedmark",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "407214": {
-            "feuerwehr": "Feuerwehr/Florian Ried in der Riedmark (42214)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried in der Riedmark (42214)",
-            "fwnr": 407214
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701441",
-        "startzeit": "Sun, 06 Jul 2025 17:34:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2711",
-          "lng": "14.5317"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Gutau",
           "earea": "Gutau",
           "ecompl": "",
@@ -328,60 +302,6 @@
         "wgs84": {
           "lat": "48.4187",
           "lng": "14.6081"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altenberg bei Linz",
-          "earea": "Altenberg bei Linz",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altenberg bei Linz",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Altenberg bei Linz",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "412304": {
-            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
-          },
-          "412307": {
-            "feuerwehr": "Feuerwehr/Florian Kronabittedt (49307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
-            "fwnr": 412304
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kronabittedt (49307)",
-            "fwnr": 412307
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701437",
-        "startzeit": "Sun, 06 Jul 2025 17:25:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4137",
-          "lng": "14.2767"
         }
       }
     },
