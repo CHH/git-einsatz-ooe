@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 29,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mehrnbach",
+          "earea": "Mehrnbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mehrnbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Mehrnbach",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "408106": {
+            "feuerwehr": "Feuerwehr/Florian Blindenhofen (43106)"
+          },
+          "408115": {
+            "feuerwehr": "Feuerwehr/Florian Mehrnbach (43115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Blindenhofen (43106)",
+            "fwnr": 408106
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mehrnbach (43115)",
+            "fwnr": 408115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701527",
+        "startzeit": "Mon, 07 Jul 2025 13:15:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2182",
+          "lng": "13.4121"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -636,7 +690,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
@@ -650,12 +704,19 @@
         "feuerwehren": {
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
+          },
+          "400310": {
+            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Altheim (33301)",
             "fwnr": 400301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosbach (33310)",
+            "fwnr": 400310
           }
         },
         "inzeit": "",
