@@ -1,7 +1,156 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "KÜBEL-BR",
+          "text": "Brand Kübel im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 5 Münichholz (47105)",
+            "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701515",
+        "startzeit": "Mon, 07 Jul 2025 11:05:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauerkirchen",
+          "earea": "Mauerkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauerkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Mauerkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          }
+        },
+        "inzeit": "Mon, 07 Jul 2025 11:00:00 +0200",
+        "num1": "E250701514",
+        "startzeit": "Mon, 07 Jul 2025 10:59:56 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1962",
+          "lng": "13.1293"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ohlsdorf",
+          "earea": "Ohlsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ohlsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Ohlsdorf",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403216": {
+            "feuerwehr": "Feuerwehr/Florian Ohlsdorf (36216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ohlsdorf (36216)",
+            "fwnr": 403216
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701513",
+        "startzeit": "Mon, 07 Jul 2025 10:59:58 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9629",
+          "lng": "13.7936"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -180,10 +329,10 @@
             "fwnr": 406310
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 07 Jul 2025 10:29:00 +0200",
         "num1": "E250701491",
         "startzeit": "Mon, 07 Jul 2025 09:03:24 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1906",
           "lng": "14.2028"
@@ -347,15 +496,15 @@
           "text": "Braunau"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "BRAND",
         "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ABFALL-BR",
+          "text": "Brand Abfall im Freien"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
         },
         "feuerwehren": {
           "400301": {
