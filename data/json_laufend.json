@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
+          "default": "Freistadt",
+          "earea": "Freistadt",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ansfelden",
+          "emun": "Freistadt",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 2,
+          "text": "Freistadt"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Ansfelden",
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Freistadt",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "406261": {
-            "feuerwehr": "Feuerwehr/Florian Papier Nettingsdorf (39261)"
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Papier Nettingsdorf (39261)",
-            "fwnr": 406261
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
           }
         },
         "inzeit": "",
-        "num1": "E250701580",
-        "startzeit": "Mon, 07 Jul 2025 18:23:32 +0200",
+        "num1": "E250701583",
+        "startzeit": "Mon, 07 Jul 2025 18:27:57 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1853",
-          "lng": "14.2565"
+          "lat": "48.5181",
+          "lng": "14.5075"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Zell",
+          "earea": "Bad Zell",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Zell",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Bad Zell",
+        "einsatzsubtyp": {
+          "id": "GROßTIERRETT-TE",
+          "text": "Rettung Großtier"
+        },
+        "einsatztyp": {
+          "id": "T0-TIER-RETTUNG",
+          "text": "Tierrettung"
+        },
+        "feuerwehren": {
+          "402201": {
+            "feuerwehr": "Feuerwehr/Florian Bad Zell (35201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Zell (35201)",
+            "fwnr": 402201
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701582",
+        "startzeit": "Mon, 07 Jul 2025 18:27:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3518",
+          "lng": "14.6781"
         }
       }
     },
@@ -140,53 +187,6 @@
         "wgs84": {
           "lat": "48.1873",
           "lng": "14.2562"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kallham",
-          "earea": "Kallham",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kallham",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Kallham",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404308": {
-            "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kallham (37308)",
-            "fwnr": 404308
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701577",
-        "startzeit": "Mon, 07 Jul 2025 18:07:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2826",
-          "lng": "13.7091"
         }
       }
     },
@@ -375,53 +375,6 @@
         "wgs84": {
           "lat": "48.1469",
           "lng": "13.4644"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701569",
-        "startzeit": "Mon, 07 Jul 2025 17:42:13 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
         }
       }
     },
