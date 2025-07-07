@@ -1,25 +1,25 @@
 {
-  "cnt_einsaetze": 6,
+  "cnt_einsaetze": 5,
   "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
+          "default": "Kirchham",
+          "earea": "Kirchham",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Thalheim bei Wels",
+          "emun": "Kirchham",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
+          "id": 3,
+          "text": "Gmunden"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "WL - Thalheim bei Wels",
+        "einsatzort": "GM - Kirchham",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,77 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
+          "403210": {
+            "feuerwehr": "Feuerwehr/Florian Kirchham (36210)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
+            "fwname": "Feuerwehr/Florian Kirchham (36210)",
+            "fwnr": 403210
           }
         },
         "inzeit": "",
-        "num1": "E250701530",
-        "startzeit": "Mon, 07 Jul 2025 13:47:33 +0200",
+        "num1": "E250701534",
+        "startzeit": "Mon, 07 Jul 2025 14:03:33 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1538",
-          "lng": "14.031"
+          "lat": "47.9685",
+          "lng": "13.8966"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Marchtrenk",
+          "earea": "Marchtrenk",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Marchtrenk",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Marchtrenk",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
+          },
+          "414215": {
+            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kappern (51212)",
+            "fwnr": 414212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
+            "fwnr": 414215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701532",
+        "startzeit": "Mon, 07 Jul 2025 13:56:25 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1921",
+          "lng": "14.1187"
         }
       }
     },
@@ -106,53 +160,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Tarsdorf",
-          "earea": "Tarsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tarsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Tarsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400414": {
-            "feuerwehr": "Feuerwehr/Florian Tarsdorf (33414)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tarsdorf (33414)",
-            "fwnr": 400414
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701520",
-        "startzeit": "Mon, 07 Jul 2025 11:34:09 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0797",
-          "lng": "12.8243"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Geinberg",
           "earea": "Geinberg",
           "ecompl": "",
@@ -194,53 +201,6 @@
         "wgs84": {
           "lat": "48.2692",
           "lng": "13.2583"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altheim",
-          "earea": "Altheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Altheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400361": {
-            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
-            "fwnr": 400361
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701492",
-        "startzeit": "Mon, 07 Jul 2025 09:05:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2483",
-          "lng": "13.2359"
         }
       }
     },
