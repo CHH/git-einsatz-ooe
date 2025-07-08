@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Suben",
+          "earea": "Suben",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Suben",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Suben",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "410324": {
+            "feuerwehr": "Feuerwehr/Florian Suben (45324)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Suben (45324)",
+            "fwnr": 410324
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701713",
+        "startzeit": "Tue, 08 Jul 2025 12:36:09 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4102",
+          "lng": "13.4317"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +158,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "SE - Aschach an der Steyr",
         "einsatzsubtyp": {
@@ -125,12 +172,19 @@
         "feuerwehren": {
           "411201": {
             "feuerwehr": "Feuerwehr/Florian Aschach an der Steyr (46201)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Technischer Zug (47106)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Aschach an der Steyr (46201)",
             "fwnr": 411201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -234,53 +288,6 @@
         "wgs84": {
           "lat": "48.0756",
           "lng": "13.142"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eggerding",
-          "earea": "Eggerding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eggerding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Eggerding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410314": {
-            "feuerwehr": "Feuerwehr/Florian Maasbach (45314)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Maasbach (45314)",
-            "fwnr": 410314
-          }
-        },
-        "inzeit": "",
-        "num1": "E250701680",
-        "startzeit": "Tue, 08 Jul 2025 09:28:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3419",
-          "lng": "13.4408"
         }
       }
     },
