@@ -1,51 +1,173 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ried in der Riedmark",
-          "earea": "Ried in der Riedmark",
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ried in der Riedmark",
+          "emun": "Braunau am Inn",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 7,
-          "text": "Perg"
+          "id": 0,
+          "text": "Braunau"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Ried in der Riedmark",
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Braunau am Inn",
         "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "407202": {
-            "feuerwehr": "Feuerwehr/Florian Altaist-Hartl (42202)"
+          "400161": {
+            "feuerwehr": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Altaist-Hartl (42202)",
-            "fwnr": 407202
+            "fwname": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)",
+            "fwnr": 400161
           }
         },
         "inzeit": "",
-        "num1": "E250701654",
-        "startzeit": "Tue, 08 Jul 2025 04:41:56 +0200",
+        "num1": "E250701658",
+        "startzeit": "Tue, 08 Jul 2025 05:25:36 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3132",
-          "lng": "14.5411"
+          "lat": "48.2283",
+          "lng": "13.0301"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünbach",
+          "earea": "Grünbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünbach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Grünbach",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "402402": {
+            "feuerwehr": "Feuerwehr/Florian Grünbach (35402)"
+          },
+          "402404": {
+            "feuerwehr": "Feuerwehr/Florian Helbetschlag (35404)"
+          },
+          "402409": {
+            "feuerwehr": "Feuerwehr/Florian Lichtenau (35409)"
+          },
+          "402411": {
+            "feuerwehr": "Feuerwehr/Florian Mitterbach (35411)"
+          },
+          "402416": {
+            "feuerwehr": "Feuerwehr/Florian Rauchenödt (35416)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grünbach (35402)",
+            "fwnr": 402402
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Helbetschlag (35404)",
+            "fwnr": 402404
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Lichtenau (35409)",
+            "fwnr": 402409
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Mitterbach (35411)",
+            "fwnr": 402411
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Rauchenödt (35416)",
+            "fwnr": 402416
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701656",
+        "startzeit": "Tue, 08 Jul 2025 05:12:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5406",
+          "lng": "14.5864"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Haibach ob der Donau",
+          "earea": "Haibach ob der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Haibach ob der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Haibach ob der Donau",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "401107": {
+            "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
+            "fwnr": 401107
+          }
+        },
+        "inzeit": "",
+        "num1": "E250701655",
+        "startzeit": "Tue, 08 Jul 2025 05:02:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.412",
+          "lng": "13.9172"
         }
       }
     },
