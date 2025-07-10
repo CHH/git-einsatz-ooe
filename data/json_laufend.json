@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee am Traunsee",
+          "earea": "Ebensee am Traunsee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee am Traunsee",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "GM - Ebensee am Traunsee",
+        "einsatzsubtyp": {
+          "id": "KLEINMENGEÖL-KL",
+          "text": "Ölaustritt Kleinmenge"
+        },
+        "einsatztyp": {
+          "id": "KL-ÖL-KLEINMENGE",
+          "text": "Ölaustritt Kleinmenge"
+        },
+        "feuerwehren": {
+          "403115": {
+            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
+            "fwnr": 403115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250702009",
+        "startzeit": "Thu, 10 Jul 2025 06:11:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7932",
+          "lng": "13.7579"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - Regau",
         "einsatzsubtyp": {
@@ -76,12 +123,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "403227": {
+            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
+          },
           "413421": {
             "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Wiesen (36227)",
+            "fwnr": 403227
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
             "fwnr": 413421
           }
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "47.9712",
           "lng": "13.7053"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altheim",
-          "earea": "Altheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Altheim",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400361": {
-            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
-            "fwnr": 400361
-          }
-        },
-        "inzeit": "",
-        "num1": "E250702005",
-        "startzeit": "Thu, 10 Jul 2025 05:01:37 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2483",
-          "lng": "13.2359"
         }
       }
     },
