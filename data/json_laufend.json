@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wilhering",
+          "earea": "Wilhering",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wilhering",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Wilhering",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "406205": {
+            "feuerwehr": "Feuerwehr/Florian Edramsberg (39205)"
+          },
+          "406223": {
+            "feuerwehr": "Feuerwehr/Florian Wilhering (39223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Edramsberg (39205)",
+            "fwnr": 406205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Wilhering (39223)",
+            "fwnr": 406223
+          }
+        },
+        "inzeit": "",
+        "num1": "E250702219",
+        "startzeit": "Fri, 11 Jul 2025 12:26:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3188",
+          "lng": "14.1755"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +71,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "EF - Fraham",
         "einsatzsubtyp": {
@@ -29,6 +83,9 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
           "401105": {
             "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
           },
@@ -38,10 +95,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
             "fwnr": 401105
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Steinholz (34119)",
             "fwnr": 401119
           }
