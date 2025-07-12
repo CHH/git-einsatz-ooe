@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Laakirchen",
+          "earea": "Laakirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Laakirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Laakirchen",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
+            "fwnr": 403262
+          }
+        },
+        "inzeit": "",
+        "num1": "E250702368",
+        "startzeit": "Sat, 12 Jul 2025 11:55:47 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9819",
+          "lng": "13.8195"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.2068",
           "lng": "13.1639"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Kreuzen",
-          "earea": "Bad Kreuzen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Kreuzen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Bad Kreuzen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
-            "fwnr": 407101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250702337",
-        "startzeit": "Sat, 12 Jul 2025 07:18:03 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2705",
-          "lng": "14.8058"
         }
       }
     },
