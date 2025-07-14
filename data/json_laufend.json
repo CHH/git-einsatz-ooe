@@ -1,25 +1,79 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Gaspoltshofen",
-          "earea": "Gaspoltshofen",
+          "default": "Laakirchen",
+          "earea": "Laakirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gaspoltshofen",
+          "emun": "Laakirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Laakirchen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "403213": {
+            "feuerwehr": "Feuerwehr/Florian Lindach (36213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lindach (36213)",
+            "fwnr": 403213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250702553",
+        "startzeit": "Mon, 14 Jul 2025 09:36:20 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9989",
+          "lng": "13.8509"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Spital am Pyhrn",
+          "earea": "Spital am Pyhrn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Spital am Pyhrn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "GR - Gaspoltshofen",
+        "einsatzort": "KI - Spital am Pyhrn",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +83,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "404203": {
-            "feuerwehr": "Feuerwehr/Florian Altenhof am Hausruck (37203)"
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Altenhof am Hausruck (37203)",
-            "fwnr": 404203
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
           }
         },
         "inzeit": "",
-        "num1": "E250702551",
-        "startzeit": "Mon, 14 Jul 2025 09:04:09 +0200",
+        "num1": "E250702552",
+        "startzeit": "Mon, 14 Jul 2025 09:27:15 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1356",
-          "lng": "13.686"
+          "lat": "47.6632",
+          "lng": "14.3396"
         }
       }
     },
