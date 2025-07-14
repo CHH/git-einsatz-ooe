@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lengau",
+          "earea": "Lengau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lengau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Lengau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400205": {
+            "feuerwehr": "Feuerwehr/Florian Markt Friedburg (33205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Markt Friedburg (33205)",
+            "fwnr": 400205
+          }
+        },
+        "inzeit": "",
+        "num1": "E250702667",
+        "startzeit": "Mon, 14 Jul 2025 20:14:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0182",
+          "lng": "13.2481"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "47.6412",
           "lng": "13.6215"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Andorf",
-          "earea": "Andorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Andorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Andorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410217": {
-            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
-            "fwnr": 410217
-          }
-        },
-        "inzeit": "",
-        "num1": "E250702661",
-        "startzeit": "Mon, 14 Jul 2025 19:40:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.358",
-          "lng": "13.6057"
         }
       }
     },
@@ -381,53 +381,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406306": {
-            "feuerwehr": "Feuerwehr/Florian Kematen an der Krems (39306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kematen an der Krems (39306)",
-            "fwnr": 406306
-          }
-        },
-        "inzeit": "",
-        "num1": "E250702649",
-        "startzeit": "Mon, 14 Jul 2025 19:02:57 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1114",
-          "lng": "14.1931"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Peuerbach",
           "earea": "Peuerbach",
           "ecompl": "",
@@ -563,53 +516,6 @@
         "wgs84": {
           "lat": "48.1356",
           "lng": "13.686"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "FZGTRKBERGEN-TE",
-          "text": "Bergung Traktor"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E250702626",
-        "startzeit": "Mon, 14 Jul 2025 16:42:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2178",
-          "lng": "14.4792"
         }
       }
     }
