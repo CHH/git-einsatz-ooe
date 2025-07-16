@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Riedau",
+          "earea": "Riedau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Riedau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Riedau",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "410215": {
+            "feuerwehr": "Feuerwehr/Florian Riedau (45215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Riedau (45215)",
+            "fwnr": 410215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703070",
+        "startzeit": "Wed, 16 Jul 2025 20:02:19 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3036",
+          "lng": "13.6299"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.412",
           "lng": "13.9172"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Taufkirchen an der Pram",
-          "earea": "Taufkirchen an der Pram",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Taufkirchen an der Pram",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Taufkirchen an der Pram",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410308": {
-            "feuerwehr": "Feuerwehr/Florian Höbmannsbach (45308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Höbmannsbach (45308)",
-            "fwnr": 410308
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703066",
-        "startzeit": "Wed, 16 Jul 2025 19:53:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4364",
-          "lng": "13.5147"
         }
       }
     },
@@ -482,53 +482,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Hallstatt",
-          "earea": "Hallstatt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hallstatt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Hallstatt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403105": {
-            "feuerwehr": "Feuerwehr/Florian Hallstatt (36105)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hallstatt (36105)",
-            "fwnr": 403105
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703050",
-        "startzeit": "Wed, 16 Jul 2025 19:10:27 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.5557",
-          "lng": "13.6461"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Traunkirchen",
           "earea": "Traunkirchen",
           "ecompl": "",
@@ -711,104 +664,6 @@
         "wgs84": {
           "lat": "47.724",
           "lng": "13.6191"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Spital am Pyhrn",
-          "earea": "Spital am Pyhrn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Spital am Pyhrn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "KI - Spital am Pyhrn",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "405403": {
-            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
-            "fwnr": 405403
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703042",
-        "startzeit": "Wed, 16 Jul 2025 19:03:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.6632",
-          "lng": "14.3396"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703041",
-        "startzeit": "Wed, 16 Jul 2025 19:00:52 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
         }
       }
     },
