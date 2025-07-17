@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 13,
   "einsaetze": [
     {
@@ -111,7 +111,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "VB - Seewalchen am Attersee",
         "einsatzsubtyp": {
@@ -123,12 +123,23 @@
           "text": "Entlaufenes Tier"
         },
         "feuerwehren": {
+          "413104": {
+            "feuerwehr": "Feuerwehr/Florian Badstuben (50104)"
+          },
           "413522": {
             "feuerwehr": "Feuerwehr/Florian Steindorf (50522)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Badstuben (50104)",
+            "fwnr": 413104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steindorf (50522)",
+            "fwnr": 413522
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Steindorf (50522)",
             "fwnr": 413522
           }
@@ -140,53 +151,6 @@
         "wgs84": {
           "lat": "47.9636",
           "lng": "13.5713"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorderweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Vorderweißenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412128": {
-            "feuerwehr": "Feuerwehr/Florian Piberschlag (49128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Piberschlag (49128)",
-            "fwnr": 412128
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703202",
-        "startzeit": "Thu, 17 Jul 2025 19:46:02 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5579",
-          "lng": "14.173"
         }
       }
     },
