@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Leonfelden",
+          "earea": "Bad Leonfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Leonfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703448",
+        "startzeit": "Sat, 19 Jul 2025 18:12:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5223",
+          "lng": "14.2965"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lasberg",
+          "earea": "Lasberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lasberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Lasberg",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402112": {
+            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
+          },
+          "402128": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lasberg (35112)",
+            "fwnr": 402112
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
+            "fwnr": 402128
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703447",
+        "startzeit": "Sat, 19 Jul 2025 18:05:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4737",
+          "lng": "14.5302"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,53 +241,6 @@
         "wgs84": {
           "lat": "48.04",
           "lng": "13.7055"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünbach",
-          "earea": "Grünbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Grünbach",
-        "einsatzsubtyp": {
-          "id": "BMT-SELBST",
-          "text": "Brandmeldetaste Gedrückt"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402404": {
-            "feuerwehr": "Feuerwehr/Florian Helbetschlag (35404)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Helbetschlag (35404)",
-            "fwnr": 402404
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703439",
-        "startzeit": "Sat, 19 Jul 2025 17:02:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5428",
-          "lng": "14.509"
         }
       }
     },
