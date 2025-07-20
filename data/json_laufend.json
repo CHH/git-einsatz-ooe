@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Oftering",
+          "earea": "Oftering",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Oftering",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Oftering",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406215": {
+            "feuerwehr": "Feuerwehr/Florian Oftering (39215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Oftering (39215)",
+            "fwnr": 406215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703533",
+        "startzeit": "Sun, 20 Jul 2025 19:29:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2344",
+          "lng": "14.1346"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Gschwandt",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          },
           "403209": {
             "feuerwehr": "Feuerwehr/Florian Gschwandt (36209)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Gschwandt (36209)",
             "fwnr": 403209
           }
