@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Goisern",
+          "earea": "Bad Goisern",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Goisern",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Bad Goisern",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha (GM) (36117)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
+            "fwnr": 403117
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703607",
+        "startzeit": "Mon, 21 Jul 2025 13:13:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6215",
+          "lng": "13.6446"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,31 +59,59 @@
           "emun": "Pinsdorf",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Pinsdorf",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "GEWERBE-BR",
+          "text": "Brand Gewerbe"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "403217": {
+            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
+          },
           "403227": {
             "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
+          },
+          "403263": {
+            "feuerwehr": "Feuerwehr/Florian Rohrdorfer Zement (36263)"
+          },
+          "413417": {
+            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
+            "fwnr": 403217
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Wiesen (36227)",
             "fwnr": 403227
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
+            "fwnr": 403262
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Rohrdorfer Zement (36263)",
+            "fwnr": 403263
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Puchheim (50417)",
+            "fwnr": 413417
           }
         },
         "inzeit": "",
@@ -93,53 +168,6 @@
         "wgs84": {
           "lat": "48.1962",
           "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Hall",
-          "earea": "Bad Hall",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Hall",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - Bad Hall",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "411102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Hall (46102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Hall (46102)",
-            "fwnr": 411102
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703599",
-        "startzeit": "Mon, 21 Jul 2025 12:56:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0326",
-          "lng": "14.2148"
         }
       }
     },
