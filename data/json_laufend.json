@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchschlag bei Linz",
+          "earea": "Kirchschlag bei Linz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchschlag bei Linz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "UU - Kirchschlag bei Linz",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "412304": {
+            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
+          },
+          "412305": {
+            "feuerwehr": "Feuerwehr/Florian Kirchschlag bei Linz (49305)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
+            "fwnr": 412304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kirchschlag bei Linz (49305)",
+            "fwnr": 412305
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703632",
+        "startzeit": "Mon, 21 Jul 2025 16:22:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4137",
+          "lng": "14.2767"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,147 +100,6 @@
         "wgs84": {
           "lat": "48.1434",
           "lng": "14.2754"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Königswiesen",
-          "earea": "Königswiesen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Königswiesen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Königswiesen",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "402305": {
-            "feuerwehr": "Feuerwehr/Florian Königswiesen (35305)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Königswiesen (35305)",
-            "fwnr": 402305
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703629",
-        "startzeit": "Mon, 21 Jul 2025 16:02:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4067",
-          "lng": "14.8361"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kremsmünster",
-          "earea": "Kremsmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kremsmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Kremsmünster",
-        "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "405304": {
-            "feuerwehr": "Feuerwehr/Florian Kremsmünster (38304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kremsmünster (38304)",
-            "fwnr": 405304
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703627",
-        "startzeit": "Mon, 21 Jul 2025 16:01:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0546",
-          "lng": "14.1325"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwertberg",
-          "earea": "Schwertberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwertberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - Schwertberg",
-        "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "407216": {
-            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
-            "fwnr": 407216
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703626",
-        "startzeit": "Mon, 21 Jul 2025 15:53:12 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2734",
-          "lng": "14.5798"
         }
       }
     },
