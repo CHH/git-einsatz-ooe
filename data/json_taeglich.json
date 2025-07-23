@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altmünster",
+          "earea": "Altmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Altmünster",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703885",
+        "startzeit": "Wed, 23 Jul 2025 12:13:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8949",
+          "lng": "13.7663"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +59,12 @@
           "emun": "Antiesenhofen",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "RI - Antiesenhofen",
         "einsatzsubtyp": {
@@ -31,12 +78,40 @@
         "feuerwehren": {
           "408301": {
             "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
+          },
+          "408311": {
+            "feuerwehr": "Feuerwehr/Florian Münsteuer (43311)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
+          },
+          "410303": {
+            "feuerwehr": "Feuerwehr/Florian Eggerding (45303)"
+          },
+          "410314": {
+            "feuerwehr": "Feuerwehr/Florian Maasbach (45314)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
             "fwnr": 408301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Münsteuer (43311)",
+            "fwnr": 408311
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Eggerding (45303)",
+            "fwnr": 410303
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Maasbach (45314)",
+            "fwnr": 410314
           }
         },
         "inzeit": "",
@@ -90,10 +165,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 23 Jul 2025 11:47:00 +0200",
         "num1": "E250703879",
         "startzeit": "Wed, 23 Jul 2025 11:18:14 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.044",
           "lng": "14.4147"
@@ -137,10 +212,10 @@
             "fwnr": 402205
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 23 Jul 2025 11:30:00 +0200",
         "num1": "E250703878",
         "startzeit": "Wed, 23 Jul 2025 11:16:47 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3724",
           "lng": "14.5161"
@@ -184,10 +259,10 @@
             "fwnr": 406208
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 23 Jul 2025 11:29:00 +0200",
         "num1": "E250703874",
         "startzeit": "Wed, 23 Jul 2025 10:46:22 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2652",
           "lng": "14.2551"
