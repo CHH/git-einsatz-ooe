@@ -1,7 +1,62 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "PERSEINGEKL-TE",
+          "text": "Person eingeklemmt"
+        },
+        "einsatztyp": {
+          "id": "T1-PERS-EINGEK",
+          "text": "Person eingeklemmt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 2 Steyrdorf (47102)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703899",
+        "startzeit": "Wed, 23 Jul 2025 14:12:00 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +148,6 @@
         "wgs84": {
           "lat": "48.221",
           "lng": "13.872"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Garsten",
-          "earea": "Garsten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Garsten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Garsten",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411210": {
-            "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberdambach (46210)",
-            "fwnr": 411210
-          }
-        },
-        "inzeit": "",
-        "num1": "E250703896",
-        "startzeit": "Wed, 23 Jul 2025 14:01:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9786",
-          "lng": "14.4006"
         }
       }
     },
