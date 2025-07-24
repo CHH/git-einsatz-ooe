@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geinberg",
+          "earea": "Geinberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geinberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Geinberg",
+        "einsatzsubtyp": {
+          "id": "FELD-BR",
+          "text": "Brand Feld"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "408302": {
+            "feuerwehr": "Feuerwehr/Florian Geinberg (43302)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geinberg (43302)",
+            "fwnr": 408302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703997",
+        "startzeit": "Thu, 24 Jul 2025 01:55:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2692",
+          "lng": "13.2583"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Natternbach",
+          "earea": "Natternbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Natternbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Natternbach",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404311": {
+            "feuerwehr": "Feuerwehr/Florian Natternbach (37311)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Natternbach (37311)",
+            "fwnr": 404311
+          }
+        },
+        "inzeit": "",
+        "num1": "E250703996",
+        "startzeit": "Thu, 24 Jul 2025 01:42:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3989",
+          "lng": "13.7492"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
