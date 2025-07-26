@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Ulrich bei Steyr",
+          "earea": "St. Ulrich bei Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Ulrich bei Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - St. Ulrich bei Steyr",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411206": {
+            "feuerwehr": "Feuerwehr/Florian Kleinraming (46206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kleinraming (46206)",
+            "fwnr": 411206
+          }
+        },
+        "inzeit": "",
+        "num1": "E250704329",
+        "startzeit": "Sat, 26 Jul 2025 13:12:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0101",
+          "lng": "14.4903"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwertberg",
+          "earea": "Schwertberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwertberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Schwertberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407218": {
+            "feuerwehr": "Feuerwehr/Florian Winden-Windegg (42218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Winden-Windegg (42218)",
+            "fwnr": 407218
+          }
+        },
+        "inzeit": "",
+        "num1": "E250704327",
+        "startzeit": "Sat, 26 Jul 2025 12:49:06 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.287",
+          "lng": "14.5933"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "BMAFW-BR",
+          "text": "Brandmeldealarm im Feuerwehrhaus"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Nikola (46105)"
+          },
+          "411106": {
+            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Nikola (46105)",
+            "fwnr": 411105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
+            "fwnr": 411106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "Sat, 26 Jul 2025 12:56:00 +0200",
+        "num1": "E250704326",
+        "startzeit": "Sat, 26 Jul 2025 12:38:34 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.979",
+          "lng": "14.246"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,21 +167,21 @@
           "emun": "Taufkirchen an der Pram",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 5,
+        "einsatzart": "TEE",
         "einsatzort": "SD - Taufkirchen an der Pram",
         "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
           "410313": {
@@ -34,6 +189,9 @@
           },
           "410316": {
             "feuerwehr": "Feuerwehr/Florian Pramau (45316)"
+          },
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
           },
           "410325": {
             "feuerwehr": "Feuerwehr/Florian Taufkirchen an der Pram (45325)"
@@ -45,10 +203,18 @@
             "fwnr": 410313
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Laufenbach (45313)",
+            "fwnr": 410313
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Pramau (45316)",
             "fwnr": 410316
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Taufkirchen an der Pram (45325)",
             "fwnr": 410325
           }
@@ -349,10 +515,10 @@
             "fwnr": 409415
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 26 Jul 2025 12:20:00 +0200",
         "num1": "E250704316",
         "startzeit": "Sat, 26 Jul 2025 10:49:04 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.637",
           "lng": "13.9668"
@@ -443,10 +609,10 @@
             "fwnr": 410302
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 26 Jul 2025 12:53:00 +0200",
         "num1": "E250704314",
         "startzeit": "Sat, 26 Jul 2025 10:31:14 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4678",
           "lng": "13.464"
