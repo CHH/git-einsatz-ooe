@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Handenberg",
+          "earea": "Handenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Handenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Handenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400104": {
+            "feuerwehr": "Feuerwehr/Florian Handenberg (33104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Handenberg (33104)",
+            "fwnr": 400104
+          }
+        },
+        "inzeit": "",
+        "num1": "E250704544",
+        "startzeit": "Sun, 27 Jul 2025 18:34:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1352",
+          "lng": "13.0102"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.0836",
           "lng": "13.5107"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hargelsberg",
-          "earea": "Hargelsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hargelsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Hargelsberg",
-        "einsatzsubtyp": {
-          "id": "HWSICHGEBÄUDE-TE",
-          "text": "Gebäude droht überflutet zu werden"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-HW",
-          "text": "Sicherungsdienst Hochwasser"
-        },
-        "feuerwehren": {
-          "406103": {
-            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
-            "fwnr": 406103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250704539",
-        "startzeit": "Sun, 27 Jul 2025 17:18:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1473",
-          "lng": "14.4235"
         }
       }
     },
@@ -306,7 +306,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Scharnstein",
         "einsatzsubtyp": {
@@ -320,12 +320,19 @@
         "feuerwehren": {
           "403225": {
             "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
+          },
+          "405211": {
+            "feuerwehr": "Feuerwehr/Florian Pettenbach (38211)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Viechtwang (36225)",
             "fwnr": 403225
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pettenbach (38211)",
+            "fwnr": 405211
           }
         },
         "inzeit": "",
