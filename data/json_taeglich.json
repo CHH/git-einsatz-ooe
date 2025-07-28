@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 33,
-  "cnt_feuerwehren": 39,
+  "cnt_einsaetze": 34,
+  "cnt_feuerwehren": 40,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "Mon, 28 Jul 2025 13:00:00 +0200",
+        "num1": "E250704629",
+        "startzeit": "Mon, 28 Jul 2025 12:31:40 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2178",
+          "lng": "14.4792"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 412127
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 28 Jul 2025 12:56:00 +0200",
         "num1": "E250704627",
         "startzeit": "Mon, 28 Jul 2025 11:58:45 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.466",
           "lng": "14.2649"
@@ -259,7 +306,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Hellmonsödt",
         "einsatzsubtyp": {
@@ -271,12 +318,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
           "412304": {
             "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
             "fwnr": 412304
           }
