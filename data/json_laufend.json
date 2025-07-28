@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
+  "cnt_einsaetze": 10,
   "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichersberg",
+          "earea": "Reichersberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichersberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Reichersberg",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "408320": {
+            "feuerwehr": "Feuerwehr/Florian Traxlham (43320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traxlham (43320)",
+            "fwnr": 408320
+          }
+        },
+        "inzeit": "",
+        "num1": "E250704577",
+        "startzeit": "Mon, 28 Jul 2025 06:45:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3095",
+          "lng": "13.4044"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -111,7 +158,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "PE - Rechberg",
         "einsatzsubtyp": {
@@ -123,12 +170,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
           "407314": {
             "feuerwehr": "Feuerwehr/Florian Rechberg (42314)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Rechberg (42314)",
             "fwnr": 407314
           }
@@ -443,100 +497,6 @@
         "wgs84": {
           "lat": "48.044",
           "lng": "14.4147"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grünbach",
-          "earea": "Grünbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grünbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Grünbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402404": {
-            "feuerwehr": "Feuerwehr/Florian Helbetschlag (35404)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Helbetschlag (35404)",
-            "fwnr": 402404
-          }
-        },
-        "inzeit": "",
-        "num1": "E250704376",
-        "startzeit": "Sat, 26 Jul 2025 19:54:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5428",
-          "lng": "14.509"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwarzenberg am Böhmerwald",
-          "earea": "Schwarzenberg am Böhmerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwarzenberg am Böhmerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Schwarzenberg am Böhmerwald",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409108": {
-            "feuerwehr": "Feuerwehr/Florian Schwarzenberg (44108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwarzenberg (44108)",
-            "fwnr": 409108
-          }
-        },
-        "inzeit": "",
-        "num1": "E250704358",
-        "startzeit": "Sat, 26 Jul 2025 17:34:58 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.7291",
-          "lng": "13.8334"
         }
       }
     }
