@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 28,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lasberg",
+          "earea": "Lasberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lasberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Lasberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402112": {
+            "feuerwehr": "Feuerwehr/Florian Lasberg (35112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lasberg (35112)",
+            "fwnr": 402112
+          }
+        },
+        "inzeit": "",
+        "num1": "E250800258",
+        "startzeit": "Sun, 03 Aug 2025 16:10:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4737",
+          "lng": "14.5302"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Desselbrunn",
+          "earea": "Desselbrunn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Desselbrunn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Desselbrunn",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "413317": {
+            "feuerwehr": "Feuerwehr/Florian Windern (50317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Windern (50317)",
+            "fwnr": 413317
+          }
+        },
+        "inzeit": "Sun, 03 Aug 2025 16:18:00 +0200",
+        "num1": "E250800256",
+        "startzeit": "Sun, 03 Aug 2025 15:23:18 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0255",
+          "lng": "13.7908"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mehrnbach",
+          "earea": "Mehrnbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mehrnbach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - Mehrnbach",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "408101": {
+            "feuerwehr": "Feuerwehr/Florian Ampfenham (43101)"
+          },
+          "408106": {
+            "feuerwehr": "Feuerwehr/Florian Blindenhofen (43106)"
+          },
+          "408114": {
+            "feuerwehr": "Feuerwehr/Florian Kirchheim im Innkreis (43114)"
+          },
+          "408115": {
+            "feuerwehr": "Feuerwehr/Florian Mehrnbach (43115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ampfenham (43101)",
+            "fwnr": 408101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Blindenhofen (43106)",
+            "fwnr": 408106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Kirchheim im Innkreis (43114)",
+            "fwnr": 408114
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Mehrnbach (43115)",
+            "fwnr": 408115
+          }
+        },
+        "inzeit": "",
+        "num1": "E250800255",
+        "startzeit": "Sun, 03 Aug 2025 15:22:28 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2182",
+          "lng": "13.4121"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +201,10 @@
             "fwnr": 403208
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 03 Aug 2025 15:45:00 +0200",
         "num1": "E250800252",
         "startzeit": "Sun, 03 Aug 2025 14:32:03 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.861",
           "lng": "13.9493"
