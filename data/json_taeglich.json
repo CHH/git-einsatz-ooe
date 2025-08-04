@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fraham",
+          "earea": "Fraham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fraham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "EF - Fraham",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
+            "fwnr": 401105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
+          }
+        },
+        "inzeit": "",
+        "num1": "E250800300",
+        "startzeit": "Mon, 04 Aug 2025 07:16:01 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2826",
+          "lng": "14.0289"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": 406209
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 04 Aug 2025 06:50:00 +0200",
         "num1": "E250800296",
         "startzeit": "Mon, 04 Aug 2025 06:09:35 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2243",
           "lng": "14.1854"
@@ -71,7 +125,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "VB - Schlatt",
         "einsatzsubtyp": {
@@ -85,12 +139,26 @@
         "feuerwehren": {
           "413314": {
             "feuerwehr": "Feuerwehr/Florian Schlatt (50314)"
+          },
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          },
+          "414112": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen bei Lambach (51112)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Schlatt (50314)",
             "fwnr": 413314
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Neukirchen bei Lambach (51112)",
+            "fwnr": 414112
           }
         },
         "inzeit": "",
