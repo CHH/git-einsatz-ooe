@@ -1,51 +1,65 @@
 {
   "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Altheim",
-          "earea": "Altheim",
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Altheim",
+          "emun": "Kremsmünster",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 0,
-          "text": "Braunau"
+          "id": 5,
+          "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Altheim",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Kremsmünster",
         "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
-          "400301": {
-            "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
+          "405303": {
+            "feuerwehr": "Feuerwehr/Florian Irndorf (38303)"
+          },
+          "405304": {
+            "feuerwehr": "Feuerwehr/Florian Kremsmünster (38304)"
+          },
+          "405305": {
+            "feuerwehr": "Feuerwehr/Florian Krühub (38305)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Altheim (33301)",
-            "fwnr": 400301
+            "fwname": "Feuerwehr/Florian Irndorf (38303)",
+            "fwnr": 405303
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kremsmünster (38304)",
+            "fwnr": 405304
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Krühub (38305)",
+            "fwnr": 405305
           }
         },
         "inzeit": "",
-        "num1": "E250800329",
-        "startzeit": "Mon, 04 Aug 2025 11:17:35 +0200",
+        "num1": "E250800332",
+        "startzeit": "Mon, 04 Aug 2025 12:25:00 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2477",
-          "lng": "13.2294"
+          "lat": "48.0244",
+          "lng": "14.1465"
         }
       }
     }
