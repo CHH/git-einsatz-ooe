@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eggerding",
+          "earea": "Eggerding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eggerding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Eggerding",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410303": {
+            "feuerwehr": "Feuerwehr/Florian Eggerding (45303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eggerding (45303)",
+            "fwnr": 410303
+          }
+        },
+        "inzeit": "",
+        "num1": "E250800497",
+        "startzeit": "Tue, 05 Aug 2025 15:15:36 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3494",
+          "lng": "13.4721"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +140,6 @@
         "wgs84": {
           "lat": "47.9643",
           "lng": "14.0092"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Geretsberg",
-          "earea": "Geretsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geretsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Geretsberg",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "400110": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
-          },
-          "400405": {
-            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
-            "fwnr": 400110
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
-            "fwnr": 400405
-          }
-        },
-        "inzeit": "",
-        "num1": "E250800487",
-        "startzeit": "Tue, 05 Aug 2025 13:19:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0896",
-          "lng": "12.9354"
         }
       }
     }
