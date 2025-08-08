@@ -1,25 +1,25 @@
 {
   "cnt_einsaetze": 30,
-  "cnt_feuerwehren": 43,
+  "cnt_feuerwehren": 40,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
+          "default": "Lochen",
+          "earea": "Lochen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ebensee",
+          "emun": "Lochen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 0,
+          "text": "Braunau"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
+        "einsatzort": "BR - Lochen",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "418920": {
-            "feuerwehr": "ÖWR Ebensee"
+          "400210": {
+            "feuerwehr": "Feuerwehr/Florian Lochen am See(33210)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "ÖWR Ebensee",
-            "fwnr": 418920
+            "fwname": "Feuerwehr/Florian Lochen am See(33210)",
+            "fwnr": 400210
           }
         },
         "inzeit": "",
-        "num1": "E250801055",
-        "startzeit": "Fri, 08 Aug 2025 19:49:14 +0200",
+        "num1": "E250801057",
+        "startzeit": "Fri, 08 Aug 2025 19:55:30 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
+          "lat": "48.007",
+          "lng": "13.1787"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mettmach",
+          "earea": "Mettmach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mettmach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Mettmach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408112": {
+            "feuerwehr": "Feuerwehr/Florian Großweiffendorf (43112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Großweiffendorf (43112)",
+            "fwnr": 408112
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801056",
+        "startzeit": "Fri, 08 Aug 2025 19:51:16 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1506",
+          "lng": "13.3481"
         }
       }
     },
@@ -563,81 +610,6 @@
         "wgs84": {
           "lat": "47.9893",
           "lng": "13.6896"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Mettmach",
-          "earea": "Mettmach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Mettmach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 5,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Mettmach",
-        "einsatzsubtyp": {
-          "id": "PERSTIEF-TE",
-          "text": "Personenrettung tief"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-TIEF",
-          "text": "Personenrettung tief"
-        },
-        "feuerwehren": {
-          "400102": {
-            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
-          },
-          "400302": {
-            "feuerwehr": "Feuerwehr/Florian Aspach (33302)"
-          },
-          "408116": {
-            "feuerwehr": "Feuerwehr/Florian Mettmach (43116)"
-          },
-          "408117": {
-            "feuerwehr": "Feuerwehr/Florian Neundling (43117)"
-          },
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
-            "fwnr": 400102
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Aspach (33302)",
-            "fwnr": 400302
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Mettmach (43116)",
-            "fwnr": 408116
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Neundling (43117)",
-            "fwnr": 408117
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801026",
-        "startzeit": "Fri, 08 Aug 2025 18:44:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1681",
-          "lng": "13.3491"
         }
       }
     },
