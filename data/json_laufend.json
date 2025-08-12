@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Marchtrenk",
+          "earea": "Marchtrenk",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Marchtrenk",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Marchtrenk",
+        "einsatzsubtyp": {
+          "id": "WIESE-BR",
+          "text": "Brand Wiese"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
+        },
+        "feuerwehren": {
+          "414212": {
+            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
+          },
+          "414215": {
+            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kappern (51212)",
+            "fwnr": 414212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
+            "fwnr": 414215
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801460",
+        "startzeit": "Tue, 12 Aug 2025 11:40:12 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1921",
+          "lng": "14.1187"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,67 +154,6 @@
         "wgs84": {
           "lat": "48.1203",
           "lng": "13.2852"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tollet",
-          "earea": "Tollet",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tollet",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Tollet",
-        "einsatzsubtyp": {
-          "id": "FELD-BR",
-          "text": "Brand Feld"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "404114": {
-            "feuerwehr": "Feuerwehr/Florian Oberwödling (37114)"
-          },
-          "404127": {
-            "feuerwehr": "Feuerwehr/Florian Tolleterau (37127)"
-          },
-          "404128": {
-            "feuerwehr": "Feuerwehr/Florian Unterstetten (37128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberwödling (37114)",
-            "fwnr": 404114
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Tolleterau (37127)",
-            "fwnr": 404127
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Unterstetten (37128)",
-            "fwnr": 404128
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801449",
-        "startzeit": "Tue, 12 Aug 2025 10:00:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2616",
-          "lng": "13.8068"
         }
       }
     },
