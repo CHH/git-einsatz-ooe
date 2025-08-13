@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hochburg-Ach",
+          "earea": "Hochburg-Ach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hochburg-Ach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Hochburg-Ach",
+        "einsatzsubtyp": {
+          "id": "FZGKLTBERGEN-TE",
+          "text": "Bergung Kleintransporter"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "400401": {
+            "feuerwehr": "Feuerwehr/Florian Ach an der Salzach (33401)"
+          },
+          "400408": {
+            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ach an der Salzach (33401)",
+            "fwnr": 400401
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hochburg (33408)",
+            "fwnr": 400408
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801665",
+        "startzeit": "Wed, 13 Aug 2025 15:23:11 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1475",
+          "lng": "12.8395"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +106,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pierbach",
-          "earea": "Pierbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pierbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Pierbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402312": {
-            "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pierbach (35312)",
-            "fwnr": 402312
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801662",
-        "startzeit": "Wed, 13 Aug 2025 15:04:53 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3449",
-          "lng": "14.7588"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pasching",
           "earea": "Pasching",
           "ecompl": "",
@@ -140,100 +147,6 @@
         "wgs84": {
           "lat": "48.2548",
           "lng": "14.2114"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vöcklabruck",
-          "earea": "Vöcklabruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vöcklabruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Vöcklabruck",
-        "einsatzsubtyp": {
-          "id": "SIRFEUER-SELBST",
-          "text": "Sirenenprogramm FEUER von FW ausgelöst"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413429": {
-            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
-            "fwnr": 413429
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801660",
-        "startzeit": "Wed, 13 Aug 2025 14:58:31 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0064",
-          "lng": "13.6637"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Julbach",
-          "earea": "Julbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Julbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Julbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409103": {
-            "feuerwehr": "Feuerwehr/Florian Julbach (44103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Julbach (44103)",
-            "fwnr": 409103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801655",
-        "startzeit": "Wed, 13 Aug 2025 14:31:33 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6586",
-          "lng": "13.8713"
         }
       }
     },
@@ -429,53 +342,6 @@
         "wgs84": {
           "lat": "48.5015",
           "lng": "13.481"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Regau",
-          "earea": "Regau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Regau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Regau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413421": {
-            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
-            "fwnr": 413421
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801634",
-        "startzeit": "Wed, 13 Aug 2025 11:56:35 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9712",
-          "lng": "13.7053"
         }
       }
     },
