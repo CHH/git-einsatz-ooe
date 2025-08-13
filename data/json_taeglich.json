@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 29,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 33,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sierning",
+          "earea": "Sierning",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sierning",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Sierning",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411217": {
+            "feuerwehr": "Feuerwehr/Florian Sierning (46217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sierning (46217)",
+            "fwnr": 411217
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801637",
+        "startzeit": "Wed, 13 Aug 2025 12:16:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0405",
+          "lng": "14.3116"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413421": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
+            "fwnr": 413421
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801634",
+        "startzeit": "Wed, 13 Aug 2025 11:56:35 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9712",
+          "lng": "13.7053"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünbach",
+          "earea": "Grünbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Grünbach",
+        "einsatzsubtyp": {
+          "id": "BMT-SELBST",
+          "text": "Brandmeldetaste Gedrückt"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402404": {
+            "feuerwehr": "Feuerwehr/Florian Helbetschlag (35404)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Helbetschlag (35404)",
+            "fwnr": 402404
+          }
+        },
+        "inzeit": "Wed, 13 Aug 2025 11:39:00 +0200",
+        "num1": "E250801633",
+        "startzeit": "Wed, 13 Aug 2025 11:35:32 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.5428",
+          "lng": "14.509"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -447,26 +588,33 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "RI - Pramet",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLGEWÄSSER-TE",
+          "text": "Ölaustritt Gewässer"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-GEWÄSSER",
+          "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
           "408222": {
             "feuerwehr": "Feuerwehr/Florian Pramet (43222)"
+          },
+          "408315": {
+            "feuerwehr": "Feuerwehr/Florian Reichersberg (43315)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Pramet (43222)",
             "fwnr": 408222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Reichersberg (43315)",
+            "fwnr": 408315
           }
         },
         "inzeit": "",
