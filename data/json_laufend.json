@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,21 +12,21 @@
           "emun": "Sipbachzell",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "WL - Sipbachzell",
         "einsatzsubtyp": {
-          "id": "ABFALL-BR",
-          "text": "Brand Abfall im Freien"
+          "id": "GEBÜSCH-BR",
+          "text": "Brand Gebüsch"
         },
         "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
         },
         "feuerwehren": {
           "414208": {
@@ -34,6 +34,9 @@
           },
           "414214": {
             "feuerwehr": "Feuerwehr/Florian Leombach (51214)"
+          },
+          "414220": {
+            "feuerwehr": "Feuerwehr/Florian Sipbachzell (51220)"
           }
         },
         "feuerwehrenarray": {
@@ -44,6 +47,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Leombach (51214)",
             "fwnr": 414214
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sipbachzell (51220)",
+            "fwnr": 414220
           }
         },
         "inzeit": "",
@@ -241,67 +248,6 @@
         "wgs84": {
           "lat": "48.2462",
           "lng": "14.5497"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lambach",
-          "earea": "Lambach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lambach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "WL - Lambach",
-        "einsatzsubtyp": {
-          "id": "PERSUNTZUG-VU",
-          "text": "Person unter Schienenfahrzeug"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-UNT-ZUG",
-          "text": "Person unter Schienenfahrzeug"
-        },
-        "feuerwehren": {
-          "414103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)"
-          },
-          "414106": {
-            "feuerwehr": "Feuerwehr/Florian Edt-Klaus (51106)"
-          },
-          "414111": {
-            "feuerwehr": "Feuerwehr/Florian Lambach (51111)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)",
-            "fwnr": 414103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Edt-Klaus (51106)",
-            "fwnr": 414106
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Lambach (51111)",
-            "fwnr": 414111
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801878",
-        "startzeit": "Thu, 14 Aug 2025 17:55:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0914",
-          "lng": "13.868"
         }
       }
     },
