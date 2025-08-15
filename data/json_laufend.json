@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "GASWAHRN-SCHAD",
+          "text": "Gasgeruch wahrnehmbar"
+        },
+        "einsatztyp": {
+          "id": "S0-GAS",
+          "text": "Gasaustritt"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802011",
+        "startzeit": "Fri, 15 Aug 2025 18:09:33 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Weyregg am Attersee",
-          "earea": "Weyregg am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weyregg am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Weyregg am Attersee",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "413525": {
-            "feuerwehr": "Feuerwehr/Florian Weyregg am Attersee (50525)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weyregg am Attersee (50525)",
-            "fwnr": 413525
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802008",
-        "startzeit": "Fri, 15 Aug 2025 17:48:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9029",
-          "lng": "13.5718"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Marchtrenk",
           "earea": "Marchtrenk",
           "ecompl": "",
@@ -140,100 +140,6 @@
         "wgs84": {
           "lat": "48.1921",
           "lng": "14.1187"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ungenach",
-          "earea": "Ungenach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ungenach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Ungenach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413428": {
-            "feuerwehr": "Feuerwehr/Florian Ungenach (50428)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ungenach (50428)",
-            "fwnr": 413428
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802005",
-        "startzeit": "Fri, 15 Aug 2025 17:33:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0461",
-          "lng": "13.6121"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Klaus an der Pyhrnbahn",
-          "earea": "Klaus an der Pyhrnbahn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Klaus an der Pyhrnbahn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "KI - Klaus an der Pyhrnbahn",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "405216": {
-            "feuerwehr": "Feuerwehr/Florian Steyrling (38216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyrling (38216)",
-            "fwnr": 405216
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802004",
-        "startzeit": "Fri, 15 Aug 2025 17:31:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8049",
-          "lng": "14.124"
         }
       }
     },
