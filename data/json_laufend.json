@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Schallerbach",
+          "earea": "Bad Schallerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Schallerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Bad Schallerbach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
+          },
+          "404104": {
+            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
+            "fwnr": 404101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
+            "fwnr": 404104
+          }
+        },
+        "inzeit": "",
+        "num1": "E250801997",
+        "startzeit": "Fri, 15 Aug 2025 16:47:54 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2277",
+          "lng": "13.9234"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.4051",
           "lng": "13.9848"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sonnberg im Mühlkreis",
-          "earea": "Sonnberg im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sonnberg im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Sonnberg im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "SIRFEUER-SELBST",
-          "text": "Sirenenprogramm FEUER von FW ausgelöst"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412118": {
-            "feuerwehr": "Feuerwehr/Florian Sonnberg im Mühlkreis (49118)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sonnberg im Mühlkreis (49118)",
-            "fwnr": 412118
-          }
-        },
-        "inzeit": "",
-        "num1": "E250801990",
-        "startzeit": "Fri, 15 Aug 2025 15:37:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4596",
-          "lng": "14.2936"
         }
       }
     },
