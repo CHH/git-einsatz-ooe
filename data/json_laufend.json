@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 14,
+  "cnt_einsaetze": 13,
   "cnt_feuerwehren": 13,
   "einsaetze": [
     {
@@ -18,15 +18,15 @@
           "text": "Perg"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
+        "einsatzart": "SELBST",
         "einsatzort": "PE - Baumgartenberg",
         "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
           "407304": {
@@ -40,8 +40,8 @@
           }
         },
         "inzeit": "",
-        "num1": "E250802146",
-        "startzeit": "Sat, 16 Aug 2025 18:50:14 +0200",
+        "num1": "E250802151",
+        "startzeit": "Sat, 16 Aug 2025 19:19:24 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.2152",
@@ -52,47 +52,51 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Baumgartenberg",
-          "earea": "Baumgartenberg",
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Baumgartenberg",
+          "emun": "Bad Ischl",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 7,
-          "text": "Perg"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "PE - Baumgartenberg",
+        "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
-          "id": "ÜBERFLGEB-TE",
-          "text": "Gebäude überflutet"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
-          "407304": {
-            "feuerwehr": "Feuerwehr/Florian Baumgartenberg (42304)"
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Rettenbach (36504)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Baumgartenberg (42304)",
-            "fwnr": 407304
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rettenbach (36504)",
+            "fwnr": 403102
           }
         },
         "inzeit": "",
-        "num1": "E250802144",
-        "startzeit": "Sat, 16 Aug 2025 18:45:36 +0200",
+        "num1": "E250802150",
+        "startzeit": "Sat, 16 Aug 2025 19:17:22 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2152",
-          "lng": "14.7436"
+          "lat": "47.717",
+          "lng": "13.6331"
         }
       }
     },
@@ -187,53 +191,6 @@
         "wgs84": {
           "lat": "48.193",
           "lng": "13.4714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwertberg",
-          "earea": "Schwertberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwertberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Schwertberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407218": {
-            "feuerwehr": "Feuerwehr/Florian Winden-Windegg (42218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Winden-Windegg (42218)",
-            "fwnr": 407218
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802138",
-        "startzeit": "Sat, 16 Aug 2025 18:31:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.287",
-          "lng": "14.5933"
         }
       }
     },
