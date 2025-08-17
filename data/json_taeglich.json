@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 17,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wartberg ob der Aist",
+          "earea": "Wartberg ob der Aist",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wartberg ob der Aist",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Wartberg ob der Aist",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLKELLER-TE",
+          "text": "Keller überflutet"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "402213": {
+            "feuerwehr": "Feuerwehr/Florian Wartberg ob der Aist (35213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wartberg ob der Aist (35213)",
+            "fwnr": 402213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802240",
+        "startzeit": "Sun, 17 Aug 2025 06:18:08 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3475",
+          "lng": "14.5102"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gampern",
+          "earea": "Gampern",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gampern",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Gampern",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "413407": {
+            "feuerwehr": "Feuerwehr/Florian Baumgarting (50407)"
+          },
+          "413408": {
+            "feuerwehr": "Feuerwehr/Florian Gampern (50408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Baumgarting (50407)",
+            "fwnr": 413407
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gampern (50408)",
+            "fwnr": 413408
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802239",
+        "startzeit": "Sun, 17 Aug 2025 06:06:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0015",
+          "lng": "13.5655"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neukirchen an der Vöckla",
+          "earea": "Neukirchen an der Vöckla",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neukirchen an der Vöckla",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Neukirchen an der Vöckla",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "413130": {
+            "feuerwehr": "Feuerwehr/Florian Redl (50130)"
+          },
+          "413412": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Vöckla (50412)"
+          },
+          "413461": {
+            "feuerwehr": "Feuerwehr/Florian Brauerei Zipf (50461)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Redl (50130)",
+            "fwnr": 413130
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Neukirchen an der Vöckla (50412)",
+            "fwnr": 413412
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Brauerei Zipf (50461)",
+            "fwnr": 413461
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802238",
+        "startzeit": "Sun, 17 Aug 2025 05:58:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0416",
+          "lng": "13.5372"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +201,10 @@
             "fwnr": 402211
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Aug 2025 05:40:00 +0200",
         "num1": "E250802237",
         "startzeit": "Sun, 17 Aug 2025 04:33:33 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3308",
           "lng": "14.6181"
@@ -86,10 +248,10 @@
             "fwnr": 406311
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 17 Aug 2025 06:17:00 +0200",
         "num1": "E250802236",
         "startzeit": "Sun, 17 Aug 2025 03:51:40 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1434",
           "lng": "14.2754"
