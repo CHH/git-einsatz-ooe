@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
     {
       "einsatz": {
@@ -111,7 +111,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 11,
         "einsatzart": "TEE",
         "einsatzort": "FR - Liebenau",
         "einsatzsubtyp": {
@@ -123,6 +123,18 @@
           "text": "Personenrettung Gewässer"
         },
         "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
+          "401102": {
+            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
+          },
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
           "402307": {
             "feuerwehr": "Feuerwehr/Florian Liebenau (35307)"
           },
@@ -134,24 +146,61 @@
           },
           "402317": {
             "feuerwehr": "Feuerwehr/Florian Schöneben (35317)"
+          },
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          },
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          },
+          "407217": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
+            "fwnr": 401102
+          },
+          "10": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen an der Gusen (42217)",
+            "fwnr": 407217
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Liebenau (35307)",
             "fwnr": 402307
           },
-          "1": {
+          "5": {
             "fwname": "Feuerwehr/Florian Liebenstein (35308)",
             "fwnr": 402308
           },
-          "2": {
+          "6": {
             "fwname": "Feuerwehr/Florian Ruben (35314)",
             "fwnr": 402314
           },
-          "3": {
+          "7": {
             "fwname": "Feuerwehr/Florian Schöneben (35317)",
             "fwnr": 402317
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
           }
         },
         "inzeit": "",
@@ -262,107 +311,6 @@
         "wgs84": {
           "lat": "48.3952",
           "lng": "14.2342"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tollet",
-          "earea": "Tollet",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tollet",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Tollet",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404128": {
-            "feuerwehr": "Feuerwehr/Florian Unterstetten (37128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Unterstetten (37128)",
-            "fwnr": 404128
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802307",
-        "startzeit": "Sun, 17 Aug 2025 18:07:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2509",
-          "lng": "13.775"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "GROßTIERRETT-TE",
-          "text": "Rettung Großtier"
-        },
-        "einsatztyp": {
-          "id": "T0-TIER-RETTUNG",
-          "text": "Tierrettung"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
-          },
-          "403106": {
-            "feuerwehr": "Feuerwehr/Florian Jainzen (36106)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
-            "fwnr": 403102
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Jainzen (36106)",
-            "fwnr": 403106
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802303",
-        "startzeit": "Sun, 17 Aug 2025 17:49:03 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.724",
-          "lng": "13.6191"
         }
       }
     },
