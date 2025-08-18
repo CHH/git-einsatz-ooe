@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mondsee",
+          "earea": "Mondsee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mondsee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Mondsee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413208": {
+            "feuerwehr": "Feuerwehr/Florian Mondsee (50208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mondsee (50208)",
+            "fwnr": 413208
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802349",
+        "startzeit": "Mon, 18 Aug 2025 08:19:32 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8574",
+          "lng": "13.3434"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Franking",
+          "earea": "Franking",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Franking",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Franking",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400404": {
+            "feuerwehr": "Feuerwehr/Florian Franking (33404)"
+          },
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
+          },
+          "400415": {
+            "feuerwehr": "Feuerwehr/Florian Trimmelkam (33415)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Franking (33404)",
+            "fwnr": 400404
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Trimmelkam (33415)",
+            "fwnr": 400415
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802345",
+        "startzeit": "Mon, 18 Aug 2025 07:26:45 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0515",
+          "lng": "12.9107"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +194,10 @@
             "fwnr": 403216
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 18 Aug 2025 07:24:00 +0200",
         "num1": "E250802339",
         "startzeit": "Mon, 18 Aug 2025 07:01:25 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
