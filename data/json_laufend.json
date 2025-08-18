@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Palting",
+          "earea": "Palting",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Palting",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Palting",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "10007": {
+            "feuerwehr": "Feuerwehr/Florian Mattsee (SBG)"
+          },
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          },
+          "400214": {
+            "feuerwehr": "Feuerwehr/Florian Palting (33214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattsee (SBG)",
+            "fwnr": 10007
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Palting (33214)",
+            "fwnr": 400214
+          }
+        },
+        "inzeit": "",
+        "num1": "E250802476",
+        "startzeit": "Mon, 18 Aug 2025 21:24:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0149",
+          "lng": "13.1281"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +107,6 @@
         "wgs84": {
           "lat": "48.2152",
           "lng": "14.7436"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Freistadt",
-          "earea": "Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Freistadt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402103": {
-            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freistadt (35103)",
-            "fwnr": 402103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250802474",
-        "startzeit": "Mon, 18 Aug 2025 20:26:43 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5181",
-          "lng": "14.5075"
         }
       }
     },
