@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E250803506",
+        "startzeit": "Sun, 24 Aug 2025 17:42:44 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -198,67 +252,6 @@
         "wgs84": {
           "lat": "48.193",
           "lng": "13.4714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Dietach",
-          "earea": "Dietach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Dietach",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "SE - Dietach",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "406104": {
-            "feuerwehr": "Feuerwehr/Florian Kronstorf (39104)"
-          },
-          "411202": {
-            "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
-          },
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kronstorf (39104)",
-            "fwnr": 406104
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Dietach (46202)",
-            "fwnr": 411202
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250803495",
-        "startzeit": "Sun, 24 Aug 2025 14:52:41 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0894",
-          "lng": "14.4184"
         }
       }
     },
