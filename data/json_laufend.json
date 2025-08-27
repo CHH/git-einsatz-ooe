@@ -1,7 +1,75 @@
 {
-  "cnt_einsaetze": 6,
+  "cnt_einsaetze": 5,
   "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "ÖLGEWÄSSER-TE",
+          "text": "Ölaustritt Gewässer"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-GEWÄSSER",
+          "text": "Ölaustritt Gewässer"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          },
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
+          },
+          "407303": {
+            "feuerwehr": "Feuerwehr/Florian Au/Donau (42303)"
+          },
+          "500020": {
+            "feuerwehr": "Feuerwehr/Florian Ennsdorf (NÖ)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Au/Donau (42303)",
+            "fwnr": 407303
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Ennsdorf (NÖ)",
+            "fwnr": 500020
+          }
+        },
+        "inzeit": "",
+        "num1": "E250803899",
+        "startzeit": "Wed, 27 Aug 2025 16:59:57 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2455",
+          "lng": "14.5042"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -99,53 +167,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Geretsberg",
-          "earea": "Geretsberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Geretsberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Geretsberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400405": {
-            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
-            "fwnr": 400405
-          }
-        },
-        "inzeit": "",
-        "num1": "E250803895",
-        "startzeit": "Wed, 27 Aug 2025 16:21:19 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0896",
-          "lng": "12.9354"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Pucking",
           "earea": "Pucking",
           "ecompl": "",
@@ -234,60 +255,6 @@
         "wgs84": {
           "lat": "48.2178",
           "lng": "14.4792"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "ÖLGROß-TE",
-          "text": "Ölaustritt groß"
-        },
-        "einsatztyp": {
-          "id": "T1-ÖL-GROß",
-          "text": "Ölaustritt groß"
-        },
-        "feuerwehren": {
-          "406201": {
-            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
-          },
-          "406213": {
-            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
-            "fwnr": 406201
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
-            "fwnr": 406213
-          }
-        },
-        "inzeit": "",
-        "num1": "E250803853",
-        "startzeit": "Wed, 27 Aug 2025 11:40:23 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1873",
-          "lng": "14.2562"
         }
       }
     }
