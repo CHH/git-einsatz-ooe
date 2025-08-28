@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geinberg",
+          "earea": "Geinberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geinberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Geinberg",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408302": {
+            "feuerwehr": "Feuerwehr/Florian Geinberg (43302)"
+          },
+          "408308": {
+            "feuerwehr": "Feuerwehr/Florian Moosham (43308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geinberg (43302)",
+            "fwnr": 408302
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosham (43308)",
+            "fwnr": 408308
+          }
+        },
+        "inzeit": "",
+        "num1": "E250804128",
+        "startzeit": "Thu, 28 Aug 2025 21:41:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2678",
+          "lng": "13.3013"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,100 +147,6 @@
         "wgs84": {
           "lat": "48.5001",
           "lng": "14.0352"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Kreuzen",
-          "earea": "Bad Kreuzen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Kreuzen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Bad Kreuzen",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "407101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
-            "fwnr": 407101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804120",
-        "startzeit": "Thu, 28 Aug 2025 20:35:47 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2705",
-          "lng": "14.8058"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sattledt",
-          "earea": "Sattledt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sattledt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Sattledt",
-        "einsatzsubtyp": {
-          "id": "FREI-BR",
-          "text": "Brand im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI",
-          "text": "Brand im Freien"
-        },
-        "feuerwehren": {
-          "414218": {
-            "feuerwehr": "Feuerwehr/Florian Sattledt (51218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sattledt (51218)",
-            "fwnr": 414218
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804119",
-        "startzeit": "Thu, 28 Aug 2025 20:33:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0721",
-          "lng": "14.0524"
         }
       }
     },
@@ -375,53 +335,6 @@
         "wgs84": {
           "lat": "48.0836",
           "lng": "13.7036"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Frankenburg am Hausruck",
-          "earea": "Frankenburg am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Frankenburg am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Frankenburg am Hausruck",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413104": {
-            "feuerwehr": "Feuerwehr/Florian Badstuben (50104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Badstuben (50104)",
-            "fwnr": 413104
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804087",
-        "startzeit": "Thu, 28 Aug 2025 18:59:36 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0837",
-          "lng": "13.4946"
         }
       }
     },
