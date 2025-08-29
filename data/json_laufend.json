@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 26,
-  "cnt_feuerwehren": 39,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 35,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Thomas",
+          "earea": "St. Thomas",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Thomas",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - St. Thomas",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404121": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Thomas (37121)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Thomas (37121)",
+            "fwnr": 404121
+          }
+        },
+        "inzeit": "",
+        "num1": "E250804259",
+        "startzeit": "Fri, 29 Aug 2025 19:42:19 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2854",
+          "lng": "13.8841"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -234,53 +281,6 @@
         "wgs84": {
           "lat": "48.2855",
           "lng": "14.3714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eggerding",
-          "earea": "Eggerding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eggerding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SD - Eggerding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "410303": {
-            "feuerwehr": "Feuerwehr/Florian Eggerding (45303)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eggerding (45303)",
-            "fwnr": 410303
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804251",
-        "startzeit": "Fri, 29 Aug 2025 19:23:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3494",
-          "lng": "13.4721"
         }
       }
     },
@@ -945,60 +945,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
-          },
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kappern (51212)",
-            "fwnr": 414212
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804233",
-        "startzeit": "Fri, 29 Aug 2025 18:57:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Florian",
           "earea": "St. Florian",
           "ecompl": "",
@@ -1040,60 +986,6 @@
         "wgs84": {
           "lat": "48.1811",
           "lng": "14.42"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Raab",
-          "earea": "Raab",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Raab",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Raab",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "410214": {
-            "feuerwehr": "Feuerwehr/Florian Raab (45214)"
-          },
-          "410219": {
-            "feuerwehr": "Feuerwehr/Florian Steinbruck-Bründl (45219)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Raab (45214)",
-            "fwnr": 410214
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steinbruck-Bründl (45219)",
-            "fwnr": 410219
-          }
-        },
-        "inzeit": "",
-        "num1": "E250804225",
-        "startzeit": "Fri, 29 Aug 2025 17:26:30 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3525",
-          "lng": "13.6392"
         }
       }
     },
