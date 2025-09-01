@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "VB - Schwanenstadt",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "403220": {
+            "feuerwehr": "Feuerwehr/Florian Roitham (GM) (36220)"
+          },
           "413315": {
             "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Roitham (GM) (36220)",
+            "fwnr": 403220
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
             "fwnr": 413315
           }
@@ -193,53 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Pfarrkirchen bei Bad Hall",
-          "earea": "Pfarrkirchen bei Bad Hall",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pfarrkirchen bei Bad Hall",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Pfarrkirchen bei Bad Hall",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411103": {
-            "feuerwehr": "Feuerwehr/Florian Pfarrkirchen bei Bad Hall (46103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pfarrkirchen bei Bad Hall (46103)",
-            "fwnr": 411103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900176",
-        "startzeit": "Mon, 01 Sep 2025 20:11:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0275",
-          "lng": "14.1998"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Mattighofen",
           "earea": "Mattighofen",
           "ecompl": "",
@@ -281,53 +241,6 @@
         "wgs84": {
           "lat": "48.0972",
           "lng": "13.1559"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kallham",
-          "earea": "Kallham",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kallham",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Kallham",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404308": {
-            "feuerwehr": "Feuerwehr/Florian Kallham (37308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kallham (37308)",
-            "fwnr": 404308
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900165",
-        "startzeit": "Mon, 01 Sep 2025 19:41:39 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2826",
-          "lng": "13.7091"
         }
       }
     },
