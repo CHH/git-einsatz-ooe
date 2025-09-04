@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 31,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 29,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,26 +64,33 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "UU - Oberneukirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
           "412113": {
             "feuerwehr": "Feuerwehr/Florian Oberneukirchen (49113)"
+          },
+          "412124": {
+            "feuerwehr": "Feuerwehr/Florian Waxenberg (49124)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Oberneukirchen (49113)",
             "fwnr": 412113
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Waxenberg (49124)",
+            "fwnr": 412124
           }
         },
         "inzeit": "",
@@ -91,8 +98,8 @@
         "startzeit": "Thu, 04 Sep 2025 20:34:10 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4643",
-          "lng": "14.2208"
+          "lat": "48.4772",
+          "lng": "14.1913"
         }
       }
     },
@@ -262,53 +269,6 @@
         "wgs84": {
           "lat": "48.5223",
           "lng": "14.2965"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gilgenberg am Weilhart",
-          "earea": "Gilgenberg am Weilhart",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gilgenberg am Weilhart",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Gilgenberg am Weilhart",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400103": {
-            "feuerwehr": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)",
-            "fwnr": 400103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900665",
-        "startzeit": "Thu, 04 Sep 2025 19:42:49 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.13",
-          "lng": "12.9382"
         }
       }
     },
@@ -873,100 +833,6 @@
         "wgs84": {
           "lat": "47.9868",
           "lng": "13.3514"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oberwang",
-          "earea": "Oberwang",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberwang",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Oberwang",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413211": {
-            "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberwang (50211)",
-            "fwnr": 413211
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900639",
-        "startzeit": "Thu, 04 Sep 2025 19:02:19 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8696",
-          "lng": "13.4324"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403107": {
-            "feuerwehr": "Feuerwehr/Florian Langwies (36107)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Langwies (36107)",
-            "fwnr": 403107
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900638",
-        "startzeit": "Thu, 04 Sep 2025 19:02:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7743",
-          "lng": "13.7256"
         }
       }
     },
