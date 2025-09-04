@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pinsdorf",
+          "earea": "Pinsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pinsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Pinsdorf",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "403227": {
+            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wiesen (36227)",
+            "fwnr": 403227
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900684",
+        "startzeit": "Fri, 05 Sep 2025 00:51:21 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9477",
+          "lng": "13.7515"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 406216
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 05 Sep 2025 00:52:00 +0200",
         "num1": "E250900683",
         "startzeit": "Fri, 05 Sep 2025 00:06:47 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2548",
           "lng": "14.2114"
