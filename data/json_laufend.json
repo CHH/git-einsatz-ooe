@@ -1,7 +1,115 @@
 {
   "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 15,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchdorf an der Krems",
+          "earea": "Kirchdorf an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchdorf an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Kirchdorf an der Krems",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900825",
+        "startzeit": "Fri, 05 Sep 2025 17:04:42 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9059",
+          "lng": "14.1194"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          },
+          "403501": {
+            "feuerwehr": "Feuerwehr/Florian Ahorn-Kaltenbach (GM) (36501)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ahorn-Kaltenbach (GM) (36501)",
+            "fwnr": 403501
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900824",
+        "startzeit": "Fri, 05 Sep 2025 17:00:33 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7097",
+          "lng": "13.5982"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -153,29 +261,36 @@
           "emun": "Kirchham",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "GM - Kirchham",
         "einsatzsubtyp": {
-          "id": "PERSRETT-TE",
-          "text": "Personenrettung"
+          "id": "FZGTRKBERGEN-TE",
+          "text": "Bergung Traktor"
         },
         "einsatztyp": {
-          "id": "T1-PERS",
-          "text": "Personenrettung"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          },
           "403210": {
             "feuerwehr": "Feuerwehr/Florian Kirchham (36210)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Kirchham (36210)",
             "fwnr": 403210
           }
@@ -234,53 +349,6 @@
         "wgs84": {
           "lat": "48.2855",
           "lng": "14.3714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weyer",
-          "earea": "Weyer",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weyer",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Weyer",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411304": {
-            "feuerwehr": "Feuerwehr/Florian Kleinreifling (46304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinreifling (46304)",
-            "fwnr": 411304
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900817",
-        "startzeit": "Fri, 05 Sep 2025 16:20:16 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8253",
-          "lng": "14.6449"
         }
       }
     },
@@ -469,53 +537,6 @@
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lengau",
-          "earea": "Lengau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lengau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Lengau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400223": {
-            "feuerwehr": "Feuerwehr/Florian Teichstätt (33223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Teichstätt (33223)",
-            "fwnr": 400223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250900756",
-        "startzeit": "Fri, 05 Sep 2025 11:39:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0253",
-          "lng": "13.2157"
         }
       }
     },
