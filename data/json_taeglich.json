@@ -1,7 +1,411 @@
 {
-  "cnt_einsaetze": 26,
-  "cnt_feuerwehren": 31,
+  "cnt_einsaetze": 34,
+  "cnt_feuerwehren": 43,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Nußbach",
+          "earea": "Nußbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Nußbach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Nußbach",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "405209": {
+            "feuerwehr": "Feuerwehr/Florian Nußbach (38209)"
+          },
+          "405213": {
+            "feuerwehr": "Feuerwehr/Florian Schlierbach (38213)"
+          },
+          "405709": {
+            "feuerwehr": "Feuerwehr/Florian Wimberg (38709)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nußbach (38209)",
+            "fwnr": 405209
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schlierbach (38213)",
+            "fwnr": 405213
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Wimberg (38709)",
+            "fwnr": 405709
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900796",
+        "startzeit": "Fri, 05 Sep 2025 14:18:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9724",
+          "lng": "14.1631"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Freistadt",
+          "earea": "Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Freistadt",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900794",
+        "startzeit": "Fri, 05 Sep 2025 14:10:19 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5181",
+          "lng": "14.5075"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Timelkam",
+          "earea": "Timelkam",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Timelkam",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Timelkam",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "413427": {
+            "feuerwehr": "Feuerwehr/Florian Timelkam (50427)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Timelkam (50427)",
+            "fwnr": 413427
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900793",
+        "startzeit": "Fri, 05 Sep 2025 14:00:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0027",
+          "lng": "13.6078"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hinterstoder",
+          "earea": "Hinterstoder",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hinterstoder",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Hinterstoder",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
+            "fwnr": 405401
+          }
+        },
+        "inzeit": "Fri, 05 Sep 2025 14:07:00 +0200",
+        "num1": "E250900792",
+        "startzeit": "Fri, 05 Sep 2025 13:35:48 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.7005",
+          "lng": "14.1536"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900788",
+        "startzeit": "Fri, 05 Sep 2025 13:25:55 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Rettenbach (36504)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rettenbach (36504)",
+            "fwnr": 403102
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900782",
+        "startzeit": "Fri, 05 Sep 2025 13:15:05 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.717",
+          "lng": "13.6331"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gallspach",
+          "earea": "Gallspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gallspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Gallspach",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404102": {
+            "feuerwehr": "Feuerwehr/Florian Enzendorf (37102)"
+          },
+          "404103": {
+            "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enzendorf (37102)",
+            "fwnr": 404102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gallspach (37103)",
+            "fwnr": 404103
+          }
+        },
+        "inzeit": "Fri, 05 Sep 2025 13:41:00 +0200",
+        "num1": "E250900780",
+        "startzeit": "Fri, 05 Sep 2025 13:14:02 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2035",
+          "lng": "13.8235"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weibern",
+          "earea": "Weibern",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weibern",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Weibern",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404214": {
+            "feuerwehr": "Feuerwehr/Florian Weibern (37214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Weibern (37214)",
+            "fwnr": 404214
+          }
+        },
+        "inzeit": "",
+        "num1": "E250900777",
+        "startzeit": "Fri, 05 Sep 2025 13:10:03 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.184",
+          "lng": "13.7022"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +443,10 @@
             "fwnr": 411317
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 05 Sep 2025 13:37:00 +0200",
         "num1": "E250900767",
         "startzeit": "Fri, 05 Sep 2025 12:45:57 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9205",
           "lng": "14.3411"
@@ -180,10 +584,10 @@
             "fwnr": 406208
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 05 Sep 2025 13:44:00 +0200",
         "num1": "E250900764",
         "startzeit": "Fri, 05 Sep 2025 12:37:09 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2652",
           "lng": "14.2551"
