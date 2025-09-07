@@ -1,54 +1,7 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 12,
   "einsaetze": [
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406213": {
-            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
-            "fwnr": 406213
-          }
-        },
-        "inzeit": "",
-        "num1": "E250901126",
-        "startzeit": "Sun, 07 Sep 2025 18:06:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1873",
-          "lng": "14.2562"
-        }
-      }
-    },
     {
       "einsatz": {
         "adresse": {
@@ -59,23 +12,26 @@
           "emun": "Feldkirchen an der Donau",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
+        "cntfeuerwehren": 4,
+        "einsatzart": "SONSTIGE",
         "einsatzort": "UU - Feldkirchen an der Donau",
         "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
+          "id": "SONSTIGE-SCHAD",
+          "text": "Schadstoffeinsatz"
         },
         "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
+          "id": "S1-SONST",
+          "text": "Schadstoffeinsatz"
         },
         "feuerwehren": {
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          },
           "412204": {
             "feuerwehr": "Feuerwehr/Florian Feldkirchen an der Donau (49204)"
           },
@@ -88,14 +44,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Feldkirchen an der Donau (49204)",
             "fwnr": 412204
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Goldwörth (49206)",
             "fwnr": 412206
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Mühldorf (49214)",
             "fwnr": 412214
           }
