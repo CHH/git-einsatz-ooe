@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schlierbach",
+          "earea": "Schlierbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schlierbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Schlierbach",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "405213": {
+            "feuerwehr": "Feuerwehr/Florian Schlierbach (38213)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schlierbach (38213)",
+            "fwnr": 405213
+          }
+        },
+        "inzeit": "",
+        "num1": "E250901216",
+        "startzeit": "Mon, 08 Sep 2025 16:39:30 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.937",
+          "lng": "14.1171"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -59,53 +106,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Micheldorf in OÖ",
-          "earea": "Micheldorf in OÖ",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Micheldorf in OÖ",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Micheldorf in OÖ",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405208": {
-            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
-            "fwnr": 405208
-          }
-        },
-        "inzeit": "",
-        "num1": "E250901213",
-        "startzeit": "Mon, 08 Sep 2025 16:00:22 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8777",
-          "lng": "14.1319"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ottensheim",
           "earea": "Ottensheim",
           "ecompl": "",
@@ -147,60 +147,6 @@
         "wgs84": {
           "lat": "48.3368",
           "lng": "14.177"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hofkirchen im Traunkreis",
-          "earea": "Hofkirchen im Traunkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hofkirchen im Traunkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Hofkirchen im Traunkreis",
-        "einsatzsubtyp": {
-          "id": "ABSTUFLUGKL-BR",
-          "text": "Absturz kleines Luftfahrzeug"
-        },
-        "einsatztyp": {
-          "id": "B1-FZG-LUFT-ABST",
-          "text": "Absturz kleines Luftfahrzeug"
-        },
-        "feuerwehren": {
-          "406103": {
-            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
-          },
-          "406106": {
-            "feuerwehr": "Feuerwehr/Florian Hofkirchen im Traunkreis (39106)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
-            "fwnr": 406103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Hofkirchen im Traunkreis (39106)",
-            "fwnr": 406106
-          }
-        },
-        "inzeit": "",
-        "num1": "E250901202",
-        "startzeit": "Mon, 08 Sep 2025 14:59:10 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1409",
-          "lng": "14.3751"
         }
       }
     }
