@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hofkirchen im Traunkreis",
+          "earea": "Hofkirchen im Traunkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hofkirchen im Traunkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Hofkirchen im Traunkreis",
+        "einsatzsubtyp": {
+          "id": "ABSTUFLUGKL-BR",
+          "text": "Absturz kleines Luftfahrzeug"
+        },
+        "einsatztyp": {
+          "id": "B1-FZG-LUFT-ABST",
+          "text": "Absturz kleines Luftfahrzeug"
+        },
+        "feuerwehren": {
+          "406103": {
+            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
+          },
+          "406106": {
+            "feuerwehr": "Feuerwehr/Florian Hofkirchen im Traunkreis (39106)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
+            "fwnr": 406103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hofkirchen im Traunkreis (39106)",
+            "fwnr": 406106
+          }
+        },
+        "inzeit": "",
+        "num1": "E250901202",
+        "startzeit": "Mon, 08 Sep 2025 14:59:10 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1409",
+          "lng": "14.3751"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -288,53 +342,6 @@
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hofkirchen im Mühlkreis",
-          "earea": "Hofkirchen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hofkirchen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Hofkirchen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409203": {
-            "feuerwehr": "Feuerwehr/Florian Hofkirchen im Mühlkreis (44203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hofkirchen im Mühlkreis (44203)",
-            "fwnr": 409203
-          }
-        },
-        "inzeit": "",
-        "num1": "E250901181",
-        "startzeit": "Mon, 08 Sep 2025 12:50:00 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     }
