@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "SE - Ternberg",
         "einsatzsubtyp": {
@@ -31,12 +31,23 @@
         "feuerwehren": {
           "411313": {
             "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Schattleiten (46313)",
             "fwnr": 411313
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -46,53 +57,6 @@
         "wgs84": {
           "lat": "47.9572",
           "lng": "14.3344"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          }
-        },
-        "inzeit": "",
-        "num1": "E250901385",
-        "startzeit": "Tue, 09 Sep 2025 13:51:06 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
         }
       }
     },
