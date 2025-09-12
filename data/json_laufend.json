@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schildorn",
+          "earea": "Schildorn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schildorn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Schildorn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408227": {
+            "feuerwehr": "Feuerwehr/Florian Schildorn (43227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schildorn (43227)",
+            "fwnr": 408227
+          }
+        },
+        "inzeit": "",
+        "num1": "E250901857",
+        "startzeit": "Fri, 12 Sep 2025 12:49:52 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1469",
+          "lng": "13.4644"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "406201": {
             "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          },
+          "406207": {
+            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Ansfelden (39201)",
             "fwnr": 406201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Freindorf (39207)",
+            "fwnr": 406207
           }
         },
         "inzeit": "",
