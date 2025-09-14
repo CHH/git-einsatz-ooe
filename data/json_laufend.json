@@ -1,15 +1,62 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Sipbachzell",
-          "earea": "Sipbachzell",
+          "default": "St. Johann am Walde",
+          "earea": "St. Johann am Walde",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Sipbachzell",
+          "emun": "St. Johann am Walde",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - St. Johann am Walde",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400218": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Johann am Walde (33218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Johann am Walde (33218)",
+            "fwnr": 400218
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902105",
+        "startzeit": "Sun, 14 Sep 2025 10:18:18 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1203",
+          "lng": "13.2852"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weißkirchen an der Traun",
+          "earea": "Weißkirchen an der Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weißkirchen an der Traun",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +64,9 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
-        "einsatzort": "WL - Sipbachzell",
+        "einsatzort": "WL - Weißkirchen an der Traun",
         "einsatzsubtyp": {
           "id": "AUFRÄUM-VU",
           "text": "Verkehrsunfall Aufräumarbeiten"
@@ -34,6 +81,9 @@
           },
           "414214": {
             "feuerwehr": "Feuerwehr/Florian Leombach (51214)"
+          },
+          "414225": {
+            "feuerwehr": "Feuerwehr/Florian Weißkirchen an der Traun (51225)"
           }
         },
         "feuerwehrenarray": {
@@ -44,6 +94,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Leombach (51214)",
             "fwnr": 414214
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Weißkirchen an der Traun (51225)",
+            "fwnr": 414225
           }
         },
         "inzeit": "",
@@ -51,8 +105,8 @@
         "startzeit": "Sun, 14 Sep 2025 10:02:53 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.1244",
-          "lng": "14.0933"
+          "lat": "48.1622",
+          "lng": "14.1222"
         }
       }
     },
