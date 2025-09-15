@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grieskirchen",
+          "earea": "Grieskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grieskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Grieskirchen",
+        "einsatzsubtyp": {
+          "id": "BMA3-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404104": {
+            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
+          },
+          "404127": {
+            "feuerwehr": "Feuerwehr/Florian Tolleterau (37127)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
+            "fwnr": 404104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Tolleterau (37127)",
+            "fwnr": 404127
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902296",
+        "startzeit": "Tue, 16 Sep 2025 00:30:04 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2362",
+          "lng": "13.8166"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,10 +107,10 @@
             "fwnr": 403262
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 16 Sep 2025 01:00:00 +0200",
         "num1": "E250902294",
         "startzeit": "Tue, 16 Sep 2025 00:03:07 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
@@ -100,10 +154,10 @@
             "fwnr": 400216
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 16 Sep 2025 00:24:00 +0200",
         "num1": "E250902293",
         "startzeit": "Tue, 16 Sep 2025 00:00:22 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0756",
           "lng": "13.142"
