@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Seewalchen am Attersee",
-          "earea": "Seewalchen am Attersee",
+          "default": "St. Oswald bei Freistadt",
+          "earea": "St. Oswald bei Freistadt",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Seewalchen am Attersee",
+          "emun": "St. Oswald bei Freistadt",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
+          "id": 2,
+          "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Seewalchen am Attersee",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - St. Oswald bei Freistadt",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSRETT-TE",
+          "text": "Personenrettung"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T1-PERS",
+          "text": "Personenrettung"
         },
         "feuerwehren": {
-          "418920": {
-            "feuerwehr": "ÖWR Litzlberg"
+          "402116": {
+            "feuerwehr": "Feuerwehr/Florian March (35116)"
+          },
+          "402128": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "ÖWR Litzlberg",
-            "fwnr": 418920
+            "fwname": "Feuerwehr/Florian March (35116)",
+            "fwnr": 402116
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
+            "fwnr": 402128
           }
         },
         "inzeit": "",
-        "num1": "E250902393",
-        "startzeit": "Tue, 16 Sep 2025 16:39:30 +0200",
+        "num1": "E250902397",
+        "startzeit": "Tue, 16 Sep 2025 17:13:23 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.954",
-          "lng": "13.5804"
+          "lat": "48.4825",
+          "lng": "14.617"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Pantaleon",
+          "earea": "St. Pantaleon",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Pantaleon",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - St. Pantaleon",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "400416": {
+            "feuerwehr": "Feuerwehr/Florian Wildshut (33416)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildshut (33416)",
+            "fwnr": 400416
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902396",
+        "startzeit": "Tue, 16 Sep 2025 17:12:07 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0082",
+          "lng": "12.8664"
         }
       }
     },
@@ -87,8 +141,8 @@
           }
         },
         "inzeit": "",
-        "num1": "E250902391",
-        "startzeit": "Tue, 16 Sep 2025 16:24:13 +0200",
+        "num1": "E250902395",
+        "startzeit": "Tue, 16 Sep 2025 17:08:24 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.0465",
