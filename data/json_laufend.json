@@ -1,15 +1,62 @@
 {
-  "cnt_einsaetze": 14,
+  "cnt_einsaetze": 13,
   "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
+          "default": "St. Georgen bei Grieskirchen",
+          "earea": "St. Georgen bei Grieskirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Altmünster",
+          "emun": "St. Georgen bei Grieskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - St. Georgen bei Grieskirchen",
+        "einsatzsubtyp": {
+          "id": "KFZÖFFNEN-TE",
+          "text": "Türöffnung versperrtes KFZ"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-KFZ",
+          "text": "Türöffnung versperrtes KFZ"
+        },
+        "feuerwehren": {
+          "404127": {
+            "feuerwehr": "Feuerwehr/Florian Tolleterau (37127)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Tolleterau (37127)",
+            "fwnr": 404127
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902453",
+        "startzeit": "Tue, 16 Sep 2025 21:10:24 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2428",
+          "lng": "13.7973"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,9 +64,9 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "GM - Altmünster",
+        "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
           "id": "ÖLSPUR-TE",
           "text": "Ölspur/Ölaustritt"
@@ -31,12 +78,19 @@
         "feuerwehren": {
           "403201": {
             "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          },
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Altmünster (36201)",
             "fwnr": 403201
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
           }
         },
         "inzeit": "",
@@ -44,8 +98,8 @@
         "startzeit": "Tue, 16 Sep 2025 20:54:08 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
+          "lat": "47.9166",
+          "lng": "13.8048"
         }
       }
     },
@@ -522,53 +576,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Thalheim bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Thalheim bei Wels",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902417",
-        "startzeit": "Tue, 16 Sep 2025 18:58:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1538",
-          "lng": "14.031"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Steyr",
           "earea": "Steyr",
           "ecompl": "",
@@ -610,53 +617,6 @@
         "wgs84": {
           "lat": "48.0363",
           "lng": "14.3924"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen am Innbach",
-          "earea": "Kematen am Innbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen am Innbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Kematen am Innbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404124": {
-            "feuerwehr": "Feuerwehr/Florian Steinerkirchen am Innbach (37124)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steinerkirchen am Innbach (37124)",
-            "fwnr": 404124
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902407",
-        "startzeit": "Tue, 16 Sep 2025 17:47:08 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1744",
-          "lng": "13.8419"
         }
       }
     }
