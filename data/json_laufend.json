@@ -1,7 +1,82 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grünburg",
+          "earea": "Grünburg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grünburg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 5,
+        "einsatzart": "BRAND",
+        "einsatzort": "KI - Grünburg",
+        "einsatzsubtyp": {
+          "id": "KFZGEB-BR",
+          "text": "Brand Fahrzeug in Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "405103": {
+            "feuerwehr": "Feuerwehr/Florian Grünburg (38103)"
+          },
+          "405104": {
+            "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          },
+          "405106": {
+            "feuerwehr": "Feuerwehr/Florian Pernzell (38106)"
+          },
+          "405109": {
+            "feuerwehr": "Feuerwehr/Florian Steinbach an der Steyr (38109)"
+          },
+          "405110": {
+            "feuerwehr": "Feuerwehr/Florian Wagenhub (38110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grünburg (38103)",
+            "fwnr": 405103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Leonstein (38104)",
+            "fwnr": 405104
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pernzell (38106)",
+            "fwnr": 405106
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steinbach an der Steyr (38109)",
+            "fwnr": 405109
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Wagenhub (38110)",
+            "fwnr": 405110
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902416",
+        "startzeit": "Tue, 16 Sep 2025 18:48:26 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9703",
+          "lng": "14.2628"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -422,53 +497,6 @@
         "wgs84": {
           "lat": "47.9974",
           "lng": "13.3687"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Pantaleon",
-          "earea": "St. Pantaleon",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Pantaleon",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - St. Pantaleon",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "400416": {
-            "feuerwehr": "Feuerwehr/Florian Wildshut (33416)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wildshut (33416)",
-            "fwnr": 400416
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902396",
-        "startzeit": "Tue, 16 Sep 2025 17:12:07 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0082",
-          "lng": "12.8664"
         }
       }
     }
