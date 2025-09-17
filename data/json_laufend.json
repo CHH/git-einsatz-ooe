@@ -1,7 +1,75 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lohnsburg am Kobernaußerwald",
+          "earea": "Lohnsburg am Kobernaußerwald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lohnsburg am Kobernaußerwald",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
+        "einsatzsubtyp": {
+          "id": "KFZGEB-BR",
+          "text": "Brand Fahrzeug in Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "408211": {
+            "feuerwehr": "Feuerwehr/Florian Kemating (RI) (43211)"
+          },
+          "408212": {
+            "feuerwehr": "Feuerwehr/Florian Kobernaussen (43212)"
+          },
+          "408215": {
+            "feuerwehr": "Feuerwehr/Florian Lohnsburg (43215)"
+          },
+          "408224": {
+            "feuerwehr": "Feuerwehr/Florian Riegerting (43224)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kemating (RI) (43211)",
+            "fwnr": 408211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kobernaussen (43212)",
+            "fwnr": 408212
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Lohnsburg (43215)",
+            "fwnr": 408215
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Riegerting (43224)",
+            "fwnr": 408224
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902491",
+        "startzeit": "Wed, 17 Sep 2025 10:07:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1789",
+          "lng": "13.4019"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -66,53 +134,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Julbach",
-          "earea": "Julbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Julbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Julbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409103": {
-            "feuerwehr": "Feuerwehr/Florian Julbach (44103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Julbach (44103)",
-            "fwnr": 409103
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902488",
-        "startzeit": "Wed, 17 Sep 2025 09:45:32 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6586",
-          "lng": "13.8713"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kirchberg-Thening",
           "earea": "Kirchberg-Thening",
           "ecompl": "",
@@ -157,53 +178,6 @@
         "inzeit": "",
         "num1": "E250902477",
         "startzeit": "Wed, 17 Sep 2025 08:41:18 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2566",
-          "lng": "14.1564"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchberg-Thening",
-          "earea": "Kirchberg-Thening",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchberg-Thening",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kirchberg-Thening",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406211": {
-            "feuerwehr": "Feuerwehr/Florian Kirchberg-Thening (39211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchberg-Thening (39211)",
-            "fwnr": 406211
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902427",
-        "startzeit": "Tue, 16 Sep 2025 19:08:44 +0200",
         "status": "offen",
         "wgs84": {
           "lat": "48.2566",
