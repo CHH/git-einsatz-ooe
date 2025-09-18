@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902636",
+        "startzeit": "Thu, 18 Sep 2025 07:59:50 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.366",
+          "lng": "14.5498"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "47.8848",
           "lng": "14.5495"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weng im Innkreis",
-          "earea": "Weng im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weng im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Weng im Innkreis",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "400322": {
-            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
-            "fwnr": 400322
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902630",
-        "startzeit": "Thu, 18 Sep 2025 07:32:51 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2345",
-          "lng": "13.1782"
         }
       }
     },
