@@ -1,25 +1,72 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 19,
+  "cnt_feuerwehren": 38,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Wallern an der Trattnach",
-          "earea": "Wallern an der Trattnach",
+          "default": "Bad Goisern",
+          "earea": "Bad Goisern",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Wallern an der Trattnach",
+          "emun": "Bad Goisern",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 3,
+          "text": "Gmunden"
         },
         "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GM - Bad Goisern",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "403119": {
+            "feuerwehr": "Feuerwehr/Florian Weissenbach (36119)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Weissenbach (36119)",
+            "fwnr": 403119
+          }
+        },
+        "inzeit": "",
+        "num1": "E250902918",
+        "startzeit": "Fri, 19 Sep 2025 16:40:14 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6622",
+          "lng": "13.6058"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fraham",
+          "earea": "Fraham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fraham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 6,
         "einsatzart": "TEE",
-        "einsatzort": "GR - Wallern an der Trattnach",
+        "einsatzort": "EF - Fraham",
         "einsatzsubtyp": {
           "id": "ÖLSPUR-TE",
           "text": "Ölspur/Ölaustritt"
@@ -29,12 +76,47 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "401104": {
+            "feuerwehr": "Feuerwehr/Florian Finklham (34104)"
+          },
+          "401105": {
+            "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
+          },
+          "401117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)"
+          },
+          "401118": {
+            "feuerwehr": "Feuerwehr/Florian Scharten (34118)"
+          },
+          "401119": {
+            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
+          },
           "404129": {
             "feuerwehr": "Feuerwehr/Florian Wallern an der Trattnach (37129)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Finklham (34104)",
+            "fwnr": 401104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
+            "fwnr": 401105
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)",
+            "fwnr": 401117
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Scharten (34118)",
+            "fwnr": 401118
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Steinholz (34119)",
+            "fwnr": 401119
+          },
+          "5": {
             "fwname": "Feuerwehr/Florian Wallern an der Trattnach (37129)",
             "fwnr": 404129
           }
@@ -44,8 +126,8 @@
         "startzeit": "Fri, 19 Sep 2025 16:30:16 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2342",
-          "lng": "13.9497"
+          "lat": "48.2826",
+          "lng": "14.0289"
         }
       }
     },
