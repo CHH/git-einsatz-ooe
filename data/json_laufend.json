@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Baumgartenberg",
+          "earea": "Baumgartenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Baumgartenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Baumgartenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407304": {
+            "feuerwehr": "Feuerwehr/Florian Baumgartenberg (42304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Baumgartenberg (42304)",
+            "fwnr": 407304
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903027",
+        "startzeit": "Fri, 19 Sep 2025 23:10:48 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2152",
+          "lng": "14.7436"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.2362",
           "lng": "13.8166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Aigen im Mühlkreis",
-          "earea": "Aigen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aigen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Aigen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409101": {
-            "feuerwehr": "Feuerwehr/Florian Aigen im Mühlkreis (44101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen im Mühlkreis (44101)",
-            "fwnr": 409101
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902999",
-        "startzeit": "Fri, 19 Sep 2025 19:35:02 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.6489",
-          "lng": "13.9714"
         }
       }
     },
@@ -574,100 +574,6 @@
         "wgs84": {
           "lat": "47.9502",
           "lng": "13.6698"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Piberbach",
-          "earea": "Piberbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Piberbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Piberbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406309": {
-            "feuerwehr": "Feuerwehr/Florian Piberbach (39309)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Piberbach (39309)",
-            "fwnr": 406309
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902769",
-        "startzeit": "Thu, 18 Sep 2025 19:06:42 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1146",
-          "lng": "14.2253"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gunskirchen",
-          "earea": "Gunskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gunskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Gunskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414209": {
-            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
-            "fwnr": 414209
-          }
-        },
-        "inzeit": "",
-        "num1": "E250902765",
-        "startzeit": "Thu, 18 Sep 2025 19:04:40 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1363",
-          "lng": "13.9445"
         }
       }
     }
