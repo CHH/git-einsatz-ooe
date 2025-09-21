@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 22,
+  "cnt_feuerwehren": 26,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "411313": {
+            "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schattleiten (46313)",
+            "fwnr": 411313
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903205",
+        "startzeit": "Sun, 21 Sep 2025 11:55:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9572",
+          "lng": "14.3344"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hochburg-Ach",
+          "earea": "Hochburg-Ach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hochburg-Ach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Hochburg-Ach",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "400401": {
+            "feuerwehr": "Feuerwehr/Florian Ach an der Salzach (33401)"
+          },
+          "400408": {
+            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ach an der Salzach (33401)",
+            "fwnr": 400401
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Hochburg (33408)",
+            "fwnr": 400408
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903204",
+        "startzeit": "Sun, 21 Sep 2025 11:43:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1473",
+          "lng": "12.8174"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +118,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Unterweitersdorf",
         "einsatzsubtyp": {
@@ -29,12 +130,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402212": {
             "feuerwehr": "Feuerwehr/Florian Unterweitersdorf (35212)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Unterweitersdorf (35212)",
             "fwnr": 402212
           }
@@ -86,10 +194,10 @@
             "fwnr": 405403
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 21 Sep 2025 11:46:00 +0200",
         "num1": "E250903202",
         "startzeit": "Sun, 21 Sep 2025 11:02:14 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
