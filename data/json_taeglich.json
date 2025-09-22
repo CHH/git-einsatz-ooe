@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vöcklabruck",
+          "earea": "Vöcklabruck",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vöcklabruck",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Vöcklabruck",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
+          }
+        },
+        "inzeit": "Mon, 22 Sep 2025 10:06:00 +0200",
+        "num1": "E250903277",
+        "startzeit": "Mon, 22 Sep 2025 09:38:46 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0064",
+          "lng": "13.6637"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -113,7 +160,7 @@
           "emun": "Mauerkirchen",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
@@ -122,12 +169,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "BR - Mauerkirchen",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "GEWERBE-BR",
+          "text": "Brand Gewerbe"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "400308": {
