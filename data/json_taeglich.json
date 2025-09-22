@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "413421": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
+            "fwnr": 413421
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903269",
+        "startzeit": "Mon, 22 Sep 2025 07:28:33 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9712",
+          "lng": "13.7053"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": 403205
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 22 Sep 2025 07:45:00 +0200",
         "num1": "E250903265",
         "startzeit": "Mon, 22 Sep 2025 07:13:14 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8665",
           "lng": "13.7613"
@@ -71,7 +118,7 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Mauerkirchen",
         "einsatzsubtyp": {
@@ -85,12 +132,19 @@
         "feuerwehren": {
           "400308": {
             "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          },
+          "400310": {
+            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
             "fwnr": 400308
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Moosbach (33310)",
+            "fwnr": 400310
           }
         },
         "inzeit": "",
