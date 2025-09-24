@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 98,
-  "cnt_feuerwehren": 88,
+  "cnt_einsaetze": 100,
+  "cnt_feuerwehren": 89,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schlüßlberg",
+          "earea": "Schlüßlberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schlüßlberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - Schlüßlberg",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "404122": {
+            "feuerwehr": "Feuerwehr/Florian Schlüßlberg (37122)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schlüßlberg (37122)",
+            "fwnr": 404122
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903709",
+        "startzeit": "Wed, 24 Sep 2025 22:53:23 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.221",
+          "lng": "13.872"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eberschwang",
+          "earea": "Eberschwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eberschwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Eberschwang",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "408214": {
+            "feuerwehr": "Feuerwehr/Florian Leopoldshofstatt (43214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Leopoldshofstatt (43214)",
+            "fwnr": 408214
+          }
+        },
+        "inzeit": "",
+        "num1": "E250903708",
+        "startzeit": "Wed, 24 Sep 2025 22:40:34 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1461",
+          "lng": "13.5744"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -764,53 +858,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Schallerbach",
-          "earea": "Bad Schallerbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Schallerbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Bad Schallerbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404101": {
-            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
-            "fwnr": 404101
-          }
-        },
-        "inzeit": "Wed, 24 Sep 2025 22:02:00 +0200",
-        "num1": "E250903685",
-        "startzeit": "Wed, 24 Sep 2025 19:33:08 +0200",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.2277",
-          "lng": "13.9234"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Straß im Attergau",
           "earea": "Straß im Attergau",
           "ecompl": "",
@@ -852,6 +899,53 @@
         "wgs84": {
           "lat": "47.9116",
           "lng": "13.4596"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Schallerbach",
+          "earea": "Bad Schallerbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Schallerbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Bad Schallerbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Schallerbach (37101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Schallerbach (37101)",
+            "fwnr": 404101
+          }
+        },
+        "inzeit": "Wed, 24 Sep 2025 22:02:00 +0200",
+        "num1": "E250903685",
+        "startzeit": "Wed, 24 Sep 2025 19:33:08 +0200",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2277",
+          "lng": "13.9234"
         }
       }
     },
@@ -1268,10 +1362,10 @@
             "fwnr": 409314
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 24 Sep 2025 22:23:00 +0200",
         "num1": "E250903676",
         "startzeit": "Wed, 24 Sep 2025 19:13:12 +0200",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4159",
           "lng": "14.0434"
