@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "TÜRPERS-TE",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          }
+        },
+        "inzeit": "",
+        "num1": "E251000652",
+        "startzeit": "Sat, 04 Oct 2025 20:48:31 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3475",
+          "lng": "14.5416"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pupping",
-          "earea": "Pupping",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pupping",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Pupping",
-        "einsatzsubtyp": {
-          "id": "PERSEINGEKL-TE",
-          "text": "Person eingeklemmt"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-EINGEK",
-          "text": "Person eingeklemmt"
-        },
-        "feuerwehren": {
-          "401111": {
-            "feuerwehr": "Feuerwehr/Florian Hinzenbach (34111)"
-          },
-          "401116": {
-            "feuerwehr": "Feuerwehr/Florian Pupping (34116)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinzenbach (34111)",
-            "fwnr": 401111
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pupping (34116)",
-            "fwnr": 401116
-          }
-        },
-        "inzeit": "",
-        "num1": "E251000638",
-        "startzeit": "Sat, 04 Oct 2025 18:34:54 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3155",
-          "lng": "14.0454"
         }
       }
     },
