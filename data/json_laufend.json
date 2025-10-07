@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 4,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Schenkenfelden",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "412109": {
+            "feuerwehr": "Feuerwehr/Florian Königschlag (49109)"
+          },
           "412117": {
             "feuerwehr": "Feuerwehr/Florian Schenkenfelden (49117)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Königschlag (49109)",
+            "fwnr": 412109
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Schenkenfelden (49117)",
             "fwnr": 412117
           }
@@ -140,53 +147,6 @@
         "wgs84": {
           "lat": "48.3544",
           "lng": "13.8235"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Peuerbach",
-          "earea": "Peuerbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Peuerbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Peuerbach",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "404304": {
-            "feuerwehr": "Feuerwehr/Florian Bruck-Waasen (37304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bruck-Waasen (37304)",
-            "fwnr": 404304
-          }
-        },
-        "inzeit": "",
-        "num1": "E251001074",
-        "startzeit": "Tue, 07 Oct 2025 16:07:25 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.327",
-          "lng": "13.7824"
         }
       }
     }
