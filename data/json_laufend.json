@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,7 +17,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - Sandl",
         "einsatzsubtyp": {
@@ -29,12 +29,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402417": {
             "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Sandl (35417)",
             "fwnr": 402417
           }
@@ -52,11 +59,11 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Hellmonsödt",
-          "earea": "Hellmonsödt",
+          "default": "Kirchschlag bei Linz",
+          "earea": "Kirchschlag bei Linz",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Hellmonsödt",
+          "emun": "Kirchschlag bei Linz",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -64,9 +71,9 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "UU - Hellmonsödt",
+        "einsatzort": "UU - Kirchschlag bei Linz",
         "einsatzsubtyp": {
           "id": "SONSTIGE-TE",
           "text": "Sonstiger Einsatz"
@@ -78,12 +85,19 @@
         "feuerwehren": {
           "412304": {
             "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
+          },
+          "412305": {
+            "feuerwehr": "Feuerwehr/Florian Kirchschlag bei Linz (49305)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
             "fwnr": 412304
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kirchschlag bei Linz (49305)",
+            "fwnr": 412305
           }
         },
         "inzeit": "",
@@ -91,55 +105,8 @@
         "startzeit": "Tue, 21 Oct 2025 15:59:22 +0200",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4329",
-          "lng": "14.3014"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kematen an der Krems",
-          "earea": "Kematen an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kematen an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Kematen an der Krems",
-        "einsatzsubtyp": {
-          "id": "FZGANHBERGEN-TE",
-          "text": "Bergung Anhänger"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "406304": {
-            "feuerwehr": "Feuerwehr/Florian Gerersdorf-Schachen (39304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gerersdorf-Schachen (39304)",
-            "fwnr": 406304
-          }
-        },
-        "inzeit": "",
-        "num1": "E251003259",
-        "startzeit": "Tue, 21 Oct 2025 13:56:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1262",
-          "lng": "14.1848"
+          "lat": "48.4137",
+          "lng": "14.2767"
         }
       }
     },
