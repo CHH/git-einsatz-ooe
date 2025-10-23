@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 7,
+  "cnt_einsaetze": 6,
   "cnt_feuerwehren": 8,
   "einsaetze": [
     {
@@ -158,24 +158,31 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "LL - Ansfelden",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
         },
         "feuerwehren": {
+          "406213": {
+            "feuerwehr": "Feuerwehr/Florian Nettingsdorf (39213)"
+          },
           "406261": {
             "feuerwehr": "Feuerwehr/Florian Papier Nettingsdorf (39261)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Nettingsdorf (39213)",
+            "fwnr": 406213
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Papier Nettingsdorf (39261)",
             "fwnr": 406261
           }
@@ -187,53 +194,6 @@
         "wgs84": {
           "lat": "48.1853",
           "lng": "14.2565"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lengau",
-          "earea": "Lengau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lengau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "BR - Lengau",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "400220": {
-            "feuerwehr": "Feuerwehr/Florian Schneegattern (33220)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schneegattern (33220)",
-            "fwnr": 400220
-          }
-        },
-        "inzeit": "",
-        "num1": "E251003798",
-        "startzeit": "Thu, 23 Oct 2025 16:59:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0241",
-          "lng": "13.2928"
         }
       }
     },
