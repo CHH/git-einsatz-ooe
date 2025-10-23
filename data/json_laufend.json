@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Esternberg",
+          "earea": "Esternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Esternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Esternberg",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "410106": {
+            "feuerwehr": "Feuerwehr/Florian Esternberg (45106)"
+          },
+          "410113": {
+            "feuerwehr": "Feuerwehr/Florian Pyrawang (45113)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Esternberg (45106)",
+            "fwnr": 410106
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pyrawang (45113)",
+            "fwnr": 410113
+          }
+        },
+        "inzeit": "",
+        "num1": "E251003843",
+        "startzeit": "Thu, 23 Oct 2025 20:47:46 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5644",
+          "lng": "13.6061"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.2102",
           "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Thalheim bei Wels",
-          "earea": "Thalheim bei Wels",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Thalheim bei Wels",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - Thalheim bei Wels",
-        "einsatzsubtyp": {
-          "id": "GEGENSTSICH-TE",
-          "text": "Gegenstände sichern"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-GEGENST",
-          "text": "Gegenstände sichern"
-        },
-        "feuerwehren": {
-          "414223": {
-            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
-            "fwnr": 414223
-          }
-        },
-        "inzeit": "",
-        "num1": "E251003837",
-        "startzeit": "Thu, 23 Oct 2025 19:47:11 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1538",
-          "lng": "14.031"
         }
       }
     },
