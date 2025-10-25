@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Willibald",
+          "earea": "St. Willibald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Willibald",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - St. Willibald",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410216": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Willibald (45216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Willibald (45216)",
+            "fwnr": 410216
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004141",
+        "startzeit": "Sat, 25 Oct 2025 12:30:15 +0200",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3605",
+          "lng": "13.6898"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "48.3882",
           "lng": "13.6427"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grieskirchen",
-          "earea": "Grieskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grieskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Grieskirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
-            "fwnr": 404104
-          }
-        },
-        "inzeit": "",
-        "num1": "E251004137",
-        "startzeit": "Sat, 25 Oct 2025 12:01:55 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2362",
-          "lng": "13.8166"
         }
       }
     },
@@ -150,53 +150,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E251004132",
-        "startzeit": "Sat, 25 Oct 2025 11:16:29 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1921",
-          "lng": "14.1187"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Hartkirchen",
           "earea": "Hartkirchen",
           "ecompl": "",
@@ -245,100 +198,6 @@
         "wgs84": {
           "lat": "48.3703",
           "lng": "13.9721"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Kirchdorf an der Krems",
-          "earea": "Kirchdorf an der Krems",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Kirchdorf an der Krems",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Kirchdorf an der Krems",
-        "einsatzsubtyp": {
-          "id": "ÜBERFLKELLER-TE",
-          "text": "Keller überflutet"
-        },
-        "einsatztyp": {
-          "id": "T0-ÜBERFL-GEB",
-          "text": "Wasserschaden"
-        },
-        "feuerwehren": {
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
-          }
-        },
-        "inzeit": "",
-        "num1": "E251004102",
-        "startzeit": "Sat, 25 Oct 2025 09:58:48 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9059",
-          "lng": "14.1194"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Losenstein",
-          "earea": "Losenstein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Losenstein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Losenstein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411307": {
-            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Losenstein (46307)",
-            "fwnr": 411307
-          }
-        },
-        "inzeit": "",
-        "num1": "E251004099",
-        "startzeit": "Sat, 25 Oct 2025 09:38:56 +0200",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9212",
-          "lng": "14.4394"
         }
       }
     },
