@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gutau",
+          "earea": "Gutau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gutau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Gutau",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "402203": {
+            "feuerwehr": "Feuerwehr/Florian Erdmannsdorf (35203)"
+          },
+          "402204": {
+            "feuerwehr": "Feuerwehr/Florian Gutau (35204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Erdmannsdorf (35203)",
+            "fwnr": 402203
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Gutau (35204)",
+            "fwnr": 402204
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004392",
+        "startzeit": "Mon, 27 Oct 2025 10:47:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4187",
+          "lng": "14.6081"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Freistadt",
+          "earea": "Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Freistadt",
+        "einsatzsubtyp": {
+          "id": "BMAFW-BR",
+          "text": "Brandmeldealarm im Feuerwehrhaus"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          }
+        },
+        "inzeit": "Mon, 27 Oct 2025 10:39:00 +0100",
+        "num1": "E251004391",
+        "startzeit": "Mon, 27 Oct 2025 10:33:31 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.5181",
+          "lng": "14.5075"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gunskirchen",
+          "earea": "Gunskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gunskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Gunskirchen",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "414209": {
+            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
+            "fwnr": 414209
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004389",
+        "startzeit": "Mon, 27 Oct 2025 10:29:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1363",
+          "lng": "13.9445"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +165,7 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "WL - Thalheim bei Wels",
         "einsatzsubtyp": {
@@ -29,12 +177,19 @@
           "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
+          "414221": {
+            "feuerwehr": "Feuerwehr/Florian Steinhaus bei Wels (51221)"
+          },
           "414223": {
             "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Steinhaus bei Wels (51221)",
+            "fwnr": 414221
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
             "fwnr": 414223
           }
@@ -86,10 +241,10 @@
             "fwnr": 414114
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 27 Oct 2025 11:00:00 +0100",
         "num1": "E251004380",
         "startzeit": "Mon, 27 Oct 2025 09:39:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1276",
           "lng": "13.8442"
