@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 15,
+  "cnt_feuerwehren": 32,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grein",
+          "earea": "Grein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Grein",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407104": {
+            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grein (42104)",
+            "fwnr": 407104
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004404",
+        "startzeit": "Mon, 27 Oct 2025 12:37:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2284",
+          "lng": "14.8498"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          }
+        },
+        "inzeit": "Mon, 27 Oct 2025 12:47:00 +0100",
+        "num1": "E251004403",
+        "startzeit": "Mon, 27 Oct 2025 12:25:52 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aschach an der Donau",
+          "earea": "Aschach an der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aschach an der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Aschach an der Donau",
+        "einsatzsubtyp": {
+          "id": "GEWERBE-BR",
+          "text": "Brand Gewerbe"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
+            "fwnr": 401102
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004401",
+        "startzeit": "Mon, 27 Oct 2025 12:21:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3628",
+          "lng": "14.0233"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,12 +153,12 @@
           "emun": "St. Thomas am Blasenstein",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 13,
         "einsatzart": "BRAND",
         "einsatzort": "PE - St. Thomas am Blasenstein",
         "einsatzsubtyp": {
@@ -29,14 +170,98 @@
           "text": "Brand landwirtschaftliches Objekt"
         },
         "feuerwehren": {
+          "402309": {
+            "feuerwehr": "Feuerwehr/Florian Mönchdorf (35309)"
+          },
+          "402312": {
+            "feuerwehr": "Feuerwehr/Florian Pierbach (35312)"
+          },
+          "407101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
+          },
+          "407105": {
+            "feuerwehr": "Feuerwehr/Florian Klam (42105)"
+          },
+          "407107": {
+            "feuerwehr": "Feuerwehr/Florian Pabneukirchen (42107)"
+          },
+          "407109": {
+            "feuerwehr": "Feuerwehr/Florian Riedersdorf (42109)"
+          },
+          "407110": {
+            "feuerwehr": "Feuerwehr/Florian Saxen (42110)"
+          },
           "407113": {
             "feuerwehr": "Feuerwehr/Florian Sankt Thomas am Blasenstein (42113)"
+          },
+          "407203": {
+            "feuerwehr": "Feuerwehr/Florian Blindendorf (42203)"
+          },
+          "407204": {
+            "feuerwehr": "Feuerwehr/Florian Haid (PE) (42204)"
+          },
+          "407309": {
+            "feuerwehr": "Feuerwehr/Florian Münzbach (42309)"
+          },
+          "407312": {
+            "feuerwehr": "Feuerwehr/Florian Perg (42312)"
+          },
+          "407314": {
+            "feuerwehr": "Feuerwehr/Florian Rechberg (42314)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Mönchdorf (35309)",
+            "fwnr": 402309
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pierbach (35312)",
+            "fwnr": 402312
+          },
+          "10": {
+            "fwname": "Feuerwehr/Florian Münzbach (42309)",
+            "fwnr": 407309
+          },
+          "11": {
+            "fwname": "Feuerwehr/Florian Perg (42312)",
+            "fwnr": 407312
+          },
+          "12": {
+            "fwname": "Feuerwehr/Florian Rechberg (42314)",
+            "fwnr": 407314
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
+            "fwnr": 407101
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Klam (42105)",
+            "fwnr": 407105
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Pabneukirchen (42107)",
+            "fwnr": 407107
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Riedersdorf (42109)",
+            "fwnr": 407109
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Saxen (42110)",
+            "fwnr": 407110
+          },
+          "7": {
             "fwname": "Feuerwehr/Florian Sankt Thomas am Blasenstein (42113)",
             "fwnr": 407113
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Blindendorf (42203)",
+            "fwnr": 407203
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Haid (PE) (42204)",
+            "fwnr": 407204
           }
         },
         "inzeit": "",
@@ -234,10 +459,10 @@
             "fwnr": 414209
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 27 Oct 2025 12:39:00 +0100",
         "num1": "E251004389",
         "startzeit": "Mon, 27 Oct 2025 10:29:08 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1363",
           "lng": "13.9445"
