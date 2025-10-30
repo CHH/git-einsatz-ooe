@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enzenkirchen",
+          "earea": "Enzenkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enzenkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Enzenkirchen",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "410110": {
+            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
+          },
+          "410206": {
+            "feuerwehr": "Feuerwehr/Florian Enzenkirchen (45206)"
+          },
+          "410210": {
+            "feuerwehr": "Feuerwehr/Florian Matzing (45210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
+            "fwnr": 410110
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Enzenkirchen (45206)",
+            "fwnr": 410206
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Matzing (45210)",
+            "fwnr": 410210
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004787",
+        "startzeit": "Thu, 30 Oct 2025 10:09:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3882",
+          "lng": "13.6427"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400161": {
+            "feuerwehr": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)",
+            "fwnr": 400161
+          }
+        },
+        "inzeit": "",
+        "num1": "E251004786",
+        "startzeit": "Thu, 30 Oct 2025 10:04:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2283",
+          "lng": "13.0301"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +147,10 @@
             "fwnr": 415101
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 30 Oct 2025 09:28:00 +0100",
         "num1": "E251004778",
         "startzeit": "Thu, 30 Oct 2025 09:03:04 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0556",
           "lng": "14.4157"
