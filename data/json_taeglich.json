@@ -1,7 +1,119 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 13,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 16,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E251100034",
+        "startzeit": "Sat, 01 Nov 2025 12:02:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vorderweißenbach",
+          "earea": "Vorderweißenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vorderweißenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Vorderweißenbach",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "412122": {
+            "feuerwehr": "Feuerwehr/Florian Vorderweißenbach (49122)"
+          },
+          "412128": {
+            "feuerwehr": "Feuerwehr/Florian Piberschlag (49128)"
+          },
+          "412129": {
+            "feuerwehr": "Feuerwehr/Florian Schönegg (49129)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Vorderweißenbach (49122)",
+            "fwnr": 412122
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Piberschlag (49128)",
+            "fwnr": 412128
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Schönegg (49129)",
+            "fwnr": 412129
+          }
+        },
+        "inzeit": "",
+        "num1": "E251100032",
+        "startzeit": "Sat, 01 Nov 2025 11:22:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.553",
+          "lng": "14.219"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +198,10 @@
             "fwnr": 410109
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 01 Nov 2025 11:52:00 +0100",
         "num1": "E251100025",
         "startzeit": "Sat, 01 Nov 2025 10:01:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4977",
           "lng": "13.6182"
