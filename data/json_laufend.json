@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Katsdorf",
+          "earea": "Katsdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Katsdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Katsdorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407215": {
+            "feuerwehr": "Feuerwehr/Florian Ruhstetten (42215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ruhstetten (42215)",
+            "fwnr": 407215
+          }
+        },
+        "inzeit": "",
+        "num1": "E251100410",
+        "startzeit": "Tue, 04 Nov 2025 16:01:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3122",
+          "lng": "14.5091"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "FR - Neumarkt im Mühlkreis",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402121": {
             "feuerwehr": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Neumarkt im Mühlkreis (35121)",
             "fwnr": 402121
           }
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.3708",
           "lng": "13.5671"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ottensheim",
-          "earea": "Ottensheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ottensheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Ottensheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412218": {
-            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
-            "fwnr": 412218
-          }
-        },
-        "inzeit": "",
-        "num1": "E251100395",
-        "startzeit": "Tue, 04 Nov 2025 14:29:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3368",
-          "lng": "14.177"
         }
       }
     },
