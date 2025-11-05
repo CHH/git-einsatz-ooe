@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 23,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "406201": {
+            "feuerwehr": "Feuerwehr/Florian Ansfelden (39201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ansfelden (39201)",
+            "fwnr": 406201
+          }
+        },
+        "inzeit": "",
+        "num1": "E251100548",
+        "startzeit": "Wed, 05 Nov 2025 16:51:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2097",
+          "lng": "14.2881"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "LL - Oftering",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "406206": {
             "feuerwehr": "Feuerwehr/Florian Freiling (39206)"
           },
+          "406209": {
+            "feuerwehr": "Feuerwehr/Florian Hörsching (39209)"
+          },
           "406215": {
             "feuerwehr": "Feuerwehr/Florian Oftering (39215)"
           }
@@ -42,6 +92,10 @@
             "fwnr": 406206
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Hörsching (39209)",
+            "fwnr": 406209
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Oftering (39215)",
             "fwnr": 406215
           }
@@ -140,10 +194,10 @@
             "fwnr": 411215
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 05 Nov 2025 16:35:00 +0100",
         "num1": "E251100540",
         "startzeit": "Wed, 05 Nov 2025 15:15:42 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0911",
           "lng": "14.2705"
