@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 14,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Goisern am Hallstättersee",
+          "earea": "Bad Goisern am Hallstättersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Goisern am Hallstättersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Goisern am Hallstättersee",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "403108": {
+            "feuerwehr": "Feuerwehr/Florian Lasern (36108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lasern (36108)",
+            "fwnr": 403108
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101152",
+        "startzeit": "Sun, 09 Nov 2025 13:12:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6407",
+          "lng": "13.6342"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -140,57 +187,6 @@
         "wgs84": {
           "lat": "48.1281",
           "lng": "13.9972"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101147",
-        "startzeit": "Sun, 09 Nov 2025 12:31:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0556",
-          "lng": "14.4157"
         }
       }
     },
