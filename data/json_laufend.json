@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Marien",
+          "earea": "St. Marien",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Marien",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - St. Marien",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406311": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)"
+          },
+          "406312": {
+            "feuerwehr": "Feuerwehr/Florian Weichstetten (39312)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Marien bei Neuhofen (39311)",
+            "fwnr": 406311
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weichstetten (39312)",
+            "fwnr": 406312
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101204",
+        "startzeit": "Mon, 10 Nov 2025 08:37:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1434",
+          "lng": "14.2754"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.5181",
           "lng": "14.5075"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Dietach",
-          "earea": "Dietach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Dietach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Dietach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411202": {
-            "feuerwehr": "Feuerwehr/Florian Dietach (46202)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Dietach (46202)",
-            "fwnr": 411202
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101195",
-        "startzeit": "Mon, 10 Nov 2025 07:25:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0894",
-          "lng": "14.4184"
         }
       }
     },
@@ -215,194 +222,6 @@
         "wgs84": {
           "lat": "48.0859",
           "lng": "13.9489"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405203": {
-            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
-            "fwnr": 405203
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101129",
-        "startzeit": "Sun, 09 Nov 2025 08:07:56 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0007",
-          "lng": "14.0345"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405207": {
-            "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
-            "fwnr": 405207
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101118",
-        "startzeit": "Sun, 09 Nov 2025 06:31:23 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9401",
-          "lng": "14.0476"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steegen",
-          "earea": "Steegen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steegen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Steegen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404310": {
-            "feuerwehr": "Feuerwehr/Florian Langenpeuerbach (37310)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Langenpeuerbach (37310)",
-            "fwnr": 404310
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101043",
-        "startzeit": "Sat, 08 Nov 2025 14:16:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3591",
-          "lng": "13.7399"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steegen",
-          "earea": "Steegen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steegen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Steegen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404319": {
-            "feuerwehr": "Feuerwehr/Florian Steegen (37319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steegen (37319)",
-            "fwnr": 404319
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101030",
-        "startzeit": "Sat, 08 Nov 2025 14:08:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3413",
-          "lng": "13.7654"
         }
       }
     }
