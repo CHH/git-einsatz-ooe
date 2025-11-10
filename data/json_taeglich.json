@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 23,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 26,
+  "cnt_feuerwehren": 37,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Gotthard im Mühlkreis",
+          "earea": "St. Gotthard im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Gotthard im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - St. Gotthard im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412203": {
+            "feuerwehr": "Feuerwehr/Florian Eschelberg (49203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Eschelberg (49203)",
+            "fwnr": 412203
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101252",
+        "startzeit": "Mon, 10 Nov 2025 14:13:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3864",
+          "lng": "14.1152"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Geretsberg",
+          "earea": "Geretsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Geretsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Geretsberg",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
+          },
+          "400411": {
+            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
+            "fwnr": 400411
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101245",
+        "startzeit": "Mon, 10 Nov 2025 13:40:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0896",
+          "lng": "12.9354"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lohnsburg am Kobernaußerwald",
+          "earea": "Lohnsburg am Kobernaußerwald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lohnsburg am Kobernaußerwald",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Lohnsburg am Kobernaußerwald",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "408212": {
+            "feuerwehr": "Feuerwehr/Florian Kobernaussen (43212)"
+          },
+          "408215": {
+            "feuerwehr": "Feuerwehr/Florian Lohnsburg (43215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kobernaussen (43212)",
+            "fwnr": 408212
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lohnsburg (43215)",
+            "fwnr": 408215
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101244",
+        "startzeit": "Mon, 10 Nov 2025 13:26:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1235",
+          "lng": "13.3748"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +194,10 @@
             "fwnr": 400302
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 10 Nov 2025 13:36:00 +0100",
         "num1": "E251101238",
         "startzeit": "Mon, 10 Nov 2025 12:52:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1856",
           "lng": "13.3057"
@@ -180,10 +335,10 @@
             "fwnr": 405205
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 10 Nov 2025 13:55:00 +0100",
         "num1": "E251101232",
         "startzeit": "Mon, 10 Nov 2025 11:51:53 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9059",
           "lng": "14.1194"
