@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Antiesenhofen",
+          "earea": "Antiesenhofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Antiesenhofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Antiesenhofen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "408301": {
+            "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
+            "fwnr": 408301
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101398",
+        "startzeit": "Tue, 11 Nov 2025 14:08:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": null,
+          "lng": null
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,11 +99,11 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Gilgenberg am Weilhart",
-          "earea": "Gilgenberg am Weilhart",
+          "default": "Geretsberg",
+          "earea": "Geretsberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gilgenberg am Weilhart",
+          "emun": "Geretsberg",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -64,9 +111,9 @@
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
-        "einsatzort": "BR - Gilgenberg am Weilhart",
+        "einsatzort": "BR - Geretsberg",
         "einsatzsubtyp": {
           "id": "GROßLKWBERGEN-TE",
           "text": "Bergung LKW"
@@ -78,12 +125,19 @@
         "feuerwehren": {
           "400103": {
             "feuerwehr": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)"
+          },
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Gilgenberg am Weilhart (33103)",
             "fwnr": 400103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
           }
         },
         "inzeit": "",
@@ -91,8 +145,8 @@
         "startzeit": "Tue, 11 Nov 2025 13:39:58 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.13",
-          "lng": "12.9382"
+          "lat": "48.0896",
+          "lng": "12.9354"
         }
       }
     },
