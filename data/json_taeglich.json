@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 20,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 22,
+  "cnt_feuerwehren": 35,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altheim",
+          "earea": "Altheim",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Altheim",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "400301": {
+            "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
+          },
+          "400361": {
+            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altheim (33301)",
+            "fwnr": 400301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
+            "fwnr": 400361
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101720",
+        "startzeit": "Thu, 13 Nov 2025 15:58:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2477",
+          "lng": "13.2294"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Riedau",
+          "earea": "Riedau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Riedau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Riedau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410261": {
+            "feuerwehr": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian BTF Leitz GmbH & Co KG Riedau (45261)",
+            "fwnr": 410261
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101714",
+        "startzeit": "Thu, 13 Nov 2025 15:26:28 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3036",
+          "lng": "13.6299"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -86,10 +187,10 @@
             "fwnr": 408307
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 13 Nov 2025 15:24:00 +0100",
         "num1": "E251101704",
         "startzeit": "Thu, 13 Nov 2025 14:30:07 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3183",
           "lng": "13.5106"
