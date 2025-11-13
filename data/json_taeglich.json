@@ -1,7 +1,155 @@
 {
-  "cnt_einsaetze": 22,
-  "cnt_feuerwehren": 35,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 39,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Alkoven",
+          "earea": "Alkoven",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Alkoven",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Alkoven",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
+          "401114": {
+            "feuerwehr": "Feuerwehr/Florian Polsing (34114)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Polsing (34114)",
+            "fwnr": 401114
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101727",
+        "startzeit": "Thu, 13 Nov 2025 17:13:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2876",
+          "lng": "14.1102"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wendling",
+          "earea": "Wendling",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wendling",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Wendling",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404215": {
+            "feuerwehr": "Feuerwehr/Florian Wendling (37215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wendling (37215)",
+            "fwnr": 404215
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101725",
+        "startzeit": "Thu, 13 Nov 2025 16:49:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2333",
+          "lng": "13.6723"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kopfing im Innkreis",
+          "earea": "Kopfing im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kopfing im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Kopfing im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410110": {
+            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
+            "fwnr": 410110
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101724",
+        "startzeit": "Thu, 13 Nov 2025 16:48:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4433",
+          "lng": "13.659"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +241,10 @@
             "fwnr": 410261
           }
         },
-        "inzeit": "",
+        "inzeit": "Thu, 13 Nov 2025 16:24:00 +0100",
         "num1": "E251101714",
         "startzeit": "Thu, 13 Nov 2025 15:26:28 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3036",
           "lng": "13.6299"
