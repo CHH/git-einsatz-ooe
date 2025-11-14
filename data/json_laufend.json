@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 9,
+  "cnt_einsaetze": 8,
   "cnt_feuerwehren": 10,
   "einsaetze": [
     {
@@ -17,31 +17,38 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
           "403102": {
             "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
             "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
           }
         },
         "inzeit": "",
-        "num1": "E251101937",
-        "startzeit": "Fri, 14 Nov 2025 22:40:32 +0100",
+        "num1": "E251101938",
+        "startzeit": "Fri, 14 Nov 2025 22:42:48 +0100",
         "status": "offen",
         "wgs84": {
           "lat": "47.7109",
@@ -147,53 +154,6 @@
         "wgs84": {
           "lat": "48.2787",
           "lng": "14.2156"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Berg im Attergau",
-          "earea": "Berg im Attergau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Berg im Attergau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Berg im Attergau",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413505": {
-            "feuerwehr": "Feuerwehr/Florian Berg im Attergau (50505)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Berg im Attergau (50505)",
-            "fwnr": 413505
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101925",
-        "startzeit": "Fri, 14 Nov 2025 20:01:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.94",
-          "lng": "13.5259"
         }
       }
     },
