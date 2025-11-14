@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ort im Innkreis",
+          "earea": "Ort im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ort im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Ort im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408313": {
+            "feuerwehr": "Feuerwehr/Florian Ort im Innkreis (43313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ort im Innkreis (43313)",
+            "fwnr": 408313
+          }
+        },
+        "inzeit": "",
+        "num1": "E251101874",
+        "startzeit": "Fri, 14 Nov 2025 17:18:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3139",
+          "lng": "13.4351"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pfarrkirchen im Mühlkreis",
-          "earea": "Pfarrkirchen im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pfarrkirchen im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Pfarrkirchen im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409201": {
-            "feuerwehr": "Feuerwehr/Florian Altenhof (44201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altenhof (44201)",
-            "fwnr": 409201
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101870",
-        "startzeit": "Fri, 14 Nov 2025 16:49:52 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5059",
-          "lng": "13.7788"
         }
       }
     },
@@ -287,60 +287,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          },
-          "403205": {
-            "feuerwehr": "Feuerwehr/Florian Eben- und Nachdemsee (36205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Eben- und Nachdemsee (36205)",
-            "fwnr": 403205
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101863",
-        "startzeit": "Fri, 14 Nov 2025 16:18:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8665",
-          "lng": "13.7613"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Ebensee",
           "earea": "Ebensee",
           "ecompl": "",
@@ -429,53 +375,6 @@
         "wgs84": {
           "lat": "48.1323",
           "lng": "13.569"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gaspoltshofen",
-          "earea": "Gaspoltshofen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gaspoltshofen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Gaspoltshofen",
-        "einsatzsubtyp": {
-          "id": "VKWEGFREIMA-TE",
-          "text": "Freimachen von Verkehrswegen"
-        },
-        "einsatztyp": {
-          "id": "T0-FREIMA-VKWEG",
-          "text": "Freimachen von Verkehrswegen"
-        },
-        "feuerwehren": {
-          "404203": {
-            "feuerwehr": "Feuerwehr/Florian Altenhof am Hausruck (37203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altenhof am Hausruck (37203)",
-            "fwnr": 404203
-          }
-        },
-        "inzeit": "",
-        "num1": "E251101845",
-        "startzeit": "Fri, 14 Nov 2025 14:31:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1356",
-          "lng": "13.686"
         }
       }
     },
