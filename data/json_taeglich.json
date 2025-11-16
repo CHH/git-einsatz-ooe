@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fornach",
+          "earea": "Fornach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fornach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Fornach",
+        "einsatzsubtyp": {
+          "id": "UNKLARLAGE-BR",
+          "text": "Brand unklare Lage"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "413108": {
+            "feuerwehr": "Feuerwehr/Florian Fornach (50108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fornach (50108)",
+            "fwnr": 413108
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102070",
+        "startzeit": "Sun, 16 Nov 2025 03:09:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0196",
+          "lng": "13.4311"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": 402112
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 16 Nov 2025 03:33:00 +0100",
         "num1": "E251102068",
         "startzeit": "Sun, 16 Nov 2025 01:05:29 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4737",
           "lng": "14.5302"
