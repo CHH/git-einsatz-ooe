@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Reichenau im Mühlkreis",
+          "earea": "Reichenau im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Reichenau im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Reichenau im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "412115": {
+            "feuerwehr": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Reichenau im Mühlkreis (49115)",
+            "fwnr": 412115
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102286",
+        "startzeit": "Tue, 18 Nov 2025 11:21:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4592",
+          "lng": "14.3457"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -113,12 +160,12 @@
           "emun": "Feldkirchen bei Mattighofen",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "3",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 13,
         "einsatzart": "BRAND",
         "einsatzort": "BR - Feldkirchen bei Mattighofen",
         "einsatzsubtyp": {
@@ -130,28 +177,98 @@
           "text": "Brand landwirtschaftliches Objekt"
         },
         "feuerwehren": {
+          "10009": {
+            "feuerwehr": "Feuerwehr/Florian Michaelbeuern (SBG)"
+          },
+          "400110": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
+          },
+          "400202": {
+            "feuerwehr": "Feuerwehr/Florian Auerbach (33202)"
+          },
           "400203": {
             "feuerwehr": "Feuerwehr/Florian Feldkirchen bei Mattighofen (33203)"
+          },
+          "400207": {
+            "feuerwehr": "Feuerwehr/Florian Hart (BR) (33207)"
           },
           "400212": {
             "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
           },
+          "400215": {
+            "feuerwehr": "Feuerwehr/Florian Perwang am Grabensee (33215)"
+          },
+          "400221": {
+            "feuerwehr": "Feuerwehr/Florian Kirchberg bei Mattighofen (33221)"
+          },
+          "400222": {
+            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
+          },
+          "400226": {
+            "feuerwehr": "Feuerwehr/Florian Wagenham (33226)"
+          },
           "400402": {
             "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
+          },
+          "400409": {
+            "feuerwehr": "Feuerwehr/Florian Ibm (33409)"
+          },
+          "400410": {
+            "feuerwehr": "Feuerwehr/Florian Moosdorf (33410)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Michaelbeuern (SBG)",
+            "fwnr": 10009
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
+            "fwnr": 400110
+          },
+          "10": {
+            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
+            "fwnr": 400402
+          },
+          "11": {
+            "fwname": "Feuerwehr/Florian Ibm (33409)",
+            "fwnr": 400409
+          },
+          "12": {
+            "fwname": "Feuerwehr/Florian Moosdorf (33410)",
+            "fwnr": 400410
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Auerbach (33202)",
+            "fwnr": 400202
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Feldkirchen bei Mattighofen (33203)",
             "fwnr": 400203
           },
-          "1": {
+          "4": {
+            "fwname": "Feuerwehr/Florian Hart (BR) (33207)",
+            "fwnr": 400207
+          },
+          "5": {
             "fwname": "Feuerwehr/Florian Mattighofen (33212)",
             "fwnr": 400212
           },
-          "2": {
-            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
-            "fwnr": 400402
+          "6": {
+            "fwname": "Feuerwehr/Florian Perwang am Grabensee (33215)",
+            "fwnr": 400215
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Kirchberg bei Mattighofen (33221)",
+            "fwnr": 400221
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
+            "fwnr": 400222
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Wagenham (33226)",
+            "fwnr": 400226
           }
         },
         "inzeit": "",
