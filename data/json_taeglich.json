@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 14,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 16,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Asten",
+          "earea": "Asten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Asten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Asten",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "406101": {
+            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Asten (39101)",
+            "fwnr": 406101
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102274",
+        "startzeit": "Tue, 18 Nov 2025 10:18:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2186",
+          "lng": "14.4232"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauerkirchen",
+          "earea": "Mauerkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauerkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Mauerkirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400308": {
+            "feuerwehr": "Feuerwehr/Florian Mauerkirchen (33308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauerkirchen (33308)",
+            "fwnr": 400308
+          }
+        },
+        "inzeit": "Tue, 18 Nov 2025 09:28:00 +0100",
+        "num1": "E251102268",
+        "startzeit": "Tue, 18 Nov 2025 09:23:23 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.1962",
+          "lng": "13.1293"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,7 +106,7 @@
           "emun": "Ohlsdorf",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
@@ -21,12 +115,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "GM - Ohlsdorf",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "403202": {
@@ -187,10 +281,10 @@
             "fwnr": 403211
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 18 Nov 2025 10:09:00 +0100",
         "num1": "E251102260",
         "startzeit": "Tue, 18 Nov 2025 08:18:40 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9819",
           "lng": "13.8195"
