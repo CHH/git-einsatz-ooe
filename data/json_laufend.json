@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 13,
+  "cnt_feuerwehren": 29,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Asten",
-          "earea": "Asten",
+          "default": "St. Marienkirchen bei Schärding",
+          "earea": "St. Marienkirchen bei Schärding",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Asten",
+          "emun": "St. Marienkirchen bei Schärding",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 10,
+          "text": "Schärding"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "LL - Asten",
+        "einsatzart": "TEE",
+        "einsatzort": "SD - St. Marienkirchen bei Schärding",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
-          "406101": {
-            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
+          "410320": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Asten (39101)",
-            "fwnr": 406101
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)",
+            "fwnr": 410320
           }
         },
         "inzeit": "",
-        "num1": "E251102484",
-        "startzeit": "Wed, 19 Nov 2025 17:26:58 +0100",
+        "num1": "E251102488",
+        "startzeit": "Wed, 19 Nov 2025 18:02:05 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2186",
-          "lng": "14.4232"
+          "lat": "48.389",
+          "lng": "13.4491"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Maria Neustift",
+          "earea": "Maria Neustift",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Maria Neustift",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Maria Neustift",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411308": {
+            "feuerwehr": "Feuerwehr/Florian Maria Neustift (46308)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Maria Neustift (46308)",
+            "fwnr": 411308
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102486",
+        "startzeit": "Wed, 19 Nov 2025 17:56:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9387",
+          "lng": "14.608"
         }
       }
     },
@@ -111,7 +158,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "SONSTIGE",
         "einsatzort": "RI - Obernberg am Inn",
         "einsatzsubtyp": {
@@ -125,12 +172,19 @@
         "feuerwehren": {
           "408312": {
             "feuerwehr": "Feuerwehr/Florian Obernberg am Inn (43312)"
+          },
+          "410320": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Obernberg am Inn (43312)",
             "fwnr": 408312
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)",
+            "fwnr": 410320
           }
         },
         "inzeit": "",
@@ -205,7 +259,7 @@
           "id": 8,
           "text": "Ried im Innkreis"
         },
-        "cntfeuerwehren": 11,
+        "cntfeuerwehren": 13,
         "einsatzart": "BRAND",
         "einsatzort": "RI - Taiskirchen im Innkreis",
         "einsatzsubtyp": {
@@ -235,11 +289,17 @@
           "408126": {
             "feuerwehr": "Feuerwehr/Florian Tiefenbach-Wietraun (43126)"
           },
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          },
           "408307": {
             "feuerwehr": "Feuerwehr/Florian Lambrechten (43307)"
           },
           "408326": {
             "feuerwehr": "Feuerwehr/Florian Winkl (43326)"
+          },
+          "410202": {
+            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
           },
           "410203": {
             "feuerwehr": "Feuerwehr/Florian Blümling (45203)"
@@ -261,6 +321,14 @@
             "fwnr": 408107
           },
           "10": {
+            "fwname": "Feuerwehr/Florian Blümling (45203)",
+            "fwnr": 410203
+          },
+          "11": {
+            "fwname": "Feuerwehr/Florian Dorf an der Pram (45205)",
+            "fwnr": 410205
+          },
+          "12": {
             "fwname": "Feuerwehr/Florian Zell an der Pram (45220)",
             "fwnr": 410220
           },
@@ -281,20 +349,20 @@
             "fwnr": 408126
           },
           "6": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          },
+          "7": {
             "fwname": "Feuerwehr/Florian Lambrechten (43307)",
             "fwnr": 408307
           },
-          "7": {
+          "8": {
             "fwname": "Feuerwehr/Florian Winkl (43326)",
             "fwnr": 408326
           },
-          "8": {
-            "fwname": "Feuerwehr/Florian Blümling (45203)",
-            "fwnr": 410203
-          },
           "9": {
-            "fwname": "Feuerwehr/Florian Dorf an der Pram (45205)",
-            "fwnr": 410205
+            "fwname": "Feuerwehr/Florian Andorf (45202)",
+            "fwnr": 410202
           }
         },
         "inzeit": "",
