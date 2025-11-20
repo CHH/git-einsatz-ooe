@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 20,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schärding",
+          "earea": "Schärding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schärding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Schärding",
+        "einsatzsubtyp": {
+          "id": "GROßBUSBERGEN-TE",
+          "text": "Bergung Autobus"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102576",
+        "startzeit": "Thu, 20 Nov 2025 08:56:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4476",
+          "lng": "13.4433"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,7 +205,7 @@
           "id": 4,
           "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "PERSON",
         "einsatzort": "GR - Peuerbach",
         "einsatzsubtyp": {
@@ -172,12 +219,19 @@
         "feuerwehren": {
           "404315": {
             "feuerwehr": "Feuerwehr/Florian Peuerbach (37315)"
+          },
+          "404322": {
+            "feuerwehr": "Feuerwehr/Florian Unterheuberg (37322)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Peuerbach (37315)",
             "fwnr": 404315
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Unterheuberg (37322)",
+            "fwnr": 404322
           }
         },
         "inzeit": "",
@@ -328,60 +382,6 @@
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwertberg",
-          "earea": "Schwertberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwertberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "PE - Schwertberg",
-        "einsatzsubtyp": {
-          "id": "BMA4-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "407201": {
-            "feuerwehr": "Feuerwehr/Florian Aisting-Furth (42201)"
-          },
-          "407216": {
-            "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aisting-Furth (42201)",
-            "fwnr": 407201
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schwertberg (42216)",
-            "fwnr": 407216
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102559",
-        "startzeit": "Thu, 20 Nov 2025 08:04:11 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2734",
-          "lng": "14.5798"
         }
       }
     },
