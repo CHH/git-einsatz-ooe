@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 22,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Marienkirchen an der Polsenz",
+          "earea": "St. Marienkirchen an der Polsenz",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Marienkirchen an der Polsenz",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - St. Marienkirchen an der Polsenz",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401117": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen an der Polsenz (34117)",
+            "fwnr": 401117
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102652",
+        "startzeit": "Thu, 20 Nov 2025 16:32:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2663",
+          "lng": "13.9272"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Taufkirchen an der Trattnach",
-          "earea": "Taufkirchen an der Trattnach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Taufkirchen an der Trattnach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - Taufkirchen an der Trattnach",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "404113": {
-            "feuerwehr": "Feuerwehr/Florian Obertrattnach (37113)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Obertrattnach (37113)",
-            "fwnr": 404113
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102643",
-        "startzeit": "Thu, 20 Nov 2025 15:18:53 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.245",
-          "lng": "13.761"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Attnang-Puchheim",
           "earea": "Attnang-Puchheim",
           "ecompl": "",
@@ -111,7 +111,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "VB - Attnang-Puchheim",
         "einsatzsubtyp": {
@@ -134,6 +134,9 @@
           },
           "413417": {
             "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
+          },
+          "413429": {
+            "feuerwehr": "Feuerwehr/Florian Vöcklabruck (50429)"
           }
         },
         "feuerwehrenarray": {
@@ -152,6 +155,10 @@
           "3": {
             "fwname": "Feuerwehr/Florian Puchheim (50417)",
             "fwnr": 413417
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Vöcklabruck (50429)",
+            "fwnr": 413429
           }
         },
         "inzeit": "",
@@ -161,154 +168,6 @@
         "wgs84": {
           "lat": "48.0164",
           "lng": "13.7192"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "ÖLGEWÄSSER-TE",
-          "text": "Ölaustritt Gewässer"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-GEWÄSSER",
-          "text": "Ölaustritt Gewässer"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          },
-          "500020": {
-            "feuerwehr": "Feuerwehr/Florian Ennsdorf (NÖ)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ennsdorf (NÖ)",
-            "fwnr": 500020
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102620",
-        "startzeit": "Thu, 20 Nov 2025 12:36:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2178",
-          "lng": "14.4792"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Inzersdorf im Kremstal",
-          "earea": "Inzersdorf im Kremstal",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Inzersdorf im Kremstal",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Inzersdorf im Kremstal",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405204": {
-            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
-            "fwnr": 405204
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102612",
-        "startzeit": "Thu, 20 Nov 2025 11:26:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.928",
-          "lng": "14.0816"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Windischgarsten",
-          "earea": "Windischgarsten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Windischgarsten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Windischgarsten",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405405": {
-            "feuerwehr": "Feuerwehr/Florian Windischgarsten (38405)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Windischgarsten (38405)",
-            "fwnr": 405405
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102557",
-        "startzeit": "Thu, 20 Nov 2025 07:53:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7196",
-          "lng": "14.3204"
         }
       }
     },
