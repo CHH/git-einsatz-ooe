@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
     {
       "einsatz": {
@@ -17,26 +17,33 @@
           "id": 6,
           "text": "Linz-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "LL - Enns",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "ÖLGEWÄSSER-TE",
+          "text": "Ölaustritt Gewässer"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖL-GEWÄSSER",
+          "text": "Ölaustritt Gewässer"
         },
         "feuerwehren": {
           "406102": {
             "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          },
+          "500020": {
+            "feuerwehr": "Feuerwehr/Florian Ennsdorf (NÖ)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Enns (39102)",
             "fwnr": 406102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ennsdorf (NÖ)",
+            "fwnr": 500020
           }
         },
         "inzeit": "",
@@ -187,53 +194,6 @@
         "wgs84": {
           "lat": "47.928",
           "lng": "14.0816"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Helfenberg",
-          "earea": "Helfenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Helfenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "RO - Helfenberg",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "409408": {
-            "feuerwehr": "Feuerwehr/Florian Helfenberg (44408)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Helfenberg (44408)",
-            "fwnr": 409408
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102587",
-        "startzeit": "Thu, 20 Nov 2025 09:40:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5463",
-          "lng": "14.143"
         }
       }
     },
@@ -567,60 +527,6 @@
         "wgs84": {
           "lat": "47.9401",
           "lng": "14.0476"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lambrechten",
-          "earea": "Lambrechten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lambrechten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Lambrechten",
-        "einsatzsubtyp": {
-          "id": "FZGKLBERGEN-TE",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "408307": {
-            "feuerwehr": "Feuerwehr/Florian Lambrechten (43307)"
-          },
-          "408317": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Martin im Innkreis (43317)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Lambrechten (43307)",
-            "fwnr": 408307
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Martin im Innkreis (43317)",
-            "fwnr": 408317
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102549",
-        "startzeit": "Thu, 20 Nov 2025 07:25:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3183",
-          "lng": "13.5106"
         }
       }
     },
