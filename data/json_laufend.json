@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 24,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102599",
+        "startzeit": "Thu, 20 Nov 2025 10:15:36 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7204",
+          "lng": "13.5832"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -158,7 +205,7 @@
           "id": 13,
           "text": "Vöcklabruck"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 4,
         "einsatzart": "PERSON",
         "einsatzort": "VB - Neukirchen an der Vöckla",
         "einsatzsubtyp": {
@@ -170,6 +217,9 @@
           "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
+          "413110": {
+            "feuerwehr": "Feuerwehr/Florian Frankenburg am Hausruck (50110)"
+          },
           "413130": {
             "feuerwehr": "Feuerwehr/Florian Redl (50130)"
           },
@@ -182,14 +232,18 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Frankenburg am Hausruck (50110)",
+            "fwnr": 413110
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Redl (50130)",
             "fwnr": 413130
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Neukirchen an der Vöckla (50412)",
             "fwnr": 413412
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Brauerei Zipf (50461)",
             "fwnr": 413461
           }
@@ -443,53 +497,6 @@
         "wgs84": {
           "lat": "48.2644",
           "lng": "13.5752"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schärding",
-          "earea": "Schärding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schärding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 10,
-          "text": "Schärding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SD - Schärding",
-        "einsatzsubtyp": {
-          "id": "GROßLKWBERGEN-TE",
-          "text": "Bergung LKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-GROßFZG",
-          "text": "Bergung Großfahrzeug"
-        },
-        "feuerwehren": {
-          "410321": {
-            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schärding (45321)",
-            "fwnr": 410321
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102563",
-        "startzeit": "Thu, 20 Nov 2025 08:11:53 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4476",
-          "lng": "13.4433"
         }
       }
     },
