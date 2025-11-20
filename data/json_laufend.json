@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 27,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
     {
       "einsatz": {
@@ -153,31 +153,38 @@
           "emun": "Bad Leonfelden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "UU - Bad Leonfelden",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
           "412103": {
             "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
+          "412110": {
+            "feuerwehr": "Feuerwehr/Florian Laimbach (49110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
             "fwnr": 412103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Laimbach (49110)",
+            "fwnr": 412110
           }
         },
         "inzeit": "",
@@ -403,151 +410,6 @@
         "wgs84": {
           "lat": "48.0164",
           "lng": "13.7192"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "3",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 15,
-        "einsatzart": "TEE",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "PERSSUCHE-TE",
-          "text": "Personensuche"
-        },
-        "einsatztyp": {
-          "id": "T1-PERS-SUCHE",
-          "text": "Personensuche"
-        },
-        "feuerwehren": {
-          "403203": {
-            "feuerwehr": "Feuerwehr/Florian Bäckerberg (36203)"
-          },
-          "403208": {
-            "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
-          },
-          "403212": {
-            "feuerwehr": "Feuerwehr/Florian Lederau (36212)"
-          },
-          "403225": {
-            "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
-          },
-          "405202": {
-            "feuerwehr": "Feuerwehr/Florian Eggenstein (38202)"
-          },
-          "405203": {
-            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
-          },
-          "405204": {
-            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
-          },
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
-          },
-          "405207": {
-            "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
-          },
-          "405211": {
-            "feuerwehr": "Feuerwehr/Florian Pettenbach (38211)"
-          },
-          "405212": {
-            "feuerwehr": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)"
-          },
-          "405213": {
-            "feuerwehr": "Feuerwehr/Florian Schlierbach (38213)"
-          },
-          "405214": {
-            "feuerwehr": "Feuerwehr/Florian Steinbach am Ziehberg (38214)"
-          },
-          "405215": {
-            "feuerwehr": "Feuerwehr/Florian Steinfelden (38215)"
-          },
-          "405307": {
-            "feuerwehr": "Feuerwehr/Florian Strienzing (38307)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bäckerberg (36203)",
-            "fwnr": 403203
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Grünau im Almtal (36208)",
-            "fwnr": 403208
-          },
-          "10": {
-            "fwname": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)",
-            "fwnr": 405212
-          },
-          "11": {
-            "fwname": "Feuerwehr/Florian Schlierbach (38213)",
-            "fwnr": 405213
-          },
-          "12": {
-            "fwname": "Feuerwehr/Florian Steinbach am Ziehberg (38214)",
-            "fwnr": 405214
-          },
-          "13": {
-            "fwname": "Feuerwehr/Florian Steinfelden (38215)",
-            "fwnr": 405215
-          },
-          "14": {
-            "fwname": "Feuerwehr/Florian Strienzing (38307)",
-            "fwnr": 405307
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Lederau (36212)",
-            "fwnr": 403212
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Viechtwang (36225)",
-            "fwnr": 403225
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Eggenstein (38202)",
-            "fwnr": 405202
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
-            "fwnr": 405203
-          },
-          "6": {
-            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
-            "fwnr": 405204
-          },
-          "7": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
-          },
-          "8": {
-            "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
-            "fwnr": 405207
-          },
-          "9": {
-            "fwname": "Feuerwehr/Florian Pettenbach (38211)",
-            "fwnr": 405211
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102550",
-        "startzeit": "Thu, 20 Nov 2025 07:29:55 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9401",
-          "lng": "14.0476"
         }
       }
     }
