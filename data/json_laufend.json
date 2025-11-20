@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 17,
-  "cnt_feuerwehren": 24,
+  "cnt_feuerwehren": 30,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Inzersdorf im Kremstal",
+          "earea": "Inzersdorf im Kremstal",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Inzersdorf im Kremstal",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Inzersdorf im Kremstal",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405204": {
+            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
+            "fwnr": 405204
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102612",
+        "startzeit": "Thu, 20 Nov 2025 11:26:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.928",
+          "lng": "14.0816"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -194,53 +241,6 @@
         "wgs84": {
           "lat": "48.5265",
           "lng": "14.0616"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorchdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GM - Vorchdorf",
-        "einsatzsubtyp": {
-          "id": "FREI-BR",
-          "text": "Brand im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI",
-          "text": "Brand im Freien"
-        },
-        "feuerwehren": {
-          "403223": {
-            "feuerwehr": "Feuerwehr/Florian Schart (36223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schart (36223)",
-            "fwnr": 403223
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102594",
-        "startzeit": "Thu, 20 Nov 2025 10:03:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0233",
-          "lng": "13.9539"
         }
       }
     },
@@ -658,12 +658,12 @@
           "emun": "Pettenbach",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "3",
         "bezirk": {
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 9,
         "einsatzart": "TEE",
         "einsatzort": "KI - Pettenbach",
         "einsatzsubtyp": {
@@ -675,21 +675,70 @@
           "text": "Personensuche"
         },
         "feuerwehren": {
+          "403208": {
+            "feuerwehr": "Feuerwehr/Florian Grünau im Almtal (36208)"
+          },
+          "405202": {
+            "feuerwehr": "Feuerwehr/Florian Eggenstein (38202)"
+          },
+          "405203": {
+            "feuerwehr": "Feuerwehr/Florian Gundendorf (38203)"
+          },
+          "405204": {
+            "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
+          },
           "405205": {
             "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
           },
           "405207": {
             "feuerwehr": "Feuerwehr/Florian Magdalenaberg (38207)"
+          },
+          "405211": {
+            "feuerwehr": "Feuerwehr/Florian Pettenbach (38211)"
+          },
+          "405212": {
+            "feuerwehr": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)"
+          },
+          "405215": {
+            "feuerwehr": "Feuerwehr/Florian Steinfelden (38215)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Grünau im Almtal (36208)",
+            "fwnr": 403208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Eggenstein (38202)",
+            "fwnr": 405202
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Gundendorf (38203)",
+            "fwnr": 405203
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
+            "fwnr": 405204
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
             "fwnr": 405205
           },
-          "1": {
+          "5": {
             "fwname": "Feuerwehr/Florian Magdalenaberg (38207)",
             "fwnr": 405207
+          },
+          "6": {
+            "fwname": "Feuerwehr/Florian Pettenbach (38211)",
+            "fwnr": 405211
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)",
+            "fwnr": 405212
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Steinfelden (38215)",
+            "fwnr": 405215
           }
         },
         "inzeit": "",
