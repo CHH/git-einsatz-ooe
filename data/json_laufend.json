@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 18,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102740",
+        "startzeit": "Fri, 21 Nov 2025 10:10:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2557",
+          "lng": "13.0456"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -188,53 +235,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Leonding",
-          "earea": "Leonding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Leonding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Leonding",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406208": {
-            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
-            "fwnr": 406208
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102733",
-        "startzeit": "Fri, 21 Nov 2025 09:17:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2652",
-          "lng": "14.2551"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kopfing im Innkreis",
           "earea": "Kopfing im Innkreis",
           "ecompl": "",
@@ -276,67 +276,6 @@
         "wgs84": {
           "lat": "48.4433",
           "lng": "13.659"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Regau",
-          "earea": "Regau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Regau",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Regau",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "403227": {
-            "feuerwehr": "Feuerwehr/Florian Wiesen (36227)"
-          },
-          "413419": {
-            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
-          },
-          "413421": {
-            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesen (36227)",
-            "fwnr": 403227
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Regau (50419)",
-            "fwnr": 413419
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
-            "fwnr": 413421
-          }
-        },
-        "inzeit": "",
-        "num1": "E251102728",
-        "startzeit": "Fri, 21 Nov 2025 08:45:36 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9712",
-          "lng": "13.7053"
         }
       }
     },
