@@ -1,51 +1,106 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Luftenberg an der Donau",
-          "earea": "Luftenberg an der Donau",
+          "default": "Steyr",
+          "earea": "Steyr",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Luftenberg an der Donau",
+          "emun": "Steyr",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 7,
-          "text": "Perg"
+          "id": 15,
+          "text": "Steyr-Stadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "PE - Luftenberg an der Donau",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SR - Steyr",
         "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
         },
         "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "407208": {
-            "feuerwehr": "Feuerwehr/Florian Luftenberg an der Donau (42208)"
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Luftenberg an der Donau (42208)",
-            "fwnr": 407208
+            "fwname": "Feuerwehr/Florian Steyr Zug 1 Innere Stadt (47101)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
+            "fwnr": 415101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
-        "num1": "E251102954",
-        "startzeit": "Sun, 23 Nov 2025 00:08:33 +0100",
+        "num1": "E251102957",
+        "startzeit": "Sun, 23 Nov 2025 01:15:41 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2735",
-          "lng": "14.429"
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Thalheim bei Wels",
+          "earea": "Thalheim bei Wels",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Thalheim bei Wels",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Thalheim bei Wels",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "414223": {
+            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
+            "fwnr": 414223
+          }
+        },
+        "inzeit": "",
+        "num1": "E251102956",
+        "startzeit": "Sun, 23 Nov 2025 01:12:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1538",
+          "lng": "14.031"
         }
       }
     }
