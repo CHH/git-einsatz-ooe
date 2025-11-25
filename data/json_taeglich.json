@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Thalheim bei Wels",
+          "earea": "Thalheim bei Wels",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Thalheim bei Wels",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "WL - Thalheim bei Wels",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "414223": {
+            "feuerwehr": "Feuerwehr/Florian Thalheim bei Wels (51223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Thalheim bei Wels (51223)",
+            "fwnr": 414223
+          }
+        },
+        "inzeit": "",
+        "num1": "E251103176",
+        "startzeit": "Tue, 25 Nov 2025 05:13:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1538",
+          "lng": "14.031"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "Tue, 25 Nov 2025 05:17:00 +0100",
+        "num1": "E251103175",
+        "startzeit": "Tue, 25 Nov 2025 04:33:03 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2178",
+          "lng": "14.4792"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Allhaming",
+          "earea": "Allhaming",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Allhaming",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Allhaming",
+        "einsatzsubtyp": {
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "406302": {
+            "feuerwehr": "Feuerwehr/Florian Allhaming (39302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Allhaming (39302)",
+            "fwnr": 406302
+          }
+        },
+        "inzeit": "",
+        "num1": "E251103174",
+        "startzeit": "Tue, 25 Nov 2025 04:32:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1533",
+          "lng": "14.1725"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +158,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "KI - Inzersdorf im Kremstal",
         "einsatzsubtyp": {
@@ -31,12 +172,19 @@
         "feuerwehren": {
           "405204": {
             "feuerwehr": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)"
+          },
+          "405208": {
+            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Inzersdorf im Kremstal (38204)",
             "fwnr": 405204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
+            "fwnr": 405208
           }
         },
         "inzeit": "",
@@ -86,10 +234,10 @@
             "fwnr": 412202
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 25 Nov 2025 04:42:00 +0100",
         "num1": "E251103172",
         "startzeit": "Tue, 25 Nov 2025 04:06:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3952",
           "lng": "14.2342"
@@ -133,10 +281,10 @@
             "fwnr": 414107
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 25 Nov 2025 05:05:00 +0100",
         "num1": "E251103171",
         "startzeit": "Tue, 25 Nov 2025 03:44:28 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.093",
           "lng": "13.9045"
