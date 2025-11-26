@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gunskirchen",
+          "earea": "Gunskirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gunskirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "WL - Gunskirchen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "414209": {
+            "feuerwehr": "Feuerwehr/Florian Gunskirchen (51209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gunskirchen (51209)",
+            "fwnr": 414209
+          }
+        },
+        "inzeit": "",
+        "num1": "E251103416",
+        "startzeit": "Wed, 26 Nov 2025 12:44:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1363",
+          "lng": "13.9445"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 4,
         "einsatzart": "TEE",
         "einsatzort": "RO - Helfenberg",
         "einsatzsubtyp": {
@@ -76,21 +123,35 @@
           "text": "Entlaufenes Tier"
         },
         "feuerwehren": {
+          "409402": {
+            "feuerwehr": "Feuerwehr/Florian Ahorn (RO) (44402)"
+          },
           "409403": {
             "feuerwehr": "Feuerwehr/Florian Altenschlag (44403)"
           },
           "409407": {
             "feuerwehr": "Feuerwehr/Florian Haslach an der Mühl (44407)"
+          },
+          "409408": {
+            "feuerwehr": "Feuerwehr/Florian Helfenberg (44408)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Ahorn (RO) (44402)",
+            "fwnr": 409402
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Altenschlag (44403)",
             "fwnr": 409403
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Haslach an der Mühl (44407)",
             "fwnr": 409407
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Helfenberg (44408)",
+            "fwnr": 409408
           }
         },
         "inzeit": "",
