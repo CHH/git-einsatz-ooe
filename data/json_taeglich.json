@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 21,
+  "cnt_einsaetze": 21,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eggerding",
+          "earea": "Eggerding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eggerding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Eggerding",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "410310": {
+            "feuerwehr": "Feuerwehr/Florian Hof (SD) (45310)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hof (SD) (45310)",
+            "fwnr": 410310
+          }
+        },
+        "inzeit": "",
+        "num1": "E251103413",
+        "startzeit": "Wed, 26 Nov 2025 12:09:53 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3646",
+          "lng": "13.5089"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ansfelden",
+          "earea": "Ansfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ansfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Ansfelden",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406207": {
+            "feuerwehr": "Feuerwehr/Florian Freindorf (39207)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Freindorf (39207)",
+            "fwnr": 406207
+          }
+        },
+        "inzeit": "Wed, 26 Nov 2025 12:17:00 +0100",
+        "num1": "E251103411",
+        "startzeit": "Wed, 26 Nov 2025 11:40:19 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2262",
+          "lng": "14.2971"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "Wed, 26 Nov 2025 11:46:00 +0100",
+        "num1": "E251103408",
+        "startzeit": "Wed, 26 Nov 2025 11:20:01 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2178",
+          "lng": "14.4792"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +187,10 @@
             "fwnr": 406223
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 12:17:00 +0100",
         "num1": "E251103407",
         "startzeit": "Wed, 26 Nov 2025 11:13:38 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3188",
           "lng": "14.1755"
@@ -93,10 +234,10 @@
             "fwnr": 400102
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 11:27:00 +0100",
         "num1": "E251103400",
         "startzeit": "Wed, 26 Nov 2025 10:50:51 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
@@ -118,7 +259,7 @@
           "id": 9,
           "text": "Rohrbach"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "RO - Helfenberg",
         "einsatzsubtyp": {
@@ -132,12 +273,19 @@
         "feuerwehren": {
           "409403": {
             "feuerwehr": "Feuerwehr/Florian Altenschlag (44403)"
+          },
+          "409407": {
+            "feuerwehr": "Feuerwehr/Florian Haslach an der Mühl (44407)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Altenschlag (44403)",
             "fwnr": 409403
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Haslach an der Mühl (44407)",
+            "fwnr": 409407
           }
         },
         "inzeit": "",
@@ -281,10 +429,10 @@
             "fwnr": 402107
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 11:33:00 +0100",
         "num1": "E251103393",
         "startzeit": "Wed, 26 Nov 2025 10:21:03 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4851",
           "lng": "14.4103"
@@ -328,10 +476,10 @@
             "fwnr": 403207
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 11:43:00 +0100",
         "num1": "E251103390",
         "startzeit": "Wed, 26 Nov 2025 10:08:47 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9166",
           "lng": "13.8048"
@@ -375,10 +523,10 @@
             "fwnr": 405404
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 11:27:00 +0100",
         "num1": "E251103389",
         "startzeit": "Wed, 26 Nov 2025 09:38:16 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7131",
           "lng": "14.2294"
@@ -429,10 +577,10 @@
             "fwnr": 403210
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 26 Nov 2025 12:18:00 +0100",
         "num1": "E251103387",
         "startzeit": "Wed, 26 Nov 2025 09:33:26 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.9685",
           "lng": "13.8966"
