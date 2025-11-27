@@ -1,98 +1,105 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Konrad",
-          "earea": "St. Konrad",
+          "default": "Aistersheim",
+          "earea": "Aistersheim",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Konrad",
+          "emun": "Aistersheim",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 4,
+          "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - St. Konrad",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - Aistersheim",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "403221": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Konrad (36221)"
+          "404110": {
+            "feuerwehr": "Feuerwehr/Florian Meggenhofen (37110)"
+          },
+          "404202": {
+            "feuerwehr": "Feuerwehr/Florian Aistersheim (37202)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Konrad (36221)",
-            "fwnr": 403221
+            "fwname": "Feuerwehr/Florian Meggenhofen (37110)",
+            "fwnr": 404110
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Aistersheim (37202)",
+            "fwnr": 404202
           }
         },
         "inzeit": "",
-        "num1": "E251103618",
-        "startzeit": "Thu, 27 Nov 2025 17:07:11 +0100",
+        "num1": "E251103620",
+        "startzeit": "Thu, 27 Nov 2025 17:26:02 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9125",
-          "lng": "13.8885"
+          "lat": "48.1801",
+          "lng": "13.7938"
         }
       }
     },
     {
       "einsatz": {
         "adresse": {
-          "default": "Gutau",
-          "earea": "Gutau",
+          "default": "Gmunden",
+          "earea": "Gmunden",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gutau",
+          "emun": "Gmunden",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
+          "id": 3,
+          "text": "Gmunden"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "TEE",
-        "einsatzort": "FR - Gutau",
+        "einsatzort": "GM - Gmunden",
         "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
+          "id": "PERSSUCHE-TE",
+          "text": "Personensuche"
         },
         "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
+          "id": "T1-PERS-SUCHE",
+          "text": "Personensuche"
         },
         "feuerwehren": {
-          "402204": {
-            "feuerwehr": "Feuerwehr/Florian Gutau (35204)"
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Gutau (35204)",
-            "fwnr": 402204
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
           }
         },
         "inzeit": "",
-        "num1": "E251103605",
-        "startzeit": "Thu, 27 Nov 2025 14:59:06 +0100",
+        "num1": "E251103619",
+        "startzeit": "Thu, 27 Nov 2025 17:26:49 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.4187",
-          "lng": "14.6081"
+          "lat": "47.9166",
+          "lng": "13.8048"
         }
       }
     },
