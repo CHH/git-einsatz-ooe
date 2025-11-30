@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Klaus an der Pyhrnbahn",
+          "earea": "Klaus an der Pyhrnbahn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Klaus an der Pyhrnbahn",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Klaus an der Pyhrnbahn",
+        "einsatzsubtyp": {
+          "id": "TAUCHEINSATZ-TE",
+          "text": "Taucheinsatz"
+        },
+        "einsatztyp": {
+          "id": "T1-SONST-TAUCH",
+          "text": "Taucheinsatz"
+        },
+        "feuerwehren": {
+          "405205": {
+            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          },
+          "411307": {
+            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
+            "fwnr": 405205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Losenstein (46307)",
+            "fwnr": 411307
+          }
+        },
+        "inzeit": "",
+        "num1": "E251103891",
+        "startzeit": "Sun, 30 Nov 2025 07:06:01 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8049",
+          "lng": "14.124"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": 406309
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 30 Nov 2025 06:24:00 +0100",
         "num1": "E251103889",
         "startzeit": "Sun, 30 Nov 2025 04:48:18 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1146",
           "lng": "14.2253"
