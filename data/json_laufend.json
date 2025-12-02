@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 12,
+  "cnt_einsaetze": 10,
   "cnt_feuerwehren": 16,
   "einsaetze": [
     {
@@ -12,29 +12,43 @@
           "emun": "Tragwein",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Tragwein",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "402206": {
+            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
+          },
+          "402207": {
+            "feuerwehr": "Feuerwehr/Florian Mistlberg (FR) (35207)"
+          },
           "402211": {
             "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
+            "fwnr": 402206
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mistlberg (FR) (35207)",
+            "fwnr": 402207
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Tragwein (35211)",
             "fwnr": 402211
           }
@@ -121,53 +135,6 @@
         "wgs84": {
           "lat": "47.9703",
           "lng": "14.2628"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gramastetten",
-          "earea": "Gramastetten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gramastetten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Gramastetten",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412210": {
-            "feuerwehr": "Feuerwehr/Florian Koglerau (49210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Koglerau (49210)",
-            "fwnr": 412210
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200278",
-        "startzeit": "Tue, 02 Dec 2025 20:23:37 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3511",
-          "lng": "14.2339"
         }
       }
     },
@@ -497,53 +464,6 @@
         "wgs84": {
           "lat": "48.5644",
           "lng": "13.6061"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tiefgraben",
-          "earea": "Tiefgraben",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tiefgraben",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Tiefgraben",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413205": {
-            "feuerwehr": "Feuerwehr/Florian Hof (VB) (50205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hof (VB) (50205)",
-            "fwnr": 413205
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200256",
-        "startzeit": "Tue, 02 Dec 2025 18:41:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8828",
-          "lng": "13.3025"
         }
       }
     },
