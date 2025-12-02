@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldburg",
+          "earea": "Waldburg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldburg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Waldburg",
+        "einsatzsubtyp": {
+          "id": "ÖLGEWÄSSER-TE",
+          "text": "Ölaustritt Gewässer"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-GEWÄSSER",
+          "text": "Ölaustritt Gewässer"
+        },
+        "feuerwehren": {
+          "402136": {
+            "feuerwehr": "Feuerwehr/Florian Waldburg (35136)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Waldburg (35136)",
+            "fwnr": 402136
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200224",
+        "startzeit": "Tue, 02 Dec 2025 14:01:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5087",
+          "lng": "14.4366"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -74,53 +121,6 @@
         "wgs84": {
           "lat": "47.9703",
           "lng": "14.2628"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hartkirchen",
-          "earea": "Hartkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hartkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Hartkirchen",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "401109": {
-            "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
-            "fwnr": 401109
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200212",
-        "startzeit": "Tue, 02 Dec 2025 13:13:53 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3597",
-          "lng": "14.0029"
         }
       }
     },
@@ -215,107 +215,6 @@
         "wgs84": {
           "lat": "48.2737",
           "lng": "13.7292"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Marchtrenk",
-          "earea": "Marchtrenk",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Marchtrenk",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "WL - Marchtrenk",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "414212": {
-            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
-          },
-          "414215": {
-            "feuerwehr": "Feuerwehr/Florian Marchtrenk (51215)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kappern (51212)",
-            "fwnr": 414212
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Marchtrenk (51215)",
-            "fwnr": 414215
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200205",
-        "startzeit": "Tue, 02 Dec 2025 12:54:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1895",
-          "lng": "14.1296"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400161": {
-            "feuerwehr": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)",
-            "fwnr": 400161
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200202",
-        "startzeit": "Tue, 02 Dec 2025 12:35:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2283",
-          "lng": "13.0301"
         }
       }
     }
