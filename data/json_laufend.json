@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 15,
-  "cnt_feuerwehren": 16,
+  "cnt_einsaetze": 14,
+  "cnt_feuerwehren": 17,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Rutzenham",
+          "earea": "Rutzenham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Rutzenham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Rutzenham",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "413310": {
+            "feuerwehr": "Feuerwehr/Florian Pühret (50310)"
+          },
+          "413313": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenham (50313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pühret (50310)",
+            "fwnr": 413310
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rutzenham (50313)",
+            "fwnr": 413313
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200453",
+        "startzeit": "Wed, 03 Dec 2025 20:04:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0565",
+          "lng": "13.7014"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +71,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "KI - Grünburg",
         "einsatzsubtyp": {
@@ -31,12 +85,19 @@
         "feuerwehren": {
           "405104": {
             "feuerwehr": "Feuerwehr/Florian Leonstein (38104)"
+          },
+          "405105": {
+            "feuerwehr": "Feuerwehr/Florian Molln (38105)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Leonstein (38104)",
             "fwnr": 405104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Molln (38105)",
+            "fwnr": 405105
           }
         },
         "inzeit": "",
@@ -428,53 +489,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Krenglbach",
-          "earea": "Krenglbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Krenglbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Krenglbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414210": {
-            "feuerwehr": "Feuerwehr/Florian Haiding (51210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Haiding (51210)",
-            "fwnr": 414210
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200411",
-        "startzeit": "Wed, 03 Dec 2025 19:06:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2158",
-          "lng": "13.9736"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "St. Veit im Mühlkreis",
           "earea": "St. Veit im Mühlkreis",
           "ecompl": "",
@@ -516,53 +530,6 @@
         "wgs84": {
           "lat": "48.4679",
           "lng": "14.1652"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Ulrich bei Steyr",
-          "earea": "St. Ulrich bei Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Ulrich bei Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - St. Ulrich bei Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411206": {
-            "feuerwehr": "Feuerwehr/Florian Kleinraming (46206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Kleinraming (46206)",
-            "fwnr": 411206
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200409",
-        "startzeit": "Wed, 03 Dec 2025 19:04:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0101",
-          "lng": "14.4903"
         }
       }
     },
