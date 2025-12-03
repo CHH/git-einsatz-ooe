@@ -1,65 +1,145 @@
 {
-  "cnt_einsaetze": 3,
+  "cnt_einsaetze": 5,
   "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kronstorf",
-          "earea": "Kronstorf",
+          "default": "St. Thomas am Blasenstein",
+          "earea": "St. Thomas am Blasenstein",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kronstorf",
+          "emun": "St. Thomas am Blasenstein",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 7,
+          "text": "Perg"
         },
-        "cntfeuerwehren": 3,
-        "einsatzart": "SONSTIGE",
-        "einsatzort": "LL - Kronstorf",
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "PE - St. Thomas am Blasenstein",
         "einsatzsubtyp": {
-          "id": "EXGEFAHR-SCHAD",
-          "text": "Explosion - Explosionsgefahr"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "S1-EXP",
-          "text": "Explosion - Explosionsgefahr"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
-          "406103": {
-            "feuerwehr": "Feuerwehr/Florian Hargelsberg (39103)"
-          },
-          "406104": {
-            "feuerwehr": "Feuerwehr/Florian Kronstorf (39104)"
-          },
-          "406261": {
-            "feuerwehr": "Feuerwehr/Florian Papier Nettingsdorf (39261)"
+          "407113": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Thomas am Blasenstein (42113)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Hargelsberg (39103)",
-            "fwnr": 406103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Kronstorf (39104)",
-            "fwnr": 406104
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Papier Nettingsdorf (39261)",
-            "fwnr": 406261
+            "fwname": "Feuerwehr/Florian Sankt Thomas am Blasenstein (42113)",
+            "fwnr": 407113
           }
         },
         "inzeit": "",
-        "num1": "E251200314",
-        "startzeit": "Wed, 03 Dec 2025 08:46:45 +0100",
+        "num1": "E251200327",
+        "startzeit": "Wed, 03 Dec 2025 09:56:12 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.152",
-          "lng": "14.464"
+          "lat": "48.3174",
+          "lng": "14.7638"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Unterweitersdorf",
+          "earea": "Unterweitersdorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Unterweitersdorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Unterweitersdorf",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "402212": {
+            "feuerwehr": "Feuerwehr/Florian Unterweitersdorf (35212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterweitersdorf (35212)",
+            "fwnr": 402212
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200325",
+        "startzeit": "Wed, 03 Dec 2025 09:49:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3665",
+          "lng": "14.4731"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kopfing im Innkreis",
+          "earea": "Kopfing im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kopfing im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Kopfing im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410104": {
+            "feuerwehr": "Feuerwehr/Florian Engertsberg (45104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Engertsberg (45104)",
+            "fwnr": 410104
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200324",
+        "startzeit": "Wed, 03 Dec 2025 09:48:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4184",
+          "lng": "13.6603"
         }
       }
     },
