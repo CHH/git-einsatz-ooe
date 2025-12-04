@@ -1,25 +1,25 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Leonfelden",
-          "earea": "Bad Leonfelden",
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Bad Leonfelden",
+          "emun": "Bad Ischl",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
           "id": "BMA1-BR",
           "text": "Brandmeldealarm"
@@ -29,23 +29,77 @@
           "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "412103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
-            "fwnr": 412103
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
           }
         },
         "inzeit": "",
-        "num1": "E251200517",
-        "startzeit": "Thu, 04 Dec 2025 12:39:42 +0100",
+        "num1": "E251200528",
+        "startzeit": "Thu, 04 Dec 2025 13:12:29 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5223",
-          "lng": "14.2965"
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Unterweißenbach",
+          "earea": "Unterweißenbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Unterweißenbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "FR - Unterweißenbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "402319": {
+            "feuerwehr": "Feuerwehr/Florian Unterweißenbach (35319)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Unterweißenbach (35319)",
+            "fwnr": 402319
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200523",
+        "startzeit": "Thu, 04 Dec 2025 13:05:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4397",
+          "lng": "14.7827"
         }
       }
     },
@@ -187,53 +241,6 @@
         "wgs84": {
           "lat": "48.1592",
           "lng": "14.3391"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
-            "fwnr": 403102
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200469",
-        "startzeit": "Thu, 04 Dec 2025 06:52:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7109",
-          "lng": "13.6262"
         }
       }
     }
