@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 24,
+  "cnt_einsaetze": 18,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,31 +12,45 @@
           "emun": "Scharnstein",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Scharnstein",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "403203": {
+            "feuerwehr": "Feuerwehr/Florian Bäckerberg (36203)"
+          },
           "403222": {
             "feuerwehr": "Feuerwehr/Florian Scharnstein (36222)"
+          },
+          "403225": {
+            "feuerwehr": "Feuerwehr/Florian Viechtwang (36225)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bäckerberg (36203)",
+            "fwnr": 403203
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Scharnstein (36222)",
             "fwnr": 403222
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Viechtwang (36225)",
+            "fwnr": 403225
           }
         },
         "inzeit": "",
@@ -64,7 +78,7 @@
           "id": 5,
           "text": "Kirchdorf"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "KI - Molln",
         "einsatzsubtyp": {
@@ -87,6 +101,12 @@
           },
           "405108": {
             "feuerwehr": "Feuerwehr/Florian Ramsau (KI) (38108)"
+          },
+          "405208": {
+            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
+          },
+          "405226": {
+            "feuerwehr": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)"
           }
         },
         "feuerwehrenarray": {
@@ -105,6 +125,14 @@
           "3": {
             "fwname": "Feuerwehr/Florian Ramsau (KI) (38108)",
             "fwnr": 405108
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
+            "fwnr": 405208
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Klaus an der Pyhrnbahn (38226)",
+            "fwnr": 405226
           }
         },
         "inzeit": "",
@@ -114,53 +142,6 @@
         "wgs84": {
           "lat": "47.8418",
           "lng": "14.2614"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oftering",
-          "earea": "Oftering",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oftering",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Oftering",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406206": {
-            "feuerwehr": "Feuerwehr/Florian Freiling (39206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Freiling (39206)",
-            "fwnr": 406206
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200713",
-        "startzeit": "Fri, 05 Dec 2025 18:22:18 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2363",
-          "lng": "14.1231"
         }
       }
     },
