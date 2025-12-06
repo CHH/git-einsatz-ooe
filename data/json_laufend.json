@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 20,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 19,
   "einsaetze": [
     {
       "einsatz": {
@@ -64,7 +64,7 @@
           "id": 14,
           "text": "Wels-Land"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "WL - Pichl bei Wels",
         "einsatzsubtyp": {
@@ -76,6 +76,9 @@
           "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "414107": {
+            "feuerwehr": "Feuerwehr/Florian Edt-Winkling (51107)"
+          },
           "414201": {
             "feuerwehr": "Feuerwehr/Florian Am Irrach (51201)"
           },
@@ -91,18 +94,22 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Edt-Winkling (51107)",
+            "fwnr": 414107
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Am Irrach (51201)",
             "fwnr": 414201
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Geisensheim (51207)",
             "fwnr": 414207
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Pichl bei Wels (51217)",
             "fwnr": 414217
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Sulzbach (WL) (51222)",
             "fwnr": 414222
           }
@@ -114,53 +121,6 @@
         "wgs84": {
           "lat": "48.186",
           "lng": "13.9001"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Weyer",
-          "earea": "Weyer",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Weyer",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - Weyer",
-        "einsatzsubtyp": {
-          "id": "ABFALLCONT-BR",
-          "text": "Brand Abfallcontainer"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
-        },
-        "feuerwehren": {
-          "411319": {
-            "feuerwehr": "Feuerwehr/Florian Weyer (46319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Weyer (46319)",
-            "fwnr": 411319
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200800",
-        "startzeit": "Sat, 06 Dec 2025 14:35:15 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8554",
-          "lng": "14.662"
         }
       }
     },
@@ -302,53 +262,6 @@
         "wgs84": {
           "lat": "48.154",
           "lng": "13.4837"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wippenham",
-          "earea": "Wippenham",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wippenham",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RI - Wippenham",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "408125": {
-            "feuerwehr": "Feuerwehr/Florian Wippenham (43125)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wippenham (43125)",
-            "fwnr": 408125
-          }
-        },
-        "inzeit": "",
-        "num1": "E251200786",
-        "startzeit": "Sat, 06 Dec 2025 12:59:10 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2228",
-          "lng": "13.3794"
         }
       }
     },
