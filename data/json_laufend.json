@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aschach an der Donau",
+          "earea": "Aschach an der Donau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aschach an der Donau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Aschach an der Donau",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "401102": {
+            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
+            "fwnr": 401102
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200869",
+        "startzeit": "Sun, 07 Dec 2025 11:32:20 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3628",
+          "lng": "14.0233"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -64,7 +111,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
         "einsatzort": "PE - Bad Kreuzen",
         "einsatzsubtyp": {
@@ -78,12 +125,19 @@
         "feuerwehren": {
           "407101": {
             "feuerwehr": "Feuerwehr/Florian Bad Kreuzen (42101)"
+          },
+          "407107": {
+            "feuerwehr": "Feuerwehr/Florian Pabneukirchen (42107)"
           }
         },
         "feuerwehrenarray": {
           "0": {
             "fwname": "Feuerwehr/Florian Bad Kreuzen (42101)",
             "fwnr": 407101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pabneukirchen (42107)",
+            "fwnr": 407107
           }
         },
         "inzeit": "",
