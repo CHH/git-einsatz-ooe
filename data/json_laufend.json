@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 11,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Esternberg",
+          "earea": "Esternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Esternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Esternberg",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "410113": {
+            "feuerwehr": "Feuerwehr/Florian Pyrawang (45113)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pyrawang (45113)",
+            "fwnr": 410113
+          }
+        },
+        "inzeit": "",
+        "num1": "E251200952",
+        "startzeit": "Mon, 08 Dec 2025 10:24:07 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5644",
+          "lng": "13.6061"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "GM - Bad Ischl",
         "einsatzsubtyp": {
@@ -39,6 +86,10 @@
             "fwnr": 403102
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Perneck (36506)",
+            "fwnr": 403102
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
             "fwnr": 403102
           }
