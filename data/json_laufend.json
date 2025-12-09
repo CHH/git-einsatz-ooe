@@ -1,65 +1,98 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ternberg",
-          "earea": "Ternberg",
+          "default": "Altheim",
+          "earea": "Altheim",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ternberg",
+          "emun": "Altheim",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 1,
         "einsatzart": "BRAND",
-        "einsatzort": "SE - Ternberg",
+        "einsatzort": "BR - Altheim",
         "einsatzsubtyp": {
-          "id": "BMAFW-BR",
-          "text": "Brandmeldealarm im Feuerwehrhaus"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
           "id": "B0-BMA",
           "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "411313": {
-            "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
-          },
-          "411314": {
-            "feuerwehr": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)"
-          },
-          "411316": {
-            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          "400361": {
+            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Schattleiten (46313)",
-            "fwnr": 411313
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)",
-            "fwnr": 411314
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Ternberg (46316)",
-            "fwnr": 411316
+            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
+            "fwnr": 400361
           }
         },
         "inzeit": "",
-        "num1": "E251201016",
-        "startzeit": "Tue, 09 Dec 2025 01:15:12 +0100",
+        "num1": "E251201019",
+        "startzeit": "Tue, 09 Dec 2025 01:53:07 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9572",
-          "lng": "14.3344"
+          "lat": "48.2483",
+          "lng": "13.2359"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Leonfelden",
+          "earea": "Bad Leonfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Leonfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          }
+        },
+        "inzeit": "",
+        "num1": "E251201018",
+        "startzeit": "Tue, 09 Dec 2025 01:46:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5223",
+          "lng": "14.2965"
         }
       }
     },
