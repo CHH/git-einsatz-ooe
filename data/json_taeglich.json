@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "BMAFW-BR",
+          "text": "Brandmeldealarm im Feuerwehrhaus"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411313": {
+            "feuerwehr": "Feuerwehr/Florian Schattleiten (46313)"
+          },
+          "411314": {
+            "feuerwehr": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)"
+          },
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schattleiten (46313)",
+            "fwnr": 411313
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schweinsegg-Zehetner (46314)",
+            "fwnr": 411314
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          }
+        },
+        "inzeit": "",
+        "num1": "E251201016",
+        "startzeit": "Tue, 09 Dec 2025 01:15:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9572",
+          "lng": "14.3344"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +100,10 @@
             "fwnr": 410302
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 09 Dec 2025 00:37:00 +0100",
         "num1": "E251201015",
         "startzeit": "Tue, 09 Dec 2025 00:11:36 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4678",
           "lng": "13.464"
