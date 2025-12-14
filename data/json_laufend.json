@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hinterstoder",
+          "earea": "Hinterstoder",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hinterstoder",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Hinterstoder",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "405401": {
+            "feuerwehr": "Feuerwehr/Florian Hinterstoder (38401)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterstoder (38401)",
+            "fwnr": 405401
+          }
+        },
+        "inzeit": "",
+        "num1": "E251201757",
+        "startzeit": "Sun, 14 Dec 2025 15:19:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7005",
+          "lng": "14.1536"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,57 +93,6 @@
         "wgs84": {
           "lat": "48.2088",
           "lng": "13.4324"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E251201755",
-        "startzeit": "Sun, 14 Dec 2025 14:43:28 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
         }
       }
     },
