@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Wimsbach-Neydharting",
+          "earea": "Bad Wimsbach-Neydharting",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Wimsbach-Neydharting",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Bad Wimsbach-Neydharting",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)"
+          },
+          "414104": {
+            "feuerwehr": "Feuerwehr/Florian Bergham-Kösslwang (51104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Wimsbach-Neydharting (51103)",
+            "fwnr": 414103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bergham-Kösslwang (51104)",
+            "fwnr": 414104
+          }
+        },
+        "inzeit": "",
+        "num1": "E251201781",
+        "startzeit": "Sun, 14 Dec 2025 19:17:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0399",
+          "lng": "13.8828"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -147,53 +201,6 @@
         "wgs84": {
           "lat": "48.2088",
           "lng": "13.4324"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Fischlham",
-          "earea": "Fischlham",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Fischlham",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 14,
-          "text": "Wels-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "WL - Fischlham",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "414206": {
-            "feuerwehr": "Feuerwehr/Florian Fischlham (51206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Fischlham (51206)",
-            "fwnr": 414206
-          }
-        },
-        "inzeit": "",
-        "num1": "E251201759",
-        "startzeit": "Sun, 14 Dec 2025 16:03:09 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0859",
-          "lng": "13.9489"
         }
       }
     },
