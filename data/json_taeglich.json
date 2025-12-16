@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wels",
+          "earea": "Wels",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wels",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 16,
+          "text": "Wels-Stadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "WE - Wels",
+        "einsatzsubtyp": {
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
+        },
+        "feuerwehren": {
+          "414207": {
+            "feuerwehr": "Feuerwehr/Florian Geisensheim (51207)"
+          },
+          "414213": {
+            "feuerwehr": "Feuerwehr/Florian Krenglbach (51213)"
+          },
+          "416101": {
+            "feuerwehr": "Feuerwehr/Florian Wels (52101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geisensheim (51207)",
+            "fwnr": 414207
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Krenglbach (51213)",
+            "fwnr": 414213
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Wels (52101)",
+            "fwnr": 416101
+          }
+        },
+        "inzeit": "",
+        "num1": "E251201955",
+        "startzeit": "Tue, 16 Dec 2025 02:40:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1585",
+          "lng": "14.0187"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +100,10 @@
             "fwnr": 409203
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 16 Dec 2025 01:41:00 +0100",
         "num1": "E251201951",
         "startzeit": "Tue, 16 Dec 2025 01:06:51 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": null,
           "lng": null
