@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 11,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hallstatt",
+          "earea": "Hallstatt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hallstatt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Hallstatt",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403105": {
+            "feuerwehr": "Feuerwehr/Florian Hallstatt (36105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hallstatt (36105)",
+            "fwnr": 403105
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202287",
+        "startzeit": "Thu, 18 Dec 2025 16:43:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5557",
+          "lng": "13.6461"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -142,60 +189,6 @@
         "wgs84": {
           "lat": "47.9685",
           "lng": "13.8966"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oepping",
-          "earea": "Oepping",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oepping",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "RO - Oepping",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "409406": {
-            "feuerwehr": "Feuerwehr/Florian Götzendorf (44406)"
-          },
-          "409423": {
-            "feuerwehr": "Feuerwehr/Florian Sprinzenstein (44423)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Götzendorf (44406)",
-            "fwnr": 409406
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sprinzenstein (44423)",
-            "fwnr": 409423
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202279",
-        "startzeit": "Thu, 18 Dec 2025 15:21:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5676",
-          "lng": "13.9498"
         }
       }
     }
