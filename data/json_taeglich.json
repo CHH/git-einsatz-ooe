@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202319",
+        "startzeit": "Fri, 19 Dec 2025 01:37:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Holzhausen",
+          "earea": "Holzhausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Holzhausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Holzhausen",
+        "einsatzsubtyp": {
+          "id": "BMA-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA-SONST",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "414211": {
+            "feuerwehr": "Feuerwehr/Florian Holzhausen (51211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Holzhausen (51211)",
+            "fwnr": 414211
+          }
+        },
+        "inzeit": "Fri, 19 Dec 2025 01:35:00 +0100",
+        "num1": "E251202318",
+        "startzeit": "Fri, 19 Dec 2025 01:06:05 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2208",
+          "lng": "14.1004"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
