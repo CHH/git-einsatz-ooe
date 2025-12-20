@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 7,
   "einsaetze": [
     {
@@ -17,7 +17,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "SD - Münzkirchen",
         "einsatzsubtyp": {
@@ -29,6 +29,9 @@
           "text": "Entlaufenes Tier"
         },
         "feuerwehren": {
+          "410116": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Roman (45116)"
+          },
           "410315": {
             "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
           },
@@ -38,10 +41,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Sankt Roman (45116)",
+            "fwnr": 410116
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
             "fwnr": 410315
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
             "fwnr": 410323
           }
@@ -161,53 +168,6 @@
         "wgs84": {
           "lat": "48.2663",
           "lng": "13.9272"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Maria Neustift",
-          "earea": "Maria Neustift",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Maria Neustift",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Maria Neustift",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411315": {
-            "feuerwehr": "Feuerwehr/Florian Sulzbach (SE) (46315)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sulzbach (SE) (46315)",
-            "fwnr": 411315
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202474",
-        "startzeit": "Sat, 20 Dec 2025 13:13:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9713",
-          "lng": "14.5738"
         }
       }
     }
