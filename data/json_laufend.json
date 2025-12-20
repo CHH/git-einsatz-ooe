@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mattighofen",
+          "earea": "Mattighofen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mattighofen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Mattighofen",
+        "einsatzsubtyp": {
+          "id": "TÜRPERS-TE",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "400212": {
+            "feuerwehr": "Feuerwehr/Florian Mattighofen (33212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mattighofen (33212)",
+            "fwnr": 400212
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202456",
+        "startzeit": "Sat, 20 Dec 2025 10:43:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0972",
+          "lng": "13.1559"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -21,12 +68,12 @@
         "einsatzart": "BRAND",
         "einsatzort": "WL - Edt bei Lambach",
         "einsatzsubtyp": {
-          "id": "CONTAINER-BR",
-          "text": "Brand Container im Freien"
+          "id": "ANHÄNGER-BR",
+          "text": "Brand Anhänger im Freien"
         },
         "einsatztyp": {
-          "id": "B0-FREI-ABF",
-          "text": "Brand Abfall im Freien"
+          "id": "B0-FZG-ANH",
+          "text": "Brand Anhänger im Freien"
         },
         "feuerwehren": {
           "414106": {
