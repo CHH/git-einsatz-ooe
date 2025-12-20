@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 27,
-  "cnt_feuerwehren": 32,
+  "cnt_einsaetze": 28,
+  "cnt_feuerwehren": 35,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kollerschlag",
+          "earea": "Kollerschlag",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kollerschlag",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Kollerschlag",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409411": {
+            "feuerwehr": "Feuerwehr/Florian Kollerschlag (44411)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kollerschlag (44411)",
+            "fwnr": 409411
+          }
+        },
+        "inzeit": "Sat, 20 Dec 2025 17:00:00 +0100",
+        "num1": "E251202489",
+        "startzeit": "Sat, 20 Dec 2025 16:36:31 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.6034",
+          "lng": "13.8399"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 3,
+        "cntfeuerwehren": 5,
         "einsatzart": "TEE",
         "einsatzort": "SD - Münzkirchen",
         "einsatzsubtyp": {
@@ -32,8 +79,14 @@
           "410116": {
             "feuerwehr": "Feuerwehr/Florian Sankt Roman (45116)"
           },
+          "410216": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Willibald (45216)"
+          },
           "410315": {
             "feuerwehr": "Feuerwehr/Florian Münzkirchen (45315)"
+          },
+          "410318": {
+            "feuerwehr": "Feuerwehr/Florian Reikersham (45318)"
           },
           "410323": {
             "feuerwehr": "Feuerwehr/Florian Schiessdorf (45323)"
@@ -45,10 +98,18 @@
             "fwnr": 410116
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Sankt Willibald (45216)",
+            "fwnr": 410216
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Münzkirchen (45315)",
             "fwnr": 410315
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Reikersham (45318)",
+            "fwnr": 410318
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Schiessdorf (45323)",
             "fwnr": 410323
           }
