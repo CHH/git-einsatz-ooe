@@ -1,7 +1,68 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Andorf",
+          "earea": "Andorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Andorf",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "SONSTIGE",
+        "einsatzort": "SD - Andorf",
+        "einsatzsubtyp": {
+          "id": "AMMONIAK-SCHAD",
+          "text": "Ammoniakaustritt"
+        },
+        "einsatztyp": {
+          "id": "S1-AMMONIAK",
+          "text": "Ammoniakaustritt"
+        },
+        "feuerwehren": {
+          "410202": {
+            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
+          },
+          "410217": {
+            "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
+          },
+          "410320": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Andorf (45202)",
+            "fwnr": 410202
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schulleredt (45217)",
+            "fwnr": 410217
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Marienkirchen bei Schärding (45320)",
+            "fwnr": 410320
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202731",
+        "startzeit": "Tue, 23 Dec 2025 13:46:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3708",
+          "lng": "13.5671"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,100 +107,6 @@
         "wgs84": {
           "lat": "48.4184",
           "lng": "13.6603"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Sierning",
-          "earea": "Sierning",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sierning",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - Sierning",
-        "einsatzsubtyp": {
-          "id": "UNFALLVERD-TE",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-UNFALL",
-          "text": "Türöffnung Unfallverdacht"
-        },
-        "feuerwehren": {
-          "411217": {
-            "feuerwehr": "Feuerwehr/Florian Sierning (46217)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sierning (46217)",
-            "fwnr": 411217
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202724",
-        "startzeit": "Tue, 23 Dec 2025 12:58:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0405",
-          "lng": "14.3116"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ansfelden",
-          "earea": "Ansfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ansfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Ansfelden",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "406261": {
-            "feuerwehr": "Feuerwehr/Florian Papier Nettingsdorf (39261)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Papier Nettingsdorf (39261)",
-            "fwnr": 406261
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202722",
-        "startzeit": "Tue, 23 Dec 2025 12:50:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1853",
-          "lng": "14.2565"
         }
       }
     },
