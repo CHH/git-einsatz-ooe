@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 25,
+  "cnt_feuerwehren": 27,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Willibald",
+          "earea": "St. Willibald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Willibald",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - St. Willibald",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410216": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Willibald (45216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Willibald (45216)",
+            "fwnr": 410216
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202829",
+        "startzeit": "Wed, 24 Dec 2025 13:17:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3605",
+          "lng": "13.6898"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +140,6 @@
         "wgs84": {
           "lat": "48.6489",
           "lng": "13.9714"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Leonfelden",
-          "earea": "Bad Leonfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Leonfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Bad Leonfelden",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "412110": {
-            "feuerwehr": "Feuerwehr/Florian Laimbach (49110)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Laimbach (49110)",
-            "fwnr": 412110
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202826",
-        "startzeit": "Wed, 24 Dec 2025 12:54:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5312",
-          "lng": "14.2942"
         }
       }
     },
@@ -306,7 +306,7 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 7,
+        "cntfeuerwehren": 9,
         "einsatzart": "TEE",
         "einsatzort": "SD - Andorf",
         "einsatzsubtyp": {
@@ -333,11 +333,17 @@
           "410213": {
             "feuerwehr": "Feuerwehr/Florian Pimpfing (45213)"
           },
+          "410214": {
+            "feuerwehr": "Feuerwehr/Florian Raab (45214)"
+          },
           "410217": {
             "feuerwehr": "Feuerwehr/Florian Schulleredt (45217)"
           },
           "410218": {
             "feuerwehr": "Feuerwehr/Florian Sigharting (45218)"
+          },
+          "410219": {
+            "feuerwehr": "Feuerwehr/Florian Steinbruck-Bründl (45219)"
           }
         },
         "feuerwehrenarray": {
@@ -362,12 +368,20 @@
             "fwnr": 410213
           },
           "5": {
+            "fwname": "Feuerwehr/Florian Raab (45214)",
+            "fwnr": 410214
+          },
+          "6": {
             "fwname": "Feuerwehr/Florian Schulleredt (45217)",
             "fwnr": 410217
           },
-          "6": {
+          "7": {
             "fwname": "Feuerwehr/Florian Sigharting (45218)",
             "fwnr": 410218
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Steinbruck-Bründl (45219)",
+            "fwnr": 410219
           }
         },
         "inzeit": "",
