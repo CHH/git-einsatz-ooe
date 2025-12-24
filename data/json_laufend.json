@@ -1,51 +1,58 @@
 {
-  "cnt_einsaetze": 11,
+  "cnt_einsaetze": 10,
   "cnt_feuerwehren": 16,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Frankenmarkt",
-          "earea": "Frankenmarkt",
+          "default": "St. Georgen am Fillmannsbach",
+          "earea": "St. Georgen am Fillmannsbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Frankenmarkt",
+          "emun": "St. Georgen am Fillmannsbach",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Frankenmarkt",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - St. Georgen am Fillmannsbach",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "413111": {
-            "feuerwehr": "Feuerwehr/Florian Frankenmarkt (50111)"
+          "400110": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
+          },
+          "400402": {
+            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Frankenmarkt (50111)",
-            "fwnr": 413111
+            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
+            "fwnr": 400110
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
+            "fwnr": 400402
           }
         },
         "inzeit": "",
-        "num1": "E251202880",
-        "startzeit": "Wed, 24 Dec 2025 19:51:08 +0100",
+        "num1": "E251202882",
+        "startzeit": "Wed, 24 Dec 2025 20:01:56 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9851",
-          "lng": "13.4109"
+          "lat": "48.1269",
+          "lng": "13.0179"
         }
       }
     },
@@ -93,53 +100,6 @@
         "wgs84": {
           "lat": "48.2137",
           "lng": "13.7807"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ampflwang im Hausruckwald",
-          "earea": "Ampflwang im Hausruckwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ampflwang im Hausruckwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Ampflwang im Hausruckwald",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "413402": {
-            "feuerwehr": "Feuerwehr/Florian Aigen (50402)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aigen (50402)",
-            "fwnr": 413402
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202878",
-        "startzeit": "Wed, 24 Dec 2025 19:34:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0793",
-          "lng": "13.5611"
         }
       }
     },
