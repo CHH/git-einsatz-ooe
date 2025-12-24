@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 12,
-  "cnt_feuerwehren": 22,
+  "cnt_feuerwehren": 24,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Manning",
+          "earea": "Manning",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Manning",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Manning",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "413305": {
+            "feuerwehr": "Feuerwehr/Florian Manning (50305)"
+          },
+          "413307": {
+            "feuerwehr": "Feuerwehr/Florian Ottnang am Hausruck (50307)"
+          },
+          "413416": {
+            "feuerwehr": "Feuerwehr/Florian Pilsbach (50416)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Manning (50305)",
+            "fwnr": 413305
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ottnang am Hausruck (50307)",
+            "fwnr": 413307
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pilsbach (50416)",
+            "fwnr": 413416
+          }
+        },
+        "inzeit": "",
+        "num1": "E251202852",
+        "startzeit": "Wed, 24 Dec 2025 17:05:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0868",
+          "lng": "13.6655"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +154,6 @@
         "wgs84": {
           "lat": "48.0512",
           "lng": "13.1464"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ampflwang im Hausruckwald",
-          "earea": "Ampflwang im Hausruckwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ampflwang im Hausruckwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Ampflwang im Hausruckwald",
-        "einsatzsubtyp": {
-          "id": "BAUMSTRAßE-TE",
-          "text": "Baum über Straße"
-        },
-        "einsatztyp": {
-          "id": "T0-SICH-BAUM-U",
-          "text": "Baum ist umgestürzt"
-        },
-        "feuerwehren": {
-          "413422": {
-            "feuerwehr": "Feuerwehr/Florian Schlagen (50422)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schlagen (50422)",
-            "fwnr": 413422
-          }
-        },
-        "inzeit": "",
-        "num1": "E251202847",
-        "startzeit": "Wed, 24 Dec 2025 16:46:51 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1043",
-          "lng": "13.5436"
         }
       }
     },
