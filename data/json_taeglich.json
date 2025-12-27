@@ -1,7 +1,202 @@
 {
-  "cnt_einsaetze": 28,
-  "cnt_feuerwehren": 28,
+  "cnt_einsaetze": 32,
+  "cnt_feuerwehren": 33,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "Sat, 27 Dec 2025 18:06:00 +0100",
+        "num1": "E251203086",
+        "startzeit": "Sat, 27 Dec 2025 18:05:18 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Alkoven",
+          "earea": "Alkoven",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Alkoven",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "EF - Alkoven",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203085",
+        "startzeit": "Sat, 27 Dec 2025 17:50:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2876",
+          "lng": "14.1102"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gosau",
+          "earea": "Gosau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gosau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Gosau",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "403104": {
+            "feuerwehr": "Feuerwehr/Florian Gosau (36104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gosau (36104)",
+            "fwnr": 403104
+          }
+        },
+        "inzeit": "Sat, 27 Dec 2025 18:07:00 +0100",
+        "num1": "E251203084",
+        "startzeit": "Sat, 27 Dec 2025 17:42:37 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "47.5773",
+          "lng": "13.5281"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ebensee am Traunsee",
+          "earea": "Ebensee am Traunsee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ebensee am Traunsee",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Ebensee am Traunsee",
+        "einsatzsubtyp": {
+          "id": "PERSZUG-VU",
+          "text": "Personenrettung Verkehrsunfall Zug"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-ZUG",
+          "text": "Personenrettung Verkehrsunfall Zug"
+        },
+        "feuerwehren": {
+          "403103": {
+            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          },
+          "403115": {
+            "feuerwehr": "Feuerwehr/Florian Roith (GM) (36115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ebensee (36103)",
+            "fwnr": 403103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Roith (GM) (36115)",
+            "fwnr": 403115
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203082",
+        "startzeit": "Sat, 27 Dec 2025 17:25:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8115",
+          "lng": "13.7753"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
