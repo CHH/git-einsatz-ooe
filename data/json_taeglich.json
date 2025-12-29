@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "GEWERBE-BR",
+          "text": "Brand Gewerbe"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
+        },
+        "feuerwehren": {
+          "413419": {
+            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
+          },
+          "413421": {
+            "feuerwehr": "Feuerwehr/Florian Rutzenmoos (50421)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Regau (50419)",
+            "fwnr": 413419
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Rutzenmoos (50421)",
+            "fwnr": 413421
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203152",
+        "startzeit": "Mon, 29 Dec 2025 03:06:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9893",
+          "lng": "13.6896"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +100,10 @@
             "fwnr": 402204
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 03:03:00 +0100",
         "num1": "E251203151",
         "startzeit": "Mon, 29 Dec 2025 01:24:24 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4187",
           "lng": "14.6081"
