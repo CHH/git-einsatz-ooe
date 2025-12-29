@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          },
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203236",
+        "startzeit": "Mon, 29 Dec 2025 19:15:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.366",
+          "lng": "14.5498"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +107,6 @@
         "wgs84": {
           "lat": "48.2178",
           "lng": "14.4792"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hellmonsödt",
-          "earea": "Hellmonsödt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hellmonsödt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "UU - Hellmonsödt",
-        "einsatzsubtyp": {
-          "id": "KAMIN-BR",
-          "text": "Brand Kamin"
-        },
-        "einsatztyp": {
-          "id": "B0-SONST-KAMIN",
-          "text": "Brand Kamin"
-        },
-        "feuerwehren": {
-          "412304": {
-            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
-            "fwnr": 412304
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203233",
-        "startzeit": "Mon, 29 Dec 2025 18:33:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4329",
-          "lng": "14.3014"
         }
       }
     },
