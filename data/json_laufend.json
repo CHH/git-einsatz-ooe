@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203225",
+        "startzeit": "Mon, 29 Dec 2025 17:40:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7109",
+          "lng": "13.6262"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,135 +140,6 @@
         "wgs84": {
           "lat": "48.0275",
           "lng": "14.0776"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Pantaleon",
-          "earea": "St. Pantaleon",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Pantaleon",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - St. Pantaleon",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "400411": {
-            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
-          },
-          "400412": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Pantaleon (33412)"
-          },
-          "400415": {
-            "feuerwehr": "Feuerwehr/Florian Trimmelkam (33415)"
-          },
-          "400416": {
-            "feuerwehr": "Feuerwehr/Florian Wildshut (33416)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
-            "fwnr": 400411
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sankt Pantaleon (33412)",
-            "fwnr": 400412
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Trimmelkam (33415)",
-            "fwnr": 400415
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Wildshut (33416)",
-            "fwnr": 400416
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203221",
-        "startzeit": "Mon, 29 Dec 2025 16:48:05 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0257",
-          "lng": "12.8675"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schalchen",
-          "earea": "Schalchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schalchen",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Schalchen",
-        "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB",
-          "text": "Brand Gebäude"
-        },
-        "feuerwehren": {
-          "400219": {
-            "feuerwehr": "Feuerwehr/Florian Schalchen (33219)"
-          },
-          "400222": {
-            "feuerwehr": "Feuerwehr/Florian Stallhofen (33222)"
-          },
-          "400227": {
-            "feuerwehr": "Feuerwehr/Florian Furth-Unterlochen (33227)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schalchen (33219)",
-            "fwnr": 400219
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Stallhofen (33222)",
-            "fwnr": 400222
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Furth-Unterlochen (33227)",
-            "fwnr": 400227
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203211",
-        "startzeit": "Mon, 29 Dec 2025 15:21:24 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1194",
-          "lng": "13.1549"
         }
       }
     },
