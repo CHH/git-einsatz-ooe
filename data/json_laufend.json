@@ -1,7 +1,75 @@
 {
   "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Pantaleon",
+          "earea": "St. Pantaleon",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Pantaleon",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - St. Pantaleon",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "400411": {
+            "feuerwehr": "Feuerwehr/Florian Ostermiething (33411)"
+          },
+          "400412": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Pantaleon (33412)"
+          },
+          "400415": {
+            "feuerwehr": "Feuerwehr/Florian Trimmelkam (33415)"
+          },
+          "400416": {
+            "feuerwehr": "Feuerwehr/Florian Wildshut (33416)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ostermiething (33411)",
+            "fwnr": 400411
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Pantaleon (33412)",
+            "fwnr": 400412
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Trimmelkam (33415)",
+            "fwnr": 400415
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Wildshut (33416)",
+            "fwnr": 400416
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203221",
+        "startzeit": "Mon, 29 Dec 2025 16:48:05 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0257",
+          "lng": "12.8675"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -208,53 +276,6 @@
         "wgs84": {
           "lat": "48.1194",
           "lng": "13.1549"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Micheldorf in OÖ",
-          "earea": "Micheldorf in OÖ",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Micheldorf in OÖ",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Micheldorf in OÖ",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405208": {
-            "feuerwehr": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Micheldorf In Oberösterreich (38208)",
-            "fwnr": 405208
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203196",
-        "startzeit": "Mon, 29 Dec 2025 12:53:21 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8777",
-          "lng": "14.1319"
         }
       }
     },
