@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 12,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Leonfelden",
+          "earea": "Bad Leonfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Leonfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "412125": {
+            "feuerwehr": "Feuerwehr/Florian Weigetschlag (49125)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Weigetschlag (49125)",
+            "fwnr": 412125
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203223",
+        "startzeit": "Mon, 29 Dec 2025 17:25:53 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5551",
+          "lng": "14.3119"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -18,15 +65,15 @@
           "text": "Kirchdorf"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "einsatzart": "TEE",
         "einsatzort": "KI - Ried im Traunkreis",
         "einsatzsubtyp": {
-          "id": "BMT-SELBST",
-          "text": "Brandmeldetaste Gedrückt"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
           "405306": {
@@ -114,107 +161,6 @@
         "wgs84": {
           "lat": "48.0257",
           "lng": "12.8675"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schwarzenberg am Böhmerwald",
-          "earea": "Schwarzenberg am Böhmerwald",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schwarzenberg am Böhmerwald",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - Schwarzenberg am Böhmerwald",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409108": {
-            "feuerwehr": "Feuerwehr/Florian Schwarzenberg (44108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schwarzenberg (44108)",
-            "fwnr": 409108
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203220",
-        "startzeit": "Mon, 29 Dec 2025 16:43:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.7291",
-          "lng": "13.8334"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pregarten",
-          "earea": "Pregarten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pregarten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "FR - Pregarten",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "402209": {
-            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
-          },
-          "402210": {
-            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pregarten (35209)",
-            "fwnr": 402209
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
-            "fwnr": 402210
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203215",
-        "startzeit": "Mon, 29 Dec 2025 15:51:26 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.366",
-          "lng": "14.5498"
         }
       }
     },
