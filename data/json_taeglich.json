@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 36,
-  "cnt_feuerwehren": 43,
+  "cnt_einsaetze": 39,
+  "cnt_feuerwehren": 46,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pregarten",
+          "earea": "Pregarten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pregarten",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Pregarten",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          },
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
+          },
+          "402210": {
+            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
+            "fwnr": 402210
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203236",
+        "startzeit": "Mon, 29 Dec 2025 19:15:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.366",
+          "lng": "14.5498"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enns",
+          "earea": "Enns",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "ELEKTROGEB-BR",
+          "text": "Brand Elektroanlage in Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203235",
+        "startzeit": "Mon, 29 Dec 2025 18:54:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2178",
+          "lng": "14.4792"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hellmonsödt",
+          "earea": "Hellmonsödt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hellmonsödt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Hellmonsödt",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BR",
+          "text": "Brand Kamin"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-KAMIN",
+          "text": "Brand Kamin"
+        },
+        "feuerwehren": {
+          "412304": {
+            "feuerwehr": "Feuerwehr/Florian Hellmonsödt (49304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hellmonsödt (49304)",
+            "fwnr": 412304
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203233",
+        "startzeit": "Mon, 29 Dec 2025 18:33:35 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4329",
+          "lng": "14.3014"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +201,10 @@
             "fwnr": 410110
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 19:01:00 +0100",
         "num1": "E251203231",
         "startzeit": "Mon, 29 Dec 2025 18:16:11 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4184",
           "lng": "13.6603"
@@ -187,10 +342,10 @@
             "fwnr": 409316
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 19:03:00 +0100",
         "num1": "E251203227",
         "startzeit": "Mon, 29 Dec 2025 17:56:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4723",
           "lng": "14.0437"
@@ -234,10 +389,10 @@
             "fwnr": 403114
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 19:11:00 +0100",
         "num1": "E251203226",
         "startzeit": "Mon, 29 Dec 2025 17:46:58 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8048",
           "lng": "13.793"
@@ -281,10 +436,10 @@
             "fwnr": 403102
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 18:28:00 +0100",
         "num1": "E251203225",
         "startzeit": "Mon, 29 Dec 2025 17:40:40 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.7109",
           "lng": "13.6262"
@@ -328,10 +483,10 @@
             "fwnr": 412125
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 18:22:00 +0100",
         "num1": "E251203223",
         "startzeit": "Mon, 29 Dec 2025 17:25:53 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5551",
           "lng": "14.3119"
@@ -375,10 +530,10 @@
             "fwnr": 405306
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 29 Dec 2025 19:02:00 +0100",
         "num1": "E251203222",
         "startzeit": "Mon, 29 Dec 2025 17:15:49 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0275",
           "lng": "14.0776"
