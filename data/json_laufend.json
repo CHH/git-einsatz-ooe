@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 11,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Traunkirchen",
-          "earea": "Traunkirchen",
+          "default": "St. Wolfgang im Salzkammergut",
+          "earea": "St. Wolfgang im Salzkammergut",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Traunkirchen",
+          "emun": "St. Wolfgang im Salzkammergut",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -19,7 +19,7 @@
         },
         "cntfeuerwehren": 1,
         "einsatzart": "PERSON",
-        "einsatzort": "GM - Traunkirchen",
+        "einsatzort": "GM - St. Wolfgang im Salzkammergut",
         "einsatzsubtyp": {
           "id": "AUFRÄUM-VU",
           "text": "Verkehrsunfall Aufräumarbeiten"
@@ -29,23 +29,91 @@
           "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
-          "403224": {
-            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
+          "403116": {
+            "feuerwehr": "Feuerwehr/Florian Rußbach (36116)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
-            "fwnr": 403224
+            "fwname": "Feuerwehr/Florian Rußbach (36116)",
+            "fwnr": 403116
           }
         },
         "inzeit": "",
-        "num1": "E251203284",
-        "startzeit": "Tue, 30 Dec 2025 11:36:36 +0100",
+        "num1": "E251203289",
+        "startzeit": "Tue, 30 Dec 2025 12:05:49 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8557",
-          "lng": "13.7805"
+          "lat": "47.7342",
+          "lng": "13.52"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "403101": {
+            "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
+          },
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403109": {
+            "feuerwehr": "Feuerwehr/Florian Lauffen (36109)"
+          },
+          "403112": {
+            "feuerwehr": "Feuerwehr/Florian Pfandl (36112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Goisern (36101)",
+            "fwnr": 403101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Lauffen (36109)",
+            "fwnr": 403109
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Pfandl (36112)",
+            "fwnr": 403112
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203288",
+        "startzeit": "Tue, 30 Dec 2025 11:59:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6731",
+          "lng": "13.6166"
         }
       }
     },
