@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Asten",
+          "earea": "Asten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Asten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Asten",
+        "einsatzsubtyp": {
+          "id": "KÜBEL-BR",
+          "text": "Brand Kübel im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "406101": {
+            "feuerwehr": "Feuerwehr/Florian Asten (39101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Asten (39101)",
+            "fwnr": 406101
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203337",
+        "startzeit": "Tue, 30 Dec 2025 19:24:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2186",
+          "lng": "14.4232"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +93,6 @@
         "wgs84": {
           "lat": "47.6632",
           "lng": "14.3396"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Seewalchen am Attersee",
-          "earea": "Seewalchen am Attersee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Seewalchen am Attersee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Seewalchen am Attersee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413522": {
-            "feuerwehr": "Feuerwehr/Florian Steindorf (50522)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steindorf (50522)",
-            "fwnr": 413522
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203330",
-        "startzeit": "Tue, 30 Dec 2025 18:18:04 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9636",
-          "lng": "13.5713"
         }
       }
     },
@@ -240,53 +240,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Altmünster",
-          "earea": "Altmünster",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altmünster",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Altmünster",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "403201": {
-            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Altmünster (36201)",
-            "fwnr": 403201
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203323",
-        "startzeit": "Tue, 30 Dec 2025 17:29:32 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8949",
-          "lng": "13.7663"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Stroheim",
           "earea": "Stroheim",
           "ecompl": "",
@@ -382,53 +335,6 @@
         "wgs84": {
           "lat": "47.6731",
           "lng": "13.6166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Niederthalheim",
-          "earea": "Niederthalheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Niederthalheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Niederthalheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413306": {
-            "feuerwehr": "Feuerwehr/Florian Niederthalheim (50306)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Niederthalheim (50306)",
-            "fwnr": 413306
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203268",
-        "startzeit": "Tue, 30 Dec 2025 10:04:27 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0999",
-          "lng": "13.7688"
         }
       }
     }
