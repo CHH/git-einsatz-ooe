@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Waldburg",
-          "earea": "Waldburg",
+          "default": "Liebenau",
+          "earea": "Liebenau",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Waldburg",
+          "emun": "Liebenau",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -17,49 +17,143 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 3,
-        "einsatzart": "BRAND",
-        "einsatzort": "FR - Waldburg",
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Liebenau",
         "einsatzsubtyp": {
-          "id": "GEBÜSCH-BR",
-          "text": "Brand Gebüsch"
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
         },
         "feuerwehren": {
-          "402129": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Peter (35129)"
-          },
-          "402130": {
-            "feuerwehr": "Feuerwehr/Florian Schwandt-Freudenthal (35130)"
-          },
-          "402136": {
-            "feuerwehr": "Feuerwehr/Florian Waldburg (35136)"
+          "402317": {
+            "feuerwehr": "Feuerwehr/Florian Schöneben (35317)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Peter (35129)",
-            "fwnr": 402129
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schwandt-Freudenthal (35130)",
-            "fwnr": 402130
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Waldburg (35136)",
-            "fwnr": 402136
+            "fwname": "Feuerwehr/Florian Schöneben (35317)",
+            "fwnr": 402317
           }
         },
         "inzeit": "",
-        "num1": "E251203390",
-        "startzeit": "Wed, 31 Dec 2025 16:58:32 +0100",
+        "num1": "E251203396",
+        "startzeit": "Wed, 31 Dec 2025 17:37:44 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5087",
-          "lng": "14.4366"
+          "lat": "48.5344",
+          "lng": "14.7395"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Traun",
+          "earea": "Traun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Traun",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Traun",
+        "einsatzsubtyp": {
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
+        },
+        "feuerwehren": {
+          "406222": {
+            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          },
+          "406263": {
+            "feuerwehr": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.H. (39263)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Traun (39222)",
+            "fwnr": 406222
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Dr. Franz Feurstein Ges.m.b.H. (39263)",
+            "fwnr": 406263
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203394",
+        "startzeit": "Wed, 31 Dec 2025 17:30:19 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2254",
+          "lng": "14.252"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gmunden",
+          "earea": "Gmunden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gmunden",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Gmunden",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "403207": {
+            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          },
+          "403217": {
+            "feuerwehr": "Feuerwehr/Florian Pinsdorf (36217)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gmunden (36207)",
+            "fwnr": 403207
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Pinsdorf (36217)",
+            "fwnr": 403217
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203393",
+        "startzeit": "Wed, 31 Dec 2025 17:29:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9166",
+          "lng": "13.8048"
         }
       }
     },
