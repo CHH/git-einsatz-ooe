@@ -1,6 +1,6 @@
 {
-  "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 18,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,12 +12,12 @@
           "emun": "Garsten",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 5,
+        "cntfeuerwehren": 11,
         "einsatzart": "BRAND",
         "einsatzort": "SE - Garsten",
         "einsatzsubtyp": {
@@ -29,11 +29,17 @@
           "text": "Brand Gebäude"
         },
         "feuerwehren": {
+          "411201": {
+            "feuerwehr": "Feuerwehr/Florian Aschach an der Steyr (46201)"
+          },
           "411204": {
             "feuerwehr": "Feuerwehr/Florian Garsten (46204)"
           },
           "411210": {
             "feuerwehr": "Feuerwehr/Florian Oberdambach (46210)"
+          },
+          "411212": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Ulrich bei Steyr (46212)"
           },
           "411213": {
             "feuerwehr": "Feuerwehr/Florian Saass (46213)"
@@ -43,28 +49,55 @@
           },
           "411216": {
             "feuerwehr": "Feuerwehr/Florian Schwaming (46216)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Aschach an der Steyr (46201)",
+            "fwnr": 411201
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Garsten (46204)",
             "fwnr": 411204
           },
-          "1": {
+          "10": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Oberdambach (46210)",
             "fwnr": 411210
           },
-          "2": {
+          "3": {
+            "fwname": "Feuerwehr/Florian Sankt Ulrich bei Steyr (46212)",
+            "fwnr": 411212
+          },
+          "4": {
             "fwname": "Feuerwehr/Florian Saass (46213)",
             "fwnr": 411213
           },
-          "3": {
+          "5": {
             "fwname": "Feuerwehr/Florian Sand (46214)",
             "fwnr": 411214
           },
-          "4": {
+          "6": {
             "fwname": "Feuerwehr/Florian Schwaming (46216)",
             "fwnr": 411216
+          },
+          "7": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 1 Innere Stadt (47101)",
+            "fwnr": 415101
+          },
+          "8": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
+            "fwnr": 415101
+          },
+          "9": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -74,100 +107,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ried im Innkreis",
-          "earea": "Ried im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ried im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "RI - Ried im Innkreis",
-        "einsatzsubtyp": {
-          "id": "PERSMISSLAGE-TE",
-          "text": "Person in misslicher Lage"
-        },
-        "einsatztyp": {
-          "id": "T0-PERS-MISSLAGE",
-          "text": "Person in misslicher Lage"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203378",
-        "startzeit": "Wed, 31 Dec 2025 13:41:07 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2102",
-          "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Grieskirchen",
-          "earea": "Grieskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Grieskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Grieskirchen",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "404104": {
-            "feuerwehr": "Feuerwehr/Florian Grieskirchen (37104)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Grieskirchen (37104)",
-            "fwnr": 404104
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203377",
-        "startzeit": "Wed, 31 Dec 2025 13:37:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2362",
-          "lng": "13.8166"
         }
       }
     },
@@ -262,53 +201,6 @@
         "wgs84": {
           "lat": "47.8048",
           "lng": "13.793"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Waizenkirchen",
-          "earea": "Waizenkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Waizenkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "GR - Waizenkirchen",
-        "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
-        },
-        "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
-        },
-        "feuerwehren": {
-          "404324": {
-            "feuerwehr": "Feuerwehr/Florian Waizenkirchen (37324)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Waizenkirchen (37324)",
-            "fwnr": 404324
-          }
-        },
-        "inzeit": "",
-        "num1": "E251203369",
-        "startzeit": "Wed, 31 Dec 2025 12:15:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3305",
-          "lng": "13.8543"
         }
       }
     },
