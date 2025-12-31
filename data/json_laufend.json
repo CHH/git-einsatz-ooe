@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 18,
-  "cnt_feuerwehren": 36,
+  "cnt_feuerwehren": 37,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Marchtrenk",
+          "earea": "Marchtrenk",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Marchtrenk",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "WL - Marchtrenk",
+        "einsatzsubtyp": {
+          "id": "ABFALLCONT-BR",
+          "text": "Brand Abfallcontainer"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "414211": {
+            "feuerwehr": "Feuerwehr/Florian Holzhausen (51211)"
+          },
+          "414212": {
+            "feuerwehr": "Feuerwehr/Florian Kappern (51212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Holzhausen (51211)",
+            "fwnr": 414211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kappern (51212)",
+            "fwnr": 414212
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100028",
+        "startzeit": "Thu, 01 Jan 2026 00:51:40 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1921",
+          "lng": "14.1187"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -736,71 +790,6 @@
         "wgs84": {
           "lat": "47.5773",
           "lng": "13.5281"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Garsten",
-          "earea": "Garsten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Garsten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "BRAND",
-        "einsatzort": "SE - Garsten",
-        "einsatzsubtyp": {
-          "id": "WIESE-BR",
-          "text": "Brand Wiese"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "411204": {
-            "feuerwehr": "Feuerwehr/Florian Garsten (46204)"
-          },
-          "411216": {
-            "feuerwehr": "Feuerwehr/Florian Schwaming (46216)"
-          },
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Garsten (46204)",
-            "fwnr": 411204
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schwaming (46216)",
-            "fwnr": 411216
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Zug 4 Christkindl (47104)",
-            "fwnr": 415101
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100004",
-        "startzeit": "Thu, 01 Jan 2026 00:08:22 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9786",
-          "lng": "14.4006"
         }
       }
     },
