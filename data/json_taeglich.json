@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gutau",
+          "earea": "Gutau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gutau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Gutau",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "402204": {
+            "feuerwehr": "Feuerwehr/Florian Gutau (35204)"
+          },
+          "402208": {
+            "feuerwehr": "Feuerwehr/Florian Selker-Neustadt (35208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gutau (35204)",
+            "fwnr": 402204
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Selker-Neustadt (35208)",
+            "fwnr": 402208
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203355",
+        "startzeit": "Wed, 31 Dec 2025 09:17:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4187",
+          "lng": "14.6081"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bruck-Waasen",
+          "earea": "Bruck-Waasen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bruck-Waasen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - Bruck-Waasen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404304": {
+            "feuerwehr": "Feuerwehr/Florian Bruck-Waasen (37304)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bruck-Waasen (37304)",
+            "fwnr": 404304
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203354",
+        "startzeit": "Wed, 31 Dec 2025 08:59:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.327",
+          "lng": "13.7824"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tragwein",
+          "earea": "Tragwein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tragwein",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Tragwein",
+        "einsatzsubtyp": {
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
+        },
+        "feuerwehren": {
+          "402206": {
+            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
+          },
+          "402207": {
+            "feuerwehr": "Feuerwehr/Florian Mistlberg (FR) (35207)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
+            "fwnr": 402206
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mistlberg (FR) (35207)",
+            "fwnr": 402207
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
+          }
+        },
+        "inzeit": "",
+        "num1": "E251203353",
+        "startzeit": "Wed, 31 Dec 2025 08:36:20 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3308",
+          "lng": "14.6181"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +201,10 @@
             "fwnr": 412205
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 31 Dec 2025 08:35:00 +0100",
         "num1": "E251203352",
         "startzeit": "Wed, 31 Dec 2025 08:10:57 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.426",
           "lng": "14.2384"
