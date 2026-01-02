@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kirchdorf an der Krems",
-          "earea": "Kirchdorf an der Krems",
+          "default": "Sandl",
+          "earea": "Sandl",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kirchdorf an der Krems",
+          "emun": "Sandl",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
+          "id": 2,
+          "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Kirchdorf an der Krems",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Sandl",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
         },
         "feuerwehren": {
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          "402414": {
+            "feuerwehr": "Feuerwehr/Florian Pürstling (35414)"
+          },
+          "402417": {
+            "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
+            "fwname": "Feuerwehr/Florian Pürstling (35414)",
+            "fwnr": 402414
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sandl (35417)",
+            "fwnr": 402417
           }
         },
         "inzeit": "",
-        "num1": "E260100126",
-        "startzeit": "Fri, 02 Jan 2026 09:23:30 +0100",
+        "num1": "E260100128",
+        "startzeit": "Fri, 02 Jan 2026 09:40:45 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9059",
-          "lng": "14.1194"
+          "lat": "48.5601",
+          "lng": "14.647"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100127",
+        "startzeit": "Fri, 02 Jan 2026 09:37:31 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9959",
+          "lng": "14.2594"
         }
       }
     },
