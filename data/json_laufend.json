@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 14,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100208",
+        "startzeit": "Fri, 02 Jan 2026 20:30:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2652",
+          "lng": "14.2551"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -53,53 +100,6 @@
         "wgs84": {
           "lat": "48.3462",
           "lng": "14.1611"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Unterweißenbach",
-          "earea": "Unterweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Unterweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Unterweißenbach",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402319": {
-            "feuerwehr": "Feuerwehr/Florian Unterweißenbach (35319)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Unterweißenbach (35319)",
-            "fwnr": 402319
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100204",
-        "startzeit": "Fri, 02 Jan 2026 19:42:54 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4397",
-          "lng": "14.7827"
         }
       }
     },
@@ -200,60 +200,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Sandl",
-          "earea": "Sandl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Sandl",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - Sandl",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "402416": {
-            "feuerwehr": "Feuerwehr/Florian Rauchenödt (35416)"
-          },
-          "402417": {
-            "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Rauchenödt (35416)",
-            "fwnr": 402416
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Sandl (35417)",
-            "fwnr": 402417
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100199",
-        "startzeit": "Fri, 02 Jan 2026 19:01:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5601",
-          "lng": "14.647"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Rainbach im Mühlkreis",
           "earea": "Rainbach im Mühlkreis",
           "ecompl": "",
@@ -295,88 +241,6 @@
         "wgs84": {
           "lat": "48.5574",
           "lng": "14.4831"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Lengau",
-          "earea": "Lengau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Lengau",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 6,
-        "einsatzart": "BRAND",
-        "einsatzort": "BR - Lengau",
-        "einsatzsubtyp": {
-          "id": "INDUSTRIE-BR",
-          "text": "Brand Industrie"
-        },
-        "einsatztyp": {
-          "id": "B1-GEB-INDUSTRIE",
-          "text": "Brand Industrie"
-        },
-        "feuerwehren": {
-          "400205": {
-            "feuerwehr": "Feuerwehr/Florian Markt Friedburg (33205)"
-          },
-          "400209": {
-            "feuerwehr": "Feuerwehr/Florian Lengau (33209)"
-          },
-          "400213": {
-            "feuerwehr": "Feuerwehr/Florian Munderfing (33213)"
-          },
-          "400220": {
-            "feuerwehr": "Feuerwehr/Florian Schneegattern (33220)"
-          },
-          "400223": {
-            "feuerwehr": "Feuerwehr/Florian Teichstätt (33223)"
-          },
-          "400225": {
-            "feuerwehr": "Feuerwehr/Florian Utzweih-Igelsberg (33225)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Markt Friedburg (33205)",
-            "fwnr": 400205
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Lengau (33209)",
-            "fwnr": 400209
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Munderfing (33213)",
-            "fwnr": 400213
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Schneegattern (33220)",
-            "fwnr": 400220
-          },
-          "4": {
-            "fwname": "Feuerwehr/Florian Teichstätt (33223)",
-            "fwnr": 400223
-          },
-          "5": {
-            "fwname": "Feuerwehr/Florian Utzweih-Igelsberg (33225)",
-            "fwnr": 400225
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100176",
-        "startzeit": "Fri, 02 Jan 2026 15:12:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0241",
-          "lng": "13.2928"
         }
       }
     }
