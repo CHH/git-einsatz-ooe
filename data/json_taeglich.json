@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 54,
-  "cnt_feuerwehren": 74,
+  "cnt_einsaetze": 55,
+  "cnt_feuerwehren": 75,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Leonding",
+          "earea": "Leonding",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Leonding",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Leonding",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406208": {
+            "feuerwehr": "Feuerwehr/Florian Hart (LL) (39208)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hart (LL) (39208)",
+            "fwnr": 406208
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100208",
+        "startzeit": "Fri, 02 Jan 2026 20:30:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2652",
+          "lng": "14.2551"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,10 +140,10 @@
             "fwnr": 402319
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 02 Jan 2026 20:31:00 +0100",
         "num1": "E260100204",
         "startzeit": "Fri, 02 Jan 2026 19:42:54 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4397",
           "lng": "14.7827"
@@ -234,10 +281,10 @@
             "fwnr": 410104
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 02 Jan 2026 20:53:00 +0100",
         "num1": "E260100201",
         "startzeit": "Fri, 02 Jan 2026 19:12:31 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4184",
           "lng": "13.6603"
@@ -335,10 +382,10 @@
             "fwnr": 402417
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 02 Jan 2026 20:26:00 +0100",
         "num1": "E260100199",
         "startzeit": "Fri, 02 Jan 2026 19:01:40 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5601",
           "lng": "14.647"
@@ -893,53 +940,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Schönau im Mühlkreis",
-          "earea": "Schönau im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schönau im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "FR - Schönau im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "402316": {
-            "feuerwehr": "Feuerwehr/Florian Schönau im Mühlkreis (35316)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schönau im Mühlkreis (35316)",
-            "fwnr": 402316
-          }
-        },
-        "inzeit": "Fri, 02 Jan 2026 16:42:00 +0100",
-        "num1": "E260100177",
-        "startzeit": "Fri, 02 Jan 2026 15:20:43 +0100",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.3926",
-          "lng": "14.7312"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Neumarkt im Mühlkreis",
           "earea": "Neumarkt im Mühlkreis",
           "ecompl": "",
@@ -988,6 +988,53 @@
         "wgs84": {
           "lat": "48.4545",
           "lng": "14.4769"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schönau im Mühlkreis",
+          "earea": "Schönau im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schönau im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "FR - Schönau im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "402316": {
+            "feuerwehr": "Feuerwehr/Florian Schönau im Mühlkreis (35316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schönau im Mühlkreis (35316)",
+            "fwnr": 402316
+          }
+        },
+        "inzeit": "Fri, 02 Jan 2026 16:42:00 +0100",
+        "num1": "E260100177",
+        "startzeit": "Fri, 02 Jan 2026 15:20:43 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.3926",
+          "lng": "14.7312"
         }
       }
     },
@@ -1063,10 +1110,10 @@
             "fwnr": 400225
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 02 Jan 2026 20:30:00 +0100",
         "num1": "E260100176",
         "startzeit": "Fri, 02 Jan 2026 15:12:58 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0241",
           "lng": "13.2928"
