@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Nußdorf am Attersee",
+          "earea": "Nußdorf am Attersee",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Nußdorf am Attersee",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Nußdorf am Attersee",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413513": {
+            "feuerwehr": "Feuerwehr/Florian Nußdorf am Attersee (50513)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nußdorf am Attersee (50513)",
+            "fwnr": 413513
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100131",
+        "startzeit": "Fri, 02 Jan 2026 09:53:48 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.886",
+          "lng": "13.5223"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ternberg",
+          "earea": "Ternberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ternberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Ternberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100129",
+        "startzeit": "Fri, 02 Jan 2026 09:47:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9462",
+          "lng": "14.3603"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,18 +111,21 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "FR - Sandl",
         "einsatzsubtyp": {
-          "id": "PKW-BR",
-          "text": "Brand PKW im Freien"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "B0-FZG-PKW",
-          "text": "Brand PKW im Freien"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402414": {
             "feuerwehr": "Feuerwehr/Florian Pürstling (35414)"
           },
@@ -38,10 +135,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Pürstling (35414)",
             "fwnr": 402414
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Sandl (35417)",
             "fwnr": 402417
           }
