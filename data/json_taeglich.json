@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schlüßlberg",
+          "earea": "Schlüßlberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schlüßlberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "GR - Schlüßlberg",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "404122": {
+            "feuerwehr": "Feuerwehr/Florian Schlüßlberg (37122)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schlüßlberg (37122)",
+            "fwnr": 404122
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100216",
+        "startzeit": "Sat, 03 Jan 2026 05:15:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.221",
+          "lng": "13.872"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +93,10 @@
             "fwnr": 410321
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 03 Jan 2026 05:15:00 +0100",
         "num1": "E260100215",
         "startzeit": "Sat, 03 Jan 2026 03:40:27 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4422",
           "lng": "13.4435"
