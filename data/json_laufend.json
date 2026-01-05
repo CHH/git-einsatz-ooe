@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 11,
-  "cnt_feuerwehren": 25,
+  "cnt_einsaetze": 10,
+  "cnt_feuerwehren": 23,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwanenstadt",
+          "earea": "Schwanenstadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwanenstadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "VB - Schwanenstadt",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "413315": {
+            "feuerwehr": "Feuerwehr/Florian Schwanenstadt (50315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwanenstadt (50315)",
+            "fwnr": 413315
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100548",
+        "startzeit": "Mon, 05 Jan 2026 20:50:14 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0582",
+          "lng": "13.7817"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -99,53 +146,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Überackern",
-          "earea": "Überackern",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Überackern",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Überackern",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400113": {
-            "feuerwehr": "Feuerwehr/Florian Überackern (33113)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Überackern (33113)",
-            "fwnr": 400113
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100543",
-        "startzeit": "Mon, 05 Jan 2026 19:41:43 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1914",
-          "lng": "12.875"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Hochburg-Ach",
           "earea": "Hochburg-Ach",
           "ecompl": "",
@@ -234,60 +234,6 @@
         "wgs84": {
           "lat": "48.1473",
           "lng": "12.8174"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pettenbach",
-          "earea": "Pettenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pettenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Pettenbach",
-        "einsatzsubtyp": {
-          "id": "GEBÜSCH-BR",
-          "text": "Brand Gebüsch"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "405211": {
-            "feuerwehr": "Feuerwehr/Florian Pettenbach (38211)"
-          },
-          "405212": {
-            "feuerwehr": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pettenbach (38211)",
-            "fwnr": 405211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Pratsdorf-Hammersdorf (38212)",
-            "fwnr": 405212
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100539",
-        "startzeit": "Mon, 05 Jan 2026 19:34:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.97",
-          "lng": "14.0544"
         }
       }
     },
