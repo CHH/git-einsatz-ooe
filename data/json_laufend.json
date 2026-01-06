@@ -1,7 +1,109 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aurolzmünster",
+          "earea": "Aurolzmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aurolzmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Aurolzmünster",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408105": {
+            "feuerwehr": "Feuerwehr/Florian Aurolzmünster (43105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aurolzmünster (43105)",
+            "fwnr": 408105
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100576",
+        "startzeit": "Tue, 06 Jan 2026 13:21:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2502",
+          "lng": "13.4525"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Neuhofen im Innkreis",
+          "earea": "Neuhofen im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Neuhofen im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Neuhofen im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TRAGEUNTST-TE",
+          "text": "Tragehilfe"
+        },
+        "einsatztyp": {
+          "id": "T0-UNTST-TRAGE",
+          "text": "Tragehilfe"
+        },
+        "feuerwehren": {
+          "408216": {
+            "feuerwehr": "Feuerwehr/Florian Neuhofen im Innkreis (43216)"
+          },
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Neuhofen im Innkreis (43216)",
+            "fwnr": 408216
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100574",
+        "startzeit": "Tue, 06 Jan 2026 13:07:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.193",
+          "lng": "13.4714"
+        }
+      }
+    }
+  ],
   "title": "laufend",
   "version": "1.3.1",
   "webext2": true
