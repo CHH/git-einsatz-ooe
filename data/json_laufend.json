@@ -1,51 +1,58 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
+          "default": "Weng im Innkreis",
+          "earea": "Weng im Innkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Vorderweißenbach",
+          "emun": "Weng im Innkreis",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Vorderweißenbach",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Weng im Innkreis",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "412122": {
-            "feuerwehr": "Feuerwehr/Florian Vorderweißenbach (49122)"
+          "400106": {
+            "feuerwehr": "Feuerwehr/Florian Mining (33106)"
+          },
+          "400322": {
+            "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Vorderweißenbach (49122)",
-            "fwnr": 412122
+            "fwname": "Feuerwehr/Florian Mining (33106)",
+            "fwnr": 400106
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
+            "fwnr": 400322
           }
         },
         "inzeit": "",
-        "num1": "E260100644",
-        "startzeit": "Wed, 07 Jan 2026 14:07:28 +0100",
+        "num1": "E260100648",
+        "startzeit": "Wed, 07 Jan 2026 14:35:03 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.553",
-          "lng": "14.219"
+          "lat": "48.2345",
+          "lng": "13.1782"
         }
       }
     },
@@ -93,100 +100,6 @@
         "wgs84": {
           "lat": "48.4679",
           "lng": "14.1652"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Walding",
-          "earea": "Walding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Walding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "UU - Walding",
-        "einsatzsubtyp": {
-          "id": "GEBÜSCH-BR",
-          "text": "Brand Gebüsch"
-        },
-        "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
-        },
-        "feuerwehren": {
-          "412221": {
-            "feuerwehr": "Feuerwehr/Florian Walding (49221)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Walding (49221)",
-            "fwnr": 412221
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100641",
-        "startzeit": "Wed, 07 Jan 2026 13:48:19 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3462",
-          "lng": "14.1611"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Arbing",
-          "earea": "Arbing",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Arbing",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "PE - Arbing",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "407302": {
-            "feuerwehr": "Feuerwehr/Florian Arbing (42302)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Arbing (42302)",
-            "fwnr": 407302
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100639",
-        "startzeit": "Wed, 07 Jan 2026 13:06:50 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2301",
-          "lng": "14.6991"
         }
       }
     }
