@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kirchdorf an der Krems",
-          "earea": "Kirchdorf an der Krems",
+          "default": "Altmünster",
+          "earea": "Altmünster",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kirchdorf an der Krems",
+          "emun": "Altmünster",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
+          "id": 3,
+          "text": "Gmunden"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "KI - Kirchdorf an der Krems",
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Altmünster",
         "einsatzsubtyp": {
-          "id": "VERDACHT-BR",
-          "text": "Brandverdacht"
+          "id": "FZGKLTBERGEN-TE",
+          "text": "Bergung Kleintransporter"
         },
         "einsatztyp": {
-          "id": "B0-SONST-VERDACH",
-          "text": "Brandverdacht"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
-          "405205": {
-            "feuerwehr": "Feuerwehr/Florian Kirchdorf an der Krems (38205)"
+          "403219": {
+            "feuerwehr": "Feuerwehr/Florian Reindlmühl (36219)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kirchdorf an der Krems (38205)",
-            "fwnr": 405205
+            "fwname": "Feuerwehr/Florian Reindlmühl (36219)",
+            "fwnr": 403219
           }
         },
         "inzeit": "",
-        "num1": "E260100923",
-        "startzeit": "Thu, 08 Jan 2026 21:52:10 +0100",
+        "num1": "E260100925",
+        "startzeit": "Thu, 08 Jan 2026 22:48:13 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9059",
-          "lng": "14.1194"
+          "lat": "47.8962",
+          "lng": "13.7141"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ulrichsberg",
+          "earea": "Ulrichsberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ulrichsberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Ulrichsberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409109": {
+            "feuerwehr": "Feuerwehr/Florian Ulrichsberg (44109)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ulrichsberg (44109)",
+            "fwnr": 409109
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100924",
+        "startzeit": "Thu, 08 Jan 2026 22:40:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.6748",
+          "lng": "13.9186"
         }
       }
     }
