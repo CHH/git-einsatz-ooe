@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried in der Riedmark",
+          "earea": "Ried in der Riedmark",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried in der Riedmark",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "PE - Ried in der Riedmark",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "407209": {
+            "feuerwehr": "Feuerwehr/Florian Lungitz (42209)"
+          },
+          "407214": {
+            "feuerwehr": "Feuerwehr/Florian Ried in der Riedmark (42214)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Lungitz (42209)",
+            "fwnr": 407209
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ried in der Riedmark (42214)",
+            "fwnr": 407214
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100892",
+        "startzeit": "Thu, 08 Jan 2026 18:40:56 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2711",
+          "lng": "14.5317"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.5056",
           "lng": "13.7335"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Altheim",
-          "earea": "Altheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Altheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Altheim",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400361": {
-            "feuerwehr": "Feuerwehr/Florian Wiesner & Hager (33361)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Wiesner & Hager (33361)",
-            "fwnr": 400361
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100731",
-        "startzeit": "Thu, 08 Jan 2026 06:38:31 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2483",
-          "lng": "13.2359"
         }
       }
     }
