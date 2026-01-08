@@ -1,7 +1,61 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 11,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 10,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Enzenkirchen",
+          "earea": "Enzenkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Enzenkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Enzenkirchen",
+        "einsatzsubtyp": {
+          "id": "KAMIN-BR",
+          "text": "Brand Kamin"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-KAMIN",
+          "text": "Brand Kamin"
+        },
+        "feuerwehren": {
+          "410206": {
+            "feuerwehr": "Feuerwehr/Florian Enzenkirchen (45206)"
+          },
+          "410210": {
+            "feuerwehr": "Feuerwehr/Florian Matzing (45210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enzenkirchen (45206)",
+            "fwnr": 410206
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Matzing (45210)",
+            "fwnr": 410210
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100857",
+        "startzeit": "Thu, 08 Jan 2026 15:02:15 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3882",
+          "lng": "13.6427"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -106,53 +160,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Liebenau",
-          "earea": "Liebenau",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Liebenau",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Liebenau",
-        "einsatzsubtyp": {
-          "id": "FZGKLTBERGEN-TE",
-          "text": "Bergung Kleintransporter"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "402308": {
-            "feuerwehr": "Feuerwehr/Florian Liebenstein (35308)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Liebenstein (35308)",
-            "fwnr": 402308
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100817",
-        "startzeit": "Thu, 08 Jan 2026 14:25:06 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5092",
-          "lng": "14.7798"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Losenstein",
           "earea": "Losenstein",
           "ecompl": "",
@@ -194,100 +201,6 @@
         "wgs84": {
           "lat": "47.9212",
           "lng": "14.4394"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Florian",
-          "earea": "St. Florian",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Florian",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - St. Florian",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "406110": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Florian-Markt (39110)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Florian-Markt (39110)",
-            "fwnr": 406110
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100813",
-        "startzeit": "Thu, 08 Jan 2026 14:13:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2045",
-          "lng": "14.3718"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Bad Ischl",
-          "earea": "Bad Ischl",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Bad Ischl",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Bad Ischl",
-        "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
-        },
-        "feuerwehren": {
-          "403102": {
-            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
-            "fwnr": 403102
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100807",
-        "startzeit": "Thu, 08 Jan 2026 13:43:41 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.7024",
-          "lng": "13.6299"
         }
       }
     },
