@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Reiterndorf (36503)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Reiterndorf (36503)",
+            "fwnr": 403102
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100807",
+        "startzeit": "Thu, 08 Jan 2026 13:43:41 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7024",
+          "lng": "13.6299"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,71 +93,6 @@
         "wgs84": {
           "lat": "48.5574",
           "lng": "14.4831"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Waldneukirchen",
-          "earea": "Waldneukirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Waldneukirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 4,
-        "einsatzart": "TEE",
-        "einsatzort": "SE - Waldneukirchen",
-        "einsatzsubtyp": {
-          "id": "GROßLKWBERGEN-TE",
-          "text": "Bergung LKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-GROßFZG",
-          "text": "Bergung Großfahrzeug"
-        },
-        "feuerwehren": {
-          "411106": {
-            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
-          },
-          "411205": {
-            "feuerwehr": "Feuerwehr/Florian Hilbern (46205)"
-          },
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
-            "fwnr": 411106
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Hilbern (46205)",
-            "fwnr": 411205
-          },
-          "2": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "3": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
-          }
-        },
-        "inzeit": "",
-        "num1": "E260100771",
-        "startzeit": "Thu, 08 Jan 2026 10:39:29 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.014",
-          "lng": "14.2774"
         }
       }
     },
