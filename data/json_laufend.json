@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Agatha",
+          "earea": "St. Agatha",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Agatha",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "GR - St. Agatha",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "404317": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Agatha / GR (37317)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Agatha / GR (37317)",
+            "fwnr": 404317
+          }
+        },
+        "inzeit": "",
+        "num1": "E260100894",
+        "startzeit": "Thu, 08 Jan 2026 19:03:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3883",
+          "lng": "13.8772"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "PERSON",
         "einsatzort": "PE - Ried in der Riedmark",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "407209": {
             "feuerwehr": "Feuerwehr/Florian Lungitz (42209)"
           },
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
+          },
           "407214": {
             "feuerwehr": "Feuerwehr/Florian Ried in der Riedmark (42214)"
           }
@@ -42,6 +92,10 @@
             "fwnr": 407209
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Ried in der Riedmark (42214)",
             "fwnr": 407214
           }
