@@ -1,51 +1,145 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 8,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Aschach an der Donau",
-          "earea": "Aschach an der Donau",
+          "default": "Losenstein",
+          "earea": "Losenstein",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Aschach an der Donau",
+          "emun": "Losenstein",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 1,
-          "text": "Eferding"
+          "id": 11,
+          "text": "Steyr-Land"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Aschach an der Donau",
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Losenstein",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "401102": {
-            "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
+          "411307": {
+            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Aschach an der Donau (34102)",
-            "fwnr": 401102
+            "fwname": "Feuerwehr/Florian Losenstein (46307)",
+            "fwnr": 411307
           }
         },
         "inzeit": "",
-        "num1": "E260101047",
-        "startzeit": "Fri, 09 Jan 2026 16:31:16 +0100",
+        "num1": "E260101050",
+        "startzeit": "Fri, 09 Jan 2026 16:44:15 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3628",
-          "lng": "14.0233"
+          "lat": "47.9212",
+          "lng": "14.4394"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Helpfau-Uttendorf",
+          "earea": "Helpfau-Uttendorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Helpfau-Uttendorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Helpfau-Uttendorf",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400320": {
+            "feuerwehr": "Feuerwehr/Florian Uttendorf (33320)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Uttendorf (33320)",
+            "fwnr": 400320
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101049",
+        "startzeit": "Fri, 09 Jan 2026 16:44:10 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1564",
+          "lng": "13.1222"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "KI - Kremsmünster",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "405303": {
+            "feuerwehr": "Feuerwehr/Florian Irndorf (38303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Irndorf (38303)",
+            "fwnr": 405303
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101048",
+        "startzeit": "Fri, 09 Jan 2026 16:43:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0625",
+          "lng": "14.1026"
         }
       }
     },
@@ -93,53 +187,6 @@
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Eferding",
-          "earea": "Eferding",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eferding",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "EF - Eferding",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "401103": {
-            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Eferding (34103)",
-            "fwnr": 401103
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101045",
-        "startzeit": "Fri, 09 Jan 2026 16:21:17 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3005",
-          "lng": "14.0175"
         }
       }
     },
