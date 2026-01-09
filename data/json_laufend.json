@@ -1,25 +1,72 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 8,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Haibach ob der Donau",
-          "earea": "Haibach ob der Donau",
+          "default": "Hallstatt",
+          "earea": "Hallstatt",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Haibach ob der Donau",
+          "emun": "Hallstatt",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 1,
-          "text": "Eferding"
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Hallstatt",
+        "einsatzsubtyp": {
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "403105": {
+            "feuerwehr": "Feuerwehr/Florian Hallstatt (36105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hallstatt (36105)",
+            "fwnr": 403105
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101070",
+        "startzeit": "Fri, 09 Jan 2026 18:32:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5557",
+          "lng": "13.6461"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "EF - Haibach ob der Donau",
+        "einsatzort": "VB - Regau",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -29,23 +76,23 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "401107": {
-            "feuerwehr": "Feuerwehr/Florian Haibach ob der Donau (34107)"
+          "413419": {
+            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Haibach ob der Donau (34107)",
-            "fwnr": 401107
+            "fwname": "Feuerwehr/Florian Regau (50419)",
+            "fwnr": 413419
           }
         },
         "inzeit": "",
-        "num1": "E260101067",
-        "startzeit": "Fri, 09 Jan 2026 18:00:22 +0100",
+        "num1": "E260101069",
+        "startzeit": "Fri, 09 Jan 2026 18:21:21 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.412",
-          "lng": "13.9172"
+          "lat": "47.9893",
+          "lng": "13.6896"
         }
       }
     },
@@ -200,53 +247,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Ebensee",
-          "earea": "Ebensee",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ebensee",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Ebensee",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101055",
-        "startzeit": "Fri, 09 Jan 2026 17:01:12 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Braunau am Inn",
           "earea": "Braunau am Inn",
           "ecompl": "",
@@ -295,53 +295,6 @@
         "wgs84": {
           "lat": "48.2557",
           "lng": "13.0456"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Tragwein",
-          "earea": "Tragwein",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Tragwein",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - Tragwein",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402206": {
-            "feuerwehr": "Feuerwehr/Florian Hinterberg (35206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinterberg (35206)",
-            "fwnr": 402206
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101037",
-        "startzeit": "Fri, 09 Jan 2026 15:08:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3731",
-          "lng": "14.6147"
         }
       }
     }
