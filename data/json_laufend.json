@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Waldneukirchen",
+          "earea": "Waldneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Waldneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Waldneukirchen",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411105": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Nikola (46105)"
+          },
+          "411106": {
+            "feuerwehr": "Feuerwehr/Florian Steinersdorf (46106)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Nikola (46105)",
+            "fwnr": 411105
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steinersdorf (46106)",
+            "fwnr": 411106
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101137",
+        "startzeit": "Sat, 10 Jan 2026 11:11:12 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.979",
+          "lng": "14.246"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,60 +154,6 @@
         "wgs84": {
           "lat": "47.9462",
           "lng": "14.3603"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Fraham",
-          "earea": "Fraham",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Fraham",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Fraham",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "401105": {
-            "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
-          },
-          "401119": {
-            "feuerwehr": "Feuerwehr/Florian Steinholz (34119)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
-            "fwnr": 401105
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steinholz (34119)",
-            "fwnr": 401119
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101129",
-        "startzeit": "Sat, 10 Jan 2026 10:38:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2826",
-          "lng": "14.0289"
         }
       }
     },
