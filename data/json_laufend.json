@@ -1,7 +1,105 @@
 {
   "cnt_einsaetze": 13,
-  "cnt_feuerwehren": 19,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aspach",
+          "earea": "Aspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Aspach",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "400323": {
+            "feuerwehr": "Feuerwehr/Florian Wildenau (33323)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wildenau (33323)",
+            "fwnr": 400323
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101214",
+        "startzeit": "Sat, 10 Jan 2026 20:33:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2051",
+          "lng": "13.318"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101213",
+        "startzeit": "Sat, 10 Jan 2026 20:27:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0553",
+          "lng": "14.4445"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -255,53 +353,6 @@
         "wgs84": {
           "lat": "48.1708",
           "lng": "13.5394"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hinzenbach",
-          "earea": "Hinzenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hinzenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 1,
-          "text": "Eferding"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "EF - Hinzenbach",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "401111": {
-            "feuerwehr": "Feuerwehr/Florian Hinzenbach (34111)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Hinzenbach (34111)",
-            "fwnr": 401111
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101199",
-        "startzeit": "Sat, 10 Jan 2026 19:30:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3103",
-          "lng": "14.0055"
         }
       }
     },
@@ -605,60 +656,6 @@
         "wgs84": {
           "lat": "48.2362",
           "lng": "13.8166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wartberg ob der Aist",
-          "earea": "Wartberg ob der Aist",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wartberg ob der Aist",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Wartberg ob der Aist",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          },
-          "402213": {
-            "feuerwehr": "Feuerwehr/Florian Wartberg ob der Aist (35213)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Wartberg ob der Aist (35213)",
-            "fwnr": 402213
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101185",
-        "startzeit": "Sat, 10 Jan 2026 18:16:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3475",
-          "lng": "14.5102"
         }
       }
     }
