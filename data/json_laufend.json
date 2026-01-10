@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 9,
-  "cnt_feuerwehren": 12,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lengau",
+          "earea": "Lengau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lengau",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Lengau",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "400205": {
+            "feuerwehr": "Feuerwehr/Florian Markt Friedburg (33205)"
+          },
+          "400220": {
+            "feuerwehr": "Feuerwehr/Florian Schneegattern (33220)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Markt Friedburg (33205)",
+            "fwnr": 400205
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Schneegattern (33220)",
+            "fwnr": 400220
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101163",
+        "startzeit": "Sat, 10 Jan 2026 14:33:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0182",
+          "lng": "13.2481"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -255,53 +309,6 @@
         "wgs84": {
           "lat": "48.3095",
           "lng": "13.4044"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Oswald bei Freistadt",
-          "earea": "St. Oswald bei Freistadt",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Oswald bei Freistadt",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "FR - St. Oswald bei Freistadt",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "402128": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
-            "fwnr": 402128
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101151",
-        "startzeit": "Sat, 10 Jan 2026 13:16:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5005",
-          "lng": "14.5845"
         }
       }
     },
