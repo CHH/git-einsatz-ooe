@@ -1,7 +1,148 @@
 {
-  "cnt_einsaetze": 21,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 24,
+  "cnt_feuerwehren": 25,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Spital am Pyhrn",
+          "earea": "Spital am Pyhrn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Spital am Pyhrn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Spital am Pyhrn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405403": {
+            "feuerwehr": "Feuerwehr/Florian Spital am Pyhrn (38403)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Spital am Pyhrn (38403)",
+            "fwnr": 405403
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101270",
+        "startzeit": "Sun, 11 Jan 2026 03:40:57 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.6632",
+          "lng": "14.3396"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pennewang",
+          "earea": "Pennewang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pennewang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Pennewang",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "414114": {
+            "feuerwehr": "Feuerwehr/Florian Pennewang (51114)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pennewang (51114)",
+            "fwnr": 414114
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101269",
+        "startzeit": "Sun, 11 Jan 2026 03:18:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1276",
+          "lng": "13.8442"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kremsmünster",
+          "earea": "Kremsmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kremsmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "KI - Kremsmünster",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "405303": {
+            "feuerwehr": "Feuerwehr/Florian Irndorf (38303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Irndorf (38303)",
+            "fwnr": 405303
+          }
+        },
+        "inzeit": "Sun, 11 Jan 2026 03:44:00 +0100",
+        "num1": "E260101268",
+        "startzeit": "Sun, 11 Jan 2026 02:48:52 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0625",
+          "lng": "14.1026"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +180,10 @@
             "fwnr": 405208
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 11 Jan 2026 03:28:00 +0100",
         "num1": "E260101267",
         "startzeit": "Sun, 11 Jan 2026 02:37:41 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "47.8777",
           "lng": "14.1319"
@@ -64,7 +205,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "FR - St. Oswald bei Freistadt",
         "einsatzsubtyp": {
@@ -76,12 +217,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "402103": {
+            "feuerwehr": "Feuerwehr/Florian Freistadt (35103)"
+          },
           "402128": {
             "feuerwehr": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Freistadt (35103)",
+            "fwnr": 402103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Sankt Oswald bei Freistadt (35128)",
             "fwnr": 402128
           }
@@ -133,10 +281,10 @@
             "fwnr": 404203
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 11 Jan 2026 03:19:00 +0100",
         "num1": "E260101265",
         "startzeit": "Sun, 11 Jan 2026 02:23:24 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1356",
           "lng": "13.686"
@@ -227,10 +375,10 @@
             "fwnr": 412202
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 11 Jan 2026 02:58:00 +0100",
         "num1": "E260101263",
         "startzeit": "Sun, 11 Jan 2026 01:57:50 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3952",
           "lng": "14.2342"
