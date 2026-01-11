@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kirchberg-Thening",
-          "earea": "Kirchberg-Thening",
+          "default": "Edt bei Lambach",
+          "earea": "Edt bei Lambach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kirchberg-Thening",
+          "emun": "Edt bei Lambach",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 14,
+          "text": "Wels-Land"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "LL - Kirchberg-Thening",
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Edt bei Lambach",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "FZGKLBERGEN-TE",
+          "text": "Bergung Kleinfahrzeug"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
-          "406211": {
-            "feuerwehr": "Feuerwehr/Florian Kirchberg-Thening (39211)"
+          "414107": {
+            "feuerwehr": "Feuerwehr/Florian Edt-Winkling (51107)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kirchberg-Thening (39211)",
-            "fwnr": 406211
+            "fwname": "Feuerwehr/Florian Edt-Winkling (51107)",
+            "fwnr": 414107
           }
         },
         "inzeit": "",
-        "num1": "E260101292",
-        "startzeit": "Sun, 11 Jan 2026 09:42:45 +0100",
+        "num1": "E260101294",
+        "startzeit": "Sun, 11 Jan 2026 10:05:18 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2566",
-          "lng": "14.1564"
+          "lat": "48.093",
+          "lng": "13.9045"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schlüßlberg",
+          "earea": "Schlüßlberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schlüßlberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Schlüßlberg",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "404122": {
+            "feuerwehr": "Feuerwehr/Florian Schlüßlberg (37122)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schlüßlberg (37122)",
+            "fwnr": 404122
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101293",
+        "startzeit": "Sun, 11 Jan 2026 09:56:24 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.221",
+          "lng": "13.872"
         }
       }
     },
