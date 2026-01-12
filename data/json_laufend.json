@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 2,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Obertraun",
+          "earea": "Obertraun",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Obertraun",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Obertraun",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403111": {
+            "feuerwehr": "Feuerwehr/Florian Obertraun (36111)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Obertraun (36111)",
+            "fwnr": 403111
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101403",
+        "startzeit": "Mon, 12 Jan 2026 12:06:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.5558",
+          "lng": "13.6923"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +93,6 @@
         "wgs84": {
           "lat": "48.0668",
           "lng": "13.184"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Vorderweißenbach",
-          "earea": "Vorderweißenbach",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Vorderweißenbach",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Vorderweißenbach",
-        "einsatzsubtyp": {
-          "id": "GROßLKWBERGEN-TE",
-          "text": "Bergung LKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-GROßFZG",
-          "text": "Bergung Großfahrzeug"
-        },
-        "feuerwehren": {
-          "412103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
-          },
-          "412122": {
-            "feuerwehr": "Feuerwehr/Florian Vorderweißenbach (49122)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
-            "fwnr": 412103
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Vorderweißenbach (49122)",
-            "fwnr": 412122
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101350",
-        "startzeit": "Mon, 12 Jan 2026 07:01:40 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.553",
-          "lng": "14.219"
         }
       }
     }
