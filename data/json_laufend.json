@@ -1,51 +1,65 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 4,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Traun",
-          "earea": "Traun",
+          "default": "Handenberg",
+          "earea": "Handenberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Traun",
+          "emun": "Handenberg",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - Traun",
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Handenberg",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "PERSLKW-VU",
+          "text": "Personenrettung Verkehrsunfall LKW"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "V1-PERS-LKW",
+          "text": "Personenrettung Verkehrsunfall LKW"
         },
         "feuerwehren": {
-          "406222": {
-            "feuerwehr": "Feuerwehr/Florian Traun (39222)"
+          "400104": {
+            "feuerwehr": "Feuerwehr/Florian Handenberg (33104)"
+          },
+          "400110": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)"
+          },
+          "400402": {
+            "feuerwehr": "Feuerwehr/Florian Eggelsberg (33402)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Traun (39222)",
-            "fwnr": 406222
+            "fwname": "Feuerwehr/Florian Handenberg (33104)",
+            "fwnr": 400104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen am Fillmannsbach (33110)",
+            "fwnr": 400110
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Eggelsberg (33402)",
+            "fwnr": 400402
           }
         },
         "inzeit": "",
-        "num1": "E260101539",
-        "startzeit": "Tue, 13 Jan 2026 00:31:10 +0100",
+        "num1": "E260101541",
+        "startzeit": "Tue, 13 Jan 2026 01:23:19 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2254",
-          "lng": "14.252"
+          "lat": "48.1352",
+          "lng": "13.0102"
         }
       }
     },
@@ -100,53 +114,6 @@
         "wgs84": {
           "lat": "47.954",
           "lng": "13.5804"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Attnang-Puchheim",
-          "earea": "Attnang-Puchheim",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Attnang-Puchheim",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Attnang-Puchheim",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "413417": {
-            "feuerwehr": "Feuerwehr/Florian Puchheim (50417)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Puchheim (50417)",
-            "fwnr": 413417
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101536",
-        "startzeit": "Mon, 12 Jan 2026 23:55:00 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0017",
-          "lng": "13.7159"
         }
       }
     }
