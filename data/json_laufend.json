@@ -1,72 +1,25 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 15,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ried im Innkreis",
-          "earea": "Ried im Innkreis",
+          "default": "Ternberg",
+          "earea": "Ternberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ried im Innkreis",
+          "emun": "Ternberg",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "RI - Ried im Innkreis",
-        "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
-        },
-        "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
-        },
-        "feuerwehren": {
-          "408223": {
-            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
-            "fwnr": 408223
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101672",
-        "startzeit": "Tue, 13 Jan 2026 16:00:48 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2102",
-          "lng": "13.4825"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gmunden",
-          "earea": "Gmunden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gmunden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 11,
+          "text": "Steyr-Land"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "SELBST",
-        "einsatzort": "GM - Gmunden",
+        "einsatzort": "SE - Ternberg",
         "einsatzsubtyp": {
           "id": "TETRA-SELBST",
           "text": "Einsatz od. Einsatzübung"
@@ -76,23 +29,70 @@
           "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "403207": {
-            "feuerwehr": "Feuerwehr/Florian Gmunden (36207)"
+          "411316": {
+            "feuerwehr": "Feuerwehr/Florian Ternberg (46316)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Gmunden (36207)",
-            "fwnr": 403207
+            "fwname": "Feuerwehr/Florian Ternberg (46316)",
+            "fwnr": 411316
           }
         },
         "inzeit": "",
-        "num1": "E260101670",
-        "startzeit": "Tue, 13 Jan 2026 15:42:01 +0100",
+        "num1": "E260101674",
+        "startzeit": "Tue, 13 Jan 2026 16:30:51 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.9166",
-          "lng": "13.8048"
+          "lat": "47.9462",
+          "lng": "14.3603"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kopfing im Innkreis",
+          "earea": "Kopfing im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kopfing im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Kopfing im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410104": {
+            "feuerwehr": "Feuerwehr/Florian Engertsberg (45104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Engertsberg (45104)",
+            "fwnr": 410104
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101673",
+        "startzeit": "Tue, 13 Jan 2026 16:28:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4184",
+          "lng": "13.6603"
         }
       }
     },
@@ -140,53 +140,6 @@
         "wgs84": {
           "lat": "48.1363",
           "lng": "13.9445"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Hörsching",
-          "earea": "Hörsching",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Hörsching",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Hörsching",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "406203": {
-            "feuerwehr": "Feuerwehr/Florian Breitbrunn (39203)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Breitbrunn (39203)",
-            "fwnr": 406203
-          }
-        },
-        "inzeit": "",
-        "num1": "E260101661",
-        "startzeit": "Tue, 13 Jan 2026 14:28:46 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2433",
-          "lng": "14.1709"
         }
       }
     },
