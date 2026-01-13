@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 67,
-  "cnt_feuerwehren": 89,
+  "cnt_einsaetze": 69,
+  "cnt_feuerwehren": 91,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gallneukirchen",
+          "earea": "Gallneukirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gallneukirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Gallneukirchen",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "412303": {
+            "feuerwehr": "Feuerwehr/Florian Gallneukirchen (49303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallneukirchen (49303)",
+            "fwnr": 412303
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101662",
+        "startzeit": "Tue, 13 Jan 2026 14:37:34 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3517",
+          "lng": "14.426"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hörsching",
+          "earea": "Hörsching",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hörsching",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Hörsching",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "406203": {
+            "feuerwehr": "Feuerwehr/Florian Breitbrunn (39203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Breitbrunn (39203)",
+            "fwnr": 406203
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101661",
+        "startzeit": "Tue, 13 Jan 2026 14:28:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2433",
+          "lng": "14.1709"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +133,10 @@
             "fwnr": 402319
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 13 Jan 2026 14:31:00 +0100",
         "num1": "E260101655",
         "startzeit": "Tue, 13 Jan 2026 13:50:38 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4397",
           "lng": "14.7827"
@@ -168,10 +262,10 @@
             "fwnr": 404110
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 13 Jan 2026 14:14:00 +0100",
         "num1": "E260101650",
         "startzeit": "Tue, 13 Jan 2026 13:09:37 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1801",
           "lng": "13.7938"
@@ -215,10 +309,10 @@
             "fwnr": 402303
           }
         },
-        "inzeit": "",
+        "inzeit": "Tue, 13 Jan 2026 15:10:00 +0100",
         "num1": "E260101646",
         "startzeit": "Tue, 13 Jan 2026 12:59:13 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5015",
           "lng": "14.6883"
@@ -388,7 +482,7 @@
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 10,
+        "cntfeuerwehren": 11,
         "einsatzart": "BRAND",
         "einsatzort": "FR - Lasberg",
         "einsatzsubtyp": {
@@ -427,6 +521,9 @@
           "402205": {
             "feuerwehr": "Feuerwehr/Florian Hagenberg im Mühlkreis (35205)"
           },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
+          },
           "402303": {
             "feuerwehr": "Feuerwehr/Florian Harrachsthal (35303)"
           }
@@ -439,6 +536,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Kefermarkt (35109)",
             "fwnr": 402109
+          },
+          "10": {
+            "fwname": "Feuerwehr/Florian Harrachsthal (35303)",
+            "fwnr": 402303
           },
           "2": {
             "fwname": "Feuerwehr/Florian Lasberg (35112)",
@@ -469,8 +570,8 @@
             "fwnr": 402205
           },
           "9": {
-            "fwname": "Feuerwehr/Florian Harrachsthal (35303)",
-            "fwnr": 402303
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
           }
         },
         "inzeit": "",
