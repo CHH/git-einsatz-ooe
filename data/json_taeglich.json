@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Nußbach",
+          "earea": "Nußbach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Nußbach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Nußbach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405209": {
+            "feuerwehr": "Feuerwehr/Florian Nußbach (38209)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Nußbach (38209)",
+            "fwnr": 405209
+          }
+        },
+        "inzeit": "",
+        "num1": "E260101712",
+        "startzeit": "Wed, 14 Jan 2026 05:17:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9724",
+          "lng": "14.1631"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kopfing im Innkreis",
+          "earea": "Kopfing im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kopfing im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SD - Kopfing im Innkreis",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "410104": {
+            "feuerwehr": "Feuerwehr/Florian Engertsberg (45104)"
+          },
+          "410110": {
+            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Engertsberg (45104)",
+            "fwnr": 410104
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
+            "fwnr": 410110
+          }
+        },
+        "inzeit": "Wed, 14 Jan 2026 05:22:00 +0100",
+        "num1": "E260101711",
+        "startzeit": "Wed, 14 Jan 2026 05:03:31 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.4184",
+          "lng": "13.6603"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +147,10 @@
             "fwnr": 412315
           }
         },
-        "inzeit": "",
+        "inzeit": "Wed, 14 Jan 2026 05:17:00 +0100",
         "num1": "E260101709",
         "startzeit": "Wed, 14 Jan 2026 03:56:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.3353",
           "lng": "14.385"
