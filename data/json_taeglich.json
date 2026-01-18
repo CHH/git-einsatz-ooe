@@ -1,7 +1,105 @@
 {
-  "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 17,
+  "cnt_einsaetze": 12,
+  "cnt_feuerwehren": 20,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102204",
+        "startzeit": "Sun, 18 Jan 2026 13:16:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.044",
+          "lng": "14.4147"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ottensheim",
+          "earea": "Ottensheim",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ottensheim",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "UU - Ottensheim",
+        "einsatzsubtyp": {
+          "id": "BAUMDROHTSICH-TE",
+          "text": "Baum droht umzustürzen"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-D",
+          "text": "Baum droht umzustürzen"
+        },
+        "feuerwehren": {
+          "412218": {
+            "feuerwehr": "Feuerwehr/Florian Ottensheim (49218)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ottensheim (49218)",
+            "fwnr": 412218
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102203",
+        "startzeit": "Sun, 18 Jan 2026 12:51:17 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3368",
+          "lng": "14.177"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +144,10 @@
             "fwnr": 400105
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 18 Jan 2026 12:34:00 +0100",
         "num1": "E260102201",
         "startzeit": "Sun, 18 Jan 2026 12:07:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2532",
           "lng": "13.058"
@@ -100,10 +198,10 @@
             "fwnr": 414216
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 18 Jan 2026 12:38:00 +0100",
         "num1": "E260102200",
         "startzeit": "Sun, 18 Jan 2026 11:55:28 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2234",
           "lng": "14.0229"
