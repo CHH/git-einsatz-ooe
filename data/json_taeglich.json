@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Adlwang",
+          "earea": "Adlwang",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Adlwang",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Adlwang",
+        "einsatzsubtyp": {
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411101": {
+            "feuerwehr": "Feuerwehr/Florian Adlwang (46101)"
+          },
+          "411102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Hall (46102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Adlwang (46101)",
+            "fwnr": 411101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Hall (46102)",
+            "fwnr": 411102
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102253",
+        "startzeit": "Mon, 19 Jan 2026 05:06:03 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9926",
+          "lng": "14.2176"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gurten",
+          "earea": "Gurten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gurten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Gurten",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BR",
+          "text": "Brand Abfall im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "408303": {
+            "feuerwehr": "Feuerwehr/Florian Gurten (43303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gurten (43303)",
+            "fwnr": 408303
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102252",
+        "startzeit": "Mon, 19 Jan 2026 05:00:48 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.242",
+          "lng": "13.3379"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +140,10 @@
             "fwnr": 403226
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Jan 2026 05:21:00 +0100",
         "num1": "E260102251",
         "startzeit": "Mon, 19 Jan 2026 04:47:15 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0101",
           "lng": "13.914"
