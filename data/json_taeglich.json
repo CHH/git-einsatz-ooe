@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 24,
-  "cnt_feuerwehren": 31,
+  "cnt_einsaetze": 25,
+  "cnt_feuerwehren": 34,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ried im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Ried im Innkreis",
+        "einsatzsubtyp": {
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
+        },
+        "feuerwehren": {
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
+          }
+        },
+        "inzeit": "Mon, 19 Jan 2026 13:16:00 +0100",
+        "num1": "E260102318",
+        "startzeit": "Mon, 19 Jan 2026 12:56:54 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -39,10 +86,10 @@
             "fwnr": 406102
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 19 Jan 2026 12:58:00 +0100",
         "num1": "E260102316",
         "startzeit": "Mon, 19 Jan 2026 12:19:04 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2178",
           "lng": "14.4792"
@@ -59,12 +106,12 @@
           "emun": "Bad Goisern am Hallstättersee",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 4,
+        "cntfeuerwehren": 6,
         "einsatzart": "BRAND",
         "einsatzort": "GM - Bad Goisern am Hallstättersee",
         "einsatzsubtyp": {
@@ -79,6 +126,9 @@
           "403101": {
             "feuerwehr": "Feuerwehr/Florian Bad Goisern (36101)"
           },
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
           "403108": {
             "feuerwehr": "Feuerwehr/Florian Lasern (36108)"
           },
@@ -87,6 +137,9 @@
           },
           "403119": {
             "feuerwehr": "Feuerwehr/Florian Weissenbach (36119)"
+          },
+          "403161": {
+            "feuerwehr": "Feuerwehr/Florian Resonac Graphite Austria GmbH (36161)"
           }
         },
         "feuerwehrenarray": {
@@ -95,16 +148,24 @@
             "fwnr": 403101
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Lasern (36108)",
             "fwnr": 403108
           },
-          "2": {
+          "3": {
             "fwname": "Feuerwehr/Florian Sankt Agatha (GM) (36117)",
             "fwnr": 403117
           },
-          "3": {
+          "4": {
             "fwname": "Feuerwehr/Florian Weissenbach (36119)",
             "fwnr": 403119
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Resonac Graphite Austria GmbH (36161)",
+            "fwnr": 403161
           }
         },
         "inzeit": "",
