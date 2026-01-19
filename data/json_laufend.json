@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Vichtenstein",
+          "earea": "Vichtenstein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Vichtenstein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
+        "einsatzort": "SD - Vichtenstein",
+        "einsatzsubtyp": {
+          "id": "BAUMSTRAßE-TE",
+          "text": "Baum über Straße"
+        },
+        "einsatztyp": {
+          "id": "T0-SICH-BAUM-U",
+          "text": "Baum ist umgestürzt"
+        },
+        "feuerwehren": {
+          "410114": {
+            "feuerwehr": "Feuerwehr/Florian Rain (45114)"
+          },
+          "410118": {
+            "feuerwehr": "Feuerwehr/Florian Vichtenstein (45118)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Rain (45114)",
+            "fwnr": 410114
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Vichtenstein (45118)",
+            "fwnr": 410118
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102280",
+        "startzeit": "Mon, 19 Jan 2026 08:17:30 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5279",
+          "lng": "13.6516"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -93,53 +147,6 @@
         "wgs84": {
           "lat": "48.3103",
           "lng": "14.0055"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Braunau am Inn",
-          "earea": "Braunau am Inn",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Braunau am Inn",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 0,
-          "text": "Braunau"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Braunau am Inn",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "400161": {
-            "feuerwehr": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Austria Metall AG (AMAG) (33161)",
-            "fwnr": 400161
-          }
-        },
-        "inzeit": "",
-        "num1": "E260102275",
-        "startzeit": "Mon, 19 Jan 2026 07:45:47 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2283",
-          "lng": "13.0301"
         }
       }
     },
