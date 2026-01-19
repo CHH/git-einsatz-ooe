@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Vorchdorf",
-          "earea": "Vorchdorf",
+          "default": "Adlwang",
+          "earea": "Adlwang",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Vorchdorf",
+          "emun": "Adlwang",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 11,
+          "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GM - Vorchdorf",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Adlwang",
         "einsatzsubtyp": {
-          "id": "GROßLKWBERGEN-TE",
-          "text": "Bergung LKW"
+          "id": "BMA2-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "T0-BERG-GROßFZG",
-          "text": "Bergung Großfahrzeug"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "403226": {
-            "feuerwehr": "Feuerwehr/Florian Vorchdorf (36226)"
+          "411101": {
+            "feuerwehr": "Feuerwehr/Florian Adlwang (46101)"
+          },
+          "411102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Hall (46102)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Vorchdorf (36226)",
-            "fwnr": 403226
+            "fwname": "Feuerwehr/Florian Adlwang (46101)",
+            "fwnr": 411101
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Bad Hall (46102)",
+            "fwnr": 411102
           }
         },
         "inzeit": "",
-        "num1": "E260102251",
-        "startzeit": "Mon, 19 Jan 2026 04:47:15 +0100",
+        "num1": "E260102253",
+        "startzeit": "Mon, 19 Jan 2026 05:06:03 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0101",
-          "lng": "13.914"
+          "lat": "47.9926",
+          "lng": "14.2176"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gurten",
+          "earea": "Gurten",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gurten",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "RI - Gurten",
+        "einsatzsubtyp": {
+          "id": "ABFALL-BR",
+          "text": "Brand Abfall im Freien"
+        },
+        "einsatztyp": {
+          "id": "B0-FREI-ABF",
+          "text": "Brand Abfall im Freien"
+        },
+        "feuerwehren": {
+          "408303": {
+            "feuerwehr": "Feuerwehr/Florian Gurten (43303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gurten (43303)",
+            "fwnr": 408303
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102252",
+        "startzeit": "Mon, 19 Jan 2026 05:00:48 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.242",
+          "lng": "13.3379"
         }
       }
     }
