@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 12,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Grein",
+          "earea": "Grein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Grein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Grein",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407104": {
+            "feuerwehr": "Feuerwehr/Florian Grein (42104)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Grein (42104)",
+            "fwnr": 407104
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102574",
+        "startzeit": "Wed, 21 Jan 2026 12:25:26 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2284",
+          "lng": "14.8498"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 7,
           "text": "Perg"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 6,
         "einsatzart": "TEE",
         "einsatzort": "PE - Schwertberg",
         "einsatzsubtyp": {
@@ -29,14 +76,49 @@
           "text": "Personensuche"
         },
         "feuerwehren": {
+          "407110": {
+            "feuerwehr": "Feuerwehr/Florian Saxen (42110)"
+          },
+          "407203": {
+            "feuerwehr": "Feuerwehr/Florian Blindendorf (42203)"
+          },
+          "407204": {
+            "feuerwehr": "Feuerwehr/Florian Haid (PE) (42204)"
+          },
           "407216": {
             "feuerwehr": "Feuerwehr/Florian Schwertberg (42216)"
+          },
+          "407218": {
+            "feuerwehr": "Feuerwehr/Florian Winden-Windegg (42218)"
+          },
+          "407309": {
+            "feuerwehr": "Feuerwehr/Florian Münzbach (42309)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Saxen (42110)",
+            "fwnr": 407110
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Blindendorf (42203)",
+            "fwnr": 407203
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Haid (PE) (42204)",
+            "fwnr": 407204
+          },
+          "3": {
             "fwname": "Feuerwehr/Florian Schwertberg (42216)",
             "fwnr": 407216
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Winden-Windegg (42218)",
+            "fwnr": 407218
+          },
+          "5": {
+            "fwname": "Feuerwehr/Florian Münzbach (42309)",
+            "fwnr": 407309
           }
         },
         "inzeit": "",
