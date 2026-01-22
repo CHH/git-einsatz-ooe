@@ -1,7 +1,68 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Weitersfelden",
+          "earea": "Weitersfelden",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Weitersfelden",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Weitersfelden",
+        "einsatzsubtyp": {
+          "id": "LANDWIRT-BR",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "einsatztyp": {
+          "id": "B1-GEB-LANDWIRT",
+          "text": "Brand landwirtschaftliches Objekt"
+        },
+        "feuerwehren": {
+          "402303": {
+            "feuerwehr": "Feuerwehr/Florian Harrachsthal (35303)"
+          },
+          "402320": {
+            "feuerwehr": "Feuerwehr/Florian Weitersfelden (35320)"
+          },
+          "402321": {
+            "feuerwehr": "Feuerwehr/Florian Wienau (35321)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Harrachsthal (35303)",
+            "fwnr": 402303
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Weitersfelden (35320)",
+            "fwnr": 402320
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Wienau (35321)",
+            "fwnr": 402321
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102768",
+        "startzeit": "Thu, 22 Jan 2026 15:56:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4785",
+          "lng": "14.7199"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +107,6 @@
         "wgs84": {
           "lat": "47.99",
           "lng": "14.1166"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Garsten",
-          "earea": "Garsten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Garsten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - Garsten",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "411204": {
-            "feuerwehr": "Feuerwehr/Florian Garsten (46204)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Garsten (46204)",
-            "fwnr": 411204
-          }
-        },
-        "inzeit": "",
-        "num1": "E260102759",
-        "startzeit": "Thu, 22 Jan 2026 14:11:55 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": null,
-          "lng": null
         }
       }
     },
