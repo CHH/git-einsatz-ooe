@@ -1,51 +1,58 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Kremsmünster",
-          "earea": "Kremsmünster",
+          "default": "Burgkirchen",
+          "earea": "Burgkirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Kremsmünster",
+          "emun": "Burgkirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "KI - Kremsmünster",
+        "einsatzort": "BR - Burgkirchen",
         "einsatzsubtyp": {
-          "id": "BMA2-BR",
-          "text": "Brandmeldealarm"
+          "id": "PKW-BR",
+          "text": "Brand PKW im Freien"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "B0-FZG-PKW",
+          "text": "Brand PKW im Freien"
         },
         "feuerwehren": {
-          "405304": {
-            "feuerwehr": "Feuerwehr/Florian Kremsmünster (38304)"
+          "400108": {
+            "feuerwehr": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)"
+          },
+          "400304": {
+            "feuerwehr": "Feuerwehr/Florian Burgkirchen (33304)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kremsmünster (38304)",
-            "fwnr": 405304
+            "fwname": "Feuerwehr/Florian Neukirchen an der Enknach/Mitternberg (33108)",
+            "fwnr": 400108
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Burgkirchen (33304)",
+            "fwnr": 400304
           }
         },
         "inzeit": "",
-        "num1": "E260102697",
-        "startzeit": "Thu, 22 Jan 2026 08:23:32 +0100",
+        "num1": "E260102699",
+        "startzeit": "Thu, 22 Jan 2026 08:34:50 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0546",
-          "lng": "14.1325"
+          "lat": "48.2051",
+          "lng": "13.1016"
         }
       }
     },
@@ -93,53 +100,6 @@
         "wgs84": {
           "lat": "48.1962",
           "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Oberwang",
-          "earea": "Oberwang",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Oberwang",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "VB - Oberwang",
-        "einsatzsubtyp": {
-          "id": "TRAGEUNTST-TE",
-          "text": "Tragehilfe"
-        },
-        "einsatztyp": {
-          "id": "T0-UNTST-TRAGE",
-          "text": "Tragehilfe"
-        },
-        "feuerwehren": {
-          "413211": {
-            "feuerwehr": "Feuerwehr/Florian Oberwang (50211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Oberwang (50211)",
-            "fwnr": 413211
-          }
-        },
-        "inzeit": "",
-        "num1": "E260102689",
-        "startzeit": "Thu, 22 Jan 2026 07:51:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8696",
-          "lng": "13.4324"
         }
       }
     },
