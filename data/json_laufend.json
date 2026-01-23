@@ -5,6 +5,53 @@
     {
       "einsatz": {
         "adresse": {
+          "default": "Ort im Innkreis",
+          "earea": "Ort im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ort im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Ort im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408313": {
+            "feuerwehr": "Feuerwehr/Florian Ort im Innkreis (43313)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ort im Innkreis (43313)",
+            "fwnr": 408313
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102875",
+        "startzeit": "Fri, 23 Jan 2026 18:00:04 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3139",
+          "lng": "13.4351"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
           "default": "Eberschwang",
           "earea": "Eberschwang",
           "ecompl": "",
@@ -64,7 +111,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "EF - Hartkirchen",
         "einsatzsubtyp": {
@@ -81,6 +128,9 @@
           },
           "401109": {
             "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
+          },
+          "401110": {
+            "feuerwehr": "Feuerwehr/Florian Hilkering-Hachlham (34110)"
           }
         },
         "feuerwehrenarray": {
@@ -91,6 +141,10 @@
           "1": {
             "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
             "fwnr": 401109
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Hilkering-Hachlham (34110)",
+            "fwnr": 401110
           }
         },
         "inzeit": "",
@@ -215,60 +269,6 @@
         "wgs84": {
           "lat": "47.8115",
           "lng": "13.7753"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Timelkam",
-          "earea": "Timelkam",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Timelkam",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Timelkam",
-        "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
-        },
-        "feuerwehren": {
-          "413407": {
-            "feuerwehr": "Feuerwehr/Florian Baumgarting (50407)"
-          },
-          "413427": {
-            "feuerwehr": "Feuerwehr/Florian Timelkam (50427)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Baumgarting (50407)",
-            "fwnr": 413407
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Timelkam (50427)",
-            "fwnr": 413427
-          }
-        },
-        "inzeit": "",
-        "num1": "E260102865",
-        "startzeit": "Fri, 23 Jan 2026 16:12:14 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.0027",
-          "lng": "13.6078"
         }
       }
     },
