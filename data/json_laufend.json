@@ -1,51 +1,65 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Ulrich bei Steyr",
-          "earea": "St. Ulrich bei Steyr",
+          "default": "Unterweißenbach",
+          "earea": "Unterweißenbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Ulrich bei Steyr",
+          "emun": "Unterweißenbach",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 11,
-          "text": "Steyr-Land"
+          "id": 2,
+          "text": "Freistadt"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "SE - St. Ulrich bei Steyr",
+        "cntfeuerwehren": 3,
+        "einsatzart": "BRAND",
+        "einsatzort": "FR - Unterweißenbach",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "GEBÄUDE-BR",
+          "text": "Brand Gebäude"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B1-GEB",
+          "text": "Brand Gebäude"
         },
         "feuerwehren": {
-          "411206": {
-            "feuerwehr": "Feuerwehr/Florian Kleinraming (46206)"
+          "402301": {
+            "feuerwehr": "Feuerwehr/Florian Hackstock (35301)"
+          },
+          "402310": {
+            "feuerwehr": "Feuerwehr/Florian Mötlas (35310)"
+          },
+          "402319": {
+            "feuerwehr": "Feuerwehr/Florian Unterweißenbach (35319)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Kleinraming (46206)",
-            "fwnr": 411206
+            "fwname": "Feuerwehr/Florian Hackstock (35301)",
+            "fwnr": 402301
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mötlas (35310)",
+            "fwnr": 402310
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Unterweißenbach (35319)",
+            "fwnr": 402319
           }
         },
         "inzeit": "",
-        "num1": "E260102899",
-        "startzeit": "Fri, 23 Jan 2026 21:07:52 +0100",
+        "num1": "E260102901",
+        "startzeit": "Fri, 23 Jan 2026 21:20:29 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0101",
-          "lng": "14.4903"
+          "lat": "48.4058",
+          "lng": "14.7855"
         }
       }
     },
@@ -68,8 +82,8 @@
         "einsatzart": "BRAND",
         "einsatzort": "BR - Handenberg",
         "einsatzsubtyp": {
-          "id": "GEBÄUDE-BR",
-          "text": "Brand Gebäude"
+          "id": "KFZGEB-BR",
+          "text": "Brand Fahrzeug in Gebäude"
         },
         "einsatztyp": {
           "id": "B1-GEB",
