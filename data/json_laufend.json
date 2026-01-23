@@ -1,51 +1,98 @@
 {
-  "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 5,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Gramastetten",
-          "earea": "Gramastetten",
+          "default": "Pregarten",
+          "earea": "Pregarten",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Gramastetten",
+          "emun": "Pregarten",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 2,
+          "text": "Freistadt"
         },
         "cntfeuerwehren": 1,
         "einsatzart": "TEE",
-        "einsatzort": "UU - Gramastetten",
+        "einsatzort": "FR - Pregarten",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "UNFALLVERD-TE",
+          "text": "Türöffnung Unfallverdacht"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "T0-ÖFFNEN-UNFALL",
+          "text": "Türöffnung Unfallverdacht"
         },
         "feuerwehren": {
-          "412207": {
-            "feuerwehr": "Feuerwehr/Florian Gramastetten (49207)"
+          "402209": {
+            "feuerwehr": "Feuerwehr/Florian Pregarten (35209)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Gramastetten (49207)",
-            "fwnr": 412207
+            "fwname": "Feuerwehr/Florian Pregarten (35209)",
+            "fwnr": 402209
           }
         },
         "inzeit": "",
-        "num1": "E260102824",
-        "startzeit": "Fri, 23 Jan 2026 09:16:01 +0100",
+        "num1": "E260102827",
+        "startzeit": "Fri, 23 Jan 2026 09:44:54 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3819",
-          "lng": "14.1932"
+          "lat": "48.3475",
+          "lng": "14.5416"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Wartberg an der Krems",
+          "earea": "Wartberg an der Krems",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Wartberg an der Krems",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 5,
+          "text": "Kirchdorf"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "KI - Wartberg an der Krems",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "405309": {
+            "feuerwehr": "Feuerwehr/Florian Wartberg an der Krems (38309)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Wartberg an der Krems (38309)",
+            "fwnr": 405309
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102825",
+        "startzeit": "Fri, 23 Jan 2026 09:29:49 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.99",
+          "lng": "14.1166"
         }
       }
     },
