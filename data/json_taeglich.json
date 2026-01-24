@@ -1,7 +1,102 @@
 {
-  "cnt_einsaetze": 0,
-  "cnt_feuerwehren": 0,
-  "einsaetze": [],
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 2,
+  "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gutau",
+          "earea": "Gutau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gutau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Gutau",
+        "einsatzsubtyp": {
+          "id": "TÜRPERS-TE",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖFFNEN-TÜR",
+          "text": "Türöffnung Menschenrettung"
+        },
+        "feuerwehren": {
+          "402203": {
+            "feuerwehr": "Feuerwehr/Florian Erdmannsdorf (35203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Erdmannsdorf (35203)",
+            "fwnr": 402203
+          }
+        },
+        "inzeit": "",
+        "num1": "E260102909",
+        "startzeit": "Sat, 24 Jan 2026 01:38:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4427",
+          "lng": "14.6107"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Hall",
+          "earea": "Bad Hall",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Hall",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "SE - Bad Hall",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "411102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Hall (46102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Hall (46102)",
+            "fwnr": 411102
+          }
+        },
+        "inzeit": "Sat, 24 Jan 2026 00:57:00 +0100",
+        "num1": "E260102906",
+        "startzeit": "Sat, 24 Jan 2026 00:25:27 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0326",
+          "lng": "14.2148"
+        }
+      }
+    }
+  ],
   "title": "laufender Tag (seit 00:00)",
   "version": "1.3.1",
   "webext2": true
