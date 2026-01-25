@@ -1,58 +1,105 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Bad Leonfelden",
-          "earea": "Bad Leonfelden",
+          "default": "Ried im Traunkreis",
+          "earea": "Ried im Traunkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Bad Leonfelden",
+          "emun": "Ried im Traunkreis",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 5,
+          "text": "Kirchdorf"
         },
         "cntfeuerwehren": 2,
         "einsatzart": "BRAND",
-        "einsatzort": "UU - Bad Leonfelden",
+        "einsatzort": "KI - Ried im Traunkreis",
         "einsatzsubtyp": {
-          "id": "GEBÜSCH-BR",
-          "text": "Brand Gebüsch"
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
         },
         "einsatztyp": {
-          "id": "B0-FREI-VEG",
-          "text": "Brand Vegetation"
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
         },
         "feuerwehren": {
-          "412103": {
-            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          "405306": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Traunkreis (38306)"
           },
-          "412110": {
-            "feuerwehr": "Feuerwehr/Florian Laimbach (49110)"
+          "405310": {
+            "feuerwehr": "Feuerwehr/Florian Zenndorf (38310)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
-            "fwnr": 412103
+            "fwname": "Feuerwehr/Florian Ried im Traunkreis (38306)",
+            "fwnr": 405306
           },
           "1": {
-            "fwname": "Feuerwehr/Florian Laimbach (49110)",
-            "fwnr": 412110
+            "fwname": "Feuerwehr/Florian Zenndorf (38310)",
+            "fwnr": 405310
           }
         },
         "inzeit": "",
-        "num1": "E260103054",
-        "startzeit": "Sun, 25 Jan 2026 03:57:19 +0100",
+        "num1": "E260103056",
+        "startzeit": "Sun, 25 Jan 2026 05:12:29 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.5312",
-          "lng": "14.2942"
+          "lat": "48.0275",
+          "lng": "14.0776"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lengau",
+          "earea": "Lengau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lengau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "BR - Lengau",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "400205": {
+            "feuerwehr": "Feuerwehr/Florian Markt Friedburg (33205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Markt Friedburg (33205)",
+            "fwnr": 400205
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103055",
+        "startzeit": "Sun, 25 Jan 2026 04:57:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0182",
+          "lng": "13.2481"
         }
       }
     },
