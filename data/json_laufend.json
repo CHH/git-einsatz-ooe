@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Ebensee am Traunsee",
-          "earea": "Ebensee am Traunsee",
+          "default": "Bad Leonfelden",
+          "earea": "Bad Leonfelden",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Ebensee am Traunsee",
+          "emun": "Bad Leonfelden",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
+          "id": 12,
+          "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "GM - Ebensee am Traunsee",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "UU - Bad Leonfelden",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "GEBÜSCH-BR",
+          "text": "Brand Gebüsch"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "B0-FREI-VEG",
+          "text": "Brand Vegetation"
         },
         "feuerwehren": {
-          "403103": {
-            "feuerwehr": "Feuerwehr/Florian Ebensee (36103)"
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
+          "412110": {
+            "feuerwehr": "Feuerwehr/Florian Laimbach (49110)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Ebensee (36103)",
-            "fwnr": 403103
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Laimbach (49110)",
+            "fwnr": 412110
           }
         },
         "inzeit": "",
-        "num1": "E260103052",
-        "startzeit": "Sun, 25 Jan 2026 02:20:03 +0100",
+        "num1": "E260103054",
+        "startzeit": "Sun, 25 Jan 2026 03:57:19 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "47.8115",
-          "lng": "13.7753"
+          "lat": "48.5312",
+          "lng": "14.2942"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Gallspach",
+          "earea": "Gallspach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Gallspach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 4,
+          "text": "Grieskirchen"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GR - Gallspach",
+        "einsatzsubtyp": {
+          "id": "ÜBERFLSCHADEN-TE",
+          "text": "Wasserschaden"
+        },
+        "einsatztyp": {
+          "id": "T0-ÜBERFL-GEB",
+          "text": "Wasserschaden"
+        },
+        "feuerwehren": {
+          "404103": {
+            "feuerwehr": "Feuerwehr/Florian Gallspach (37103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallspach (37103)",
+            "fwnr": 404103
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103053",
+        "startzeit": "Sun, 25 Jan 2026 03:35:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2057",
+          "lng": "13.8143"
         }
       }
     }
