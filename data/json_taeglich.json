@@ -1,7 +1,162 @@
 {
-  "cnt_einsaetze": 24,
-  "cnt_feuerwehren": 26,
+  "cnt_einsaetze": 27,
+  "cnt_feuerwehren": 31,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Hochburg-Ach",
+          "earea": "Hochburg-Ach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Hochburg-Ach",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "BR - Hochburg-Ach",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "40007": {
+            "feuerwehr": "Feuerwehr/Florian Burghausen (BRD)"
+          },
+          "400401": {
+            "feuerwehr": "Feuerwehr/Florian Ach an der Salzach (33401)"
+          },
+          "400408": {
+            "feuerwehr": "Feuerwehr/Florian Hochburg (33408)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Burghausen (BRD)",
+            "fwnr": 40007
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Ach an der Salzach (33401)",
+            "fwnr": 400401
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Hochburg (33408)",
+            "fwnr": 400408
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103191",
+        "startzeit": "Mon, 26 Jan 2026 15:59:38 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1475",
+          "lng": "12.8395"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Aurolzmünster",
+          "earea": "Aurolzmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Aurolzmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Aurolzmünster",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408105": {
+            "feuerwehr": "Feuerwehr/Florian Aurolzmünster (43105)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aurolzmünster (43105)",
+            "fwnr": 408105
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103190",
+        "startzeit": "Mon, 26 Jan 2026 15:51:50 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2502",
+          "lng": "13.4525"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Peter am Wimberg",
+          "earea": "St. Peter am Wimberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Peter am Wimberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - St. Peter am Wimberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409315": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Peter am Wimberg (44315)",
+            "fwnr": 409315
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103187",
+        "startzeit": "Mon, 26 Jan 2026 15:20:45 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5023",
+          "lng": "14.0719"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,10 +201,10 @@
             "fwnr": 402121
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 26 Jan 2026 15:43:00 +0100",
         "num1": "E260103182",
         "startzeit": "Mon, 26 Jan 2026 15:00:36 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.4114",
           "lng": "14.5046"
@@ -93,10 +248,10 @@
             "fwnr": 407213
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 26 Jan 2026 15:25:00 +0100",
         "num1": "E260103181",
         "startzeit": "Mon, 26 Jan 2026 14:58:14 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.285",
           "lng": "14.4201"
