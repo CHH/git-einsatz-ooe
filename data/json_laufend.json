@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 7,
+  "cnt_einsaetze": 6,
   "cnt_feuerwehren": 8,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Oswald bei Freistadt",
+          "earea": "St. Oswald bei Freistadt",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Oswald bei Freistadt",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - St. Oswald bei Freistadt",
+        "einsatzsubtyp": {
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "402118": {
+            "feuerwehr": "Feuerwehr/Florian Marreith (35118)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Marreith (35118)",
+            "fwnr": 402118
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103592",
+        "startzeit": "Thu, 29 Jan 2026 13:34:02 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5152",
+          "lng": "14.6266"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -52,53 +99,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Aurach am Hongar",
-          "earea": "Aurach am Hongar",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Aurach am Hongar",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "VB - Aurach am Hongar",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "413405": {
-            "feuerwehr": "Feuerwehr/Florian Aurach am Hongar (50405)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Aurach am Hongar (50405)",
-            "fwnr": 413405
-          }
-        },
-        "inzeit": "",
-        "num1": "E260103588",
-        "startzeit": "Thu, 29 Jan 2026 13:10:01 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9502",
-          "lng": "13.6698"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Kremsmünster",
           "earea": "Kremsmünster",
           "ecompl": "",
@@ -140,53 +140,6 @@
         "wgs84": {
           "lat": "48.0546",
           "lng": "14.1325"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Georgen bei Grieskirchen",
-          "earea": "St. Georgen bei Grieskirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Georgen bei Grieskirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "GR - St. Georgen bei Grieskirchen",
-        "einsatzsubtyp": {
-          "id": "FZGKLTBERGEN-TE",
-          "text": "Bergung Kleintransporter"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "404120": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Sankt Georgen bei Grieskirchen (37120)",
-            "fwnr": 404120
-          }
-        },
-        "inzeit": "",
-        "num1": "E260103582",
-        "startzeit": "Thu, 29 Jan 2026 13:03:16 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2137",
-          "lng": "13.7807"
         }
       }
     },
@@ -287,32 +240,35 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Weng im Innkreis",
-          "earea": "Weng im Innkreis",
+          "default": "Moosbach",
+          "earea": "Moosbach",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Weng im Innkreis",
+          "emun": "Moosbach",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 0,
           "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "BR - Weng im Innkreis",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Moosbach",
         "einsatzsubtyp": {
-          "id": "PERSLKW-VU",
-          "text": "Personenrettung Verkehrsunfall LKW"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "V1-PERS-LKW",
-          "text": "Personenrettung Verkehrsunfall LKW"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
           "400301": {
             "feuerwehr": "Feuerwehr/Florian Altheim (33301)"
+          },
+          "400310": {
+            "feuerwehr": "Feuerwehr/Florian Moosbach (33310)"
           },
           "400322": {
             "feuerwehr": "Feuerwehr/Florian Weng im Innkreis (33322)"
@@ -324,6 +280,10 @@
             "fwnr": 400301
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Moosbach (33310)",
+            "fwnr": 400310
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Weng im Innkreis (33322)",
             "fwnr": 400322
           }
@@ -333,8 +293,8 @@
         "startzeit": "Thu, 29 Jan 2026 07:24:55 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2345",
-          "lng": "13.1782"
+          "lat": "48.2068",
+          "lng": "13.1639"
         }
       }
     }
