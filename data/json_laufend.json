@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Aurolzmünster",
-          "earea": "Aurolzmünster",
+          "default": "Ried im Innkreis",
+          "earea": "Ried im Innkreis",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Aurolzmünster",
+          "emun": "Ried im Innkreis",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,34 +18,81 @@
           "text": "Ried im Innkreis"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - Aurolzmünster",
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Ried im Innkreis",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
         },
         "feuerwehren": {
-          "408123": {
-            "feuerwehr": "Feuerwehr/Florian Weierfing (43123)"
+          "408223": {
+            "feuerwehr": "Feuerwehr/Florian Ried im Innkreis (43223)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Weierfing (43123)",
-            "fwnr": 408123
+            "fwname": "Feuerwehr/Florian Ried im Innkreis (43223)",
+            "fwnr": 408223
           }
         },
         "inzeit": "",
-        "num1": "E260103595",
-        "startzeit": "Thu, 29 Jan 2026 13:48:35 +0100",
+        "num1": "E260103610",
+        "startzeit": "Thu, 29 Jan 2026 15:16:32 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2299",
-          "lng": "13.4618"
+          "lat": "48.2102",
+          "lng": "13.4825"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schildorn",
+          "earea": "Schildorn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schildorn",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RI - Schildorn",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "408227": {
+            "feuerwehr": "Feuerwehr/Florian Schildorn (43227)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schildorn (43227)",
+            "fwnr": 408227
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103609",
+        "startzeit": "Thu, 29 Jan 2026 15:11:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1469",
+          "lng": "13.4644"
         }
       }
     },
