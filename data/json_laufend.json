@@ -1,7 +1,54 @@
 {
   "cnt_einsaetze": 8,
-  "cnt_feuerwehren": 13,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Altmünster",
+          "earea": "Altmünster",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Altmünster",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "GM - Altmünster",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "403201": {
+            "feuerwehr": "Feuerwehr/Florian Altmünster (36201)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Altmünster (36201)",
+            "fwnr": 403201
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103516",
+        "startzeit": "Thu, 29 Jan 2026 06:58:42 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8949",
+          "lng": "13.7663"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "TEE",
         "einsatzort": "EF - Stroheim",
         "einsatzsubtyp": {
@@ -29,6 +76,9 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
           "401112": {
             "feuerwehr": "Feuerwehr/Florian Mayrhof-Reith (34112)"
           },
@@ -38,10 +88,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Mayrhof-Reith (34112)",
             "fwnr": 401112
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Stroheim (34120)",
             "fwnr": 401120
           }
@@ -363,53 +417,6 @@
         "wgs84": {
           "lat": "48.1475",
           "lng": "12.8395"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Traunkirchen",
-          "earea": "Traunkirchen",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Traunkirchen",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 3,
-          "text": "Gmunden"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GM - Traunkirchen",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "403224": {
-            "feuerwehr": "Feuerwehr/Florian Traunkirchen (36224)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Traunkirchen (36224)",
-            "fwnr": 403224
-          }
-        },
-        "inzeit": "",
-        "num1": "E260103445",
-        "startzeit": "Wed, 28 Jan 2026 17:31:35 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.8557",
-          "lng": "13.7805"
         }
       }
     }
