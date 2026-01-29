@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 10,
-  "cnt_feuerwehren": 17,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mettmach",
+          "earea": "Mettmach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mettmach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Mettmach",
+        "einsatzsubtyp": {
+          "id": "FZGKLBERGEN-TE",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "408116": {
+            "feuerwehr": "Feuerwehr/Florian Mettmach (43116)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mettmach (43116)",
+            "fwnr": 408116
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103529",
+        "startzeit": "Thu, 29 Jan 2026 07:49:51 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1681",
+          "lng": "13.3491"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Zell an der Pram",
+          "earea": "Zell an der Pram",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Zell an der Pram",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Zell an der Pram",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410203": {
+            "feuerwehr": "Feuerwehr/Florian Blümling (45203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Blümling (45203)",
+            "fwnr": 410203
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103527",
+        "startzeit": "Thu, 29 Jan 2026 07:43:59 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3139",
+          "lng": "13.5765"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -356,114 +450,6 @@
         "wgs84": {
           "lat": "47.9629",
           "lng": "13.7936"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Ort im Innkreis",
-          "earea": "Ort im Innkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Ort im Innkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 8,
-          "text": "Ried im Innkreis"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "RI - Ort im Innkreis",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "408301": {
-            "feuerwehr": "Feuerwehr/Florian Antiesenhofen (43301)"
-          },
-          "408313": {
-            "feuerwehr": "Feuerwehr/Florian Ort im Innkreis (43313)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Antiesenhofen (43301)",
-            "fwnr": 408301
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Ort im Innkreis (43313)",
-            "fwnr": 408313
-          }
-        },
-        "inzeit": "",
-        "num1": "E260103505",
-        "startzeit": "Thu, 29 Jan 2026 05:51:26 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3139",
-          "lng": "13.4351"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Pregarten",
-          "earea": "Pregarten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Pregarten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 2,
-          "text": "Freistadt"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "FR - Pregarten",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "402210": {
-            "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
-          },
-          "402211": {
-            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
-            "fwnr": 402210
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Tragwein (35211)",
-            "fwnr": 402211
-          }
-        },
-        "inzeit": "",
-        "num1": "E260103504",
-        "startzeit": "Thu, 29 Jan 2026 05:42:34 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.366",
-          "lng": "14.5498"
         }
       }
     },
