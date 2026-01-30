@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 2,
+  "cnt_einsaetze": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Pram",
-          "earea": "Pram",
+          "default": "Laakirchen",
+          "earea": "Laakirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Pram",
+          "emun": "Laakirchen",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
+          "id": 3,
+          "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Pram",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "GM - Laakirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
         },
         "feuerwehren": {
-          "404211": {
-            "feuerwehr": "Feuerwehr/Florian Pram (37211)"
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "403213": {
+            "feuerwehr": "Feuerwehr/Florian Lindach (36213)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Pram (37211)",
-            "fwnr": 404211
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lindach (36213)",
+            "fwnr": 403213
           }
         },
         "inzeit": "",
-        "num1": "E260103680",
-        "startzeit": "Fri, 30 Jan 2026 11:45:57 +0100",
+        "num1": "E260103686",
+        "startzeit": "Fri, 30 Jan 2026 12:15:10 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2327",
-          "lng": "13.6082"
+          "lat": "47.9989",
+          "lng": "13.8509"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Andorf",
+          "earea": "Andorf",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Andorf",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - Andorf",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "410202": {
+            "feuerwehr": "Feuerwehr/Florian Andorf (45202)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Andorf (45202)",
+            "fwnr": 410202
+          }
+        },
+        "inzeit": "",
+        "num1": "E260103684",
+        "startzeit": "Fri, 30 Jan 2026 12:12:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3708",
+          "lng": "13.5671"
         }
       }
     },
