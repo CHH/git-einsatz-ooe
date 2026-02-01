@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 10,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 14,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Pfarrkirchen im Mühlkreis",
+          "earea": "Pfarrkirchen im Mühlkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Pfarrkirchen im Mühlkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "RO - Pfarrkirchen im Mühlkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "409212": {
+            "feuerwehr": "Feuerwehr/Florian Pfarrkirchen im Mühlkreis (44212)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Pfarrkirchen im Mühlkreis (44212)",
+            "fwnr": 409212
+          }
+        },
+        "inzeit": "",
+        "num1": "E260200016",
+        "startzeit": "Sun, 01 Feb 2026 09:12:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5025",
+          "lng": "13.8279"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Georgen bei Obernberg am Inn",
+          "earea": "St. Georgen bei Obernberg am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Georgen bei Obernberg am Inn",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "RI - St. Georgen bei Obernberg am Inn",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "408312": {
+            "feuerwehr": "Feuerwehr/Florian Obernberg am Inn (43312)"
+          },
+          "408316": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Georgen bei Obernberg am Inn (43316)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Obernberg am Inn (43312)",
+            "fwnr": 408312
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Sankt Georgen bei Obernberg am Inn (43316)",
+            "fwnr": 408316
+          }
+        },
+        "inzeit": "",
+        "num1": "E260200015",
+        "startzeit": "Sun, 01 Feb 2026 09:08:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2934",
+          "lng": "13.3331"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -12,21 +113,21 @@
           "emun": "Pregarten",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 2,
           "text": "Freistadt"
         },
-        "cntfeuerwehren": 3,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 4,
+        "einsatzart": "TEE",
         "einsatzort": "FR - Pregarten",
         "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
           "402205": {
@@ -37,6 +138,9 @@
           },
           "402210": {
             "feuerwehr": "Feuerwehr/Florian Pregartsdorf (35210)"
+          },
+          "402211": {
+            "feuerwehr": "Feuerwehr/Florian Tragwein (35211)"
           }
         },
         "feuerwehrenarray": {
@@ -51,6 +155,10 @@
           "2": {
             "fwname": "Feuerwehr/Florian Pregartsdorf (35210)",
             "fwnr": 402210
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Tragwein (35211)",
+            "fwnr": 402211
           }
         },
         "inzeit": "",
