@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 4,
-  "cnt_feuerwehren": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Prambachkirchen",
+          "earea": "Prambachkirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Prambachkirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 1,
+          "text": "Eferding"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
+        "einsatzort": "EF - Prambachkirchen",
+        "einsatzsubtyp": {
+          "id": "VERDACHT-BR",
+          "text": "Brandverdacht"
+        },
+        "einsatztyp": {
+          "id": "B0-SONST-VERDACH",
+          "text": "Brandverdacht"
+        },
+        "feuerwehren": {
+          "401106": {
+            "feuerwehr": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)"
+          },
+          "401115": {
+            "feuerwehr": "Feuerwehr/Florian Prambachkirchen (34115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Gallsbach-Dachsberg (34106)",
+            "fwnr": 401106
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Prambachkirchen (34115)",
+            "fwnr": 401115
+          }
+        },
+        "inzeit": "",
+        "num1": "E260200053",
+        "startzeit": "Sun, 01 Feb 2026 16:56:32 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3116",
+          "lng": "13.9037"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": "48.1962",
           "lng": "13.1293"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Enns",
-          "earea": "Enns",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Enns",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 6,
-          "text": "Linz-Land"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "LL - Enns",
-        "einsatzsubtyp": {
-          "id": "ÖLSPUR-TE",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "einsatztyp": {
-          "id": "T0-ÖL-ÖLSPUR",
-          "text": "Ölspur/Ölaustritt"
-        },
-        "feuerwehren": {
-          "406102": {
-            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Enns (39102)",
-            "fwnr": 406102
-          }
-        },
-        "inzeit": "",
-        "num1": "E260200046",
-        "startzeit": "Sun, 01 Feb 2026 16:17:53 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.2178",
-          "lng": "14.4792"
         }
       }
     },
