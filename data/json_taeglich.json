@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 19,
-  "cnt_feuerwehren": 22,
+  "cnt_einsaetze": 20,
+  "cnt_feuerwehren": 26,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Regau",
+          "earea": "Regau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Regau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "VB - Regau",
+        "einsatzsubtyp": {
+          "id": "ÖLSPUR-TE",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "einsatztyp": {
+          "id": "T0-ÖL-ÖLSPUR",
+          "text": "Ölspur/Ölaustritt"
+        },
+        "feuerwehren": {
+          "413419": {
+            "feuerwehr": "Feuerwehr/Florian Regau (50419)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Regau (50419)",
+            "fwnr": 413419
+          }
+        },
+        "inzeit": "",
+        "num1": "E260200796",
+        "startzeit": "Sat, 07 Feb 2026 11:52:37 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9893",
+          "lng": "13.6896"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -106,12 +153,12 @@
           "emun": "Adlwang",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "2",
         "bezirk": {
           "id": 11,
           "text": "Steyr-Land"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 5,
         "einsatzart": "BRAND",
         "einsatzort": "SE - Adlwang",
         "einsatzsubtyp": {
@@ -128,6 +175,12 @@
           },
           "411101": {
             "feuerwehr": "Feuerwehr/Florian Adlwang (46101)"
+          },
+          "411107": {
+            "feuerwehr": "Feuerwehr/Florian Waldneukirchen (46107)"
+          },
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
           }
         },
         "feuerwehrenarray": {
@@ -138,6 +191,18 @@
           "1": {
             "fwname": "Feuerwehr/Florian Adlwang (46101)",
             "fwnr": 411101
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Waldneukirchen (46107)",
+            "fwnr": 411107
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
+            "fwnr": 415101
+          },
+          "4": {
+            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
+            "fwnr": 415101
           }
         },
         "inzeit": "",
@@ -342,10 +407,10 @@
             "fwnr": 414223
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 07 Feb 2026 11:48:00 +0100",
         "num1": "E260200784",
         "startzeit": "Sat, 07 Feb 2026 10:24:26 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1538",
           "lng": "14.031"
@@ -389,10 +454,10 @@
             "fwnr": 404128
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 07 Feb 2026 11:28:00 +0100",
         "num1": "E260200781",
         "startzeit": "Sat, 07 Feb 2026 09:48:56 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2509",
           "lng": "13.775"
@@ -483,10 +548,10 @@
             "fwnr": 407208
           }
         },
-        "inzeit": "",
+        "inzeit": "Sat, 07 Feb 2026 11:30:00 +0100",
         "num1": "E260200776",
         "startzeit": "Sat, 07 Feb 2026 08:59:20 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2735",
           "lng": "14.429"
