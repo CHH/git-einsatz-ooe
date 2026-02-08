@@ -1,15 +1,15 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Florian",
-          "earea": "St. Florian",
+          "default": "Hörsching",
+          "earea": "Hörsching",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Florian",
+          "emun": "Hörsching",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,34 +18,81 @@
           "text": "Linz-Land"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "BRAND",
-        "einsatzort": "LL - St. Florian",
+        "einsatzart": "SELBST",
+        "einsatzort": "LL - Hörsching",
         "einsatzsubtyp": {
-          "id": "BMA1-BR",
-          "text": "Brandmeldealarm"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "B0-BMA",
-          "text": "Brandmeldealarm"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "406110": {
-            "feuerwehr": "Feuerwehr/Florian Sankt Florian-Markt (39110)"
+          "406265": {
+            "feuerwehr": "Feuerwehr/Florian Flughafen Linz GmbH (39265)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Sankt Florian-Markt (39110)",
-            "fwnr": 406110
+            "fwname": "Feuerwehr/Florian Flughafen Linz GmbH (39265)",
+            "fwnr": 406265
           }
         },
         "inzeit": "",
-        "num1": "E260200935",
-        "startzeit": "Sun, 08 Feb 2026 17:45:15 +0100",
+        "num1": "E260200941",
+        "startzeit": "Sun, 08 Feb 2026 18:34:31 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.2045",
-          "lng": "14.3718"
+          "lat": "48.2394",
+          "lng": "14.1911"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Mauthausen",
+          "earea": "Mauthausen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Mauthausen",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 7,
+          "text": "Perg"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "PE - Mauthausen",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "407210": {
+            "feuerwehr": "Feuerwehr/Florian Mauthausen (42210)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Mauthausen (42210)",
+            "fwnr": 407210
+          }
+        },
+        "inzeit": "",
+        "num1": "E260200939",
+        "startzeit": "Sun, 08 Feb 2026 18:24:44 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2455",
+          "lng": "14.5042"
         }
       }
     },
