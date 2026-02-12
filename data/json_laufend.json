@@ -1,7 +1,61 @@
 {
   "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_feuerwehren": 4,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Bad Ischl",
+          "earea": "Bad Ischl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Bad Ischl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Bad Ischl",
+        "einsatzsubtyp": {
+          "id": "AUFRÄUM-VU",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "einsatztyp": {
+          "id": "V0-AUFRÄUM",
+          "text": "Verkehrsunfall Aufräumarbeiten"
+        },
+        "feuerwehren": {
+          "403102": {
+            "feuerwehr": "Feuerwehr/Florian Bad Ischl (36102)"
+          },
+          "403110": {
+            "feuerwehr": "Feuerwehr/Florian Mitterweißenbach (36110)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Bad Ischl (36102)",
+            "fwnr": 403102
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Mitterweißenbach (36110)",
+            "fwnr": 403110
+          }
+        },
+        "inzeit": "",
+        "num1": "E260201402",
+        "startzeit": "Thu, 12 Feb 2026 08:02:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.7403",
+          "lng": "13.661"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,53 +100,6 @@
         "wgs84": {
           "lat": null,
           "lng": null
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Katsdorf",
-          "earea": "Katsdorf",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Katsdorf",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 7,
-          "text": "Perg"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "PE - Katsdorf",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "407206": {
-            "feuerwehr": "Feuerwehr/Florian Katsdorf (42206)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Katsdorf (42206)",
-            "fwnr": 407206
-          }
-        },
-        "inzeit": "",
-        "num1": "E260201392",
-        "startzeit": "Thu, 12 Feb 2026 07:06:59 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3174",
-          "lng": "14.4801"
         }
       }
     },
