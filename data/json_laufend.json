@@ -1,51 +1,105 @@
 {
-  "cnt_einsaetze": 1,
-  "cnt_feuerwehren": 1,
+  "cnt_einsaetze": 2,
+  "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "St. Gotthard im Mühlkreis",
-          "earea": "St. Gotthard im Mühlkreis",
+          "default": "Waizenkirchen",
+          "earea": "Waizenkirchen",
           "ecompl": "",
           "efeanme": "",
-          "emun": "St. Gotthard im Mühlkreis",
+          "emun": "Waizenkirchen",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
+          "id": 4,
+          "text": "Grieskirchen"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - St. Gotthard im Mühlkreis",
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GR - Waizenkirchen",
         "einsatzsubtyp": {
-          "id": "KLEINTIERRETT-TE",
-          "text": "Rettung Kleintier"
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "einsatztyp": {
-          "id": "T0-TIER-RETTUNG",
-          "text": "Tierrettung"
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
         },
         "feuerwehren": {
-          "412220": {
-            "feuerwehr": "Feuerwehr/Florian Rottenegg (49220)"
+          "404320": {
+            "feuerwehr": "Feuerwehr/Florian Stillfüssing (37320)"
+          },
+          "404324": {
+            "feuerwehr": "Feuerwehr/Florian Waizenkirchen (37324)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Rottenegg (49220)",
-            "fwnr": 412220
+            "fwname": "Feuerwehr/Florian Stillfüssing (37320)",
+            "fwnr": 404320
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Waizenkirchen (37324)",
+            "fwnr": 404324
           }
         },
         "inzeit": "",
-        "num1": "E260201827",
-        "startzeit": "Sat, 14 Feb 2026 22:20:17 +0100",
+        "num1": "E260201831",
+        "startzeit": "Sat, 14 Feb 2026 23:42:26 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.3696",
-          "lng": "14.134"
+          "lat": "48.3102",
+          "lng": "13.8615"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Stefan-Afiesl",
+          "earea": "St. Stefan-Afiesl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Stefan-Afiesl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 9,
+          "text": "Rohrbach"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RO - St. Stefan-Afiesl",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "409401": {
+            "feuerwehr": "Feuerwehr/Florian Afiesl (44401)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Afiesl (44401)",
+            "fwnr": 409401
+          }
+        },
+        "inzeit": "",
+        "num1": "E260201830",
+        "startzeit": "Sat, 14 Feb 2026 23:42:47 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5818",
+          "lng": "14.1317"
         }
       }
     }
