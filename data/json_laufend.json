@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 3,
-  "cnt_feuerwehren": 3,
+  "cnt_einsaetze": 4,
+  "cnt_feuerwehren": 5,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Losenstein",
+          "earea": "Losenstein",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Losenstein",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Losenstein",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411307": {
+            "feuerwehr": "Feuerwehr/Florian Losenstein (46307)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Losenstein (46307)",
+            "fwnr": 411307
+          }
+        },
+        "inzeit": "",
+        "num1": "E260201868",
+        "startzeit": "Sun, 15 Feb 2026 12:02:11 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9212",
+          "lng": "14.4394"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Zwettl an der Rodl",
         "einsatzsubtyp": {
@@ -29,12 +76,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
           "412127": {
             "feuerwehr": "Feuerwehr/Florian Zwettl an der Rodl (49127)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Zwettl an der Rodl (49127)",
             "fwnr": 412127
           }
