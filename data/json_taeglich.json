@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 83,
-  "cnt_feuerwehren": 94,
+  "cnt_einsaetze": 84,
+  "cnt_feuerwehren": 95,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schardenberg",
+          "earea": "Schardenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schardenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - Schardenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410322": {
+            "feuerwehr": "Feuerwehr/Florian Schardenberg (45322)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schardenberg (45322)",
+            "fwnr": 410322
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202060",
+        "startzeit": "Mon, 16 Feb 2026 14:49:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.521",
+          "lng": "13.4987"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -1236,53 +1283,6 @@
     {
       "einsatz": {
         "adresse": {
-          "default": "Eidenberg",
-          "earea": "Eidenberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Eidenberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "UU - Eidenberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "412205": {
-            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Geng (49205)",
-            "fwnr": 412205
-          }
-        },
-        "inzeit": "Mon, 16 Feb 2026 11:35:00 +0100",
-        "num1": "E260202009",
-        "startzeit": "Mon, 16 Feb 2026 11:23:59 +0100",
-        "status": "abgeschlossen",
-        "wgs84": {
-          "lat": "48.426",
-          "lng": "14.2384"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
           "default": "Eggerding",
           "earea": "Eggerding",
           "ecompl": "",
@@ -1338,6 +1338,53 @@
         "wgs84": {
           "lat": "48.3419",
           "lng": "13.4408"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Eidenberg",
+          "earea": "Eidenberg",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Eidenberg",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 12,
+          "text": "Urfahr-Umgebung"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "UU - Eidenberg",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "412205": {
+            "feuerwehr": "Feuerwehr/Florian Geng (49205)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Geng (49205)",
+            "fwnr": 412205
+          }
+        },
+        "inzeit": "Mon, 16 Feb 2026 11:35:00 +0100",
+        "num1": "E260202009",
+        "startzeit": "Mon, 16 Feb 2026 11:23:59 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.426",
+          "lng": "14.2384"
         }
       }
     },
