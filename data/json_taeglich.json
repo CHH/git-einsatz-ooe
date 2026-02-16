@@ -1,7 +1,115 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 13,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Aegidi",
+          "earea": "St. Aegidi",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Aegidi",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 3,
+        "einsatzart": "PERSON",
+        "einsatzort": "SD - St. Aegidi",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "410107": {
+            "feuerwehr": "Feuerwehr/Florian Hackendorf (45107)"
+          },
+          "410110": {
+            "feuerwehr": "Feuerwehr/Florian Kopfing im Innkreis (45110)"
+          },
+          "410115": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Aegidi (45115)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hackendorf (45107)",
+            "fwnr": 410107
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Kopfing im Innkreis (45110)",
+            "fwnr": 410110
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Sankt Aegidi (45115)",
+            "fwnr": 410115
+          }
+        },
+        "inzeit": "",
+        "num1": "E260201924",
+        "startzeit": "Mon, 16 Feb 2026 06:01:08 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.4685",
+          "lng": "13.7058"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Allhaming",
+          "earea": "Allhaming",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Allhaming",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "LL - Allhaming",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "406302": {
+            "feuerwehr": "Feuerwehr/Florian Allhaming (39302)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Allhaming (39302)",
+            "fwnr": 406302
+          }
+        },
+        "inzeit": "",
+        "num1": "E260201923",
+        "startzeit": "Mon, 16 Feb 2026 05:58:22 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1533",
+          "lng": "14.1725"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -100,10 +208,10 @@
             "fwnr": 408121
           }
         },
-        "inzeit": "",
+        "inzeit": "Mon, 16 Feb 2026 06:20:00 +0100",
         "num1": "E260201921",
         "startzeit": "Mon, 16 Feb 2026 05:31:21 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.2298",
           "lng": "13.4996"
