@@ -1,7 +1,169 @@
 {
-  "cnt_einsaetze": 7,
-  "cnt_feuerwehren": 9,
+  "cnt_einsaetze": 9,
+  "cnt_feuerwehren": 15,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Zell am Moos",
+          "earea": "Zell am Moos",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Zell am Moos",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Zell am Moos",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413215": {
+            "feuerwehr": "Feuerwehr/Florian Zell am Moos (50215)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Zell am Moos (50215)",
+            "fwnr": 413215
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202092",
+        "startzeit": "Mon, 16 Feb 2026 18:57:06 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9002",
+          "lng": "13.3203"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Tiefgraben",
+          "earea": "Tiefgraben",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Tiefgraben",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Tiefgraben",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413203": {
+            "feuerwehr": "Feuerwehr/Florian Guggenberg (50203)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Guggenberg (50203)",
+            "fwnr": 413203
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202091",
+        "startzeit": "Mon, 16 Feb 2026 18:51:09 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.8822",
+          "lng": "13.3246"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Lenzing",
+          "earea": "Lenzing",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Lenzing",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 4,
+        "einsatzart": "PERSON",
+        "einsatzort": "VB - Lenzing",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "413405": {
+            "feuerwehr": "Feuerwehr/Florian Aurach am Hongar (50405)"
+          },
+          "413411": {
+            "feuerwehr": "Feuerwehr/Florian Lenzing (50411)"
+          },
+          "413420": {
+            "feuerwehr": "Feuerwehr/Florian Reibersdorf (50420)"
+          },
+          "413519": {
+            "feuerwehr": "Feuerwehr/Florian Schörfling am Attersee (50519)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Aurach am Hongar (50405)",
+            "fwnr": 413405
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Lenzing (50411)",
+            "fwnr": 413411
+          },
+          "2": {
+            "fwname": "Feuerwehr/Florian Reibersdorf (50420)",
+            "fwnr": 413420
+          },
+          "3": {
+            "fwname": "Feuerwehr/Florian Schörfling am Attersee (50519)",
+            "fwnr": 413519
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202089",
+        "startzeit": "Mon, 16 Feb 2026 18:45:52 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9626",
+          "lng": "13.6343"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -78,7 +240,7 @@
           "id": 12,
           "text": "Urfahr-Umgebung"
         },
-        "cntfeuerwehren": 1,
+        "cntfeuerwehren": 2,
         "einsatzart": "TEE",
         "einsatzort": "UU - Vorderweißenbach",
         "einsatzsubtyp": {
@@ -90,12 +252,19 @@
           "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "412103": {
+            "feuerwehr": "Feuerwehr/Florian Bad Leonfelden (49103)"
+          },
           "412122": {
             "feuerwehr": "Feuerwehr/Florian Vorderweißenbach (49122)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Bad Leonfelden (49103)",
+            "fwnr": 412103
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Vorderweißenbach (49122)",
             "fwnr": 412122
           }
@@ -248,53 +417,6 @@
         "wgs84": {
           "lat": "47.8848",
           "lng": "14.5495"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Steinbach an der Steyr",
-          "earea": "Steinbach an der Steyr",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Steinbach an der Steyr",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 5,
-          "text": "Kirchdorf"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "KI - Steinbach an der Steyr",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "405109": {
-            "feuerwehr": "Feuerwehr/Florian Steinbach an der Steyr (38109)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Steinbach an der Steyr (38109)",
-            "fwnr": 405109
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202079",
-        "startzeit": "Mon, 16 Feb 2026 17:32:03 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "47.9671",
-          "lng": "14.2591"
         }
       }
     },
