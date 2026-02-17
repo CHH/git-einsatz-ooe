@@ -1,7 +1,101 @@
 {
   "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 8,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Sandl",
+          "earea": "Sandl",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Sandl",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 2,
+          "text": "Freistadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "FR - Sandl",
+        "einsatzsubtyp": {
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
+        },
+        "feuerwehren": {
+          "402417": {
+            "feuerwehr": "Feuerwehr/Florian Sandl (35417)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sandl (35417)",
+            "fwnr": 402417
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202143",
+        "startzeit": "Tue, 17 Feb 2026 08:19:18 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.5601",
+          "lng": "14.647"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Maria Neustift",
+          "earea": "Maria Neustift",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Maria Neustift",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 11,
+          "text": "Steyr-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SE - Maria Neustift",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "411303": {
+            "feuerwehr": "Feuerwehr/Florian Hofberg (46303)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Hofberg (46303)",
+            "fwnr": 411303
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202140",
+        "startzeit": "Tue, 17 Feb 2026 08:07:16 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9027",
+          "lng": "14.6055"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -46,60 +140,6 @@
         "wgs84": {
           "lat": "48.2449",
           "lng": "14.6356"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schenkenfelden",
-          "earea": "Schenkenfelden",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schenkenfelden",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Schenkenfelden",
-        "einsatzsubtyp": {
-          "id": "FZGPKWBERGEN-TE",
-          "text": "Bergung PKW"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "412109": {
-            "feuerwehr": "Feuerwehr/Florian Königschlag (49109)"
-          },
-          "412117": {
-            "feuerwehr": "Feuerwehr/Florian Schenkenfelden (49117)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Königschlag (49109)",
-            "fwnr": 412109
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Schenkenfelden (49117)",
-            "fwnr": 412117
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202134",
-        "startzeit": "Tue, 17 Feb 2026 07:31:30 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.5234",
-          "lng": "14.3603"
         }
       }
     },
@@ -201,60 +241,6 @@
         "wgs84": {
           "lat": "48.3696",
           "lng": "14.134"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Wolfsegg am Hausruck",
-          "earea": "Wolfsegg am Hausruck",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Wolfsegg am Hausruck",
-          "estnum": ""
-        },
-        "alarmstufe": "1",
-        "bezirk": {
-          "id": 13,
-          "text": "Vöcklabruck"
-        },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
-        "einsatzort": "VB - Wolfsegg am Hausruck",
-        "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
-        },
-        "feuerwehren": {
-          "413307": {
-            "feuerwehr": "Feuerwehr/Florian Ottnang am Hausruck (50307)"
-          },
-          "413318": {
-            "feuerwehr": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Ottnang am Hausruck (50307)",
-            "fwnr": 413307
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Wolfsegg am Hausruck (50318)",
-            "fwnr": 413318
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202125",
-        "startzeit": "Tue, 17 Feb 2026 06:25:38 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.1102",
-          "lng": "13.6761"
         }
       }
     }
