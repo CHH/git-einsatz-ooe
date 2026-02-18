@@ -1,7 +1,101 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 8,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Georgen im Attergau",
+          "earea": "St. Georgen im Attergau",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Georgen im Attergau",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - St. Georgen im Attergau",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413511": {
+            "feuerwehr": "Feuerwehr/Florian Kogl (50511)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Kogl (50511)",
+            "fwnr": 413511
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202352",
+        "startzeit": "Wed, 18 Feb 2026 19:36:33 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9421",
+          "lng": "13.4682"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Schwand im Innkreis",
+          "earea": "Schwand im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Schwand im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 0,
+          "text": "Braunau"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Schwand im Innkreis",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "400112": {
+            "feuerwehr": "Feuerwehr/Florian Schwand im Innkreis (33112)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Schwand im Innkreis (33112)",
+            "fwnr": 400112
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202351",
+        "startzeit": "Wed, 18 Feb 2026 19:35:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1791",
+          "lng": "12.9656"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -153,29 +247,36 @@
           "emun": "Laakirchen",
           "estnum": ""
         },
-        "alarmstufe": "0",
+        "alarmstufe": "1",
         "bezirk": {
           "id": 3,
           "text": "Gmunden"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
+        "cntfeuerwehren": 2,
+        "einsatzart": "BRAND",
         "einsatzort": "GM - Laakirchen",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "INDUSTRIE-BR",
+          "text": "Brand Industrie"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "B1-GEB-INDUSTRIE",
+          "text": "Brand Industrie"
         },
         "feuerwehren": {
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
           "403262": {
             "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
             "fwnr": 403262
           }
