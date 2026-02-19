@@ -1,15 +1,156 @@
 {
-  "cnt_einsaetze": 6,
-  "cnt_feuerwehren": 6,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Franking",
-          "earea": "Franking",
+          "default": "Enns",
+          "earea": "Enns",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Franking",
+          "emun": "Enns",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 6,
+          "text": "Linz-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "BRAND",
+        "einsatzort": "LL - Enns",
+        "einsatzsubtyp": {
+          "id": "BMA1-BR",
+          "text": "Brandmeldealarm"
+        },
+        "einsatztyp": {
+          "id": "B0-BMA",
+          "text": "Brandmeldealarm"
+        },
+        "feuerwehren": {
+          "406102": {
+            "feuerwehr": "Feuerwehr/Florian Enns (39102)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Enns (39102)",
+            "fwnr": 406102
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202474",
+        "startzeit": "Thu, 19 Feb 2026 20:15:25 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.2178",
+          "lng": "14.4792"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Ungenach",
+          "earea": "Ungenach",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Ungenach",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 13,
+          "text": "Vöcklabruck"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "VB - Ungenach",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "413428": {
+            "feuerwehr": "Feuerwehr/Florian Ungenach (50428)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ungenach (50428)",
+            "fwnr": 413428
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202473",
+        "startzeit": "Thu, 19 Feb 2026 20:09:29 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0461",
+          "lng": "13.6121"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "St. Willibald",
+          "earea": "St. Willibald",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "St. Willibald",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 10,
+          "text": "Schärding"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SD - St. Willibald",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "410216": {
+            "feuerwehr": "Feuerwehr/Florian Sankt Willibald (45216)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Sankt Willibald (45216)",
+            "fwnr": 410216
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202472",
+        "startzeit": "Thu, 19 Feb 2026 19:55:46 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.3605",
+          "lng": "13.6898"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Braunau am Inn",
+          "earea": "Braunau am Inn",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Braunau am Inn",
           "estnum": ""
         },
         "alarmstufe": "0",
@@ -18,81 +159,34 @@
           "text": "Braunau"
         },
         "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "BR - Franking",
+        "einsatzart": "TEE",
+        "einsatzort": "BR - Braunau am Inn",
         "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
+          "id": "EINGELIFT-TE",
+          "text": "Eingeschlossene Person in Lift"
         },
         "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
+          "id": "T0-ÖFFNEN-LIFT",
+          "text": "Aufzugsdefekt"
         },
         "feuerwehren": {
-          "400404": {
-            "feuerwehr": "Feuerwehr/Florian Franking (33404)"
+          "400102": {
+            "feuerwehr": "Feuerwehr/Florian Braunau am Inn (33102)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Franking (33404)",
-            "fwnr": 400404
+            "fwname": "Feuerwehr/Florian Braunau am Inn (33102)",
+            "fwnr": 400102
           }
         },
         "inzeit": "",
-        "num1": "E260202467",
-        "startzeit": "Thu, 19 Feb 2026 19:26:50 +0100",
+        "num1": "E260202471",
+        "startzeit": "Thu, 19 Feb 2026 19:53:55 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.0515",
-          "lng": "12.9107"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Schlüßlberg",
-          "earea": "Schlüßlberg",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Schlüßlberg",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 4,
-          "text": "Grieskirchen"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "GR - Schlüßlberg",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "404122": {
-            "feuerwehr": "Feuerwehr/Florian Schlüßlberg (37122)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Schlüßlberg (37122)",
-            "fwnr": 404122
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202464",
-        "startzeit": "Thu, 19 Feb 2026 19:17:19 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.221",
-          "lng": "13.872"
+          "lat": "48.2557",
+          "lng": "13.0456"
         }
       }
     },
@@ -140,53 +234,6 @@
         "wgs84": {
           "lat": "48.3696",
           "lng": "14.134"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "St. Martin im Mühlkreis",
-          "earea": "St. Martin im Mühlkreis",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "St. Martin im Mühlkreis",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 9,
-          "text": "Rohrbach"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "SELBST",
-        "einsatzort": "RO - St. Martin im Mühlkreis",
-        "einsatzsubtyp": {
-          "id": "TETRA-SELBST",
-          "text": "Einsatz od. Einsatzübung"
-        },
-        "einsatztyp": {
-          "id": "SELBST",
-          "text": "Selbstständiger Einsatz"
-        },
-        "feuerwehren": {
-          "409312": {
-            "feuerwehr": "Feuerwehr/Florian Plöcking (44312)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Plöcking (44312)",
-            "fwnr": 409312
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202462",
-        "startzeit": "Thu, 19 Feb 2026 19:12:58 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.4364",
-          "lng": "14.0006"
         }
       }
     },
