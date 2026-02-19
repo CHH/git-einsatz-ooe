@@ -1,5 +1,5 @@
 {
-  "cnt_einsaetze": 4,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 4,
   "einsaetze": [
     {
@@ -17,24 +17,31 @@
           "id": 10,
           "text": "Schärding"
         },
-        "cntfeuerwehren": 1,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 2,
+        "einsatzart": "TEE",
         "einsatzort": "SD - Wernstein am Inn",
         "einsatzsubtyp": {
-          "id": "AUFRÄUM-VU",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "V0-AUFRÄUM",
-          "text": "Verkehrsunfall Aufräumarbeiten"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "410321": {
+            "feuerwehr": "Feuerwehr/Florian Schärding (45321)"
+          },
           "410327": {
             "feuerwehr": "Feuerwehr/Florian Wernstein am Inn (45327)"
           }
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Schärding (45321)",
+            "fwnr": 410321
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Wernstein am Inn (45327)",
             "fwnr": 410327
           }
@@ -93,53 +100,6 @@
         "wgs84": {
           "lat": "48.3188",
           "lng": "14.1755"
-        }
-      }
-    },
-    {
-      "einsatz": {
-        "adresse": {
-          "default": "Gramastetten",
-          "earea": "Gramastetten",
-          "ecompl": "",
-          "efeanme": "",
-          "emun": "Gramastetten",
-          "estnum": ""
-        },
-        "alarmstufe": "0",
-        "bezirk": {
-          "id": 12,
-          "text": "Urfahr-Umgebung"
-        },
-        "cntfeuerwehren": 1,
-        "einsatzart": "TEE",
-        "einsatzort": "UU - Gramastetten",
-        "einsatzsubtyp": {
-          "id": "FZGKLBBERGEN-TE",
-          "text": "Bergung Kleinbus"
-        },
-        "einsatztyp": {
-          "id": "T0-BERG-FZGKL",
-          "text": "Bergung Kleinfahrzeug"
-        },
-        "feuerwehren": {
-          "412207": {
-            "feuerwehr": "Feuerwehr/Florian Gramastetten (49207)"
-          }
-        },
-        "feuerwehrenarray": {
-          "0": {
-            "fwname": "Feuerwehr/Florian Gramastetten (49207)",
-            "fwnr": 412207
-          }
-        },
-        "inzeit": "",
-        "num1": "E260202477",
-        "startzeit": "Thu, 19 Feb 2026 20:46:08 +0100",
-        "status": "offen",
-        "wgs84": {
-          "lat": "48.3819",
-          "lng": "14.1932"
         }
       }
     },
