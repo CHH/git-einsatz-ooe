@@ -1,7 +1,54 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 7,
+  "cnt_einsaetze": 6,
+  "cnt_feuerwehren": 9,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Kirchheim im Innkreis",
+          "earea": "Kirchheim im Innkreis",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Kirchheim im Innkreis",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 8,
+          "text": "Ried im Innkreis"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "RI - Kirchheim im Innkreis",
+        "einsatzsubtyp": {
+          "id": "GROßLKWBERGEN-TE",
+          "text": "Bergung LKW"
+        },
+        "einsatztyp": {
+          "id": "T0-BERG-GROßFZG",
+          "text": "Bergung Großfahrzeug"
+        },
+        "feuerwehren": {
+          "408101": {
+            "feuerwehr": "Feuerwehr/Florian Ampfenham (43101)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Ampfenham (43101)",
+            "fwnr": 408101
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202495",
+        "startzeit": "Fri, 20 Feb 2026 02:46:39 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.1969",
+          "lng": "13.3763"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -17,7 +64,7 @@
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
+        "cntfeuerwehren": 3,
         "einsatzart": "BRAND",
         "einsatzort": "EF - Aschach an der Donau",
         "einsatzsubtyp": {
@@ -32,6 +79,9 @@
           "401102": {
             "feuerwehr": "Feuerwehr/Florian Aschach an der Donau (34102)"
           },
+          "401103": {
+            "feuerwehr": "Feuerwehr/Florian Eferding (34103)"
+          },
           "401109": {
             "feuerwehr": "Feuerwehr/Florian Hartkirchen (34109)"
           }
@@ -42,6 +92,10 @@
             "fwnr": 401102
           },
           "1": {
+            "fwname": "Feuerwehr/Florian Eferding (34103)",
+            "fwnr": 401103
+          },
+          "2": {
             "fwname": "Feuerwehr/Florian Hartkirchen (34109)",
             "fwnr": 401109
           }
@@ -140,10 +194,10 @@
             "fwnr": 409419
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Feb 2026 02:27:00 +0100",
         "num1": "E260202491",
         "startzeit": "Fri, 20 Feb 2026 01:07:22 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.5671",
           "lng": "13.9852"
@@ -187,10 +241,10 @@
             "fwnr": 406213
           }
         },
-        "inzeit": "",
+        "inzeit": "Fri, 20 Feb 2026 01:59:00 +0100",
         "num1": "E260202490",
         "startzeit": "Fri, 20 Feb 2026 01:01:10 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.1873",
           "lng": "14.2562"
