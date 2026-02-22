@@ -1,7 +1,108 @@
 {
-  "cnt_einsaetze": 5,
-  "cnt_feuerwehren": 5,
+  "cnt_einsaetze": 7,
+  "cnt_feuerwehren": 7,
   "einsaetze": [
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Steyr",
+          "earea": "Steyr",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Steyr",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 15,
+          "text": "Steyr-Stadt"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "SR - Steyr",
+        "einsatzsubtyp": {
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
+        },
+        "einsatztyp": {
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
+        },
+        "feuerwehren": {
+          "415101": {
+            "feuerwehr": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Steyr Zug 3 Gleink (47103)",
+            "fwnr": 415101
+          }
+        },
+        "inzeit": "Sun, 22 Feb 2026 08:57:00 +0100",
+        "num1": "E260202794",
+        "startzeit": "Sun, 22 Feb 2026 08:30:05 +0100",
+        "status": "abgeschlossen",
+        "wgs84": {
+          "lat": "48.0556",
+          "lng": "14.4157"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Laakirchen",
+          "earea": "Laakirchen",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Laakirchen",
+          "estnum": ""
+        },
+        "alarmstufe": "1",
+        "bezirk": {
+          "id": 3,
+          "text": "Gmunden"
+        },
+        "cntfeuerwehren": 2,
+        "einsatzart": "PERSON",
+        "einsatzort": "GM - Laakirchen",
+        "einsatzsubtyp": {
+          "id": "PERSPKW-VU",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "einsatztyp": {
+          "id": "V1-PERS-PKW",
+          "text": "Personenrettung Verkehrsunfall PKW"
+        },
+        "feuerwehren": {
+          "403211": {
+            "feuerwehr": "Feuerwehr/Florian Laakirchen (36211)"
+          },
+          "403262": {
+            "feuerwehr": "Feuerwehr/Florian Steyrermühl AG (36262)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Laakirchen (36211)",
+            "fwnr": 403211
+          },
+          "1": {
+            "fwname": "Feuerwehr/Florian Steyrermühl AG (36262)",
+            "fwnr": 403262
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202793",
+        "startzeit": "Sun, 22 Feb 2026 08:20:13 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "47.9819",
+          "lng": "13.8195"
+        }
+      }
+    },
     {
       "einsatz": {
         "adresse": {
@@ -133,10 +234,10 @@
             "fwnr": 403226
           }
         },
-        "inzeit": "",
+        "inzeit": "Sun, 22 Feb 2026 08:56:00 +0100",
         "num1": "E260202786",
         "startzeit": "Sun, 22 Feb 2026 06:53:26 +0100",
-        "status": "offen",
+        "status": "abgeschlossen",
         "wgs84": {
           "lat": "48.0101",
           "lng": "13.914"
