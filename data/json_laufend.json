@@ -1,55 +1,98 @@
 {
-  "cnt_einsaetze": 2,
+  "cnt_einsaetze": 3,
   "cnt_feuerwehren": 3,
   "einsaetze": [
     {
       "einsatz": {
         "adresse": {
-          "default": "Steyr",
-          "earea": "Steyr",
+          "default": "Geretsberg",
+          "earea": "Geretsberg",
           "ecompl": "",
           "efeanme": "",
-          "emun": "Steyr",
+          "emun": "Geretsberg",
           "estnum": ""
         },
         "alarmstufe": "0",
         "bezirk": {
-          "id": 15,
-          "text": "Steyr-Stadt"
+          "id": 0,
+          "text": "Braunau"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "TEE",
-        "einsatzort": "SR - Steyr",
+        "cntfeuerwehren": 1,
+        "einsatzart": "SELBST",
+        "einsatzort": "BR - Geretsberg",
         "einsatzsubtyp": {
-          "id": "EINGELIFT-TE",
-          "text": "Eingeschlossene Person in Lift"
+          "id": "TETRA-SELBST",
+          "text": "Einsatz od. Einsatzübung"
         },
         "einsatztyp": {
-          "id": "T0-ÖFFNEN-LIFT",
-          "text": "Aufzugsdefekt"
+          "id": "SELBST",
+          "text": "Selbstständiger Einsatz"
         },
         "feuerwehren": {
-          "415101": {
-            "feuerwehr": "Feuerwehr/Florian Steyr Zug Kommando (47108)"
+          "400405": {
+            "feuerwehr": "Feuerwehr/Florian Geretsberg (33405)"
           }
         },
         "feuerwehrenarray": {
           "0": {
-            "fwname": "Feuerwehr/Florian Steyr Technischer Zug (47106)",
-            "fwnr": 415101
-          },
-          "1": {
-            "fwname": "Feuerwehr/Florian Steyr Zug Kommando (47108)",
-            "fwnr": 415101
+            "fwname": "Feuerwehr/Florian Geretsberg (33405)",
+            "fwnr": 400405
           }
         },
         "inzeit": "",
-        "num1": "E260202856",
-        "startzeit": "Mon, 23 Feb 2026 07:20:08 +0100",
+        "num1": "E260202861",
+        "startzeit": "Mon, 23 Feb 2026 07:51:14 +0100",
         "status": "offen",
         "wgs84": {
-          "lat": "48.044",
-          "lng": "14.4147"
+          "lat": "48.0896",
+          "lng": "12.9354"
+        }
+      }
+    },
+    {
+      "einsatz": {
+        "adresse": {
+          "default": "Fischlham",
+          "earea": "Fischlham",
+          "ecompl": "",
+          "efeanme": "",
+          "emun": "Fischlham",
+          "estnum": ""
+        },
+        "alarmstufe": "0",
+        "bezirk": {
+          "id": 14,
+          "text": "Wels-Land"
+        },
+        "cntfeuerwehren": 1,
+        "einsatzart": "TEE",
+        "einsatzort": "WL - Fischlham",
+        "einsatzsubtyp": {
+          "id": "KLEINTIERRETT-TE",
+          "text": "Rettung Kleintier"
+        },
+        "einsatztyp": {
+          "id": "T0-TIER-RETTUNG",
+          "text": "Tierrettung"
+        },
+        "feuerwehren": {
+          "414206": {
+            "feuerwehr": "Feuerwehr/Florian Fischlham (51206)"
+          }
+        },
+        "feuerwehrenarray": {
+          "0": {
+            "fwname": "Feuerwehr/Florian Fischlham (51206)",
+            "fwnr": 414206
+          }
+        },
+        "inzeit": "",
+        "num1": "E260202859",
+        "startzeit": "Mon, 23 Feb 2026 07:49:27 +0100",
+        "status": "offen",
+        "wgs84": {
+          "lat": "48.0859",
+          "lng": "13.9489"
         }
       }
     },
