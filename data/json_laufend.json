@@ -1,6 +1,6 @@
 {
   "cnt_einsaetze": 2,
-  "cnt_feuerwehren": 5,
+  "cnt_feuerwehren": 6,
   "einsaetze": [
     {
       "einsatz": {
@@ -12,23 +12,26 @@
           "emun": "Fraham",
           "estnum": ""
         },
-        "alarmstufe": "1",
+        "alarmstufe": "0",
         "bezirk": {
           "id": 1,
           "text": "Eferding"
         },
-        "cntfeuerwehren": 2,
-        "einsatzart": "PERSON",
+        "cntfeuerwehren": 3,
+        "einsatzart": "TEE",
         "einsatzort": "EF - Fraham",
         "einsatzsubtyp": {
-          "id": "PERSPKW-VU",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "FZGPKWBERGEN-TE",
+          "text": "Bergung PKW"
         },
         "einsatztyp": {
-          "id": "V1-PERS-PKW",
-          "text": "Personenrettung Verkehrsunfall PKW"
+          "id": "T0-BERG-FZGKL",
+          "text": "Bergung Kleinfahrzeug"
         },
         "feuerwehren": {
+          "401101": {
+            "feuerwehr": "Feuerwehr/Florian Alkoven (34101)"
+          },
           "401105": {
             "feuerwehr": "Feuerwehr/Florian Fraham (EF) (34105)"
           },
@@ -38,10 +41,14 @@
         },
         "feuerwehrenarray": {
           "0": {
+            "fwname": "Feuerwehr/Florian Alkoven (34101)",
+            "fwnr": 401101
+          },
+          "1": {
             "fwname": "Feuerwehr/Florian Fraham (EF) (34105)",
             "fwnr": 401105
           },
-          "1": {
+          "2": {
             "fwname": "Feuerwehr/Florian Steinholz (34119)",
             "fwnr": 401119
           }
